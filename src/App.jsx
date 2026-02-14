@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 // ─── Wine Data: France Regions ───────────────────────────────────────────────
 const REGIONS = {
@@ -14,7 +14,6 @@ const REGIONS = {
     typicalStyle: "Left Bank: structured, tannic, blackcurrant, cedar. Right Bank: softer, plum, rounder tannins.",
     qualityLevels: ["Bordeaux AOC", "Bordeaux Supérieur", "Cru Bourgeois", "Cru Classé", "Premier Grand Cru Classé"],
     whyConnection: "Gravel soils on Left Bank drain well and retain heat → suits late-ripening Cabernet Sauvignon. Clay on Right Bank retains water → suits earlier-ripening Merlot.",
-    coords: { x: 145, y: 340 },
     color: "#722F37"
   },
   burgundy: {
@@ -29,7 +28,6 @@ const REGIONS = {
     typicalStyle: "Pinot Noir: red fruit, silky tannins, earthy complexity. Chardonnay: ranges from steely mineral (Chablis) to rich buttery (Meursault).",
     qualityLevels: ["Bourgogne AOC", "Village", "Premier Cru", "Grand Cru"],
     whyConnection: "Continental climate with cold winters limits to early-ripening varieties → Pinot Noir and Chardonnay thrive. Limestone soils add minerality and finesse.",
-    coords: { x: 255, y: 250 },
     color: "#8B1A1A"
   },
   rhoneNorth: {
@@ -44,7 +42,6 @@ const REGIONS = {
     typicalStyle: "Syrah: black pepper, dark fruit, floral, smoky. Ages beautifully. Viognier: aromatic, stone fruit, low acid.",
     qualityLevels: ["Côte-Rôtie", "Hermitage (top)", "Crozes-Hermitage (accessible)", "Saint-Joseph"],
     whyConnection: "Steep granite slopes = good drainage and sun exposure for Syrah. Mistral wind reduces rot risk. Co-fermentation with Viognier stabilises Syrah's colour.",
-    coords: { x: 265, y: 295 },
     color: "#4A0E0E"
   },
   rhoneSouth: {
@@ -59,7 +56,6 @@ const REGIONS = {
     typicalStyle: "Rich, warm, high alcohol. Red fruit, herbs (garrigue), spice. Generous and full-bodied.",
     qualityLevels: ["Côtes du Rhône", "Côtes du Rhône-Villages", "Gigondas", "Châteauneuf-du-Pape"],
     whyConnection: "Mediterranean heat → Grenache thrives (drought-tolerant, late-ripening). Galets radiate heat at night → extra ripening. Bush vines shade grapes from intense sun.",
-    coords: { x: 270, y: 345 },
     color: "#A0522D"
   },
   loire: {
@@ -74,7 +70,6 @@ const REGIONS = {
     typicalStyle: "Sauvignon Blanc: herbaceous, citrus, mineral. Chenin Blanc: apple, honey, quince (varies dry to sweet). Cabernet Franc: red fruit, pencil shavings, fresh.",
     qualityLevels: ["Muscadet Sèvre et Maine sur Lie", "Vouvray", "Sancerre", "Pouilly-Fumé"],
     whyConnection: "Cool climate preserves acidity → ideal for Chenin Blanc's versatility. Flint soils in Sancerre give Sauvignon Blanc its 'gunflint' minerality. River Loire moderates frost risk.",
-    coords: { x: 175, y: 260 },
     color: "#DAA520"
   },
   alsace: {
@@ -89,7 +84,6 @@ const REGIONS = {
     typicalStyle: "Riesling: dry, steely, citrus, petrol with age. Gewurztraminer: aromatic, lychee, rose, off-dry to sweet. Pinot Gris: rich, smoky, honeyed.",
     qualityLevels: ["Alsace AOC", "Alsace Grand Cru", "Vendange Tardive", "Sélection de Grains Nobles"],
     whyConnection: "Rain shadow of Vosges = dry conditions → aromatic grapes develop intense flavours without rot. Cool climate = high acidity balancing residual sugar in off-dry styles.",
-    coords: { x: 315, y: 195 },
     color: "#F0C75E"
   },
   champagne: {
@@ -104,7 +98,6 @@ const REGIONS = {
     typicalStyle: "Non-vintage: fresh, citrus, brioche, fine bubbles. Blanc de Blancs: elegant, citrus. Blanc de Noirs: fuller, red fruit. Rosé: red fruit, copper colour.",
     qualityLevels: ["Non-Vintage", "Vintage", "Prestige Cuvée", "Blanc de Blancs", "Blanc de Noirs"],
     whyConnection: "Chalk soil stores water (drought buffer) and radiates heat (aids ripening in marginal climate). High acid base wine is essential — secondary fermentation adds 1.5% ABV and CO2.",
-    coords: { x: 240, y: 150 },
     color: "#E8D5B7"
   },
   languedocRoussillon: {
@@ -119,7 +112,6 @@ const REGIONS = {
     typicalStyle: "Reds: ripe, warm, herbal (garrigue). Best sites rival Southern Rhône. Fortified: sweet, complex, oxidative.",
     qualityLevels: ["IGP Pays d'Oc", "Languedoc AOC", "Specific AOCs (Corbières, Minervois)", "Vin Doux Naturel"],
     whyConnection: "Mediterranean heat + old vines = concentrated, low-yield wines. Schist soils in Roussillon stress vines → complex Grenache for fortified wines.",
-    coords: { x: 210, y: 395 },
     color: "#6B3A2A"
   }
 };
@@ -245,44 +237,44 @@ const QUIZ_QUESTIONS = [
 ];
 
 // ─── France SVG Map Component ────────────────────────────────────────────────
-const FranceMap = ({ activeRegion, onRegionClick, highlightedRegion, quizMode }) => {
+const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
   const regionPaths = {
     champagne: {
-      d: "M230,120 Q240,110 260,115 L275,130 Q280,145 270,155 L250,160 Q235,155 228,145 Z",
-      label: { x: 250, y: 140 }
+      d: "M268,128 Q278,120 292,124 L304,135 Q308,148 300,158 L284,163 Q270,158 265,148 Z",
+      label: { x: 284, y: 144 }
     },
     alsace: {
-      d: "M300,155 Q310,148 320,155 L325,185 Q322,205 315,210 L305,208 Q298,195 297,175 Z",
-      label: { x: 312, y: 182 }
+      d: "M328,148 Q336,142 344,148 L347,178 Q345,198 338,204 L328,202 Q322,190 321,170 Z",
+      label: { x: 335, y: 176 }
     },
     burgundy: {
-      d: "M250,215 Q260,210 270,215 L275,245 Q278,265 270,280 L258,282 Q248,270 245,250 Z",
-      label: { x: 260, y: 250 }
+      d: "M278,210 Q288,204 298,210 L303,240 Q306,258 298,274 L286,276 Q276,264 273,244 Z",
+      label: { x: 288, y: 244 }
     },
     loire: {
-      d: "M130,230 Q150,218 180,222 L210,228 Q230,232 238,240 L235,258 Q220,265 195,262 L160,255 Q140,248 130,240 Z",
-      label: { x: 182, y: 244 }
+      d: "M162,232 Q182,220 210,224 L240,230 Q258,234 266,242 L263,258 Q248,265 225,262 L192,256 Q172,250 162,242 Z",
+      label: { x: 212, y: 244 }
     },
     bordeaux: {
-      d: "M115,310 Q125,295 145,298 L160,305 Q168,315 165,335 L158,355 Q148,368 135,365 L120,350 Q112,335 115,320 Z",
-      label: { x: 140, y: 333 }
+      d: "M148,316 Q158,300 176,304 L190,312 Q198,322 195,342 L188,360 Q178,372 166,370 L152,356 Q144,340 148,326 Z",
+      label: { x: 170, y: 338 }
     },
     rhoneNorth: {
-      d: "M262,285 Q270,280 278,285 L282,305 Q280,315 275,320 L265,318 Q258,308 260,295 Z",
-      label: { x: 272, y: 303 }
+      d: "M290,278 Q298,272 306,278 L310,300 Q308,312 303,318 L293,316 Q286,306 288,292 Z",
+      label: { x: 299, y: 298 }
     },
     rhoneSouth: {
-      d: "M255,325 Q268,318 285,322 L295,335 Q298,348 290,358 L270,362 Q255,355 250,342 Z",
-      label: { x: 273, y: 342 }
+      d: "M282,322 Q296,316 312,320 L322,334 Q325,346 318,356 L298,360 Q283,354 278,340 Z",
+      label: { x: 300, y: 340 }
     },
     languedocRoussillon: {
-      d: "M175,370 Q195,360 225,362 L255,368 Q270,372 275,380 L268,395 Q250,405 220,402 L190,395 Q175,388 173,378 Z",
-      label: { x: 222, y: 384 }
+      d: "M202,374 Q222,364 252,366 L282,372 Q298,376 303,384 L296,398 Q278,408 248,406 L218,400 Q202,392 200,382 Z",
+      label: { x: 250, y: 388 }
     }
   };
 
   return (
-    <svg viewBox="80 80 290 360" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox="100 55 310 390" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
       <defs>
         <filter id="glow">
           <feGaussianBlur stdDeviation="3" result="blur" />
@@ -300,29 +292,62 @@ const FranceMap = ({ activeRegion, onRegionClick, highlightedRegion, quizMode })
         </linearGradient>
       </defs>
 
-      {/* France outline - simplified */}
+      {/* France outline — geographically accurate hexagon shape */}
       <path
-        d="M200,95 Q260,88 300,110 L325,150 Q335,185 320,215 L310,250 Q305,280 295,310 L300,345 Q305,375 290,395 L275,410 Q250,425 220,415 L195,410 Q170,405 160,395 L145,375 Q130,370 120,355 L110,330 Q105,305 115,285 L108,260 Q100,240 110,220 L125,200 Q135,180 155,165 L170,145 Q180,125 195,110 Z"
+        d={`
+          M252,68
+          L268,66 Q288,65 305,72
+          L320,80 Q335,88 345,100
+          L352,112 Q358,125 356,140
+          L354,158 Q353,172 348,186
+          L342,200 Q336,212 332,226
+          L328,242 Q324,255 322,270
+          L320,288 Q318,302 320,316
+          L324,332 Q328,345 334,356
+          L340,368 Q344,378 340,388
+          L332,400 Q322,412 308,420
+          L292,428 Q276,432 260,430
+          L242,425 Q226,420 214,414
+          L200,406 Q186,400 176,392
+          L164,380 Q154,372 148,362
+          L140,346 Q134,330 132,316
+          L130,300 Q128,286 126,272
+          L122,258 Q118,244 118,230
+          L120,216 Q122,202 130,190
+          L140,178 Q150,168 162,160
+          L176,150 Q188,144 198,136
+          L212,124 Q226,114 238,104
+          L248,90 Q252,78 252,68
+          Z
+        `}
         fill="url(#franceFill)"
         stroke="#B8B0A0"
         strokeWidth="1.5"
         filter="url(#shadow)"
       />
 
+      {/* Corsica */}
+      <path
+        d="M376,368 Q380,362 384,366 L386,382 Q385,398 382,408 L378,412 Q374,406 373,394 L374,378 Z"
+        fill="url(#franceFill)"
+        stroke="#B8B0A0"
+        strokeWidth="1"
+        opacity="0.5"
+      />
+      <text x="392" y="392" fontSize="5" fill="#B8B0A0" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Corse</text>
+
       {/* Region shapes */}
       {Object.entries(regionPaths).map(([key, { d, label }]) => {
         const region = REGIONS[key];
         const isActive = activeRegion === key;
-        const isHighlighted = highlightedRegion === key;
-        const isQuizTarget = quizMode && highlightedRegion === key;
 
         return (
           <g key={key}>
             <path
               d={d}
-              fill={isActive ? region.color : isHighlighted ? region.color + "CC" : region.color + "55"}
-              stroke={isActive || isHighlighted ? region.color : "#8B7355"}
-              strokeWidth={isActive || isHighlighted ? 2.5 : 1}
+              fill={isActive ? region.color : region.color + "55"}
+              stroke={isActive ? region.color : "#8B7355"}
+              strokeWidth={isActive ? 2.5 : 1}
               style={{
                 cursor: "pointer",
                 transition: "all 0.3s ease",
@@ -330,10 +355,16 @@ const FranceMap = ({ activeRegion, onRegionClick, highlightedRegion, quizMode })
               }}
               onClick={() => onRegionClick(key)}
               onMouseEnter={(e) => {
-                if (!isActive) e.target.style.opacity = "0.85";
+                if (!isActive) {
+                  e.target.setAttribute("fill", region.color + "99");
+                  e.target.setAttribute("stroke-width", "1.5");
+                }
               }}
               onMouseLeave={(e) => {
-                e.target.style.opacity = "1";
+                if (!isActive) {
+                  e.target.setAttribute("fill", region.color + "55");
+                  e.target.setAttribute("stroke-width", "1");
+                }
               }}
             />
             {!quizMode && (
@@ -342,7 +373,7 @@ const FranceMap = ({ activeRegion, onRegionClick, highlightedRegion, quizMode })
                 y={label.y}
                 textAnchor="middle"
                 fill={isActive ? "#fff" : "#4A4A4A"}
-                fontSize="7"
+                fontSize="7.5"
                 fontFamily="'Cormorant Garamond', Georgia, serif"
                 fontWeight={isActive ? "700" : "400"}
                 style={{ pointerEvents: "none", textShadow: isActive ? "0 1px 2px rgba(0,0,0,0.5)" : "none" }}
@@ -355,12 +386,12 @@ const FranceMap = ({ activeRegion, onRegionClick, highlightedRegion, quizMode })
       })}
 
       {/* Rivers */}
-      <path d="M130,230 Q165,240 200,235 Q225,230 250,240" fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.5" strokeDasharray="3,2" />
-      <path d="M260,285 Q265,310 270,340 Q272,360 268,390" fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.5" strokeDasharray="3,2" />
+      <path d="M162,232 Q195,244 230,238 Q258,232 278,244" fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.4" strokeDasharray="3,2" />
+      <path d="M290,278 Q294,308 298,338 Q300,360 296,390" fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.4" strokeDasharray="3,2" />
 
       {/* River labels */}
-      <text x="185" y="228" fontSize="5" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Loire</text>
-      <text x="280" y="310" fontSize="5" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Rhône</text>
+      <text x="210" y="228" fontSize="5.5" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Loire</text>
+      <text x="308" y="306" fontSize="5.5" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Rhône</text>
     </svg>
   );
 };
@@ -460,7 +491,6 @@ const ExplorePanel = ({ region }) => {
 
   return (
     <div>
-      {/* Tabs */}
       <div style={{ display: "flex", gap: "4px", marginBottom: "16px" }}>
         {tabs.map(tab => (
           <button
@@ -597,7 +627,7 @@ const InfoCard = ({ label, value }) => (
 );
 
 // ─── Quiz Component ──────────────────────────────────────────────────────────
-const QuizMode = ({ onRegionClick, registerMapClick }) => {
+const QuizMode = ({ mapClick, clearMapClick }) => {
   const [currentQ, setCurrentQ] = useState(0);
   const [selected, setSelected] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -607,23 +637,18 @@ const QuizMode = ({ onRegionClick, registerMapClick }) => {
   const q = QUIZ_QUESTIONS[currentQ];
   const isMapQ = q.type === "map";
 
-  const handleMapClick = useCallback((regionKey) => {
-    if (showAnswer) return;
-    setMapAnswer(regionKey);
-    const correct = regionKey === q.answer;
-    setShowAnswer(true);
-    setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
-  }, [showAnswer, q.answer]);
-
-  // Register our map click handler with the parent
+  // Handle map clicks from parent
   useEffect(() => {
-    if (registerMapClick) {
-      registerMapClick(() => handleMapClick);
+    if (mapClick && isMapQ && !showAnswer) {
+      setMapAnswer(mapClick);
+      const correct = mapClick === q.answer;
+      setShowAnswer(true);
+      setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
+      clearMapClick();
+    } else if (mapClick) {
+      clearMapClick();
     }
-    return () => {
-      if (registerMapClick) registerMapClick(null);
-    };
-  }, [handleMapClick, registerMapClick]);
+  }, [mapClick]);
 
   const handleOptionSelect = (idx) => {
     if (showAnswer) return;
@@ -668,7 +693,8 @@ const QuizMode = ({ onRegionClick, registerMapClick }) => {
         </span>
         <button onClick={resetQuiz} style={{
           background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
-          padding: "4px 10px", borderRadius: "4px", fontSize: "11px", cursor: "pointer"
+          padding: "4px 10px", borderRadius: "4px", fontSize: "11px", cursor: "pointer",
+          transition: "all 0.15s"
         }}>Reset</button>
       </div>
 
@@ -703,8 +729,26 @@ const QuizMode = ({ onRegionClick, registerMapClick }) => {
       {/* Map question or multiple choice */}
       {isMapQ ? (
         <div style={{ marginBottom: "16px" }}>
-          <div style={{ fontSize: "11px", color: "#B8B0A0", marginBottom: "8px" }}>
-            {showAnswer ? (mapAnswer === q.answer ? "✓ Correct!" : `✗ The answer is ${REGIONS[q.answer].name}`) : "Click a region on the map above ↑"}
+          <div style={{
+            fontSize: "13px",
+            padding: "12px 16px",
+            borderRadius: "8px",
+            background: showAnswer
+              ? (mapAnswer === q.answer ? "#1a3a2a" : "#3a1a1a")
+              : "#1E1E1E",
+            border: showAnswer
+              ? (mapAnswer === q.answer ? "1px solid #4a7a4a" : "1px solid #7a4a4a")
+              : "1px solid #3a3530",
+            color: showAnswer
+              ? (mapAnswer === q.answer ? "#7BC47B" : "#C47B7B")
+              : "#B8B0A0"
+          }}>
+            {showAnswer
+              ? (mapAnswer === q.answer
+                ? `✓ Correct! ${REGIONS[q.answer].name}`
+                : `✗ You clicked ${REGIONS[mapAnswer]?.name || "unknown"}. The answer is ${REGIONS[q.answer].name}`)
+              : "👆 Click a region on the map above"
+            }
           </div>
         </div>
       ) : (
@@ -781,7 +825,7 @@ const QuizMode = ({ onRegionClick, registerMapClick }) => {
 export default function WsetStudyApp() {
   const [mode, setMode] = useState("explore");
   const [activeRegion, setActiveRegion] = useState("bordeaux");
-  const [quizMapClickHandler, setQuizMapClickHandler] = useState(null);
+  const [quizMapClick, setQuizMapClick] = useState(null);
 
   const modes = [
     { id: "explore", label: "Explore", icon: "🗺️" },
@@ -790,9 +834,9 @@ export default function WsetStudyApp() {
   ];
 
   const handleRegionClick = (key) => {
-    if (mode === "quiz" && quizMapClickHandler) {
-      quizMapClickHandler(key);
-    } else if (mode !== "quiz") {
+    if (mode === "quiz") {
+      setQuizMapClick(key);
+    } else {
       setActiveRegion(key);
     }
   };
@@ -838,7 +882,10 @@ export default function WsetStudyApp() {
         {modes.map(m => (
           <button
             key={m.id}
-            onClick={() => setMode(m.id)}
+            onClick={() => {
+              setMode(m.id);
+              setQuizMapClick(null);
+            }}
             style={{
               flex: 1,
               display: "flex",
@@ -878,7 +925,7 @@ export default function WsetStudyApp() {
         }}>
           <div style={{ width: "100%", maxWidth: "400px" }}>
             <FranceMap
-              activeRegion={activeRegion}
+              activeRegion={mode === "quiz" ? null : activeRegion}
               onRegionClick={handleRegionClick}
               quizMode={mode === "quiz"}
             />
@@ -915,7 +962,12 @@ export default function WsetStudyApp() {
         <div style={{ padding: "16px 20px 40px" }}>
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}
-          {mode === "quiz" && <QuizMode onRegionClick={handleRegionClick} registerMapClick={setQuizMapClickHandler} />}
+          {mode === "quiz" && (
+            <QuizMode
+              mapClick={quizMapClick}
+              clearMapClick={() => setQuizMapClick(null)}
+            />
+          )}
         </div>
       </div>
     </div>
