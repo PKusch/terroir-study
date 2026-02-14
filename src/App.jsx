@@ -597,7 +597,7 @@ const InfoCard = ({ label, value }) => (
 );
 
 // ─── Quiz Component ──────────────────────────────────────────────────────────
-const QuizMode = ({ onRegionClick }) => {
+const QuizMode = ({ onRegionClick, registerMapClick }) => {
   const [currentQ, setCurrentQ] = useState(0);
   const [selected, setSelected] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -607,13 +607,23 @@ const QuizMode = ({ onRegionClick }) => {
   const q = QUIZ_QUESTIONS[currentQ];
   const isMapQ = q.type === "map";
 
-  const handleMapClick = (regionKey) => {
+  const handleMapClick = useCallback((regionKey) => {
     if (showAnswer) return;
     setMapAnswer(regionKey);
     const correct = regionKey === q.answer;
     setShowAnswer(true);
     setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
-  };
+  }, [showAnswer, q.answer]);
+
+  // Register our map click handler with the parent
+  useEffect(() => {
+    if (registerMapClick) {
+      registerMapClick(() => handleMapClick);
+    }
+    return () => {
+      if (registerMapClick) registerMapClick(null);
+    };
+  }, [handleMapClick, registerMapClick]);
 
   const handleOptionSelect = (idx) => {
     if (showAnswer) return;
@@ -771,7 +781,7 @@ const QuizMode = ({ onRegionClick }) => {
 export default function WsetStudyApp() {
   const [mode, setMode] = useState("explore");
   const [activeRegion, setActiveRegion] = useState("bordeaux");
-  const [quizMapHandler, setQuizMapHandler] = useState(null);
+  const [quizMapClickHandler, setQuizMapClickHandler] = useState(null);
 
   const modes = [
     { id: "explore", label: "Explore", icon: "🗺️" },
@@ -780,9 +790,9 @@ export default function WsetStudyApp() {
   ];
 
   const handleRegionClick = (key) => {
-    if (mode === "quiz") {
-      // Quiz handles its own map clicks
-    } else {
+    if (mode === "quiz" && quizMapClickHandler) {
+      quizMapClickHandler(key);
+    } else if (mode !== "quiz") {
       setActiveRegion(key);
     }
   };
@@ -905,7 +915,7 @@ export default function WsetStudyApp() {
         <div style={{ padding: "16px 20px 40px" }}>
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}
-          {mode === "quiz" && <QuizMode onRegionClick={handleRegionClick} />}
+          {mode === "quiz" && <QuizMode onRegionClick={handleRegionClick} registerMapClick={setQuizMapClickHandler} />}
         </div>
       </div>
     </div>
