@@ -113,6 +113,48 @@ const REGIONS = {
     qualityLevels: ["IGP Pays d'Oc", "Languedoc AOC", "Specific AOCs (Corbières, Minervois)", "Vin Doux Naturel"],
     whyConnection: "Mediterranean heat + old vines = concentrated, low-yield wines. Schist soils in Roussillon stress vines → complex Grenache for fortified wines.",
     color: "#6B3A2A"
+  },
+  provence: {
+    name: "Provence",
+    climate: "Mediterranean",
+    climateDetail: "Hot, dry summers. Mistral wind. Strong sunshine. France's oldest wine region.",
+    keyGrapes: { red: ["Mourvèdre", "Grenache", "Syrah", "Cinsault"], white: ["Rolle (Vermentino)", "Clairette"] },
+    subRegions: ["Côtes de Provence", "Bandol", "Cassis", "Aix-en-Provence", "Les Baux-de-Provence"],
+    soils: "Limestone, clay, schist. Bandol: terraced limestone amphitheatre facing the sea.",
+    viticultureNotes: "Rosé dominates (88% of production). Bandol is the exception — serious, age-worthy reds from Mourvèdre (min 50% of blend). Bush vines common.",
+    winemaking: "Rosé: direct pressing or short maceration for pale colour. Bandol reds: min 18 months ageing in large oak. Quality rosé is serious winemaking — not simple.",
+    typicalStyle: "Rosé: pale, dry, delicate, red fruit and herbs. Bandol red: dark, structured, savoury, meaty — needs ageing. Bandol is Mourvèdre's spiritual home.",
+    qualityLevels: ["Côtes de Provence", "Coteaux d'Aix-en-Provence", "Bandol", "Cassis"],
+    whyConnection: "Mediterranean sun + Mistral wind = perfect for rosé (healthy grapes, early harvest for freshness). Bandol's sheltered limestone terraces are warm enough to fully ripen Mourvèdre, which needs more heat than Grenache.",
+    color: "#E8A0B0"
+  },
+  southWest: {
+    name: "South-West",
+    climate: "Continental to maritime",
+    climateDetail: "Inland = warmer, more continental than Bordeaux. Atlantic influence decreases moving east. Pyrenean foothills add altitude.",
+    keyGrapes: { red: ["Malbec (Côt)", "Tannat", "Négrette"], white: ["Gros Manseng", "Petit Manseng"] },
+    subRegions: ["Cahors", "Madiran", "Jurançon", "Bergerac", "Fronton", "Irouléguy"],
+    soils: "Cahors: limestone plateaux (causse) and gravel terraces. Madiran: clay-limestone. Jurançon: Pyrenean foothills.",
+    viticultureNotes: "Indigenous grape varieties distinguish this region from Bordeaux. Malbec originated here (not Argentina). Tannat is extremely tannic — needs careful handling.",
+    winemaking: "Cahors: Malbec min 70%. Historically 'black wine' — inky, tannic. Modern styles softer. Madiran: Tannat — micro-oxygenation invented here to tame tannins. Jurançon: late-harvest sweet whites from Petit Manseng.",
+    typicalStyle: "Cahors: dark, plummy, firm tannins — the original Malbec. Madiran: powerful, tannic, dark fruit. Jurançon sec: dry, aromatic. Jurançon moelleux: sweet, tropical, honeyed.",
+    qualityLevels: ["Bergerac", "Cahors", "Madiran", "Jurançon"],
+    whyConnection: "Continental climate inland = fully ripe, concentrated grapes. Malbec on limestone causse → deep colour, firm structure. Tannat's extreme tannins led to the invention of micro-oxygenation. Petit Manseng's thick skins resist botrytis and concentrate sugar for sweet wines.",
+    color: "#7B8B3A"
+  },
+  beaujolais: {
+    name: "Beaujolais",
+    climate: "Continental to Mediterranean transition",
+    climateDetail: "Warmer than Burgundy to the north. Sheltered from cold westerly winds. Southern influence.",
+    keyGrapes: { red: ["Gamay"], white: [] },
+    subRegions: ["Beaujolais", "Beaujolais-Villages", "Morgon", "Fleurie", "Moulin-à-Vent", "Brouilly", "Côte de Brouilly", "Chiroubles", "Juliénas", "Saint-Amour", "Chénas", "Régnié"],
+    soils: "Cru Beaujolais: granite. Southern Beaujolais: clay and limestone.",
+    viticultureNotes: "Gamay is the only grape. 10 Cru villages on granite hills produce the best wines. Beaujolais Nouveau is the simple, carbonic maceration style — but Cru Beaujolais is serious wine.",
+    winemaking: "Carbonic maceration (whole bunches, intracellular fermentation) gives fresh, fruity character. Cru wines may use traditional vinification and oak ageing for more structure.",
+    typicalStyle: "Beaujolais/Nouveau: light, fruity, banana, bubblegum. Cru Beaujolais (Morgon, Moulin-à-Vent): structured, earthy, can age 10+ years — rivals Burgundy Pinot Noir in complexity.",
+    qualityLevels: ["Beaujolais", "Beaujolais-Villages", "10 Cru Beaujolais (Morgon, Fleurie, Moulin-à-Vent etc.)"],
+    whyConnection: "Granite soils in Cru villages give Gamay minerality and structure it lacks on clay. Carbonic maceration extracts colour and fruit without harsh tannins — perfect for Gamay's thin-skinned, low-tannin character.",
+    color: "#9B59B6"
   }
 };
 
@@ -233,48 +275,202 @@ const QUIZ_QUESTIONS = [
     answer: 2,
     region: "loire",
     explanation: "The flinty/gunflint mineral character is classic Sancerre/Pouilly-Fumé, from silex (flint) and Kimmeridgian limestone soils. Herbaceous intensity points to Loire's cool climate."
+  },
+  {
+    type: "map",
+    question: "Which region produces 88% rosé and is home to Bandol — France's greatest Mourvèdre wines?",
+    answer: "provence",
+    explanation: "Provence is France's rosé capital. Bandol, on the Mediterranean coast, produces serious, age-worthy reds from Mourvèdre (minimum 50% of blend)."
+  },
+  {
+    type: "connection",
+    question: "Why was micro-oxygenation invented in Madiran (South-West)?",
+    options: [
+      "To increase alcohol levels in cool vintages",
+      "To tame Tannat's extremely aggressive tannins and make wines approachable younger",
+      "To prevent oxidation in barrel",
+      "To speed up malolactic conversion"
+    ],
+    answer: 1,
+    region: "southWest",
+    explanation: "Tannat is one of the most tannic grapes in the world. Micro-oxygenation was developed in Madiran in the 1990s to soften its harsh tannins without extended barrel ageing."
+  },
+  {
+    type: "connection",
+    question: "Why does Cru Beaujolais (Morgon, Moulin-à-Vent) taste so different from basic Beaujolais Nouveau?",
+    options: [
+      "They use different grape varieties",
+      "Cru villages have granite soils and use traditional vinification, while Nouveau uses carbonic maceration on clay",
+      "Nouveau is made from white grapes",
+      "Cru wines are blended with Burgundy Pinot Noir"
+    ],
+    answer: 1,
+    region: "beaujolais",
+    explanation: "Granite soils give Cru Beaujolais structure and minerality. Traditional vinification (not carbonic maceration) allows more tannin extraction, complexity, and ageing potential."
+  },
+  {
+    type: "scenario",
+    question: "A wine is described as 'inky black, with plum, violet, and firm tannins — the original Malbec before Argentina.' Where is it from?",
+    options: [
+      "Bordeaux Left Bank",
+      "Northern Rhône",
+      "Cahors (South-West)",
+      "Languedoc-Roussillon"
+    ],
+    answer: 2,
+    region: "southWest",
+    explanation: "Cahors is Malbec's birthplace. Historically called 'black wine' for its inky depth. The limestone causse plateaux produce firm, concentrated Malbec that predates Argentine plantings by centuries."
   }
 ];
 
+// ─── Geo projection helper ───────────────────────────────────────────────────
+// Maps real lat/lon to SVG coordinates. France spans ~-5°..9.5° lon, ~42°..51.5° lat
+// We map to a viewBox of 0,0 500,420
+const geoToSvg = (lon, lat) => {
+  const x = ((lon - (-5.5)) / (10 - (-5.5))) * 500;
+  const y = ((51.5 - lat) / (51.5 - 41.5)) * 420;
+  return [Math.round(x * 10) / 10, Math.round(y * 10) / 10];
+};
+
+const pt = (lon, lat) => { const [x, y] = geoToSvg(lon, lat); return `${x},${y}`; };
+
 // ─── France SVG Map Component ────────────────────────────────────────────────
 const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
+  // Wine region approximate bounding polygons (using real lat/lon)
   const regionPaths = {
     champagne: {
-      d: "M268,128 Q278,120 292,124 L304,135 Q308,148 300,158 L284,163 Q270,158 265,148 Z",
-      label: { x: 284, y: 144 }
+      d: `M${pt(3.2,49.8)} L${pt(4.4,49.8)} L${pt(4.5,49.0)} L${pt(4.0,48.5)} L${pt(3.3,48.6)} L${pt(3.0,49.2)} Z`,
+      label: geoToSvg(3.7, 49.15)
     },
     alsace: {
-      d: "M328,148 Q336,142 344,148 L347,178 Q345,198 338,204 L328,202 Q322,190 321,170 Z",
-      label: { x: 335, y: 176 }
+      d: `M${pt(7.0,48.9)} L${pt(7.8,48.9)} L${pt(7.8,47.9)} L${pt(7.3,47.5)} L${pt(6.9,47.7)} L${pt(6.9,48.4)} Z`,
+      label: geoToSvg(7.35, 48.2)
     },
     burgundy: {
-      d: "M278,210 Q288,204 298,210 L303,240 Q306,258 298,274 L286,276 Q276,264 273,244 Z",
-      label: { x: 288, y: 244 }
+      d: `M${pt(3.2,47.8)} L${pt(4.2,47.8)} L${pt(4.8,47.2)} L${pt(4.8,46.4)} L${pt(4.2,46.0)} L${pt(3.4,46.2)} L${pt(3.0,47.0)} Z`,
+      label: geoToSvg(3.9, 46.9)
     },
     loire: {
-      d: "M162,232 Q182,220 210,224 L240,230 Q258,234 266,242 L263,258 Q248,265 225,262 L192,256 Q172,250 162,242 Z",
-      label: { x: 212, y: 244 }
+      d: `M${pt(-1.8,47.6)} L${pt(0.0,47.8)} L${pt(1.5,47.5)} L${pt(2.8,47.3)} L${pt(2.8,47.0)} L${pt(1.5,47.0)} L${pt(0.0,47.2)} L${pt(-1.8,47.2)} Z`,
+      label: geoToSvg(0.5, 47.4)
     },
     bordeaux: {
-      d: "M148,316 Q158,300 176,304 L190,312 Q198,322 195,342 L188,360 Q178,372 166,370 L152,356 Q144,340 148,326 Z",
-      label: { x: 170, y: 338 }
+      d: `M${pt(-1.2,45.5)} L${pt(-0.2,45.5)} L${pt(0.0,44.8)} L${pt(-0.2,44.2)} L${pt(-0.8,44.2)} L${pt(-1.3,44.7)} Z`,
+      label: geoToSvg(-0.6, 44.85)
     },
     rhoneNorth: {
-      d: "M290,278 Q298,272 306,278 L310,300 Q308,312 303,318 L293,316 Q286,306 288,292 Z",
-      label: { x: 299, y: 298 }
+      d: `M${pt(4.5,45.7)} L${pt(5.0,45.7)} L${pt(5.0,44.9)} L${pt(4.7,44.7)} L${pt(4.4,44.8)} L${pt(4.3,45.3)} Z`,
+      label: geoToSvg(4.65, 45.2)
     },
     rhoneSouth: {
-      d: "M282,322 Q296,316 312,320 L322,334 Q325,346 318,356 L298,360 Q283,354 278,340 Z",
-      label: { x: 300, y: 340 }
+      d: `M${pt(4.2,44.6)} L${pt(5.1,44.6)} L${pt(5.2,43.9)} L${pt(4.8,43.6)} L${pt(4.1,43.8)} L${pt(4.0,44.2)} Z`,
+      label: geoToSvg(4.6, 44.1)
     },
     languedocRoussillon: {
-      d: "M202,374 Q222,364 252,366 L282,372 Q298,376 303,384 L296,398 Q278,408 248,406 L218,400 Q202,392 200,382 Z",
-      label: { x: 250, y: 388 }
+      d: `M${pt(1.8,43.7)} L${pt(3.2,43.7)} L${pt(3.9,43.4)} L${pt(3.5,42.8)} L${pt(2.5,42.5)} L${pt(1.6,42.8)} L${pt(1.5,43.3)} Z`,
+      label: geoToSvg(2.7, 43.2)
+    },
+    provence: {
+      d: `M${pt(5.2,43.9)} L${pt(6.2,43.9)} L${pt(7.0,43.6)} L${pt(6.8,43.2)} L${pt(5.8,43.1)} L${pt(5.0,43.3)} L${pt(4.9,43.6)} Z`,
+      label: geoToSvg(5.9, 43.5)
+    },
+    southWest: {
+      d: `M${pt(-0.2,44.2)} L${pt(0.8,44.3)} L${pt(1.5,43.8)} L${pt(1.5,43.2)} L${pt(0.5,42.9)} L${pt(-0.3,43.2)} L${pt(-0.8,43.8)} L${pt(-0.8,44.2)} Z`,
+      label: geoToSvg(0.4, 43.6)
+    },
+    beaujolais: {
+      d: `M${pt(4.3,46.3)} L${pt(4.9,46.3)} L${pt(4.9,45.8)} L${pt(4.5,45.7)} L${pt(4.2,45.9)} Z`,
+      label: geoToSvg(4.55, 46.05)
     }
   };
 
+  // France mainland outline traced from real geographic points
+  // Going clockwise from Dunkirk (north)
+  const franceOutline = [
+    // North coast (Dunkirk to Brittany tip)
+    [2.4, 51.05],   // Dunkirk
+    [1.6, 50.95],   // Calais
+    [1.5, 50.7],    // Boulogne
+    [1.4, 50.1],    // Somme estuary
+    [0.2, 49.7],    // Dieppe area
+    [0.1, 49.5],    // Le Havre
+    [-0.4, 49.7],   // Normandy coast
+    [-1.2, 49.7],   // Cherbourg peninsula
+    [-1.9, 48.85],  // Mont St Michel
+    [-2.0, 48.65],  // St Malo
+    [-3.0, 48.85],  // North Brittany
+    [-4.5, 48.7],   // Brest area
+    [-4.8, 48.4],   // Brittany tip
+    // West coast (Brittany to Spain)
+    [-4.3, 47.85],  // Quimper
+    [-3.5, 47.6],   // South Brittany
+    [-2.8, 47.3],   // Vannes
+    [-2.2, 47.1],   // St Nazaire
+    [-2.0, 46.7],   // Noirmoutier
+    [-1.5, 46.3],   // La Rochelle
+    [-1.2, 45.9],   // Royan
+    [-1.2, 45.5],   // Bordeaux coast
+    [-1.3, 44.6],   // Arcachon
+    [-1.2, 43.5],   // Biarritz
+    [-1.7, 43.35],  // Hendaye (Spanish border)
+    // Pyrenees (west to east)
+    [-0.7, 42.8],
+    [0.5, 42.7],
+    [1.5, 42.5],
+    [2.0, 42.45],
+    [3.0, 42.45],   // Perpignan
+    // Mediterranean coast
+    [3.1, 43.0],    // Narbonne
+    [3.5, 43.25],   // Béziers
+    [3.9, 43.4],    // Montpellier
+    [4.4, 43.4],    // Aigues-Mortes
+    [4.85, 43.35],  // Marseille area
+    [5.4, 43.25],   // Toulon
+    [6.2, 43.1],    // St Tropez
+    [6.6, 43.4],    // Cannes
+    [7.0, 43.55],   // Nice
+    [7.5, 43.78],   // Monaco / Menton
+    // Italian border north
+    [7.1, 44.2],
+    [6.7, 44.5],
+    [6.6, 45.1],
+    [7.0, 45.5],    // Mont Blanc area
+    [6.8, 46.15],   // Lake Geneva south
+    [6.15, 46.2],   // Geneva
+    // Swiss border
+    [6.0, 46.4],
+    [6.2, 46.9],
+    [6.8, 47.45],   // Basel area
+    [7.5, 47.6],    // Rhine
+    // German border
+    [7.6, 48.1],
+    [8.1, 48.95],   // Strasbourg
+    [7.5, 49.1],    // Wissembourg
+    // Luxembourg / Belgium border
+    [6.4, 49.45],
+    [5.8, 49.55],
+    [5.5, 49.5],
+    [4.8, 49.95],
+    [4.2, 49.95],
+    [3.5, 50.35],
+    [2.6, 50.95],
+    [2.4, 51.05],   // Back to Dunkirk
+  ];
+
+  const outlinePath = "M" + franceOutline.map(([lon, lat]) => pt(lon, lat)).join(" L") + " Z";
+
+  // Corsica outline
+  const corsica = [
+    [8.6, 42.95], [9.4, 43.0], [9.55, 42.5], [9.4, 41.4],
+    [9.15, 41.38], [8.8, 41.65], [8.55, 42.0], [8.55, 42.5], [8.6, 42.95]
+  ];
+  const corsicaPath = "M" + corsica.map(([lon, lat]) => pt(lon, lat)).join(" L") + " Z";
+
+  // Paris coordinates
+  const paris = geoToSvg(2.35, 48.86);
+
   return (
-    <svg viewBox="100 55 310 390" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox="0 0 500 420" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
       <defs>
         <filter id="glow">
           <feGaussianBlur stdDeviation="3" result="blur" />
@@ -292,49 +488,30 @@ const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
         </linearGradient>
       </defs>
 
-      {/* France outline — geographically accurate hexagon shape */}
+      {/* France mainland — real geographic outline */}
       <path
-        d={`
-          M252,68
-          L268,66 Q288,65 305,72
-          L320,80 Q335,88 345,100
-          L352,112 Q358,125 356,140
-          L354,158 Q353,172 348,186
-          L342,200 Q336,212 332,226
-          L328,242 Q324,255 322,270
-          L320,288 Q318,302 320,316
-          L324,332 Q328,345 334,356
-          L340,368 Q344,378 340,388
-          L332,400 Q322,412 308,420
-          L292,428 Q276,432 260,430
-          L242,425 Q226,420 214,414
-          L200,406 Q186,400 176,392
-          L164,380 Q154,372 148,362
-          L140,346 Q134,330 132,316
-          L130,300 Q128,286 126,272
-          L122,258 Q118,244 118,230
-          L120,216 Q122,202 130,190
-          L140,178 Q150,168 162,160
-          L176,150 Q188,144 198,136
-          L212,124 Q226,114 238,104
-          L248,90 Q252,78 252,68
-          Z
-        `}
+        d={outlinePath}
         fill="url(#franceFill)"
         stroke="#B8B0A0"
         strokeWidth="1.5"
+        strokeLinejoin="round"
         filter="url(#shadow)"
       />
 
       {/* Corsica */}
       <path
-        d="M376,368 Q380,362 384,366 L386,382 Q385,398 382,408 L378,412 Q374,406 373,394 L374,378 Z"
+        d={corsicaPath}
         fill="url(#franceFill)"
         stroke="#B8B0A0"
         strokeWidth="1"
+        strokeLinejoin="round"
         opacity="0.5"
       />
-      <text x="392" y="392" fontSize="5" fill="#B8B0A0" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Corse</text>
+      <text x={geoToSvg(9.8, 42.0)[0]} y={geoToSvg(9.8, 42.0)[1]} fontSize="7" fill="#B8B0A0" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Corse</text>
+
+      {/* Paris marker */}
+      <circle cx={paris[0]} cy={paris[1]} r="3.5" fill="#1a1a1a" stroke="#C4A962" strokeWidth="1.5" />
+      <text x={paris[0] + 7} y={paris[1] + 2} fontSize="8" fill="#8B7355" fontFamily="'Source Sans 3', sans-serif" fontWeight="500">Paris</text>
 
       {/* Region shapes */}
       {Object.entries(regionPaths).map(([key, { d, label }]) => {
@@ -348,6 +525,7 @@ const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
               fill={isActive ? region.color : region.color + "55"}
               stroke={isActive ? region.color : "#8B7355"}
               strokeWidth={isActive ? 2.5 : 1}
+              strokeLinejoin="round"
               style={{
                 cursor: "pointer",
                 transition: "all 0.3s ease",
@@ -369,11 +547,11 @@ const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
             />
             {!quizMode && (
               <text
-                x={label.x}
-                y={label.y}
+                x={label[0]}
+                y={label[1]}
                 textAnchor="middle"
                 fill={isActive ? "#fff" : "#4A4A4A"}
-                fontSize="7.5"
+                fontSize="8"
                 fontFamily="'Cormorant Garamond', Georgia, serif"
                 fontWeight={isActive ? "700" : "400"}
                 style={{ pointerEvents: "none", textShadow: isActive ? "0 1px 2px rgba(0,0,0,0.5)" : "none" }}
@@ -386,12 +564,12 @@ const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
       })}
 
       {/* Rivers */}
-      <path d="M162,232 Q195,244 230,238 Q258,232 278,244" fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.4" strokeDasharray="3,2" />
-      <path d="M290,278 Q294,308 298,338 Q300,360 296,390" fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.4" strokeDasharray="3,2" />
+      <path d={`M${pt(-1.8,47.3)} Q${pt(0,47.4)} ${pt(1.5,47.3)} Q${pt(3,47.2)} ${pt(4,47.3)}`} fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.4" strokeDasharray="3,2" />
+      <path d={`M${pt(4.8,46.2)} Q${pt(4.7,45.5)} ${pt(4.7,44.8)} Q${pt(4.7,44)} ${pt(4.5,43.4)}`} fill="none" stroke="#A8C4D4" strokeWidth="1.2" opacity="0.4" strokeDasharray="3,2" />
 
       {/* River labels */}
-      <text x="210" y="228" fontSize="5.5" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Loire</text>
-      <text x="308" y="306" fontSize="5.5" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Rhône</text>
+      <text x={geoToSvg(0.8, 47.55)[0]} y={geoToSvg(0.8, 47.55)[1]} fontSize="7" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Loire</text>
+      <text x={geoToSvg(5.1, 45.0)[0]} y={geoToSvg(5.1, 45.0)[1]} fontSize="7" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Rhône</text>
     </svg>
   );
 };
