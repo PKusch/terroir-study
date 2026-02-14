@@ -12,7 +12,7 @@ I'm studying for WSET Level 3 and discovered that every wine study app treats wi
 
 The existing tools fail because they:
 - Treat regions as isolated facts rather than connected systems
-- Lack visual/spatial context (maps, climate overlays, soil relationships)  
+- Lack visual/spatial context (maps, climate overlays, soil relationships)
 - Test recall instead of understanding
 - Scatter information across flashcards with no coherent mental model
 
@@ -33,15 +33,19 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ## Regions Covered
 
-France (WSET L3 exam-weighted):
-- Bordeaux (Left Bank / Right Bank)
-- Burgundy (Chablis through Mâconnais)
-- Northern Rhône (Côte-Rôtie, Hermitage, Cornas)
-- Southern Rhône (Châteauneuf-du-Pape, Gigondas)
-- Loire Valley (Muscadet, Vouvray, Sancerre)
-- Alsace
-- Champagne
-- Languedoc-Roussillon
+France (11 WSET L3 exam regions) with geographically accurate map, Paris as orientation marker, and major rivers:
+
+- **Bordeaux** — Left Bank / Right Bank, Cabernet Sauvignon & Merlot blends
+- **Burgundy** — Chablis through Mâconnais, Pinot Noir & Chardonnay terroir expression
+- **Northern Rhône** — Côte-Rôtie, Hermitage, Syrah on steep granite slopes
+- **Southern Rhône** — Châteauneuf-du-Pape, Grenache-based blends, galets
+- **Loire Valley** — Muscadet, Vouvray, Sancerre, Chenin Blanc versatility
+- **Alsace** — Riesling, Gewurztraminer, Vosges rain shadow
+- **Champagne** — Chalk soils, méthode traditionnelle, marginal climate
+- **Languedoc-Roussillon** — Bulk to quality revolution, Vin Doux Naturel
+- **Provence** — Rosé capital, Bandol Mourvèdre
+- **South-West** — Cahors Malbec, Madiran Tannat, micro-oxygenation origin
+- **Beaujolais** — Gamay, 10 Crus on granite, carbonic maceration
 
 *Italy, Spain, Germany, and New World regions coming next.*
 
@@ -49,7 +53,7 @@ France (WSET L3 exam-weighted):
 
 - **React 18** — Component-based UI with hooks
 - **Vite** — Fast build tooling
-- **SVG** — Custom interactive France map (hand-crafted, not a library)
+- **Custom SVG map** — Geographically projected from real lat/lon coordinates (not a library)
 - **GitHub Pages** — Automated deployment via GitHub Actions
 - **No external UI libraries** — All components built from scratch
 
@@ -68,10 +72,12 @@ npm run dev
 - [ ] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [ ] Germany (Mosel, Rheingau, Pfalz)
 - [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
+- [ ] Expand quiz bank to 50+ questions
 - [ ] Spaced repetition algorithm for quiz mode
 - [ ] Grape variety profiles with tasting descriptors
 - [ ] Systematic Approach to Tasting (SAT) practice mode
 - [ ] Progress tracking and weak-area identification
+- [ ] Sub-region drill-down maps (e.g. click Bordeaux → see Médoc, Saint-Émilion, Pomerol)
 
 ## About
 
