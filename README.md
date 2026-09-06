@@ -47,7 +47,7 @@ France (11 WSET L3 exam regions) with geographically accurate map, Paris as orie
 - **South-West** — Cahors Malbec, Madiran Tannat, micro-oxygenation origin
 - **Beaujolais** — Gamay, 10 Crus on granite, carbonic maceration
 
-*Italy, Spain, Germany, and New World regions coming next.*
+*France only, for now. Italy, Spain, Germany and the New World are on the roadmap below, not yet started.*
 
 ## Tech Stack
 
