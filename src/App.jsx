@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { REGIONS } from "./data/france.js";
+import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { FranceMap } from "./FranceMap.jsx";
+import { ItalyMap } from "./ItalyMap.jsx";
 import { ExplorePanel } from "./ExplorePanel.jsx";
 import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
@@ -8,8 +9,20 @@ import { QuizMode } from "./QuizMode.jsx";
 // ─── Main App ────────────────────────────────────────────────────────────────
 export default function WsetStudyApp() {
   const [mode, setMode] = useState("explore");
+  const [country, setCountry] = useState("France");
   const [activeRegion, setActiveRegion] = useState("bordeaux");
   const [quizMapClick, setQuizMapClick] = useState(null);
+
+  // The quiz is France-only, so quiz mode always shows the France map.
+  const DEFAULT_REGION = { France: "bordeaux", Italy: "piedmont" };
+  const mapCountry = mode === "quiz" ? "France" : country;
+  const CountryMap = mapCountry === "Italy" ? ItalyMap : FranceMap;
+
+  const handleCountryClick = (c) => {
+    if (c === country) return;
+    setCountry(c);
+    setActiveRegion(DEFAULT_REGION[c]);
+  };
 
   const modes = [
     { id: "explore", label: "Explore", icon: "🗺️" },
@@ -51,9 +64,34 @@ export default function WsetStudyApp() {
             Terroir <span style={{ color: "#C4A962" }}>Study</span>
           </div>
           <div style={{ fontSize: "10px", color: "#8B7355", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "2px" }}>
-            WSET Level 3 · France
+            WSET Level 3 · {mapCountry}
           </div>
         </div>
+        {mode !== "quiz" && (
+          <div style={{ display: "flex", gap: "4px" }}>
+            {Object.keys(COUNTRIES).map(c => (
+              <button
+                key={c}
+                onClick={() => handleCountryClick(c)}
+                style={{
+                  padding: "6px 12px",
+                  background: country === c ? "#C4A962" : "transparent",
+                  color: country === c ? "#1a1a1a" : "#8B7355",
+                  border: country === c ? "none" : "1px solid #2a2520",
+                  borderRadius: "6px",
+                  fontSize: "10px",
+                  fontWeight: country === c ? "600" : "400",
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                  cursor: "pointer",
+                  transition: "all 0.2s ease"
+                }}
+              >
+                {c}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* ── Mode Tabs ── */}
@@ -108,7 +146,7 @@ export default function WsetStudyApp() {
           justifyContent: "center"
         }}>
           <div style={{ width: "100%", maxWidth: "400px" }}>
-            <FranceMap
+            <CountryMap
               activeRegion={mode === "quiz" ? null : activeRegion}
               onRegionClick={handleRegionClick}
               quizMode={mode === "quiz"}

@@ -22,11 +22,11 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ### Three Study Modes
 
-**🗺️ Explore** — Click any region on the interactive France map. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
+**🗺️ Explore** — Click any region on the interactive map of France or Italy. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
 
 **🔗 Connect** — The core differentiator. For each region, see the full chain: Climate → Soil → Grapes → Winemaking → Style. Understand *why* Champagne uses chalk soils, *why* Alsace is dry despite being northerly, *why* Chenin Blanc can be made in every style.
 
-**✦ Quiz** — Three question types that test understanding, not just recall:
+**✦ Quiz** — Three question types that test understanding, not just recall (France only for now):
 - **Map questions** — "Click the region famous for galets"
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
@@ -47,7 +47,14 @@ France (11 WSET L3 exam regions) with geographically accurate map, Paris as orie
 - **South-West** — Cahors Malbec, Madiran Tannat, micro-oxygenation origin
 - **Beaujolais** — Gamay, 10 Crus on granite, carbonic maceration
 
-*France only, for now. Italy, Spain, Germany and the New World are on the roadmap below, not yet started.*
+Italy (4 WSET L3 exam areas) with its own map, Rome as orientation marker, the Po, and Sicily and Sardinia drawn in outline:
+
+- **Piedmont** — Nebbiolo in Barolo and Barbaresco, Barbera, Dolcetto, Moscato d'Asti, Gavi; fog, Alps and calcareous marl
+- **Tuscany** — Sangiovese from Chianti to Brunello, Bolgheri and the Super Tuscan story, galestro and alberese
+- **Veneto** — Corvina and appassimento (Valpolicella, Ripasso, Amarone, Recioto), Soave, Prosecco by the tank method
+- **Southern Italy** — Aglianico (Taurasi, Vulture), Fiano and Greco, Primitivo and Negroamaro, Etna and Marsala; heat moderated by altitude and sea
+
+*France and Italy are built. Spain, Germany and the New World are on the roadmap below, not yet started. The quiz covers France only.*
 
 ## Tech Stack
 
@@ -68,7 +75,7 @@ npm run dev
 
 ## Roadmap
 
-- [ ] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
+- [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
 - [ ] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [ ] Germany (Mosel, Rheingau, Pfalz)
 - [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)

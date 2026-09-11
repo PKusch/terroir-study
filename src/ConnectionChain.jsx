@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { REGIONS } from "./data/france.js";
+import { REGIONS } from "./data/regions.js";
 
 export const ConnectionChain = ({ region }) => {
   const r = REGIONS[region];
