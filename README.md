@@ -22,7 +22,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ### Three Study Modes
 
-**🗺️ Explore** — Click any region on the interactive map of France or Italy. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
+**🗺️ Explore** — Click any region on the interactive map of France, Italy or Germany. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
 
 **🔗 Connect** — The core differentiator. For each region, see the full chain: Climate → Soil → Grapes → Winemaking → Style. Understand *why* Champagne uses chalk soils, *why* Alsace is dry despite being northerly, *why* Chenin Blanc can be made in every style.
 
@@ -61,7 +61,13 @@ Spain (4 WSET L3 exam areas) with its own map, Madrid as orientation marker, the
 - **Priorat** — Old-vine Garnacha and Cariñena on licorella slate terraces; tiny yields, concentrated reds, DOQ status
 - **Sherry (Jerez)** — Palomino on albariza; Fino and Manzanilla under flor, Oloroso oxidative, Amontillado between, Pedro Ximénez sweet; the solera system
 
-*France, Italy and Spain are built. Germany and the New World are on the roadmap below, not yet started. The quiz covers France and Italy.*
+Germany (3 WSET L3 exam regions) with its own map, Berlin as orientation marker, the Rhine and the Mosel, and the neighbouring countries drawn faintly:
+
+- **Mosel** — Riesling on steep, south-facing slate above the river; cool, light, high-acid, off-dry to sweet; the Prädikat ladder from Kabinett to Trockenbeerenauslese and Eiswein
+- **Rheingau** — Riesling where the Rhine turns west; warmer and drier, fuller dry wines and VDP Grosses Gewächs; Spätburgunder at Assmannshausen; botrytis sweet wines
+- **Pfalz** — warm and dry in the rain shadow of the Haardt (the Vosges continued); riper dry Riesling, Grauburgunder, Weissburgunder, Spätburgunder, Dornfelder
+
+*France, Italy, Spain and Germany are built. The New World is on the roadmap below, not yet started. The quiz covers France and Italy.*
 
 ## Tech Stack
 
@@ -84,7 +90,7 @@ npm run dev
 
 - [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
-- [ ] Germany (Mosel, Rheingau, Pfalz)
+- [x] Germany (Mosel, Rheingau, Pfalz)
 - [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
 - [x] Expand quiz bank to 50+ questions (87: 63 France, 24 Italy)
 - [x] Spaced repetition algorithm for quiz mode

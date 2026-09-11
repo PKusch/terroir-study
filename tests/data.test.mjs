@@ -9,6 +9,8 @@ import { FRANCE_REGION_PATHS } from "../src/data/france-map.js";
 import { ITALY_REGION_PATHS } from "../src/data/italy-map.js";
 import { SPAIN_REGIONS } from "../src/data/spain.js";
 import { SPAIN_REGION_PATHS } from "../src/data/spain-map.js";
+import { GERMANY_REGIONS } from "../src/data/germany.js";
+import { GERMANY_REGION_PATHS } from "../src/data/germany-map.js";
 
 // The map, the region facts and the quiz are three files that have to agree.
 // These checks run before every build so a typo in a region key or an answer
@@ -64,8 +66,17 @@ test("the Spain map draws exactly the regions the data describes", () => {
   checkPaths(SPAIN_REGION_PATHS, SPAIN_REGIONS);
 });
 
+test("every German region has every field the panels read, and says it is German", () => {
+  checkRegions(GERMANY_REGIONS);
+  for (const [key, r] of Object.entries(GERMANY_REGIONS)) assert.equal(r.country, "Germany", `${key}.country`);
+});
+
+test("the Germany map draws exactly the regions the data describes", () => {
+  checkPaths(GERMANY_REGION_PATHS, GERMANY_REGIONS);
+});
+
 test("no region key or colour is shared between countries", () => {
-  const tables = [FRANCE_REGIONS, ITALY_REGIONS, SPAIN_REGIONS];
+  const tables = [FRANCE_REGIONS, ITALY_REGIONS, SPAIN_REGIONS, GERMANY_REGIONS];
   const keys = tables.flatMap((t) => Object.keys(t));
   assert.equal(new Set(keys).size, keys.length, "keys must be unique across countries: the panels read one merged table");
   const colours = tables.flatMap((t) => Object.values(t)).map((r) => r.color.toUpperCase());

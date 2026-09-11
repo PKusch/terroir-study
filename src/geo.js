@@ -31,3 +31,7 @@ export const ptItaly = italy.pt;
 const spain = makeProjection({ lonMin: -9.5, lonMax: 4.5, latMin: 35.8, latMax: 44.0 });
 export const geoToSvgSpain = spain.geoToSvg;
 export const ptSpain = spain.pt;
+// Germany spans ~5.5°..15.5° lon, ~47.0°..55.2° lat (the Alps to the Danish border)
+const germany = makeProjection({ lonMin: 5.5, lonMax: 15.5, latMin: 47.0, latMax: 55.2 });
+export const geoToSvgGermany = germany.geoToSvg;
+export const ptGermany = germany.pt;
