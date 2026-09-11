@@ -1,24 +1,47 @@
 import { useState, useEffect } from "react";
 import { REGIONS } from "./data/france.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
+import {
+  loadProgress,
+  saveProgress,
+  resetProgress,
+  recordAnswer,
+  pickNext,
+  progressSummary,
+  weakAreas
+} from "./progress.js";
+
+const byId = (id) => QUIZ_QUESTIONS.find((q) => q.id === id) ?? QUIZ_QUESTIONS[0];
 
 export const QuizMode = ({ mapClick, clearMapClick }) => {
-  const [currentQ, setCurrentQ] = useState(0);
+  // Progress across sessions lives in localStorage (see progress.js). The
+  // question order comes from it: unseen first, then the ones you got wrong.
+  const [progress, setProgress] = useState(() => loadProgress());
+  const [currentId, setCurrentId] = useState(() => pickNext(QUIZ_QUESTIONS, loadProgress(), null).id);
   const [selected, setSelected] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
   const [mapAnswer, setMapAnswer] = useState(null);
 
-  const q = QUIZ_QUESTIONS[currentQ];
+  const q = byId(currentId);
   const isMapQ = q.type === "map";
+
+  const summary = progressSummary(QUIZ_QUESTIONS, progress);
+  const weak = weakAreas(QUIZ_QUESTIONS, progress, REGIONS).slice(0, 4);
+
+  const recordResult = (correct) => {
+    setShowAnswer(true);
+    setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
+    const next = recordAnswer(progress, q.id, correct);
+    setProgress(next);
+    saveProgress(next);
+  };
 
   // Handle map clicks from parent
   useEffect(() => {
     if (mapClick && isMapQ && !showAnswer) {
       setMapAnswer(mapClick);
-      const correct = mapClick === q.answer;
-      setShowAnswer(true);
-      setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
+      recordResult(mapClick === q.answer);
       clearMapClick();
     } else if (mapClick) {
       clearMapClick();
@@ -28,24 +51,40 @@ export const QuizMode = ({ mapClick, clearMapClick }) => {
   const handleOptionSelect = (idx) => {
     if (showAnswer) return;
     setSelected(idx);
-    const correct = idx === q.answer;
-    setShowAnswer(true);
-    setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
+    recordResult(idx === q.answer);
+  };
+
+  const clearQuestion = () => {
+    setSelected(null);
+    setShowAnswer(false);
+    setMapAnswer(null);
   };
 
   const nextQuestion = () => {
-    setSelected(null);
-    setShowAnswer(false);
-    setMapAnswer(null);
-    setCurrentQ((currentQ + 1) % QUIZ_QUESTIONS.length);
+    clearQuestion();
+    setCurrentId(pickNext(QUIZ_QUESTIONS, progress, currentId).id);
   };
 
+  // "Reset" starts a fresh session score; what you have learned is kept.
   const resetQuiz = () => {
-    setCurrentQ(0);
-    setSelected(null);
-    setShowAnswer(false);
-    setMapAnswer(null);
+    clearQuestion();
     setScore({ correct: 0, total: 0 });
+    setCurrentId(pickNext(QUIZ_QUESTIONS, progress, currentId).id);
+  };
+
+  // "Clear progress" forgets everything ever answered, as well as the session.
+  const clearProgress = () => {
+    const empty = resetProgress();
+    setProgress(empty);
+    clearQuestion();
+    setScore({ correct: 0, total: 0 });
+    setCurrentId(pickNext(QUIZ_QUESTIONS, empty, currentId).id);
+  };
+
+  const quietButton = {
+    background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
+    padding: "4px 10px", borderRadius: "4px", fontSize: "11px", cursor: "pointer",
+    transition: "all 0.15s"
   };
 
   return (
@@ -55,22 +94,24 @@ export const QuizMode = ({ mapClick, clearMapClick }) => {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
+        gap: "8px",
+        flexWrap: "wrap",
         padding: "12px 16px",
         background: "#1E1E1E",
         borderRadius: "10px",
         marginBottom: "16px"
       }}>
         <span style={{ fontSize: "12px", color: "#B8B0A0" }}>
-          Question {currentQ + 1} / {QUIZ_QUESTIONS.length}
+          Answered {summary.answered} · {summary.unseen} not seen · {summary.due} due for review
         </span>
         <span style={{ fontSize: "12px", color: "#C4A962" }}>
           {score.correct} / {score.total} correct
         </span>
-        <button onClick={resetQuiz} style={{
-          background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
-          padding: "4px 10px", borderRadius: "4px", fontSize: "11px", cursor: "pointer",
-          transition: "all 0.15s"
-        }}>Reset</button>
+        <span style={{ display: "flex", gap: "6px" }}>
+          <button onClick={resetQuiz} style={quietButton}>Reset</button>
+          <button onClick={clearProgress} title="Forget every answer you have given so far"
+            style={{ ...quietButton, color: "#7a7268", borderColor: "#2a2620" }}>Clear progress</button>
+        </span>
       </div>
 
       {/* Question type badge */}
@@ -191,6 +232,31 @@ export const QuizMode = ({ mapClick, clearMapClick }) => {
         >
           Next Question →
         </button>
+      )}
+
+      {/* Weak areas: regions you have answered at least twice, weakest first */}
+      {weak.length > 0 && (
+        <div style={{
+          background: "#1E1E1E",
+          borderRadius: "10px",
+          padding: "12px 16px",
+          marginTop: "16px",
+          border: "1px solid #3a3530"
+        }}>
+          <div style={{ fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#C4A962", marginBottom: "8px" }}>
+            Weak areas
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+            {weak.map((w) => (
+              <div key={w.key} style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", lineHeight: "1.5" }}>
+                <span style={{ color: "#D5D0C4" }}>{w.name}</span>
+                <span style={{ color: w.accuracy < 0.5 ? "#C47B7B" : "#B8B0A0" }}>
+                  {w.correct} of {w.attempts} correct
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
       )}
     </div>
   );
