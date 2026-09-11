@@ -26,7 +26,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 **🔗 Connect** — The core differentiator. For each region, see the full chain: Climate → Soil → Grapes → Winemaking → Style. Understand *why* Champagne uses chalk soils, *why* Alsace is dry despite being northerly, *why* Chenin Blanc can be made in every style.
 
-**✦ Quiz** — Three question types that test understanding, not just recall (France only for now):
+**✦ Quiz** — Three question types that test understanding, not just recall. Questions cover France and Italy, and the map switches to the country of the question:
 - **Map questions** — "Click the region famous for galets"
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
@@ -61,7 +61,7 @@ Spain (4 WSET L3 exam areas) with its own map, Madrid as orientation marker, the
 - **Priorat** — Old-vine Garnacha and Cariñena on licorella slate terraces; tiny yields, concentrated reds, DOQ status
 - **Sherry (Jerez)** — Palomino on albariza; Fino and Manzanilla under flor, Oloroso oxidative, Amontillado between, Pedro Ximénez sweet; the solera system
 
-*France, Italy and Spain are built. Germany and the New World are on the roadmap below, not yet started. The quiz covers France only.*
+*France, Italy and Spain are built. Germany and the New World are on the roadmap below, not yet started. The quiz covers France and Italy.*
 
 ## Tech Stack
 
@@ -86,7 +86,7 @@ npm run dev
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [ ] Germany (Mosel, Rheingau, Pfalz)
 - [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (63)
+- [x] Expand quiz bank to 50+ questions (87: 63 France, 24 Italy)
 - [x] Spaced repetition algorithm for quiz mode
 - [ ] Grape variety profiles with tasting descriptors
 - [ ] Systematic Approach to Tasting (SAT) practice mode

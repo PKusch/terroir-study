@@ -756,5 +756,311 @@ export const QUIZ_QUESTIONS = [
     question: "Which region includes Pauillac, Margaux, Pomerol and Sauternes?",
     answer: "bordeaux",
     explanation: "Pauillac, Margaux, Saint-Julien and Saint-Estèphe are Left Bank villages in Bordeaux's Médoc. Pomerol and Saint-Émilion are on the Right Bank, and Sauternes and Pessac-Léognan are the other named sub-regions."
+  },
+  // ─── Italy ────────────────────────────────────────────────────────────────
+  // Every fact below comes from src/data/italy.js. French names appear only as distractors.
+  {
+    id: "it-01",
+    type: "map",
+    country: "Italy",
+    question: "Which region is home to Barolo and Barbaresco, where Nebbiolo ripens on the south-facing slopes of the Langhe?",
+    answer: "piedmont",
+    explanation: "Barolo and Barbaresco are in Piedmont, in the Langhe hills. Nebbiolo buds early and ripens late, so it takes the warmest south-facing sites and only a handful of hills ripen its tannins fully."
+  },
+  {
+    id: "it-02",
+    type: "map",
+    country: "Italy",
+    question: "Which region uses no IGT at all — its wines are DOC or DOCG — and makes Gavi from Cortese and Moscato d'Asti from Moscato Bianco?",
+    answer: "piedmont",
+    explanation: "Piedmont is the region with no IGT: its quality ladder runs from Piemonte DOC and Langhe DOC up to Barbaresco DOCG and Barolo DOCG. Gavi is its crisp, citrus white from Cortese, and Moscato d'Asti its sweet, lightly sparkling wine."
+  },
+  {
+    id: "it-03",
+    type: "connection",
+    country: "Italy",
+    question: "In the Langhe, Nebbiolo is given the warmest south-facing slopes while Dolcetto and Barbera take the cooler sites. Why?",
+    options: [
+      "Nebbiolo buds early and ripens late, so it needs the extra warmth to ripen its tannins",
+      "Nebbiolo is thin-skinned and burns on cooler, shadier slopes",
+      "Dolcetto and Barbera need the autumn fog to ripen properly",
+      "The south-facing slopes have the deepest, most fertile soils"
+    ],
+    answer: 0,
+    region: "piedmont",
+    explanation: "Nebbiolo ripens late, so only the warmest slopes ripen its high tannins before the season ends. Dolcetto ripens earliest and Barbera in between, so they can cope with the cooler slopes left over."
+  },
+  {
+    id: "it-04",
+    type: "connection",
+    country: "Italy",
+    question: "Nebbiolo is named after the autumn fog (nebbia) of the Langhe. What does the fog do for Barolo?",
+    options: [
+      "It shortens the season, so the grapes are picked early and stay light",
+      "It raises humidity and encourages noble rot, as in Sauternes",
+      "It cools the vineyards while the grapes hang late, so slow ripening keeps the high acidity that lets the wine age",
+      "It protects the early-budding vines from spring frost"
+    ],
+    answer: 2,
+    region: "piedmont",
+    explanation: "Nebbiolo hangs on the vine into the fog season. The fog cools the vineyards during those last weeks, so ripening is slow and the grapes keep their acidity — that acidity, with the high tannin, is what lets Barolo age for decades."
+  },
+  {
+    id: "it-05",
+    type: "scenario",
+    country: "Italy",
+    question: "A Barolo producer wants a softer, more approachable style that is ready to drink sooner than the traditional wine. Which approach fits?",
+    options: [
+      "Longer maceration and ageing in large old oak botti",
+      "Shorter maceration and ageing in new barriques",
+      "Stopping the fermentation early by chilling the tank",
+      "Blending in Barbera to add tannin and structure"
+    ],
+    answer: 1,
+    region: "piedmont",
+    explanation: "This is the modern Barolo approach: shorter maceration extracts less of Nebbiolo's harsh tannin, and new barriques soften what is left. The traditional method — long maceration and large old botti — makes wines that need years in bottle."
+  },
+  {
+    id: "it-06",
+    type: "scenario",
+    country: "Italy",
+    question: "A winemaker in Asti wants a sweet, grapey, lightly sparkling wine from Moscato Bianco with low alcohol. Which method does the region use?",
+    options: [
+      "Tank method with a full second fermentation, as for Prosecco",
+      "Traditional method with long lees ageing, as for Champagne",
+      "Drying the grapes on racks before fermentation (appassimento)",
+      "A single fermentation in tank, stopped early by chilling"
+    ],
+    answer: 3,
+    region: "piedmont",
+    explanation: "Asti and Moscato d'Asti use one fermentation in a sealed tank, stopped early by chilling. Because the yeast never finishes, the wine keeps its grape sugar and stays low in alcohol, and the trapped gas gives the light sparkle."
+  },
+  {
+    id: "it-07",
+    type: "map",
+    country: "Italy",
+    question: "Which region includes Chianti Classico, Brunello di Montalcino, Vino Nobile di Montepulciano and Bolgheri?",
+    answer: "tuscany",
+    explanation: "These are all Tuscan sub-regions. Chianti Classico, Brunello and Vino Nobile are Sangiovese country in the inland hills, and Bolgheri is the warm coastal strip where Cabernet Sauvignon and Merlot are grown."
+  },
+  {
+    id: "it-08",
+    type: "map",
+    country: "Italy",
+    question: "Which region's producers broke the DOC rules to make Bordeaux-style blends, sold as IGT and known as Super Tuscans?",
+    answer: "tuscany",
+    explanation: "The Super Tuscans are Bordeaux blends, or Sangiovese with Cabernet, from Tuscany. They did not fit the DOC rules, so they were sold as IGT Toscana; Bolgheri later got its own DOC for them."
+  },
+  {
+    id: "it-09",
+    type: "connection",
+    country: "Italy",
+    question: "Why is fine Sangiovese grown on the inland hills of Tuscany rather than on the warm coast at Bolgheri?",
+    options: [
+      "The coastal gravel and clay are too wet for Sangiovese's roots",
+      "Cool nights from altitude slow ripening and keep the acidity Sangiovese loses in heat",
+      "Sangiovese ripens early, so it would rot in the coastal humidity",
+      "Chianti DOCG rules do not allow vineyards near the sea"
+    ],
+    answer: 1,
+    region: "tuscany",
+    explanation: "Sangiovese ripens late and loses acidity when it is too hot. The inland hills give warm days to ripen its tannins and cool nights from altitude to keep its acid. The coast is too hot for it, which is why Bolgheri grows Cabernet Sauvignon and Merlot instead."
+  },
+  {
+    id: "it-10",
+    type: "connection",
+    country: "Italy",
+    question: "The Chianti hills are galestro (crumbly marl) and alberese (limestone). What do these soils give the wine?",
+    options: [
+      "Deep, fertile soils give high yields and light, simple wines",
+      "Volcanic soils give a smoky edge, as on Etna",
+      "Chalk soils give the high acidity needed for sparkling wine",
+      "Poor, well-drained soils give slow ripening, ripe tannin and bright acid"
+    ],
+    answer: 3,
+    region: "tuscany",
+    explanation: "Galestro and alberese are poor and drain well, so the vine works hard and ripens slowly. Together with the cool hillside nights, that gives Sangiovese ripe tannin and bright acidity rather than the high yields a fertile soil would produce."
+  },
+  {
+    id: "it-11",
+    type: "scenario",
+    country: "Italy",
+    question: "A Tuscan producer wants to make a plush, new-oak blend of Cabernet Sauvignon and Merlot. Under which label can it be sold?",
+    options: [
+      "Chianti Classico DOCG",
+      "Brunello di Montalcino DOCG",
+      "IGT Toscana or Bolgheri DOC",
+      "Vin Santo"
+    ],
+    answer: 2,
+    region: "tuscany",
+    explanation: "Chianti Classico must be mostly Sangiovese and Brunello di Montalcino is 100% Sangiovese, so a Cabernet–Merlot blend breaks both. That is the Super Tuscan story: these wines were sold as IGT Toscana, and Bolgheri later got its own DOC. Vin Santo is a sweet wine from dried grapes."
+  },
+  {
+    id: "it-12",
+    type: "scenario",
+    country: "Italy",
+    question: "A Tuscan estate wants to make Vin Santo. Which method is used?",
+    options: [
+      "Dry the grapes, then age the wine oxidatively in small sealed barrels",
+      "Stop the fermentation early by chilling, as for Moscato d'Asti",
+      "Fortify the wine with spirit, as for Marsala",
+      "Wait for noble rot on the vine, as in Sauternes"
+    ],
+    answer: 0,
+    region: "tuscany",
+    explanation: "Vin Santo is made from dried grapes, which concentrates the sugar, and is then aged oxidatively in small sealed barrels. Marsala is the fortified wine of the south, and chilling to stop fermentation belongs to Asti, not Tuscany."
+  },
+  {
+    id: "it-13",
+    type: "map",
+    country: "Italy",
+    question: "Which region makes Amarone, Ripasso and Recioto from dried Corvina grapes in Valpolicella?",
+    answer: "veneto",
+    explanation: "Valpolicella is in the Veneto. Corvina makes light wines on its own, so the region dries the grapes (appassimento) and one grape gives four wines: Valpolicella, Ripasso, Amarone and Recioto."
+  },
+  {
+    id: "it-14",
+    type: "map",
+    country: "Italy",
+    question: "Which region makes Prosecco from Glera on the steep Conegliano–Valdobbiadene hills, and Soave from Garganega?",
+    answer: "veneto",
+    explanation: "Both are Veneto wines. Conegliano Valdobbiadene Prosecco Superiore DOCG is the hand-picked hillside top of the Prosecco ladder, and Soave Classico comes from the volcanic and limestone hills."
+  },
+  {
+    id: "it-15",
+    type: "connection",
+    country: "Italy",
+    question: "Why is appassimento — drying the grapes on racks — so central to Valpolicella?",
+    options: [
+      "Corvina rots easily on the vine, so the bunches must be dried to save them",
+      "Corvina makes light wines on its own, and drying concentrates its sugar and flavour",
+      "The plain is too cold to ripen the grapes fully in the vineyard",
+      "The DOC rules require every Valpolicella wine to be made from dried grapes"
+    ],
+    answer: 1,
+    region: "veneto",
+    explanation: "Corvina on its own gives a light, sour-cherry red. Drying healthy bunches for months lets the water leave while sugar and flavour stay, so the same grape can make full-bodied Amarone and sweet Recioto. Plain Valpolicella is made from fresh grapes."
+  },
+  {
+    id: "it-16",
+    type: "connection",
+    country: "Italy",
+    question: "Why is Prosecco made by the tank method rather than the traditional method used in Champagne?",
+    options: [
+      "Glera's firm tannins need the shorter process to soften",
+      "The tank method gives higher pressure and firmer bubbles",
+      "It keeps Glera's fresh apple and pear aromas, with no lees character, and gets the wine to market quickly",
+      "Glera is machine-picked, and machine-picked grapes cannot be bottle-fermented"
+    ],
+    answer: 2,
+    region: "veneto",
+    explanation: "Prosecco is meant to taste of Glera's fresh fruit and flowers. The tank method keeps those aromas, avoids the bready lees character of long bottle ageing, and gives soft bubbles in a wine that is quick to sell."
+  },
+  {
+    id: "it-17",
+    type: "scenario",
+    country: "Italy",
+    question: "A Valpolicella producer has a light, sour-cherry red and wants more body without drying another batch of grapes. Which technique fits?",
+    options: [
+      "Ripasso: re-ferment the young wine on the skins left over from Amarone",
+      "Stop the fermentation early to keep some sugar, as for Recioto",
+      "Blend in Pinot Grigio for extra weight",
+      "Age the wine for five years in new barriques"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Ripasso passes young Valpolicella over the Amarone skins, which still carry sugar and flavour, so a second fermentation adds body. Stopping fermentation early is how Recioto is made sweet, and Pinot Grigio is a light, neutral white."
+  },
+  {
+    id: "it-18",
+    type: "scenario",
+    country: "Italy",
+    question: "A Soave producer wants a mineral, long-lived wine rather than a simple one. Where and how should the grapes be grown?",
+    options: [
+      "On the deep alluvial soils of the plain, at high yields",
+      "In flat, machine-worked vineyards, then made by the tank method",
+      "By drying the Garganega and fermenting it sweet",
+      "In the hillside Classico zone, on volcanic and limestone soils, with pergola training"
+    ],
+    answer: 3,
+    region: "veneto",
+    explanation: "Soave Classico comes from the volcanic (basalt) and limestone hills, which keep it mineral and able to age. Pergola training shades the fruit and keeps air moving. The fertile plain gives volume and simpler wines."
+  },
+  {
+    id: "it-19",
+    type: "map",
+    country: "Italy",
+    question: "Which region includes Taurasi, Aglianico del Vulture, Primitivo di Manduria and Etna?",
+    answer: "southernItaly",
+    explanation: "Taurasi is in Campania, Aglianico del Vulture in Basilicata, Primitivo di Manduria in Puglia and Etna in Sicily — all grouped here as Southern Italy. Heat is the given, and altitude or sea breezes decide the style."
+  },
+  {
+    id: "it-20",
+    type: "map",
+    country: "Italy",
+    question: "Which region grows Nerello Mascalese on high terraces of black volcanic ash, and makes fortified Marsala?",
+    answer: "southernItaly",
+    explanation: "Both are Sicilian, so they belong to Southern Italy. Etna's old bush vines sit on lava and ash at altitude, and Marsala is the fortified wine, aged oxidatively and graded by age and colour."
+  },
+  {
+    id: "it-21",
+    type: "connection",
+    country: "Italy",
+    question: "Why does Etna Nerello Mascalese taste pale, high in acid and Pinot Noir-like, rather than ripe and jammy like most southern reds?",
+    options: [
+      "Nerello Mascalese is naturally low in sugar, whatever the site",
+      "Sea breezes off the coast keep the vineyards cool",
+      "Altitude on Etna gives cool nights, so the grapes keep high acid and fine tannin",
+      "The volcanic soil lowers the alcohol in the finished wine"
+    ],
+    answer: 2,
+    region: "southernItaly",
+    explanation: "Etna's terraces are high, so nights are cool and Nerello Mascalese ripens late and slowly. That keeps acid and fine tannin in grapes that would be jammy on the hot plain, while the free-draining volcanic ash adds a smoky edge."
+  },
+  {
+    id: "it-22",
+    type: "connection",
+    country: "Italy",
+    question: "Why does Aglianico succeed in the hills of Campania and Basilicata?",
+    options: [
+      "It ripens early, like Primitivo, so it escapes the summer heat",
+      "It needs a cool, damp autumn to keep its acidity",
+      "It has low acidity, so the heat does it no harm",
+      "It buds early and ripens very late, and only the long, dry southern autumn lets it finish"
+    ],
+    answer: 3,
+    region: "southernItaly",
+    explanation: "Aglianico is one of the latest-ripening grapes, so it needs a long autumn with no rain. The hills give altitude to moderate the heat while the southern climate stays dry, and the result is a full, high-acid, high-tannin wine — the 'Barolo of the South'."
+  },
+  {
+    id: "it-23",
+    type: "scenario",
+    country: "Italy",
+    question: "A Puglian grower wants ripe Primitivo without sunburnt fruit on the hot, flat plain. Which vineyard choice helps?",
+    options: [
+      "Bush vines (alberello), whose leaves shade the fruit from the sun",
+      "A high trellis that exposes the bunches to full sun",
+      "Planting the most fertile part of the plain for higher yields",
+      "Picking very late to build as much sugar as possible"
+    ],
+    answer: 0,
+    region: "southernItaly",
+    explanation: "Puglia has neither altitude nor much shelter, so the bush vine's own canopy is the protection. Bush vines and sea breezes keep Primitivo and Negroamaro from sunburn; Primitivo already ripens early, so a late pick would only add jam and alcohol."
+  },
+  {
+    id: "it-24",
+    type: "scenario",
+    country: "Italy",
+    question: "A producer of Taurasi finds the young Aglianico harsh and tannic. What does the DOCG expect to be done before release?",
+    options: [
+      "Blend in Primitivo to soften the wine",
+      "Extended ageing in oak and bottle, which softens the tannin",
+      "Dry the grapes first, as for Amarone",
+      "Fortify the wine, as for Marsala"
+    ],
+    answer: 1,
+    region: "southernItaly",
+    explanation: "Taurasi and Aglianico del Vulture require extended ageing in oak and bottle before release. Time is what softens Aglianico's high tannin, in the same way that Barolo needs its years before it is sold."
   }
 ];
