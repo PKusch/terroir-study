@@ -54,7 +54,14 @@ Italy (4 WSET L3 exam areas) with its own map, Rome as orientation marker, the P
 - **Veneto** — Corvina and appassimento (Valpolicella, Ripasso, Amarone, Recioto), Soave, Prosecco by the tank method
 - **Southern Italy** — Aglianico (Taurasi, Vulture), Fiano and Greco, Primitivo and Negroamaro, Etna and Marsala; heat moderated by altitude and sea
 
-*France and Italy are built. Spain, Germany and the New World are on the roadmap below, not yet started. The quiz covers France only.*
+Spain (4 WSET L3 exam areas) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
+
+- **Rioja** — Tempranillo blends across Rioja Alta, Alavesa and Oriental; the Cantabrian shield, clay-limestone, and the Crianza–Reserva–Gran Reserva oak ladder
+- **Ribera del Duero** — Tempranillo (Tinto Fino) at altitude on the Duero plateau; hot days, cold nights, frost, and darker, firmer wines than Rioja
+- **Priorat** — Old-vine Garnacha and Cariñena on licorella slate terraces; tiny yields, concentrated reds, DOQ status
+- **Sherry (Jerez)** — Palomino on albariza; Fino and Manzanilla under flor, Oloroso oxidative, Amontillado between, Pedro Ximénez sweet; the solera system
+
+*France, Italy and Spain are built. Germany and the New World are on the roadmap below, not yet started. The quiz covers France only.*
 
 ## Tech Stack
 
@@ -76,7 +83,7 @@ npm run dev
 ## Roadmap
 
 - [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
-- [ ] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
+- [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [ ] Germany (Mosel, Rheingau, Pfalz)
 - [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
 - [x] Expand quiz bank to 50+ questions (63)

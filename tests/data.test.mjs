@@ -7,6 +7,8 @@ import { ITALY_REGIONS } from "../src/data/italy.js";
 import { QUIZ_QUESTIONS } from "../src/data/quiz.js";
 import { FRANCE_REGION_PATHS } from "../src/data/france-map.js";
 import { ITALY_REGION_PATHS } from "../src/data/italy-map.js";
+import { SPAIN_REGIONS } from "../src/data/spain.js";
+import { SPAIN_REGION_PATHS } from "../src/data/spain-map.js";
 
 // The map, the region facts and the quiz are three files that have to agree.
 // These checks run before every build so a typo in a region key or an answer
@@ -53,10 +55,20 @@ test("the Italy map draws exactly the regions the data describes", () => {
   checkPaths(ITALY_REGION_PATHS, ITALY_REGIONS);
 });
 
-test("no region key is shared between France and Italy", () => {
-  const shared = Object.keys(FRANCE_REGIONS).filter((k) => k in ITALY_REGIONS);
-  assert.deepEqual(shared, [], "keys must be unique across countries: the panels read one merged table");
-  const colours = [...Object.values(FRANCE_REGIONS), ...Object.values(ITALY_REGIONS)].map((r) => r.color.toUpperCase());
+test("every Spanish region has every field the panels read, and says it is Spanish", () => {
+  checkRegions(SPAIN_REGIONS);
+  for (const [key, r] of Object.entries(SPAIN_REGIONS)) assert.equal(r.country, "Spain", `${key}.country`);
+});
+
+test("the Spain map draws exactly the regions the data describes", () => {
+  checkPaths(SPAIN_REGION_PATHS, SPAIN_REGIONS);
+});
+
+test("no region key or colour is shared between countries", () => {
+  const tables = [FRANCE_REGIONS, ITALY_REGIONS, SPAIN_REGIONS];
+  const keys = tables.flatMap((t) => Object.keys(t));
+  assert.equal(new Set(keys).size, keys.length, "keys must be unique across countries: the panels read one merged table");
+  const colours = tables.flatMap((t) => Object.values(t)).map((r) => r.color.toUpperCase());
   assert.equal(new Set(colours).size, colours.length, "every region needs its own colour");
 });
 

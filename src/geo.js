@@ -26,3 +26,8 @@ export const makeProjection = ({ lonMin, lonMax, latMin, latMax, width = 500, he
 const italy = makeProjection({ lonMin: 6.5, lonMax: 18.8, latMin: 36.5, latMax: 47.2 });
 export const geoToSvgItaly = italy.geoToSvg;
 export const ptItaly = italy.pt;
+
+// Spain spans ~-9.5°..4.5° lon, ~35.8°..44.0° lat (Cape Finisterre to Cap de Creus, Bay of Biscay to Tarifa)
+const spain = makeProjection({ lonMin: -9.5, lonMax: 4.5, latMin: 35.8, latMax: 44.0 });
+export const geoToSvgSpain = spain.geoToSvg;
+export const ptSpain = spain.pt;
