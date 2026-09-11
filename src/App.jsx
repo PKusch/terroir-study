@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
-import { FranceMap } from "./FranceMap.jsx";
-import { ItalyMap } from "./ItalyMap.jsx";
+import { MAPS } from "./maps.jsx";
 import { ExplorePanel } from "./ExplorePanel.jsx";
 import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
@@ -14,14 +13,13 @@ export default function WsetStudyApp() {
   const [quizMapClick, setQuizMapClick] = useState(null);
 
   // The quiz is France-only, so quiz mode always shows the France map.
-  const DEFAULT_REGION = { France: "bordeaux", Italy: "piedmont" };
   const mapCountry = mode === "quiz" ? "France" : country;
-  const CountryMap = mapCountry === "Italy" ? ItalyMap : FranceMap;
+  const CountryMap = MAPS[mapCountry];
 
   const handleCountryClick = (c) => {
     if (c === country) return;
     setCountry(c);
-    setActiveRegion(DEFAULT_REGION[c]);
+    setActiveRegion(COUNTRIES[c][0]);
   };
 
   const modes = [

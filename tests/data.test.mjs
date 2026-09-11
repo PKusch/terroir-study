@@ -77,3 +77,12 @@ test("every quiz question is answerable and points at a real region", () => {
     }
   }
 });
+
+test("every country in the region table has a map, and every map a country", async () => {
+  // maps.jsx is JSX, so read it as text rather than importing it here.
+  const { readFileSync } = await import("node:fs");
+  const src = readFileSync(new URL("../src/maps.jsx", import.meta.url), "utf8");
+  const { COUNTRIES } = await import("../src/data/regions.js");
+  const listed = [...src.matchAll(/(\w+): \w+Map/g)].map((m) => m[1]).sort();
+  assert.deepEqual(listed, Object.keys(COUNTRIES).sort());
+});
