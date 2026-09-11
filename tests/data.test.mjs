@@ -1,7 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 
-import { REGIONS } from "../src/data/france.js";
+import { REGIONS as FRANCE_REGIONS } from "../src/data/france.js";
+import { REGIONS, COUNTRIES } from "../src/data/regions.js";
 import { ITALY_REGIONS } from "../src/data/italy.js";
 import { QUIZ_QUESTIONS } from "../src/data/quiz.js";
 import { FRANCE_REGION_PATHS } from "../src/data/france-map.js";
@@ -36,7 +37,7 @@ const checkPaths = (paths, regions) => {
 };
 
 test("every French region has every field the panels read", () => {
-  checkRegions(REGIONS);
+  checkRegions(FRANCE_REGIONS);
 });
 
 test("every Italian region has every field the panels read, and says it is Italian", () => {
@@ -45,7 +46,7 @@ test("every Italian region has every field the panels read, and says it is Itali
 });
 
 test("the France map draws exactly the regions the data describes", () => {
-  checkPaths(FRANCE_REGION_PATHS, REGIONS);
+  checkPaths(FRANCE_REGION_PATHS, FRANCE_REGIONS);
 });
 
 test("the Italy map draws exactly the regions the data describes", () => {
@@ -53,9 +54,9 @@ test("the Italy map draws exactly the regions the data describes", () => {
 });
 
 test("no region key is shared between France and Italy", () => {
-  const shared = Object.keys(REGIONS).filter((k) => k in ITALY_REGIONS);
+  const shared = Object.keys(FRANCE_REGIONS).filter((k) => k in ITALY_REGIONS);
   assert.deepEqual(shared, [], "keys must be unique across countries: the panels read one merged table");
-  const colours = [...Object.values(REGIONS), ...Object.values(ITALY_REGIONS)].map((r) => r.color.toUpperCase());
+  const colours = [...Object.values(FRANCE_REGIONS), ...Object.values(ITALY_REGIONS)].map((r) => r.color.toUpperCase());
   assert.equal(new Set(colours).size, colours.length, "every region needs its own colour");
 });
 
@@ -66,6 +67,12 @@ test("every quiz question is answerable and points at a real region", () => {
   for (const q of QUIZ_QUESTIONS) {
     assert.match(q.id, /^[a-z]{2}-\d{2,3}$/, `${q.id}: id shape`);
     assert.ok(["map", "connection", "scenario"].includes(q.type), `${q.id}: unknown type`);
+    // A question belongs to a country; French ones carry no field. The region
+    // it points at must be in that country, so the map shown can be answered.
+    const country = q.country ?? "France";
+    assert.ok(COUNTRIES[country], `${q.id}: '${country}' is not a country`);
+    const key = q.type === "map" ? q.answer : q.region;
+    assert.ok(COUNTRIES[country].includes(key), `${q.id}: '${key}' is not a region of ${country}`);
     assert.ok(q.question.trim().length > 10 && q.explanation.trim().length > 10, `${q.id}: needs a question and an explanation`);
     if (q.type === "map") {
       assert.ok(REGIONS[q.answer], `${q.id}: map answer '${q.answer}' is not a region`);

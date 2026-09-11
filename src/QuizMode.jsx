@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { REGIONS } from "./data/france.js";
+import { REGIONS } from "./data/regions.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import {
   loadProgress,
@@ -13,7 +13,7 @@ import {
 
 const byId = (id) => QUIZ_QUESTIONS.find((q) => q.id === id) ?? QUIZ_QUESTIONS[0];
 
-export const QuizMode = ({ mapClick, clearMapClick }) => {
+export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
   // Progress across sessions lives in localStorage (see progress.js). The
   // question order comes from it: unseen first, then the ones you got wrong.
   const [progress, setProgress] = useState(() => loadProgress());
@@ -25,6 +25,11 @@ export const QuizMode = ({ mapClick, clearMapClick }) => {
 
   const q = byId(currentId);
   const isMapQ = q.type === "map";
+
+  // Tell the app which country's map to show for this question.
+  useEffect(() => {
+    if (onQuestionCountry) onQuestionCountry(q.country ?? "France");
+  }, [q.id]);
 
   const summary = progressSummary(QUIZ_QUESTIONS, progress);
   const weak = weakAreas(QUIZ_QUESTIONS, progress, REGIONS).slice(0, 4);

@@ -11,9 +11,10 @@ export default function WsetStudyApp() {
   const [country, setCountry] = useState("France");
   const [activeRegion, setActiveRegion] = useState("bordeaux");
   const [quizMapClick, setQuizMapClick] = useState(null);
+  const [quizCountry, setQuizCountry] = useState("France");
 
-  // The quiz is France-only, so quiz mode always shows the France map.
-  const mapCountry = mode === "quiz" ? "France" : country;
+  // In quiz mode the map follows the country of the question on screen.
+  const mapCountry = mode === "quiz" ? quizCountry : country;
   const CountryMap = MAPS[mapCountry];
 
   const handleCountryClick = (c) => {
@@ -186,6 +187,7 @@ export default function WsetStudyApp() {
             <QuizMode
               mapClick={quizMapClick}
               clearMapClick={() => setQuizMapClick(null)}
+              onQuestionCountry={setQuizCountry}
             />
           )}
         </div>
