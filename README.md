@@ -79,11 +79,11 @@ npm run dev
 - [ ] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [ ] Germany (Mosel, Rheingau, Pfalz)
 - [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [ ] Expand quiz bank to 50+ questions
-- [ ] Spaced repetition algorithm for quiz mode
+- [x] Expand quiz bank to 50+ questions (63)
+- [x] Spaced repetition algorithm for quiz mode
 - [ ] Grape variety profiles with tasting descriptors
 - [ ] Systematic Approach to Tasting (SAT) practice mode
-- [ ] Progress tracking and weak-area identification
+- [x] Progress tracking and weak-area identification
 - [ ] Sub-region drill-down maps (e.g. click Bordeaux → see Médoc, Saint-Émilion, Pomerol)
 
 ## About

@@ -175,5 +175,586 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "southWest",
     explanation: "Cahors is Malbec's birthplace. Historically called 'black wine' for its inky depth. The limestone causse plateaux produce firm, concentrated Malbec that predates Argentine plantings by centuries."
+  },
+  {
+    id: "fr-15",
+    type: "map",
+    question: "Which region's Left Bank has gravel soils that drain well and hold heat, suiting late-ripening Cabernet Sauvignon?",
+    answer: "bordeaux",
+    explanation: "The Médoc, on Bordeaux's Left Bank, sits on gravel. Gravel drains well and retains heat, which helps Cabernet Sauvignon ripen fully in a maritime climate where autumn rain is a risk at harvest."
+  },
+  {
+    id: "fr-16",
+    type: "scenario",
+    question: "A red wine shows blackcurrant, cedar and firm, structured tannins, and was aged in new French barriques. Where is it most likely from?",
+    options: [
+      "Bordeaux Left Bank (Pauillac)",
+      "Bordeaux Right Bank (Pomerol)",
+      "Cahors (South-West)",
+      "Chinon (Loire)"
+    ],
+    answer: 0,
+    region: "bordeaux",
+    explanation: "Blackcurrant and cedar with firm tannins is the classic Left Bank profile, where Cabernet Sauvignon leads the blend, and top Bordeaux is aged in new French oak barriques. Right Bank wines are softer and plummier; Cahors is inky Malbec; Chinon is fresh Cabernet Franc."
+  },
+  {
+    id: "fr-17",
+    type: "connection",
+    question: "What does the Atlantic Ocean do to Bordeaux's climate?",
+    options: [
+      "It brings the Mistral wind that dries the grapes",
+      "It makes the summers hot and dry, like the Mediterranean",
+      "It keeps the winters cold enough to limit the region to early-ripening grapes",
+      "It moderates the warm summers but brings the risk of rain at harvest"
+    ],
+    answer: 3,
+    region: "bordeaux",
+    explanation: "Bordeaux has a maritime climate. The Atlantic softens the summer heat, but it also brings autumn rain just when the grapes are being picked. That harvest risk is one reason Bordeaux blends several grapes."
+  },
+  {
+    id: "fr-18",
+    type: "scenario",
+    question: "A Bordeaux producer wants a softer, plummier red with rounder tannins. Which soil and grape should lead the blend?",
+    options: [
+      "Gravel on the Left Bank, with Cabernet Sauvignon",
+      "Clay and limestone on the Right Bank, with Merlot",
+      "Gravel on the Left Bank, with Cabernet Franc",
+      "Clay on the Right Bank, with Sauvignon Blanc"
+    ],
+    answer: 1,
+    region: "bordeaux",
+    explanation: "The Right Bank (Saint-Émilion, Pomerol) is clay and limestone, and Merlot leads the blend there. Clay holds water, which Merlot tolerates, and the style is softer with plum fruit and rounder tannins than the Left Bank."
+  },
+  {
+    id: "fr-19",
+    type: "map",
+    question: "Which region's Chablis sub-region grows Chardonnay on Kimmeridgian limestone for a steely, mineral style?",
+    answer: "burgundy",
+    explanation: "Chablis is the northern outpost of Burgundy. Its Kimmeridgian limestone and continental climate give Chardonnay a steely, mineral character, quite unlike the rich, buttery style of Meursault further south."
+  },
+  {
+    id: "fr-20",
+    type: "connection",
+    question: "Why are Pinot Noir and Chardonnay the grapes that thrive in Burgundy?",
+    options: [
+      "The limestone soils are too alkaline for any other grape",
+      "Burgundy is warm enough for late-ripening grapes such as Grenache",
+      "The continental climate with cold winters favours early-ripening varieties, and both ripen early",
+      "They are the only grapes that can be fermented with whole bunches"
+    ],
+    answer: 2,
+    region: "burgundy",
+    explanation: "Burgundy's continental climate has cold winters and warm summers, so only early-ripening grapes reliably ripen. Pinot Noir and Chardonnay both ripen early. The limestone soils then add minerality and finesse."
+  },
+  {
+    id: "fr-21",
+    type: "scenario",
+    question: "A white wine is rich and buttery, was fermented in barrel and had its lees stirred (bâtonnage). Which is the most likely origin?",
+    options: [
+      "Chablis (Burgundy)",
+      "Meursault (Burgundy)",
+      "Muscadet (Loire)",
+      "Condrieu (Northern Rhône)"
+    ],
+    answer: 1,
+    region: "burgundy",
+    explanation: "Meursault in the Côte de Beaune is the textbook rich, buttery Chardonnay, made with barrel fermentation and lees stirring. Chablis is the steely, mineral end of Burgundy Chardonnay. Muscadet is light and neutral; Condrieu is aromatic Viognier."
+  },
+  {
+    id: "fr-22",
+    type: "connection",
+    question: "Why is Burgundy divided into tiny plots (climats), each with its own name?",
+    options: [
+      "Each plot grows a different grape variety",
+      "Burgundy is terroir-driven: the same grape on a different site makes a different wine",
+      "Frost and hail force growers to spread their risk across many small holdings",
+      "The plots mark where Premier Cru wines must be blended with Grand Cru"
+    ],
+    answer: 1,
+    region: "burgundy",
+    explanation: "Burgundy makes single-variety wines, so the site is what changes the wine. Limestone and clay vary plot by plot, and the classification (Village, Premier Cru, Grand Cru) follows the site rather than the producer."
+  },
+  {
+    id: "fr-23",
+    type: "scenario",
+    question: "A grower in the Côte de Nuits is planning for the year ahead. Which weather risks come with Burgundy's continental climate?",
+    options: [
+      "Drought stress from hot, dry summers",
+      "Autumn rain at harvest from the Atlantic",
+      "Rot spread by a damp sea breeze",
+      "Frost and hail, with big differences between vintages"
+    ],
+    answer: 3,
+    region: "burgundy",
+    explanation: "Burgundy's continental climate brings cold winters and warm summers, and with them frost and hail. Vintage variation is significant. Drought is a Southern Rhône worry and harvest rain is Bordeaux's."
+  },
+  {
+    id: "fr-24",
+    type: "map",
+    question: "Which region grows Syrah on steep granite terraces that have to be harvested by hand?",
+    answer: "rhoneNorth",
+    explanation: "The Northern Rhône's vineyards (Côte-Rôtie, Hermitage, Cornas) sit on steep granite hillsides. The slopes give good drainage and sun exposure for Syrah, but they are too steep for anything but hand harvesting, so production is small."
+  },
+  {
+    id: "fr-25",
+    type: "scenario",
+    question: "A red wine shows black pepper, dark fruit, a floral note and smoke, and is made from a single grape. Where is it most likely from?",
+    options: [
+      "Châteauneuf-du-Pape (Southern Rhône)",
+      "Bandol (Provence)",
+      "Madiran (South-West)",
+      "Hermitage (Northern Rhône)"
+    ],
+    answer: 3,
+    region: "rhoneNorth",
+    explanation: "Black pepper, dark fruit, floral and smoky notes are the signature of Northern Rhône Syrah, made as a single variety. Châteauneuf-du-Pape is a Grenache-based blend, Bandol is Mourvèdre-led, and Madiran is powerfully tannic Tannat."
+  },
+  {
+    id: "fr-26",
+    type: "connection",
+    question: "How does the Mistral wind help growers in the Northern Rhône?",
+    options: [
+      "It dries the grapes and reduces the risk of disease and rot",
+      "It carries warm air that raises sugar levels",
+      "It brings the rain the steep slopes need",
+      "It deposits granite dust that adds minerality"
+    ],
+    answer: 0,
+    region: "rhoneNorth",
+    explanation: "The Mistral is a strong, dry wind. It dries the bunches and keeps rot at bay, which matters for Syrah on the steep slopes. Drainage comes from the granite, not the wind."
+  },
+  {
+    id: "fr-27",
+    type: "scenario",
+    question: "A white wine is intensely aromatic with stone fruit and noticeably low acidity. Which grape and place fit best?",
+    options: [
+      "Viognier from Condrieu",
+      "Sauvignon Blanc from Sancerre",
+      "Chenin Blanc from Vouvray",
+      "Riesling from Alsace"
+    ],
+    answer: 0,
+    region: "rhoneNorth",
+    explanation: "Viognier, the grape of Condrieu in the Northern Rhône, is aromatic with stone fruit and low acid. Sauvignon Blanc, Chenin Blanc and Riesling all come from cool climates and keep high acidity."
+  },
+  {
+    id: "fr-28",
+    type: "connection",
+    question: "Why is Grenache in the Southern Rhône grown as untrellised bush vines (gobelet)?",
+    options: [
+      "Bush vines are required for the Châteauneuf-du-Pape label",
+      "Bush vines protect the buds from spring frost",
+      "In the hot climate no trellising is needed, and the bush shades the grapes from intense sun",
+      "Bush vines expose the grapes to more Mistral wind"
+    ],
+    answer: 2,
+    region: "rhoneSouth",
+    explanation: "The Southern Rhône is hot and dry, so Grenache does not need trellising to ripen. The bushy canopy shades the bunches from the strong sun, which protects them from the heat."
+  },
+  {
+    id: "fr-29",
+    type: "connection",
+    question: "Why do Southern Rhône producers age their reds in large old oak (foudre) rather than new barriques?",
+    options: [
+      "Oak flavour is not the goal; they want the fruit, herbs and spice of the Grenache blend to show",
+      "Large casks add more oak flavour than small barrels",
+      "New barriques would make the wine too high in alcohol",
+      "Foudres are needed to soften Grenache's aggressive tannins"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "The style is rich and warm, with red fruit, garrigue herbs and spice. Large old oak lets the wine mature without adding oak flavour, so the Grenache-based blend stays the focus."
+  },
+  {
+    id: "fr-30",
+    type: "scenario",
+    question: "A rich, high-alcohol red with red fruit, garrigue herbs and spice is a Grenache-based blend from a village whose vineyards are covered in large heat-retaining stones. Which is it?",
+    options: [
+      "Corbières (Languedoc)",
+      "Cornas (Northern Rhône)",
+      "Châteauneuf-du-Pape (Southern Rhône)",
+      "Bandol (Provence)"
+    ],
+    answer: 2,
+    region: "rhoneSouth",
+    explanation: "The stones are the galets of Châteauneuf-du-Pape, which soak up heat by day and release it at night to help Grenache ripen. Cornas is single-variety Syrah and Bandol is led by Mourvèdre. Corbières can taste similar but has no galets."
+  },
+  {
+    id: "fr-31",
+    type: "map",
+    question: "Which region includes Gigondas, Vacqueyras and the Côtes du Rhône-Villages appellation?",
+    answer: "rhoneSouth",
+    explanation: "Gigondas and Vacqueyras are villages in the Southern Rhône, alongside Châteauneuf-du-Pape. The quality ladder runs Côtes du Rhône, Côtes du Rhône-Villages, then the named villages."
+  },
+  {
+    id: "fr-32",
+    type: "map",
+    question: "Which region grows Melon de Bourgogne on schist near the coast, with a river that moderates the temperature and the frost risk?",
+    answer: "loire",
+    explanation: "Muscadet, at the cool maritime end of the Loire Valley, is made from Melon de Bourgogne on schist soils. The River Loire runs the length of the region and softens both temperature swings and frost."
+  },
+  {
+    id: "fr-33",
+    type: "scenario",
+    question: "A red wine is fresh, with red fruit and a 'pencil shavings' note, and is made from Cabernet Franc. Which sub-region is the best fit?",
+    options: [
+      "Saint-Émilion (Bordeaux)",
+      "Fronton (South-West)",
+      "Crozes-Hermitage (Northern Rhône)",
+      "Chinon (Loire)"
+    ],
+    answer: 3,
+    region: "loire",
+    explanation: "Chinon and Bourgueil are the Loire's Cabernet Franc reds: fresh, red-fruited, with that pencil-shavings note. Cabernet Franc also grows in Bordeaux, but there it is a blending partner in softer, plummier Merlot-led wines."
+  },
+  {
+    id: "fr-34",
+    type: "connection",
+    question: "Why does the River Loire matter so much to the region's growers?",
+    options: [
+      "It brings the botrytis needed for sweet wines",
+      "It moderates temperature and reduces frost risk in a cool climate",
+      "It deposits the flint that gives Sancerre its minerality",
+      "It provides the water used to irrigate the vines"
+    ],
+    answer: 1,
+    region: "loire",
+    explanation: "The Loire is a cool region, from cool maritime Muscadet to cool continental Sancerre. The river evens out temperatures and cuts the risk of frost. Sancerre's flint is in the soil, not the water."
+  },
+  {
+    id: "fr-35",
+    type: "map",
+    question: "Which region labels its wines by grape variety, grows almost only white grapes, and has 51 Grand Cru sites?",
+    answer: "alsace",
+    explanation: "Alsace is unusual in France for making single-variety wines and naming them after the grape: Riesling, Gewurztraminer, Pinot Gris, Muscat. Its soils are hugely varied, which is why it has 51 separate Grand Cru sites."
+  },
+  {
+    id: "fr-36",
+    type: "scenario",
+    question: "A white wine is intensely aromatic, with lychee and rose, and is off-dry. Which grape is it most likely to be?",
+    options: [
+      "Riesling from Alsace",
+      "Gewurztraminer from Alsace",
+      "Viognier from Condrieu",
+      "Chenin Blanc from Vouvray"
+    ],
+    answer: 1,
+    region: "alsace",
+    explanation: "Lychee and rose are the calling cards of Gewurztraminer, which in Alsace ranges from off-dry to sweet. Alsace Riesling is dry, steely and citrussy; Viognier gives stone fruit; Chenin Blanc gives apple, honey and quince."
+  },
+  {
+    id: "fr-37",
+    type: "connection",
+    question: "Why can an off-dry Alsace Gewurztraminer or Pinot Gris taste balanced rather than cloying?",
+    options: [
+      "The cool climate gives high acidity that balances the residual sugar",
+      "The rain shadow lowers the sugar in the grapes",
+      "Ageing in large oak foudres absorbs the sweetness",
+      "Botrytis removes the sugar before fermentation"
+    ],
+    answer: 0,
+    region: "alsace",
+    explanation: "Alsace is dry but cool. Cool conditions keep the acidity high, and that acidity offsets the sweetness in off-dry styles. The dryness from the Vosges rain shadow lets the aromatic grapes ripen without rot."
+  },
+  {
+    id: "fr-38",
+    type: "scenario",
+    question: "An Alsace producer wants to make a sweet wine from grapes affected by botrytis (noble rot). Which label applies?",
+    options: [
+      "Crémant d'Alsace",
+      "Vendange Tardive",
+      "Sélection de Grains Nobles",
+      "Alsace Grand Cru"
+    ],
+    answer: 2,
+    region: "alsace",
+    explanation: "Sélection de Grains Nobles is Alsace's botrytis category. Vendange Tardive means late harvest. Crémant d'Alsace is sparkling, and Grand Cru refers to a single vineyard site with specific grapes only."
+  },
+  {
+    id: "fr-39",
+    type: "connection",
+    question: "Why does Champagne's marginal climate produce such good base wine for sparkling?",
+    options: [
+      "The chalk soil adds the bubbles during the first fermentation",
+      "The cold makes the second fermentation happen in the bottle on its own",
+      "Strong sunshine gives ripe, sugar-rich grapes",
+      "The grapes barely ripen, giving high acid and low sugar, which is exactly what sparkling base wine needs"
+    ],
+    answer: 3,
+    region: "champagne",
+    explanation: "Champagne sits at the northern limit of viticulture. Grapes there stay high in acid and low in sugar, which would make a thin still wine but is ideal for the traditional method, where the second fermentation adds about 1.5% alcohol and the bubbles."
+  },
+  {
+    id: "fr-40",
+    type: "scenario",
+    question: "A Champagne shows bready, biscuity, brioche notes. Where do those flavours come from?",
+    options: [
+      "New oak barrels used in the first fermentation",
+      "Autolysis: the wine resting on its yeast lees after the second fermentation in bottle",
+      "The chalk soil, which gives a biscuity minerality",
+      "A high proportion of Pinot Meunier in the blend"
+    ],
+    answer: 1,
+    region: "champagne",
+    explanation: "After the second fermentation in bottle (prise de mousse), the dead yeast cells break down in a process called autolysis. That is what gives Champagne its bready, biscuity character. The longer on the lees, the stronger it gets."
+  },
+  {
+    id: "fr-41",
+    type: "scenario",
+    question: "A Champagne is labelled Blanc de Blancs, meaning it is made only from white grapes. Which grape is it, and how will it taste compared with a Blanc de Noirs?",
+    options: [
+      "Chardonnay; elegant and citrussy, where Blanc de Noirs is fuller with red fruit",
+      "Pinot Meunier; fuller and red-fruited, where Blanc de Noirs is elegant",
+      "Chardonnay and Pinot Noir blended; richer than either alone",
+      "Pinot Noir; copper-coloured with red fruit"
+    ],
+    answer: 0,
+    region: "champagne",
+    explanation: "Chardonnay is Champagne's only white grape, so a Blanc de Blancs must be Chardonnay: elegant and citrussy. Blanc de Noirs comes from the black grapes, Pinot Noir and Pinot Meunier, and is fuller with red fruit."
+  },
+  {
+    id: "fr-42",
+    type: "connection",
+    question: "Why does a vintage Champagne usually taste more bready and developed than a non-vintage one?",
+    options: [
+      "Vintage wines must spend at least 36 months on the lees, against 15 for non-vintage, so autolysis has longer to work",
+      "Vintage wines use only Pinot Noir",
+      "Vintage wines skip the second fermentation",
+      "Vintage wines are made from chalk-grown grapes only"
+    ],
+    answer: 0,
+    region: "champagne",
+    explanation: "The minimum lees ageing is 15 months for non-vintage and 36 months for vintage. Autolysis, the breakdown of yeast on the lees, builds bready, biscuity flavour, so more time on the lees means more of it."
+  },
+  {
+    id: "fr-43",
+    type: "map",
+    question: "Which region is France's largest by volume, and makes fortified sweet wines from Grenache in Maury and Banyuls?",
+    answer: "languedocRoussillon",
+    explanation: "Languedoc-Roussillon is France's biggest wine region by volume, historically bulk wine and now going through a quality revolution. Maury and Banyuls in Roussillon make Vin Doux Naturel, sweet fortified wines from Grenache."
+  },
+  {
+    id: "fr-44",
+    type: "connection",
+    question: "Why is old-vine Carignan prized in the Languedoc's quality revolution?",
+    options: [
+      "Carignan is the only grape the AOC rules allow",
+      "Old vines give low yields, and with the Mediterranean heat that means concentrated wines",
+      "Old Carignan vines ripen early enough to avoid the summer heat",
+      "Carignan on galets ripens more fully than Grenache"
+    ],
+    answer: 1,
+    region: "languedocRoussillon",
+    explanation: "The Languedoc used to be about bulk. Its old Carignan vines produce little fruit, and low yields plus hot, dry summers give concentrated wine, which is what the new quality producers want."
+  },
+  {
+    id: "fr-45",
+    type: "connection",
+    question: "Why does Roussillon's schist suit Grenache destined for fortified wine?",
+    options: [
+      "Schist stores water so the vines never suffer in the heat",
+      "Schist is a form of chalk that keeps the acidity high",
+      "Schist stresses the vines, giving complex, concentrated Grenache",
+      "Schist reflects the sun and keeps the grapes cool"
+    ],
+    answer: 2,
+    region: "languedocRoussillon",
+    explanation: "Schist is a poor, stressful soil. Grenache vines on it work hard and produce concentrated, complex fruit, which is the base for the sweet, oxidative fortified wines of Maury and Banyuls."
+  },
+  {
+    id: "fr-46",
+    type: "scenario",
+    question: "A retailer wants a southern French wine that is simply labelled with its grape variety, such as 'Syrah' or 'Viognier'. Which category allows this?",
+    options: [
+      "Languedoc AOC",
+      "Vin Doux Naturel",
+      "Corbières",
+      "IGP Pays d'Oc"
+    ],
+    answer: 3,
+    region: "languedocRoussillon",
+    explanation: "IGP Pays d'Oc is the Languedoc's varietal-labelling category, so the grape name goes on the front. The AOCs such as Corbières and Minervois are named for place, and Vin Doux Naturel is the fortified sweet category."
+  },
+  {
+    id: "fr-47",
+    type: "scenario",
+    question: "A sweet wine is fortified, made from Grenache, and shows complex, oxidative flavours. Where is it from?",
+    options: [
+      "Maury or Banyuls (Roussillon)",
+      "Jurançon (South-West)",
+      "Sélection de Grains Nobles (Alsace)",
+      "Vouvray (Loire)"
+    ],
+    answer: 0,
+    region: "languedocRoussillon",
+    explanation: "Maury and Banyuls are Vin Doux Naturel: sweet, fortified, and oxidative in style, made from Grenache. Jurançon moelleux comes from late-harvested Petit Manseng, Sélection de Grains Nobles from botrytised Alsace grapes, and sweet Vouvray from botrytised Chenin Blanc; none is a fortified Grenache wine."
+  },
+  {
+    id: "fr-48",
+    type: "connection",
+    question: "Most of Provence makes rosé, yet Bandol fully ripens Mourvèdre for serious reds. Why?",
+    options: [
+      "Bandol is cooler, which Mourvèdre prefers",
+      "Bandol uses carbonic maceration to extract colour quickly",
+      "Bandol's soils are galets that radiate heat at night",
+      "Bandol's terraced limestone amphitheatre faces the sea and is sheltered and warm, and Mourvèdre needs more heat than Grenache"
+    ],
+    answer: 3,
+    region: "provence",
+    explanation: "Mourvèdre needs more heat than Grenache to ripen. Bandol's terraces, arranged like an amphitheatre facing the sea, are warm and sheltered enough to do it. The result is dark, structured, savoury reds that need at least 18 months in large oak."
+  },
+  {
+    id: "fr-49",
+    type: "scenario",
+    question: "A Provence producer wants a pale, delicate, dry rosé. Which winemaking approach is right?",
+    options: [
+      "Direct pressing, or a short maceration, to keep the colour pale",
+      "A long maceration on the skins for deeper colour",
+      "Blending a finished red with a finished white",
+      "Eighteen months in large oak"
+    ],
+    answer: 0,
+    region: "provence",
+    explanation: "Provence rosé is pale because the juice spends little or no time on the red skins: it is pressed straight off, or given only a short maceration. Quality rosé is serious winemaking; the 18 months in large oak belongs to Bandol reds."
+  },
+  {
+    id: "fr-50",
+    type: "connection",
+    question: "Why is Provence's climate so well suited to rosé?",
+    options: [
+      "Cool sea fog keeps the grapes from over-ripening",
+      "Chalk soils give the high acidity rosé needs",
+      "Mediterranean sun and the Mistral wind keep the grapes healthy, and an early harvest keeps the wine fresh",
+      "Heavy autumn rain dilutes the colour naturally"
+    ],
+    answer: 2,
+    region: "provence",
+    explanation: "Hot, dry summers and the drying Mistral mean healthy grapes with little rot. Picking early keeps the acidity and freshness that a pale, dry rosé depends on."
+  },
+  {
+    id: "fr-51",
+    type: "map",
+    question: "Which region is France's oldest wine region, growing Cinsault and Rolle (Vermentino) beside Grenache and Mourvèdre?",
+    answer: "provence",
+    explanation: "Provence is the oldest wine region in France. Cinsault and Rolle (also called Vermentino) are local to it, alongside the Mourvèdre, Grenache and Syrah it shares with the Rhône. Rosé makes up 88% of its production."
+  },
+  {
+    id: "fr-52",
+    type: "map",
+    question: "Which region's Jurançon makes late-harvest sweet whites from thick-skinned Petit Manseng in the Pyrenean foothills?",
+    answer: "southWest",
+    explanation: "Jurançon is in the South-West, where the Pyrenean foothills add altitude. Petit Manseng's thick skins resist botrytis and let the sugar concentrate on the vine for sweet, tropical, honeyed wines."
+  },
+  {
+    id: "fr-53",
+    type: "connection",
+    question: "Why does Petit Manseng suit sweet wine in Jurançon?",
+    options: [
+      "Its thin skins let botrytis in quickly",
+      "Its thick skins resist botrytis and let the sugar concentrate for late-harvest wines",
+      "It is fortified with grape spirit like Maury",
+      "Its low acidity makes the sweetness feel richer"
+    ],
+    answer: 1,
+    region: "southWest",
+    explanation: "Petit Manseng has thick skins, so it can hang on the vine late without rotting while its sugar concentrates. Jurançon moelleux is the sweet, tropical, honeyed result; Jurançon sec is the dry version."
+  },
+  {
+    id: "fr-54",
+    type: "scenario",
+    question: "A student says South-West wines are just like Bordeaux because the regions are neighbours. What is the key difference?",
+    options: [
+      "The South-West is cooler and wetter, so its wines are lighter",
+      "The South-West is Mediterranean, like the Languedoc",
+      "The South-West uses the same grapes but ages them in foudre",
+      "Inland the climate is warmer and more continental, and indigenous grapes such as Malbec, Tannat and Petit Manseng set it apart"
+    ],
+    answer: 3,
+    region: "southWest",
+    explanation: "Atlantic influence fades as you move east, so inland the South-West is warmer and more continental than Bordeaux, giving fully ripe, concentrated grapes. Its own grapes, Malbec, Tannat, Négrette and the Mansengs, are what really distinguish it."
+  },
+  {
+    id: "fr-55",
+    type: "map",
+    question: "Which region grows only Gamay, with ten Cru villages on granite hills?",
+    answer: "beaujolais",
+    explanation: "Beaujolais is Gamay country and nothing else. The ten Crus, such as Morgon, Fleurie and Moulin-à-Vent, sit on granite, which gives Gamay structure and minerality that it lacks on the clay of the south."
+  },
+  {
+    id: "fr-56",
+    type: "connection",
+    question: "Why does carbonic maceration suit Gamay so well?",
+    options: [
+      "It pulls out colour and fruit without harsh tannins, which suits a thin-skinned, low-tannin grape",
+      "It adds the tannin Gamay lacks",
+      "It gives the oxidative character Gamay needs to age",
+      "It is the only method that works on granite soils"
+    ],
+    answer: 0,
+    region: "beaujolais",
+    explanation: "Carbonic maceration ferments whole bunches from the inside, extracting colour and fresh fruit but little tannin. Gamay is thin-skinned and low in tannin anyway, so the method plays to its strengths and gives the light, fruity style."
+  },
+  {
+    id: "fr-57",
+    type: "scenario",
+    question: "A red is very light and fruity, with banana and bubblegum notes. What is it, and how was it made?",
+    options: [
+      "Cru Beaujolais, aged in oak",
+      "Bourgogne Pinot Noir, whole bunch fermented",
+      "Chinon, from Cabernet Franc",
+      "Beaujolais Nouveau, made by carbonic maceration"
+    ],
+    answer: 3,
+    region: "beaujolais",
+    explanation: "Banana and bubblegum are the tell-tale notes of carbonic maceration, the method behind Beaujolais Nouveau. Cru Beaujolais is structured and earthy, Burgundy Pinot Noir is red-fruited and silky, and Chinon shows pencil shavings."
+  },
+  {
+    id: "fr-58",
+    type: "scenario",
+    question: "A sommelier wants a Gamay that can age ten years or more and stand next to Burgundy Pinot Noir. Which should they buy?",
+    options: [
+      "Beaujolais Nouveau",
+      "Beaujolais-Villages",
+      "A Cru such as Morgon or Moulin-à-Vent",
+      "Southern Beaujolais from clay and limestone"
+    ],
+    answer: 2,
+    region: "beaujolais",
+    explanation: "The ten Crus on granite make structured, earthy wines that can age 10+ years and rival Burgundy Pinot Noir. Traditional vinification and oak ageing add to that structure. Nouveau and the clay-based southern wines are made to drink young."
+  },
+  {
+    id: "fr-59",
+    type: "map",
+    question: "Which region sits at the northern limit of viticulture, where grapes barely ripen and stay high in acid and low in sugar?",
+    answer: "champagne",
+    explanation: "Champagne is at the very edge of where vines will ripen. That marginal climate is a problem for still wine but perfect for sparkling base wine, which needs high acid and low sugar before the second fermentation."
+  },
+  {
+    id: "fr-60",
+    type: "map",
+    question: "Which region classifies its wines as Village, Premier Cru and Grand Cru, based on tiny named plots called climats?",
+    answer: "burgundy",
+    explanation: "Burgundy's quality ladder runs Bourgogne AOC, Village, Premier Cru, Grand Cru. The rankings belong to the plot, not the producer, because the same grape on a different site makes a different wine."
+  },
+  {
+    id: "fr-61",
+    type: "map",
+    question: "Which region is home to Condrieu, where Viognier makes aromatic, stone-fruit whites with low acidity?",
+    answer: "rhoneNorth",
+    explanation: "Condrieu is in the Northern Rhône, alongside the Syrah appellations of Côte-Rôtie, Hermitage and Cornas. Viognier is its grape, and in Côte-Rôtie a little of it is co-fermented with Syrah."
+  },
+  {
+    id: "fr-62",
+    type: "map",
+    question: "Which region includes Corbières, Minervois, Fitou and Pic Saint-Loup, and grows Picpoul and old-vine Carignan?",
+    answer: "languedocRoussillon",
+    explanation: "These are all Languedoc-Roussillon appellations. Carignan is the region's old-vine speciality, and Picpoul is one of its white grapes, alongside Grenache Blanc and Viognier."
+  },
+  {
+    id: "fr-63",
+    type: "map",
+    question: "Which region includes Pauillac, Margaux, Pomerol and Sauternes?",
+    answer: "bordeaux",
+    explanation: "Pauillac, Margaux, Saint-Julien and Saint-Estèphe are Left Bank villages in Bordeaux's Médoc. Pomerol and Saint-Émilion are on the Right Bank, and Sauternes and Pessac-Léognan are the other named sub-regions."
   }
 ];
