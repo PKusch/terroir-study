@@ -1594,5 +1594,461 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "pfalz",
     explanation: "Dornfelder is made deep-coloured and fruity, mostly unoaked, for early drinking, with plum, blackberry and soft tannin. Spätburgunder is paler and usually sees oak, Riesling is white, and Tempranillo is Spanish."
+  },
+  {
+    id: "nw-01",
+    type: "map",
+    country: "New World",
+    question: "Which New World region is cooled by Pacific fog that reaches inland only through gaps in the Coast Ranges, such as San Pablo Bay into Carneros and the Russian River?",
+    answer: "california",
+    explanation: "The cold Pacific makes fog and cool air, but the Coast Ranges block them except where there is a gap. San Pablo Bay lets the fog into Carneros, the Russian River lets it into Sonoma, and the east–west valleys of Santa Barbara let it pour in from the sea. Behind the mountains it is hot."
+  },
+  {
+    id: "nw-02",
+    type: "map",
+    country: "New World",
+    question: "Which region labels its wines by grape, uses AVAs as place names with no quality guarantee, and makes Fumé Blanc and White Zinfandel?",
+    answer: "california",
+    explanation: "California wines are labelled by grape, and an AVA such as Napa Valley is only a place name, not a promise of quality. Fumé Blanc is oaked Sauvignon Blanc, and White Zinfandel is an off-dry pink made from the Zinfandel grape."
+  },
+  {
+    id: "nw-03",
+    type: "connection",
+    country: "New World",
+    question: "Why can Carneros grow cool-climate Pinot Noir while Napa, only a few miles inland, ripens full-bodied Cabernet Sauvignon?",
+    options: [
+      "Carneros sits at high altitude in the mountains",
+      "Napa has limestone soils that store heat overnight",
+      "Cold Pacific fog and cool air reach Carneros through San Pablo Bay, but the mountains keep most of Napa warm",
+      "Carneros gets summer rain that cools the vines"
+    ],
+    answer: 2,
+    region: "california",
+    explanation: "Carneros lies at the foot of both valleys on San Pablo Bay, so the cold fog reaches it and it is the coolest site: Pinot Noir, Chardonnay and sparkling base. Napa's valley floor and benchlands sit behind the mountains, where it is warm enough for Cabernet, and the hillsides above the fog see even more sun. It is the fog line, not altitude or rain, that decides the style."
+  },
+  {
+    id: "nw-04",
+    type: "connection",
+    country: "New World",
+    question: "Why is the Californian style ripe, fruity and consistent from one year to the next?",
+    options: [
+      "Almost no rain falls in the growing season, so the fruit ripens healthy every year and irrigation, not rot, is the main worry",
+      "The AVA rules set a minimum ripeness for every wine",
+      "Chaptalisation is allowed in poor vintages",
+      "The volcanic hillside soils keep the vines warm at night"
+    ],
+    answer: 0,
+    region: "california",
+    explanation: "Summers are long, dry and sunny with almost no rain, so grapes ripen fully and stay healthy in every vintage. That is why drought and irrigation, rather than rot, are the grower's concern, and why the wines come out ripe and fruity so reliably. An AVA is only a place name and sets no ripeness rule."
+  },
+  {
+    id: "nw-05",
+    type: "scenario",
+    country: "New World",
+    question: "A Californian producer wants a rich, buttery Chardonnay in the classic style. Which cellar approach fits?",
+    options: [
+      "Cool fermentation in stainless steel, no malolactic, bottled early",
+      "Pick early and blend with Sauvignon Blanc",
+      "Age the wine under a layer of flor",
+      "Barrel fermentation, full malolactic conversion, lees stirring and new oak"
+    ],
+    answer: 3,
+    region: "california",
+    explanation: "The classic Californian Chardonnay is barrel-fermented, put through full malolactic conversion, stirred on its lees and aged in new oak, which gives ripe peach, butter and toast. Stainless steel with no malolactic makes the leaner, citrus style that is now also common. Flor belongs to Sherry, not to Chardonnay."
+  },
+  {
+    id: "nw-06",
+    type: "scenario",
+    country: "New World",
+    question: "A buyer wants old-vine Zinfandel: full, jammy blackberry, spice and high alcohol. Which part of California should they look to?",
+    options: [
+      "Carneros",
+      "Dry Creek Valley in Sonoma",
+      "Russian River Valley",
+      "Central Valley"
+    ],
+    answer: 1,
+    region: "california",
+    explanation: "Dry Creek Valley is the warmer part of Sonoma, where the fog does not reach, and old-vine Zinfandel does well on its gravel. Carneros and the Russian River are cool and grow Pinot Noir and Chardonnay, while the hot Central Valley makes soft, simple, high-yield wine."
+  },
+  {
+    id: "nw-07",
+    type: "map",
+    country: "New World",
+    question: "Which region has a narrow strip of terra rossa, red clay over limestone, at Coonawarra, and old ungrafted Shiraz vines in the Barossa?",
+    answer: "australia",
+    explanation: "Coonawarra's terra rossa is a flat, narrow strip of red clay over free-draining limestone beside the Southern Ocean. The Barossa has some of the world's oldest Shiraz vines, still on their own roots because phylloxera never reached South Australia."
+  },
+  {
+    id: "nw-08",
+    type: "map",
+    country: "New World",
+    question: "Which region lets one label draw on grapes from several states, adopted screwcaps early and widely, and makes sparkling Shiraz and fortified Muscat?",
+    answer: "australia",
+    explanation: "A South Eastern Australia label can blend across several states, which suits the clean, technical, blending-minded winemaking there. The industry took up screwcaps early, and sparkling Shiraz and fortified Muscat are its oddities."
+  },
+  {
+    id: "nw-09",
+    type: "connection",
+    country: "New World",
+    question: "Why does Hunter Valley Sémillon have low alcohol and high acidity, and why does it need years in bottle?",
+    options: [
+      "It is fermented in new oak, which slows the wine down",
+      "The humid Hunter brings cloud and harvest rain, so Sémillon is picked early, bottled young and left to age",
+      "The terra rossa soil stops the grapes ripening fully",
+      "It is fortified and then aged in a solera"
+    ],
+    answer: 1,
+    region: "australia",
+    explanation: "The Hunter is warm but humid, with cloud and rain at harvest, so growers pick Sémillon early before the rain arrives. Early picking means low alcohol and high acidity, and the wine is unoaked and neutral when young. Only years in bottle bring out its toast, honey and nuts."
+  },
+  {
+    id: "nw-10",
+    type: "connection",
+    country: "New World",
+    question: "Why is Barossa Shiraz concentrated enough to stand up to American oak?",
+    options: [
+      "Barossa is the coolest region in South Australia",
+      "The vines grow on terra rossa over limestone",
+      "Irrigation from the Murray keeps the yields high",
+      "Some of the world's oldest Shiraz vines grow there, ungrafted because phylloxera never reached South Australia"
+    ],
+    answer: 3,
+    region: "australia",
+    explanation: "Old ungrafted vines on the Barossa valley floor give concentrated Shiraz, which is why the tradition of ageing it in American oak, with its vanilla and coconut, worked. Terra rossa is Coonawarra's soil, and the Murray irrigates the high-yield bulk regions, not the Barossa's old vines."
+  },
+  {
+    id: "nw-11",
+    type: "scenario",
+    country: "New World",
+    question: "A buyer wants a bone-dry Australian Riesling with high acidity and lime, made without oak or malolactic and sealed under screwcap. Where should they look?",
+    options: [
+      "Clare Valley or Eden Valley, at altitude",
+      "The Barossa Valley floor",
+      "Riverland",
+      "Hunter Valley"
+    ],
+    answer: 0,
+    region: "australia",
+    explanation: "Eden Valley, on the hills above the Barossa, and Clare Valley are higher and cooler, which makes them Riesling country. The wine is fermented dry in steel with no oak and no malolactic, and bottled under screwcap, giving lime and lemon that turn toasty with age. The Barossa floor is Shiraz, Riverland is volume, and the Hunter is Sémillon."
+  },
+  {
+    id: "nw-12",
+    type: "scenario",
+    country: "New World",
+    question: "A producer wants Cabernet Sauvignon with blackcurrant, mint and eucalyptus and firm tannin, grown on a flat strip of red soil cooled by sea breezes. Which region?",
+    options: [
+      "Yarra Valley",
+      "Barossa Valley",
+      "Coonawarra",
+      "Hunter Valley"
+    ],
+    answer: 2,
+    region: "australia",
+    explanation: "Coonawarra's terra rossa is a flat strip beside the Southern Ocean, and the sea breezes cool the Cabernet so it keeps its structure. The result is blackcurrant, mint, eucalyptus and firm tannin. The Yarra is cool Pinot Noir country, the Barossa is Shiraz, and the Hunter is Sémillon."
+  },
+  {
+    id: "nw-13",
+    type: "map",
+    country: "New World",
+    question: "Which New World region is two long, narrow islands where mountains block the wet westerlies, so the vineyards sit on the drier, sunnier east coast?",
+    answer: "newZealand",
+    explanation: "Nowhere in New Zealand is far from the sea, and the mountains along the spine keep the rain on the west. Marlborough, Hawke's Bay and Martinborough are all on the dry east coast, with long sunshine hours and cool nights."
+  },
+  {
+    id: "nw-14",
+    type: "map",
+    country: "New World",
+    question: "Which region grows Sauvignon Blanc as most of its vineyard, on the stony Wairau plain, and holds the world's most southerly wine region?",
+    answer: "newZealand",
+    explanation: "Sauvignon Blanc is most of New Zealand's vineyard and nearly all of it is in Marlborough, on the flat, stony Wairau valley floor. Central Otago, inland in the south, is the world's most southerly wine region and grows Pinot Noir."
+  },
+  {
+    id: "nw-15",
+    type: "connection",
+    country: "New World",
+    question: "Why is Marlborough Sauvignon Blanc so pungent, with gooseberry and passion fruit, and yet so high in acidity?",
+    options: [
+      "Barrel fermentation and lees stirring build the aromas",
+      "The schist soils add minerality and acidity",
+      "Harvest rain dilutes the sugar and keeps the acid",
+      "Long sunny days build intense aromas while cool nights keep the acidity, and steel and early bottling keep both"
+    ],
+    answer: 3,
+    region: "newZealand",
+    explanation: "Marlborough's long sunny days let the grapes build flavour, and its cool nights stop the acidity falling. The wine is then fermented cool in stainless steel with no oak and bottled early, so the pungent aromas are locked in. Schist is Central Otago's soil, not Marlborough's."
+  },
+  {
+    id: "nw-16",
+    type: "connection",
+    country: "New World",
+    question: "Why can Hawke's Bay ripen Merlot, Cabernet Sauvignon and Syrah when most of New Zealand cannot?",
+    options: [
+      "The Gimblett Gravels are deep gravel from an old riverbed that warms quickly and drains fast",
+      "Hawke's Bay is on the wet west coast, where it is warmer",
+      "It is the most southerly region, with the longest days",
+      "The vines grow on north-facing schist slopes"
+    ],
+    answer: 0,
+    region: "newZealand",
+    explanation: "The Gimblett Gravels are the bed of an old river: deep gravel that warms up quickly and drains fast, so red grapes ripen there that the rest of Hawke's Bay cannot manage. It is the one place in a cool country where Bordeaux grapes and Syrah ripen fully. North-facing schist slopes describe Central Otago."
+  },
+  {
+    id: "nw-17",
+    type: "scenario",
+    country: "New World",
+    question: "A grower on fertile Marlborough soil finds the vines are so vigorous that leaves shade the fruit. What should they do?",
+    options: [
+      "Irrigate more heavily",
+      "Open up the canopy so the leaves and fruit get sun and air, the approach that was worked out here",
+      "Move the vineyard to the wet west coast",
+      "Switch to overhead pergola training"
+    ],
+    answer: 1,
+    region: "newZealand",
+    explanation: "Fertile soils and plenty of light make New Zealand vines vigorous, and canopy management, opening the leaves to sun and air, was worked out here to deal with it. More water would only add vigour, and the west coast is where the rain falls. Pergolas belong to Argentina's bulk vineyards."
+  },
+  {
+    id: "nw-18",
+    type: "scenario",
+    country: "New World",
+    question: "A buyer wants a New Zealand Pinot Noir that is deeper and riper than Burgundy, from a continental region with hot dry summers, cold winters and frost. Which region?",
+    options: [
+      "Marlborough",
+      "Hawke's Bay",
+      "Central Otago",
+      "Martinborough"
+    ],
+    answer: 2,
+    region: "newZealand",
+    explanation: "Central Otago is inland in the south and is the exception to New Zealand's maritime climate: continental, with hot dry summers, cold winters and spring frost. Its long days ripen Pinot Noir on north-facing slopes into a wine with deeper colour and riper cherry fruit than Burgundy. Martinborough Pinot is savoury and drier in tannin."
+  },
+  {
+    id: "nw-19",
+    type: "map",
+    country: "New World",
+    question: "Which region is cooled by the Benguela current and the Cape Doctor wind, and counts Chenin Blanc as its most planted grape?",
+    answer: "southAfrica",
+    explanation: "The cold Benguela current flows up from the Antarctic and cools the Cape coast with fog, while the Cape Doctor, a strong south-easterly summer wind, cools and dries the vines. Chenin Blanc is the most planted grape, long used for bulk wine and brandy and now taken seriously from old vines."
+  },
+  {
+    id: "nw-20",
+    type: "map",
+    country: "New World",
+    question: "Which region bred Pinotage, calls its traditional-method sparkling wine Cap Classique and labels under the Wine of Origin scheme?",
+    answer: "southAfrica",
+    explanation: "Pinotage is South Africa's own grape, a crossing of Pinot Noir and Cinsault bred at Stellenbosch. Cap Classique is the name for traditional-method sparkling wine there, and Wine of Origin guarantees where the grapes grew, not how good the wine is."
+  },
+  {
+    id: "nw-21",
+    type: "connection",
+    country: "New World",
+    question: "Why do Walker Bay and Elgin grow Pinot Noir and Chardonnay while Stellenbosch, not far away, ripens Cabernet Sauvignon?",
+    options: [
+      "They lie nearest the cold sea and higher up, so they are the coolest sites at the Cape",
+      "Their granite soils are too poor for Cabernet Sauvignon",
+      "The Cape Doctor brings them summer rain",
+      "They are inland and rely on irrigation"
+    ],
+    answer: 0,
+    region: "southAfrica",
+    explanation: "Walker Bay and Elgin are nearest the Benguela-cooled sea and sit higher up, so they are the coolest places at the Cape and suit Pinot Noir and Chardonnay. Stellenbosch is a few miles inland on granite slopes, cooled only by False Bay, and is warm enough for Cabernet. The Cape Doctor is a dry wind, and inland South Africa is the hot, irrigated part."
+  },
+  {
+    id: "nw-22",
+    type: "connection",
+    country: "New World",
+    question: "Why has Chenin Blanc served both for cheap bulk wine and for serious old-vine dry whites in South Africa?",
+    options: [
+      "It ripens so late that it escapes the Cape heat",
+      "It is a crossing bred specially for the Cape",
+      "Its high acidity survives the sun, so it stays fresh whether picked for volume or from old vines for concentration",
+      "It is resistant to leafroll virus"
+    ],
+    answer: 2,
+    region: "southAfrica",
+    explanation: "Chenin Blanc keeps its high acidity even in the Cape sun, which made it useful for bulk wine and brandy and now makes old-vine, barrel-fermented versions full and honeyed yet fresh. The crossing bred at Stellenbosch is Pinotage, not Chenin, and leafroll virus has forced replanting across old vineyards regardless of grape."
+  },
+  {
+    id: "nw-23",
+    type: "scenario",
+    country: "New World",
+    question: "A producer wants concentrated Syrah and Chenin Blanc from dry-farmed old bush vines, with no irrigation. Which South African district fits?",
+    options: [
+      "Constantia",
+      "Elgin",
+      "Walker Bay",
+      "Swartland"
+    ],
+    answer: 3,
+    region: "southAfrica",
+    explanation: "Swartland's dry, poor shale and granite soils carry old bush vines of Chenin and Syrah that are farmed without irrigation, and the dry summers concentrate the fruit. Elgin and Walker Bay are the cool coastal sites for Pinot Noir and Chardonnay, and Constantia is known for its sweet Muscat."
+  },
+  {
+    id: "nw-24",
+    type: "scenario",
+    country: "New World",
+    question: "A buyer wants a deep-coloured South African red with red plum, blackberry and a smoky edge, made from the country's own grape. Which should they ask for?",
+    options: [
+      "Cinsault",
+      "Pinotage",
+      "Carmenère",
+      "Malbec"
+    ],
+    answer: 1,
+    region: "southAfrica",
+    explanation: "Pinotage is the grape South Africa bred for itself by crossing Pinot Noir with Cinsault, and it gives deep colour, red plum, blackberry, smoke and medium-high tannin. Cinsault is one of its parents rather than a signature grape, while Carmenère and Malbec are the signature reds of Chile and Argentina."
+  },
+  {
+    id: "nw-25",
+    type: "map",
+    country: "New World",
+    question: "Which long, thin region lies between the Humboldt-chilled Pacific and the Andes, with a coastal range that keeps its Central Valley warm and dry?",
+    answer: "chile",
+    explanation: "Chile has the cold Pacific on one side and the Andes on the other. The Humboldt current gives the coast fog and cool breezes, the Andes send cold air down at night and snowmelt for irrigation, and the coastal range in between keeps the Central Valley warm, dry and sunny."
+  },
+  {
+    id: "nw-26",
+    type: "map",
+    country: "New World",
+    question: "Which region grows Carmenère, the Bordeaux grape mistaken for Merlot for a century, on ungrafted vines because phylloxera has never arrived?",
+    answer: "chile",
+    explanation: "Chile is walled off by desert, mountains, ocean and ice, so phylloxera never reached it and most vines grow on their own roots. Carmenère was lost to phylloxera in France but survived in Chile, where it was taken for Merlot for a hundred years."
+  },
+  {
+    id: "nw-27",
+    type: "connection",
+    country: "New World",
+    question: "Why do Casablanca and San Antonio grow Sauvignon Blanc and Pinot Noir while Maipo grows Cabernet Sauvignon?",
+    options: [
+      "Casablanca is high in the Andes, so the nights are cold",
+      "Those valleys open to the sea, so fog and cool air pour in; Maipo is warmer and cooled by cold Andean nights instead",
+      "Casablanca has limestone soils that suit white grapes",
+      "Maipo is irrigated and Casablanca is not"
+    ],
+    answer: 1,
+    region: "chile",
+    explanation: "Chile has two ways to cool a warm country. Casablanca and San Antonio open to the Humboldt-chilled sea, so fog and cool days suit Sauvignon Blanc and Pinot Noir. Maipo Alto climbs the Andean foothills, where cold nights keep Cabernet fresh while the days ripen it fully."
+  },
+  {
+    id: "nw-28",
+    type: "connection",
+    country: "New World",
+    question: "Why is Carmenère grown in warm Colchagua rather than on the cool coast?",
+    options: [
+      "It needs fog to keep its colour",
+      "It ripens early and would burn in the heat",
+      "Colchagua is the only valley free of phylloxera",
+      "It ripens very late and tastes green unless it gets a warm site"
+    ],
+    answer: 3,
+    region: "chile",
+    explanation: "Carmenère ripens very late, so it needs a warm, dry site between the ranges such as Colchagua, and winemakers pick it as late as the season allows to lose its green edge. On the cool, foggy coast it would not ripen. The whole of Chile is free of phylloxera, not just Colchagua."
+  },
+  {
+    id: "nw-29",
+    type: "scenario",
+    country: "New World",
+    question: "A producer wants Chilean Cabernet Sauvignon with structure and freshness, grown on poor gravelly foothill soils where cold nights slow the ripening. Which zone?",
+    options: [
+      "Casablanca Valley",
+      "Leyda",
+      "Maipo Alto",
+      "Maule"
+    ],
+    answer: 2,
+    region: "chile",
+    explanation: "Maipo Alto sits on the Andean foothills, where the soils are poor, gravelly and free-draining and the cold night air from the mountains keeps Cabernet fresh. The result is full-bodied blackcurrant and mint with firm ripe tannin. Casablanca and Leyda are the foggy coastal valleys for white grapes and Pinot Noir, and Maule is part of the Central Valley volume area."
+  },
+  {
+    id: "nw-30",
+    type: "scenario",
+    country: "New World",
+    question: "A Chilean label carries the word Costa. What does that tell the buyer?",
+    options: [
+      "The grapes came from the coastal side of the valley, in the fog and cool breezes",
+      "The wine was aged in French oak",
+      "The grapes came from the Andean foothills",
+      "It is the top quality tier, above the valley DO"
+    ],
+    answer: 0,
+    region: "chile",
+    explanation: "Chilean labels may add Costa, Entre Cordilleras or Andes to say which side of the valley the grapes came from. Costa means the coastal side, where the Humboldt fog and breezes make it cool. Andes would mean the foothills, and the word says nothing about oak or quality."
+  },
+  {
+    id: "nw-31",
+    type: "map",
+    country: "New World",
+    question: "Which region sits in the rain shadow of the Andes, waters its vines with snowmelt carried in channels, and fears the zonda wind and summer hail?",
+    answer: "argentina",
+    explanation: "Mendoza is a high desert in the rain shadow of the Andes: very dry, very sunny, with almost no rain in the growing season, so vines depend on snowmelt irrigation. The zonda, a hot dry wind off the mountains, can spoil flowering, and summer hail can strip a vineyard in minutes."
+  },
+  {
+    id: "nw-32",
+    type: "map",
+    country: "New World",
+    question: "Which region grows Torrontés at extreme altitude in Cafayate and Malbec in Luján de Cuyo and the Uco Valley?",
+    answer: "argentina",
+    explanation: "Luján de Cuyo is Argentina's classic Malbec district, and the Uco Valley, higher and cooler, gives a fresher, more structured Malbec. Torrontés, Argentina's own white, grows in Cafayate in Salta, where extreme altitude keeps its perfume fresh."
+  },
+  {
+    id: "nw-33",
+    type: "connection",
+    country: "New World",
+    question: "Why is Mendoza Malbec deeper, fuller and softer than Malbec from Cahors?",
+    options: [
+      "Mendoza's rich, fertile soils give bigger yields",
+      "The zonda wind dries the grapes on the vine",
+      "At altitude the intense sunlight thickens the skins for colour and ripe tannin, while cold nights keep the acidity",
+      "It is aged for longer in American oak"
+    ],
+    answer: 2,
+    region: "argentina",
+    explanation: "Altitude replaces the sea as Argentina's cooler. The fierce sunlight thickens the skins, giving deep colour and ripe tannin, and the cold nights keep the acidity, so Malbec here is fuller and softer than in Cahors. The soils are poor and stony, which keeps vigour down, and the serious wines see French oak."
+  },
+  {
+    id: "nw-34",
+    type: "connection",
+    country: "New World",
+    question: "Why does Torrontés keep its floral perfume when grown in Cafayate?",
+    options: [
+      "Extreme altitude gives cold nights, which keep the perfume fresh instead of letting it turn oily",
+      "It is barrel-fermented with full malolactic conversion",
+      "Cafayate is cooled by sea fog",
+      "Pergola training shades the grapes from all sunlight"
+    ],
+    answer: 0,
+    region: "argentina",
+    explanation: "Cafayate in Salta is cooled only by extreme altitude, and its cold nights keep Torrontés fresh and floral, with rose, geranium and grape, instead of letting it turn oily. The wine is fermented cool in stainless steel with no oak and no malolactic, and drunk young. Salta is far from any sea."
+  },
+  {
+    id: "nw-35",
+    type: "scenario",
+    country: "New World",
+    question: "A Mendoza producer wants a fresher, firmer and more floral Malbec. Where should they plant?",
+    options: [
+      "Maipú, on the valley floor",
+      "Under overhead pergolas for shade",
+      "Beside the irrigation channels on deeper soil",
+      "Higher and cooler, in the Uco Valley"
+    ],
+    answer: 3,
+    region: "argentina",
+    explanation: "The Uco Valley is higher and cooler than the classic districts, so its nights are colder and its Malbec comes out fresher, firmer and more floral, helped by more limestone and rock among the gravel. Pergola training is kept for bulk wine and Torrontés, and deeper soils would only add vigour."
+  },
+  {
+    id: "nw-36",
+    type: "scenario",
+    country: "New World",
+    question: "A Mendoza vineyard loses its whole crop in a few minutes one summer afternoon. What happened, and what is the usual precaution?",
+    options: [
+      "Spring frost; wind machines",
+      "Hail; hail nets over the vines",
+      "Harvest rain; picking early",
+      "Phylloxera; grafting onto rootstock"
+    ],
+    answer: 1,
+    region: "argentina",
+    explanation: "Summer hail can strip a Mendoza vineyard in minutes, and hail nets are the common defence. Harvest rain is not a Mendoza problem, since almost none falls in the growing season, and the sandy soils are a poor home for phylloxera."
   }
 ];

@@ -26,7 +26,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 **🔗 Connect** — The core differentiator. For each region, see the full chain: Climate → Soil → Grapes → Winemaking → Style. Understand *why* Champagne uses chalk soils, *why* Alsace is dry despite being northerly, *why* Chenin Blanc can be made in every style.
 
-**✦ Quiz** — Three question types that test understanding, not just recall. Questions cover France, Italy, Spain and Germany, and the map switches to the country of the question:
+**✦ Quiz** — Three question types that test understanding, not just recall. Questions cover every region in the app, and the map switches to the country of the question:
 - **Map questions** — "Click the region famous for galets"
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
@@ -78,7 +78,7 @@ New World (6 WSET L3 countries, one region each) sharing one map:
 - **Chile** — the Pacific (Humboldt current) and the Andes as the two coolers, Casablanca and San Antonio whites, Maipo Cabernet, Colchagua Carmenère (the Bordeaux grape mistaken for Merlot), Central Valley volume; ungrafted vines, no phylloxera
 - **Argentina** — Mendoza Malbec at altitude (Luján de Cuyo, Uco Valley), desert climate irrigated by Andean meltwater, the zonda wind and hail, thick skins from strong sunlight, Torrontés from high-altitude Salta; Cabernet and Bonarda
 
-*France, Italy, Spain, Germany and the New World are built. The quiz covers France, Italy, Spain and Germany; New World questions are next.*
+*France, Italy, Spain, Germany and the New World are built. The quiz covers all of them.*
 
 ## Tech Stack
 
@@ -103,7 +103,7 @@ npm run dev
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [x] Germany (Mosel, Rheingau, Pfalz)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (129: 63 France, 24 Italy, 24 Spain, 18 Germany)
+- [x] Expand quiz bank to 50+ questions (165: 63 France, 24 Italy, 24 Spain, 18 Germany, 36 New World)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (67 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
