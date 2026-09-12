@@ -11,6 +11,8 @@ import { SPAIN_REGIONS } from "../src/data/spain.js";
 import { SPAIN_REGION_PATHS } from "../src/data/spain-map.js";
 import { GERMANY_REGIONS } from "../src/data/germany.js";
 import { GERMANY_REGION_PATHS } from "../src/data/germany-map.js";
+import { NEW_WORLD_REGION_PATHS } from "../src/data/newworld-map.js";
+import { NEW_WORLD_REGIONS } from "../src/data/newworld.js";
 
 // The map, the region facts and the quiz are three files that have to agree.
 // These checks run before every build so a typo in a region key or an answer
@@ -75,8 +77,13 @@ test("the Germany map draws exactly the regions the data describes", () => {
   checkPaths(GERMANY_REGION_PATHS, GERMANY_REGIONS);
 });
 
+test("every New World region has every field the panels read", () => {
+  checkRegions(NEW_WORLD_REGIONS);
+  for (const [key, r] of Object.entries(NEW_WORLD_REGIONS)) assert.equal(r.country, "New World", `${key}.country`);
+});
+
 test("no region key or colour is shared between countries", () => {
-  const tables = [FRANCE_REGIONS, ITALY_REGIONS, SPAIN_REGIONS, GERMANY_REGIONS];
+  const tables = [FRANCE_REGIONS, ITALY_REGIONS, SPAIN_REGIONS, GERMANY_REGIONS, NEW_WORLD_REGIONS];
   const keys = tables.flatMap((t) => Object.keys(t));
   assert.equal(new Set(keys).size, keys.length, "keys must be unique across countries: the panels read one merged table");
   const colours = tables.flatMap((t) => Object.values(t)).map((r) => r.color.toUpperCase());
@@ -113,6 +120,13 @@ test("every country in the region table has a map, and every map a country", asy
   const { readFileSync } = await import("node:fs");
   const src = readFileSync(new URL("../src/maps.jsx", import.meta.url), "utf8");
   const { COUNTRIES } = await import("../src/data/regions.js");
-  const listed = [...src.matchAll(/(\w+): \w+Map/g)].map((m) => m[1]).sort();
+  const listed = [...src.matchAll(/"?([\w ]+)"?: \w+Map/g)].map((m) => m[1].trim()).sort();
   assert.deepEqual(listed, Object.keys(COUNTRIES).sort());
+});
+
+test("the New World map draws exactly the regions the data describes", () => {
+  // The New World facts file is written separately, so this checks the map
+  // against the agreed list of six keys rather than importing that file.
+  const NEW_WORLD_KEYS = ["california", "australia", "newZealand", "southAfrica", "chile", "argentina"];
+  checkPaths(NEW_WORLD_REGION_PATHS, Object.fromEntries(NEW_WORLD_KEYS.map((k) => [k, {}])));
 });

@@ -88,5 +88,5 @@ test("regionsGrowing finds the regions that name a grape by any alias", () => {
   assert.ok(!gr.white.includes("rhoneSouth"), "Grenache Blanc is its own grape, not white Grenache");
 
   assert.deepEqual(regionsGrowing("vermentino", REGIONS).white, ["provence"], "Rolle should count as Vermentino");
-  assert.deepEqual(regionsGrowing("malbec", REGIONS).red, ["southWest"], "Malbec (Côt) should count as Malbec");
+  assert.deepEqual(regionsGrowing("malbec", REGIONS).red, ["southWest", "argentina"], "Malbec (Côt) should count as Malbec");
 });

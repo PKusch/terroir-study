@@ -309,6 +309,36 @@ export const GRAPES = {
     aromas: ["blackberry", "black cherry", "plum", "sour cherry", "floral"],
     notes: "A German crossing bred to ripen reliably in a cool climate and give deep colour. Fruity and soft, mostly drunk young, though some see oak."
   },
+  pinotage: {
+    name: "Pinotage",
+    aliases: [],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["red plum", "blackberry", "smoke", "banana", "sweet spice"],
+    notes: "South Africa's own grape, a crossing of Pinot Noir and Cinsault bred at Stellenbosch. Ripens early and gives deep colour; pushed too hard it turns rubbery. Made light and fruity, or full, oaked and smoky."
+  },
+  carmenere: {
+    name: "Carmenère",
+    aliases: [],
+    colour: "red",
+    body: "high",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["blackberry", "black plum", "green bell pepper", "black pepper", "coffee"],
+    notes: "An old Bordeaux grape almost lost to phylloxera and grown on in Chile for a century under the name Merlot. Ripens very late and needs a warm, dry site; picked early it is green and herbaceous, fully ripe it is soft, spicy and savoury."
+  },
+  bonarda: {
+    name: "Bonarda",
+    aliases: ["Douce Noir", "Charbono"],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["black cherry", "plum", "raspberry", "violet", "sweet spice"],
+    notes: "Argentina's second red grape, unrelated to the Italian grapes of the same name; it came from Savoie, where it is Douce Noir. Deep colour and soft tannin, mostly unoaked and drunk young; old vines and low yields make it serious."
+  },
 
   // ── Whites ────────────────────────────────────────────────────────────────
   sauvignonBlanc: {
@@ -607,6 +637,15 @@ export const GRAPES = {
     acidity: "medium",
     aromas: ["apple", "pear", "white flowers", "almond", "citrus"],
     notes: "Early ripening and easy to grow, with a neutral character like unoaked Chardonnay. Made dry for early drinking and as a base for sparkling wine."
+  },
+  torrontes: {
+    name: "Torrontés",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["rose", "geranium", "grape", "peach", "lemon"],
+    notes: "Argentina's own white, a natural crossing with Muscat, which is where the perfume comes from. Best at very high altitude in Salta, where cold nights keep it fresh; over-ripe it turns oily and bitter. Cool fermentation, no oak, drunk young."
   }
 };
 

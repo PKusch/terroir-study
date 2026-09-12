@@ -5,5 +5,6 @@ import { FranceMap } from "./FranceMap.jsx";
 import { ItalyMap } from "./ItalyMap.jsx";
 import { SpainMap } from "./SpainMap.jsx";
 import { GermanyMap } from "./GermanyMap.jsx";
+import { NewWorldMap } from "./NewWorldMap.jsx";
 
-export const MAPS = { France: FranceMap, Italy: ItalyMap, Spain: SpainMap, Germany: GermanyMap };
+export const MAPS = { France: FranceMap, Italy: ItalyMap, Spain: SpainMap, Germany: GermanyMap, "New World": NewWorldMap };

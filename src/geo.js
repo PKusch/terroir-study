@@ -12,10 +12,17 @@ export const pt = (lon, lat) => { const [x, y] = geoToSvg(lon, lat); return `${x
 // ─── Projection factory ──────────────────────────────────────────────────────
 // Each country map gets its own bounds but the same 500×420 viewBox, so the
 // maps swap in and out of the same slot without the layout moving.
-export const makeProjection = ({ lonMin, lonMax, latMin, latMax, width = 500, height = 420 }) => {
+export const makeProjection = ({ lonMin, lonMax, latMin, latMax, width = 500, height = 420, equal = false, offsetX = 0, offsetY = 0 }) => {
+  // `equal` keeps one unit per degree in both directions and centres the
+  // map, so a wide world strip is not stretched tall to fill the box.
+  const sx = width / (lonMax - lonMin);
+  const sy = height / (latMax - latMin);
+  const s = equal ? Math.min(sx, sy) : null;
+  const dx = offsetX + (equal ? (width - (lonMax - lonMin) * s) / 2 : 0);
+  const dy = offsetY + (equal ? (height - (latMax - latMin) * s) / 2 : 0);
   const geoToSvg = (lon, lat) => {
-    const x = ((lon - lonMin) / (lonMax - lonMin)) * width;
-    const y = ((latMax - lat) / (latMax - latMin)) * height;
+    const x = dx + (lon - lonMin) * (equal ? s : sx);
+    const y = dy + (latMax - lat) * (equal ? s : sy);
     return [Math.round(x * 10) / 10, Math.round(y * 10) / 10];
   };
   const pt = (lon, lat) => { const [x, y] = geoToSvg(lon, lat); return `${x},${y}`; };

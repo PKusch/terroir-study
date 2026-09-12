@@ -69,7 +69,16 @@ Germany (3 WSET L3 exam regions) with its own map, Berlin as orientation marker,
 - **Rheingau** — Riesling where the Rhine turns west; warmer and drier, fuller dry wines and VDP Grosses Gewächs; Spätburgunder at Assmannshausen; botrytis sweet wines
 - **Pfalz** — warm and dry in the rain shadow of the Haardt (the Vosges continued); riper dry Riesling, Grauburgunder, Weissburgunder, Spätburgunder, Dornfelder
 
-*France, Italy, Spain and Germany are built. The New World is on the roadmap below, not yet started. The quiz covers all four.*
+New World (6 WSET L3 countries, one region each) sharing one map:
+
+- **California** — Napa Cabernet, Sonoma Pinot Noir and Zinfandel, Santa Barbara and Paso Robles, Central Valley volume; Pacific fog through gaps in the Coast Ranges decides the style, and an AVA is a place name, not a quality mark
+- **Australia** — Barossa Shiraz from old ungrafted vines, Eden and Clare Riesling at altitude, Coonawarra Cabernet on terra rossa, Hunter Sémillon picked early to age, Margaret River and Yarra; Murray irrigation for volume; the GI system
+- **New Zealand** — Marlborough Sauvignon Blanc from long sunny days and cool nights, Central Otago Pinot Noir at the world's southern limit, Hawke's Bay Syrah and Bordeaux blends on the Gimblett Gravels, Martinborough; screwcaps everywhere
+- **South Africa** — Stellenbosch Cabernet and Bordeaux blends, Chenin Blanc as the most planted grape, Pinotage (Pinot Noir × Cinsault), the Benguela current and the Cape Doctor, Walker Bay and Elgin for cool-climate Pinot and Chardonnay, Swartland bush vines; Wine of Origin
+- **Chile** — the Pacific (Humboldt current) and the Andes as the two coolers, Casablanca and San Antonio whites, Maipo Cabernet, Colchagua Carmenère (the Bordeaux grape mistaken for Merlot), Central Valley volume; ungrafted vines, no phylloxera
+- **Argentina** — Mendoza Malbec at altitude (Luján de Cuyo, Uco Valley), desert climate irrigated by Andean meltwater, the zonda wind and hail, thick skins from strong sunlight, Torrontés from high-altitude Salta; Cabernet and Bonarda
+
+*France, Italy, Spain, Germany and the New World are built. The quiz covers France, Italy, Spain and Germany; New World questions are next.*
 
 ## Tech Stack
 
@@ -93,10 +102,10 @@ npm run dev
 - [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [x] Germany (Mosel, Rheingau, Pfalz)
-- [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
+- [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
 - [x] Expand quiz bank to 50+ questions (129: 63 France, 24 Italy, 24 Spain, 18 Germany)
 - [x] Spaced repetition algorithm for quiz mode
-- [x] Grape variety profiles with tasting descriptors (63 grapes)
+- [x] Grape variety profiles with tasting descriptors (67 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
 - [ ] Sub-region drill-down maps (e.g. click Bordeaux → see Médoc, Saint-Émilion, Pomerol)
