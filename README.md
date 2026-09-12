@@ -20,7 +20,7 @@ The existing tools fail because they:
 
 Terroir Study is **map-first and connection-oriented**. Instead of memorising facts in isolation, you learn *why* each region works the way it does — from climate through to glass.
 
-### Three Study Modes
+### Four Study Modes
 
 **🗺️ Explore** — Click any region on the interactive map of France, Italy or Germany. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
 
@@ -30,6 +30,8 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 - **Map questions** — "Click the region famous for galets"
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
+
+**🍷 Taste** — Tasting practice without a glass. The app names a wine it knows ("You are tasting: Nebbiolo from Piedmont"). You set its body, acidity and, for reds, tannin to low, medium or high, and tick the aromas you expect from eight words (the grape's own plus a few from other grapes of the same colour). Press Check and each row is marked against the grape profile, the aroma words turn green (right), red (wrong pick) or gold (missed), and a short "Why" card explains the answer from the grape and the region. Click a region on the map to taste a wine from there. This is the exam's Systematic Approach to Tasting, cut down to what the app has data for.
 
 ## Regions Covered
 
@@ -95,7 +97,7 @@ npm run dev
 - [x] Expand quiz bank to 50+ questions (87: 63 France, 24 Italy)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (63 grapes)
-- [ ] Systematic Approach to Tasting (SAT) practice mode
+- [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
 - [ ] Sub-region drill-down maps (e.g. click Bordeaux → see Médoc, Saint-Émilion, Pomerol)
 

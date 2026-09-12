@@ -4,6 +4,7 @@ import { MAPS } from "./maps.jsx";
 import { ExplorePanel } from "./ExplorePanel.jsx";
 import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
+import { TastePanel } from "./TastePanel.jsx";
 
 // ─── Main App ────────────────────────────────────────────────────────────────
 export default function WsetStudyApp() {
@@ -26,7 +27,8 @@ export default function WsetStudyApp() {
   const modes = [
     { id: "explore", label: "Explore", icon: "🗺️" },
     { id: "connect", label: "Connect", icon: "🔗" },
-    { id: "quiz", label: "Quiz", icon: "✦" }
+    { id: "quiz", label: "Quiz", icon: "✦" },
+    { id: "taste", label: "Taste", icon: "🍷" }
   ];
 
   const handleRegionClick = (key) => {
@@ -183,6 +185,7 @@ export default function WsetStudyApp() {
         <div style={{ padding: "16px 20px 40px" }}>
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}
+          {mode === "taste" && <TastePanel region={activeRegion} />}
           {mode === "quiz" && (
             <QuizMode
               mapClick={quizMapClick}
