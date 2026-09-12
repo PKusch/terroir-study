@@ -26,7 +26,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 **🔗 Connect** — The core differentiator. For each region, see the full chain: Climate → Soil → Grapes → Winemaking → Style. Understand *why* Champagne uses chalk soils, *why* Alsace is dry despite being northerly, *why* Chenin Blanc can be made in every style.
 
-**✦ Quiz** — Three question types that test understanding, not just recall. Questions cover France and Italy, and the map switches to the country of the question:
+**✦ Quiz** — Three question types that test understanding, not just recall. Questions cover France, Italy, Spain and Germany, and the map switches to the country of the question:
 - **Map questions** — "Click the region famous for galets"
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
@@ -69,7 +69,7 @@ Germany (3 WSET L3 exam regions) with its own map, Berlin as orientation marker,
 - **Rheingau** — Riesling where the Rhine turns west; warmer and drier, fuller dry wines and VDP Grosses Gewächs; Spätburgunder at Assmannshausen; botrytis sweet wines
 - **Pfalz** — warm and dry in the rain shadow of the Haardt (the Vosges continued); riper dry Riesling, Grauburgunder, Weissburgunder, Spätburgunder, Dornfelder
 
-*France, Italy, Spain and Germany are built. The New World is on the roadmap below, not yet started. The quiz covers France and Italy.*
+*France, Italy, Spain and Germany are built. The New World is on the roadmap below, not yet started. The quiz covers all four.*
 
 ## Tech Stack
 
@@ -94,7 +94,7 @@ npm run dev
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [x] Germany (Mosel, Rheingau, Pfalz)
 - [ ] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (87: 63 France, 24 Italy)
+- [x] Expand quiz bank to 50+ questions (129: 63 France, 24 Italy, 24 Spain, 18 Germany)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (63 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)

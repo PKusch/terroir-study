@@ -1062,5 +1062,537 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "southernItaly",
     explanation: "Taurasi and Aglianico del Vulture require extended ageing in oak and bottle before release. Time is what softens Aglianico's high tannin, in the same way that Barolo needs its years before it is sold."
+  },
+  {
+    id: "es-01",
+    type: "map",
+    country: "Spain",
+    question: "Which Spanish region is shielded from Atlantic rain by the Cantabrian mountains and blends Tempranillo with Garnacha, Graciano and Mazuelo?",
+    answer: "rioja",
+    explanation: "Rioja sits behind the Cantabrian mountains, which block the Atlantic weather. Its tradition is to blend Tempranillo with Garnacha for body, Graciano for acidity and aroma, and Mazuelo for tannin."
+  },
+  {
+    id: "es-02",
+    type: "map",
+    country: "Spain",
+    question: "Which region is split into Alta, Alavesa and Oriental, and traditionally ages its reds in American oak for vanilla and coconut?",
+    answer: "rioja",
+    explanation: "Rioja Alta and Rioja Alavesa are the cooler western zones and Rioja Oriental is the warmer east. American oak is the region's traditional barrel, which is where the vanilla and coconut in a classic Rioja come from."
+  },
+  {
+    id: "es-03",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Tempranillo do best in Rioja Alta and Rioja Alavesa while Garnacha suits Rioja Oriental?",
+    options: [
+      "The west is cooler with some Atlantic influence, which suits early-ripening Tempranillo; the east is warmer and drier, giving Garnacha the heat it needs",
+      "Garnacha needs the clay-limestone slopes, which are only found in the east",
+      "Tempranillo ripens late, so it needs the extra heat of the western zones",
+      "The Ebro floods the western vineyards each spring, and only Tempranillo tolerates wet roots"
+    ],
+    answer: 0,
+    region: "rioja",
+    explanation: "Tempranillo ripens early and gives its most elegant, high-acid wines in the cooler west, where clay-limestone slopes add structure. Garnacha needs more heat, so it does well on the warmer, drier valley floor of Rioja Oriental, where it adds body and alcohol to the blend."
+  },
+  {
+    id: "es-04",
+    type: "connection",
+    country: "Spain",
+    question: "Why does a traditional Rioja Reserva show vanilla and coconut?",
+    options: [
+      "Fully ripe Garnacha gives coconut when it is grown in the east",
+      "Malolactic fermentation in stainless steel produces these aromas",
+      "The wine has spent years in American oak barrels, which give vanilla and coconut",
+      "The clay-limestone soils of Rioja Alta add sweet spice to the fruit"
+    ],
+    answer: 2,
+    region: "rioja",
+    explanation: "Oak ageing is Rioja's signature, and American oak is the traditional barrel. Tempranillo's soft red fruit takes the oak well, so long ageing in American oak became the style and the vanilla and coconut come from the barrel, not the grape or the soil."
+  },
+  {
+    id: "es-05",
+    type: "scenario",
+    country: "Spain",
+    question: "A Rioja producer wants a darker, riper and more tannic wine in the modern style. Which approach fits?",
+    options: [
+      "Age the wine longer in American oak and release it as Gran Reserva",
+      "Use riper fruit, French oak and less time in barrel",
+      "Add more Viura to the blend to build structure",
+      "Move the Tempranillo plantings to the alluvial valley floor of Rioja Oriental"
+    ],
+    answer: 1,
+    region: "rioja",
+    explanation: "Modern Rioja producers pick riper fruit, use French oak instead of American and keep the wine in barrel for less time. That gives a darker, riper, more tannic wine, whereas longer ageing in American oak makes the mellow, vanilla-scented traditional style."
+  },
+  {
+    id: "es-06",
+    type: "scenario",
+    country: "Spain",
+    question: "A restaurant wants a savoury, mellow, long Rioja with leather, dried fruit and mushroom. Which label should the buyer look for?",
+    options: [
+      "Joven",
+      "Crianza",
+      "Reserva",
+      "Gran Reserva"
+    ],
+    answer: 3,
+    region: "rioja",
+    explanation: "The ladder runs Joven, Crianza, Reserva, Gran Reserva, each marking more time in oak and then in bottle before release. Gran Reserva has had the longest ageing, so it is the savoury, mellow wine where Tempranillo's red fruit has turned to leather, dried fruit and mushroom."
+  },
+  {
+    id: "es-07",
+    type: "map",
+    country: "Spain",
+    question: "Which region on the high Duero plateau makes full-bodied Tempranillo, known locally as Tinto Fino or Tinta del País, with Toro and Rueda as its neighbours?",
+    answer: "riberaDelDuero",
+    explanation: "Ribera del Duero sits at altitude on the Duero plateau, where Tempranillo goes by the names Tinto Fino and Tinta del País. Toro, with its Tinta de Toro, and Rueda, with its Verdejo whites, lie further along the same river."
+  },
+  {
+    id: "es-08",
+    type: "map",
+    country: "Spain",
+    question: "In which Spanish region do hot days, cold nights and frost at both ends of a short season shape the wine?",
+    answer: "riberaDelDuero",
+    explanation: "Ribera del Duero's altitude gives hot summer days, cold nights and harsh winters, and the growing season is short. Spring and autumn frost are the main risks, so the grapes must ripen in a narrow window."
+  },
+  {
+    id: "es-09",
+    type: "connection",
+    country: "Spain",
+    question: "Ribera del Duero and Rioja both rely on Tempranillo. Why is Ribera darker, fuller and more tannic?",
+    options: [
+      "Cabernet Sauvignon makes up most of the Ribera blend",
+      "American oak gives more tannin than French oak",
+      "The Atlantic keeps Ribera humid, which thickens the skins",
+      "Hot days on the high plateau build deep colour and thick skins, while cold nights keep the acidity"
+    ],
+    answer: 3,
+    region: "riberaDelDuero",
+    explanation: "The difference is altitude. Hot days on the plateau give deep colour and thick skins, so firmer tannin, while cold nights keep the acidity that heat would otherwise burn off. Only small amounts of Cabernet Sauvignon are permitted, and French oak is the more common barrel here."
+  },
+  {
+    id: "es-10",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Ribera del Duero keep medium-high acidity despite its hot summer days?",
+    options: [
+      "Rain from the nearby Atlantic cools the vineyards in summer",
+      "Cold nights at altitude slow ripening and preserve the acid",
+      "Growers pick before the grapes are ripe to dodge the autumn frost",
+      "The limestone soils add acidity to the wine"
+    ],
+    answer: 1,
+    region: "riberaDelDuero",
+    explanation: "The Atlantic and the Mediterranean are both far away, so the relief comes from altitude. Cold nights slow ripening and keep the acidity while the hot days build colour and tannin. Growers pick only fully ripe fruit, which is why the wines are concentrated."
+  },
+  {
+    id: "es-11",
+    type: "scenario",
+    country: "Spain",
+    question: "A grower is planning a new vineyard in Ribera del Duero. Which risk should the plan take most seriously, and why?",
+    options: [
+      "Spring and autumn frost, because altitude means late budding and an early end to the season",
+      "Drought from the hot levante wind, as in Jerez",
+      "Rot from autumn mists off the river, as in the Rheingau",
+      "Heat stress on black slate, as in Priorat"
+    ],
+    answer: 0,
+    region: "riberaDelDuero",
+    explanation: "On the plateau budding is late and the season ends early, so frost can strike at either end. Rain is low and the region is far from both seas, so rot is not the worry; the soils are limestone and clay, not slate."
+  },
+  {
+    id: "es-12",
+    type: "scenario",
+    country: "Spain",
+    question: "A Ribera del Duero producer wants to add a small amount of another grape to the Tempranillo. Which does the DO permit?",
+    options: [
+      "Garnacha and Graciano",
+      "Verdejo",
+      "Cabernet Sauvignon and Merlot",
+      "Syrah and Cariñena"
+    ],
+    answer: 2,
+    region: "riberaDelDuero",
+    explanation: "Ribera del Duero allows small amounts of Cabernet Sauvignon and Merlot in the blend alongside Tempranillo. Garnacha and Graciano belong to the Rioja blend, Verdejo is the white grape of neighbouring Rueda, and Syrah and Cariñena are Priorat's blending grapes."
+  },
+  {
+    id: "es-13",
+    type: "map",
+    country: "Spain",
+    question: "Which region grows old bush-vine Garnacha and Cariñena on steep terraces of black licorella slate, inland from Tarragona?",
+    answer: "priorat",
+    explanation: "Priorat's vineyards sit on licorella, black slate and quartz, on terraces so steep that the work is done by hand. Old bush vines of Garnacha and Cariñena root deep into the slate to find water."
+  },
+  {
+    id: "es-14",
+    type: "map",
+    country: "Spain",
+    question: "Which Spanish region is ringed by Montsant DO and shares Spain's top quality tier with Rioja?",
+    answer: "priorat",
+    explanation: "Priorat holds DOQ status, the top tier that only it and Rioja have. Montsant DO is the ring of vineyards around it."
+  },
+  {
+    id: "es-15",
+    type: "connection",
+    country: "Spain",
+    question: "Why are yields in Priorat so tiny?",
+    options: [
+      "Frost at altitude kills much of the crop each spring",
+      "The vines are young and not yet in full production",
+      "Licorella slate drains freely and holds little water, so the old vines struggle and produce very little",
+      "Hand-harvesting on the terraces leaves much of the fruit unpicked"
+    ],
+    answer: 2,
+    region: "priorat",
+    explanation: "The slate stores heat, drains freely and holds little water, so in the hot, dry summer the old bush vines have to push their roots deep to find any. A stressed vine gives little fruit, and that tiny yield is what concentrates the wine."
+  },
+  {
+    id: "es-16",
+    type: "connection",
+    country: "Spain",
+    question: "What does the licorella slate do for ripening in Priorat?",
+    options: [
+      "It stores heat and drains, so the grapes ripen fully while the roots dig deep for water and the skins thicken",
+      "It keeps the soil cool and wet, which slows ripening and keeps the wine light",
+      "Its pale surface reflects sunlight back onto the vines, like the albariza of Jerez",
+      "Its high fertility gives large bunches with thin skins"
+    ],
+    answer: 0,
+    region: "priorat",
+    explanation: "Licorella is black slate: it soaks up the heat and drains away the little rain that falls. Garnacha and Cariñena ripen fully in that warmth, and the struggle for water stresses the vine and thickens the skins, which gives the deep colour and high tannin."
+  },
+  {
+    id: "es-17",
+    type: "scenario",
+    country: "Spain",
+    question: "A Priorat grower wants to bring in machines to cut the cost of vineyard work. Why is that hard?",
+    options: [
+      "The DOQ rules ban machinery in the vineyard",
+      "The vines are trellised too high for a tractor to pass",
+      "The soil is too sandy to carry a machine's weight",
+      "The terraces (costers) are too steep for machines, so the work is done by hand"
+    ],
+    answer: 3,
+    region: "priorat",
+    explanation: "Priorat's old bush vines sit on steep terraces, often too steep for any machine. That is why hand work runs right through the year, production is small and the wines are expensive."
+  },
+  {
+    id: "es-18",
+    type: "scenario",
+    country: "Spain",
+    question: "A taster has a deep, full-bodied, high-alcohol red with ripe black fruit, dried fig, liquorice and a stony edge, aged in new French oak. Which is it most likely to be?",
+    options: [
+      "Rioja Alavesa Crianza",
+      "Priorat DOQ",
+      "Oloroso Sherry",
+      "Barolo"
+    ],
+    answer: 1,
+    region: "priorat",
+    explanation: "Deep colour, full body, high alcohol and high tannin with ripe black fruit, dried fig, liquorice and a mineral edge from the slate is the Priorat profile. Rioja is red-fruited and mellower, Oloroso is a fortified brown wine, and Barolo is Italian."
+  },
+  {
+    id: "es-19",
+    type: "map",
+    country: "Spain",
+    question: "Which region's white albariza soil soaks up the winter rain, and whose wines are fortified and aged in a solera?",
+    answer: "sherry",
+    explanation: "Albariza is the chalky white soil of the Sherry region in the far south of Spain. It holds winter rain through the dry summer, and every Sherry style is fortified and then aged in the solera system."
+  },
+  {
+    id: "es-20",
+    type: "map",
+    country: "Spain",
+    question: "Which region includes Jerez de la Frontera, Sanlúcar de Barrameda and El Puerto de Santa María?",
+    answer: "sherry",
+    explanation: "These three towns are the home of Sherry. Manzanilla is made only in seaside Sanlúcar de Barrameda, where the flor grows thickest."
+  },
+  {
+    id: "es-21",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Fino stay pale and fresh while Oloroso turns brown and nutty?",
+    options: [
+      "Fino is made from Pedro Ximénez and Oloroso from Palomino",
+      "Fino is fortified lightly so flor grows and shields it from air; Oloroso is fortified higher, so flor cannot live and the wine ages in contact with air",
+      "Fino is aged in stainless steel and Oloroso in new oak",
+      "Oloroso is sweetened with sun-dried grapes, which darken it"
+    ],
+    answer: 1,
+    region: "sherry",
+    explanation: "The level of fortification decides the style. A light fortification lets flor, a layer of yeast, grow on the wine and protect it from air, so Fino stays pale. Fortify a little more and the flor cannot live, so Oloroso ages oxidatively and turns brown, walnutty and full."
+  },
+  {
+    id: "es-22",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Palomino survive the hot, dry summer in Jerez without irrigation?",
+    options: [
+      "The levante wind brings summer rain from the east",
+      "Palomino is a drought-resistant red grape with deep roots",
+      "The vines are trained high to shade the soil",
+      "The albariza soil soaks up the winter rain and holds it through the summer"
+    ],
+    answer: 3,
+    region: "sherry",
+    explanation: "Winter rain is the vines' water for the whole year. The chalky albariza stores it and gives it back through the dry summer, and its pale surface reflects light onto the vines. Palomino is a white grape, the levante is a hot dry wind, and the vines are trained low."
+  },
+  {
+    id: "es-23",
+    type: "scenario",
+    country: "Spain",
+    question: "A bodega wants its Fino to taste the same year after year. Which practice delivers that?",
+    options: [
+      "The solera system, fractional blending across rows of barrels so every bottle is a blend of ages",
+      "Bottling each vintage separately, as for a vintage Champagne",
+      "Fortifying higher so the flor dies and the wine stabilises",
+      "Adding sun-dried Pedro Ximénez to mask the differences between years"
+    ],
+    answer: 0,
+    region: "sherry",
+    explanation: "The solera blends young wine into older wine across rows of barrels, so what is drawn off is always a blend of many ages. That is why the house style stays constant from year to year. Fortifying higher would kill the flor and turn the wine into an Oloroso."
+  },
+  {
+    id: "es-24",
+    type: "scenario",
+    country: "Spain",
+    question: "A buyer wants the lightest, freshest and saltiest style of Sherry. Which should they choose?",
+    options: [
+      "Oloroso from Jerez de la Frontera",
+      "Cream",
+      "Manzanilla from Sanlúcar de Barrameda",
+      "Pedro Ximénez"
+    ],
+    answer: 2,
+    region: "sherry",
+    explanation: "Manzanilla is the lightest and freshest Sherry, with a salty tang. It is made only in seaside Sanlúcar de Barrameda, where the humid poniente wind off the Atlantic keeps the bodegas cool and the flor grows thickest."
+  },
+  {
+    id: "de-01",
+    type: "map",
+    country: "Germany",
+    question: "Which region grows Riesling on some of the steepest slopes in the world, on dark Devonian slate, with each vine tied to its own post?",
+    answer: "mosel",
+    explanation: "The Mosel's vineyards climb the slate slopes above the river's bends. Single-post training suits the slope, and almost all the work is by hand."
+  },
+  {
+    id: "de-02",
+    type: "map",
+    country: "Germany",
+    question: "Which German region includes Bernkastel, Piesport and Wehlen, together with the Saar and the Ruwer?",
+    answer: "mosel",
+    explanation: "Bernkastel, Piesport and Wehlen are villages of the Mittelmosel. The Saar and the Ruwer are the Mosel's tributary valleys and belong to the same region."
+  },
+  {
+    id: "de-03",
+    type: "connection",
+    country: "Germany",
+    question: "Why are off-dry and sweet styles the norm in the Mosel?",
+    options: [
+      "Warm summers give so much sugar that the yeast cannot finish fermenting it",
+      "Slow, late ripening keeps very high acidity, so a little residual sugar balances the wine rather than cloying it",
+      "The slate soils add sugar to the grapes",
+      "German law requires residual sugar in every Qualitätswein"
+    ],
+    answer: 1,
+    region: "mosel",
+    explanation: "At the northern limit of grape growing, ripening is slow and late, so the acidity stays very high. Against that acid a little sugar reads as balance, not sweetness, which is why Kabinett and Spätlese are usually off-dry to medium-sweet. Low sugar at harvest also keeps the alcohol low."
+  },
+  {
+    id: "de-04",
+    type: "connection",
+    country: "Germany",
+    question: "In the Mosel the sunny side of each river bend is planted and the shaded side often is not. Why?",
+    options: [
+      "The shaded slopes are on fertile loam kept for Müller-Thurgau",
+      "The river floods the shaded bank every spring",
+      "Slate only occurs on the sunny side of the valley",
+      "At this northern latitude only steep, south-facing slopes catch enough of the low sun to ripen Riesling"
+    ],
+    answer: 3,
+    region: "mosel",
+    explanation: "Getting the grapes ripe is the constant worry this far north. Steep, south-facing slate slopes catch the low sun, and the river adds reflected light and stored warmth into autumn. Sites that face away from the sun simply cannot ripen Riesling."
+  },
+  {
+    id: "de-05",
+    type: "scenario",
+    country: "Germany",
+    question: "A Mosel winemaker wants to keep the fruit and acidity of the Riesling intact. Which cellar approach fits?",
+    options: [
+      "Stainless steel or old large Fuder, no new oak and no malolactic fermentation",
+      "New barriques and full malolactic fermentation",
+      "Long oxidative ageing under a layer of flor",
+      "New American oak, as for a Rioja Reserva"
+    ],
+    answer: 0,
+    region: "mosel",
+    explanation: "The Mosel aim is to change the Riesling as little as possible. Stainless steel or old Fuder add no oak flavour, and skipping malolactic keeps the sharp acidity. New oak or malolactic would soften and mask what the region is prized for."
+  },
+  {
+    id: "de-06",
+    type: "scenario",
+    country: "Germany",
+    question: "A buyer sees Spätlese on a Mosel label and assumes the wine must be sweet. What does the Prädikat actually tell them?",
+    options: [
+      "The sweetness of the finished wine at bottling",
+      "How many years the wine spent in oak",
+      "How ripe the grapes were at harvest, so the wine can still be dry if it is labelled trocken",
+      "That the grapes were frozen on the vine"
+    ],
+    answer: 2,
+    region: "mosel",
+    explanation: "The Prädikat ladder describes ripeness at harvest, not sweetness. A Spätlese is usually off-dry to medium-sweet, but a Spätlese trocken is fermented dry. Only Eiswein means the grapes were frozen on the vine."
+  },
+  {
+    id: "de-07",
+    type: "map",
+    country: "Germany",
+    question: "Which region's vineyards face south across the Rhine where the river turns west, with the Taunus hills behind them?",
+    answer: "rheingau",
+    explanation: "The Rhine turns west for a stretch in the Rheingau, so the whole slope faces south across the water. The Taunus hills shelter it from cold north winds."
+  },
+  {
+    id: "de-08",
+    type: "map",
+    country: "Germany",
+    question: "Which German region includes Rüdesheim, Johannisberg and Hochheim, and grows Spätburgunder on the slate at Assmannshausen?",
+    answer: "rheingau",
+    explanation: "These are the Rheingau's villages. Assmannshausen, at the steep slate western end, is where the region's Spätburgunder is concentrated."
+  },
+  {
+    id: "de-09",
+    type: "connection",
+    country: "Germany",
+    question: "Why is dry Riesling the main style in the Rheingau, where the Mosel makes off-dry?",
+    options: [
+      "The loess soils of the eastern Rheingau strip out the acidity",
+      "The VDP growers' association forbids residual sugar",
+      "More sun and less rain give riper grapes with enough acidity to stay balanced when dry",
+      "Autumn mists off the Rhine stop the fermentation before it finishes"
+    ],
+    answer: 2,
+    region: "rheingau",
+    explanation: "The south-facing bank and the shelter of the Taunus make the Rheingau warmer and drier than the Mosel. Riper grapes carry enough acidity to be balanced without sugar, so the best wines are dry and full rather than off-dry and delicate."
+  },
+  {
+    id: "de-10",
+    type: "connection",
+    country: "Germany",
+    question: "Why does the Rheingau produce great botrytis wines in the right years?",
+    options: [
+      "Autumn mists off the wide, slow Rhine bring botrytis in warm years",
+      "The Taunus hills trap rain over the vineyards",
+      "The slate soils hold moisture around the bunches",
+      "Growers leave the grapes to freeze on the vine"
+    ],
+    answer: 0,
+    region: "rheingau",
+    explanation: "The Rhine is wide and slow here, and in warm autumns its mists settle on the vines and bring botrytis. That is what makes the sweet Prädikat wines, from Spätlese up to Trockenbeerenauslese, rich with honey and marmalade. Frozen grapes make Eiswein, a different thing."
+  },
+  {
+    id: "de-11",
+    type: "scenario",
+    country: "Germany",
+    question: "A Rheingau producer wants to label a top dry wine from a single top-rated vineyard with a grand-cru-style designation. Which should they use?",
+    options: [
+      "Trockenbeerenauslese",
+      "Kabinett trocken",
+      "DOCa",
+      "VDP Grosses Gewächs"
+    ],
+    answer: 3,
+    region: "rheingau",
+    explanation: "Grosses Gewächs (GG) is the VDP growers' association label for a dry wine from a single top-rated vineyard, a grand cru idea set by the association rather than by national law. Trockenbeerenauslese is a sweet Prädikat, Kabinett is the lowest Prädikat rung, and DOCa is a Spanish tier."
+  },
+  {
+    id: "de-12",
+    type: "scenario",
+    country: "Germany",
+    question: "A Rheingau grower wants to plant Spätburgunder. Where in the region should it go?",
+    options: [
+      "The deep loess and loam on the gentle eastern slopes",
+      "The warm slate sites at the western end, around Assmannshausen",
+      "The flat land beside the river",
+      "The north-facing side of the Taunus hills"
+    ],
+    answer: 1,
+    region: "rheingau",
+    explanation: "Spätburgunder is concentrated on the slate at Assmannshausen, at the steep western end. Those warm slate sites ripen Pinot Noir, which the Mosel cannot, while the deeper loess to the east gives fuller Riesling."
+  },
+  {
+    id: "de-13",
+    type: "map",
+    country: "Germany",
+    question: "Which German region sits in the rain shadow of the Haardt hills, the northern continuation of Alsace's Vosges?",
+    answer: "pfalz",
+    explanation: "The Haardt hills block rain from the west, so the Pfalz is one of the warmest, driest and sunniest parts of Germany. The same hills, under another name, make Alsace dry."
+  },
+  {
+    id: "de-14",
+    type: "map",
+    country: "Germany",
+    question: "Which region includes the Mittelhaardt, Forst and Deidesheim, and makes Dornfelder and Grauburgunder alongside Riesling?",
+    answer: "pfalz",
+    explanation: "Forst and Deidesheim are the Mittelhaardt villages of the Pfalz, with its best Riesling sites on sandstone and basalt. The region is warm enough to be serious about red Dornfelder and Spätburgunder and about the Pinot whites."
+  },
+  {
+    id: "de-15",
+    type: "connection",
+    country: "Germany",
+    question: "Why is the Pfalz one of the warmest and driest regions in Germany?",
+    options: [
+      "It lies further south than any other German region",
+      "The Rhine turns west here, so the whole bank faces the sun",
+      "Its sandy soils store the summer heat",
+      "The Haardt hills block rain from the west, so the vineyards sit in a rain shadow"
+    ],
+    answer: 3,
+    region: "pfalz",
+    explanation: "The Haardt hills are the Vosges under another name, and they give the Pfalz the same rain shadow that makes Alsace dry. Sunny summers and dry autumns follow, so drought is more of a risk than rot. The westward turn of the river is the Rheingau's story, not this one."
+  },
+  {
+    id: "de-16",
+    type: "connection",
+    country: "Germany",
+    question: "Why does the Pfalz make far more red wine than the Mosel?",
+    options: [
+      "Its warmth ripens Spätburgunder and Dornfelder, which a cool northern region cannot",
+      "Its slate soils suit red grapes better than white",
+      "The VDP requires red wine for Grosses Gewächs",
+      "Müller-Thurgau, its volume grape, is red"
+    ],
+    answer: 0,
+    region: "pfalz",
+    explanation: "The Pfalz is warm enough to ripen almost anything, so Spätburgunder and Dornfelder make it a serious red region. The Mosel struggles to ripen even Riesling and grows no red grapes of note. Müller-Thurgau is a white grape."
+  },
+  {
+    id: "de-17",
+    type: "scenario",
+    country: "Germany",
+    question: "A Pfalz producer wants a fuller, weightier Grauburgunder. Which cellar approach fits?",
+    options: [
+      "Stop the fermentation early and add back Süssreserve",
+      "Lees contact and a little new oak",
+      "Age the wine under a layer of flor",
+      "Pick the grapes frozen on the vine"
+    ],
+    answer: 1,
+    region: "pfalz",
+    explanation: "Grauburgunder and Weissburgunder in the Pfalz are sometimes given lees contact and a little new oak for weight. Stopping fermentation would make a sweeter wine, not a fuller one, and flor and frozen grapes belong to Sherry and Eiswein."
+  },
+  {
+    id: "de-18",
+    type: "scenario",
+    country: "Germany",
+    question: "A buyer wants a deep-coloured, soft, fruity German red for early drinking, without oak. Which Pfalz grape should they ask for?",
+    options: [
+      "Spätburgunder",
+      "Riesling",
+      "Dornfelder",
+      "Tempranillo"
+    ],
+    answer: 2,
+    region: "pfalz",
+    explanation: "Dornfelder is made deep-coloured and fruity, mostly unoaked, for early drinking, with plum, blackberry and soft tannin. Spätburgunder is paler and usually sees oak, Riesling is white, and Tempranillo is Spanish."
   }
 ];
