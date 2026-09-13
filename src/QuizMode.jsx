@@ -14,7 +14,7 @@ import {
 
 const byId = (id) => QUIZ_QUESTIONS.find((q) => q.id === id) ?? QUIZ_QUESTIONS[0];
 
-export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
+export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRegion }) => {
   // Progress across sessions lives in localStorage (see progress.js). The
   // question order comes from it: unseen first, then the ones you got wrong.
   const [progress, setProgress] = useState(() => loadProgress());
@@ -284,12 +284,21 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
             {weak.map((w) => (
-              <div key={w.key} style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", lineHeight: "1.5" }}>
-                <span style={{ color: "#D5D0C4" }}>{w.name}</span>
+              <button
+                key={w.key}
+                onClick={() => onStudyRegion && onStudyRegion(w.key)}
+                title={`Open ${w.name} in Explore`}
+                style={{
+                  display: "flex", justifyContent: "space-between", width: "100%", fontSize: "12px", lineHeight: "1.5",
+                  background: "none", border: "none", padding: "2px 0", cursor: onStudyRegion ? "pointer" : "default",
+                  color: "#D5D0C4", textAlign: "left", fontFamily: "inherit"
+                }}
+              >
+                <span>{w.name} <span style={{ color: "#8B7355", fontSize: "10px" }}>· study →</span></span>
                 <span style={{ color: w.accuracy < 0.5 ? "#C47B7B" : "#B8B0A0" }}>
                   {w.correct} of {w.attempts} correct
                 </span>
-              </div>
+              </button>
             ))}
           </div>
         </div>

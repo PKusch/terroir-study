@@ -3,6 +3,7 @@ import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { MAPS } from "./maps.jsx";
 import { DetailMap } from "./DetailMap.jsx";
 import { PLACES } from "./data/places.js";
+import { countryOf } from "./data/projections.js";
 import { ExplorePanel } from "./ExplorePanel.jsx";
 import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
@@ -26,6 +27,17 @@ export default function WsetStudyApp() {
     setCountry(c);
     setActiveRegion(COUNTRIES[c][0]);
     setZoomed(false);
+  };
+
+  // From the quiz's weak-areas list straight to that region's Explore screen.
+  const studyRegion = (key) => {
+    const c = countryOf(key);
+    if (!c) return;
+    setCountry(c);
+    setActiveRegion(key);
+    setZoomed(false);
+    setMode("explore");
+    setQuizMapClick(null);
   };
 
   // Zooming in shows the region's own places; only where there are some to show.
@@ -219,6 +231,7 @@ export default function WsetStudyApp() {
               mapClick={quizMapClick}
               clearMapClick={() => setQuizMapClick(null)}
               onQuestionCountry={setQuizCountry}
+              onStudyRegion={studyRegion}
             />
           )}
         </div>
