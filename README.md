@@ -22,7 +22,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ### Four Study Modes
 
-**🗺️ Explore** — Click any region on the interactive map of France, Italy or Germany. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
+**🗺️ Explore** — Click any region on the map of France, Italy, Spain, Germany or the New World, then *Zoom into* it to see its villages and districts marked where they really are. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
 
 **🔗 Connect** — The core differentiator. For each region, see the full chain: Climate → Soil → Grapes → Winemaking → Style. Understand *why* Champagne uses chalk soils, *why* Alsace is dry despite being northerly, *why* Chenin Blanc can be made in every style.
 
@@ -108,7 +108,7 @@ npm run dev
 - [x] Grape variety profiles with tasting descriptors (67 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
-- [ ] Sub-region drill-down maps (e.g. click Bordeaux → see Médoc, Saint-Émilion, Pomerol)
+- [x] Sub-region drill-down maps (Zoom into any region: 155 places marked across 28 regions)
 
 ## About
 
