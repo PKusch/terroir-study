@@ -2,6 +2,7 @@ import { useState } from "react";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { MAPS } from "./maps.jsx";
 import { DetailMap } from "./DetailMap.jsx";
+import { PrintSheet } from "./PrintSheet.jsx";
 import { PLACES } from "./data/places.js";
 import { countryOf } from "./data/projections.js";
 import { ExplorePanel } from "./ExplorePanel.jsx";
@@ -44,6 +45,12 @@ export default function WsetStudyApp() {
   const canZoom = mode !== "quiz" && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
   const showDetail = zoomed && canZoom;
 
+  const quietButton = {
+    background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
+    padding: "4px 12px", borderRadius: "4px", fontSize: "11px", cursor: "pointer",
+    letterSpacing: "0.05em"
+  };
+
   const modes = [
     { id: "explore", label: "Explore", icon: "🗺️" },
     { id: "connect", label: "Connect", icon: "🔗" },
@@ -60,7 +67,9 @@ export default function WsetStudyApp() {
   };
 
   return (
-    <div style={{
+    <>
+    <PrintSheet regionKey={activeRegion} />
+    <div className="screen" style={{
       minHeight: "100vh",
       background: "#141212",
       color: "#E8E4D9",
@@ -179,18 +188,16 @@ export default function WsetStudyApp() {
           </div>
         </div>
 
-        {/* Zoom toggle: its own block, so it never sits on top of the heading */}
-        {canZoom && (
-          <div style={{ textAlign: "center", padding: "8px 0 0" }}>
-            <button
-              onClick={() => setZoomed((z) => !z)}
-              style={{
-                background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
-                padding: "4px 12px", borderRadius: "4px", fontSize: "11px", cursor: "pointer",
-                letterSpacing: "0.05em"
-              }}
-            >
-              {showDetail ? `← Back to ${mapCountry}` : `Zoom into ${REGIONS[activeRegion]?.name} →`}
+        {/* Zoom and print: their own block, so they never sit on top of the heading */}
+        {mode !== "quiz" && (
+          <div style={{ display: "flex", justifyContent: "center", gap: "8px", padding: "8px 0 0" }}>
+            {canZoom && (
+              <button onClick={() => setZoomed((z) => !z)} style={quietButton}>
+                {showDetail ? `← Back to ${mapCountry}` : `Zoom into ${REGIONS[activeRegion]?.name} →`}
+              </button>
+            )}
+            <button onClick={() => window.print()} style={quietButton} title="One revision sheet for this region">
+              🖨 Print summary
             </button>
           </div>
         )}
@@ -237,5 +244,7 @@ export default function WsetStudyApp() {
         </div>
       </div>
     </div>
+  
+    </>
   );
 }

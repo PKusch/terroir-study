@@ -25,3 +25,59 @@ button {
   background: #C4A96244;
   color: #E8E4D9;
 }
+
+/* ── Printing: one revision sheet per region ─────────────────────────────── */
+.print-sheet {
+  display: none;
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #111;
+  }
+  .screen {
+    display: none;
+  }
+  .print-sheet {
+    display: block;
+    max-width: 17cm;
+    margin: 0 auto;
+    font-family: 'Source Sans 3', -apple-system, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+  }
+  .print-sheet .print-kicker {
+    font-size: 8pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #555;
+  }
+  .print-sheet h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 24pt;
+    font-weight: 600;
+    margin: 2pt 0 0;
+  }
+  .print-sheet .print-subtitle {
+    font-size: 9pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 10pt;
+  }
+  .print-sheet section {
+    margin-bottom: 7pt;
+    break-inside: avoid;
+  }
+  .print-sheet h2 {
+    font-size: 8.5pt;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7a5c2e;
+    margin: 0 0 1pt;
+  }
+  .print-sheet p {
+    margin: 0;
+  }
+}
