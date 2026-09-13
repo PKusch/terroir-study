@@ -29,7 +29,7 @@ const TILES = [
   { key: "chile", col: 1, row: 0, bounds: [-77, -65, -45, -25], outlines: ["southernCone"], line: "andes",
     city: { name: "Santiago", lon: -70.65, lat: -33.45 },
     wine: [[-72.2, -32.3], [-70.3, -32.4], [-70.5, -35.5], [-72.6, -35.6]] },
-  { key: "argentina", col: 2, row: 0, bounds: [-73, -57, -44, -28], outlines: ["southernCone"], line: "andes",
+  { key: "argentina", col: 2, row: 0, bounds: [-73, -57, -44, -25], outlines: ["southernCone"], line: "andes",
     city: { name: "Buenos Aires", lon: -58.4, lat: -34.6 },
     wine: [[-69.6, -32.2], [-67.8, -32.3], [-67.9, -34.6], [-69.8, -34.4]] },
   { key: "southAfrica", col: 0, row: 1, bounds: [15, 33, -36, -21], outlines: ["southAfrica"],
@@ -57,6 +57,7 @@ export const NEW_WORLD_TILES = TILES.map((t) => {
   });
   return {
     key: t.key,
+    geoToSvg,
     x: x0, y: y0, width: TILE_W, height: TILE_H,
     outlines: t.outlines.map((name) => toPath(pt, OUTLINES[name])),
     line: t.line ? toLine(pt, OUTLINES[t.line]) : null,
@@ -69,3 +70,6 @@ export const NEW_WORLD_TILES = TILES.map((t) => {
 export const NEW_WORLD_REGION_PATHS = Object.fromEntries(
   NEW_WORLD_TILES.map((t) => [t.key, { d: t.wine, label: t.label }])
 );
+
+/** Each tile's own projection, so a zoomed view can place markers on it. */
+export const NEW_WORLD_PROJECTIONS = Object.fromEntries(NEW_WORLD_TILES.map((t) => [t.key, t.geoToSvg]));

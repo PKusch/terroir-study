@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { MAPS } from "./maps.jsx";
+import { DetailMap } from "./DetailMap.jsx";
+import { PLACES } from "./data/places.js";
 import { ExplorePanel } from "./ExplorePanel.jsx";
 import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
@@ -13,6 +15,7 @@ export default function WsetStudyApp() {
   const [activeRegion, setActiveRegion] = useState("bordeaux");
   const [quizMapClick, setQuizMapClick] = useState(null);
   const [quizCountry, setQuizCountry] = useState("France");
+  const [zoomed, setZoomed] = useState(false);
 
   // In quiz mode the map follows the country of the question on screen.
   const mapCountry = mode === "quiz" ? quizCountry : country;
@@ -22,7 +25,12 @@ export default function WsetStudyApp() {
     if (c === country) return;
     setCountry(c);
     setActiveRegion(COUNTRIES[c][0]);
+    setZoomed(false);
   };
+
+  // Zooming in shows the region's own places; only where there are some to show.
+  const canZoom = mode !== "quiz" && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
+  const showDetail = zoomed && canZoom;
 
   const modes = [
     { id: "explore", label: "Explore", icon: "🗺️" },
@@ -147,13 +155,33 @@ export default function WsetStudyApp() {
           justifyContent: "center"
         }}>
           <div style={{ width: "100%", maxWidth: "400px" }}>
-            <CountryMap
-              activeRegion={mode === "quiz" ? null : activeRegion}
-              onRegionClick={handleRegionClick}
-              quizMode={mode === "quiz"}
-            />
+            {showDetail ? (
+              <DetailMap regionKey={activeRegion} />
+            ) : (
+              <CountryMap
+                activeRegion={mode === "quiz" ? null : activeRegion}
+                onRegionClick={handleRegionClick}
+                quizMode={mode === "quiz"}
+              />
+            )}
           </div>
         </div>
+
+        {/* Zoom toggle: its own block, so it never sits on top of the heading */}
+        {canZoom && (
+          <div style={{ textAlign: "center", padding: "8px 0 0" }}>
+            <button
+              onClick={() => setZoomed((z) => !z)}
+              style={{
+                background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
+                padding: "4px 12px", borderRadius: "4px", fontSize: "11px", cursor: "pointer",
+                letterSpacing: "0.05em"
+              }}
+            >
+              {showDetail ? `← Back to ${mapCountry}` : `Zoom into ${REGIONS[activeRegion]?.name} →`}
+            </button>
+          </div>
+        )}
 
         {/* Active region name */}
         {mode !== "quiz" && (

@@ -2,7 +2,7 @@ import { REGIONS } from "./data/france.js";
 import { geoToSvg, pt } from "./geo.js";
 import { FRANCE_REGION_PATHS } from "./data/france-map.js";
 
-export const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
+export const FranceMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", children }) => {
   const regionPaths = FRANCE_REGION_PATHS;
 
   // France mainland outline traced from real geographic points
@@ -91,7 +91,7 @@ export const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
   const paris = geoToSvg(2.35, 48.86);
 
   return (
-    <svg viewBox="0 0 500 420" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
       <defs>
         <filter id="glow">
           <feGaussianBlur stdDeviation="3" result="blur" />
@@ -191,6 +191,7 @@ export const FranceMap = ({ activeRegion, onRegionClick, quizMode }) => {
       {/* River labels */}
       <text x={geoToSvg(0.8, 47.55)[0]} y={geoToSvg(0.8, 47.55)[1]} fontSize="7" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Loire</text>
       <text x={geoToSvg(5.1, 45.0)[0]} y={geoToSvg(5.1, 45.0)[1]} fontSize="7" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Rhône</text>
+    {children}
     </svg>
   );
 };

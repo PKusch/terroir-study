@@ -7,8 +7,8 @@ const serif = "'Cormorant Garamond', Georgia, serif";
 // Same props and the same look as the country maps. Each tile is its own small
 // map: a faint outline for orientation, a city, the Andes where they matter,
 // and the wine area as the clickable shape.
-export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode }) => (
-  <svg viewBox="0 0 500 420" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", children }) => (
+  <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
     <defs>
       <filter id="glowNewWorld">
         <feGaussianBlur stdDeviation="3" result="blur" />
@@ -82,5 +82,6 @@ export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode }) => (
         </g>
       );
     })}
-  </svg>
+  {children}
+    </svg>
 );

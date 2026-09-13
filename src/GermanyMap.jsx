@@ -5,7 +5,7 @@ import { GERMANY_REGION_PATHS } from "./data/germany-map.js";
 const serif = "'Cormorant Garamond', Georgia, serif";
 const toPath = (points) => "M" + points.map(([lon, lat]) => pt(lon, lat)).join(" L") + " Z";
 
-export const GermanyMap = ({ activeRegion, onRegionClick, quizMode }) => {
+export const GermanyMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", children }) => {
   const regionPaths = GERMANY_REGION_PATHS;
 
   // Germany outline traced from real geographic points
@@ -82,7 +82,7 @@ export const GermanyMap = ({ activeRegion, onRegionClick, quizMode }) => {
   const berlin = geoToSvg(13.4, 52.52);
 
   return (
-    <svg viewBox="0 0 500 420" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
       <defs>
         <filter id="glowGermany">
           <feGaussianBlur stdDeviation="3" result="blur" />
@@ -184,6 +184,7 @@ export const GermanyMap = ({ activeRegion, onRegionClick, quizMode }) => {
       {/* River labels */}
       <text x={geoToSvg(8.55, 49.4)[0]} y={geoToSvg(8.55, 49.4)[1]} fontSize="7" fill="#7BA3B8" fontStyle="italic" fontFamily={serif}>Rhein</text>
       <text x={geoToSvg(6.4, 50.0)[0]} y={geoToSvg(6.4, 50.0)[1]} fontSize="7" fill="#7BA3B8" fontStyle="italic" fontFamily={serif}>Mosel</text>
+    {children}
     </svg>
   );
 };

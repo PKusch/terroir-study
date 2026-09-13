@@ -2,7 +2,7 @@ import { SPAIN_REGIONS as REGIONS } from "./data/spain.js";
 import { geoToSvgSpain as geoToSvg, ptSpain as pt } from "./geo.js";
 import { SPAIN_REGION_PATHS } from "./data/spain-map.js";
 
-export const SpainMap = ({ activeRegion, onRegionClick, quizMode }) => {
+export const SpainMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", children }) => {
   const regionPaths = SPAIN_REGION_PATHS;
 
   // Spain mainland outline traced from real geographic points
@@ -75,7 +75,7 @@ export const SpainMap = ({ activeRegion, onRegionClick, quizMode }) => {
   const madrid = geoToSvg(-3.7, 40.4);
 
   return (
-    <svg viewBox="0 0 500 420" style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
       <defs>
         <filter id="glowSpain">
           <feGaussianBlur stdDeviation="3" result="blur" />
@@ -173,6 +173,7 @@ export const SpainMap = ({ activeRegion, onRegionClick, quizMode }) => {
 
       {/* River labels */}
       <text x={geoToSvg(-1.3, 41.85)[0]} y={geoToSvg(-1.3, 41.85)[1] + 8} fontSize="7" fill="#7BA3B8" fontStyle="italic" fontFamily="'Cormorant Garamond', Georgia, serif">Ebro</text>
+    {children}
     </svg>
   );
 };
