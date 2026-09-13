@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { REGIONS } from "./data/regions.js";
+import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import {
   loadProgress,
@@ -8,7 +8,8 @@ import {
   recordAnswer,
   pickNext,
   progressSummary,
-  weakAreas
+  weakAreas,
+  poolFor
 } from "./progress.js";
 
 const byId = (id) => QUIZ_QUESTIONS.find((q) => q.id === id) ?? QUIZ_QUESTIONS[0];
@@ -17,6 +18,9 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
   // Progress across sessions lives in localStorage (see progress.js). The
   // question order comes from it: unseen first, then the ones you got wrong.
   const [progress, setProgress] = useState(() => loadProgress());
+  // Study everything, or one country at a time.
+  const [filter, setFilter] = useState("All");
+  const pool = poolFor(QUIZ_QUESTIONS, filter);
   const [currentId, setCurrentId] = useState(() => pickNext(QUIZ_QUESTIONS, loadProgress(), null).id);
   const [selected, setSelected] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -31,8 +35,15 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
     if (onQuestionCountry) onQuestionCountry(q.country ?? "France");
   }, [q.id]);
 
-  const summary = progressSummary(QUIZ_QUESTIONS, progress);
-  const weak = weakAreas(QUIZ_QUESTIONS, progress, REGIONS).slice(0, 4);
+  const summary = progressSummary(pool, progress);
+  const weak = weakAreas(pool, progress, REGIONS).slice(0, 4);
+
+  const chooseFilter = (c) => {
+    if (c === filter) return;
+    setFilter(c);
+    clearQuestion();
+    setCurrentId(pickNext(poolFor(QUIZ_QUESTIONS, c), progress, null).id);
+  };
 
   const recordResult = (correct) => {
     setShowAnswer(true);
@@ -67,14 +78,14 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
 
   const nextQuestion = () => {
     clearQuestion();
-    setCurrentId(pickNext(QUIZ_QUESTIONS, progress, currentId).id);
+    setCurrentId(pickNext(pool, progress, currentId).id);
   };
 
   // "Reset" starts a fresh session score; what you have learned is kept.
   const resetQuiz = () => {
     clearQuestion();
     setScore({ correct: 0, total: 0 });
-    setCurrentId(pickNext(QUIZ_QUESTIONS, progress, currentId).id);
+    setCurrentId(pickNext(pool, progress, currentId).id);
   };
 
   // "Clear progress" forgets everything ever answered, as well as the session.
@@ -83,7 +94,7 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
     setProgress(empty);
     clearQuestion();
     setScore({ correct: 0, total: 0 });
-    setCurrentId(pickNext(QUIZ_QUESTIONS, empty, currentId).id);
+    setCurrentId(pickNext(pool, empty, currentId).id);
   };
 
   const quietButton = {
@@ -94,6 +105,26 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry }) => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+      {/* Country filter: everything, or one country at a time */}
+      <div style={{ display: "flex", gap: "4px", flexWrap: "wrap", marginBottom: "10px" }}>
+        {["All", ...Object.keys(COUNTRIES)].map((c) => (
+          <button
+            key={c}
+            onClick={() => chooseFilter(c)}
+            style={{
+              padding: "4px 10px", borderRadius: "4px", fontSize: "10px", letterSpacing: "0.08em",
+              textTransform: "uppercase", cursor: "pointer", transition: "all 0.15s",
+              background: filter === c ? "#C4A962" : "transparent",
+              color: filter === c ? "#1a1a1a" : "#8B7355",
+              border: filter === c ? "none" : "1px solid #2a2520",
+              fontWeight: filter === c ? "600" : "400"
+            }}
+          >
+            {c}
+          </button>
+        ))}
+      </div>
+
       {/* Score bar */}
       <div style={{
         display: "flex",

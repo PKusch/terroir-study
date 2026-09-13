@@ -276,3 +276,13 @@ test("a working localStorage round-trips under one key and ignores junk", () => 
     if (had) Object.defineProperty(globalThis, "localStorage", had);
   }
 });
+
+test("poolFor narrows the quiz to one country, and French questions count as France", async () => {
+  const { poolFor, countryOfQuestion } = await import("../src/progress.js");
+  const qs = [{ id: "fr-01" }, { id: "it-01", country: "Italy" }, { id: "nw-01", country: "New World" }];
+  assert.equal(countryOfQuestion(qs[0]), "France");
+  assert.deepEqual(poolFor(qs, "All").map((q) => q.id), ["fr-01", "it-01", "nw-01"]);
+  assert.deepEqual(poolFor(qs, "France").map((q) => q.id), ["fr-01"]);
+  assert.deepEqual(poolFor(qs, "New World").map((q) => q.id), ["nw-01"]);
+  assert.deepEqual(poolFor(qs, "Spain"), []);
+});

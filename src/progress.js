@@ -172,3 +172,13 @@ export function weakAreas(questions, progress, regions = {}, minAttempts = 2) {
     .map((t) => ({ ...t, accuracy: t.correct / t.attempts }))
     .sort((a, b) => a.accuracy - b.accuracy || b.attempts - a.attempts || a.name.localeCompare(b.name));
 }
+
+// ── Studying one country at a time ───────────────────────────────────────────
+// French questions carry no country field; every other question names its own.
+export function countryOfQuestion(q) {
+  return q.country ?? "France";
+}
+
+export function poolFor(questions, country = "All") {
+  return country === "All" ? questions : questions.filter((q) => countryOfQuestion(q) === country);
+}
