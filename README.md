@@ -31,6 +31,8 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
 
+Study everything or one country at a time, switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes.
+
 **🍷 Taste** — Tasting practice without a glass. The app names a wine it knows ("You are tasting: Nebbiolo from Piedmont"). You set its body, acidity and, for reds, tannin to low, medium or high, and tick the aromas you expect from eight words (the grape's own plus a few from other grapes of the same colour). Press Check and each row is marked against the grape profile, the aroma words turn green (right), red (wrong pick) or gold (missed), and a short "Why" card explains the answer from the grape and the region. Click a region on the map to taste a wine from there. This is the exam's Systematic Approach to Tasting, cut down to what the app has data for.
 
 ## Regions Covered
