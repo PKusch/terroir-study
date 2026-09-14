@@ -9,7 +9,8 @@ import {
   pickNext,
   progressSummary,
   weakAreas,
-  poolFor
+  poolFor,
+  studyPool
 } from "./progress.js";
 
 const byId = (id) => QUIZ_QUESTIONS.find((q) => q.id === id) ?? QUIZ_QUESTIONS[0];
@@ -20,7 +21,8 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
   const [progress, setProgress] = useState(() => loadProgress());
   // Study everything, or one country at a time.
   const [filter, setFilter] = useState("All");
-  const pool = poolFor(QUIZ_QUESTIONS, filter);
+  const [dueOnly, setDueOnly] = useState(false);
+  const { pool, fellBack } = studyPool(QUIZ_QUESTIONS, progress, filter, dueOnly);
   const [currentId, setCurrentId] = useState(() => pickNext(QUIZ_QUESTIONS, loadProgress(), null).id);
   const [selected, setSelected] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -42,7 +44,14 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
     if (c === filter) return;
     setFilter(c);
     clearQuestion();
-    setCurrentId(pickNext(poolFor(QUIZ_QUESTIONS, c), progress, null).id);
+    setCurrentId(pickNext(studyPool(QUIZ_QUESTIONS, progress, c, dueOnly).pool, progress, null).id);
+  };
+
+  const toggleDue = () => {
+    const next = !dueOnly;
+    setDueOnly(next);
+    clearQuestion();
+    setCurrentId(pickNext(studyPool(QUIZ_QUESTIONS, progress, filter, next).pool, progress, null).id);
   };
 
   const recordResult = (correct) => {
@@ -123,7 +132,26 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
             {c}
           </button>
         ))}
+        <button
+          onClick={toggleDue}
+          title="Only the questions you got wrong recently or that are due to come round again"
+          style={{
+            marginLeft: "auto", padding: "4px 10px", borderRadius: "4px", fontSize: "10px", letterSpacing: "0.08em",
+            textTransform: "uppercase", cursor: "pointer", transition: "all 0.15s",
+            background: dueOnly ? "#7BC47B" : "transparent",
+            color: dueOnly ? "#1a1a1a" : "#8B7355",
+            border: dueOnly ? "none" : "1px solid #2a2520",
+            fontWeight: dueOnly ? "600" : "400"
+          }}
+        >
+          {dueOnly ? "✓ Due only" : "Due only"}
+        </button>
       </div>
+      {dueOnly && fellBack && (
+        <div style={{ fontSize: "11px", color: "#8B7355", marginBottom: "8px" }}>
+          Nothing is due for review in this set yet, so every question is in play.
+        </div>
+      )}
 
       {/* Score bar */}
       <div style={{

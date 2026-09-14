@@ -286,3 +286,16 @@ test("poolFor narrows the quiz to one country, and French questions count as Fra
   assert.deepEqual(poolFor(qs, "New World").map((q) => q.id), ["nw-01"]);
   assert.deepEqual(poolFor(qs, "Spain"), []);
 });
+
+test("studyPool keeps only questions due for review, and falls back when none are", async () => {
+  const { studyPool, recordAnswer } = await import("../src/progress.js");
+  const qs = [{ id: "fr-01" }, { id: "fr-02" }, { id: "it-01", country: "Italy" }];
+  let prog = {};
+  assert.deepEqual(studyPool(qs, prog, "All", true), { pool: qs, fellBack: true });
+  prog = recordAnswer(prog, "fr-02", false, 1);
+  const r = studyPool(qs, prog, "All", true);
+  assert.equal(r.fellBack, false);
+  assert.deepEqual(r.pool.map((q) => q.id), ["fr-02"]);
+  assert.equal(studyPool(qs, prog, "Italy", true).fellBack, true);
+  assert.equal(studyPool(qs, prog, "France", false).pool.length, 2);
+});

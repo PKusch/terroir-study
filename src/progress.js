@@ -182,3 +182,13 @@ export function countryOfQuestion(q) {
 export function poolFor(questions, country = "All") {
   return country === "All" ? questions : questions.filter((q) => countryOfQuestion(q) === country);
 }
+
+// Revision before an exam: only what is due. If nothing in the chosen set is
+// due, fall back to the whole set rather than leave the screen empty, and say so.
+export function studyPool(questions, progress, country = "All", dueOnly = false) {
+  const pool = poolFor(questions, country);
+  if (!dueOnly) return { pool, fellBack: false };
+  const due = dueQuestions(pool, progress);
+  const duePool = pool.filter((q) => due.has(q.id));
+  return duePool.length > 0 ? { pool: duePool, fellBack: false } : { pool, fellBack: true };
+}
