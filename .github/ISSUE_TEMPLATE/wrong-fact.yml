@@ -1,0 +1,29 @@
+name: A fact is wrong
+description: Something the map, a quiz answer or a grape profile says does not match the syllabus or your cellar notes.
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a study tool, so an incorrect fact costs someone marks. Thank you for checking.
+  - type: input
+    id: where
+    attributes:
+      label: Where did you see it?
+      description: The country, region or place name, and whether it was the map, the quiz, Taste mode or a print sheet.
+      placeholder: "Italy, Barolo, quiz question about the ageing rules"
+    validations:
+      required: true
+  - type: textarea
+    id: says
+    attributes:
+      label: What does it say?
+    validations:
+      required: true
+  - type: textarea
+    id: should
+    attributes:
+      label: What should it say?
+      description: Where you checked it (WSET textbook, a producer, the appellation's own rules) helps a lot.
+    validations:
+      required: true
