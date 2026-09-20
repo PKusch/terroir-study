@@ -1,4 +1,5 @@
 import { REGIONS } from "./data/regions.js";
+import { regionProps } from "./a11y.js";
 import { NEW_WORLD_TILES } from "./data/newworld-map.js";
 
 const serif = "'Cormorant Garamond', Georgia, serif";
@@ -51,6 +52,7 @@ export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "
               strokeWidth={isActive ? 2.5 : 1}
               strokeLinejoin="round"
               style={{ cursor: "pointer", transition: "all 0.3s ease", filter: isActive ? "url(#glowNewWorld)" : "none" }}
+              {...regionProps({ name: region.name, active: isActive, onSelect: () => onRegionClick(t.key), quizMode })}
               onClick={() => onRegionClick(t.key)}
               onMouseEnter={(e) => {
                 if (!isActive) {

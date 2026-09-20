@@ -1,4 +1,5 @@
 import { SPAIN_REGIONS as REGIONS } from "./data/spain.js";
+import { regionProps } from "./a11y.js";
 import { geoToSvgSpain as geoToSvg, ptSpain as pt } from "./geo.js";
 import { SPAIN_REGION_PATHS } from "./data/spain-map.js";
 
@@ -136,6 +137,7 @@ export const SpainMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0
                 transition: "all 0.3s ease",
                 filter: isActive ? "url(#glowSpain)" : "none"
               }}
+              {...regionProps({ name: region.name, active: isActive, onSelect: () => onRegionClick(key), quizMode })}
               onClick={() => onRegionClick(key)}
               onMouseEnter={(e) => {
                 if (!isActive) {

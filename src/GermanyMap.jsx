@@ -1,4 +1,5 @@
 import { GERMANY_REGIONS as REGIONS } from "./data/germany.js";
+import { regionProps } from "./a11y.js";
 import { geoToSvgGermany as geoToSvg, ptGermany as pt } from "./geo.js";
 import { GERMANY_REGION_PATHS } from "./data/germany-map.js";
 
@@ -143,6 +144,7 @@ export const GermanyMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0
                 transition: "all 0.3s ease",
                 filter: isActive ? "url(#glowGermany)" : "none"
               }}
+              {...regionProps({ name: region.name, active: isActive, onSelect: () => onRegionClick(key), quizMode })}
               onClick={() => onRegionClick(key)}
               onMouseEnter={(e) => {
                 if (!isActive) {

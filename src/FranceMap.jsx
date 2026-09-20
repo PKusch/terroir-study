@@ -1,4 +1,5 @@
 import { REGIONS } from "./data/france.js";
+import { regionProps } from "./a11y.js";
 import { geoToSvg, pt } from "./geo.js";
 import { FRANCE_REGION_PATHS } from "./data/france-map.js";
 
@@ -152,6 +153,7 @@ export const FranceMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 
                 transition: "all 0.3s ease",
                 filter: isActive ? "url(#glow)" : "none"
               }}
+              {...regionProps({ name: region.name, active: isActive, onSelect: () => onRegionClick(key), quizMode })}
               onClick={() => onRegionClick(key)}
               onMouseEnter={(e) => {
                 if (!isActive) {

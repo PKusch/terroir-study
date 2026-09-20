@@ -1,4 +1,5 @@
 import { ITALY_REGIONS as REGIONS } from "./data/italy.js";
+import { regionProps } from "./a11y.js";
 import { geoToSvgItaly as geoToSvg, ptItaly as pt } from "./geo.js";
 import { ITALY_REGION_PATHS } from "./data/italy-map.js";
 
@@ -150,6 +151,7 @@ export const ItalyMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0
                 transition: "all 0.3s ease",
                 filter: isActive ? "url(#glowItaly)" : "none"
               }}
+              {...regionProps({ name: region.name, active: isActive, onSelect: () => onRegionClick(key), quizMode })}
               onClick={() => onRegionClick(key)}
               onMouseEnter={(e) => {
                 if (!isActive) {

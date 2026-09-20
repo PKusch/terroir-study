@@ -81,3 +81,12 @@ button {
     margin: 0;
   }
 }
+
+/* ── Keyboard focus: a region reached by Tab is outlined, not just clickable ── */
+path[role="button"]:focus {
+  outline: none;
+}
+path[role="button"]:focus-visible {
+  stroke: #F0DC9C;
+  stroke-width: 3px;
+}
