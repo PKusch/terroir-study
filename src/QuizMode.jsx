@@ -272,6 +272,9 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
           marginBottom: "16px",
           border: "1px solid #3a2f2f"
         }}>
+          <div role="status" style={{ fontSize: "13px", fontWeight: "600", marginBottom: "8px", color: selected === q.answer ? "#7BC47B" : "#C47B7B" }}>
+            {selected === q.answer ? "Correct." : `Not quite. The answer is: ${q.options[q.answer]}`}
+          </div>
           <div style={{ fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#C4A962", marginBottom: "6px" }}>
             Why
           </div>
