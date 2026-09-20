@@ -25,6 +25,7 @@ export const ExplorePanel = ({ region }) => {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
+            aria-pressed={activeTab === tab.id}
             style={{
               flex: 1,
               padding: "8px",

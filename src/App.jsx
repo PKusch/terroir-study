@@ -103,6 +103,7 @@ export default function WsetStudyApp() {
               <button
                 key={c}
                 onClick={() => handleCountryClick(c)}
+                aria-pressed={country === c}
                 style={{
                   padding: "6px 12px",
                   background: country === c ? "#C4A962" : "transparent",
@@ -134,6 +135,7 @@ export default function WsetStudyApp() {
         {modes.map(m => (
           <button
             key={m.id}
+            aria-pressed={mode === m.id}
             onClick={() => {
               setMode(m.id);
               setQuizMapClick(null);

@@ -120,6 +120,7 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
           <button
             key={c}
             onClick={() => chooseFilter(c)}
+            aria-pressed={filter === c}
             style={{
               padding: "4px 10px", borderRadius: "4px", fontSize: "10px", letterSpacing: "0.08em",
               textTransform: "uppercase", cursor: "pointer", transition: "all 0.15s",
@@ -134,6 +135,7 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
         ))}
         <button
           onClick={toggleDue}
+          aria-pressed={dueOnly}
           title="Only the questions you got wrong recently or that are due to come round again"
           style={{
             marginLeft: "auto", padding: "4px 10px", borderRadius: "4px", fontSize: "10px", letterSpacing: "0.08em",

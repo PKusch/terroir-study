@@ -216,7 +216,7 @@ export const TastePanel = ({ region }) => {
             </div>
             <div style={{ display: "flex", gap: "8px" }}>
               {LEVELS.map((level) => (
-                <button key={level} onClick={() => setLevel(field, level)} style={levelStyle(field, level)}>
+                <button key={level} onClick={() => setLevel(field, level)} aria-pressed={given[field] === level} style={levelStyle(field, level)}>
                   {LEVEL_LABEL[level]}
                 </button>
               ))}
@@ -233,7 +233,7 @@ export const TastePanel = ({ region }) => {
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: "8px" }}>
           {exercise.aromaChoices.map((word) => (
-            <button key={word} onClick={() => toggleAroma(word)} style={aromaStyle(word)}>
+            <button key={word} onClick={() => toggleAroma(word)} aria-pressed={given.aromas.includes(word)} style={aromaStyle(word)}>
               {word}
             </button>
           ))}
