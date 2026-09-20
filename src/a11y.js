@@ -1,4 +1,15 @@
-// Keyboard and screen-reader access for a clickable map region.
+// Keyboard and screen-reader access for things that are drawn as a plain shape
+// or box with a click handler, which a keyboard cannot reach.
+
+// Enter or Space does what a click does. Space would otherwise scroll the page.
+export const activateOnKey = (onSelect) => (e) => {
+  if (e.key === "Enter" || e.key === " ") {
+    e.preventDefault();
+    onSelect();
+  }
+};
+
+// A clickable map region.
 //
 // A region is drawn as an SVG path with a click handler, which a keyboard cannot
 // reach and a screen reader cannot name. This gives it a tab stop, a spoken name,
@@ -13,11 +24,6 @@ export function regionProps({ name, active, onSelect, quizMode }) {
     tabIndex: 0,
     "aria-label": name,
     "aria-pressed": Boolean(active),
-    onKeyDown: (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        onSelect();
-      }
-    },
+    onKeyDown: activateOnKey(onSelect),
   };
 }

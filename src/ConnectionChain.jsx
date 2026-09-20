@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { activateOnKey } from "./a11y.js";
 import { REGIONS } from "./data/regions.js";
 
 export const ConnectionChain = ({ region }) => {
@@ -36,7 +37,11 @@ export const ConnectionChain = ({ region }) => {
         {chain.map((step, i) => (
           <div key={i}>
             <div
+              role="button"
+              tabIndex={0}
+              aria-expanded={expandedStep === i}
               onClick={() => setExpandedStep(expandedStep === i ? null : i)}
+              onKeyDown={activateOnKey(() => setExpandedStep(expandedStep === i ? null : i))}
               style={{
                 display: "flex",
                 alignItems: "center",

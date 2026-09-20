@@ -37,3 +37,13 @@ test("in a quiz the region is not named, focusable or clickable by keyboard", ()
   const p = regionProps({ name: "Barolo", active: false, onSelect: () => {}, quizMode: true });
   assert.deepEqual(p, {});
 });
+
+test("activateOnKey is what lets a plain box with a click handler be used from the keyboard", async () => {
+  const { activateOnKey } = await import("../src/a11y.js");
+  let n = 0;
+  const h = activateOnKey(() => { n++; });
+  h({ key: "Enter", preventDefault() {} });
+  h({ key: " ", preventDefault() {} });
+  h({ key: "x", preventDefault() {} });
+  assert.equal(n, 2);
+});
