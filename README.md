@@ -90,6 +90,14 @@ New World (6 WSET L3 countries, one region each) sharing one map:
 - **GitHub Pages** — Automated deployment via GitHub Actions
 - **No external UI libraries** — All components built from scratch
 
+## Keyboard and screen readers
+
+You can study without a mouse. Tab moves between the map regions and buttons, and
+Enter or Space picks one. Selected buttons say so out loud, the quiz says "Correct" or
+gives the right answer in words as well as colour, and animation switches off if your
+device is set to reduce motion. During a map quiz the region names are kept from screen
+readers, because the name is the answer.
+
 ## Run Locally
 
 ```bash
