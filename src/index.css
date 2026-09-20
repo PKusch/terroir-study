@@ -90,3 +90,11 @@ path[role="button"]:focus-visible {
   stroke: #F0DC9C;
   stroke-width: 3px;
 }
+
+/* ── Motion: for anyone who has asked their device for less of it ────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
