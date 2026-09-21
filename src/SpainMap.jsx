@@ -1,5 +1,5 @@
 import { SPAIN_REGIONS as REGIONS } from "./data/spain.js";
-import { regionProps } from "./a11y.js";
+import { regionProps, mapProps } from "./a11y.js";
 import { geoToSvgSpain as geoToSvg, ptSpain as pt } from "./geo.js";
 import { SPAIN_REGION_PATHS } from "./data/spain-map.js";
 
@@ -76,7 +76,7 @@ export const SpainMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0
   const madrid = geoToSvg(-3.7, 40.4);
 
   return (
-    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }} {...mapProps({ country: "Spain", quizMode })}>
       <defs>
         <filter id="glowSpain">
           <feGaussianBlur stdDeviation="3" result="blur" />

@@ -1,5 +1,5 @@
 import { REGIONS } from "./data/regions.js";
-import { regionProps } from "./a11y.js";
+import { regionProps, mapProps } from "./a11y.js";
 import { NEW_WORLD_TILES } from "./data/newworld-map.js";
 
 const serif = "'Cormorant Garamond', Georgia, serif";
@@ -9,7 +9,7 @@ const serif = "'Cormorant Garamond', Georgia, serif";
 // map: a faint outline for orientation, a city, the Andes where they matter,
 // and the wine area as the clickable shape.
 export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", children }) => (
-  <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+  <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }} {...mapProps({ country: "New World", quizMode })}>
     <defs>
       <filter id="glowNewWorld">
         <feGaussianBlur stdDeviation="3" result="blur" />

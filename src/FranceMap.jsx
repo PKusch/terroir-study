@@ -1,5 +1,5 @@
 import { REGIONS } from "./data/france.js";
-import { regionProps } from "./a11y.js";
+import { regionProps, mapProps } from "./a11y.js";
 import { geoToSvg, pt } from "./geo.js";
 import { FRANCE_REGION_PATHS } from "./data/france-map.js";
 
@@ -92,7 +92,7 @@ export const FranceMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 
   const paris = geoToSvg(2.35, 48.86);
 
   return (
-    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }} {...mapProps({ country: "France", quizMode })}>
       <defs>
         <filter id="glow">
           <feGaussianBlur stdDeviation="3" result="blur" />

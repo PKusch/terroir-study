@@ -27,3 +27,10 @@ export function regionProps({ name, active, onSelect, quizMode }) {
     onKeyDown: activateOnKey(onSelect),
   };
 }
+
+// The map as a whole: a named group holding the region buttons, so a screen reader
+// says "France wine regions" before listing them. Left unnamed in a quiz.
+export function mapProps({ country, quizMode }) {
+  if (quizMode) return {};
+  return { role: "group", "aria-label": `${country} wine regions` };
+}

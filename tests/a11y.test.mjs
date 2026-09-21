@@ -47,3 +47,9 @@ test("activateOnKey is what lets a plain box with a click handler be used from t
   h({ key: "x", preventDefault() {} });
   assert.equal(n, 2);
 });
+
+test("the map is a named group, and unnamed in a quiz", async () => {
+  const { mapProps } = await import("../src/a11y.js");
+  assert.deepEqual(mapProps({ country: "Italy" }), { role: "group", "aria-label": "Italy wine regions" });
+  assert.deepEqual(mapProps({ country: "Italy", quizMode: true }), {});
+});

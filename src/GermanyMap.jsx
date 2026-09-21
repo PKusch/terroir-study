@@ -1,5 +1,5 @@
 import { GERMANY_REGIONS as REGIONS } from "./data/germany.js";
-import { regionProps } from "./a11y.js";
+import { regionProps, mapProps } from "./a11y.js";
 import { geoToSvgGermany as geoToSvg, ptGermany as pt } from "./geo.js";
 import { GERMANY_REGION_PATHS } from "./data/germany-map.js";
 
@@ -83,7 +83,7 @@ export const GermanyMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0
   const berlin = geoToSvg(13.4, 52.52);
 
   return (
-    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }} {...mapProps({ country: "Germany", quizMode })}>
       <defs>
         <filter id="glowGermany">
           <feGaussianBlur stdDeviation="3" result="blur" />

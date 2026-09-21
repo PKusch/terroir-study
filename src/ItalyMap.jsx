@@ -1,5 +1,5 @@
 import { ITALY_REGIONS as REGIONS } from "./data/italy.js";
-import { regionProps } from "./a11y.js";
+import { regionProps, mapProps } from "./a11y.js";
 import { geoToSvgItaly as geoToSvg, ptItaly as pt } from "./geo.js";
 import { ITALY_REGION_PATHS } from "./data/italy-map.js";
 
@@ -79,7 +79,7 @@ export const ItalyMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0
   const rome = geoToSvg(12.5, 41.9);
 
   return (
-    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }}>
+    <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }} {...mapProps({ country: "Italy", quizMode })}>
       <defs>
         <filter id="glowItaly">
           <feGaussianBlur stdDeviation="3" result="blur" />
