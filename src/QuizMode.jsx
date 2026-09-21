@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { quizShortcut } from "./shortcuts.js";
+import { useTwoStep } from "./useTwoStep.js";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import {
@@ -133,6 +134,8 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
     setCurrentId(pickNext(pool, empty, currentId).id);
   };
 
+  const [clearArmed, clickClear] = useTwoStep(clearProgress);
+
   const quietButton = {
     background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
     padding: "4px 10px", borderRadius: "4px", fontSize: "11px", cursor: "pointer",
@@ -202,8 +205,10 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
         </span>
         <span style={{ display: "flex", gap: "6px" }}>
           <button onClick={resetQuiz} style={quietButton}>Reset</button>
-          <button onClick={clearProgress} title="Forget every answer you have given so far"
-            style={{ ...quietButton, color: "#7a7268", borderColor: "#2a2620" }}>Clear progress</button>
+          <button onClick={clickClear} title="Forget every answer you have given so far. Save a progress file first if you may want them back."
+            style={clearArmed ? { ...quietButton, color: "#C47B7B", borderColor: "#7a4a4a" } : { ...quietButton, color: "#7a7268", borderColor: "#2a2620" }}>
+            {clearArmed ? "Click again to clear" : "Clear progress"}
+          </button>
         </span>
       </div>
 

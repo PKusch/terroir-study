@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTwoStep } from "./useTwoStep.js";
 import { REGIONS } from "./data/regions.js";
 import { GRAPES } from "./data/grapes.js";
 import {
@@ -80,6 +81,8 @@ export const TastePanel = ({ region }) => {
     setAllTime(resetTasteResults());
     setSession({ wines: 0, fullyRight: 0 });
   };
+
+  const [clearArmed, clickClear] = useTwoStep(clearAllTime);
 
   const quietButton = {
     background: "none", border: "1px solid #3a3530", color: "#B8B0A0",
@@ -171,8 +174,10 @@ export const TastePanel = ({ region }) => {
         <span style={{ fontSize: "12px", color: "#C4A962" }}>
           {session.fullyRight} of {session.wines} wines fully right
         </span>
-        <button onClick={clearAllTime} title="Forget every wine you have tasted so far"
-          style={{ ...quietButton, color: "#7a7268", borderColor: "#2a2620" }}>Clear results</button>
+        <button onClick={clickClear} title="Forget every wine you have tasted so far"
+          style={clearArmed ? { ...quietButton, color: "#C47B7B", borderColor: "#7a4a4a" } : { ...quietButton, color: "#7a7268", borderColor: "#2a2620" }}>
+          {clearArmed ? "Click again to clear" : "Clear results"}
+        </button>
       </div>
 
       {/* Badge */}
