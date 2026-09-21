@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { quizShortcut } from "./shortcuts.js";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import {
@@ -89,6 +90,32 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
     clearQuestion();
     setCurrentId(pickNext(pool, progress, currentId).id);
   };
+
+  // After an answer, focus goes to Next, so Enter or Space moves on and a screen
+  // reader lands on the button. (The "Correct" line is a live region, so it is
+  // still announced.)
+  const nextButton = useRef(null);
+  useEffect(() => {
+    if (showAnswer) nextButton.current?.focus();
+  }, [showAnswer]);
+
+  // Keys: 1 to 4 answer, Enter or N moves on. Registered afresh each render so it
+  // always acts on the question that is on screen.
+  useEffect(() => {
+    const onKey = (e) => {
+      const action = quizShortcut(
+        { key: e.key, ctrlKey: e.ctrlKey, metaKey: e.metaKey, altKey: e.altKey,
+          targetTag: e.target?.tagName, targetRole: e.target?.getAttribute?.("role") },
+        { optionCount: isMapQ ? 0 : q.options.length, showAnswer, isMapQ }
+      );
+      if (!action) return;
+      e.preventDefault();
+      if (action.type === "option") handleOptionSelect(action.index);
+      else nextQuestion();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
 
   // "Reset" starts a fresh session score; what you have learned is kept.
   const resetQuiz = () => {
@@ -263,6 +290,12 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
         </div>
       )}
 
+      {!isMapQ && !showAnswer && (
+        <div style={{ fontSize: "11px", color: "#7a7268", marginTop: "-6px", marginBottom: "12px" }}>
+          Keys: 1 to {q.options.length} to answer, then Enter for the next question.
+        </div>
+      )}
+
       {/* Explanation */}
       {showAnswer && (
         <div style={{
@@ -286,6 +319,7 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
 
       {showAnswer && (
         <button
+          ref={nextButton}
           onClick={nextQuestion}
           style={{
             padding: "12px",
