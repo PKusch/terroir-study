@@ -9,6 +9,7 @@ import { ExplorePanel } from "./ExplorePanel.jsx";
 import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
 import { TastePanel } from "./TastePanel.jsx";
+import { BackupPanel } from "./BackupPanel.jsx";
 
 // ─── Main App ────────────────────────────────────────────────────────────────
 export default function WsetStudyApp() {
@@ -245,6 +246,7 @@ export default function WsetStudyApp() {
           )}
         </div>
       </main>
+      <BackupPanel />
     </div>
   
     </>
