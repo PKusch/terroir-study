@@ -156,3 +156,19 @@ export function lastBackupLabel(last, now = Date.now()) {
   if (days === 1) return "Saved yesterday";
   return `Saved ${days} days ago`;
 }
+
+// ── Saying what a file holds before it is loaded ─────────────────────────────
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
+export function describeBackup({ kept, taste, dropped = 0, unknown = 0, savedAt }) {
+  const when = savedAt && !Number.isNaN(Date.parse(savedAt))
+    ? ` saved on ${new Date(savedAt).toISOString().slice(0, 10)}` : "";
+  const parts = [plural(kept, "quiz question", "quiz questions")];
+  if (taste?.wines > 0) parts.push(plural(taste.wines, "tasted wine", "tasted wines"));
+  const lines = [`This file${when} holds answers to ${parts.join(" and ")}.`];
+  const unusable = dropped + unknown;
+  if (unusable > 0) {
+    lines.push(`${plural(unusable, "entry", "entries")} in it could not be used and will be left out.`);
+  }
+  return lines.join(" ");
+}

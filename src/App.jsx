@@ -19,6 +19,8 @@ export default function WsetStudyApp() {
   const [quizMapClick, setQuizMapClick] = useState(null);
   const [quizCountry, setQuizCountry] = useState("France");
   const [zoomed, setZoomed] = useState(false);
+  // Bumped after a restore so the panels start again from the restored progress.
+  const [restored, setRestored] = useState(0);
 
   // In quiz mode the map follows the country of the question on screen.
   const mapCountry = mode === "quiz" ? quizCountry : country;
@@ -232,7 +234,7 @@ export default function WsetStudyApp() {
         )}
 
         {/* Content Panel */}
-        <div style={{ padding: "16px 20px 40px" }}>
+        <div key={restored} style={{ padding: "16px 20px 40px" }}>
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}
           {mode === "taste" && <TastePanel region={activeRegion} />}
@@ -246,7 +248,7 @@ export default function WsetStudyApp() {
           )}
         </div>
       </main>
-      <BackupPanel />
+      <BackupPanel onRestored={() => setRestored((n) => n + 1)} />
     </div>
   
     </>

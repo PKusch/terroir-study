@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   makeBackup, readBackup, mergeProgress, mergeTaste, backupFileName,
-  loadLastBackup, saveLastBackup, lastBackupLabel, LAST_BACKUP_KEY,
+  loadLastBackup, saveLastBackup, lastBackupLabel, LAST_BACKUP_KEY, describeBackup,
   BACKUP_VERSION, MAX_BACKUP_BYTES
 } from "../src/backup.js";
 import { recordAnswer } from "../src/progress.js";
@@ -147,4 +147,14 @@ test("the reminder says how long ago in words", () => {
   assert.equal(lastBackupLabel(now - 3600_000, now), "Saved today");
   assert.equal(lastBackupLabel(now - day, now), "Saved yesterday");
   assert.equal(lastBackupLabel(now - 9 * day, now), "Saved 9 days ago");
+});
+
+test("a file is described in plain words before it is loaded", () => {
+  assert.equal(
+    describeBackup({ kept: 47, taste: { wines: 12, fullyRight: 5 }, savedAt: "2026-09-20T10:00:00.000Z" }),
+    "This file saved on 2026-09-20 holds answers to 47 quiz questions and 12 tasted wines."
+  );
+  assert.equal(describeBackup({ kept: 1, taste: { wines: 0, fullyRight: 0 }, savedAt: null }), "This file holds answers to 1 quiz question.");
+  assert.match(describeBackup({ kept: 3, taste: { wines: 1 }, dropped: 1, unknown: 1, savedAt: "garbage" }), /2 entries in it could not be used/);
+  assert.match(describeBackup({ kept: 3, taste: { wines: 1 }, dropped: 1, savedAt: "garbage" }), /1 entry in it could not be used/);
 });
