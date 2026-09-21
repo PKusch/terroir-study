@@ -76,7 +76,7 @@ export default function WsetStudyApp() {
       fontFamily: "'Source Sans 3', -apple-system, sans-serif"
     }}>
       {/* ── Header ── */}
-      <div style={{
+      <header style={{
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
@@ -84,7 +84,7 @@ export default function WsetStudyApp() {
         borderBottom: "1px solid #2a2520"
       }}>
         <div>
-          <div style={{
+          <h1 style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
             fontSize: "22px",
             fontWeight: "600",
@@ -92,7 +92,7 @@ export default function WsetStudyApp() {
             color: "#E8E4D9"
           }}>
             Terroir <span style={{ color: "#C4A962" }}>Study</span>
-          </div>
+          </h1>
           <div style={{ fontSize: "10px", color: "#8B7355", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "2px" }}>
             WSET Level 3 · {mapCountry}
           </div>
@@ -123,7 +123,7 @@ export default function WsetStudyApp() {
             ))}
           </div>
         )}
-      </div>
+      </header>
 
       {/* ── Mode Tabs ── */}
       <div style={{
@@ -165,7 +165,7 @@ export default function WsetStudyApp() {
       </div>
 
       {/* ── Main Content ── */}
-      <div style={{
+      <main style={{
         display: "flex",
         flexDirection: "column",
         maxWidth: "900px",
@@ -206,7 +206,7 @@ export default function WsetStudyApp() {
 
         {/* Active region name */}
         {mode !== "quiz" && (
-          <div style={{
+          <h2 style={{
             textAlign: "center",
             padding: "8px 0 4px",
             fontFamily: "'Cormorant Garamond', Georgia, serif",
@@ -227,7 +227,7 @@ export default function WsetStudyApp() {
             }}>
               {REGIONS[activeRegion]?.climate}
             </span>
-          </div>
+          </h2>
         )}
 
         {/* Content Panel */}
@@ -244,7 +244,7 @@ export default function WsetStudyApp() {
             />
           )}
         </div>
-      </div>
+      </main>
     </div>
   
     </>
