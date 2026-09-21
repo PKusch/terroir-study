@@ -31,7 +31,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
 
-Study everything or one country at a time, switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes.
+Study everything or one country at a time, switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes. On a multiple-choice question, press 1 to 4 to answer and Enter for the next one.
 
 **🍷 Taste** — Tasting practice without a glass. The app names a wine it knows ("You are tasting: Nebbiolo from Piedmont"). You set its body, acidity and, for reds, tannin to low, medium or high, and tick the aromas you expect from eight words (the grape's own plus a few from other grapes of the same colour). Press Check and each row is marked against the grape profile, the aroma words turn green (right), red (wrong pick) or gold (missed), and a short "Why" card explains the answer from the grape and the region. Click a region on the map to taste a wine from there. This is the exam's Systematic Approach to Tasting, cut down to what the app has data for.
 
@@ -90,10 +90,20 @@ New World (6 WSET L3 countries, one region each) sharing one map:
 - **GitHub Pages** — Automated deployment via GitHub Actions
 - **No external UI libraries** — All components built from scratch
 
+## Keeping your progress
+
+Your quiz record and tasting results live in the browser you are using and nowhere else.
+Clearing the browser's site data, or opening the tool on another phone or laptop, starts
+you from nothing. At the foot of the page, **Save progress file** downloads everything as
+one small file, and **Restore from file** loads it back. Restoring says what is in the file
+and asks first. It adds to what is already there and keeps the more recent answer for any
+question in both, so restoring the same file twice changes nothing, and a file that is not a
+backup, or is damaged, is refused. **Clear progress** and **Clear results** need a second click.
+
 ## Keyboard and screen readers
 
 You can study without a mouse. Tab moves between the map regions and buttons, and
-Enter or Space picks one. Selected buttons say so out loud, the quiz says "Correct" or
+Enter or Space picks one. In the quiz, 1 to 4 answer and Enter moves on. Selected buttons say so out loud, the quiz says "Correct" or
 gives the right answer in words as well as colour, and animation switches off if your
 device is set to reduce motion. During a map quiz the region names are kept from screen
 readers, because the name is the answer.
