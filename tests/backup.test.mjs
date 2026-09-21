@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   makeBackup, readBackup, mergeProgress, mergeTaste, backupFileName,
+  loadLastBackup, saveLastBackup, lastBackupLabel, LAST_BACKUP_KEY,
   BACKUP_VERSION, MAX_BACKUP_BYTES
 } from "../src/backup.js";
 import { recordAnswer } from "../src/progress.js";
@@ -114,4 +115,36 @@ test("tasting results merge to the larger record, and twice changes nothing", ()
 
 test("the file name carries the date", () => {
   assert.equal(backupFileName(Date.UTC(2026, 8, 21, 23, 30)), "terroir-study-progress-2026-09-21.json");
+});
+
+test("the last-backup time is remembered, and storage that is missing or throws means never", () => {
+  const before = globalThis.localStorage;
+  try {
+    delete globalThis.localStorage;
+    assert.equal(loadLastBackup(), null);
+    assert.equal(saveLastBackup(5), false);
+
+    const mem = new Map();
+    globalThis.localStorage = { getItem: (k) => mem.get(k) ?? null, setItem: (k, v) => mem.set(k, v) };
+    assert.equal(loadLastBackup(), null);
+    assert.equal(saveLastBackup(123456), true);
+    assert.equal(loadLastBackup(), 123456);
+    mem.set(LAST_BACKUP_KEY, "soon");
+    assert.equal(loadLastBackup(), null);
+
+    globalThis.localStorage = { getItem() { throw new Error("blocked"); }, setItem() { throw new Error("full"); } };
+    assert.equal(loadLastBackup(), null);
+    assert.equal(saveLastBackup(1), false);
+  } finally {
+    if (before === undefined) delete globalThis.localStorage; else globalThis.localStorage = before;
+  }
+});
+
+test("the reminder says how long ago in words", () => {
+  const day = 86_400_000;
+  const now = 100 * day;
+  assert.equal(lastBackupLabel(null, now), "Never saved");
+  assert.equal(lastBackupLabel(now - 3600_000, now), "Saved today");
+  assert.equal(lastBackupLabel(now - day, now), "Saved yesterday");
+  assert.equal(lastBackupLabel(now - 9 * day, now), "Saved 9 days ago");
 });

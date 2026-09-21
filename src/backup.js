@@ -112,3 +112,47 @@ export function mergeTaste(local, incoming) {
 export function backupFileName(now = Date.now()) {
   return `terroir-study-progress-${new Date(now).toISOString().slice(0, 10)}.json`;
 }
+
+// ── When was the last backup? ────────────────────────────────────────────────
+// A reminder is only honest if it knows. Same storage guard as progress.js:
+// missing or throwing storage means "never", and nothing here ever throws.
+
+export const LAST_BACKUP_KEY = "terroir-last-backup-v1";
+
+function storage() {
+  try {
+    return globalThis.localStorage ?? null;
+  } catch {
+    return null;
+  }
+}
+
+export function loadLastBackup() {
+  try {
+    const raw = storage()?.getItem(LAST_BACKUP_KEY);
+    const n = Number(raw);
+    return raw && Number.isFinite(n) && n > 0 ? n : null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveLastBackup(now = Date.now()) {
+  try {
+    const s = storage();
+    if (!s) return false;
+    s.setItem(LAST_BACKUP_KEY, String(now));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+// "Never saved", "Saved today", "Saved yesterday", "Saved 9 days ago".
+export function lastBackupLabel(last, now = Date.now()) {
+  if (!last) return "Never saved";
+  const days = Math.floor((now - last) / 86_400_000);
+  if (days <= 0) return "Saved today";
+  if (days === 1) return "Saved yesterday";
+  return `Saved ${days} days ago`;
+}
