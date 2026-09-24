@@ -7,23 +7,13 @@
 // is checked field by field: a file is data from outside, and a hand-edited or
 // damaged one must never put nonsense into the study record.
 
-import { MAX_BOX } from "./progress.js";
+import { cleanRecord } from "./progress.js";
 
 export const BACKUP_APP = "terroir-study";
 export const BACKUP_VERSION = 1;
 export const MAX_BACKUP_BYTES = 1_000_000;
 
 const isCount = (n) => Number.isInteger(n) && n >= 0;
-
-// One question's record: keeps it only if every field makes sense.
-function cleanRecord(r) {
-  if (!r || typeof r !== "object" || Array.isArray(r)) return null;
-  const { attempts, correct, box, lastAnswered } = r;
-  if (!isCount(attempts) || !isCount(correct) || correct > attempts) return null;
-  if (!Number.isInteger(box) || box < 0 || box > MAX_BOX) return null;
-  if (typeof lastAnswered !== "number" || !Number.isFinite(lastAnswered) || lastAnswered < 0) return null;
-  return { attempts, correct, box, lastAnswered };
-}
 
 export function makeBackup({ quiz, taste, now = Date.now() }) {
   return {

@@ -299,3 +299,52 @@ test("studyPool keeps only questions due for review, and falls back when none ar
   assert.equal(studyPool(qs, prog, "Italy", true).fellBack, true);
   assert.equal(studyPool(qs, prog, "France", false).pool.length, 2);
 });
+
+// ── Damaged stored progress ──────────────────────────────────────────────────
+
+import { cleanRecord, cleanProgress } from "../src/progress.js";
+
+test("stored progress with the wrong kind of value is cleaned, not summed into text", () => {
+  const damaged = {
+    "fr-01": { attempts: "3", correct: "2", box: 2, lastAnswered: 100 },
+    "fr-02": { attempts: 4, correct: 1, box: 1, lastAnswered: 100 },
+    "fr-03": null, "fr-04": [], "fr-05": "x",
+    "fr-06": { attempts: 1, correct: 5, box: 1, lastAnswered: 1 },
+    "fr-07": { attempts: 1, correct: 1, box: 9, lastAnswered: 1 }
+  };
+  const { progress, dropped } = cleanProgress(damaged);
+  assert.deepEqual(Object.keys(progress), ["fr-02"]);
+  assert.equal(dropped, 6);
+  const s = progressSummary(QUIZ_QUESTIONS, progress);
+  assert.equal(typeof s.answered, "number");
+  assert.equal(s.answered, 4);
+});
+
+test("cleanProgress copes with things that are not progress at all", () => {
+  for (const bad of [null, undefined, 42, "text", [], true]) assert.deepEqual(cleanProgress(bad), { progress: {}, dropped: 0 }, String(bad));
+});
+
+test("a __proto__ key in stored progress is dropped and cannot change what records inherit", () => {
+  const raw = JSON.parse('{"__proto__":{"attempts":9},"fr-01":{"attempts":1,"correct":1,"box":1,"lastAnswered":1}}');
+  const { progress, dropped } = cleanProgress(raw);
+  assert.equal(dropped, 1);
+  assert.deepEqual(Object.keys(progress), ["fr-01"]);
+  assert.equal(Object.getPrototypeOf(progress), Object.prototype);
+  assert.equal(progress.attempts, undefined);
+});
+
+test("loadProgress returns only clean records from what is in storage", () => {
+  const before = globalThis.localStorage;
+  try {
+    const mem = new Map([[STORAGE_KEY, JSON.stringify({ a: { attempts: "1", correct: 1, box: 1, lastAnswered: 1 }, b: { attempts: 2, correct: 1, box: 2, lastAnswered: 5 } })]]);
+    globalThis.localStorage = { getItem: (k) => mem.get(k) ?? null, setItem: () => {}, removeItem: () => {} };
+    assert.deepEqual(loadProgress(), { b: { attempts: 2, correct: 1, box: 2, lastAnswered: 5 } });
+  } finally {
+    if (before === undefined) delete globalThis.localStorage; else globalThis.localStorage = before;
+  }
+});
+
+test("cleanRecord accepts exactly what recordAnswer writes", () => {
+  const written = recordAnswer({}, "x", true, 1234);
+  assert.deepEqual(cleanRecord(written.x), written.x);
+});

@@ -23,14 +23,41 @@ function storage() {
   }
 }
 
+const isCount = (n) => Number.isInteger(n) && n >= 0;
+
+// One question's record, or null if any field makes no sense. Stored data can be
+// damaged or hand-edited, and a string where a number belongs does not fail, it
+// quietly turns a sum into text ("Answered 0340000...").
+export function cleanRecord(r) {
+  if (!r || typeof r !== "object" || Array.isArray(r)) return null;
+  const { attempts, correct, box, lastAnswered } = r;
+  if (!isCount(attempts) || !isCount(correct) || correct > attempts) return null;
+  if (!Number.isInteger(box) || box < 0 || box > MAX_BOX) return null;
+  if (typeof lastAnswered !== "number" || !Number.isFinite(lastAnswered) || lastAnswered < 0) return null;
+  return { attempts, correct, box, lastAnswered };
+}
+
+// Keeps the records that make sense and drops the rest. Returns the clean
+// progress and how many entries were dropped.
+export function cleanProgress(raw) {
+  const progress = {};
+  let dropped = 0;
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return { progress, dropped };
+  for (const [id, rec] of Object.entries(raw)) {
+    // `progress["__proto__"] = x` would replace the object's prototype, not add a key.
+    const clean = id === "__proto__" ? null : cleanRecord(rec);
+    if (clean) progress[id] = clean; else dropped++;
+  }
+  return { progress, dropped };
+}
+
 export function loadProgress() {
   try {
     const s = storage();
     if (!s) return {};
     const raw = s.getItem(STORAGE_KEY);
     if (!raw) return {};
-    const parsed = JSON.parse(raw);
-    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+    return cleanProgress(JSON.parse(raw)).progress;
   } catch {
     return {};
   }
