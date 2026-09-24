@@ -8,12 +8,11 @@
 // damaged one must never put nonsense into the study record.
 
 import { cleanRecord } from "./progress.js";
+import { cleanTasteResults } from "./taste.js";
 
 export const BACKUP_APP = "terroir-study";
 export const BACKUP_VERSION = 1;
 export const MAX_BACKUP_BYTES = 1_000_000;
-
-const isCount = (n) => Number.isInteger(n) && n >= 0;
 
 export function makeBackup({ quiz, taste, now = Date.now() }) {
   return {
@@ -62,14 +61,11 @@ export function readBackup(text, knownIds = null) {
     if (rec) quiz[id] = rec; else dropped++;
   }
 
-  const t = data.taste;
-  const wines = isCount(t?.wines) ? t.wines : 0;
-  const fullyRight = isCount(t?.fullyRight) && t.fullyRight <= wines ? t.fullyRight : 0;
 
   return {
     ok: true,
     quiz,
-    taste: { wines, fullyRight },
+    taste: cleanTasteResults(data.taste),
     kept: Object.keys(quiz).length,
     dropped,
     unknown,

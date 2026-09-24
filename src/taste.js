@@ -215,17 +215,22 @@ function storage() {
   }
 }
 
+// Two running totals. Negative counts, or more wines fully right than wines
+// tasted, cannot be true, so they are not trusted: the pair is reset, not patched.
+export function cleanTasteResults(raw) {
+  const ok = (n) => Number.isInteger(n) && n >= 0;
+  const wines = ok(raw?.wines) ? raw.wines : 0;
+  const fullyRight = ok(raw?.fullyRight) && raw.fullyRight <= wines ? raw.fullyRight : 0;
+  return { wines, fullyRight };
+}
+
 export function loadTasteResults() {
   try {
     const s = storage();
     if (!s) return { wines: 0, fullyRight: 0 };
     const raw = s.getItem(STORAGE_KEY);
     if (!raw) return { wines: 0, fullyRight: 0 };
-    const parsed = JSON.parse(raw);
-    return {
-      wines: Number.isInteger(parsed?.wines) ? parsed.wines : 0,
-      fullyRight: Number.isInteger(parsed?.fullyRight) ? parsed.fullyRight : 0
-    };
+    return cleanTasteResults(JSON.parse(raw));
   } catch {
     return { wines: 0, fullyRight: 0 };
   }

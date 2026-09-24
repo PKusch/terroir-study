@@ -196,3 +196,27 @@ test("explain gives two plain sentences using the notes and the region's typical
   }
   assert.equal(explain(null), "");
 });
+
+// ── Damaged stored results ───────────────────────────────────────────────────
+
+import { cleanTasteResults, loadTasteResults } from "../src/taste.js";
+
+test("tasting totals that cannot be true are reset, not shown", () => {
+  const zero = { wines: 0, fullyRight: 0 };
+  assert.deepEqual(cleanTasteResults({ wines: -3, fullyRight: 1 }), zero);
+  assert.deepEqual(cleanTasteResults({ wines: 2, fullyRight: 9 }), { wines: 2, fullyRight: 0 });
+  assert.deepEqual(cleanTasteResults({ wines: 1.5 }), zero);
+  assert.deepEqual(cleanTasteResults({ wines: "4" }), zero);
+  for (const bad of [null, undefined, [1, 2], "x", 7]) assert.deepEqual(cleanTasteResults(bad), zero, String(bad));
+  assert.deepEqual(cleanTasteResults({ wines: 12, fullyRight: 5 }), { wines: 12, fullyRight: 5 });
+});
+
+test("loading stored tasting results applies the same check", () => {
+  const before = globalThis.localStorage;
+  try {
+    globalThis.localStorage = { getItem: () => JSON.stringify({ wines: 2, fullyRight: 9 }) };
+    assert.deepEqual(loadTasteResults(), { wines: 2, fullyRight: 0 });
+  } finally {
+    if (before === undefined) delete globalThis.localStorage; else globalThis.localStorage = before;
+  }
+});
