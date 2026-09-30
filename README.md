@@ -137,3 +137,11 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 ## License
 
 MIT
+
+## Tests
+
+```bash
+npm test
+```
+
+81 tests cover the pure logic — progress and spacing, the taste marker, backups, summaries and the map maths — with no browser needed.
