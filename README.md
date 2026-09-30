@@ -134,10 +134,6 @@ npm run dev
 
 Built by someone actively studying for WSET Level 3 who got frustrated with existing tools. This is the app I needed but couldn't find.
 
-## License
-
-MIT
-
 ## Tests
 
 ```bash
@@ -145,3 +141,7 @@ npm test
 ```
 
 81 tests cover the pure logic — progress and spacing, the taste marker, backups, summaries and the map maths — with no browser needed.
+
+## License
+
+MIT
