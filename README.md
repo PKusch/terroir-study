@@ -1,5 +1,7 @@
 # 🍷 Terroir Study
 
+[![deploy](https://github.com/PKusch/terroir-study/actions/workflows/deploy.yml/badge.svg)](https://github.com/PKusch/terroir-study/actions/workflows/deploy.yml)
+
 **A map-first, visual study tool for WSET Level 3 wine certification.**
 
 [**→ Try the live demo**](https://pkusch.github.io/terroir-study/)
