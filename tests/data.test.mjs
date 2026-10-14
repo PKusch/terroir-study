@@ -135,3 +135,10 @@ test("no two quiz questions ask the same thing", () => {
   const texts = QUIZ_QUESTIONS.map((q) => q.question.trim().toLowerCase());
   assert.equal(new Set(texts).size, texts.length, "duplicate question text");
 });
+
+test("the right answer is spread across all four positions", () => {
+  const counts = [0, 0, 0, 0];
+  for (const q of QUIZ_QUESTIONS) if (q.type !== "map") counts[q.answer]++;
+  const total = counts.reduce((a, b) => a + b, 0);
+  for (const n of counts) assert.ok(n > total * 0.15, `answer positions are lopsided: ${counts}`);
+});
