@@ -130,3 +130,8 @@ test("the New World map draws exactly the regions the data describes", () => {
   const NEW_WORLD_KEYS = ["california", "australia", "newZealand", "southAfrica", "chile", "argentina"];
   checkPaths(NEW_WORLD_REGION_PATHS, Object.fromEntries(NEW_WORLD_KEYS.map((k) => [k, {}])));
 });
+
+test("no two quiz questions ask the same thing", () => {
+  const texts = QUIZ_QUESTIONS.map((q) => q.question.trim().toLowerCase());
+  assert.equal(new Set(texts).size, texts.length, "duplicate question text");
+});
