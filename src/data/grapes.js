@@ -400,6 +400,36 @@ export const GRAPES = {
     aromas: ["black plum", "blackberry", "blueberry", "dark chocolate", "cedar"],
     notes: "A rare red-fleshed grape, so its juice is already dark before it meets the skins. It thrives in heat and gives very deep colour and plenty of tannin, which makes it a useful blending partner and the base of some of Alentejo's boldest reds."
   },
+  kadarka: {
+    name: "Kadarka",
+    aliases: [],
+    colour: "red",
+    body: "low",
+    acidity: "medium",
+    tannin: "low",
+    aromas: ["red cherry", "raspberry", "white pepper", "paprika", "dried herbs"],
+    notes: "A thin-skinned, late-ripening grape that is fussy in the vineyard and prone to rot, so it needs a warm site and a dry autumn. Gives pale, spicy, perfumed reds with soft tannins; once the base of Bull's Blood, it has been replanted by growers who value its delicacy."
+  },
+  xinomavro: {
+    name: "Xinomavro",
+    aliases: [],
+    colour: "red",
+    body: "medium",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["red cherry", "tomato", "olive", "dried herbs", "rose"],
+    notes: "Its name means acid black. A late-ripening, thin-skinned grape that keeps high acidity and tannin, and needs a long season and time in oak and bottle to soften. Pale in colour and quick to turn garnet, with a savoury, tomato-like note; often compared with Nebbiolo."
+  },
+  agiorgitiko: {
+    name: "Agiorgitiko",
+    aliases: ["St George"],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["red plum", "red cherry", "blackcurrant", "spice", "chocolate"],
+    notes: "A versatile grape whose style changes with altitude: soft, ripe and jammy at low sites; balanced and structured at mid-altitude; fresher and more acidic high up. Takes oak well, and also makes rosé and sweet wines."
+  },
   // ── Whites ────────────────────────────────────────────────────────────────
   grunerVeltliner: {
     name: "Grüner Veltliner",
@@ -463,6 +493,33 @@ export const GRAPES = {
     acidity: "medium",
     aromas: ["peach", "tropical fruit", "melon", "citrus", "butter"],
     notes: "Thrives in Alentejo's heat and still holds enough acidity to stay fresh. Gives round, full whites that take some oak and lees contact well."
+  },
+  furmint: {
+    name: "Furmint",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["green apple", "pear", "quince", "smoke", "honey"],
+    notes: "Late-ripening and thin-skinned, so it takes botrytis easily, and keeps very high acidity even when very ripe. That makes it ideal for long-lived sweet wine; on volcanic soils it also makes smoky, mineral dry whites that gain richness with age and oak."
+  },
+  harslevelu: {
+    name: "Hárslevelű",
+    aliases: ["Harslevelu"],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["peach", "pear", "lime blossom", "honey", "spice"],
+    notes: "Name means linden leaf. Ripens a little earlier than Furmint and gives rounder, more perfumed wine with softer acidity. Usually blended with Furmint for sweet and dry wines, adding aroma and body."
+  },
+  assyrtiko: {
+    name: "Assyrtiko",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["lemon", "grapefruit", "wet stone", "salt", "peach"],
+    notes: "Holds high acidity even in great heat and drought, which is rare. On Santorini the old ungrafted vines give low yields of concentrated, mineral, salty wine that is made dry or sweet, and that gains richness with oak and age."
   },
   sauvignonBlanc: {
     name: "Sauvignon Blanc",
