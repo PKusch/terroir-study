@@ -5,7 +5,9 @@
 import { PLACES_FRANCE } from "./places-france.js";
 import { PLACES_ITALY } from "./places-italy.js";
 import { PLACES_SPAIN } from "./places-spain.js";
+import { PLACES_AUSTRIA } from "./places-austria.js";
+import { PLACES_PORTUGAL } from "./places-portugal.js";
 import { PLACES_GERMANY } from "./places-germany.js";
 import { PLACES_NEW_WORLD } from "./places-newworld.js";
 
-export const PLACES = { ...PLACES_FRANCE, ...PLACES_ITALY, ...PLACES_SPAIN, ...PLACES_GERMANY, ...PLACES_NEW_WORLD };
+export const PLACES = { ...PLACES_FRANCE, ...PLACES_ITALY, ...PLACES_SPAIN, ...PLACES_GERMANY, ...PLACES_AUSTRIA, ...PLACES_PORTUGAL, ...PLACES_NEW_WORLD };

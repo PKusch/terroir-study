@@ -2050,5 +2050,196 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "argentina",
     explanation: "Summer hail can strip a Mendoza vineyard in minutes, and hail nets are the common defence. Harvest rain is not a Mendoza problem, since almost none falls in the growing season, and the sandy soils are a poor home for phylloxera."
+  },
+  {
+    id: "at-01",
+    type: "map",
+    country: "Austria",
+    question: "Which Austrian region's wines are graded Steinfeder, Federspiel and Smaragd by weight, from terraces above the Danube?",
+    answer: "niederosterreich",
+    explanation: "These are the Vinea Wachau grades, used in the Wachau, the terraced Danube valley in Niederösterreich. Steinfeder is the lightest and Smaragd the fullest, at least 12.5% abv."
+  },
+  {
+    id: "at-02",
+    type: "map",
+    country: "Austria",
+    question: "Which region lies beside a shallow lake whose autumn mist brings noble rot, and makes sweet wines such as the Ausbruch of Rust?",
+    answer: "burgenland",
+    explanation: "The shallow Neusiedler See in Burgenland warms quickly, and its autumn mist and humidity settle on the vineyards along its shores and bring botrytis, which concentrates the grapes."
+  },
+  {
+    id: "at-03",
+    type: "map",
+    country: "Austria",
+    question: "Which region, in the far south, makes Sauvignon Blanc and a high-acid rosé called Schilcher from Blauer Wildbacher?",
+    answer: "steiermark",
+    explanation: "Steiermark is Austria's southern, hilly wine region. The Weststeiermark makes the Schilcher rosé, and the Südsteiermark is known for Sauvignon Blanc."
+  },
+  {
+    id: "at-04",
+    type: "connection",
+    country: "Austria",
+    question: "Why can Grüner Veltliner ripen fully in Niederösterreich and still keep high acidity?",
+    options: [
+      "Winemakers add tartaric acid to every wine before bottling, whatever the year",
+      "The loess soils pass extra acid into the grapes as they ripen late in autumn",
+      "Hot days and cold nights ripen the grapes while keeping their acidity",
+      "The grape is picked while unripe, before its sugars have really formed"
+    ],
+    answer: 2,
+    region: "niederosterreich",
+    explanation: "Cool air from the west and warm, dry air from the east give hot days and cold nights. The grapes ripen and build aroma, but the cold nights slow the loss of acidity."
+  },
+  {
+    id: "at-05",
+    type: "scenario",
+    country: "Austria",
+    question: "A grower near Rust wants to make a rich, sweet wine. What makes that possible?",
+    options: [
+      "Autumn mist from the shallow lake encourages noble rot, which concentrates the grapes",
+      "Hot, dry weather alone lifts the sugar enough, so the grapes stay perfectly clean",
+      "Hard frost freezes every grape on the vine before the harvest begins",
+      "Growers add sugar to a high-acid base wine before it ferments"
+    ],
+    answer: 0,
+    region: "burgenland",
+    explanation: "Mist and humidity from the Neusiedler See settle on the vineyards in autumn and bring botrytis. The fungus dries the berries on the vine, so sugar and acidity are both concentrated."
+  },
+  {
+    id: "at-06",
+    type: "connection",
+    country: "Austria",
+    question: "Why is Burgenland the centre of Austrian red wine, while cooler areas to the north and south lean to white?",
+    options: [
+      "Cold winters kill almost every white grape variety planted in the region",
+      "Red grapes are the only varieties allowed under the regional DAC rules",
+      "The lake leaves the vineyards too wet and humid for white grapes to ripen",
+      "Warm, dry Pannonian summers fully ripen Blaufränkisch and Zweigelt"
+    ],
+    answer: 3,
+    region: "burgenland",
+    explanation: "Burgenland is Austria's warmest wine region, on the edge of the Hungarian plain. Late-ripening Blaufränkisch and Zweigelt ripen fully there."
+  },
+  {
+    id: "at-07",
+    type: "scenario",
+    country: "Austria",
+    question: "A guest wants a crisp, aromatic white with gooseberry and elderflower from Austria's cool south. Which wine fits?",
+    options: [
+      "Wachau Smaragd Grüner Veltliner",
+      "Südsteiermark Sauvignon Blanc",
+      "Mittelburgenland Blaufränkisch",
+      "Neusiedlersee Zweigelt"
+    ],
+    answer: 1,
+    region: "steiermark",
+    explanation: "Sauvignon Blanc from the Südsteiermark has pronounced gooseberry, blackcurrant leaf and elderflower, with high acidity from warm days and cool nights."
+  },
+  {
+    id: "at-08",
+    type: "map",
+    country: "Austria",
+    question: "Which region includes Kamptal, Kremstal, Wagram and the Weinviertel, where DAC wines are named for the district?",
+    answer: "niederosterreich",
+    explanation: "These are all districts of Niederösterreich along and north of the Danube. A DAC wine from each must be made from set grapes, such as Grüner Veltliner in the Weinviertel."
+  },
+  {
+    id: "pt-01",
+    type: "map",
+    country: "Portugal",
+    question: "Which region in Portugal's wet northwest makes light, low-alcohol, slightly spritzy whites, and trained vines high on pergolas?",
+    answer: "vinhoVerde",
+    explanation: "Vinho Verde is Portugal's wettest and greenest region. High training keeps the grapes off damp ground, and the cool climate gives low sugar and high acidity."
+  },
+  {
+    id: "pt-02",
+    type: "map",
+    country: "Portugal",
+    question: "Which region has terraced schist slopes along a river, and is home to Port?",
+    answer: "douro",
+    explanation: "The Douro valley is cut into schist, with terraces on steep slopes. Port is fortified with grape spirit during fermentation, and aged in the lodges of Vila Nova de Gaia."
+  },
+  {
+    id: "pt-03",
+    type: "map",
+    country: "Portugal",
+    question: "Which large southern plain, with cork oak woods, makes soft reds from Aragonez, Trincadeira and Alicante Bouschet?",
+    answer: "alentejo",
+    explanation: "Alentejo is a hot, flat to rolling plain in the south. Long, dry summers ripen the grapes fully, giving soft, fruit-forward reds, and cork oak woods sit among the vineyards."
+  },
+  {
+    id: "pt-04",
+    type: "connection",
+    country: "Portugal",
+    question: "Why are Vinho Verde vines traditionally trained high, on pergolas or up trees?",
+    options: [
+      "To shade the grapes from the strong midsummer sun and keep them cool all day",
+      "To lift grapes off damp ground and let air move through in a humid climate",
+      "To make machine harvesting possible on the narrow, steeply terraced hillsides",
+      "To protect the buds from the hard spring frosts of the high inland valleys"
+    ],
+    answer: 1,
+    region: "vinhoVerde",
+    explanation: "The northwest is wet and humid, so rot and mildew are the main problems. Training vines high keeps the fruit off damp ground and lets air dry the canopy."
+  },
+  {
+    id: "pt-05",
+    type: "connection",
+    country: "Portugal",
+    question: "Why do vines on the Douro's schist cope with hot, dry summers and give low yields of concentrated fruit?",
+    options: [
+      "Schist holds water near the surface, so the vines never have to push their roots down",
+      "The dark schist reflects the sun's heat upward and so keeps the vineyards cool",
+      "Schist feeds the vines extra nutrients, so the yields are high and the grapes are big",
+      "Fractured schist lets roots reach deep water, so yields stay low and the fruit is concentrated"
+    ],
+    answer: 3,
+    region: "douro",
+    explanation: "Broken, layered schist drains freely but lets roots push deep to find water. Vines struggle a little, so yields stay low and the grapes concentrated and tannic."
+  },
+  {
+    id: "pt-06",
+    type: "scenario",
+    country: "Portugal",
+    question: "A Port is amber-brown, with nutty, dried-fruit flavours from years of ageing in oak casks. What is it?",
+    options: [
+      "Tawny",
+      "Ruby",
+      "Vintage",
+      "Late Bottled Vintage"
+    ],
+    answer: 0,
+    region: "douro",
+    explanation: "Tawny is aged in oak for years, which lets it oxidise slowly and turn amber-brown, with nutty and dried-fruit flavours. Ruby and Vintage keep their deep red colour."
+  },
+  {
+    id: "pt-07",
+    type: "connection",
+    country: "Portugal",
+    question: "Why are Alentejo's wines usually soft and fruity, with lower acidity?",
+    options: [
+      "The cold Atlantic coast keeps nights near freezing through the whole summer",
+      "Heavy rainfall dilutes the grapes and washes out their natural acids",
+      "Long, hot, dry summers ripen the grapes fully and burn off acidity",
+      "Mountain altitude means the harvest is always picked very early"
+    ],
+    answer: 2,
+    region: "alentejo",
+    explanation: "Alentejo is a hot, flat plain. Grapes ripen fully with high sugar, but heat burns off acidity, so the wines are soft and fruit-forward."
+  },
+  {
+    id: "pt-08",
+    type: "scenario",
+    country: "Portugal",
+    question: "What is a vinho de talha, traditional in the Alentejo around Vidigueira?",
+    options: [
+      "A fortified wine from the Douro, aged in cask for decades",
+      "A wine fermented and aged in a clay amphora, on its skins",
+      "A lightly spritzy white from the Minho, drunk very young",
+      "A sweet wine made from grapes dried on straw mats"
+    ],
+    answer: 1,
+    region: "alentejo",
+    explanation: "Vinho de talha is made in a clay amphora (talha): grapes and skins ferment together, and the wine is traditionally left in the same vessel afterwards."
   }
 ];

@@ -42,3 +42,16 @@ export const ptSpain = spain.pt;
 const germany = makeProjection({ lonMin: 5.5, lonMax: 15.5, latMin: 47.0, latMax: 55.2 });
 export const geoToSvgGermany = germany.geoToSvg;
 export const ptGermany = germany.pt;
+
+// Austria spans ~9.5°..17.2° lon, ~46.4°..49.0° lat. The box is taller than the
+// country so one degree of longitude is drawn about two thirds as wide as one of
+// latitude, as it is at this latitude, rather than stretched.
+const austria = makeProjection({ lonMin: 9.4, lonMax: 17.3, latMin: 45.5, latMax: 49.9 });
+export const geoToSvgAustria = austria.geoToSvg;
+export const ptAustria = austria.pt;
+// Portugal spans ~-9.5°..-6.2° lon, ~37.0°..42.2° lat. The box is wide so the
+// country keeps its narrow shape, with Spain beside it, and one degree of
+// longitude is drawn about three quarters as wide as one of latitude.
+const portugal = makeProjection({ lonMin: -11.95, lonMax: -3.75, latMin: 36.9, latMax: 42.2 });
+export const geoToSvgPortugal = portugal.geoToSvg;
+export const ptPortugal = portugal.pt;

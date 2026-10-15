@@ -24,7 +24,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ### Four Study Modes
 
-**🗺️ Explore** — Click any region on the map of France, Italy, Spain, Germany or the New World, then *Zoom into* it to see its villages and districts marked where they really are. *Print summary* gives a one-page revision sheet for the region on screen. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
+**🗺️ Explore** — Click any region on the map of France, Italy, Spain, Germany, Austria, Portugal or the New World, then *Zoom into* it to see its villages and districts marked where they really are. *Print summary* gives a one-page revision sheet for the region on screen. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
 
 **🔗 Connect** — The core differentiator. For each region, see the full chain: Climate → Soil → Grapes → Winemaking → Style. Understand *why* Champagne uses chalk soils, *why* Alsace is dry despite being northerly, *why* Chenin Blanc can be made in every style.
 
@@ -82,7 +82,7 @@ New World (6 WSET L3 countries, one region each) sharing one map:
 - **Chile** — the Pacific (Humboldt current) and the Andes as the two coolers, Casablanca and San Antonio whites, Maipo Cabernet, Colchagua Carmenère (the Bordeaux grape mistaken for Merlot), Central Valley volume; ungrafted vines, no phylloxera
 - **Argentina** — Mendoza Malbec at altitude (Luján de Cuyo, Uco Valley), desert climate irrigated by Andean meltwater, the zonda wind and hail, thick skins from strong sunlight, Torrontés from high-altitude Salta; Cabernet and Bonarda
 
-*France, Italy, Spain, Germany and the New World are built. The quiz covers all of them.*
+*France, Italy, Spain, Germany, Austria, Portugal and the New World are built. The quiz covers all of them.*
 
 ## Tech Stack
 
@@ -124,13 +124,15 @@ npm run dev
 - [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
 - [x] Germany (Mosel, Rheingau, Pfalz)
+- [x] Austria (Niederösterreich, Burgenland, Steiermark)
+- [x] Portugal (Vinho Verde, Douro, Alentejo)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (165: 63 France, 24 Italy, 24 Spain, 18 Germany, 36 New World)
+- [x] Expand quiz bank to 50+ questions (181: 63 France, 24 Italy, 24 Spain, 18 Germany, 8 Austria, 8 Portugal, 36 New World)
 - [x] Spaced repetition algorithm for quiz mode
-- [x] Grape variety profiles with tasting descriptors (67 grapes)
+- [x] Grape variety profiles with tasting descriptors (80 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
-- [x] Sub-region drill-down maps (Zoom into any region: 155 places marked across 28 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 182 places marked across 34 regions)
 
 ## About
 
