@@ -21,6 +21,7 @@ the region or question and what it should say, with a source if you have one.
 npm install
 npm test     # 81 tests over the pure logic, no browser needed
 npm run dev  # the app, for a visual change
+npm run quizcheck  # quiz questions where the right answer is the longest option
 ```
 
 A map or quiz-flow change should be tried in the browser; a data or logic fix is
