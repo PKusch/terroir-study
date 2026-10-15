@@ -281,7 +281,7 @@ export const GRAPES = {
   },
   tempranillo: {
     name: "Tempranillo",
-    aliases: ["Tinto Fino", "Tinta del País", "Tinta Roriz", "Cencibel", "Ull de Llebre"],
+    aliases: ["Tinto Fino", "Tinta del País", "Tinta Roriz", "Aragonez", "Cencibel", "Ull de Llebre"],
     colour: "red",
     body: "medium",
     acidity: "medium",
@@ -340,7 +340,130 @@ export const GRAPES = {
     notes: "Argentina's second red grape, unrelated to the Italian grapes of the same name; it came from Savoie, where it is Douce Noir. Deep colour and soft tannin, mostly unoaked and drunk young; old vines and low yields make it serious."
   },
 
+  blaufrankisch: {
+    name: "Blaufränkisch",
+    aliases: ["Lemberger", "Kékfrankos"],
+    colour: "red",
+    body: "medium",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["black cherry", "blackberry", "blackcurrant", "black pepper", "violet"],
+    notes: "Ripens late, so it needs a warm, sheltered site with a long autumn; picked early it is sharp and green. Firm tannins and high acidity let it age well, and oak or time adds spice and a savoury, earthy depth."
+  },
+  zweigelt: {
+    name: "Zweigelt",
+    aliases: [],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["sour cherry", "red plum", "raspberry", "pepper", "cinnamon"],
+    notes: "A cross of St. Laurent and Blaufränkisch that ripens reliably and crops generously. Left to crop heavily it is thin and plain; kept in check it gives juicy, soft, easy wines for drinking young, with oak lending more weight at the top end."
+  },
+  tourigaNacional: {
+    name: "Touriga Nacional",
+    aliases: [],
+    colour: "red",
+    body: "high",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["violet", "blackberry", "black plum", "bergamot", "rock rose"],
+    notes: "Small berries on small bunches give deep colour, firm tannin and a floral edge, and low yields make it concentrated. It thrives in the hot, dry Douro but needs care in a cool year. Makes both Port and dry reds, and ages well."
+  },
+  tourigaFranca: {
+    name: "Touriga Franca",
+    aliases: [],
+    colour: "red",
+    body: "high",
+    acidity: "medium",
+    tannin: "high",
+    aromas: ["red plum", "black cherry", "rose", "violet", "dried herbs"],
+    notes: "The most planted grape of the Douro because it is dependable: it ripens evenly, gives good colour and holds up in heat. Adds floral lift and structure to Port and Douro red blends."
+  },
+  trincadeira: {
+    name: "Trincadeira",
+    aliases: ["Tinta Amarela"],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["red plum", "blackberry", "dried herbs", "black pepper", "cherry"],
+    notes: "A late-ripening grape that likes heat and a dry autumn; in a wet year it rots easily. At its best it gives peppery, spicy reds with a herbal edge, and it is often blended to add lift to heavier grapes."
+  },
+  alicanteBouschet: {
+    name: "Alicante Bouschet",
+    aliases: ["Garnacha Tintorera"],
+    colour: "red",
+    body: "high",
+    acidity: "medium",
+    tannin: "high",
+    aromas: ["black plum", "blackberry", "blueberry", "dark chocolate", "cedar"],
+    notes: "A rare red-fleshed grape, so its juice is already dark before it meets the skins. It thrives in heat and gives very deep colour and plenty of tannin, which makes it a useful blending partner and the base of some of Alentejo's boldest reds."
+  },
   // ── Whites ────────────────────────────────────────────────────────────────
+  grunerVeltliner: {
+    name: "Grüner Veltliner",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["green apple", "lime", "white pepper", "lentil", "grapefruit"],
+    notes: "Austria's signature grape, with a peppery note. It needs a good site and a warm autumn: on poor or overcropped land it tastes thin and green. Rock soils give a lighter, mineral style; loess gives fuller wines, and the best age for many years."
+  },
+  welschriesling: {
+    name: "Welschriesling",
+    aliases: ["Graševina", "Olaszrizling"],
+    colour: "white",
+    body: "low",
+    acidity: "high",
+    aromas: ["green apple", "lemon", "pear", "white flowers", "almond"],
+    notes: "Unrelated to Riesling, despite the name. Light, crisp and neutral when made dry for drinking young; its high acidity and thin skins also make it good for sweet wine in damp autumn weather."
+  },
+  alvarinho: {
+    name: "Alvarinho",
+    aliases: ["Albariño"],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["peach", "grapefruit", "lemon", "apricot", "white flowers"],
+    notes: "Small, thick-skinned berries cope with the damp Atlantic climate and give concentration and high acidity. Usually unoaked; lees contact adds texture, and the best age well."
+  },
+  trajadura: {
+    name: "Trajadura",
+    aliases: ["Treixadura"],
+    colour: "white",
+    body: "low",
+    acidity: "medium",
+    aromas: ["peach", "apple", "lemon", "white flowers", "melon"],
+    notes: "A soft, fruity grape that ripens early, so it adds roundness and a little sweetness of fruit to the tart, lean Vinho Verde blend. Rarely made alone; drunk young."
+  },
+  loureiro: {
+    name: "Loureiro",
+    aliases: [],
+    colour: "white",
+    body: "low",
+    acidity: "high",
+    aromas: ["lime", "orange blossom", "green apple", "bay leaf", "peach"],
+    notes: "A fragrant grape that thrives in the cool, wet northwest, ripening evenly with high acidity. Drunk young and unoaked to keep its floral lift; often blended with Arinto and Trajadura."
+  },
+  arinto: {
+    name: "Arinto",
+    aliases: ["Pedernã"],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["lemon", "green apple", "lime", "wet stone", "peach"],
+    notes: "Keeps very high acidity even in hot sites, so it is prized for freshness in warm regions and for sparkling and ageing. Neutral young; with time or lees contact it gains a waxy, nutty depth."
+  },
+  antaoVaz: {
+    name: "Antão Vaz",
+    aliases: [],
+    colour: "white",
+    body: "high",
+    acidity: "medium",
+    aromas: ["peach", "tropical fruit", "melon", "citrus", "butter"],
+    notes: "Thrives in Alentejo's heat and still holds enough acidity to stay fresh. Gives round, full whites that take some oak and lees contact well."
+  },
   sauvignonBlanc: {
     name: "Sauvignon Blanc",
     aliases: ["Fumé Blanc"],
@@ -460,7 +583,7 @@ export const GRAPES = {
   },
   muscat: {
     name: "Muscat",
-    aliases: ["Moscato Bianco", "Moscato", "Muscat Blanc à Petits Grains", "Moscatel"],
+    aliases: ["Moscato Bianco", "Moscato", "Muscat Blanc à Petits Grains", "Moscatel", "Gelber Muskateller"],
     colour: "white",
     body: "low",
     acidity: "low",
