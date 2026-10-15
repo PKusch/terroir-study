@@ -1,7 +1,7 @@
 // ─── Which projection and which polygon table a region belongs to ────────────
 // The zoomed view draws the country map with a tighter view box and places
 // markers with the same projection the map itself uses, so the two agree.
-import { geoToSvg, geoToSvgItaly, geoToSvgSpain, geoToSvgGermany, geoToSvgAustria, geoToSvgPortugal } from "../geo.js";
+import { geoToSvg, geoToSvgItaly, geoToSvgSpain, geoToSvgGermany, geoToSvgAustria, geoToSvgPortugal, geoToSvgHungary, geoToSvgGreece } from "../geo.js";
 import { COUNTRIES } from "./regions.js";
 import { FRANCE_REGION_PATHS } from "./france-map.js";
 import { ITALY_REGION_PATHS } from "./italy-map.js";
@@ -9,6 +9,8 @@ import { SPAIN_REGION_PATHS } from "./spain-map.js";
 import { GERMANY_REGION_PATHS } from "./germany-map.js";
 import { AUSTRIA_REGION_PATHS } from "./austria-map.js";
 import { PORTUGAL_REGION_PATHS } from "./portugal-map.js";
+import { HUNGARY_REGION_PATHS } from "./hungary-map.js";
+import { GREECE_REGION_PATHS } from "./greece-map.js";
 import { NEW_WORLD_REGION_PATHS, NEW_WORLD_PROJECTIONS } from "./newworld-map.js";
 
 const PATHS = {
@@ -18,6 +20,8 @@ const PATHS = {
   Germany: GERMANY_REGION_PATHS,
   Austria: AUSTRIA_REGION_PATHS,
   Portugal: PORTUGAL_REGION_PATHS,
+  Hungary: HUNGARY_REGION_PATHS,
+  Greece: GREECE_REGION_PATHS,
   "New World": NEW_WORLD_REGION_PATHS
 };
 
@@ -28,6 +32,8 @@ const PROJECTIONS = {
   Germany: () => geoToSvgGermany,
   Austria: () => geoToSvgAustria,
   Portugal: () => geoToSvgPortugal,
+  Hungary: () => geoToSvgHungary,
+  Greece: () => geoToSvgGreece,
   "New World": (key) => NEW_WORLD_PROJECTIONS[key]
 };
 

@@ -15,6 +15,10 @@ import { AUSTRIA_REGIONS } from "../src/data/austria.js";
 import { AUSTRIA_REGION_PATHS } from "../src/data/austria-map.js";
 import { PORTUGAL_REGIONS } from "../src/data/portugal.js";
 import { PORTUGAL_REGION_PATHS } from "../src/data/portugal-map.js";
+import { HUNGARY_REGIONS } from "../src/data/hungary.js";
+import { HUNGARY_REGION_PATHS } from "../src/data/hungary-map.js";
+import { GREECE_REGIONS } from "../src/data/greece.js";
+import { GREECE_REGION_PATHS } from "../src/data/greece-map.js";
 import { NEW_WORLD_REGION_PATHS } from "../src/data/newworld-map.js";
 import { NEW_WORLD_REGIONS } from "../src/data/newworld.js";
 
@@ -99,13 +103,31 @@ test("the Portugal map draws exactly the regions the data describes", () => {
   checkPaths(PORTUGAL_REGION_PATHS, PORTUGAL_REGIONS);
 });
 
+test("every Hungarian region has every field the panels read, and says it is Hungarian", () => {
+  checkRegions(HUNGARY_REGIONS);
+  for (const [key, r] of Object.entries(HUNGARY_REGIONS)) assert.equal(r.country, "Hungary", `${key}.country`);
+});
+
+test("the Hungary map draws exactly the regions the data describes", () => {
+  checkPaths(HUNGARY_REGION_PATHS, HUNGARY_REGIONS);
+});
+
+test("every Greek region has every field the panels read, and says it is Greek", () => {
+  checkRegions(GREECE_REGIONS);
+  for (const [key, r] of Object.entries(GREECE_REGIONS)) assert.equal(r.country, "Greece", `${key}.country`);
+});
+
+test("the Greece map draws exactly the regions the data describes", () => {
+  checkPaths(GREECE_REGION_PATHS, GREECE_REGIONS);
+});
+
 test("every New World region has every field the panels read", () => {
   checkRegions(NEW_WORLD_REGIONS);
   for (const [key, r] of Object.entries(NEW_WORLD_REGIONS)) assert.equal(r.country, "New World", `${key}.country`);
 });
 
 test("no region key or colour is shared between countries", () => {
-  const tables = [FRANCE_REGIONS, ITALY_REGIONS, SPAIN_REGIONS, GERMANY_REGIONS, AUSTRIA_REGIONS, PORTUGAL_REGIONS, NEW_WORLD_REGIONS];
+  const tables = [FRANCE_REGIONS, ITALY_REGIONS, SPAIN_REGIONS, GERMANY_REGIONS, AUSTRIA_REGIONS, PORTUGAL_REGIONS, HUNGARY_REGIONS, GREECE_REGIONS, NEW_WORLD_REGIONS];
   const keys = tables.flatMap((t) => Object.keys(t));
   assert.equal(new Set(keys).size, keys.length, "keys must be unique across countries: the panels read one merged table");
   const colours = tables.flatMap((t) => Object.values(t)).map((r) => r.color.toUpperCase());

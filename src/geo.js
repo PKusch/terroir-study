@@ -55,3 +55,15 @@ export const ptAustria = austria.pt;
 const portugal = makeProjection({ lonMin: -11.95, lonMax: -3.75, latMin: 36.9, latMax: 42.2 });
 export const geoToSvgPortugal = portugal.geoToSvg;
 export const ptPortugal = portugal.pt;
+
+// Hungary spans ~16.1°..22.9° lon, ~45.7°..48.6° lat. The box is a little taller
+// than the country so one degree of longitude is drawn about two thirds as wide
+// as one of latitude, as it is at this latitude.
+const hungary = makeProjection({ lonMin: 15.7, lonMax: 23.1, latMin: 45.1, latMax: 49.3 });
+export const geoToSvgHungary = hungary.geoToSvg;
+export const ptHungary = hungary.pt;
+// Greece spans ~19.4°..28.2° lon, ~34.8°..41.8° lat, with Crete in the south.
+// One degree of longitude is drawn about four fifths as wide as one of latitude.
+const greece = makeProjection({ lonMin: 18.3, lonMax: 29.3, latMin: 34.6, latMax: 41.9 });
+export const geoToSvgGreece = greece.geoToSvg;
+export const ptGreece = greece.pt;

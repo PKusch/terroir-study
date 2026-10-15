@@ -7,6 +7,8 @@ import { SpainMap } from "./SpainMap.jsx";
 import { GermanyMap } from "./GermanyMap.jsx";
 import { AustriaMap } from "./AustriaMap.jsx";
 import { PortugalMap } from "./PortugalMap.jsx";
+import { HungaryMap } from "./HungaryMap.jsx";
+import { GreeceMap } from "./GreeceMap.jsx";
 import { NewWorldMap } from "./NewWorldMap.jsx";
 
-export const MAPS = { France: FranceMap, Italy: ItalyMap, Spain: SpainMap, Germany: GermanyMap, Austria: AustriaMap, Portugal: PortugalMap, "New World": NewWorldMap };
+export const MAPS = { France: FranceMap, Italy: ItalyMap, Spain: SpainMap, Germany: GermanyMap, Austria: AustriaMap, Portugal: PortugalMap, Hungary: HungaryMap, Greece: GreeceMap, "New World": NewWorldMap };

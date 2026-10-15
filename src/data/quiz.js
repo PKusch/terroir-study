@@ -2241,5 +2241,203 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "alentejo",
     explanation: "Vinho de talha is made in a clay amphora (talha): grapes and skins ferment together, and the wine is traditionally left in the same vessel afterwards."
+  },
+  {
+    id: "hu-01",
+    type: "map",
+    country: "Hungary",
+    question: "Which region, where the Bodrog meets the Tisza, makes sweet Aszú wines from botrytised Furmint and Hárslevelű?",
+    answer: "tokaj",
+    explanation: "Tokaj's river mist and dry autumn sun bring noble rot. Shrivelled aszú berries are added to a base wine to make Aszú, whose sweetness is graded in puttonyos."
+  },
+  {
+    id: "hu-02",
+    type: "map",
+    country: "Hungary",
+    question: "Which northern region, with cellars cut into volcanic tuff, is home to Egri Bikavér, 'Bull's Blood'?",
+    answer: "eger",
+    explanation: "Eger, in the foothills of the Bükk mountains, makes Egri Bikavér, a red blend typically led by Kékfrankos. Its cellars are dug into the soft volcanic tuff."
+  },
+  {
+    id: "hu-03",
+    type: "map",
+    country: "Hungary",
+    question: "Which warm southern region, near the Croatian border, has Cabernet Franc as its flagship red?",
+    answer: "villany",
+    explanation: "Villány is Hungary's warmest, sunniest corner. Limestone hills, long summers and a warm autumn ripen Cabernet Franc and other late reds fully."
+  },
+  {
+    id: "hu-04",
+    type: "connection",
+    country: "Hungary",
+    question: "Why does Tokaj so often get noble rot in autumn?",
+    options: [
+      "Hot, dry weather through autumn shrivels the grapes long before any rot can start",
+      "The volcanic soils are rich in sugar that feeds the fungus all through the autumn",
+      "Mist from the Bodrog and Tisza rivers settles on the grapes, then sun dries them",
+      "Heavy spring rain washes the fungus into the vineyards, where it waits until harvest"
+    ],
+    answer: 2,
+    region: "tokaj",
+    explanation: "Botrytis needs humidity to take hold and dry weather afterwards to concentrate the grapes rather than rot them. Morning river mist and afternoon sun give both."
+  },
+  {
+    id: "hu-05",
+    type: "scenario",
+    country: "Hungary",
+    question: "A Tokaji Aszú is labelled 6 puttonyos. What does that tell you?",
+    options: [
+      "It was picked early from the best vineyards, for the highest acidity",
+      "It is a very sweet wine, made with a high level of aszú berries",
+      "It is a dry white blend of six different grape varieties",
+      "It was aged for six years in a single oak barrel"
+    ],
+    answer: 1,
+    region: "tokaj",
+    explanation: "Puttonyos describe the sweetness of Aszú, which comes from shrivelled botrytised berries added to a base wine. Today only 5 and 6 are used, and 6 is sweeter."
+  },
+  {
+    id: "hu-06",
+    type: "scenario",
+    country: "Hungary",
+    question: "What is Egri Bikavér?",
+    options: [
+      "A sweet wine made from dried grapes",
+      "A white blend of Furmint and Hárslevelű",
+      "A single-vineyard Cabernet Franc",
+      "A red blend, typically led by Kékfrankos"
+    ],
+    answer: 3,
+    region: "eger",
+    explanation: "Bikavér means Bull's Blood. Egri Bikavér is the red blend of Eger, typically led by Kékfrankos, with a stricter Superior tier above the basic wine."
+  },
+  {
+    id: "hu-07",
+    type: "connection",
+    country: "Hungary",
+    question: "Why can Villány ripen Cabernet Franc fully when much of Hungary is cooler?",
+    options: [
+      "It is Hungary's warmest, sunniest corner, with a long season and warm autumn",
+      "The vineyards lie on the Great Plain, where the nights stay hot all summer",
+      "Cold winters kill off every other grape, leaving only Cabernet Franc to grow",
+      "Water from the Danube is used to irrigate the vines through the winter"
+    ],
+    answer: 0,
+    region: "villany",
+    explanation: "Villány is in the far south, with long, hot summers and a warm autumn, and south-facing slopes on limestone. Late-ripening red grapes ripen fully there."
+  },
+  {
+    id: "hu-08",
+    type: "scenario",
+    country: "Hungary",
+    question: "Which Tokaj wine is the free-run juice of aszú berries, extremely sweet and very low in alcohol?",
+    options: [
+      "Száraz Furmint",
+      "Aszú, 5 puttonyos",
+      "Szamorodni",
+      "Eszencia"
+    ],
+    answer: 3,
+    region: "tokaj",
+    explanation: "Eszencia is the syrupy juice that drips from aszú berries under their own weight. It is extremely sweet and ferments very slowly, so it stays very low in alcohol."
+  },
+  {
+    id: "gr-01",
+    type: "map",
+    country: "Greece",
+    question: "Which volcanic island makes mineral, high-acid Assyrtiko from vines trained in low baskets?",
+    answer: "santorini",
+    explanation: "Santorini's vines are trained in low coiled baskets (kouloura) that shelter the grapes from wind and sun and catch the sea mist, in a hot, dry, windy climate."
+  },
+  {
+    id: "gr-02",
+    type: "map",
+    country: "Greece",
+    question: "Which northern region, on the slopes of Mount Vermio, makes tannic, high-acid reds from Xinomavro?",
+    answer: "naoussa",
+    explanation: "Naoussa is the home of Xinomavro, a late-ripening grape with high acidity and high tannin, often compared with Nebbiolo."
+  },
+  {
+    id: "gr-03",
+    type: "map",
+    country: "Greece",
+    question: "Which Peloponnese region makes soft, plummy reds from Agiorgitiko, best from mid-altitude vineyards?",
+    answer: "nemea",
+    explanation: "Nemea's Agiorgitiko changes with altitude: jammy and soft in the warm lowlands, balanced at mid-altitude, and fresher and more acidic in the heights."
+  },
+  {
+    id: "gr-04",
+    type: "connection",
+    country: "Greece",
+    question: "Why are Santorini's vines trained in low baskets (kouloura)?",
+    options: [
+      "To keep the grapes away from the wet clay soils beneath the vine",
+      "To shelter the grapes from wind and sun, and to catch sea mist",
+      "To make harvesting easier for pickers who work from the ground",
+      "To shade the soil and keep the roots cool through the summer"
+    ],
+    answer: 1,
+    region: "santorini",
+    explanation: "There is almost no rain and a strong wind. The low basket shelters the grapes and holds the dew and sea mist that are the vine's main water."
+  },
+  {
+    id: "gr-05",
+    type: "scenario",
+    country: "Greece",
+    question: "A red wine is pale ruby, with high acidity and high tannin, and flavours of red cherry and tomato. Which Greek grape is it?",
+    options: [
+      "Agiorgitiko",
+      "Assyrtiko",
+      "Xinomavro",
+      "Syrah"
+    ],
+    answer: 2,
+    region: "naoussa",
+    explanation: "Xinomavro, 'acid black', is pale, high in acidity and tannin, and savoury, with red fruit and tomato. Producers often compare it with Nebbiolo."
+  },
+  {
+    id: "gr-06",
+    type: "connection",
+    country: "Greece",
+    question: "Why do Nemea producers value mid- to high-altitude vineyards?",
+    options: [
+      "Cooler nights keep Agiorgitiko fresh, where the warm lowlands give soft, jammy wine",
+      "Higher vineyards get far more rain, so the vines never need any other water",
+      "The grapes lose all their tannin above a certain height, giving lighter wines",
+      "Altitude lets the same vines give two harvests in a single year"
+    ],
+    answer: 0,
+    region: "nemea",
+    explanation: "Altitude lowers temperatures, especially at night. Agiorgitiko keeps acidity and freshness there, where in the warm lowlands it ripens to soft, jammy fruit."
+  },
+  {
+    id: "gr-07",
+    type: "scenario",
+    country: "Greece",
+    question: "What is Vinsanto, from Santorini?",
+    options: [
+      "A dry white fermented in clay amphorae",
+      "A light, fizzy white drunk young",
+      "A fortified red aged for decades in tank",
+      "A sweet wine made from sun-dried grapes"
+    ],
+    answer: 3,
+    region: "santorini",
+    explanation: "Vinsanto is made from Assyrtiko (with Athiri and Aidani) dried in the sun for days before pressing, then aged in oak for years. It is sweet, with high acidity."
+  },
+  {
+    id: "gr-08",
+    type: "connection",
+    country: "Greece",
+    question: "Why has phylloxera never been a threat to many of Santorini's old vines?",
+    options: [
+      "The island is too cold in winter for the pest to survive there",
+      "Its vines are all grafted onto roots that resist the pest",
+      "The sandy volcanic soil does not suit the pest, so vines grow on their own roots",
+      "Local law bans imported vines and cuttings of every kind"
+    ],
+    answer: 2,
+    region: "santorini",
+    explanation: "Phylloxera does not thrive in sandy, ashy, free-draining volcanic soil, so many old vines on Santorini are ungrafted, on their own roots."
   }
 ];
