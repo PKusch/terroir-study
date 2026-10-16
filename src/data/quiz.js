@@ -1085,10 +1085,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Why does Tempranillo do best in Rioja Alta and Rioja Alavesa while Garnacha suits Rioja Oriental?",
     options: [
-      "The west is cooler with some Atlantic influence, which suits early-ripening Tempranillo; the east is warmer and drier, giving Garnacha the heat it needs",
-      "Garnacha needs the clay-limestone slopes, which are only found in the east",
-      "Tempranillo ripens late, so it needs the extra heat of the western zones",
-      "The Ebro floods the western vineyards each spring, and only Tempranillo tolerates wet roots"
+      "The cooler, Atlantic-influenced west suits early-ripening Tempranillo; the warmer, drier east gives Garnacha its heat",
+      "Garnacha needs the clay-limestone slopes, which are found only in the east of the region, around Rioja Oriental",
+      "Tempranillo ripens late, so it needs the extra heat of the western zones, while Garnacha ripens early",
+      "The Ebro floods the western vineyards every spring, and only Tempranillo tolerates wet roots, while Garnacha rots in them"
     ],
     answer: 0,
     region: "rioja",
@@ -1100,10 +1100,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Why does a traditional Rioja Reserva show vanilla and coconut?",
     options: [
-      "Fully ripe Garnacha gives coconut when it is grown in the east",
-      "Malolactic fermentation in stainless steel produces these aromas",
-      "The wine has spent years in American oak barrels, which give vanilla and coconut",
-      "The clay-limestone soils of Rioja Alta add sweet spice to the fruit"
+      "Fully ripe Garnacha gives coconut when it is grown in the east, where the sun is strongest",
+      "Malolactic fermentation in stainless steel produces these aromas, as in many whites",
+      "The wine has spent years in American oak, which gives vanilla and coconut",
+      "The clay-limestone soils of Rioja Alta add sweet spice to the fruit through the roots"
     ],
     answer: 2,
     region: "rioja",
@@ -1130,10 +1130,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "A restaurant wants a savoury, mellow, long Rioja with leather, dried fruit and mushroom. Which label should the buyer look for?",
     options: [
-      "Joven",
-      "Crianza",
-      "Reserva",
-      "Gran Reserva"
+      "Joven, bottled young with little or no ageing in oak or bottle",
+      "Crianza, aged for at least two years in total",
+      "Reserva, aged for at least three years in total",
+      "Gran Reserva, aged for at least five years in total"
     ],
     answer: 3,
     region: "rioja",
@@ -1161,10 +1161,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Ribera del Duero and Rioja both rely on Tempranillo. Why is Ribera darker, fuller and more tannic?",
     options: [
-      "Cabernet Sauvignon makes up most of the Ribera blend",
-      "American oak gives more tannin than French oak",
-      "The Atlantic keeps Ribera humid, which thickens the skins",
-      "Hot days on the high plateau build deep colour and thick skins, while cold nights keep the acidity"
+      "Cabernet Sauvignon makes up most of the Ribera blend and adds all the extra colour and tannin",
+      "American oak gives more tannin than French oak, and Ribera uses far more American oak than Rioja",
+      "The Atlantic keeps Ribera humid and misty, which thickens the skins of the grapes",
+      "Hot days on the high plateau build colour and thick skins, while cold nights keep acidity"
     ],
     answer: 3,
     region: "riberaDelDuero",
@@ -1191,10 +1191,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "A grower is planning a new vineyard in Ribera del Duero. Which risk should the plan take most seriously, and why?",
     options: [
-      "Spring and autumn frost, because altitude means late budding and an early end to the season",
-      "Drought from the hot levante wind, as in Jerez",
-      "Rot from autumn mists off the river, as in the Rheingau",
-      "Heat stress on black slate, as in Priorat"
+      "Frost in spring and autumn, because the altitude gives late budding and an early finish",
+      "Drought from the hot levante wind, as in Jerez, which scorches the whole plateau by July",
+      "Rot from autumn mists off the river, as in the Rheingau, which ruins the late harvest",
+      "Heat stress on black slate soils, as in Priorat, where the sun burns the grapes"
     ],
     answer: 0,
     region: "riberaDelDuero",
@@ -1206,10 +1206,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "A Ribera del Duero producer wants to add a small amount of another grape to the Tempranillo. Which does the DO permit?",
     options: [
-      "Garnacha and Graciano",
-      "Verdejo",
-      "Cabernet Sauvignon and Merlot",
-      "Syrah and Cariñena"
+      "Garnacha and Graciano, the usual Rioja blending grapes",
+      "Verdejo, the white grape of neighbouring Rueda",
+      "Cabernet Sauvignon and Merlot, in small amounts",
+      "Syrah and Cariñena, the grapes of the Mediterranean east"
     ],
     answer: 2,
     region: "riberaDelDuero",
@@ -1237,10 +1237,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Why are yields in Priorat so tiny?",
     options: [
-      "Frost at altitude kills much of the crop each spring",
-      "The vines are young and not yet in full production",
-      "Licorella slate drains freely and holds little water, so the old vines struggle and produce very little",
-      "Hand-harvesting on the terraces leaves much of the fruit unpicked"
+      "Frost at altitude kills much of the crop every spring, leaving only a handful of grapes at harvest time",
+      "The vines are young and not yet in full production, so the crop is small",
+      "Licorella slate drains freely and holds little water, so the old vines struggle to produce",
+      "Hand-harvesting on the steep terraces leaves much of the fruit unpicked on the vine"
     ],
     answer: 2,
     region: "priorat",
