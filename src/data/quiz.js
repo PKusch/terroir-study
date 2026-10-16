@@ -965,8 +965,8 @@ export const QUIZ_QUESTIONS = [
     options: [
       "Ripasso: re-ferment the young wine on the skins left over from Amarone",
       "Stop the fermentation early to keep some sugar, as for Recioto",
-      "Blend in Pinot Grigio for extra weight",
-      "Age the wine for five years in new barriques"
+      "Blend in Pinot Grigio to add extra weight and a fuller, richer body",
+      "Age the young wine for five years in new barriques before it is released"
     ],
     answer: 0,
     region: "veneto",
@@ -979,9 +979,9 @@ export const QUIZ_QUESTIONS = [
     question: "A Soave producer wants a mineral, long-lived wine rather than a simple one. Where and how should the grapes be grown?",
     options: [
       "On the deep alluvial soils of the plain, at high yields",
-      "In flat, machine-worked vineyards, then made by the tank method",
+      "In flat, machine-worked vineyards on the plain, then made by the tank method",
       "By drying the Garganega and fermenting it sweet",
-      "In the hillside Classico zone, on volcanic and limestone soils, with pergola training"
+      "In the hillside Classico zone, on volcanic and limestone soils"
     ],
     answer: 3,
     region: "veneto",
@@ -1009,9 +1009,9 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "Why does Etna Nerello Mascalese taste pale, high in acid and Pinot Noir-like, rather than ripe and jammy like most southern reds?",
     options: [
-      "Nerello Mascalese is naturally low in sugar, whatever the site",
+      "Nerello Mascalese is naturally low in sugar and colour, whatever the site it grows on",
       "Sea breezes off the coast keep the vineyards cool",
-      "Altitude on Etna gives cool nights, so the grapes keep high acid and fine tannin",
+      "Altitude on Etna gives cool nights, so the grapes keep acid and fine tannin",
       "The volcanic soil lowers the alcohol in the finished wine"
     ],
     answer: 2,
@@ -1024,10 +1024,10 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "Why does Aglianico succeed in the hills of Campania and Basilicata?",
     options: [
-      "It ripens early, like Primitivo, so it escapes the summer heat",
+      "It ripens early, like Primitivo, so it finishes before the worst of the summer heat",
       "It needs a cool, damp autumn to keep its acidity",
       "It has low acidity, so the heat does it no harm",
-      "It buds early and ripens very late, and only the long, dry southern autumn lets it finish"
+      "It buds early and ripens very late, so it needs the long, dry southern autumn"
     ],
     answer: 3,
     region: "southernItaly",
@@ -1041,7 +1041,7 @@ export const QUIZ_QUESTIONS = [
     options: [
       "Bush vines (alberello), whose leaves shade the fruit from the sun",
       "A high trellis that exposes the bunches to full sun",
-      "Planting the most fertile part of the plain for higher yields",
+      "Planting the most fertile part of the plain, for the highest yields and big bunches",
       "Picking very late to build as much sugar as possible"
     ],
     answer: 0,
@@ -1054,7 +1054,7 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "A producer of Taurasi finds the young Aglianico harsh and tannic. What does the DOCG expect to be done before release?",
     options: [
-      "Blend in Primitivo to soften the wine",
+      "Blend in Primitivo, which is required by the DOCG, to soften the wine",
       "Extended ageing in oak and bottle, which softens the tannin",
       "Dry the grapes first, as for Amarone",
       "Fortify the wine, as for Marsala"
