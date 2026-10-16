@@ -1784,8 +1784,8 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why can Hawke's Bay ripen Merlot, Cabernet Sauvignon and Syrah when most of New Zealand cannot?",
     options: [
-      "The Gimblett Gravels are deep gravel from an old riverbed that warms quickly and drains fast",
-      "Hawke's Bay is on the wet west coast, where it is warmer",
+      "The Gimblett Gravels are deep, old riverbed gravel that warms quickly and drains fast",
+      "Hawke's Bay is on the wet west coast, where the sea keeps the vineyards much warmer all year",
       "It is the most southerly region, with the longest days",
       "The vines grow on north-facing schist slopes"
     ],
@@ -1799,10 +1799,10 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "A grower on fertile Marlborough soil finds the vines are so vigorous that leaves shade the fruit. What should they do?",
     options: [
-      "Irrigate more heavily",
-      "Open up the canopy so the leaves and fruit get sun and air, the approach that was worked out here",
-      "Move the vineyard to the wet west coast",
-      "Switch to overhead pergola training"
+      "Irrigate more heavily, to give the vines even more water through the summer",
+      "Open up the canopy so the leaves and fruit get sun and air",
+      "Move the vineyard to the wet west coast, where the fertile soil is less rich",
+      "Switch to overhead pergola training, which shades the fruit completely"
     ],
     answer: 1,
     region: "newZealand",
@@ -1845,9 +1845,9 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why do Walker Bay and Elgin grow Pinot Noir and Chardonnay while Stellenbosch, not far away, ripens Cabernet Sauvignon?",
     options: [
-      "They lie nearest the cold sea and higher up, so they are the coolest sites at the Cape",
-      "Their granite soils are too poor for Cabernet Sauvignon",
-      "The Cape Doctor brings them summer rain",
+      "They lie nearest the cold sea and higher up, so are the coolest sites at the Cape",
+      "Their granite soils are too poor for Cabernet Sauvignon, which needs deep, rich soil",
+      "The Cape Doctor wind brings them regular summer rain, so they stay green",
       "They are inland and rely on irrigation"
     ],
     answer: 0,
@@ -1860,9 +1860,9 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why has Chenin Blanc served both for cheap bulk wine and for serious old-vine dry whites in South Africa?",
     options: [
-      "It ripens so late that it escapes the Cape heat",
-      "It is a crossing bred specially for the Cape",
-      "Its high acidity survives the sun, so it stays fresh whether picked for volume or from old vines for concentration",
+      "It ripens so late in the season that it escapes the worst of the Cape heat, then is picked in the cool autumn",
+      "It is a crossing bred specially for the Cape, which is why it grows so well there",
+      "Its high acidity survives the sun, so it stays fresh whether picked for volume or from old vines",
       "It is resistant to leafroll virus"
     ],
     answer: 2,
@@ -1921,8 +1921,8 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why do Casablanca and San Antonio grow Sauvignon Blanc and Pinot Noir while Maipo grows Cabernet Sauvignon?",
     options: [
-      "Casablanca is high in the Andes, so the nights are cold",
-      "Those valleys open to the sea, so fog and cool air pour in; Maipo is warmer and cooled by cold Andean nights instead",
+      "Casablanca lies high in the Andes foothills, so the nights are cold and the grapes keep their acidity",
+      "Those valleys open to the sea, so fog and cool air pour in; warmer Maipo is cooled by Andean nights",
       "Casablanca has limestone soils that suit white grapes",
       "Maipo is irrigated and Casablanca is not"
     ],
@@ -1938,7 +1938,7 @@ export const QUIZ_QUESTIONS = [
     options: [
       "It needs fog to keep its colour",
       "It ripens early and would burn in the heat",
-      "Colchagua is the only valley free of phylloxera",
+      "Colchagua is the only valley in Chile that is free of phylloxera, so Carmenère can be grown there",
       "It ripens very late and tastes green unless it gets a warm site"
     ],
     answer: 3,
@@ -1966,9 +1966,9 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "A Chilean label carries the word Costa. What does that tell the buyer?",
     options: [
-      "The grapes came from the coastal side of the valley, in the fog and cool breezes",
+      "The grapes came from the coastal side, with fog and cool breezes",
       "The wine was aged in French oak",
-      "The grapes came from the Andean foothills",
+      "The grapes came from the foothills of the Andes, in the warmest part of the valley",
       "It is the top quality tier, above the valley DO"
     ],
     answer: 0,
@@ -1997,9 +1997,9 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why is Mendoza Malbec deeper, fuller and softer than Malbec from Cahors?",
     options: [
-      "Mendoza's rich, fertile soils give bigger yields",
+      "Mendoza's rich, fertile soils give much bigger yields, which dilute the wine into something softer and fuller",
       "The zonda wind dries the grapes on the vine",
-      "At altitude the intense sunlight thickens the skins for colour and ripe tannin, while cold nights keep the acidity",
+      "At altitude the intense sunlight thickens the skins for colour and tannin, while cold nights keep acidity",
       "It is aged for longer in American oak"
     ],
     answer: 2,
@@ -2012,8 +2012,8 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why does Torrontés keep its floral perfume when grown in Cafayate?",
     options: [
-      "Extreme altitude gives cold nights, which keep the perfume fresh instead of letting it turn oily",
-      "It is barrel-fermented with full malolactic conversion",
+      "Extreme altitude gives cold nights, which keep the perfume fresh",
+      "It is barrel-fermented with full malolactic conversion and long lees ageing in oak",
       "Cafayate is cooled by sea fog",
       "Pergola training shades the grapes from all sunlight"
     ],
