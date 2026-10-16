@@ -1389,10 +1389,10 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "Why are off-dry and sweet styles the norm in the Mosel?",
     options: [
-      "Warm summers give so much sugar that the yeast cannot finish fermenting it",
-      "Slow, late ripening keeps very high acidity, so a little residual sugar balances the wine rather than cloying it",
-      "The slate soils add sugar to the grapes",
-      "German law requires residual sugar in every Qualitätswein"
+      "Warm summers give so much sugar that the yeast cannot finish fermenting all of it",
+      "Slow, late ripening keeps very high acidity, so a little sugar balances the wine",
+      "The slate soils pass sugar into the grapes as they ripen on the steep slopes",
+      "German wine law requires a minimum of residual sugar in every Qualitätswein bottled"
     ],
     answer: 1,
     region: "mosel",
@@ -1404,10 +1404,10 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "In the Mosel the sunny side of each river bend is planted and the shaded side often is not. Why?",
     options: [
-      "The shaded slopes are on fertile loam kept for Müller-Thurgau",
-      "The river floods the shaded bank every spring",
-      "Slate only occurs on the sunny side of the valley",
-      "At this northern latitude only steep, south-facing slopes catch enough of the low sun to ripen Riesling"
+      "The shaded slopes sit on fertile loam, which is kept for Müller-Thurgau and other crops",
+      "The river floods the shaded bank every spring and washes the young vines away",
+      "Slate occurs only on the sunny side of the valley; the other bank is solid granite",
+      "Only steep, south-facing slopes catch enough of the low northern sun to ripen Riesling"
     ],
     answer: 3,
     region: "mosel",
@@ -1419,10 +1419,10 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "A Mosel winemaker wants to keep the fruit and acidity of the Riesling intact. Which cellar approach fits?",
     options: [
-      "Stainless steel or old large Fuder, no new oak and no malolactic fermentation",
-      "New barriques and full malolactic fermentation",
-      "Long oxidative ageing under a layer of flor",
-      "New American oak, as for a Rioja Reserva"
+      "Stainless steel or old large Fuder, with no new oak and no malolactic",
+      "New small barriques, with full malolactic fermentation and long lees ageing",
+      "Long oxidative ageing in half-filled casks under a layer of flor yeast",
+      "Several years in new American oak, as for a Rioja Reserva or Gran Reserva"
     ],
     answer: 0,
     region: "mosel",
@@ -1434,10 +1434,10 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "A buyer sees Spätlese on a Mosel label and assumes the wine must be sweet. What does the Prädikat actually tell them?",
     options: [
-      "The sweetness of the finished wine at bottling",
-      "How many years the wine spent in oak",
-      "How ripe the grapes were at harvest, so the wine can still be dry if it is labelled trocken",
-      "That the grapes were frozen on the vine"
+      "The exact level of sweetness the finished wine has when it is bottled for sale",
+      "How many years the wine was aged in oak before it was released to buyers",
+      "How ripe the grapes were at harvest; it can still be dry if labelled trocken",
+      "That the grapes were frozen on the vine and pressed while still hard"
     ],
     answer: 2,
     region: "mosel",
@@ -1465,10 +1465,10 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "Why is dry Riesling the main style in the Rheingau, where the Mosel makes off-dry?",
     options: [
-      "The loess soils of the eastern Rheingau strip out the acidity",
-      "The VDP growers' association forbids residual sugar",
-      "More sun and less rain give riper grapes with enough acidity to stay balanced when dry",
-      "Autumn mists off the Rhine stop the fermentation before it finishes"
+      "The loess soils of the eastern Rheingau strip nearly all the acidity from the grapes",
+      "The VDP growers' association forbids any residual sugar in its members' wines",
+      "More sun and less rain give riper grapes with enough acidity to stay balanced dry",
+      "Autumn mists off the Rhine stop the fermentation before it has finished"
     ],
     answer: 2,
     region: "rheingau",
@@ -1481,9 +1481,9 @@ export const QUIZ_QUESTIONS = [
     question: "Why does the Rheingau produce great botrytis wines in the right years?",
     options: [
       "Autumn mists off the wide, slow Rhine bring botrytis in warm years",
-      "The Taunus hills trap rain over the vineyards",
-      "The slate soils hold moisture around the bunches",
-      "Growers leave the grapes to freeze on the vine"
+      "The Taunus hills trap heavy rain over the vineyards through the whole autumn",
+      "The slate soils hold moisture around the bunches and so encourage rot every year",
+      "Growers leave the grapes hanging until frost kills the vines in midwinter"
     ],
     answer: 0,
     region: "rheingau",
@@ -1510,10 +1510,10 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "A Rheingau grower wants to plant Spätburgunder. Where in the region should it go?",
     options: [
-      "The deep loess and loam on the gentle eastern slopes",
+      "The deep loess and loam on the gentle eastern slopes, where the soil is richest",
       "The warm slate sites at the western end, around Assmannshausen",
-      "The flat land beside the river",
-      "The north-facing side of the Taunus hills"
+      "The flat land right beside the river, below the vineyards",
+      "The cool, north-facing side of the Taunus hills behind the river"
     ],
     answer: 1,
     region: "rheingau",
@@ -1541,9 +1541,9 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "Why is the Pfalz one of the warmest and driest regions in Germany?",
     options: [
-      "It lies further south than any other German region",
-      "The Rhine turns west here, so the whole bank faces the sun",
-      "Its sandy soils store the summer heat",
+      "It lies further south than any other German wine region, close to the Alps",
+      "The Rhine turns west here, so the whole bank faces the sun for most of every day",
+      "Its sandy soils store the summer heat and give it back to the vines at night",
       "The Haardt hills block rain from the west, so the vineyards sit in a rain shadow"
     ],
     answer: 3,
@@ -1556,10 +1556,10 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "Why does the Pfalz make far more red wine than the Mosel?",
     options: [
-      "Its warmth ripens Spätburgunder and Dornfelder, which a cool northern region cannot",
-      "Its slate soils suit red grapes better than white",
-      "The VDP requires red wine for Grosses Gewächs",
-      "Müller-Thurgau, its volume grape, is red"
+      "Its warmth ripens Spätburgunder and Dornfelder, which a cool region cannot",
+      "Its slate soils suit red grapes far better than they suit white grapes here",
+      "The VDP requires every Grosses Gewächs from the region to be a red wine",
+      "Müller-Thurgau, its volume grape, is a red variety"
     ],
     answer: 0,
     region: "pfalz",
