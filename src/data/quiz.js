@@ -781,9 +781,9 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "In the Langhe, Nebbiolo is given the warmest south-facing slopes while Dolcetto and Barbera take the cooler sites. Why?",
     options: [
-      "Nebbiolo buds early and ripens late, so it needs the extra warmth to ripen its tannins",
-      "Nebbiolo is thin-skinned and burns on cooler, shadier slopes",
-      "Dolcetto and Barbera need the autumn fog to ripen properly",
+      "Nebbiolo ripens late, so it needs the extra warmth to ripen its tannins",
+      "Nebbiolo is thin-skinned and would burn on the cooler, shadier slopes of the Langhe",
+      "Dolcetto and Barbera need the autumn fog to ripen properly, so they take the foggy sites",
       "The south-facing slopes have the deepest, most fertile soils"
     ],
     answer: 0,
@@ -796,9 +796,9 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "Nebbiolo is named after the autumn fog (nebbia) of the Langhe. What does the fog do for Barolo?",
     options: [
-      "It shortens the season, so the grapes are picked early and stay light",
-      "It raises humidity and encourages noble rot, as in Sauternes",
-      "It cools the vineyards while the grapes hang late, so slow ripening keeps the high acidity that lets the wine age",
+      "It shortens the season, so the grapes are picked early and the wines stay light",
+      "It raises humidity and encourages noble rot, as in Sauternes, so the grapes are picked for sweet wine",
+      "It cools the vineyards while the grapes hang late, so slow ripening keeps high acidity",
       "It protects the early-budding vines from spring frost"
     ],
     answer: 2,
@@ -857,9 +857,9 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "Why is fine Sangiovese grown on the inland hills of Tuscany rather than on the warm coast at Bolgheri?",
     options: [
-      "The coastal gravel and clay are too wet for Sangiovese's roots",
-      "Cool nights from altitude slow ripening and keep the acidity Sangiovese loses in heat",
-      "Sangiovese ripens early, so it would rot in the coastal humidity",
+      "The coastal gravel and clay are too wet for Sangiovese's roots, which rot in the damp",
+      "Cool nights at altitude slow ripening and keep acidity that heat would strip out",
+      "Sangiovese ripens early, so it would rot in the coastal humidity before the harvest",
       "Chianti DOCG rules do not allow vineyards near the sea"
     ],
     answer: 1,
@@ -872,9 +872,9 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "The Chianti hills are galestro (crumbly marl) and alberese (limestone). What do these soils give the wine?",
     options: [
-      "Deep, fertile soils give high yields and light, simple wines",
-      "Volcanic soils give a smoky edge, as on Etna",
-      "Chalk soils give the high acidity needed for sparkling wine",
+      "Deep, fertile soils give high yields of grapes and light, simple, easy-drinking wines",
+      "Volcanic soils give the wines a smoky edge, as they do on Mount Etna in Sicily",
+      "Chalk soils give the high acidity needed for sparkling wine, as in Champagne",
       "Poor, well-drained soils give slow ripening, ripe tannin and bright acid"
     ],
     answer: 3,
@@ -903,9 +903,9 @@ export const QUIZ_QUESTIONS = [
     question: "A Tuscan estate wants to make Vin Santo. Which method is used?",
     options: [
       "Dry the grapes, then age the wine oxidatively in small sealed barrels",
-      "Stop the fermentation early by chilling, as for Moscato d'Asti",
-      "Fortify the wine with spirit, as for Marsala",
-      "Wait for noble rot on the vine, as in Sauternes"
+      "Stop the fermentation early by chilling the must, as for Moscato d'Asti",
+      "Fortify the wine with grape spirit after fermentation, as for Marsala",
+      "Wait for noble rot to form on the vine, as in Sauternes"
     ],
     answer: 0,
     region: "tuscany",
@@ -933,8 +933,8 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "Why is appassimento — drying the grapes on racks — so central to Valpolicella?",
     options: [
-      "Corvina rots easily on the vine, so the bunches must be dried to save them",
-      "Corvina makes light wines on its own, and drying concentrates its sugar and flavour",
+      "Corvina rots easily on the vine, so the bunches must be dried to save them from rot",
+      "Corvina makes light wines alone, and drying concentrates its sugar and flavour",
       "The plain is too cold to ripen the grapes fully in the vineyard",
       "The DOC rules require every Valpolicella wine to be made from dried grapes"
     ],
@@ -950,8 +950,8 @@ export const QUIZ_QUESTIONS = [
     options: [
       "Glera's firm tannins need the shorter process to soften",
       "The tank method gives higher pressure and firmer bubbles",
-      "It keeps Glera's fresh apple and pear aromas, with no lees character, and gets the wine to market quickly",
-      "Glera is machine-picked, and machine-picked grapes cannot be bottle-fermented"
+      "It keeps Glera's fresh apple and pear aromas and gets the wine to market quickly",
+      "Glera is machine-picked, and machine-picked grapes cannot be fermented in the bottle"
     ],
     answer: 2,
     region: "veneto",
