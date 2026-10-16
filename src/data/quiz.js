@@ -41,8 +41,8 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why does Burgundy use single-variety wines while Bordeaux blends?",
     options: [
-      "Burgundy has better soil so doesn't need to blend",
-      "Bordeaux's maritime climate creates vintage variation — blending hedges risk. Burgundy's continental terroir is expressed through single varieties.",
+      "Burgundy has much better soil than Bordeaux, so it never needs to blend and relies on a single grape in every year",
+      "Bordeaux's maritime climate varies by vintage, so blending hedges risk; Burgundy shows terroir in single varieties",
       "EU regulations require Burgundy to use one grape",
       "Pinot Noir and Chardonnay cannot be blended"
     ],
@@ -55,10 +55,10 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "What makes Alsace unusually dry for its northerly location?",
     options: [
-      "The Gulf Stream warms the region",
-      "The Vosges Mountains create a rain shadow",
-      "Granite soils absorb all rainfall",
-      "It's too cold for rain — mostly snow"
+      "The Gulf Stream warms the whole region and keeps the climate dry all year",
+      "The Vosges Mountains block rain from the west, creating a rain shadow",
+      "Granite soils absorb all the rainfall that falls on the vineyards",
+      "It is too cold for rain: most precipitation falls as snow"
     ],
     answer: 1,
     region: "alsace",
@@ -69,10 +69,10 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why can Chenin Blanc in Vouvray be made dry, sweet, AND sparkling?",
     options: [
-      "Different clones are used for each style",
-      "Vouvray uses different soils for each style",
-      "Cool Loire climate preserves high acidity that balances all styles; warm autumns allow botrytis for sweet wines",
-      "EU regulations require producers to make all three"
+      "Different Chenin Blanc clones are used for each style, grown in separate vineyards across the appellation",
+      "Vouvray uses different soils for each style: clay for sweet wines, flint for sparkling",
+      "Cool-climate acidity balances every style; warm autumns allow botrytis for sweet wines",
+      "EU regulations require producers to make all three styles in every vintage"
     ],
     answer: 2,
     region: "loire",
@@ -90,8 +90,8 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why is Muscadet aged 'sur lie'?",
     options: [
-      "To add residual sugar",
-      "To add texture and protect freshness in a naturally light, neutral wine",
+      "To add residual sugar from the yeast cells left in contact with the wine",
+      "To add texture and protect the freshness of a light, neutral wine",
       "Because the wine is too tannic otherwise",
       "To develop botrytis character"
     ],
@@ -104,8 +104,8 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A producer in Champagne wants to make a richer, more full-bodied style. Which approach would achieve this?",
     options: [
-      "Use only Chardonnay grapes from Côte des Blancs",
-      "Increase the proportion of Pinot Noir, extend lees ageing, and use reserve wines",
+      "Use only Chardonnay grapes from the Côte des Blancs, for a richer wine",
+      "More Pinot Noir, longer lees ageing and more reserve wines",
       "Harvest earlier for higher acidity",
       "Switch to Muscat grapes"
     ],
@@ -139,8 +139,8 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why was micro-oxygenation invented in Madiran (South-West)?",
     options: [
-      "To increase alcohol levels in cool vintages",
-      "To tame Tannat's extremely aggressive tannins and make wines approachable younger",
+      "To increase alcohol levels in cool vintages by letting oxygen concentrate the wine",
+      "To tame Tannat's aggressive tannins and make wines approachable younger",
       "To prevent oxidation in barrel",
       "To speed up malolactic conversion"
     ],
@@ -153,10 +153,10 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why does Cru Beaujolais (Morgon, Moulin-à-Vent) taste so different from basic Beaujolais Nouveau?",
     options: [
-      "They use different grape varieties",
-      "Cru villages have granite soils and use traditional vinification, while Nouveau uses carbonic maceration on clay",
+      "They use different grape varieties, with Cru wines made from Pinot Noir rather than from Gamay",
+      "Cru villages have granite soils and traditional vinification; Nouveau uses carbonic maceration",
       "Nouveau is made from white grapes",
-      "Cru wines are blended with Burgundy Pinot Noir"
+      "Cru wines are blended with Burgundy Pinot Noir to give them more structure and ageing power"
     ],
     answer: 1,
     region: "beaujolais",
@@ -216,7 +216,7 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A Bordeaux producer wants a softer, plummier red with rounder tannins. Which soil and grape should lead the blend?",
     options: [
-      "Gravel on the Left Bank, with Cabernet Sauvignon",
+      "Gravel on the Left Bank, with Cabernet Sauvignon leading",
       "Clay and limestone on the Right Bank, with Merlot",
       "Gravel on the Left Bank, with Cabernet Franc",
       "Clay on the Right Bank, with Sauvignon Blanc"
