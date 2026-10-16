@@ -1617,10 +1617,10 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why can Carneros grow cool-climate Pinot Noir while Napa, only a few miles inland, ripens full-bodied Cabernet Sauvignon?",
     options: [
-      "Carneros sits at high altitude in the mountains",
+      "Carneros sits at high altitude in the Mayacamas mountains, well above the warm Napa valley floor and its fog",
       "Napa has limestone soils that store heat overnight",
-      "Cold Pacific fog and cool air reach Carneros through San Pablo Bay, but the mountains keep most of Napa warm",
-      "Carneros gets summer rain that cools the vines"
+      "Cold Pacific fog and cool air reach Carneros through San Pablo Bay; the mountains keep Napa warm",
+      "Carneros gets regular summer rain that cools the vines, while Napa stays dry"
     ],
     answer: 2,
     region: "california",
@@ -1632,8 +1632,8 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why is the Californian style ripe, fruity and consistent from one year to the next?",
     options: [
-      "Almost no rain falls in the growing season, so the fruit ripens healthy every year and irrigation, not rot, is the main worry",
-      "The AVA rules set a minimum ripeness for every wine",
+      "Almost no rain falls in the growing season, so fruit ripens healthy and irrigation is the main worry",
+      "The AVA rules set a minimum level of ripeness for every wine, so unripe grapes cannot be used in any vintage",
       "Chaptalisation is allowed in poor vintages",
       "The volcanic hillside soils keep the vines warm at night"
     ],
@@ -1650,7 +1650,7 @@ export const QUIZ_QUESTIONS = [
       "Cool fermentation in stainless steel, no malolactic, bottled early",
       "Pick early and blend with Sauvignon Blanc",
       "Age the wine under a layer of flor",
-      "Barrel fermentation, full malolactic conversion, lees stirring and new oak"
+      "Barrel fermentation, full malolactic, lees stirring and new oak"
     ],
     answer: 3,
     region: "california",
@@ -1662,10 +1662,10 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "A buyer wants old-vine Zinfandel: full, jammy blackberry, spice and high alcohol. Which part of California should they look to?",
     options: [
-      "Carneros",
+      "Carneros, at the cool southern end of Napa and Sonoma",
       "Dry Creek Valley in Sonoma",
-      "Russian River Valley",
-      "Central Valley"
+      "Russian River Valley, in the cool fog belt of Sonoma",
+      "Central Valley, the hot inland plain"
     ],
     answer: 1,
     region: "california",
@@ -1693,9 +1693,9 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why does Hunter Valley Sémillon have low alcohol and high acidity, and why does it need years in bottle?",
     options: [
-      "It is fermented in new oak, which slows the wine down",
-      "The humid Hunter brings cloud and harvest rain, so Sémillon is picked early, bottled young and left to age",
-      "The terra rossa soil stops the grapes ripening fully",
+      "It is fermented in new oak barrels, which slow the fermentation down and keep the alcohol low for years",
+      "The humid Hunter brings cloud and harvest rain, so Sémillon is picked early, bottled young and aged",
+      "The terra rossa soil is so poor that it stops the grapes ever ripening fully, whatever the year",
       "It is fortified and then aged in a solera"
     ],
     answer: 1,
@@ -1708,10 +1708,10 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why is Barossa Shiraz concentrated enough to stand up to American oak?",
     options: [
-      "Barossa is the coolest region in South Australia",
+      "Barossa is the coolest region in South Australia, so the grapes keep high acidity and structure",
       "The vines grow on terra rossa over limestone",
       "Irrigation from the Murray keeps the yields high",
-      "Some of the world's oldest Shiraz vines grow there, ungrafted because phylloxera never reached South Australia"
+      "Some of the world's oldest Shiraz vines grow there, ungrafted since phylloxera never arrived"
     ],
     answer: 3,
     region: "australia",
@@ -1724,9 +1724,9 @@ export const QUIZ_QUESTIONS = [
     question: "A buyer wants a bone-dry Australian Riesling with high acidity and lime, made without oak or malolactic and sealed under screwcap. Where should they look?",
     options: [
       "Clare Valley or Eden Valley, at altitude",
-      "The Barossa Valley floor",
-      "Riverland",
-      "Hunter Valley"
+      "The Barossa Valley floor, which is warm and dry",
+      "Riverland, the hot irrigated inland",
+      "Hunter Valley, the warm and humid east coast"
     ],
     answer: 0,
     region: "australia",
@@ -1769,10 +1769,10 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why is Marlborough Sauvignon Blanc so pungent, with gooseberry and passion fruit, and yet so high in acidity?",
     options: [
-      "Barrel fermentation and lees stirring build the aromas",
+      "Barrel fermentation and lees stirring in new French oak build both the aromas and the acidity of the finished wine",
       "The schist soils add minerality and acidity",
       "Harvest rain dilutes the sugar and keeps the acid",
-      "Long sunny days build intense aromas while cool nights keep the acidity, and steel and early bottling keep both"
+      "Long sunny days build intense aromas while cool nights keep acidity; steel and early bottling keep both"
     ],
     answer: 3,
     region: "newZealand",
