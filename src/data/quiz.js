@@ -2096,7 +2096,7 @@ export const QUIZ_QUESTIONS = [
     country: "Austria",
     question: "A grower near Rust wants to make a rich, sweet wine. What makes that possible?",
     options: [
-      "Autumn mist from the shallow lake encourages noble rot, which concentrates the grapes",
+      "Autumn mist from the lake brings noble rot, which concentrates the grapes",
       "Hot, dry weather alone lifts the sugar enough, so the grapes stay perfectly clean",
       "Hard frost freezes every grape on the vine before the harvest begins",
       "Growers add sugar to a high-acid base wine before it ferments"
@@ -2190,8 +2190,8 @@ export const QUIZ_QUESTIONS = [
     options: [
       "Schist holds water near the surface, so the vines never have to push their roots down",
       "The dark schist reflects the sun's heat upward and so keeps the vineyards cool",
-      "Schist feeds the vines extra nutrients, so the yields are high and the grapes are big",
-      "Fractured schist lets roots reach deep water, so yields stay low and the fruit is concentrated"
+      "Schist feeds the vines extra nutrients, so the yields are high and the grapes are big and juicy",
+      "Fractured schist lets roots reach deep water, so yields stay low and fruit is concentrated"
     ],
     answer: 3,
     region: "douro",
@@ -2303,7 +2303,7 @@ export const QUIZ_QUESTIONS = [
     question: "What is Egri Bikavér?",
     options: [
       "A sweet wine made from dried grapes",
-      "A white blend of Furmint and Hárslevelű",
+      "A white blend of Furmint and Hárslevelű grapes",
       "A single-vineyard Cabernet Franc",
       "A red blend, typically led by Kékfrankos"
     ],
@@ -2401,7 +2401,7 @@ export const QUIZ_QUESTIONS = [
     country: "Greece",
     question: "Why do Nemea producers value mid- to high-altitude vineyards?",
     options: [
-      "Cooler nights keep Agiorgitiko fresh, where the warm lowlands give soft, jammy wine",
+      "Cooler nights keep Agiorgitiko fresh, where lowlands give soft, jammy wine",
       "Higher vineyards get far more rain, so the vines never need any other water",
       "The grapes lose all their tannin above a certain height, giving lighter wines",
       "Altitude lets the same vines give two harvests in a single year"
@@ -2431,7 +2431,7 @@ export const QUIZ_QUESTIONS = [
     country: "Greece",
     question: "Why has phylloxera never been a threat to many of Santorini's old vines?",
     options: [
-      "The island is too cold in winter for the pest to survive there",
+      "The island is too cold in winter for the pest to survive, so the vines are never touched",
       "Its vines are all grafted onto roots that resist the pest",
       "The sandy volcanic soil does not suit the pest, so vines grow on their own roots",
       "Local law bans imported vines and cuttings of every kind"
