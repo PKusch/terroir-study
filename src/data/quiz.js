@@ -1252,10 +1252,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "What does the licorella slate do for ripening in Priorat?",
     options: [
-      "It stores heat and drains, so the grapes ripen fully while the roots dig deep for water and the skins thicken",
-      "It keeps the soil cool and wet, which slows ripening and keeps the wine light",
+      "It stores heat and drains, so grapes ripen fully while roots dig deep and skins thicken",
+      "It keeps the soil cool and wet, which slows ripening and keeps the wine light, as in Rías Baixas",
       "Its pale surface reflects sunlight back onto the vines, like the albariza of Jerez",
-      "Its high fertility gives large bunches with thin skins"
+      "Its high fertility gives large, vigorous bunches with thin skins and little colour"
     ],
     answer: 0,
     region: "priorat",
@@ -1267,10 +1267,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "A Priorat grower wants to bring in machines to cut the cost of vineyard work. Why is that hard?",
     options: [
-      "The DOQ rules ban machinery in the vineyard",
-      "The vines are trellised too high for a tractor to pass",
-      "The soil is too sandy to carry a machine's weight",
-      "The terraces (costers) are too steep for machines, so the work is done by hand"
+      "The DOQ rules ban all machinery in the vineyard, in order to protect the old vines",
+      "The vines are trellised too high for a tractor to pass between the rows",
+      "The soil is too soft and sandy to carry the weight of a machine",
+      "The terraces (costers) are too steep for machines, so work is done by hand"
     ],
     answer: 3,
     region: "priorat",
@@ -1313,9 +1313,9 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Why does Fino stay pale and fresh while Oloroso turns brown and nutty?",
     options: [
-      "Fino is made from Pedro Ximénez and Oloroso from Palomino",
-      "Fino is fortified lightly so flor grows and shields it from air; Oloroso is fortified higher, so flor cannot live and the wine ages in contact with air",
-      "Fino is aged in stainless steel and Oloroso in new oak",
+      "Fino is made from Pedro Ximénez grapes picked early in the season, while Oloroso is made from Palomino grapes picked late and left to dry",
+      "Fino is lightly fortified so flor grows and shields it from air; Oloroso is fortified higher, so the flor dies and it ages in air",
+      "Fino is aged in stainless steel tanks and Oloroso in new oak barrels, which darken it",
       "Oloroso is sweetened with sun-dried grapes, which darken it"
     ],
     answer: 1,
@@ -1328,10 +1328,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Why does Palomino survive the hot, dry summer in Jerez without irrigation?",
     options: [
-      "The levante wind brings summer rain from the east",
+      "The levante wind brings regular summer rain from the east, which the vines drink",
       "Palomino is a drought-resistant red grape with deep roots",
-      "The vines are trained high to shade the soil",
-      "The albariza soil soaks up the winter rain and holds it through the summer"
+      "The vines are trained high on wires to shade the soil",
+      "The albariza soil soaks up winter rain and holds it through the summer"
     ],
     answer: 3,
     region: "sherry",
@@ -1343,8 +1343,8 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "A bodega wants its Fino to taste the same year after year. Which practice delivers that?",
     options: [
-      "The solera system, fractional blending across rows of barrels so every bottle is a blend of ages",
-      "Bottling each vintage separately, as for a vintage Champagne",
+      "The solera system, fractional blending across rows of barrels, so every bottle mixes ages",
+      "Bottling each vintage separately and keeping the year on the label, as for a vintage Champagne",
       "Fortifying higher so the flor dies and the wine stabilises",
       "Adding sun-dried Pedro Ximénez to mask the differences between years"
     ],
@@ -1358,10 +1358,10 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "A buyer wants the lightest, freshest and saltiest style of Sherry. Which should they choose?",
     options: [
-      "Oloroso from Jerez de la Frontera",
-      "Cream",
+      "Oloroso from Jerez de la Frontera, nutty and full-bodied",
+      "Cream, a sweetened blend of Oloroso and Pedro Ximénez",
       "Manzanilla from Sanlúcar de Barrameda",
-      "Pedro Ximénez"
+      "Pedro Ximénez, sweet and dark from sun-dried grapes"
     ],
     answer: 2,
     region: "sherry",
