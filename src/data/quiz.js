@@ -794,7 +794,7 @@ export const QUIZ_QUESTIONS = [
     id: "it-04",
     type: "connection",
     country: "Italy",
-    question: "Nebbiolo is named after the autumn fog (nebbia) of the Langhe. What does the fog do for Barolo?",
+    question: "Nebbiolo's name is thought to come from the autumn fog (nebbia) of the Langhe. What does the fog do for Barolo?",
     options: [
       "It shortens the season, so the grapes are picked early and the wines stay light",
       "It raises humidity and encourages noble rot, as in Sauternes, so the grapes are picked for sweet wine",
@@ -1356,7 +1356,7 @@ export const QUIZ_QUESTIONS = [
     id: "es-24",
     type: "scenario",
     country: "Spain",
-    question: "A buyer wants the lightest, freshest and saltiest style of Sherry. Which should they choose?",
+    question: "A buyer wants the lightest, freshest style of Sherry, with a salty tang. Which should they choose?",
     options: [
       "Oloroso from Jerez de la Frontera, nutty and full-bodied",
       "Cream, a sweetened blend of Oloroso and Pedro Ximénez",
