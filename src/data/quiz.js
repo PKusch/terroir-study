@@ -6,7 +6,7 @@ export const QUIZ_QUESTIONS = [
     type: "map",
     question: "Which region is famous for its chalk (craie) soils that are perfect for sparkling wine?",
     answer: "champagne",
-    explanation: "Champagne's chalk soils provide excellent drainage, retain heat, and store water — all crucial in this marginal climate."
+    explanation: "Champagne's chalk soils drain well and store water as a drought buffer, which matters in this marginal climate."
   },
   {
     id: "fr-02",
@@ -154,13 +154,13 @@ export const QUIZ_QUESTIONS = [
     question: "Why does Cru Beaujolais (Morgon, Moulin-à-Vent) taste so different from basic Beaujolais Nouveau?",
     options: [
       "They use different grape varieties, with Cru wines made from Pinot Noir rather than from Gamay",
-      "Cru villages have granite soils and traditional vinification; Nouveau uses carbonic maceration",
+      "Cru villages have granite soils and a longer maceration; Nouveau is made by carbonic maceration",
       "Nouveau is made from white grapes",
       "Cru wines are blended with Burgundy Pinot Noir to give them more structure and ageing power"
     ],
     answer: 1,
     region: "beaujolais",
-    explanation: "Granite soils give Cru Beaujolais structure and minerality. Traditional vinification (not carbonic maceration) allows more tannin extraction, complexity, and ageing potential."
+    explanation: "Granite soils give Cru Beaujolais structure and minerality. A longer, more traditional maceration (often with some whole bunches) allows more tannin extraction, complexity, and ageing potential, where Nouveau is made by carbonic maceration."
   },
   {
     id: "fr-14",
@@ -291,9 +291,9 @@ export const QUIZ_QUESTIONS = [
   {
     id: "fr-24",
     type: "map",
-    question: "Which region grows Syrah on steep granite terraces that have to be harvested by hand?",
+    question: "Which region grows Syrah on steep granite and schist terraces that have to be harvested by hand?",
     answer: "rhoneNorth",
-    explanation: "The Northern Rhône's vineyards (Côte-Rôtie, Hermitage, Cornas) sit on steep granite hillsides. The slopes give good drainage and sun exposure for Syrah, but they are too steep for anything but hand harvesting, so production is small."
+    explanation: "The Northern Rhône's vineyards (Côte-Rôtie, Hermitage, Cornas) sit on steep hillsides of granite and schist. The slopes give good drainage and sun exposure for Syrah, but they are too steep for anything but hand harvesting, so production is small."
   },
   {
     id: "fr-25",
@@ -342,14 +342,14 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why is Grenache in the Southern Rhône grown as untrellised bush vines (gobelet)?",
     options: [
-      "Bush vines are required for the Châteauneuf-du-Pape label",
+      "Bush vines are legally required across every Côtes du Rhône wine",
       "Bush vines protect the buds from spring frost",
       "In the hot climate no trellising is needed, and the bush shades the grapes from intense sun",
       "Bush vines expose the grapes to more Mistral wind"
     ],
     answer: 2,
     region: "rhoneSouth",
-    explanation: "The Southern Rhône is hot and dry, so Grenache does not need trellising to ripen. The bushy canopy shades the bunches from the strong sun, which protects them from the heat."
+    explanation: "The Southern Rhône is hot and dry, so Grenache does not need trellising to ripen. The bushy canopy shades the bunches from the strong sun, which protects them from the heat. (Châteauneuf-du-Pape also requires gobelet training for its main red grapes.)"
   },
   {
     id: "fr-29",
@@ -468,7 +468,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "alsace",
-    explanation: "Sélection de Grains Nobles is Alsace's botrytis category. Vendange Tardive means late harvest. Crémant d'Alsace is sparkling, and Grand Cru refers to a single vineyard site with specific grapes only."
+    explanation: "Sélection de Grains Nobles is Alsace's botrytis (noble rot) category, with higher minimum sugar than Vendange Tardive. Vendange Tardive means late harvest and need not have botrytis. Crémant d'Alsace is sparkling, and Grand Cru refers to a single vineyard site with specific grapes only."
   },
   {
     id: "fr-39",
@@ -482,7 +482,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "champagne",
-    explanation: "Champagne sits at the northern limit of viticulture. Grapes there stay high in acid and low in sugar, which would make a thin still wine but is ideal for the traditional method, where the second fermentation adds about 1.5% alcohol and the bubbles."
+    explanation: "Champagne sits at the northern limit of viticulture. Grapes there stay high in acid and low in sugar, which would make a thin still wine but is ideal for the traditional method, where the second fermentation adds about 1.2% alcohol and the bubbles."
   },
   {
     id: "fr-40",
@@ -510,21 +510,21 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "champagne",
-    explanation: "Chardonnay is Champagne's only white grape, so a Blanc de Blancs must be Chardonnay: elegant and citrussy. Blanc de Noirs comes from the black grapes, Pinot Noir and Pinot Meunier, and is fuller with red fruit."
+    explanation: "Blanc de Blancs is made only from white grapes, and Chardonnay is by far Champagne's main white grape: elegant and citrussy. Blanc de Noirs comes from the black grapes, Pinot Noir and Pinot Meunier, and is fuller with red fruit."
   },
   {
     id: "fr-42",
     type: "connection",
     question: "Why does a vintage Champagne usually taste more bready and developed than a non-vintage one?",
     options: [
-      "Vintage wines must spend at least 36 months on the lees, against 15 for non-vintage, so autolysis has longer to work",
+      "Vintage wines must spend at least 36 months on the lees, against 12 for non-vintage, so autolysis has longer to work",
       "Vintage wines use only Pinot Noir",
       "Vintage wines skip the second fermentation",
       "Vintage wines are made from chalk-grown grapes only"
     ],
     answer: 0,
     region: "champagne",
-    explanation: "The minimum lees ageing is 15 months for non-vintage and 36 months for vintage. Autolysis, the breakdown of yeast on the lees, builds bready, biscuity flavour, so more time on the lees means more of it."
+    explanation: "Non-vintage must age at least 15 months, 12 of them on the lees; vintage must spend at least 36 months on the lees. Autolysis, the breakdown of yeast on the lees, builds bready, biscuity flavour, so more time on the lees means more of it."
   },
   {
     id: "fr-43",
@@ -634,9 +634,9 @@ export const QUIZ_QUESTIONS = [
   {
     id: "fr-51",
     type: "map",
-    question: "Which region is France's oldest wine region, growing Cinsault and Rolle (Vermentino) beside Grenache and Mourvèdre?",
+    question: "Which region, one of France's oldest, grows Cinsault and Rolle (Vermentino) beside Grenache and Mourvèdre?",
     answer: "provence",
-    explanation: "Provence is the oldest wine region in France. Cinsault and Rolle (also called Vermentino) are local to it, alongside the Mourvèdre, Grenache and Syrah it shares with the Rhône. Rosé makes up 88% of its production."
+    explanation: "Provence is one of the oldest wine regions in France, with vines planted by the Greeks around 600 BC. Cinsault and Rolle (also called Vermentino) are local to it, alongside the Mourvèdre, Grenache and Syrah it shares with the Rhône. Rosé makes up 88% of its production."
   },
   {
     id: "fr-52",
@@ -676,9 +676,9 @@ export const QUIZ_QUESTIONS = [
   {
     id: "fr-55",
     type: "map",
-    question: "Which region grows only Gamay, with ten Cru villages on granite hills?",
+    question: "Which region's reds are all Gamay, with ten Cru villages on granite hills?",
     answer: "beaujolais",
-    explanation: "Beaujolais is Gamay country and nothing else. The ten Crus, such as Morgon, Fleurie and Moulin-à-Vent, sit on granite, which gives Gamay structure and minerality that it lacks on the clay of the south."
+    explanation: "Beaujolais reds are all Gamay (a little white Chardonnay is also made). The ten Crus, such as Morgon, Fleurie and Moulin-à-Vent, sit on granite, which gives Gamay structure and minerality that it lacks on the clay of the south."
   },
   {
     id: "fr-56",
