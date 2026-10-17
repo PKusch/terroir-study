@@ -1759,9 +1759,9 @@ export const QUIZ_QUESTIONS = [
     id: "nw-14",
     type: "map",
     country: "New World",
-    question: "Which region grows Sauvignon Blanc as most of its vineyard, on the stony Wairau plain, and holds the world's most southerly wine region?",
+    question: "Which region grows Sauvignon Blanc as about two-thirds of its vineyard, on the stony Wairau plain, and holds one of the world's most southerly wine regions?",
     answer: "newZealand",
-    explanation: "Sauvignon Blanc is most of New Zealand's vineyard and nearly all of it is in Marlborough, on the flat, stony Wairau valley floor. Central Otago, inland in the south, is the world's most southerly wine region and grows Pinot Noir."
+    explanation: "Sauvignon Blanc is about two-thirds of New Zealand's vineyard and most of it is in Marlborough, on the flat, stony Wairau valley floor. Central Otago, inland in the south, is New Zealand's southernmost wine region, among the most southerly in the world, and grows Pinot Noir."
   },
   {
     id: "nw-15",
@@ -1806,7 +1806,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "newZealand",
-    explanation: "Fertile soils and plenty of light make New Zealand vines vigorous, and canopy management, opening the leaves to sun and air, was worked out here to deal with it. More water would only add vigour, and the west coast is where the rain falls. Pergolas belong to Argentina's bulk vineyards."
+    explanation: "Fertile soils and plenty of light make New Zealand vines vigorous, and canopy management, opening the leaves to sun and air, was promoted in New Zealand by Dr Richard Smart and widely adopted in Marlborough to deal with it. More water would only add vigour, and the west coast is where the rain falls. Pergolas belong to Argentina's bulk vineyards."
   },
   {
     id: "nw-18",
@@ -1981,7 +1981,7 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Which region sits in the rain shadow of the Andes, waters its vines with snowmelt carried in channels, and fears the zonda wind and summer hail?",
     answer: "argentina",
-    explanation: "Mendoza is a high desert in the rain shadow of the Andes: very dry, very sunny, with almost no rain in the growing season, so vines depend on snowmelt irrigation. The zonda, a hot dry wind off the mountains, can spoil flowering, and summer hail can strip a vineyard in minutes."
+    explanation: "Mendoza is a high desert in the rain shadow of the Andes: very dry, very sunny, with almost no rain in the growing season, so vines depend on snowmelt irrigation. The zonda, a hot dry wind off the mountains, can damage vines, especially at flowering, and summer hail can strip a vineyard in minutes."
   },
   {
     id: "nw-32",
