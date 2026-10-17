@@ -1665,11 +1665,11 @@ export const QUIZ_QUESTIONS = [
       "Carneros, at the cool southern end of Napa and Sonoma",
       "Dry Creek Valley in Sonoma",
       "Russian River Valley, in the cool fog belt of Sonoma",
-      "Central Valley, the hot inland plain"
+      "Santa Barbara, in the cool east-west valleys"
     ],
     answer: 1,
     region: "california",
-    explanation: "Dry Creek Valley is the warmer part of Sonoma, where the fog does not reach, and old-vine Zinfandel does well on its gravel. Carneros and the Russian River are cool and grow Pinot Noir and Chardonnay, while the hot Central Valley makes soft, simple, high-yield wine."
+    explanation: "Dry Creek Valley is the warmer part of Sonoma, where the fog does not reach, and old-vine Zinfandel does well on its gravel. Carneros and the Russian River are cool and grow Pinot Noir and Chardonnay, while the cool Santa Barbara valleys also grow Pinot Noir and Chardonnay."
   },
   {
     id: "nw-07",
@@ -1745,7 +1745,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "australia",
-    explanation: "Coonawarra's terra rossa is a flat strip beside the Southern Ocean, and the sea breezes cool the Cabernet so it keeps its structure. The result is blackcurrant, mint, eucalyptus and firm tannin. The Yarra is cool Pinot Noir country, the Barossa is Shiraz, and the Hunter is Sémillon."
+    explanation: "Coonawarra's terra rossa is a flat strip cooled by maritime air from the Southern Ocean, which cools the Cabernet so it keeps its structure. The result is blackcurrant, mint, eucalyptus and firm tannin. The Yarra is cool Pinot Noir country, the Barossa is Shiraz, and the Hunter is Sémillon."
   },
   {
     id: "nw-13",
@@ -1860,7 +1860,7 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Why has Chenin Blanc served both for cheap bulk wine and for serious old-vine dry whites in South Africa?",
     options: [
-      "It ripens so late in the season that it escapes the worst of the Cape heat, then is picked in the cool autumn",
+      "It ripens so early in the season that it escapes the worst of the Cape heat, before the summer peaks",
       "It is a crossing bred specially for the Cape, which is why it grows so well there",
       "Its high acidity survives the sun, so it stays fresh whether picked for volume or from old vines",
       "It is resistant to leafroll virus"
@@ -1873,7 +1873,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-23",
     type: "scenario",
     country: "New World",
-    question: "A producer wants concentrated Syrah and Chenin Blanc from dry-farmed old bush vines, with no irrigation. Which South African district fits?",
+    question: "A producer wants concentrated Syrah and Chenin Blanc from dry-farmed old bush vines, with no irrigation. Which South African area fits?",
     options: [
       "Constantia",
       "Elgin",
@@ -1913,7 +1913,7 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Which region grows Carmenère, the Bordeaux grape mistaken for Merlot for a century, on ungrafted vines because phylloxera has never arrived?",
     answer: "chile",
-    explanation: "Chile is walled off by desert, mountains, ocean and ice, so phylloxera never reached it and most vines grow on their own roots. Carmenère was lost to phylloxera in France but survived in Chile, where it was taken for Merlot for a hundred years."
+    explanation: "Chile is walled off by desert, mountains, ocean and ice, so phylloxera never reached it and most vines grow on their own roots. Carmenère almost disappeared from France after phylloxera but survived in Chile, where it was taken for Merlot for a hundred years."
   },
   {
     id: "nw-27",
@@ -1958,7 +1958,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "chile",
-    explanation: "Maipo Alto sits on the Andean foothills, where the soils are poor, gravelly and free-draining and the cold night air from the mountains keeps Cabernet fresh. The result is full-bodied blackcurrant and mint with firm ripe tannin. Casablanca and Leyda are the foggy coastal valleys for white grapes and Pinot Noir, and Maule is part of the Central Valley volume area."
+    explanation: "Maipo Alto sits on the Andean foothills, where the soils are poor, gravelly and free-draining and the cold night air from the mountains keeps Cabernet fresh. The result is full-bodied blackcurrant and mint with firm ripe tannin. Casablanca and Leyda are the foggy coastal valleys for white grapes and Pinot Noir, and Maule is in the larger, mostly volume-driven southern Central Valley."
   },
   {
     id: "nw-30",

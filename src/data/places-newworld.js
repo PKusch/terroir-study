@@ -39,7 +39,7 @@ export const PLACES_NEW_WORLD = {
     "San Antonio Valley (Leyda)": [-71.55, -33.60],
     "Maipo Valley": [-70.65, -33.70], // Pirque / Buin
     "Colchagua Valley": [-71.36, -34.64], // Santa Cruz
-    "Central Valley (Rapel, Curicó, Maule)": [-71.40, -35.10] // between Curicó and Talca
+    "Southern Central Valley (Rapel, Curicó, Maule)": [-71.40, -35.10] // between Curicó and Talca
   },
   argentina: {
     "Luján de Cuyo": [-68.88, -33.04],
