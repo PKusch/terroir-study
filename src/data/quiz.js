@@ -174,7 +174,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "southWest",
-    explanation: "Cahors is Malbec's birthplace. Historically called 'black wine' for its inky depth. The limestone causse plateaux produce firm, concentrated Malbec that predates Argentine plantings by centuries."
+    explanation: "Cahors is Malbec's birthplace. Historically called 'black wine' for its inky depth. The gravel terraces along the Lot and the limestone causse plateaux produce firm, concentrated Malbec that predates Argentine plantings by centuries."
   },
   {
     id: "fr-15",
@@ -587,7 +587,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "languedocRoussillon",
-    explanation: "Maury and Banyuls are Vin Doux Naturel: sweet, fortified, and oxidative in style, made from Grenache. Jurançon moelleux comes from late-harvested Petit Manseng, Sélection de Grains Nobles from botrytised Alsace grapes, and sweet Vouvray from botrytised Chenin Blanc; none is a fortified Grenache wine."
+    explanation: "Maury and Banyuls are Vin Doux Naturel: sweet, fortified, and often oxidative in style, made from Grenache. Jurançon moelleux comes from late-harvested Petit Manseng, Sélection de Grains Nobles from botrytised Alsace grapes, and sweet Vouvray from botrytised Chenin Blanc; none is a fortified Grenache wine."
   },
   {
     id: "fr-48",
@@ -676,9 +676,9 @@ export const QUIZ_QUESTIONS = [
   {
     id: "fr-55",
     type: "map",
-    question: "Which region's reds are all Gamay, with ten Cru villages on granite hills?",
+    question: "Which region's reds are all Gamay, with ten Cru villages on hills of mostly granite?",
     answer: "beaujolais",
-    explanation: "Beaujolais reds are all Gamay (a little white Chardonnay is also made). The ten Crus, such as Morgon, Fleurie and Moulin-à-Vent, sit on granite, which gives Gamay structure and minerality that it lacks on the clay of the south."
+    explanation: "Beaujolais reds are all Gamay (a little white Chardonnay is also made). The ten Crus, such as Morgon, Fleurie and Moulin-à-Vent, sit mostly on granite, which gives Gamay structure and minerality that it lacks on the clay of the south."
   },
   {
     id: "fr-56",
