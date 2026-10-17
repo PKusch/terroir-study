@@ -2055,9 +2055,9 @@ export const QUIZ_QUESTIONS = [
     id: "at-01",
     type: "map",
     country: "Austria",
-    question: "Which Austrian region's wines are graded Steinfeder, Federspiel and Smaragd by weight, from terraces above the Danube?",
+    question: "Which Austrian region's wines are labelled Steinfeder, Federspiel and Smaragd by strength, from terraces above the Danube?",
     answer: "niederosterreich",
-    explanation: "These are the Vinea Wachau grades, used in the Wachau, the terraced Danube valley in Niederösterreich. Steinfeder is the lightest and Smaragd the fullest, at least 12.5% abv."
+    explanation: "These are the Vinea Wachau style terms, used in the Wachau, the terraced Danube valley in Niederösterreich. Steinfeder is the lightest and Smaragd the fullest, at least 12.5% abv."
   },
   {
     id: "at-02",
@@ -2288,13 +2288,13 @@ export const QUIZ_QUESTIONS = [
     question: "A Tokaji Aszú is labelled 6 puttonyos. What does that tell you?",
     options: [
       "It was picked early from the best vineyards, for the highest acidity",
-      "It is a very sweet wine, made with a high level of aszú berries",
+      "It is a very sweet Aszú, with at least 150 g/l of sugar",
       "It is a dry white blend of six different grape varieties",
       "It was aged for six years in a single oak barrel"
     ],
     answer: 1,
     region: "tokaj",
-    explanation: "Puttonyos describe the sweetness of Aszú, which comes from shrivelled botrytised berries added to a base wine. Today only 5 and 6 are used, and 6 is sweeter."
+    explanation: "Puttonyos is an optional label term for the sugar level of Aszú: 5 means at least 120 g/l and 6 at least 150 g/l, so 6 is sweeter. The sweetness comes from shrivelled botrytised berries added to a base wine."
   },
   {
     id: "hu-06",
@@ -2309,7 +2309,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "eger",
-    explanation: "Bikavér means Bull's Blood. Egri Bikavér is the red blend of Eger, typically led by Kékfrankos, with a stricter Superior tier above the basic wine."
+    explanation: "Bikavér means Bull's Blood. Egri Bikavér is the red blend of Eger, with three tiers (Classicus, Superior and Grand Superior) in which Kékfrankos is always the largest part."
   },
   {
     id: "hu-07",
