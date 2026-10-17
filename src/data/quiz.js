@@ -2361,9 +2361,9 @@ export const QUIZ_QUESTIONS = [
     id: "gr-03",
     type: "map",
     country: "Greece",
-    question: "Which Peloponnese region makes soft, plummy reds from Agiorgitiko, best from mid-altitude vineyards?",
+    question: "Which Peloponnese region makes plummy reds from Agiorgitiko, grown at altitudes from a few hundred metres to about a thousand?",
     answer: "nemea",
-    explanation: "Nemea's Agiorgitiko changes with altitude: jammy and soft in the warm lowlands, balanced at mid-altitude, and fresher and more acidic in the heights."
+    explanation: "Nemea's Agiorgitiko changes with altitude: jammy and soft in the warm lowlands, balanced at mid-altitude, and fresher and more acidic in the heights. These altitude zones are informal, not part of the PDO rules."
   },
   {
     id: "gr-04",
