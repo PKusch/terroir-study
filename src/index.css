@@ -26,6 +26,26 @@ button {
   color: #E8E4D9;
 }
 
+/* ── Narrow screens: five mode tabs must fit, so drop the icons and tighten ── */
+.mode-tab {
+  min-width: 0;
+}
+
+@media (max-width: 520px) {
+  .mode-tabs {
+    padding: 10px 8px !important;
+    gap: 3px !important;
+  }
+  .mode-tab {
+    padding: 9px 2px !important;
+    font-size: 10px !important;
+    letter-spacing: 0.02em !important;
+  }
+  .mode-icon {
+    display: none;
+  }
+}
+
 /* ── Printing: one revision sheet per region ─────────────────────────────── */
 .print-sheet {
   display: none;

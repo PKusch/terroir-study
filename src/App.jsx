@@ -9,6 +9,7 @@ import { ExplorePanel } from "./ExplorePanel.jsx";
 import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
 import { TastePanel } from "./TastePanel.jsx";
+import { MockExam } from "./MockExam.jsx";
 import { BackupPanel } from "./BackupPanel.jsx";
 
 // ─── Main App ────────────────────────────────────────────────────────────────
@@ -45,7 +46,7 @@ export default function WsetStudyApp() {
   };
 
   // Zooming in shows the region's own places; only where there are some to show.
-  const canZoom = mode !== "quiz" && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
+  const canZoom = mode !== "quiz" && mode !== "exam" && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
   const showDetail = zoomed && canZoom;
 
   const quietButton = {
@@ -58,7 +59,8 @@ export default function WsetStudyApp() {
     { id: "explore", label: "Explore", icon: "🗺️" },
     { id: "connect", label: "Connect", icon: "🔗" },
     { id: "quiz", label: "Quiz", icon: "✦" },
-    { id: "taste", label: "Taste", icon: "🍷" }
+    { id: "taste", label: "Taste", icon: "🍷" },
+    { id: "exam", label: "Mock exam", icon: "📝" }
   ];
 
   const handleRegionClick = (key) => {
@@ -97,10 +99,10 @@ export default function WsetStudyApp() {
             Terroir <span style={{ color: "#C4A962" }}>Study</span>
           </h1>
           <div style={{ fontSize: "10px", color: "#8B7355", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "2px" }}>
-            WSET Level 3 · {mapCountry}
+            WSET Level 3 · {mode === "exam" ? "Mock exam" : mapCountry}
           </div>
         </div>
-        {mode !== "quiz" && (
+        {mode !== "quiz" && mode !== "exam" && (
           <div style={{ display: "flex", gap: "4px" }}>
             {Object.keys(COUNTRIES).map(c => (
               <button
@@ -129,7 +131,7 @@ export default function WsetStudyApp() {
       </header>
 
       {/* ── Mode Tabs ── */}
-      <div style={{
+      <div className="mode-tabs" style={{
         display: "flex",
         gap: "4px",
         padding: "12px 20px",
@@ -138,6 +140,7 @@ export default function WsetStudyApp() {
         {modes.map(m => (
           <button
             key={m.id}
+            className="mode-tab"
             aria-pressed={mode === m.id}
             onClick={() => {
               setMode(m.id);
@@ -162,7 +165,7 @@ export default function WsetStudyApp() {
               transition: "all 0.2s ease"
             }}
           >
-            <span>{m.icon}</span> {m.label}
+            <span className="mode-icon">{m.icon}</span> {m.label}
           </button>
         ))}
       </div>
@@ -174,10 +177,10 @@ export default function WsetStudyApp() {
         maxWidth: "900px",
         margin: "0 auto"
       }}>
-        {/* Map */}
+        {/* Map (an exam is not an open-book screen, so no map there) */}
         <div style={{
           padding: "16px 20px 0",
-          display: "flex",
+          display: mode === "exam" ? "none" : "flex",
           justifyContent: "center"
         }}>
           <div style={{ width: "100%", maxWidth: "400px" }}>
@@ -194,7 +197,7 @@ export default function WsetStudyApp() {
         </div>
 
         {/* Zoom and print: their own block, so they never sit on top of the heading */}
-        {mode !== "quiz" && (
+        {mode !== "quiz" && mode !== "exam" && (
           <div style={{ display: "flex", justifyContent: "center", gap: "8px", padding: "8px 0 0" }}>
             {canZoom && (
               <button onClick={() => setZoomed((z) => !z)} style={quietButton}>
@@ -208,7 +211,7 @@ export default function WsetStudyApp() {
         )}
 
         {/* Active region name */}
-        {mode !== "quiz" && (
+        {mode !== "quiz" && mode !== "exam" && (
           <h2 style={{
             textAlign: "center",
             padding: "8px 0 4px",
@@ -238,6 +241,10 @@ export default function WsetStudyApp() {
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}
           {mode === "taste" && <TastePanel region={activeRegion} />}
+          {/* Always mounted, so a paper in progress and its clock survive a trip to another tab */}
+          <div style={{ display: mode === "exam" ? "block" : "none" }}>
+            <MockExam active={mode === "exam"} />
+          </div>
           {mode === "quiz" && (
             <QuizMode
               mapClick={quizMapClick}
