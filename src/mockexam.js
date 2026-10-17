@@ -5,13 +5,18 @@
 // a clock with no feedback until the end, like the real paper. It does not touch
 // quiz progress: a mock is a test of what you know now, not a way to learn it.
 //
-// Modelled on the multiple-choice part of the WSET Level 3 exam: 50 questions in
-// 60 minutes, and a pass mark of 55%. The questions here are this app's own.
+// Modelled on the multiple-choice part of the WSET Level 3 theory exam, as WSET
+// publishes it (wsetglobal.com, Level 3 Award in Wines): 50 questions, closed
+// book, one mark each with nothing taken off for a wrong answer, and a pass mark
+// of 55% in each part. WSET gives two hours for the whole written paper (these 50
+// questions plus four short written answers) and sets no time for the
+// multiple-choice part alone, so the clock below, 72 seconds a question, is this
+// app's own choice. The questions are this app's own too.
 import { poolFor, countryOfQuestion } from "./progress.js";
 
 export const PASS_MARK = 0.55;
 export const FULL_LENGTH = 50;
-export const SECONDS_PER_QUESTION = 72; // 50 questions in 60 minutes
+export const SECONDS_PER_QUESTION = 72; // this app's own limit: 50 questions in 60 minutes
 export const EXAM_SIZES = [10, 25, FULL_LENGTH];
 
 // Map questions are answered by clicking the map, so they are not multiple choice.
