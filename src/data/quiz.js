@@ -1061,7 +1061,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "southernItaly",
-    explanation: "Taurasi and Aglianico del Vulture require extended ageing in oak and bottle before release. Time is what softens Aglianico's high tannin, in the same way that Barolo needs its years before it is sold."
+    explanation: "Taurasi DOCG and Aglianico del Vulture Superiore DOCG require extended ageing in oak and bottle before release. Time is what softens Aglianico's high tannin, in the same way that Barolo needs its years before it is sold."
   },
   {
     id: "es-01",
@@ -1168,7 +1168,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "riberaDelDuero",
-    explanation: "The difference is altitude. Hot days on the plateau give deep colour and thick skins, so firmer tannin, while cold nights keep the acidity that heat would otherwise burn off. Only small amounts of Cabernet Sauvignon are permitted, and French oak is the more common barrel here."
+    explanation: "The difference is altitude. Hot days on the plateau give deep colour and thick skins, so firmer tannin, while cold nights keep the acidity that heat would otherwise burn off. Small amounts of other grapes such as Cabernet Sauvignon are permitted, and French oak is common here, often alongside some American."
   },
   {
     id: "es-10",
@@ -1206,14 +1206,14 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "A Ribera del Duero producer wants to add a small amount of another grape to the Tempranillo. Which does the DO permit?",
     options: [
-      "Garnacha and Graciano, the usual Rioja blending grapes",
+      "Graciano and Mazuelo, the usual Rioja blending grapes",
       "Verdejo, the white grape of neighbouring Rueda",
-      "Cabernet Sauvignon and Merlot, in small amounts",
+      "Cabernet Sauvignon or Merlot, among the permitted extras",
       "Syrah and Cariñena, the grapes of the Mediterranean east"
     ],
     answer: 2,
     region: "riberaDelDuero",
-    explanation: "Ribera del Duero allows small amounts of Cabernet Sauvignon and Merlot in the blend alongside Tempranillo. Garnacha and Graciano belong to the Rioja blend, Verdejo is the white grape of neighbouring Rueda, and Syrah and Cariñena are Priorat's blending grapes."
+    explanation: "Ribera del Duero allows small amounts of other grapes alongside Tempranillo, including Cabernet Sauvignon, Merlot, Malbec and Garnacha Tinta. Graciano and Mazuelo belong to the Rioja blend, Verdejo is the white grape of neighbouring Rueda, and Syrah and Cariñena are Priorat's blending grapes."
   },
   {
     id: "es-13",
