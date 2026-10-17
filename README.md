@@ -22,7 +22,7 @@ The existing tools fail because they:
 
 Terroir Study is **map-first and connection-oriented**. Instead of memorising facts in isolation, you learn *why* each region works the way it does — from climate through to glass.
 
-### Four Study Modes
+### Five Study Modes
 
 **🗺️ Explore** — Click any region on the map of France, Italy, Spain, Germany, Austria, Portugal, Hungary, Greece or the New World, then *Zoom into* it to see its villages and districts marked where they really are. *Print summary* gives a one-page revision sheet for the region on screen. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
 
@@ -36,6 +36,8 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 Study everything or one country at a time, switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes. On a multiple-choice question, press 1 to 4 to answer and Enter for the next one.
 
 **🍷 Taste** — Tasting practice without a glass. The app names a wine it knows ("You are tasting: Nebbiolo from Piedmont"). You set its body, acidity and, for reds, tannin to low, medium or high, and tick the aromas you expect from eight words (the grape's own plus a few from other grapes of the same colour). Press Check and each row is marked against the grape profile, the aroma words turn green (right), red (wrong pick) or gold (missed), and a short "Why" card explains the answer from the grape and the region. Click a region on the map to taste a wine from there. This is the exam's Systematic Approach to Tasting, cut down to what the app has data for.
+
+**📝 Mock exam** — A timed paper of multiple-choice questions, marked at the end. Choose a full paper (50 questions in 60 minutes, like the multiple-choice part of the WSET Level 3 exam), a half paper or a quick ten, and draw from every country or one. The options are shuffled, you see no answers until you hand in, and the clock hands the paper in for you at zero. The result shows your score against the 55% pass mark, a split by country, and every question you missed with your answer, the right one and why. It never touches your quiz progress, and a paper in progress survives a trip to another tab.
 
 ## Regions Covered
 
@@ -134,6 +136,7 @@ npm run dev
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
+- [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Sub-region drill-down maps (Zoom into any region: 204 places marked across 40 regions)
 
 ## About
