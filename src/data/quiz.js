@@ -2361,7 +2361,7 @@ export const QUIZ_QUESTIONS = [
     id: "gr-03",
     type: "map",
     country: "Greece",
-    question: "Which Peloponnese region makes plummy reds from Agiorgitiko, grown at altitudes from a few hundred metres to about a thousand?",
+    question: "Which Peloponnese region makes plummy reds from Agiorgitiko, grown at altitudes from about 200 to 850 metres?",
     answer: "nemea",
     explanation: "Nemea's Agiorgitiko changes with altitude: jammy and soft in the warm lowlands, balanced at mid-altitude, and fresher and more acidic in the heights. These altitude zones are informal, not part of the PDO rules."
   },
@@ -2423,7 +2423,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "santorini",
-    explanation: "Vinsanto is made from Assyrtiko (with Athiri and Aidani) dried in the sun for days before pressing, then aged in oak for years. It is sweet, with high acidity."
+    explanation: "Vinsanto is made from Assyrtiko (with Athiri and Aidani) dried in the sun before pressing, then matured oxidatively for at least 24 months. It is very sweet, with high acidity."
   },
   {
     id: "gr-08",
