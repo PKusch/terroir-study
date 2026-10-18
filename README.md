@@ -60,7 +60,7 @@ flowchart LR
     Q -- "missed and not-yet-seen papers" --> M["📝 Mock exam<br/>timed, marked at the end"]
 ```
 
-Only the Quiz keeps a record of what you know. The mock exam reads that record to build its *Missed before* and *Not yet seen* papers, and the map drill and the exam save nothing.
+The Quiz and Taste keep a record in your browser. The mock exam reads the quiz record to build its *Missed before* and *Not yet seen* papers, and the map drill and the exam save nothing.
 
 ## Screenshots
 
