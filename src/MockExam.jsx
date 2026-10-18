@@ -2,12 +2,15 @@ import { useState, useEffect, useRef } from "react";
 import { COUNTRIES } from "./data/regions.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import { useTwoStep } from "./useTwoStep.js";
+import { loadProgress } from "./progress.js";
 import {
   PASS_MARK,
   SECONDS_PER_QUESTION,
   EXAM_SIZES,
-  examPoolSize,
-  buildExam,
+  PAPERS,
+  isFixedPaper,
+  paperPoolSize,
+  buildPaper,
   shownOptions,
   scoreExam,
   marksToPass,
@@ -45,6 +48,8 @@ export const MockExam = ({ active = true }) => {
   const [phase, setPhase] = useState("setup"); // setup | running | done
   const [size, setSize] = useState(EXAM_SIZES[EXAM_SIZES.length - 1]);
   const [country, setCountry] = useState("All");
+  const [paper, setPaper] = useState("random");
+  const [paperName, setPaperName] = useState("");
 
   const [exam, setExam] = useState(null);
   const [answers, setAnswers] = useState([]);
@@ -59,12 +64,17 @@ export const MockExam = ({ active = true }) => {
   const deadline = useRef(0);
   const started = useRef(0);
 
-  const available = examPoolSize(QUIZ_QUESTIONS, country);
-  const length = Math.min(size, available);
+  // What each kind of paper can offer right now. The quiz progress is read each
+  // time the set-up screen shows, so "missed" and "unseen" are up to date.
+  const progress = phase === "setup" ? loadProgress() : {};
+  const fixed = isFixedPaper(paper);
+  const available = paperPoolSize(QUIZ_QUESTIONS, paper, { progress, country });
+  const length = fixed ? available : Math.min(size, available);
 
   const start = () => {
-    const next = buildExam(QUIZ_QUESTIONS, { length: size, country });
+    const next = buildPaper(QUIZ_QUESTIONS, paper, { progress, length: size, country });
     if (next.entries.length === 0) return;
+    setPaperName(PAPERS.find((p) => p.id === paper).label);
     examRef.current = next;
     answersRef.current = next.entries.map(() => null);
     setExam(next);
@@ -151,8 +161,24 @@ export const MockExam = ({ active = true }) => {
           </p>
         </div>
 
-        <div style={label}>Length</div>
+        <div style={label}>Paper</div>
         <div style={{ display: "flex", gap: "8px", marginBottom: "16px", flexWrap: "wrap" }}>
+          {PAPERS.map((p) => {
+            const n = paperPoolSize(QUIZ_QUESTIONS, p.id, { progress, country });
+            return (
+              <button key={p.id} aria-pressed={paper === p.id} onClick={() => setPaper(p.id)} disabled={n === 0} style={{
+                ...choiceButton(paper === p.id), flex: "1 1 140px", textAlign: "center", opacity: n === 0 ? 0.4 : 1
+              }}>
+                <div style={{ fontWeight: "600" }}>{p.label}</div>
+                <div style={{ fontSize: "11px", color: "#8B7355" }}>{p.note}</div>
+                <div style={{ fontSize: "11px", color: "#8B7355" }}>{n} {n === 1 ? "question" : "questions"}</div>
+              </button>
+            );
+          })}
+        </div>
+
+        {!fixed && <div style={label}>Length</div>}
+        {!fixed && <div style={{ display: "flex", gap: "8px", marginBottom: "16px", flexWrap: "wrap" }}>
           {EXAM_SIZES.map((n) => (
             <button key={n} aria-pressed={size === n} onClick={() => setSize(n)} style={{
               ...choiceButton(size === n), flex: "1 1 120px", textAlign: "center"
@@ -161,10 +187,10 @@ export const MockExam = ({ active = true }) => {
               <div style={{ fontSize: "11px", color: "#8B7355" }}>{n} questions · {minutesFor(n)} min</div>
             </button>
           ))}
-        </div>
+        </div>}
 
-        <div style={label}>Questions from</div>
-        <div style={{ display: "flex", gap: "6px", marginBottom: "12px", flexWrap: "wrap" }}>
+        {!fixed && <div style={label}>Questions from</div>}
+        {!fixed && <div style={{ display: "flex", gap: "6px", marginBottom: "12px", flexWrap: "wrap" }}>
           {["All", ...Object.keys(COUNTRIES)].map((c) => (
             <button key={c} aria-pressed={country === c} onClick={() => setCountry(c)} style={{
               padding: "6px 12px", borderRadius: "6px", fontSize: "10px", letterSpacing: "0.1em",
@@ -177,12 +203,14 @@ export const MockExam = ({ active = true }) => {
               {c}
             </button>
           ))}
-        </div>
+        </div>}
 
         <div style={{ fontSize: "12px", color: "#B8B0A0", marginBottom: "16px" }}>
           {available === 0
-            ? "There are no multiple-choice questions for this country yet."
-            : length < size
+            ? "There are no questions of this kind yet. Answer some in the Quiz tab first, or try another paper."
+            : fixed
+              ? `${available} questions, the same every time, ${minutesFor(available)} minutes.`
+              : length < size
               ? `There are only ${available} multiple-choice questions for ${country}, so this paper will have ${length}, with ${minutesFor(length)} minutes.`
               : `${length} questions drawn at random from ${available}, ${minutesFor(length)} minutes.`}
         </div>
@@ -207,6 +235,7 @@ export const MockExam = ({ active = true }) => {
           <div role="status" style={{ fontFamily: serif, fontSize: "26px", fontWeight: "600", color: result.passed ? "#7BC47B" : "#C47B7B" }}>
             {result.passed ? "Pass" : "Not yet"}
           </div>
+          <div style={{ fontSize: "11px", color: "#8B7355", letterSpacing: "0.1em", textTransform: "uppercase" }}>{paperName}</div>
           <div style={{ fontSize: "15px", color: "#E8E4D9", marginTop: "4px" }}>
             {result.correct} of {result.total} correct · {result.percent}%
           </div>
@@ -276,7 +305,7 @@ export const MockExam = ({ active = true }) => {
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
         <div style={{ fontSize: "12px", color: "#B8B0A0" }}>
-          Question {index + 1} of {exam.entries.length} · {exam.entries.length - unanswered} answered
+          {paperName}: question {index + 1} of {exam.entries.length} · {exam.entries.length - unanswered} answered
         </div>
         <div role="timer" aria-label="Time left" style={{ fontSize: "16px", fontWeight: "600", fontVariantNumeric: "tabular-nums", color: low ? "#C47B7B" : gold }}>
           {formatClock(remaining)}

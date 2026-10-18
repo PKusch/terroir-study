@@ -13,6 +13,7 @@
 // multiple-choice part alone, so the clock below, 72 seconds a question, is this
 // app's own choice. The questions are this app's own too.
 import { poolFor, countryOfQuestion } from "./progress.js";
+import { shuffled } from "./random.js";
 
 export const PASS_MARK = 0.55;
 export const FULL_LENGTH = 50;
@@ -21,16 +22,6 @@ export const EXAM_SIZES = [10, 25, FULL_LENGTH];
 
 // Map questions are answered by clicking the map, so they are not multiple choice.
 export const multipleChoice = (questions) => questions.filter((q) => Array.isArray(q.options));
-
-// A copy of the list in random order (Fisher-Yates). Never changes the original.
-function shuffled(list, rng) {
-  const out = [...list];
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
-}
 
 // How many multiple-choice questions there are to draw from for this country.
 export function examPoolSize(questions, country = "All") {
@@ -43,8 +34,12 @@ export function examPoolSize(questions, country = "All") {
 //   entries[i] = { id, order }, where order[k] is the original index of the
 //   option shown in position k.
 //   seconds = the time allowed.
-export function buildExam(questions, { length = FULL_LENGTH, country = "All", rng = Math.random } = {}) {
-  const pool = poolFor(multipleChoice(questions), country);
+export function buildExam(questions, { length = FULL_LENGTH, country = "All", rng = Math.random, only = null } = {}) {
+  let pool = poolFor(multipleChoice(questions), country);
+  if (only) {
+    const keep = new Set(only);
+    pool = pool.filter((q) => keep.has(q.id));
+  }
   const entries = shuffled(pool, rng)
     .slice(0, Math.max(0, length))
     .map((q) => ({ id: q.id, order: shuffled(q.options.map((_, i) => i), rng) }));
@@ -54,6 +49,81 @@ export function buildExam(questions, { length = FULL_LENGTH, country = "All", rn
 // The options of one question in the order the exam shows them.
 export function shownOptions(entry, question) {
   return entry.order.map((i) => question.options[i]);
+}
+
+// ── Kinds of paper ───────────────────────────────────────────────────────────
+// A random mix is different every time. A numbered paper is the same every time
+// (for the current question bank), so a score on Paper 1 can be compared with
+// last month's. "Missed before" and "Not yet seen" are built from quiz progress.
+export const PAPERS = [
+  { id: "random", label: "Random mix", note: "A new draw every time" },
+  { id: "paper1", label: "Paper 1", note: "The same questions every time", index: 0 },
+  { id: "paper2", label: "Paper 2", note: "The same questions every time", index: 1 },
+  { id: "paper3", label: "Paper 3", note: "The questions left over", index: 2 },
+  { id: "missed", label: "Missed before", note: "Questions you often get wrong in the quiz", history: "missed" },
+  { id: "unseen", label: "Not yet seen", note: "Questions you have not met in the quiz", history: "unseen" }
+];
+export const isFixedPaper = (id) => PAPERS.find((p) => p.id === id)?.index !== undefined;
+
+// A small seeded random generator (mulberry32): the same seed gives the same run.
+export function seededRng(seed) {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+const PAPER_SEED = 20261018;
+
+// The question ids of a numbered paper: the multiple-choice questions, in id
+// order, shuffled with a fixed seed, then cut into papers of 50 (the last one
+// holds whatever is left). Papers never share a question.
+export function fixedPaperIds(questions, index, size = FULL_LENGTH) {
+  const ids = multipleChoice(questions).map((q) => q.id).sort();
+  return shuffled(ids, seededRng(PAPER_SEED)).slice(index * size, (index + 1) * size);
+}
+
+// Questions picked out by what the quiz has recorded: ones you often get wrong
+// (answered at least once, under 70% right) or ones with no answer on record.
+export function historyIds(questions, progress, kind) {
+  return multipleChoice(questions)
+    .filter((q) => {
+      const r = progress?.[q.id];
+      if (kind === "unseen") return !r || r.attempts === 0;
+      return Boolean(r) && r.attempts > 0 && r.correct / r.attempts < 0.7;
+    })
+    .map((q) => q.id);
+}
+
+// The ids a kind of paper may draw from, or null for "any".
+function idsFor(questions, paperId, progress) {
+  const paper = PAPERS.find((p) => p.id === paperId);
+  if (!paper || paper.id === "random") return null;
+  if (paper.index !== undefined) return fixedPaperIds(questions, paper.index);
+  return historyIds(questions, progress, paper.history);
+}
+
+// How many questions a kind of paper can offer (the country filter applies to
+// everything except a numbered paper).
+export function paperPoolSize(questions, paperId, { progress = {}, country = "All" } = {}) {
+  const only = idsFor(questions, paperId, progress);
+  const filter = isFixedPaper(paperId) ? "All" : country;
+  return only ? buildExam(questions, { length: 1000, country: filter, only }).entries.length : examPoolSize(questions, filter);
+}
+
+// The exam for a kind of paper. A numbered paper is fully fixed: its questions,
+// their order and the order of their options.
+export function buildPaper(questions, paperId, { progress = {}, length = FULL_LENGTH, country = "All", rng = Math.random } = {}) {
+  const only = idsFor(questions, paperId, progress);
+  if (isFixedPaper(paperId)) {
+    const index = PAPERS.find((p) => p.id === paperId).index;
+    return buildExam(questions, { length: FULL_LENGTH, only, rng: seededRng(PAPER_SEED + 1 + index) });
+  }
+  return buildExam(questions, { length, country, rng, only });
 }
 
 // Marks the exam. `answers[i]` is the position the student picked for question

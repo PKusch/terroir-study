@@ -142,3 +142,70 @@ test("the clock reads minutes and seconds, rounds up, and stops at zero", () => 
   assert.equal(formatClock(0), "0:00");
   assert.equal(formatClock(-5), "0:00");
 });
+
+// ── Kinds of paper ──────────────────────────────────────────────────────────
+import { PAPERS, isFixedPaper, seededRng, fixedPaperIds, historyIds, paperPoolSize, buildPaper } from "../src/mockexam.js";
+
+test("the same seed gives the same numbers, a different seed different ones", () => {
+  const a = seededRng(7), b = seededRng(7), c = seededRng(8);
+  const run = (r) => Array.from({ length: 5 }, () => r());
+  assert.deepEqual(run(a), run(b));
+  assert.notDeepEqual(run(seededRng(7)), run(c));
+  assert.ok(run(seededRng(1)).every((n) => n >= 0 && n < 1));
+});
+
+test("numbered papers are fixed, never share a question, and together use the whole bank", () => {
+  const one = fixedPaperIds(QUIZ_QUESTIONS, 0);
+  const two = fixedPaperIds(QUIZ_QUESTIONS, 1);
+  const three = fixedPaperIds(QUIZ_QUESTIONS, 2);
+  assert.equal(one.length, 50);
+  assert.equal(two.length, 50);
+  assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 0), one, "the same every time");
+  const all = [...one, ...two, ...three];
+  assert.equal(new Set(all).size, all.length, "no question on two papers");
+  assert.equal(all.length, multipleChoice(QUIZ_QUESTIONS).length, "and none left out");
+});
+
+test("a numbered paper is identical every time, down to the order of the options", () => {
+  const a = buildPaper(QUIZ_QUESTIONS, "paper1");
+  const b = buildPaper(QUIZ_QUESTIONS, "paper1");
+  assert.deepEqual(a, b);
+  assert.equal(a.entries.length, 50);
+  assert.notDeepEqual(a.entries.map((e) => e.id), buildPaper(QUIZ_QUESTIONS, "paper2").entries.map((e) => e.id));
+  assert.ok(isFixedPaper("paper3") && !isFixedPaper("random") && !isFixedPaper("missed"));
+});
+
+const rec = (attempts, correct) => ({ attempts, correct, box: 1, lastAnswered: 1 });
+
+test("missed means answered and under 70% right; unseen means no answer on record", () => {
+  const progress = { a: rec(4, 1), b: rec(4, 4), c: rec(10, 7), d: rec(0, 0) };
+  assert.deepEqual(historyIds(Q, progress, "missed"), ["a"], "70% right is not missed");
+  assert.deepEqual(historyIds(Q, progress, "unseen"), ["d"]);
+});
+
+test("unseen lists every multiple-choice question when nothing is on record", () => {
+  assert.deepEqual(historyIds(Q, {}, "unseen"), ["a", "b", "c", "d"]);
+  assert.deepEqual(historyIds(Q, {}, "missed"), []);
+  assert.deepEqual(historyIds(Q, undefined, "unseen"), ["a", "b", "c", "d"]);
+});
+
+test("a missed-before paper draws only the missed questions, and respects the country filter", () => {
+  const progress = { a: rec(3, 0), c: rec(3, 1), b: rec(3, 3) };
+  assert.deepEqual(buildPaper(Q, "missed", { progress, rng: counter() }).entries.map((e) => e.id).sort(), ["a", "c"]);
+  assert.deepEqual(buildPaper(Q, "missed", { progress, country: "Spain", rng: counter() }).entries.map((e) => e.id), ["c"]);
+  assert.deepEqual(buildPaper(Q, "missed", { progress: {} }).entries, []);
+});
+
+test("paperPoolSize reports what each kind of paper can offer", () => {
+  assert.equal(paperPoolSize(Q, "random"), 4);
+  assert.equal(paperPoolSize(Q, "random", { country: "Spain" }), 2);
+  assert.equal(paperPoolSize(Q, "unseen", { progress: { a: rec(2, 2) } }), 3);
+  assert.equal(paperPoolSize(Q, "missed", { progress: {} }), 0);
+  assert.equal(paperPoolSize(QUIZ_QUESTIONS, "paper1"), 50);
+  assert.equal(paperPoolSize(QUIZ_QUESTIONS, "paper1", { country: "Greece" }), 50, "a numbered paper ignores the country filter");
+});
+
+test("every kind of paper is listed with a label and a note", () => {
+  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "missed", "unseen"]);
+  for (const p of PAPERS) assert.ok(p.label && p.note);
+});
