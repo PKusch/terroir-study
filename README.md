@@ -77,6 +77,30 @@ Germany (3 WSET L3 exam regions) with its own map, Berlin as orientation marker,
 - **Rheingau** — Riesling where the Rhine turns west; warmer and drier, fuller dry wines and VDP Grosses Gewächs; Spätburgunder at Assmannshausen; botrytis sweet wines
 - **Pfalz** — warm and dry in the rain shadow of the Haardt (the Vosges continued); riper dry Riesling, Grauburgunder, Weissburgunder, Spätburgunder, Dornfelder
 
+Austria (3 WSET L3 exam areas) with its own map, Vienna as orientation marker and the Danube:
+
+- **Niederösterreich** — Grüner Veltliner and Riesling along the Danube: Wachau, Kremstal, Kamptal, Wagram, Traisental and the Weinviertel; hot days and cold nights, primary rock terraces and loess; Steinfeder, Federspiel and Smaragd, and the DAC system
+- **Burgenland** — warm, dry Pannonian climate; Zweigelt and Blaufränkisch (Mittelburgenland, Eisenberg, Leithaberg, Neusiedlersee); autumn mist off the shallow Neusiedler See brings noble rot and the sweet wines of Rust
+- **Steiermark** — Austria's cool, hilly south; Sauvignon Blanc, Welschriesling and Morillon, Schilcher rosé from Blauer Wildbacher, and the Gebietswein–Ortswein–Riedenwein pyramid
+
+Portugal (3 WSET L3 exam areas) with its own map, Lisbon as orientation marker, the Douro and the Tejo, and Spain drawn faintly:
+
+- **Vinho Verde** — the wet, cool northwest; light, low-alcohol, high-acid whites from Alvarinho (best in Monção e Melgaço), Loureiro and Arinto; vines trained high on pergolas for air; granite soils
+- **Douro** — terraced schist slopes along the river; Touriga Nacional, Touriga Franca and Tinta Roriz; Port (fortified with grape spirit, Ruby, Tawny, LBV, Vintage) and Douro table wine; Baixo Corgo wettest, Douro Superior hottest and driest
+- **Alentejo** — the hot southern plain; soft, fruity Aragonez, Trincadeira and Alicante Bouschet, Antão Vaz and Arinto whites; cork oak, vinho de talha in clay amphorae, and eight DOC sub-regions
+
+Hungary (3 WSET L3 exam areas) with its own map, Budapest as orientation marker, the Danube and the Tisza:
+
+- **Tokaj** — Furmint and Hárslevelű where the Bodrog meets the Tisza; river mist then dry sun brings noble rot; dry Furmint, Szamorodni, Aszú (at least 120 g/l of sugar, with the optional 5 and 6 puttonyos terms) and Eszencia; volcanic soils
+- **Eger** — cool northern foothills of the Bükk; Egri Bikavér, "Bull's Blood", led by Kékfrankos, in three tiers (Classicus, Superior, Grand Superior), and the Egri Csillag white blend
+- **Villány** — the warmest corner, in the far south; Cabernet Franc and Bordeaux-style reds on limestone and loess; Classicus, Premium and Super Premium tiers
+
+Greece (3 WSET L3 exam areas) with its own map, Athens as orientation marker, Crete and the islands drawn in outline:
+
+- **Santorini** — a hot, dry, windy volcanic island; Assyrtiko (at least 85% in dry PDO wines) from old ungrafted vines trained in low baskets (kouloura); Nykteri and the sweet Vinsanto
+- **Naoussa** — the eastern slopes of Mount Vermio; Xinomavro, "acid black", high in acidity and tannin and often compared with Nebbiolo; red only under the PDO
+- **Nemea** — the Peloponnese hills; Agiorgitiko, red only under the PDO, soft and plummy in the warm lowlands and fresher at altitude (the three altitude zones, about 200 to 850 metres, are informal)
+
 New World (6 WSET L3 countries, one region each) sharing one map:
 
 - **California** — Napa Cabernet, Sonoma Pinot Noir and Zinfandel, Santa Barbara and Paso Robles, Central Valley volume; Pacific fog through gaps in the Coast Ranges decides the style, and an AVA is a place name, not a quality mark
@@ -87,6 +111,12 @@ New World (6 WSET L3 countries, one region each) sharing one map:
 - **Argentina** — Mendoza Malbec at altitude (Luján de Cuyo, Uco Valley), desert climate irrigated by Andean meltwater, the zonda wind and hail, thick skins from strong sunlight, Torrontés from high-altitude Salta; Cabernet and Bonarda
 
 *France, Italy, Spain, Germany, Austria, Portugal, Hungary, Greece and the New World are built. The quiz covers all of them.*
+
+## How far to trust the facts
+
+The region facts, grape profiles and quiz questions were first written from memory, and in October 2026 they were checked against real sources: WSET's own pages for the exam format, Wines of Greece, Vinea Wachau, the Châteauneuf-du-Pape, Rioja, Valpolicella, Prosecco and New Zealand Winegrowers sites, Wine Folly, Decanter and Wikipedia. That found real mistakes, which are fixed (for example that Tokaj dropped Aszúeszencia in 2013, and the Champagne lees ageing minimums).
+
+It is not a substitute for your course book. Many official pages could not be read, so some points rest on secondary sources, and where sources disagreed the number was left out rather than guessed. Still unchecked: Soave and Bolgheri soils, the Vin Santo barrels, bush vines in Puglia, Elgin and Stellenbosch soils, how far Coonawarra is from the sea, and the legal ageing minimums for Naoussa and Nemea Reserve. The mock exam's 50 questions and 55% pass mark are WSET's published format; its 72-seconds-a-question clock is this app's own, because WSET gives two hours for the whole written paper and no time for the multiple-choice part alone.
 
 ## Tech Stack
 
@@ -104,12 +134,12 @@ you from nothing. At the foot of the page, **Save progress file** downloads ever
 one small file, and **Restore from file** loads it back. Restoring says what is in the file
 and asks first. It adds to what is already there and keeps the more recent answer for any
 question in both, so restoring the same file twice changes nothing, and a file that is not a
-backup, or is damaged, is refused. **Clear progress** and **Clear results** need a second click.
+backup, or is damaged, is refused. **Clear progress** and **Clear results** need a second click. The mock exam and the map drill save nothing at all: they are practice, and the only thing they read is your quiz record, to build the *Missed before* and *Not yet seen* papers.
 
 ## Keyboard and screen readers
 
 You can study without a mouse. Tab moves between the map regions and buttons, and
-Enter or Space picks one. In the quiz, 1 to 4 answer and Enter moves on. Selected buttons say so out loud, the quiz says "Correct" or
+Enter or Space picks one. In the quiz, 1 to 4 answer and Enter moves on. In a mock exam, 1 to 4 pick an answer (press again to clear it) and the left and right arrows move between questions. In the map drill, 1 to 4 answer *Name it* and Enter moves on. *Find it* and *Place it* need a mouse or a finger, because a keyboard cannot point at a spot on a map. Selected buttons say so out loud, the quiz says "Correct" or
 gives the right answer in words as well as colour, and animation switches off if your
 device is set to reduce motion. During a map quiz the region names are kept from screen
 readers, because the name is the answer.
@@ -140,6 +170,7 @@ npm run dev
 - [x] Progress tracking and weak-area identification
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
+- [x] Facts fact-checked against sources, with the gaps listed above
 - [x] Sub-region drill-down maps (Zoom into any region: 204 places marked across 40 regions)
 
 ## About
@@ -152,7 +183,7 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 npm test
 ```
 
-81 tests cover the pure logic — progress and spacing, the taste marker, backups, summaries and the map maths — with no browser needed.
+125 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
 
 ## License
 
