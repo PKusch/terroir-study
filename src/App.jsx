@@ -10,6 +10,7 @@ import { ConnectionChain } from "./ConnectionChain.jsx";
 import { QuizMode } from "./QuizMode.jsx";
 import { TastePanel } from "./TastePanel.jsx";
 import { MockExam } from "./MockExam.jsx";
+import { MapDrill } from "./MapDrill.jsx";
 import { BackupPanel } from "./BackupPanel.jsx";
 
 // ─── Main App ────────────────────────────────────────────────────────────────
@@ -46,7 +47,7 @@ export default function WsetStudyApp() {
   };
 
   // Zooming in shows the region's own places; only where there are some to show.
-  const canZoom = mode !== "quiz" && mode !== "exam" && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
+  const canZoom = mode !== "quiz" && mode !== "exam" && mode !== "drill" && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
   const showDetail = zoomed && canZoom;
 
   const quietButton = {
@@ -60,7 +61,8 @@ export default function WsetStudyApp() {
     { id: "connect", label: "Connect", icon: "🔗" },
     { id: "quiz", label: "Quiz", icon: "✦" },
     { id: "taste", label: "Taste", icon: "🍷" },
-    { id: "exam", label: "Mock exam", icon: "📝" }
+    { id: "exam", label: "Mock exam", icon: "📝" },
+    { id: "drill", label: "Map drill", icon: "📍" }
   ];
 
   const handleRegionClick = (key) => {
@@ -83,6 +85,8 @@ export default function WsetStudyApp() {
       {/* ── Header ── */}
       <header style={{
         display: "flex",
+        flexWrap: "wrap",
+        gap: "12px",
         justifyContent: "space-between",
         alignItems: "center",
         padding: "16px 20px",
@@ -99,11 +103,11 @@ export default function WsetStudyApp() {
             Terroir <span style={{ color: "#C4A962" }}>Study</span>
           </h1>
           <div style={{ fontSize: "10px", color: "#8B7355", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "2px" }}>
-            WSET Level 3 · {mode === "exam" ? "Mock exam" : mapCountry}
+            WSET Level 3 · {mode === "exam" ? "Mock exam" : mode === "drill" ? "Map drill" : mapCountry}
           </div>
         </div>
-        {mode !== "quiz" && mode !== "exam" && (
-          <div style={{ display: "flex", gap: "4px" }}>
+        {mode !== "quiz" && mode !== "exam" && mode !== "drill" && (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "4px" }}>
             {Object.keys(COUNTRIES).map(c => (
               <button
                 key={c}
@@ -180,7 +184,7 @@ export default function WsetStudyApp() {
         {/* Map (an exam is not an open-book screen, so no map there) */}
         <div style={{
           padding: "16px 20px 0",
-          display: mode === "exam" ? "none" : "flex",
+          display: mode === "exam" || mode === "drill" ? "none" : "flex",
           justifyContent: "center"
         }}>
           <div style={{ width: "100%", maxWidth: "400px" }}>
@@ -197,7 +201,7 @@ export default function WsetStudyApp() {
         </div>
 
         {/* Zoom and print: their own block, so they never sit on top of the heading */}
-        {mode !== "quiz" && mode !== "exam" && (
+        {mode !== "quiz" && mode !== "exam" && mode !== "drill" && (
           <div style={{ display: "flex", justifyContent: "center", gap: "8px", padding: "8px 0 0" }}>
             {canZoom && (
               <button onClick={() => setZoomed((z) => !z)} style={quietButton}>
@@ -211,7 +215,7 @@ export default function WsetStudyApp() {
         )}
 
         {/* Active region name */}
-        {mode !== "quiz" && mode !== "exam" && (
+        {mode !== "quiz" && mode !== "exam" && mode !== "drill" && (
           <h2 style={{
             textAlign: "center",
             padding: "8px 0 4px",
@@ -245,6 +249,7 @@ export default function WsetStudyApp() {
           <div style={{ display: mode === "exam" ? "block" : "none" }}>
             <MockExam active={mode === "exam"} />
           </div>
+          {mode === "drill" && <MapDrill onStudyRegion={studyRegion} />}
           {mode === "quiz" && (
             <QuizMode
               mapClick={quizMapClick}
