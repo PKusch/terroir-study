@@ -1,14 +1,38 @@
-# 🍷 Terroir Study
+<div align="center">
+
+<img src="public/wine-icon.svg" width="84" alt="Terroir Study logo: a wine glass in a gold ring" />
+
+# Terroir Study
+
+**Learn where wine comes from by looking at the map.**
+A visual study tool for WSET Level 3, built around maps, the reasons behind each region, and practice that remembers what you get wrong.
 
 [![deploy](https://github.com/PKusch/terroir-study/actions/workflows/deploy.yml/badge.svg)](https://github.com/PKusch/terroir-study/actions/workflows/deploy.yml)
+![License: MIT](https://img.shields.io/badge/license-MIT-C4A962)
+![React 18](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![No UI libraries](https://img.shields.io/badge/UI%20libraries-none-722F37)
 
-**A map-first, visual study tool for WSET Level 3 wine certification.**
+### [**→ Try it live**](https://pkusch.github.io/terroir-study/)
 
-[**→ Try the live demo**](https://pkusch.github.io/terroir-study/)
+[What it does](#what-it-does) · [Screenshots](#screenshots) · [Regions](#regions-covered) · [How far to trust it](#how-far-to-trust-the-facts) · [Run it](#run-locally)
+
+<br />
+
+<img src="docs/screenshots/explore.jpg" width="680" alt="The Explore screen: a map of France with Bordeaux selected and its climate, soils and style underneath" />
+
+<br />
+
+| 🌍 **9** countries | 🗺️ **40** regions | 📍 **204** places on the map | ❓ **197** quiz questions | 🍇 **86** grapes | ✅ **125** tests |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+
+</div>
 
 ---
 
-## The Problem
+## The idea
+
+### The problem
 
 I'm studying for WSET Level 3 and discovered that every wine study app treats wine knowledge as text-based trivia. Flashcard apps ask "What is Burgundy's climate?" and expect you to recall a word. But wine is inherently **spatial** and **visual** — understanding *why* Merlot dominates Bordeaux's Right Bank requires seeing the clay soils, understanding the maritime climate, and connecting that to winemaking decisions.
 
@@ -18,11 +42,57 @@ The existing tools fail because they:
 - Test recall instead of understanding
 - Scatter information across flashcards with no coherent mental model
 
-## The Solution
+### The answer
 
 Terroir Study is **map-first and connection-oriented**. Instead of memorising facts in isolation, you learn *why* each region works the way it does — from climate through to glass.
 
-### Six Study Modes
+## What it does
+
+Six ways to study, one map. Each one reads from the same data, so what you explore is what you are quizzed on.
+
+```mermaid
+flowchart LR
+    E["🗺️ Explore<br/>click a region"] --> C["🔗 Connect<br/>climate → soil → grapes → style"]
+    C --> Q["✦ Quiz<br/>remembers what you get wrong"]
+    E --> T["🍷 Taste<br/>pick a region, taste a wine from it"]
+    Q -- "weak areas: study →" --> E
+    D["📍 Map drill<br/>find it, name it, place it"] -- "what you missed: study →" --> E
+    Q -- "missed and not-yet-seen papers" --> M["📝 Mock exam<br/>timed, marked at the end"]
+```
+
+Only the Quiz keeps a record of what you know. The mock exam reads that record to build its *Missed before* and *Not yet seen* papers, and the map drill and the exam save nothing.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="docs/screenshots/explore.jpg" alt="Explore" /><br /><b>🗺️ Explore</b><br /><sub>Click a region, zoom into its villages, print a one-page summary</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/connect.jpg" alt="Connect" /><br /><b>🔗 Connect</b><br /><sub>The chain from climate to glass, one link at a time</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/quiz.jpg" alt="Quiz" /><br /><b>✦ Quiz</b><br /><sub>Map, connection and scenario questions with spaced repetition</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/taste.jpg" alt="Taste" /><br /><b>🍷 Taste</b><br /><sub>Body, acidity, tannin and aromas, marked against the grape</sub></td>
+    <td align="center"><img src="docs/screenshots/exam.jpg" alt="Mock exam" /><br /><b>📝 Mock exam</b><br /><sub>Timed paper, shuffled options, jump grid, marked at the end</sub></td>
+    <td align="center"><img src="docs/screenshots/drill.jpg" alt="Map drill" /><br /><b>📍 Map drill</b><br /><sub>Click where Tokaj is; see your click, the real spot and the miss</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="170"><img src="docs/screenshots/mobile.jpg" alt="The app on a phone" width="170" /></td>
+    <td valign="top">
+
+**Works on a phone.** The six tabs and nine country buttons fit a small screen, the map scales to the width, and every drill works with a finger. Nothing is installed and nothing is sent anywhere: your progress stays in your browser, and a button at the foot of the page saves it to a file.
+
+**Choose your paper.** The mock exam offers a random mix, three fixed numbered papers you can compare week to week, and papers built from what you have missed or not yet seen.
+
+<img src="docs/screenshots/exam-setup.jpg" alt="Choosing a mock exam paper" width="420" />
+
+</td>
+  </tr>
+</table>
+
+### What each mode does
 
 **🗺️ Explore** — Click any region on the map of France, Italy, Spain, Germany, Austria, Portugal, Hungary, Greece or the New World, then *Zoom into* it to see its villages and districts marked where they really are. *Print summary* gives a one-page revision sheet for the region on screen. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies.
 
@@ -42,6 +112,23 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 **📍 Map drill** — Learn where things are, ten questions a round, for every country or one. *Find it* gives you a region's name and you click it on the map. *Name it* lights a region up and you pick its name from four. *Place it* gives you a village or district, such as Mád or Pauillac, and you click where it is on the zoomed map; a hit is within a twelfth of the map's width, and the answer is shown with a dot and a line to your click. At the end you see what you missed, with a link to study each one. It never touches your quiz progress.
 
 ## Regions Covered
+
+| | Country | Regions |
+|:-:|---|---|
+| 🇫🇷 | **France** | Bordeaux · Burgundy · Northern Rhône · Southern Rhône · Loire Valley · Alsace · Champagne · Languedoc-Roussillon · Provence · South-West · Beaujolais |
+| 🇮🇹 | **Italy** | Piedmont · Tuscany · Veneto · Southern Italy |
+| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) |
+| 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz |
+| 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
+| 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo |
+| 🇭🇺 | **Hungary** | Tokaj · Eger · Villány |
+| 🇬🇷 | **Greece** | Santorini · Naoussa · Nemea |
+| 🌎 | **New World** | California · Australia · New Zealand · South Africa · Chile · Argentina |
+
+*Every country has its own hand-projected map, built from real latitude and longitude, with its capital, its main rivers and its neighbours drawn faintly. The quiz covers all of them.*
+
+<details>
+<summary><b>Region by region: what the app says about each</b></summary>
 
 France (11 WSET L3 exam regions) with geographically accurate map, Paris as orientation marker, and major rivers:
 
@@ -110,7 +197,7 @@ New World (6 WSET L3 countries, one region each) sharing one map:
 - **Chile** — the Pacific (Humboldt current) and the Andes as the two coolers, Casablanca and San Antonio whites, Maipo Cabernet, Colchagua Carmenère (the Bordeaux grape mistaken for Merlot), Central Valley volume; ungrafted vines, no phylloxera
 - **Argentina** — Mendoza Malbec at altitude (Luján de Cuyo, Uco Valley), desert climate irrigated by Andean meltwater, the zonda wind and hail, thick skins from strong sunlight, Torrontés from high-altitude Salta; Cabernet and Bonarda
 
-*France, Italy, Spain, Germany, Austria, Portugal, Hungary, Greece and the New World are built. The quiz covers all of them.*
+</details>
 
 ## How far to trust the facts
 
