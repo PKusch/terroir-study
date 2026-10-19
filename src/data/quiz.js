@@ -237,9 +237,9 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why are Pinot Noir and Chardonnay the grapes that thrive in Burgundy?",
     options: [
-      "The limestone soils are too alkaline for any other grape",
-      "Burgundy is warm enough for late-ripening grapes such as Grenache",
-      "The continental climate with cold winters favours early-ripening varieties, and both ripen early",
+      "The limestone soils are too alkaline for any other grape variety to ripen anywhere in the region",
+      "Burgundy is warm enough for late-ripening grapes such as Grenache, but they are not allowed",
+      "The cold-winter continental climate favours early-ripening grapes, and both ripen early",
       "They are the only grapes that can be fermented with whole bunches"
     ],
     answer: 2,
@@ -266,8 +266,8 @@ export const QUIZ_QUESTIONS = [
     question: "Why is Burgundy divided into tiny plots (climats), each with its own name?",
     options: [
       "Each plot grows a different grape variety",
-      "Burgundy is terroir-driven: the same grape on a different site makes a different wine",
-      "Frost and hail force growers to spread their risk across many small holdings",
+      "Burgundy is terroir-driven: the same grape on a different site gives a different wine",
+      "Frost and hail force growers to spread their risk across many small holdings of vines",
       "The plots mark where Premier Cru wines must be blended with Grand Cru"
     ],
     answer: 1,
@@ -315,7 +315,7 @@ export const QUIZ_QUESTIONS = [
     question: "How does the Mistral wind help growers in the Northern Rhône?",
     options: [
       "It dries the grapes and reduces the risk of disease and rot",
-      "It carries warm air that raises sugar levels",
+      "It carries warm air from the south that raises sugar levels in the grapes",
       "It brings the rain the steep slopes need",
       "It deposits granite dust that adds minerality"
     ],
@@ -342,9 +342,9 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why is Grenache in the Southern Rhône grown as untrellised bush vines (gobelet)?",
     options: [
-      "Bush vines are legally required across every Côtes du Rhône wine",
+      "Bush vines are legally required across every Côtes du Rhône wine, whatever the grape",
       "Bush vines protect the buds from spring frost",
-      "In the hot climate no trellising is needed, and the bush shades the grapes from intense sun",
+      "In the hot climate no trellising is needed, and the bush shades the grapes",
       "Bush vines expose the grapes to more Mistral wind"
     ],
     answer: 2,
@@ -356,10 +356,10 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why do Southern Rhône producers age their reds in large old oak (foudre) rather than new barriques?",
     options: [
-      "Oak flavour is not the goal; they want the fruit, herbs and spice of the Grenache blend to show",
+      "Oak flavour is not the goal; they want the Grenache blend's fruit, herbs and spice to show",
       "Large casks add more oak flavour than small barrels",
       "New barriques would make the wine too high in alcohol",
-      "Foudres are needed to soften Grenache's aggressive tannins"
+      "Foudres are needed to soften Grenache's aggressive tannins, which would otherwise be undrinkable"
     ],
     answer: 0,
     region: "rhoneSouth",
@@ -414,7 +414,7 @@ export const QUIZ_QUESTIONS = [
     options: [
       "It brings the botrytis needed for sweet wines",
       "It moderates temperature and reduces frost risk in a cool climate",
-      "It deposits the flint that gives Sancerre its minerality",
+      "It deposits the flint that gives Sancerre its minerality, carried down in its floods",
       "It provides the water used to irrigate the vines"
     ],
     answer: 1,
@@ -449,7 +449,7 @@ export const QUIZ_QUESTIONS = [
     options: [
       "The cool climate gives high acidity that balances the residual sugar",
       "The rain shadow lowers the sugar in the grapes",
-      "Ageing in large oak foudres absorbs the sweetness",
+      "Ageing in large oak foudres absorbs the sweetness, leaving a drier finish in the glass",
       "Botrytis removes the sugar before fermentation"
     ],
     answer: 0,
@@ -476,9 +476,9 @@ export const QUIZ_QUESTIONS = [
     question: "Why does Champagne's marginal climate produce such good base wine for sparkling?",
     options: [
       "The chalk soil adds the bubbles during the first fermentation",
-      "The cold makes the second fermentation happen in the bottle on its own",
+      "The cold makes the second fermentation happen in the bottle on its own, without any yeast or sugar being added",
       "Strong sunshine gives ripe, sugar-rich grapes",
-      "The grapes barely ripen, giving high acid and low sugar, which is exactly what sparkling base wine needs"
+      "The grapes barely ripen, giving high acid and low sugar, which sparkling base wine needs"
     ],
     answer: 3,
     region: "champagne",
