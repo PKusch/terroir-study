@@ -193,7 +193,8 @@ test("the right answer is rarely the single longest option, so length is no clue
     const longest = Math.max(...q.options.map((o) => o.length));
     return q.options[q.answer].length === longest && q.options.filter((o) => o.length === longest).length === 1;
   });
-  // A guess by length beats chance if more than a quarter of questions give it away.
+  // Picking the longest option beats guessing if many questions give it away, so
+  // no more than one in ten may.
   // `npm run quizcheck` lists them.
   assert.ok(giveaways.length <= choice.length * 0.1, `${giveaways.length} of ${choice.length} questions: ${giveaways.map((q) => q.id).join(", ")}`);
 });
