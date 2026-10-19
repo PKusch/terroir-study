@@ -153,7 +153,7 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why does Cru Beaujolais (Morgon, Moulin-à-Vent) taste so different from basic Beaujolais Nouveau?",
     options: [
-      "They use different grape varieties, with Cru wines made from Pinot Noir rather than from Gamay",
+      "They use different grape varieties, with Cru wines made from Pinot Noir rather than from Gamay grapes",
       "Cru villages have granite soils and a longer maceration; Nouveau is made by carbonic maceration",
       "Nouveau is made from white grapes",
       "Cru wines are blended with Burgundy Pinot Noir to give them more structure and ageing power"
@@ -280,7 +280,7 @@ export const QUIZ_QUESTIONS = [
     question: "A grower in the Côte de Nuits is planning for the year ahead. Which weather risks come with Burgundy's continental climate?",
     options: [
       "Drought stress from hot, dry summers",
-      "Autumn rain at harvest from the Atlantic",
+      "Autumn rain at harvest blowing in from the Atlantic every single year",
       "Rot spread by a damp sea breeze",
       "Frost and hail, with big differences between vintages"
     ],
@@ -370,10 +370,10 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A rich, high-alcohol red with red fruit, garrigue herbs and spice is a Grenache-based blend from a village whose vineyards are covered in large heat-retaining stones. Which is it?",
     options: [
-      "Corbières (Languedoc)",
-      "Cornas (Northern Rhône)",
+      "Corbières, a Languedoc red from the hills near Narbonne",
+      "Cornas, a Syrah red from the Northern Rhône slopes",
       "Châteauneuf-du-Pape (Southern Rhône)",
-      "Bandol (Provence)"
+      "Bandol, a Mourvèdre red from the Provence coast"
     ],
     answer: 2,
     region: "rhoneSouth",
@@ -433,10 +433,10 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A white wine is intensely aromatic, with lychee and rose, and is off-dry. Which grape is it most likely to be?",
     options: [
-      "Riesling from Alsace",
+      "Riesling from the Alsace Grand Cru vineyards",
       "Gewurztraminer from Alsace",
-      "Viognier from Condrieu",
-      "Chenin Blanc from Vouvray"
+      "Viognier from the Condrieu slopes in the Northern Rhône",
+      "Chenin Blanc from the Vouvray hills in the Loire"
     ],
     answer: 1,
     region: "alsace",
@@ -461,10 +461,10 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "An Alsace producer wants to make a sweet wine from grapes affected by botrytis (noble rot). Which label applies?",
     options: [
-      "Crémant d'Alsace",
-      "Vendange Tardive",
+      "Crémant d'Alsace, the sparkling wine",
+      "Vendange Tardive, the late-harvest label",
       "Sélection de Grains Nobles",
-      "Alsace Grand Cru"
+      "Alsace Grand Cru, a single-site label"
     ],
     answer: 2,
     region: "alsace",
@@ -552,9 +552,9 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why does Roussillon's schist suit Grenache destined for fortified wine?",
     options: [
-      "Schist stores water so the vines never suffer in the heat",
+      "Schist stores water so the vines never suffer in the Roussillon heat",
       "Schist is a form of chalk that keeps the acidity high",
-      "Schist stresses the vines, giving complex, concentrated Grenache",
+      "Schist stresses the vines, giving concentrated Grenache",
       "Schist reflects the sun and keeps the grapes cool"
     ],
     answer: 2,
@@ -611,7 +611,7 @@ export const QUIZ_QUESTIONS = [
       "Direct pressing, or a short maceration, to keep the colour pale",
       "A long maceration on the skins for deeper colour",
       "Blending a finished red with a finished white",
-      "Eighteen months in large oak"
+      "Eighteen months in large oak foudres, which would add colour and weight"
     ],
     answer: 0,
     region: "provence",
@@ -651,9 +651,9 @@ export const QUIZ_QUESTIONS = [
     question: "Why does Petit Manseng suit sweet wine in Jurançon?",
     options: [
       "Its thin skins let botrytis in quickly",
-      "Its thick skins resist botrytis and let the sugar concentrate for late-harvest wines",
+      "Its thick skins resist botrytis and let sugar concentrate for late harvest",
       "It is fortified with grape spirit like Maury",
-      "Its low acidity makes the sweetness feel richer"
+      "Its low acidity makes the sweetness feel richer, so no extra acid is ever needed"
     ],
     answer: 1,
     region: "southWest",
@@ -699,9 +699,9 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A red is very light and fruity, with banana and bubblegum notes. What is it, and how was it made?",
     options: [
-      "Cru Beaujolais, aged in oak",
-      "Bourgogne Pinot Noir, whole bunch fermented",
-      "Chinon, from Cabernet Franc",
+      "Cru Beaujolais, aged in oak for a year or more",
+      "Bourgogne Pinot Noir, fermented as whole bunches in open vats",
+      "Chinon, from Cabernet Franc grown in the Loire",
       "Beaujolais Nouveau, made by carbonic maceration"
     ],
     answer: 3,
