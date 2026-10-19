@@ -489,8 +489,8 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A Champagne shows bready, biscuity, brioche notes. Where do those flavours come from?",
     options: [
-      "New oak barrels used in the first fermentation",
-      "Autolysis: the wine resting on its yeast lees after the second fermentation in bottle",
+      "New oak barrels used in the first fermentation, which add toasty, buttery notes",
+      "Autolysis: the wine resting on its yeast lees after the bottle fermentation",
       "The chalk soil, which gives a biscuity minerality",
       "A high proportion of Pinot Meunier in the blend"
     ],
@@ -503,8 +503,8 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A Champagne is labelled Blanc de Blancs, meaning it is made only from white grapes. Which grape is it, and how will it taste compared with a Blanc de Noirs?",
     options: [
-      "Chardonnay; elegant and citrussy, where Blanc de Noirs is fuller with red fruit",
-      "Pinot Meunier; fuller and red-fruited, where Blanc de Noirs is elegant",
+      "Chardonnay; elegant and citrussy, where Blanc de Noirs is fuller, with red fruit",
+      "Pinot Meunier; fuller and red-fruited, where Blanc de Noirs is elegant and citrussy",
       "Chardonnay and Pinot Noir blended; richer than either alone",
       "Pinot Noir; copper-coloured with red fruit"
     ],
@@ -517,10 +517,10 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why does a vintage Champagne usually taste more bready and developed than a non-vintage one?",
     options: [
-      "Vintage wines must spend at least 36 months on the lees, against 12 for non-vintage, so autolysis has longer to work",
+      "Vintage must spend at least 36 months on the lees, against 12 for non-vintage",
       "Vintage wines use only Pinot Noir",
       "Vintage wines skip the second fermentation",
-      "Vintage wines are made from chalk-grown grapes only"
+      "Vintage wines are made only from grapes grown on chalk, which adds the biscuit flavour"
     ],
     answer: 0,
     region: "champagne",
@@ -539,8 +539,8 @@ export const QUIZ_QUESTIONS = [
     question: "Why is old-vine Carignan prized in the Languedoc's quality revolution?",
     options: [
       "Carignan is the only grape the AOC rules allow",
-      "Old vines give low yields, and with the Mediterranean heat that means concentrated wines",
-      "Old Carignan vines ripen early enough to avoid the summer heat",
+      "Old vines give low yields, and in the Mediterranean heat that gives concentrated wines",
+      "Old Carignan vines ripen early enough to avoid the summer heat, so the fruit stays fresh",
       "Carignan on galets ripens more fully than Grenache"
     ],
     answer: 1,
@@ -595,9 +595,9 @@ export const QUIZ_QUESTIONS = [
     question: "Most of Provence makes rosé, yet Bandol fully ripens Mourvèdre for serious reds. Why?",
     options: [
       "Bandol is cooler, which Mourvèdre prefers",
-      "Bandol uses carbonic maceration to extract colour quickly",
-      "Bandol's soils are galets that radiate heat at night",
-      "Bandol's terraced limestone amphitheatre faces the sea and is sheltered and warm, and Mourvèdre needs more heat than Grenache"
+      "Bandol uses carbonic maceration to extract colour quickly, which tames the Mourvèdre's tannins",
+      "Bandol's soils are galets that radiate heat at night, as they do at Châteauneuf",
+      "Bandol's terraced limestone slopes face the sea, sheltered and warm, and Mourvèdre needs heat"
     ],
     answer: 3,
     region: "provence",
@@ -622,9 +622,9 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why is Provence's climate so well suited to rosé?",
     options: [
-      "Cool sea fog keeps the grapes from over-ripening",
+      "Cool sea fog rolling in from the Atlantic each morning keeps the grapes from over-ripening and keeps the juice pale",
       "Chalk soils give the high acidity rosé needs",
-      "Mediterranean sun and the Mistral wind keep the grapes healthy, and an early harvest keeps the wine fresh",
+      "Mediterranean sun and the Mistral keep the grapes healthy, and an early harvest keeps it fresh",
       "Heavy autumn rain dilutes the colour naturally"
     ],
     answer: 2,
@@ -664,10 +664,10 @@ export const QUIZ_QUESTIONS = [
     type: "scenario",
     question: "A student says South-West wines are just like Bordeaux because the regions are neighbours. What is the key difference?",
     options: [
-      "The South-West is cooler and wetter, so its wines are lighter",
+      "The South-West is cooler and wetter than Bordeaux, so its wines are always lighter in body",
       "The South-West is Mediterranean, like the Languedoc",
-      "The South-West uses the same grapes but ages them in foudre",
-      "Inland the climate is warmer and more continental, and indigenous grapes such as Malbec, Tannat and Petit Manseng set it apart"
+      "The South-West uses the same grapes as Bordeaux but ages them in foudre instead of barrique, which is the only difference",
+      "Inland it is warmer and more continental, and local grapes like Malbec, Tannat and Petit Manseng set it apart"
     ],
     answer: 3,
     region: "southWest",
@@ -685,10 +685,10 @@ export const QUIZ_QUESTIONS = [
     type: "connection",
     question: "Why does carbonic maceration suit Gamay so well?",
     options: [
-      "It pulls out colour and fruit without harsh tannins, which suits a thin-skinned, low-tannin grape",
-      "It adds the tannin Gamay lacks",
-      "It gives the oxidative character Gamay needs to age",
-      "It is the only method that works on granite soils"
+      "It pulls out colour and fruit without harsh tannins, which suits a thin-skinned grape",
+      "It adds the tannin Gamay lacks, so the wines can age for decades in the cellar",
+      "It gives the oxidative character that Gamay needs to age, as in a fino Sherry",
+      "It is the only method that works on granite soils, because the grapes there are small"
     ],
     answer: 0,
     region: "beaujolais",
