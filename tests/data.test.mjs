@@ -186,3 +186,14 @@ test("the right answer is spread across all four positions", () => {
   const total = counts.reduce((a, b) => a + b, 0);
   for (const n of counts) assert.ok(n > total * 0.15, `answer positions are lopsided: ${counts}`);
 });
+
+test("the right answer is rarely the single longest option, so length is no clue", () => {
+  const choice = QUIZ_QUESTIONS.filter((q) => q.type !== "map");
+  const giveaways = choice.filter((q) => {
+    const longest = Math.max(...q.options.map((o) => o.length));
+    return q.options[q.answer].length === longest && q.options.filter((o) => o.length === longest).length === 1;
+  });
+  // A guess by length beats chance if more than a quarter of questions give it away.
+  // `npm run quizcheck` lists them.
+  assert.ok(giveaways.length <= choice.length * 0.1, `${giveaways.length} of ${choice.length} questions: ${giveaways.map((q) => q.id).join(", ")}`);
+});
