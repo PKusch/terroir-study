@@ -2439,5 +2439,545 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "santorini",
     explanation: "Phylloxera does not thrive in sandy, ashy, free-draining volcanic soil, so many old vines on Santorini are ungrafted, on their own roots."
+  },
+  {
+    id: "at-09",
+    type: "connection",
+    country: "Austria",
+    question: "Why do loess soils give a fuller, softer Grüner Veltliner than the primary rock terraces do?",
+    options: [
+      "Loess is rich in limestone, which adds a sharper edge and more acidity",
+      "Loess holds water and gives body; rock gives a lighter, mineral style",
+      "Loess warms up faster than rock, so the grapes ripen weeks earlier",
+      "Loess is poorer than rock, so the yields are lower and the wine thinner"
+    ],
+    answer: 1,
+    region: "niederosterreich",
+    explanation: "Primary rock soils (gneiss and other crystalline rock) give structured, mineral wines. Loess, a wind-blown silt, holds water and gives fuller, softer ones."
+  },
+  {
+    id: "at-10",
+    type: "scenario",
+    country: "Austria",
+    question: "A Wachau grower labels a dry wine Federspiel. What does that tell a buyer?",
+    options: [
+      "The lightest style of all, with up to 11.5% alcohol",
+      "The fullest style, at least 12.5% alcohol",
+      "A sweet wine made from botrytised grapes",
+      "Medium weight, between 11.5% and 12.5% alcohol"
+    ],
+    answer: 3,
+    region: "niederosterreich",
+    explanation: "Vinea Wachau's three style terms are for dry wines: Steinfeder up to 11.5% abv, Federspiel 11.5 to 12.5%, and Smaragd at least 12.5%."
+  },
+  {
+    id: "at-11",
+    type: "scenario",
+    country: "Austria",
+    question: "Which grape is a Weinviertel DAC wine made from?",
+    options: [
+      "Grüner Veltliner",
+      "Zweigelt, a red grape grown in the east",
+      "Welschriesling, the main white of the south",
+      "Riesling, as in the Kamptal"
+    ],
+    answer: 0,
+    region: "niederosterreich",
+    explanation: "Weinviertel DAC names a regional style from a set grape: Grüner Veltliner. Kamptal, Kremstal and Traisental DAC allow Grüner Veltliner and Riesling."
+  },
+  {
+    id: "at-12",
+    type: "scenario",
+    country: "Austria",
+    question: "Which red grape are the Mittelburgenland and Eisenberg DACs built around?",
+    options: [
+      "Zweigelt",
+      "St. Laurent",
+      "Blaufränkisch",
+      "Blauer Wildbacher"
+    ],
+    answer: 2,
+    region: "burgenland",
+    explanation: "Mittelburgenland DAC and Eisenberg DAC are for Blaufränkisch, a late-ripening red with high acidity and firm tannins."
+  },
+  {
+    id: "at-13",
+    type: "connection",
+    country: "Austria",
+    question: "Zweigelt is a cross of which two Austrian reds?",
+    options: [
+      "Pinot Noir and Gamay",
+      "St. Laurent and Blaufränkisch",
+      "Blaufränkisch and Cabernet Sauvignon",
+      "St. Laurent and Merlot"
+    ],
+    answer: 1,
+    region: "burgenland",
+    explanation: "Zweigelt is a cross of St. Laurent and Blaufränkisch. It ripens reliably and gives juicy, soft reds for drinking young."
+  },
+  {
+    id: "at-14",
+    type: "scenario",
+    country: "Austria",
+    question: "What is the Ausbruch of Rust?",
+    options: [
+      "A dry white from the Wachau terraces",
+      "A rosé made from Blauer Wildbacher",
+      "A sweet botrytised wine with its own DAC",
+      "A sparkling wine made from Welschriesling"
+    ],
+    answer: 2,
+    region: "burgenland",
+    explanation: "Rust is on the shore of the Neusiedler See, where autumn mist brings noble rot. Ruster Ausbruch is the sweet wine made from those grapes."
+  },
+  {
+    id: "at-15",
+    type: "scenario",
+    country: "Austria",
+    question: "In Steiermark's DAC pyramid, which level is a single-vineyard wine?",
+    options: [
+      "Gebietswein",
+      "Ortswein",
+      "Landwein",
+      "Riedenwein"
+    ],
+    answer: 3,
+    region: "steiermark",
+    explanation: "The pyramid runs from Gebietswein (a district) to Ortswein (a village) to Riedenwein (a single vineyard)."
+  },
+  {
+    id: "at-16",
+    type: "scenario",
+    country: "Austria",
+    question: "A pale pink-orange wine with very high acidity and tart red berries comes from Austria's south. What is it?",
+    options: [
+      "Schilcher, a rosé of Blauer Wildbacher from the west",
+      "A Zweigelt rosé from the Neusiedlersee shore, in Burgenland",
+      "A Pinot Noir rosé from the Wachau",
+      "A Sekt made from Welschriesling"
+    ],
+    answer: 0,
+    region: "steiermark",
+    explanation: "Schilcher is the high-acid rosé of the Weststeiermark, made from the red Blauer Wildbacher grape."
+  },
+  {
+    id: "at-17",
+    type: "connection",
+    country: "Austria",
+    question: "Why do Steiermark's grapes keep high acidity in Austria's southernmost wine region?",
+    options: [
+      "A large lake keeps the summer evenings cool and the air damp all night long",
+      "Warm days and cool nights, as cold Alpine and warm southern air meet",
+      "The vineyards stand on chalk, which adds acidity",
+      "Sea breezes from the Adriatic cool the vines every afternoon"
+    ],
+    answer: 1,
+    region: "steiermark",
+    explanation: "Warm air from the south meets cold air from the Alps, so days are warm and nights cool, which keeps acidity high."
+  },
+  {
+    id: "pt-09",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which Vinho Verde grape is at its best in the Monção e Melgaço sub-region?",
+    options: [
+      "Loureiro",
+      "Touriga Nacional",
+      "Alvarinho",
+      "Antão Vaz"
+    ],
+    answer: 2,
+    region: "vinhoVerde",
+    explanation: "Alvarinho does best in Monção e Melgaço, in the far north beside Spain. Across the river it is called Albariño."
+  },
+  {
+    id: "pt-10",
+    type: "scenario",
+    country: "Portugal",
+    question: "What is Arinto called in Vinho Verde?",
+    options: [
+      "Pedernã",
+      "Azal",
+      "Trajadura",
+      "Loureiro"
+    ],
+    answer: 0,
+    region: "vinhoVerde",
+    explanation: "In Vinho Verde, Arinto is called Pedernã. Azal, Trajadura and Loureiro are separate grapes in the same blends."
+  },
+  {
+    id: "pt-11",
+    type: "connection",
+    country: "Portugal",
+    question: "Apart from Alvarinho, how strong is a typical Vinho Verde?",
+    options: [
+      "High, usually 14% or more, like Douro reds",
+      "Medium, around 13%",
+      "Fortified, around 20%",
+      "Low, often about 9 to 11.5% alcohol"
+    ],
+    answer: 3,
+    region: "vinhoVerde",
+    explanation: "Vinho Verde is picked early at low sugar and high acidity, so the wines are light, low in alcohol and often slightly spritzy."
+  },
+  {
+    id: "pt-12",
+    type: "scenario",
+    country: "Portugal",
+    question: "How does Port keep its natural sweetness?",
+    options: [
+      "Sugar is added to the finished wine just before bottling",
+      "Grape spirit is added mid-fermentation, which stops it",
+      "The grapes are dried on straw mats before pressing",
+      "The wine is chilled until the yeast stops working"
+    ],
+    answer: 1,
+    region: "douro",
+    explanation: "Fermentation is stopped by adding grape spirit (aguardente, about 77% abv), so some natural sugar is left and the wine ends up at 19 to 22% abv."
+  },
+  {
+    id: "pt-13",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which Douro sub-region, by the Spanish border, is the hottest and driest?",
+    options: [
+      "Douro Superior",
+      "Baixo Corgo",
+      "Cima Corgo",
+      "Vila Nova de Gaia"
+    ],
+    answer: 0,
+    region: "douro",
+    explanation: "Atlantic rain stops at the mountains, so rainfall falls from west to east: Baixo Corgo is the wettest and Douro Superior the hottest and driest."
+  },
+  {
+    id: "pt-14",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which Port is declared only in the best years, bottled young and aged in bottle?",
+    options: [
+      "Ruby",
+      "Tawny",
+      "Vintage",
+      "Late Bottled Vintage"
+    ],
+    answer: 2,
+    region: "douro",
+    explanation: "Vintage Port is declared only in the best years and bottled young, then ages in bottle. Tawny is aged in oak for years instead."
+  },
+  {
+    id: "pt-15",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which Alentejo red grape has red flesh and gives very deep colour?",
+    options: [
+      "Aragonez, the local name for Tempranillo",
+      "Trincadeira, a late-ripening local red",
+      "Syrah, a Rhône red also grown here",
+      "Alicante Bouschet"
+    ],
+    answer: 3,
+    region: "alentejo",
+    explanation: "Alicante Bouschet is a rare red-fleshed grape, so its juice is dark before it meets the skins. Aragonez is Tempranillo."
+  },
+  {
+    id: "pt-16",
+    type: "scenario",
+    country: "Portugal",
+    question: "How many DOC sub-regions does Alentejo have?",
+    options: [
+      "Three",
+      "Eight",
+      "Twelve",
+      "Five"
+    ],
+    answer: 1,
+    region: "alentejo",
+    explanation: "The eight are Borba, Évora, Granja-Amareleja, Moura, Portalegre, Redondo, Reguengos and Vidigueira."
+  },
+  {
+    id: "pt-17",
+    type: "connection",
+    country: "Portugal",
+    question: "How do Alentejo producers win back freshness in a hot, flat region?",
+    options: [
+      "Altitude, as in Portalegre, and picking early or at night",
+      "By harvesting as late as possible, into November",
+      "By blending in wines from the cool north",
+      "By planting only on the flat plain, where nights are cool"
+    ],
+    answer: 0,
+    region: "alentejo",
+    explanation: "The hills near Portalegre are cooler because of altitude, and whites are picked early or at night to keep their freshness."
+  },
+  {
+    id: "hu-09",
+    type: "scenario",
+    country: "Hungary",
+    question: "Which two rivers meet in the Tokaj region?",
+    options: [
+      "The Danube and the Drava",
+      "The Rába and the Zala",
+      "The Maros and the Körös",
+      "The Bodrog and the Tisza"
+    ],
+    answer: 3,
+    region: "tokaj",
+    explanation: "Autumn mist from the Bodrog and the Tisza settles on the vineyards and, with dry sun after it, brings noble rot."
+  },
+  {
+    id: "hu-10",
+    type: "scenario",
+    country: "Hungary",
+    question: "Which grape is the backbone of Tokaj?",
+    options: [
+      "Furmint",
+      "Olaszrizling",
+      "Kadarka",
+      "Kékfrankos"
+    ],
+    answer: 0,
+    region: "tokaj",
+    explanation: "Furmint is late-ripening, thin-skinned and high in acidity, so it takes botrytis easily and keeps its freshness when very ripe."
+  },
+  {
+    id: "hu-11",
+    type: "scenario",
+    country: "Hungary",
+    question: "When was Tokaj's first vineyard classification drawn up?",
+    options: [
+      "1855",
+      "1737",
+      "1935",
+      "1971"
+    ],
+    answer: 1,
+    region: "tokaj",
+    explanation: "Tokaj has one of the oldest vineyard classifications in the world, drawn up in 1737 to rank the vineyards by quality."
+  },
+  {
+    id: "hu-12",
+    type: "scenario",
+    country: "Hungary",
+    question: "What is the minimum sugar of a Tokaji Aszú?",
+    options: [
+      "At least 20 g/l",
+      "At least 60 g/l",
+      "At least 120 g/l",
+      "At least 450 g/l"
+    ],
+    answer: 2,
+    region: "tokaj",
+    explanation: "All Aszú must have at least 120 g/l of sugar. The 450 g/l figure is the minimum for Eszencia, the free-run juice of the aszú berries."
+  },
+  {
+    id: "hu-13",
+    type: "scenario",
+    country: "Hungary",
+    question: "What does 'Bikavér' mean?",
+    options: [
+      "Black Grape of Eger",
+      "Bull's Blood",
+      "Red Hill, after the vineyards",
+      "Noble Wine of the north"
+    ],
+    answer: 1,
+    region: "eger",
+    explanation: "Egri Bikavér, 'Bull's Blood', is the red blend of Eger."
+  },
+  {
+    id: "hu-14",
+    type: "scenario",
+    country: "Hungary",
+    question: "Which grape is always the largest part of an Egri Bikavér?",
+    options: [
+      "Cabernet Franc",
+      "Kadarka",
+      "Merlot",
+      "Kékfrankos"
+    ],
+    answer: 3,
+    region: "eger",
+    explanation: "Kékfrankos (Blaufränkisch in Austria) is always the largest part of the blend, in every tier."
+  },
+  {
+    id: "hu-15",
+    type: "scenario",
+    country: "Hungary",
+    question: "What are the three tiers of Egri Bikavér, from lowest to highest?",
+    options: [
+      "Classicus, Superior, Grand Superior",
+      "Basic, Reserve, Grand Cru, as in Rioja",
+      "Classicus, Premium, Super Premium",
+      "Village, Premier Cru, Grand Cru"
+    ],
+    answer: 0,
+    region: "eger",
+    explanation: "Egri Bikavér has three tiers: Classicus, Superior and Grand Superior."
+  },
+  {
+    id: "hu-16",
+    type: "scenario",
+    country: "Hungary",
+    question: "Which grape is Villány's flagship red?",
+    options: [
+      "Furmint, the white grape of Tokaj",
+      "Kékfrankos, the grape of Eger",
+      "Cabernet Franc",
+      "Olaszrizling, the Welschriesling of Hungary"
+    ],
+    answer: 2,
+    region: "villany",
+    explanation: "Cabernet Franc is the flagship of Villány, followed by Merlot, Cabernet Sauvignon and Kékfrankos."
+  },
+  {
+    id: "hu-17",
+    type: "connection",
+    country: "Hungary",
+    question: "Why is Villány Hungary's red-wine corner?",
+    options: [
+      "It is the highest and coldest part of the country, in the north",
+      "It is the warmest, sunniest part of Hungary, in the far south",
+      "Its soils are volcanic tuff, like Tokaj's",
+      "It lies beside a cold lake that slows the ripening"
+    ],
+    answer: 1,
+    region: "villany",
+    explanation: "Villány, by the Croatian border, has long, hot summers and a warm autumn, which ripen late red grapes fully."
+  },
+  {
+    id: "gr-09",
+    type: "scenario",
+    country: "Greece",
+    question: "What is the minimum share of Assyrtiko in a dry PDO Santorini?",
+    options: [
+      "51%",
+      "85%",
+      "100%",
+      "60%"
+    ],
+    answer: 1,
+    region: "santorini",
+    explanation: "Dry PDO Santorini must be at least 85% Assyrtiko, with up to 15% Athiri and Aidani. The sweet wines need at least 51%."
+  },
+  {
+    id: "gr-10",
+    type: "scenario",
+    country: "Greece",
+    question: "What is Santorini Nykteri?",
+    options: [
+      "A sweet wine made from grapes dried in the sun for many weeks",
+      "A sparkling wine made by the tank method",
+      "A fortified wine aged in a solera",
+      "A dry white with 13.5% alcohol or more and 3 months in oak"
+    ],
+    answer: 3,
+    region: "santorini",
+    explanation: "Nykteri is a dry white, traditionally harvested at night to avoid the heat, with at least 13.5% alcohol and at least 3 months in oak."
+  },
+  {
+    id: "gr-11",
+    type: "scenario",
+    country: "Greece",
+    question: "How long must Santorini Vinsanto mature?",
+    options: [
+      "At least 24 months, oxidatively",
+      "At least 3 months in stainless steel",
+      "There is no minimum",
+      "At least 10 years in oak"
+    ],
+    answer: 0,
+    region: "santorini",
+    explanation: "Vinsanto is made from sun-dried grapes (at least 370 g/l of sugar) and must mature oxidatively for at least 24 months."
+  },
+  {
+    id: "gr-12",
+    type: "scenario",
+    country: "Greece",
+    question: "What does Xinomavro mean?",
+    options: [
+      "Sweet red",
+      "Old vine",
+      "Acid black",
+      "Black pearl"
+    ],
+    answer: 2,
+    region: "naoussa",
+    explanation: "Xinomavro means acid black: a late-ripening, thin-skinned grape that keeps high acidity and tannin."
+  },
+  {
+    id: "gr-13",
+    type: "scenario",
+    country: "Greece",
+    question: "Which wines does PDO Naoussa cover?",
+    options: [
+      "Dry whites from Assyrtiko",
+      "Red wine only, from 100% Xinomavro",
+      "Red, white and rosé from any local grape",
+      "Sparkling wine from Xinomavro"
+    ],
+    answer: 1,
+    region: "naoussa",
+    explanation: "PDO Naoussa applies only to red wines made entirely from Xinomavro, in dry to semi-sweet styles."
+  },
+  {
+    id: "gr-14",
+    type: "scenario",
+    country: "Greece",
+    question: "Which Italian grape is Xinomavro most often compared with?",
+    options: [
+      "Sangiovese",
+      "Barbera",
+      "Aglianico",
+      "Nebbiolo"
+    ],
+    answer: 3,
+    region: "naoussa",
+    explanation: "Xinomavro is pale in colour, high in acidity and tannin, and quick to turn garnet, like Nebbiolo."
+  },
+  {
+    id: "gr-15",
+    type: "scenario",
+    country: "Greece",
+    question: "Which grape is the only one in PDO Nemea?",
+    options: [
+      "Agiorgitiko",
+      "Xinomavro",
+      "Assyrtiko",
+      "Moschofilero"
+    ],
+    answer: 0,
+    region: "nemea",
+    explanation: "PDO Nemea applies only to red wines made entirely from Agiorgitiko."
+  },
+  {
+    id: "gr-16",
+    type: "scenario",
+    country: "Greece",
+    question: "What is true of Nemea's three altitude zones, from about 200 to 850 metres?",
+    options: [
+      "They are legal tiers, each with its own label on the bottle",
+      "They apply only to the sweet wines",
+      "They are informal and not part of the PDO rules",
+      "Each zone has its own separate PDO"
+    ],
+    answer: 2,
+    region: "nemea",
+    explanation: "The lower, semi-mountainous and mountainous zones describe how the wine changes with altitude, but they are informal and are not written into the PDO."
+  },
+  {
+    id: "gr-17",
+    type: "scenario",
+    country: "Greece",
+    question: "What does Agiorgitiko mean in English?",
+    options: [
+      "Black Mountain",
+      "St George",
+      "Golden Grape",
+      "Island wine"
+    ],
+    answer: 1,
+    region: "nemea",
+    explanation: "Agiorgitiko means St George. Its style changes with altitude: soft and jammy low down, fresher and more acidic high up."
   }
 ];

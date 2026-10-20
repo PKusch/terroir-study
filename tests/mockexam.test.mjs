@@ -155,15 +155,13 @@ test("the same seed gives the same numbers, a different seed different ones", ()
 });
 
 test("numbered papers are fixed, never share a question, and together use the whole bank", () => {
-  const one = fixedPaperIds(QUIZ_QUESTIONS, 0);
-  const two = fixedPaperIds(QUIZ_QUESTIONS, 1);
-  const three = fixedPaperIds(QUIZ_QUESTIONS, 2);
-  assert.equal(one.length, 50);
-  assert.equal(two.length, 50);
-  assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 0), one, "the same every time");
-  const all = [...one, ...two, ...three];
+  const papers = [0, 1, 2, 3].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
+  assert.equal(papers[0].length, 50);
+  assert.equal(papers[1].length, 50);
+  assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 0), papers[0], "the same every time");
+  const all = papers.flat();
   assert.equal(new Set(all).size, all.length, "no question on two papers");
-  assert.equal(all.length, multipleChoice(QUIZ_QUESTIONS).length, "and none left out");
+  assert.equal(all.length, multipleChoice(QUIZ_QUESTIONS).length, "and none left out (the bank must fit four papers)");
 });
 
 test("a numbered paper is identical every time, down to the order of the options", () => {
@@ -221,8 +219,8 @@ test("Papers 1 and 2 do not change when questions are added to the bank", () => 
   const bigger = [...QUIZ_QUESTIONS, ...added];
   assert.deepEqual(fixedPaperIds(bigger, 0), before1);
   assert.deepEqual(fixedPaperIds(bigger, 1), before2);
-  const three = fixedPaperIds(bigger, 2);
-  assert.ok(three.includes("zz-01") && three.includes("zz-02"), "new questions land on Paper 3");
+  const later = [...fixedPaperIds(bigger, 2), ...fixedPaperIds(bigger, 3)];
+  assert.ok(later.includes("zz-01") && later.includes("zz-02"), "new questions land after the frozen papers");
 });
 
 test("a question taken out of the bank just drops out of its paper", () => {
@@ -232,18 +230,22 @@ test("a question taken out of the bank just drops out of its paper", () => {
   assert.ok(!fixedPaperIds(smaller, 0).includes(gone));
 });
 
-test("Paper 3 is the rest, and shares nothing with Papers 1 and 2", () => {
-  const rest = fixedPaperIds(QUIZ_QUESTIONS, 2);
+test("Papers 3 and 4 hold the rest, and share nothing with Papers 1 and 2 or each other", () => {
   const frozen = new Set([...fixedPaperIds(QUIZ_QUESTIONS, 0), ...fixedPaperIds(QUIZ_QUESTIONS, 1)]);
-  assert.ok(rest.every((id) => !frozen.has(id)));
-  assert.equal(rest.length + frozen.size, multipleChoice(QUIZ_QUESTIONS).length);
+  const three = fixedPaperIds(QUIZ_QUESTIONS, 2), four = fixedPaperIds(QUIZ_QUESTIONS, 3);
+  assert.ok([...three, ...four].every((id) => !frozen.has(id)));
+  assert.ok(three.every((id) => !four.includes(id)));
+  assert.equal(three.length + four.length + frozen.size, multipleChoice(QUIZ_QUESTIONS).length);
 });
 
 test("Paper 4 is empty until Paper 3 is full, then takes the next fifty", () => {
-  assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 3), [], "the bank is not big enough yet");
-  const extra = Array.from({ length: 60 }, (_, i) => ({ id: `xx-${String(i).padStart(2, "0")}`, type: "scenario", country: "Greece", region: "santorini", options: ["a", "b", "c", "d"], answer: 0, explanation: "x" }));
-  const bank = [...QUIZ_QUESTIONS, ...extra];
+  const frozen = new Set([...fixedPaperIds(QUIZ_QUESTIONS, 0), ...fixedPaperIds(QUIZ_QUESTIONS, 1)]);
+  const base = multipleChoice(QUIZ_QUESTIONS).filter((q) => frozen.has(q.id));
+  const extra = (n) => Array.from({ length: n }, (_, i) => ({ id: `xx-${String(i).padStart(2, "0")}`, type: "scenario", country: "Greece", region: "santorini", options: ["a", "b", "c", "d"], answer: 0, explanation: "x" }));
+  assert.deepEqual(fixedPaperIds([...base, ...extra(30)], 3), [], "Paper 3 is not full yet");
+  const bank = [...base, ...extra(60)];
   const three = fixedPaperIds(bank, 2), four = fixedPaperIds(bank, 3);
   assert.equal(three.length, 50);
-  assert.ok(four.length > 0 && four.every((id) => !three.includes(id)));
+  assert.equal(four.length, 10);
+  assert.ok(four.every((id) => !three.includes(id)));
 });
