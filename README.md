@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **40** regions | 📍 **204** places on the map | ❓ **197** quiz questions | 🍇 **86** grapes | ✅ **125** tests |
+| 🌍 **9** countries | 🗺️ **40** regions | 📍 **204** places on the map | ❓ **233** quiz questions | 🍇 **86** grapes | ✅ **130** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -107,7 +107,7 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 
 **🍷 Taste** — Tasting practice without a glass. The app names a wine it knows ("You are tasting: Nebbiolo from Piedmont"). You set its body, acidity and, for reds, tannin to low, medium or high, and tick the aromas you expect from eight words (the grape's own plus a few from other grapes of the same colour). Press Check and each row is marked against the grape profile, the aroma words turn green (right), red (wrong pick) or gold (missed), and a short "Why" card explains the answer from the grape and the region. Click a region on the map to taste a wine from there. This is the exam's Systematic Approach to Tasting, cut down to what the app has data for.
 
-**📝 Mock exam** — A timed paper of multiple-choice questions, marked at the end. Choose a full paper (50 questions, like the multiple-choice part of the WSET Level 3 exam, which has a 55% pass mark and no marks lost for wrong answers), a half paper or a quick ten, and draw from every country or one. Three numbered papers (Paper 1, 2 and 3) are the same every time, so you can compare scores from week to week and no question is on two of them. *Missed before* and *Not yet seen* build a paper from your quiz history. The options are shuffled, you see no answers until you hand in, and the clock hands the paper in for you at zero. The clock is this app's own, 72 seconds a question (60 minutes for a full paper): WSET gives two hours for its whole written paper and sets no time for the multiple-choice part alone. The result shows your score against the 55% pass mark, a split by country, and every question you missed with your answer, the right one and why. It never touches your quiz progress, and a paper in progress survives a trip to another tab.
+**📝 Mock exam** — A timed paper of multiple-choice questions, marked at the end. Choose a full paper (50 questions, like the multiple-choice part of the WSET Level 3 exam, which has a 55% pass mark and no marks lost for wrong answers), a half paper or a quick ten, and draw from every country or one. Papers 1 and 2 are frozen: they are the same every time and never change, even as questions are added, so you can compare scores from week to week. Paper 3 (and Paper 4, once there are enough questions) take everything else, and no question is on two papers. *Missed before* and *Not yet seen* build a paper from your quiz history. The options are shuffled, you see no answers until you hand in, and the clock hands the paper in for you at zero. The clock is this app's own, 72 seconds a question (60 minutes for a full paper): WSET gives two hours for its whole written paper and sets no time for the multiple-choice part alone. The result shows your score against the 55% pass mark, a split by country, and every question you missed with your answer, the right one and why. It never touches your quiz progress, and a paper in progress survives a trip to another tab.
 
 **📍 Map drill** — Learn where things are, ten questions a round, for every country or one. *Find it* gives you a region's name and you click it on the map. *Name it* lights a region up and you pick its name from four. *Place it* gives you a village or district, such as Mád or Pauillac, and you click where it is on the zoomed map; a hit is within a twelfth of the map's width, and the answer is shown with a dot and a line to your click. At the end you see what you missed, with a link to study each one. It never touches your quiz progress.
 
@@ -250,7 +250,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (197: 63 France, 24 Italy, 24 Spain, 18 Germany, 8 Austria, 8 Portugal, 8 Hungary, 8 Greece, 36 New World)
+- [x] Expand quiz bank to 50+ questions (233: 63 France, 24 Italy, 24 Spain, 18 Germany, 17 Austria, 17 Portugal, 17 Hungary, 17 Greece, 36 New World; 168 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -270,7 +270,7 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 npm test
 ```
 
-125 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
+130 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
 
 ## License
 
