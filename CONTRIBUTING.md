@@ -15,6 +15,24 @@ the region or question and what it should say, with a source if you have one.
   directly.
 - `src/*.jsx` is the screens.
 
+## Adding a question
+
+Every fact in the app was checked against a source (see "How far to trust the
+facts" in the README), so a new question should be built from a fact you can
+point to, not from memory.
+
+- Add it to the end of `src/data/quiz.js`. The `id` is the country's two letters
+  and the next number, such as `hu-18`, and it never changes: progress is kept
+  against it.
+- A multiple-choice question has four options, an `answer` index, a `region` key
+  and an `explanation` that says why. Put the right answer in different places
+  from question to question.
+- Make the wrong options as long and as plausible as the right one. `npm test`
+  fails if more than one question in ten has the right answer as the longest
+  option, and `npm run quizcheck` lists the ones that do.
+- A new multiple-choice question joins the mock exams automatically. Papers 1 and
+  2 are frozen and do not change; the new question lands on Paper 3 or 4.
+
 ## Running it
 
 ```bash
