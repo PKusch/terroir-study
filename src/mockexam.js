@@ -60,6 +60,7 @@ export const PAPERS = [
   { id: "paper1", label: "Paper 1", note: "The same questions every time", index: 0 },
   { id: "paper2", label: "Paper 2", note: "The same questions every time", index: 1 },
   { id: "paper3", label: "Paper 3", note: "The questions left over", index: 2 },
+  { id: "paper4", label: "Paper 4", note: "More, as the bank grows", index: 3 },
   { id: "missed", label: "Missed before", note: "Questions you often get wrong in the quiz", history: "missed" },
   { id: "unseen", label: "Not yet seen", note: "Questions you have not met in the quiz", history: "unseen" }
 ];
@@ -79,12 +80,37 @@ export function seededRng(seed) {
 
 const PAPER_SEED = 20261018;
 
-// The question ids of a numbered paper: the multiple-choice questions, in id
-// order, shuffled with a fixed seed, then cut into papers of 50 (the last one
-// holds whatever is left). Papers never share a question.
-export function fixedPaperIds(questions, index, size = FULL_LENGTH) {
-  const ids = multipleChoice(questions).map((q) => q.id).sort();
-  return shuffled(ids, seededRng(PAPER_SEED)).slice(index * size, (index + 1) * size);
+// Papers 1 and 2 are frozen: these are the question ids they were first cut with.
+// They never change, so a score on Paper 1 stays comparable however many
+// questions are added to the bank later. (A question that is later removed just
+// drops out of its paper.) Paper 3 is everything else, so new questions land
+// there. Papers never share a question.
+const FROZEN_PAPERS = [
+  [
+    "at-06", "de-04", "fr-13", "es-05", "fr-56", "it-18", "es-16", "pt-08", "nw-36", "it-21",
+    "fr-57", "fr-53", "fr-12", "it-15", "fr-50", "de-06", "es-17", "it-24", "fr-02", "it-12",
+    "fr-30", "it-22", "nw-12", "es-12", "nw-29", "pt-04", "nw-05", "it-05", "fr-36", "fr-37",
+    "it-17", "it-16", "nw-30", "fr-45", "pt-05", "es-21", "fr-17", "hu-08", "es-22", "fr-14",
+    "fr-49", "es-10", "fr-47", "de-05", "es-09", "it-03", "hu-07", "fr-27", "fr-33", "de-15"
+  ],
+  [
+    "gr-05", "nw-06", "es-15", "nw-22", "fr-10", "nw-16", "fr-46", "gr-04", "nw-23", "nw-15",
+    "fr-08", "hu-05", "fr-04", "es-24", "pt-07", "nw-11", "nw-27", "nw-10", "fr-54", "fr-26",
+    "de-09", "it-04", "it-11", "de-12", "fr-28", "gr-08", "nw-21", "nw-09", "hu-06", "fr-20",
+    "nw-18", "de-17", "es-18", "fr-29", "at-07", "nw-24", "nw-34", "gr-07", "fr-48", "at-05",
+    "fr-16", "de-18", "fr-58", "nw-28", "es-23", "nw-03", "nw-17", "es-06", "fr-22", "fr-44"
+  ]
+];
+
+// The question ids of a numbered paper (index 0 is Paper 1). Paper 3 is the
+// multiple-choice questions on neither frozen paper, in a fixed shuffled order.
+export function fixedPaperIds(questions, index) {
+  const have = new Set(multipleChoice(questions).map((q) => q.id));
+  if (index < FROZEN_PAPERS.length) return FROZEN_PAPERS[index].filter((id) => have.has(id));
+  const frozen = new Set(FROZEN_PAPERS.flat());
+  const rest = [...have].filter((id) => !frozen.has(id)).sort();
+  const n = index - FROZEN_PAPERS.length;
+  return shuffled(rest, seededRng(PAPER_SEED)).slice(n * FULL_LENGTH, (n + 1) * FULL_LENGTH);
 }
 
 // Questions picked out by what the quiz has recorded: ones you often get wrong

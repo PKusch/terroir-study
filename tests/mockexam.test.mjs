@@ -206,6 +206,44 @@ test("paperPoolSize reports what each kind of paper can offer", () => {
 });
 
 test("every kind of paper is listed with a label and a note", () => {
-  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "missed", "unseen"]);
+  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "paper4", "missed", "unseen"]);
   for (const p of PAPERS) assert.ok(p.label && p.note);
+});
+
+// ── Frozen papers ───────────────────────────────────────────────────────────
+test("Papers 1 and 2 do not change when questions are added to the bank", () => {
+  const before1 = fixedPaperIds(QUIZ_QUESTIONS, 0);
+  const before2 = fixedPaperIds(QUIZ_QUESTIONS, 1);
+  const added = [
+    { id: "zz-01", type: "scenario", country: "Greece", region: "santorini", options: ["a", "b", "c", "d"], answer: 0, explanation: "x" },
+    { id: "zz-02", type: "scenario", country: "Greece", region: "santorini", options: ["a", "b", "c", "d"], answer: 1, explanation: "x" }
+  ];
+  const bigger = [...QUIZ_QUESTIONS, ...added];
+  assert.deepEqual(fixedPaperIds(bigger, 0), before1);
+  assert.deepEqual(fixedPaperIds(bigger, 1), before2);
+  const three = fixedPaperIds(bigger, 2);
+  assert.ok(three.includes("zz-01") && three.includes("zz-02"), "new questions land on Paper 3");
+});
+
+test("a question taken out of the bank just drops out of its paper", () => {
+  const gone = fixedPaperIds(QUIZ_QUESTIONS, 0)[0];
+  const smaller = QUIZ_QUESTIONS.filter((q) => q.id !== gone);
+  assert.equal(fixedPaperIds(smaller, 0).length, 49);
+  assert.ok(!fixedPaperIds(smaller, 0).includes(gone));
+});
+
+test("Paper 3 is the rest, and shares nothing with Papers 1 and 2", () => {
+  const rest = fixedPaperIds(QUIZ_QUESTIONS, 2);
+  const frozen = new Set([...fixedPaperIds(QUIZ_QUESTIONS, 0), ...fixedPaperIds(QUIZ_QUESTIONS, 1)]);
+  assert.ok(rest.every((id) => !frozen.has(id)));
+  assert.equal(rest.length + frozen.size, multipleChoice(QUIZ_QUESTIONS).length);
+});
+
+test("Paper 4 is empty until Paper 3 is full, then takes the next fifty", () => {
+  assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 3), [], "the bank is not big enough yet");
+  const extra = Array.from({ length: 60 }, (_, i) => ({ id: `xx-${String(i).padStart(2, "0")}`, type: "scenario", country: "Greece", region: "santorini", options: ["a", "b", "c", "d"], answer: 0, explanation: "x" }));
+  const bank = [...QUIZ_QUESTIONS, ...extra];
+  const three = fixedPaperIds(bank, 2), four = fixedPaperIds(bank, 3);
+  assert.equal(three.length, 50);
+  assert.ok(four.length > 0 && four.every((id) => !three.includes(id)));
 });
