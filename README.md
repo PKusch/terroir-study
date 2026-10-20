@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **40** regions | 📍 **204** places on the map | ❓ **233** quiz questions | 🍇 **86** grapes | ✅ **130** tests |
+| 🌍 **9** countries | 🗺️ **40** regions | 📍 **204** places on the map | ❓ **245** quiz questions | 🍇 **86** grapes | ✅ **131** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -250,7 +250,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (233: 63 France, 24 Italy, 24 Spain, 18 Germany, 17 Austria, 17 Portugal, 17 Hungary, 17 Greece, 36 New World; 168 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (245: 63 France, 30 Italy, 30 Spain, 18 Germany, 17 Austria, 17 Portugal, 17 Hungary, 17 Greece, 36 New World; 180 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -270,7 +270,7 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 npm test
 ```
 
-130 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
+131 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
 
 ## License
 
