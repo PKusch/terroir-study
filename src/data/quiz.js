@@ -2979,5 +2979,185 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "nemea",
     explanation: "Agiorgitiko means St George. Its style changes with altitude: soft and jammy low down, fresher and more acidic high up."
+  },
+  {
+    id: "es-25",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a Rioja Gran Reserva age before release?",
+    options: [
+      "At least two years in total, one in oak",
+      "At least five years in total, two of them in oak",
+      "At least three years in total, six months in oak",
+      "At least ten years in total, five in oak"
+    ],
+    answer: 1,
+    region: "rioja",
+    explanation: "Gran Reserva needs at least five years in total, with at least two in oak and two in bottle. Reserva needs three years and Crianza two."
+  },
+  {
+    id: "es-26",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the minimum total ageing of a Rioja Reserva?",
+    options: [
+      "Three years, one of them in oak",
+      "One year in total, all of it in oak barrels",
+      "Five years, with two in oak",
+      "Six months in stainless steel"
+    ],
+    answer: 0,
+    region: "rioja",
+    explanation: "A Reserva needs three years in total, with at least one in oak and six months in bottle."
+  },
+  {
+    id: "es-27",
+    type: "scenario",
+    country: "Spain",
+    question: "Which wine region almost entirely surrounds Priorat?",
+    options: [
+      "Rioja",
+      "Penedès",
+      "Ribera del Duero",
+      "Montsant"
+    ],
+    answer: 3,
+    region: "priorat",
+    explanation: "Priorat is almost entirely surrounded by the Montsant DO. Priorat is a DOQ, a top tier it shares with Rioja."
+  },
+  {
+    id: "es-28",
+    type: "scenario",
+    country: "Spain",
+    question: "What share of a Ribera del Duero red must be Tempranillo?",
+    options: [
+      "Exactly 50%",
+      "At least 95%",
+      "At least 75%",
+      "At least 25%"
+    ],
+    answer: 2,
+    region: "riberaDelDuero",
+    explanation: "Ribera del Duero reds must be at least 75% Tempranillo. Small amounts of other grapes, such as Cabernet Sauvignon and Merlot, are allowed."
+  },
+  {
+    id: "es-29",
+    type: "scenario",
+    country: "Spain",
+    question: "Which Sherry styles are fortified to at least 17%, so flor cannot grow?",
+    options: [
+      "Oloroso, Amontillado and Palo Cortado",
+      "Fino and Manzanilla, the pale flor-aged styles",
+      "Only Pedro Ximénez",
+      "Fino and Oloroso"
+    ],
+    answer: 0,
+    region: "sherry",
+    explanation: "Fino and Manzanilla are fortified to about 15% so flor grows. Amontillado, Palo Cortado and Oloroso are fortified to at least 17%."
+  },
+  {
+    id: "es-30",
+    type: "scenario",
+    country: "Spain",
+    question: "Which soil of the Sherry region soaks up winter rain and reflects sunlight?",
+    options: [
+      "Licorella",
+      "Albariza",
+      "Terra rossa",
+      "Galestro"
+    ],
+    answer: 1,
+    region: "sherry",
+    explanation: "Albariza is the pale, chalky soil that holds moisture through the hot summer and reflects sunlight back onto the vines."
+  },
+  {
+    id: "it-25",
+    type: "scenario",
+    country: "Italy",
+    question: "How long must a Barolo age before release?",
+    options: [
+      "At least 12 months, all in wood",
+      "At least 62 months, all in bottle after a year in steel",
+      "At least 26 months, with 9 in oak",
+      "At least 38 months, with 18 in wood"
+    ],
+    answer: 3,
+    region: "piedmont",
+    explanation: "Barolo needs at least 38 months, 18 of them in wood. Barolo Riserva needs 62 months. Barbaresco is 26 months with 9 in oak."
+  },
+  {
+    id: "it-26",
+    type: "scenario",
+    country: "Italy",
+    question: "How long must a Barbaresco age before release?",
+    options: [
+      "At least 26 months, with 9 in oak",
+      "At least 38 months, with 18 in wood",
+      "At least 12 months in steel",
+      "At least 62 months in total"
+    ],
+    answer: 0,
+    region: "piedmont",
+    explanation: "Barbaresco needs 26 months in total, 9 of them in oak, a little less than Barolo's 38 months."
+  },
+  {
+    id: "it-27",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum share of Sangiovese in Chianti Classico?",
+    options: [
+      "At least 51%",
+      "At least 80%",
+      "Exactly 100%",
+      "At least 20%"
+    ],
+    answer: 1,
+    region: "tuscany",
+    explanation: "Chianti Classico is at least 80% Sangiovese. Brunello di Montalcino is 100% Sangiovese."
+  },
+  {
+    id: "it-28",
+    type: "scenario",
+    country: "Italy",
+    question: "How long is Brunello di Montalcino aged before release?",
+    options: [
+      "Two years, all of it in stainless steel tanks",
+      "Ten years, all in oak",
+      "Five years, at least two of them in oak",
+      "One year in oak and one in bottle"
+    ],
+    answer: 2,
+    region: "tuscany",
+    explanation: "Brunello needs five years from the vintage, including two in oak and four months in bottle. A Riserva needs six years."
+  },
+  {
+    id: "it-29",
+    type: "scenario",
+    country: "Italy",
+    question: "What share of a Taurasi must be Aglianico?",
+    options: [
+      "At least 85%",
+      "Exactly 50%",
+      "At least 60%",
+      "At least 100%"
+    ],
+    answer: 0,
+    region: "southernItaly",
+    explanation: "Taurasi is at least 85% Aglianico. Piedirosso, Sangiovese and Barbera may make up the rest."
+  },
+  {
+    id: "it-30",
+    type: "scenario",
+    country: "Italy",
+    question: "Which grape must make up at least 80% of an Etna Rosso?",
+    options: [
+      "Nero d'Avola, the grape of Sicily's south",
+      "Primitivo, the early-ripening grape of Puglia",
+      "Aglianico, the Taurasi grape",
+      "Nerello Mascalese"
+    ],
+    answer: 3,
+    region: "southernItaly",
+    explanation: "Etna Rosso is at least 80% Nerello Mascalese, grown on volcanic soil on bush vines at altitude."
   }
 ];
