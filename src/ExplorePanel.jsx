@@ -67,7 +67,7 @@ export const ExplorePanel = ({ region }) => {
           {selectedGrape && <GrapeProfile nameAsWritten={selectedGrape} region={region} />}
           <div style={{ background: "#1E1E1E", borderRadius: "10px", padding: "16px" }}>
             <div style={{ fontSize: "10px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#C4A962", marginBottom: "8px" }}>
-              Sub-regions
+              {r.subRegionsLabel ?? "Sub-regions"}
             </div>
             <div style={{ fontSize: "13px", color: "#B8B0A0", lineHeight: "1.7" }}>
               {r.subRegions.join(" · ")}

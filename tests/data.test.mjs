@@ -198,3 +198,10 @@ test("the right answer is rarely the single longest option, so length is no clue
   // `npm run quizcheck` lists them.
   assert.ok(giveaways.length <= choice.length * 0.1, `${giveaways.length} of ${choice.length} questions: ${giveaways.map((q) => q.id).join(", ")}`);
 });
+
+test("a region may name its list of places something other than sub-regions", () => {
+  for (const [key, r] of Object.entries(REGIONS)) {
+    if (r.subRegionsLabel !== undefined) assert.ok(typeof r.subRegionsLabel === "string" && r.subRegionsLabel.trim().length > 2, `${key}.subRegionsLabel`);
+  }
+  assert.equal(REGIONS.santorini.subRegionsLabel, "Wine villages", "Santorini has villages, not official sub-regions");
+});
