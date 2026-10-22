@@ -51,5 +51,13 @@ export const PLACES_SPAIN = {
     "Tierra Estella": [-2.03194, 42.67194],
     "Ribera Alta": [-1.6625, 42.4875],
     "Ribera Baja": [-1.60667, 42.06528]
+  },
+  calatayud: {
+    "Calatayud": [-1.633, 41.35],
+    "Ateca": [-1.7929, 41.3308]
+  },
+  carinena: {
+    "Cariñena": [-1.217, 41.333],
+    "Aguarón": [-1.2697, 41.3389]
   }
 };

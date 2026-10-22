@@ -46,5 +46,15 @@ export const SPAIN_REGION_PATHS = {
     // From the Pyrenean foothills to the Ebro, east of Rioja
     d: `M${pt(-2.1,42.82)} L${pt(-1.3,42.85)} L${pt(-1.15,42.55)} L${pt(-1.2,42.05)} L${pt(-1.65,42.05)} L${pt(-1.6,42.4)} L${pt(-1.9,42.62)} Z`,
     label: geoToSvg(-1.45, 42.95)
+  },
+  calatayud: {
+    // Calatayud: west Zaragoza, along the Jalón and Jiloca
+    d: `M${pt(-1.9,41.5)} L${pt(-1.45,41.5)} L${pt(-1.4,41.2)} L${pt(-1.85,41.15)} Z`,
+    label: geoToSvg(-1.65, 41.33)
+  },
+  carinena: {
+    // Cariñena: south-west of Zaragoza, between the Huerva and the Jalón
+    d: `M${pt(-1.35,41.5)} L${pt(-0.95,41.5)} L${pt(-0.9,41.2)} L${pt(-1.3,41.15)} Z`,
+    label: geoToSvg(-1.12, 41.33)
   }
 };

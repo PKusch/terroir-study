@@ -135,5 +135,35 @@ export const SPAIN_REGIONS = {
     qualityLevels: ["Vino de España", "DO Navarra (recognised in 1933)", "Rosado", "Rosado Tradición (100% Garnacha Tinta)", "Vino de Pueblo (one municipality)", "Crianza (24 months, 9 in oak)", "Vino de Pago (single estate)"],
     whyConnection: "A Mediterranean climate with a dry cierzo wind and a big day–night swing → healthy, fruity grapes. Garnacha was replanted after phylloxera → a tradition of deeply coloured rosado made by bleeding the red vat. A climate that runs from the cool, wet Pyrenean north to the arid south → each sub-zone makes a different style.",
     color: "#D98BA3"
+  },
+  calatayud: {
+    name: "Calatayud",
+    country: "Spain",
+    climate: "Extreme continental, high and dry",
+    climateDetail: "An extreme continental climate: cold winters, hot summers and 300 to 550 mm of rain a year, with peaks in spring and autumn. More than 80% of the vineyard lies at 650 to 900 m, and some sites are above 1,000 m. Spring frost is very frequent in the valley bottoms, and the cold nights help to limit disease.",
+    keyGrapes: { red: ["Garnacha", "Tempranillo", "Syrah", "Cabernet Sauvignon", "Merlot"], white: ["Garnacha Blanca", "Macabeo", "Chardonnay"] },
+    subRegions: ["Calatayud", "Ateca"],
+    soils: "Stony, rich in lime and well drained: gravels, marls, grey and red slate, and iron-rich clay. The vines sit on the slopes and terraces beside the Jalón, Jiloca, Manubles, Mesa, Piedra and Ribota rivers.",
+    viticultureNotes: "Old, low bush-trained Garnacha is the heart of the DO. The rules set no general minimum for any grape, only a list of authorised ones: for reds Garnacha Tinta, Tempranillo, Bobal, Mazuela, Monastrell, Syrah, Cabernet Sauvignon and Merlot; for whites Garnacha Blanca, Macabeo, Malvasía, Moscatel de Alejandría, Sauvignon Blanc, Chardonnay and Gewürztraminer. The maximum yield is 7,000 kg/ha for reds and 8,000 kg/ha for whites. 'Viñas viejas' on a label means vines over 35 years old yielding no more than 4,500 kg/ha.",
+    winemaking: "'Calatayud Superior' is the top tier: at least 85% Garnacha Tinta from vines over 50 years old, yielding no more than 3,500 kg/ha, at least 14% alcohol and at least 6 months in oak. A 'Roble' red has more than 90 days in oak of up to 600 litres.",
+    typicalStyle: "Concentrated, full-bodied reds from old Garnacha, with ripe red and black fruit and firm structure; the altitude and cold nights keep freshness.",
+    qualityLevels: ["Vino de España", "DO Calatayud", "Viñas viejas (vines over 35 years)", "Roble (over 90 days in oak)", "Calatayud Superior (85% Garnacha Tinta, vines over 50 years)"],
+    whyConnection: "High altitude and cold nights → slow ripening and fresh acidity despite the hot days. Old, low-yielding bush vines on poor, stony lime soils → concentrated Garnacha. The youngest of Aragón's DOs, it has built its name on this old-vine Garnacha.",
+    color: "#A64B2A"
+  },
+  carinena: {
+    name: "Cariñena",
+    country: "Spain",
+    climate: "Temperate with a strong continental tendency",
+    climateDetail: "A temperate climate with a strong continental tendency: cold winters and very hot summers. The cierzo, the cold, dry north-west wind, adds to the dryness. Rainfall is about 350 to 540 mm in the mountain areas, vineyards lie at about 400 to 800 m, and the region has around 2,800 hours of sun a year.",
+    keyGrapes: { red: ["Garnacha", "Cariñena", "Tempranillo", "Syrah", "Cabernet Sauvignon", "Merlot"], white: ["Chardonnay", "Garnacha Blanca", "Macabeo"] },
+    subRegions: ["Cariñena", "Aguarón"],
+    soils: "More than 80% of the soils are Miocene clays. The main types are 'cascajo' (brown limestone over loose rock, the most widespread), 'royal' (brown soil over slate and quartzite), 'tierra fuerte arcillosa' (heavy clay), 'calar' (marl, sandstone and gypsum) and alluvial soils from the Jalón and Huerva rivers.",
+    viticultureNotes: "Bush vines (en vaso) are traditional, and trellising is allowed. The minimum planting density is 1,500 vines per hectare. The main reds are Cabernet Sauvignon, Garnacha Tinta, Cariñena (Mazuela), Merlot, Syrah and Tempranillo, and the main whites are Chardonnay, Garnacha Blanca and Macabeo. There is no general minimum share for any grape, but 'Superior' needs at least 85% of one main variety. 'Viñas viejas' means vines over 20 years old, and 'Vendimia seleccionada' comes from plots yielding under 7,000 kg/ha.",
+    winemaking: "A 'Roble' red has 60 days in oak, and a white or rosé 30 days.",
+    typicalStyle: "Broad, fleshy, full-bodied reds with balanced tannins and medium-high acidity.",
+    qualityLevels: ["Vino de España", "DO Cariñena (demarcated in 1932)", "Viñas viejas (vines over 20 years)", "Vendimia seleccionada (under 7,000 kg/ha)", "Roble (60 days in oak for reds)", "Superior (at least 85% of one main variety)"],
+    whyConnection: "Hot summers, cold winters and the dry cierzo wind → healthy grapes and low yields. Clay soils over limestone and slate → broad, fleshy reds. The town of Cariñena is probably where the Carignan grape got its name, and the region has had a wine-growing law since the Estatuto de la Vid of 1696.",
+    color: "#6E7F3A"
   }
 };
