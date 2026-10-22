@@ -27,5 +27,17 @@ export const PLACES_SPAIN = {
     "O Rosal": [-8.825, 41.93556],
     "Soutomaior": [-8.567, 42.333],
     "Ribeira do Ulla": [-8.66028, 42.73806]
+  },
+  cava: {
+    "Sant Sadurní d'Anoia": [1.785, 41.42611],
+    "Vilafranca del Penedès": [1.69294, 41.34826]
+  },
+  rueda: {
+    "Rueda": [-4.96, 41.414],
+    "La Seca": [-4.9069, 41.415],
+    "Serrada": [-4.8611, 41.4592],
+    "Nava del Rey": [-5.0833, 41.3333],
+    "Medina del Campo": [-4.9167, 41.3],
+    "Tordesillas": [-5.0, 41.5]
   }
 };

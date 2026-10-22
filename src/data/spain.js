@@ -75,5 +75,35 @@ export const SPAIN_REGIONS = {
     qualityLevels: ["Vino de España", "DO Rías Baixas", "Rías Baixas Albariño (100% Albariño)", "Sub-zone wines: Condado do Tea, Rosal, Salnés, Soutomaior, Ribeira do Ulla", "Barrica (aged in wood of up to 600 litres)", "Espumoso (traditional method sparkling)"],
     whyConnection: "Atlantic rain and humidity → fungal disease is the main risk → vines are trained high on pergolas so air can move through, on poor granite soils that dry out in summer. A cool Atlantic climate with modest sunshine → grapes ripen with acidity and aroma rather than high alcohol → fresh, aromatic whites.",
     color: "#3E8E7E"
+  },
+  cava: {
+    name: "Cava (Penedès)",
+    country: "Spain",
+    climate: "Mediterranean, warm and dry",
+    climateDetail: "A largely Mediterranean climate with many microclimates: the coast is hot and dry, while upland vineyards are more prone to frost. Rainfall is low, about 400 to 500 mm, falling mostly in autumn and spring, and the long sunny summers give about 2,500 hours of sun. The sea moderates the climate between the coast and the inland uplands.",
+    keyGrapes: { red: ["Garnacha", "Monastrell", "Pinot Noir"], white: ["Macabeo", "Xarel·lo", "Parellada", "Chardonnay"] },
+    subRegions: ["Sant Sadurní d'Anoia", "Vilafranca del Penedès"],
+    soils: "Mainly calcareous and slightly sandy with moderate clay, low in organic matter and not very fertile: poor, well-drained soils, over limestone in the coastal mountains.",
+    viticultureNotes: "Macabeo, Xarel·lo and Parellada are the core white grapes, about 85% of those used for Cava. Macabeo is light and fresh with white-flower aromas; Xarel·lo is full-bodied and slightly bitter and gives structure; Parellada is low in alcohol and delicate. Chardonnay, Pinot Noir, Garnacha, Monastrell, Trepat and Malvasía (Subirat Parent) are also permitted. Vines are planted at 1,500 to 3,500 per hectare, trained as bush, cordon or Guyot. Cava de Paraje Calificado must be hand-harvested as whole bunches, at no more than 8,000 kg/ha. Within the Penedès, the Alt Penedès is the most inland and mountainous, with vineyards up to about 800 m, and the Baix Penedès is a low, hot, dry coastal plain.",
+    winemaking: "The traditional method: the second fermentation happens in the same bottle, from filling to disgorging, with no filtration at filling. A Cava needs at least 3.5 bar of pressure at 20 °C, and the base wine comes only from the first pressing. Time on the lees sets the category: Cava de Guarda at least 9 months, Gran Reserva at least 30 months, and Paraje Calificado at least 36 months. Sweetness runs from Brut Nature, under 3 g/l with no sugar added, through Extra Brut and Brut (under 12 g/l) to Dulce, over 50 g/l.",
+    typicalStyle: "Fresh, clean fruit with a yeast or lees note, bright and balanced. With long ageing: ripe fruit, roasted nuts and complex lees; Paraje Calificado is more mineral and creamy.",
+    qualityLevels: ["Cava de Guarda (at least 9 months on the lees)", "Cava de Guarda Superior, with Reserva", "Gran Reserva (at least 30 months)", "Cava de Paraje Calificado (at least 36 months, one estate, hand-harvested)", "Corpinnat (a separate private mark from growers who left the DO)"],
+    whyConnection: "Poor, calcareous, well-drained soils and a dry Mediterranean climate → light, fresh base wines from Macabeo, Xarel·lo and Parellada. A second fermentation in the bottle, then time on the lees (9 months at the least, 30 for Gran Reserva) → the bready, nutty character grows with every month of ageing.",
+    color: "#D4B483"
+  },
+  rueda: {
+    name: "Rueda",
+    country: "Spain",
+    climate: "Continental, high and dry",
+    climateDetail: "Altitude gives a continental climate even at this latitude: vineyards at about 700 to 930 m, with long, very cold winters and late spring frosts, hot dry summers, and only 300 to 500 mm of rain a year. There are about 2,600 hours of sun, but ripening is late, and the big swing between day and night keeps the acidity while the sugar builds.",
+    keyGrapes: { red: [], white: ["Verdejo", "Sauvignon Blanc", "Viura", "Viognier"] },
+    subRegions: ["Rueda", "La Seca", "Serrada", "Nava del Rey", "Medina del Campo", "Tordesillas"],
+    soils: "The Duero plain: wide stony river terraces of pebbles and gravel (the local word is cascajoso), with brown soils rich in calcium and magnesium over the pebbles and limestone on the higher ground. The soil is well aerated and well drained, with a pH of 7 to 8.",
+    viticultureNotes: "Verdejo is the native grape, grown here for more than ten centuries. Both bush vines (vaso) and trellised vines are used; the maximum yield for Verdejo is 8,000 kg/ha on bush vines and 10,000 kg/ha on trellis. Most white grapes (about 95%) are picked by machine, at night, so the must does not oxidise and the cold is used well. Verdejo is now joined by Sauvignon Blanc, Viura and, since 2019, Chardonnay and Viognier; Palomino Fino is no longer allowed in new plantings.",
+    winemaking: "Mostly temperature-controlled stainless steel, with ageing on the lees in steel, oak, large foudres or concrete eggs; the young wines are bottled within about three months. Since 30 August 2024 the white wines must be at least 75% of the principal varieties (Verdejo, Sauvignon Blanc, Viura, Chardonnay and Viognier), with up to 25% of secondary ones. Verdejo runs at about 12.5 to 13.5% alcohol. Other styles: Dorado, an oxidatively aged, fortified-style wine of at least 15% alcohol with at least two years in oak, and sparkling wine, mostly by the traditional method with at least 9 months in the bottle.",
+    typicalStyle: "Verdejo: pale straw with green tints; aromas of pear, apple, tropical fruit, peach, fennel and herbs; fresh and balanced, with a characteristic bitter finish.",
+    qualityLevels: ["Vino de España", "DO Rueda (1980, the first DO in Castilla y León)", "Rueda Verdejo (at least 75% Verdejo under the DO's current wording)", "Vino de Pueblo (85% of the grapes from the named village)", "Gran Vino de Rueda (old vines, low yields)", "Rueda Dorado (oxidative, fortified-style)", "Rueda sparkling"],
+    whyConnection: "A high plateau with a continental climate → cold winters, late frosts and a big day–night swing → late ripening that keeps acidity while sugar builds. Poor, stony, well-drained soils and little rain → fresh, aromatic, slightly bitter Verdejo. Picking at night keeps the must cold and stops it oxidising.",
+    color: "#B5C93A"
   }
 };

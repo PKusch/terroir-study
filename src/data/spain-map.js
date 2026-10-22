@@ -26,5 +26,15 @@ export const SPAIN_REGION_PATHS = {
     // The coast of southern Galicia, from the Miño on the Portuguese border up to the Ulla
     d: `M${pt(-8.85,41.98)} L${pt(-8.15,42.12)} L${pt(-8.2,42.5)} L${pt(-8.65,42.75)} L${pt(-8.95,42.55)} L${pt(-8.8,42.2)} Z`,
     label: geoToSvg(-8.55, 42.4)
+  },
+  cava: {
+    // The Penedès, inland from Barcelona's coast around Sant Sadurní d'Anoia and Vilafranca del Penedès
+    d: `M${pt(1.4,41.45)} L${pt(1.95,41.52)} L${pt(2.05,41.38)} L${pt(1.75,41.3)} L${pt(1.45,41.33)} Z`,
+    label: geoToSvg(1.7, 41.62)
+  },
+  rueda: {
+    // The Duero plain south of Valladolid, around Rueda, La Seca and Medina del Campo
+    d: `M${pt(-5.1,41.5)} L${pt(-4.8,41.55)} L${pt(-4.65,41.35)} L${pt(-4.8,41.2)} L${pt(-5.15,41.25)} Z`,
+    label: geoToSvg(-4.9, 41.65)
   }
 };

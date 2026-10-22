@@ -521,6 +521,33 @@ export const GRAPES = {
     aromas: ["lemon", "grapefruit", "wet stone", "salt", "peach"],
     notes: "Holds high acidity even in great heat and drought, which is rare. On Santorini the old ungrafted vines give low yields of concentrated, mineral, salty wine that is made dry or sweet, and that gains richness with oak and age."
   },
+  verdejo: {
+    name: "Verdejo",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["pear", "green apple", "fennel", "tropical fruit", "herbs"],
+    notes: "The native grape of Rueda, grown there for more than ten centuries. It oxidises easily, so it is picked cool, often at night, and handled with little air. Fresh and aromatic with a bitter finish; time on the lees adds texture."
+  },
+  xarelo: {
+    name: "Xarel·lo",
+    aliases: ["Xarello"],
+    colour: "white",
+    body: "high",
+    acidity: "medium",
+    aromas: ["apple", "pear", "herbs", "citrus", "white flowers"],
+    notes: "Full-bodied and slightly bitter, it gives a Cava its structure. One of the three local white grapes that make up most of the grapes used for Cava."
+  },
+  parellada: {
+    name: "Parellada",
+    aliases: [],
+    colour: "white",
+    body: "low",
+    acidity: "medium",
+    aromas: ["white flowers", "apple", "citrus", "pear"],
+    notes: "Low in alcohol and delicate, it adds finesse to a Cava base wine. One of the three local white grapes that make up most of the grapes used for Cava."
+  },
   sauvignonBlanc: {
     name: "Sauvignon Blanc",
     aliases: ["Fumé Blanc"],
