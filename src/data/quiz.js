@@ -3287,5 +3287,246 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "riasBaixas",
     explanation: "The five are Val do Salnés, Condado do Tea, O Rosal, Soutomaior and Ribeira do Ulla. Val do Salnés is the oldest, largest, coolest and wettest."
+  },
+  {
+    id: "es-40",
+    type: "map",
+    country: "Spain",
+    question: "Which Catalan region around Sant Sadurní d'Anoia makes Spain's traditional-method sparkling wine?",
+    answer: "cava",
+    explanation: "Cava is made by second fermentation in the bottle, centred on the Penedès around Sant Sadurní d'Anoia, where the first bottles were made in 1872."
+  },
+  {
+    id: "es-41",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the minimum time on the lees for a basic Cava de Guarda?",
+    options: [
+      "Nine months",
+      "Three months",
+      "Fifteen months",
+      "Thirty months"
+    ],
+    answer: 0,
+    region: "cava",
+    explanation: "Cava de Guarda needs at least 9 months on the lees. Gran Reserva needs at least 30 months, and Paraje Calificado at least 36."
+  },
+  {
+    id: "es-42",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a Cava Gran Reserva age on its lees?",
+    options: [
+      "At least 9 months",
+      "At least 30 months",
+      "At least 15 months",
+      "At least 60 months"
+    ],
+    answer: 1,
+    region: "cava",
+    explanation: "Gran Reserva needs at least 30 months on the lees. Paraje Calificado, from a single estate, needs at least 36."
+  },
+  {
+    id: "es-43",
+    type: "scenario",
+    country: "Spain",
+    question: "Which three white grapes make up most of the grapes used for Cava?",
+    options: [
+      "Chardonnay, Pinot Noir and Pinot Meunier",
+      "Albariño, Verdejo and Godello",
+      "Macabeo, Xarel·lo and Parellada",
+      "Palomino, Pedro Ximénez and Moscatel"
+    ],
+    answer: 2,
+    region: "cava",
+    explanation: "Macabeo (Viura), Xarel·lo and Parellada are about 85% of the grapes used. Chardonnay and Pinot Noir are allowed too."
+  },
+  {
+    id: "es-44",
+    type: "scenario",
+    country: "Spain",
+    question: "How is Cava made fizzy?",
+    options: [
+      "Carbon dioxide is pumped into a still wine",
+      "The second fermentation happens in a large sealed tank",
+      "The first fermentation is stopped early to keep the bubbles",
+      "Its second fermentation happens in the same bottle you buy"
+    ],
+    answer: 3,
+    region: "cava",
+    explanation: "Cava is made by the traditional method: the second fermentation takes place in the same bottle, from filling to disgorging."
+  },
+  {
+    id: "es-45",
+    type: "scenario",
+    country: "Spain",
+    question: "What does Brut Nature on a Cava label mean?",
+    options: [
+      "Under 3 g/l of sugar, with no sugar added",
+      "Under 12 g/l of sugar, with a little added",
+      "Between 12 and 17 g/l of sugar",
+      "Over 50 g/l of sugar, a sweet style"
+    ],
+    answer: 0,
+    region: "cava",
+    explanation: "Brut Nature has less than 3 g/l of sugar and no added sugar. Brut is under 12 g/l, and Dulce is over 50 g/l."
+  },
+  {
+    id: "es-46",
+    type: "scenario",
+    country: "Spain",
+    question: "What is special about a Cava de Paraje Calificado?",
+    options: [
+      "Machine-harvested grapes from many estates, aged for just 9 months at the cellar door",
+      "Hand-picked whole bunches from one estate, aged at least 36 months",
+      "A blend of Cava and Champagne, aged for 15 months",
+      "A sweet Cava from dried grapes, aged for five years"
+    ],
+    answer: 1,
+    region: "cava",
+    explanation: "Paraje Calificado must be hand-harvested whole bunches at no more than 8,000 kg/ha, from one estate, and age at least 36 months."
+  },
+  {
+    id: "es-47",
+    type: "scenario",
+    country: "Spain",
+    question: "Where were the first bottles of Cava made, in 1872?",
+    options: [
+      "Jerez de la Frontera",
+      "Haro",
+      "Reus",
+      "Sant Sadurní d'Anoia"
+    ],
+    answer: 3,
+    region: "cava",
+    explanation: "The first Cava bottles were made in 1872 in Sant Sadurní d'Anoia, in the Penedès, which is still the centre of production."
+  },
+  {
+    id: "es-48",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the minimum pressure of a Cava?",
+    options: [
+      "3.5 bar at 20 °C",
+      "1 bar at 20 °C, like a still wine",
+      "2 bar at 20 °C, a light spritz",
+      "6 bar at 20 °C, as for Champagne"
+    ],
+    answer: 0,
+    region: "cava",
+    explanation: "A Cava must have at least 3.5 bar of pressure at 20 °C."
+  },
+  {
+    id: "es-49",
+    type: "map",
+    country: "Spain",
+    question: "Which Castilla y León region, on a high plateau, is home to Verdejo?",
+    answer: "rueda",
+    explanation: "Rueda, on the Duero plateau south of Valladolid, is where Verdejo is the native grape. In 1980 it became the first DO in Castilla y León."
+  },
+  {
+    id: "es-50",
+    type: "scenario",
+    country: "Spain",
+    question: "Which grape is native to Rueda, grown there for more than ten centuries?",
+    options: [
+      "Albariño",
+      "Verdejo",
+      "Godello",
+      "Viura"
+    ],
+    answer: 1,
+    region: "rueda",
+    explanation: "Verdejo is Rueda's native grape. Sauvignon Blanc and Viura are also grown, and Chardonnay and Viognier since 2019."
+  },
+  {
+    id: "es-51",
+    type: "connection",
+    country: "Spain",
+    question: "Why are Rueda's grapes mostly picked at night?",
+    options: [
+      "The cold keeps the must from oxidising and the grapes cool",
+      "Night picking is required for the sparkling wines only, by the DO's rules",
+      "The vines only ripen after dark, in the cold",
+      "The vineyards are too wet to enter by day"
+    ],
+    answer: 0,
+    region: "rueda",
+    explanation: "Verdejo oxidises easily. About 95% of white grapes are machine-picked, at night, so the must stays cold and keeps its freshness."
+  },
+  {
+    id: "es-52",
+    type: "connection",
+    country: "Spain",
+    question: "Why do Rueda's vineyards ripen late and keep their acidity?",
+    options: [
+      "A warm sea breeze cools them every afternoon of the summer",
+      "A high plateau with a big day–night swing",
+      "Heavy summer rain slows the ripening",
+      "Frost never reaches them, so they ripen steadily"
+    ],
+    answer: 1,
+    region: "rueda",
+    explanation: "The vineyards stand at about 700 to 930 m, with cold winters, late frosts and hot dry summers. The day–night swing keeps acidity while the sugar builds."
+  },
+  {
+    id: "es-53",
+    type: "scenario",
+    country: "Spain",
+    question: "What are the typical soils of Rueda's best vineyards?",
+    options: [
+      "Black slate and quartz, as in Priorat, over deep clay",
+      "Chalk, as in Champagne",
+      "Stony river terraces, brown soil over pebbles",
+      "Pure sand, with no stones"
+    ],
+    answer: 2,
+    region: "rueda",
+    explanation: "The best vineyards are on the stony terraces of the Duero plain, a well-drained brown soil rich in calcium over pebbles, with limestone on the higher ground."
+  },
+  {
+    id: "es-54",
+    type: "scenario",
+    country: "Spain",
+    question: "What is a Rueda Dorado?",
+    options: [
+      "A sparkling wine aged for 36 months in the bottle on its lees",
+      "A sweet wine from frozen grapes",
+      "A light white drunk very young",
+      "Oxidatively aged, fortified-style, at least 15% alcohol"
+    ],
+    answer: 3,
+    region: "rueda",
+    explanation: "Dorado is an oxidative style, aged in oak for at least two years, and at least 15% alcohol, made from Palomino Fino and/or Verdejo."
+  },
+  {
+    id: "es-55",
+    type: "scenario",
+    country: "Spain",
+    question: "In which provinces is the Rueda DO?",
+    options: [
+      "Valladolid, Segovia and Ávila",
+      "Burgos, Soria and La Rioja, along the Ebro",
+      "León, Zamora and Salamanca",
+      "Madrid, Toledo and Cuenca"
+    ],
+    answer: 0,
+    region: "rueda",
+    explanation: "The DO covers three provinces: Valladolid (most of it), Segovia and Ávila."
+  },
+  {
+    id: "es-56",
+    type: "scenario",
+    country: "Spain",
+    question: "Since August 2024, what share of a Rueda white must come from the principal varieties?",
+    options: [
+      "At least 50%",
+      "At least 75%",
+      "At least 95%",
+      "No minimum"
+    ],
+    answer: 1,
+    region: "rueda",
+    explanation: "The principal varieties (Verdejo, Sauvignon Blanc, Viura, Chardonnay and Viognier) must be at least 75%, with up to 25% of secondary varieties."
   }
 ];
