@@ -16,5 +16,15 @@ export const GERMANY_REGION_PATHS = {
     // A north–south strip along the Haardt hills, west of the Rhine
     d: `M${pt(8.0,49.6)} L${pt(8.4,49.6)} L${pt(8.4,49.1)} L${pt(8.05,49.1)} Z`,
     label: geoToSvg(8.2, 49.37)
+  },
+  nahe: {
+    // Nahe: the valley of the Nahe river, south-west of Bingen
+    d: `M${pt(7.5,49.75)} L${pt(7.65,49.95)} L${pt(7.93,49.93)} L${pt(7.93,49.7)} L${pt(7.6,49.6)} Z`,
+    label: geoToSvg(7.72, 49.82)
+  },
+  rheinhessen: {
+    // Rheinhessen: the rolling land inside the bend of the Rhine, between Mainz, Worms and Bingen
+    d: `M${pt(7.95,49.92)} L${pt(8.2,49.93)} L${pt(8.4,49.94)} L${pt(8.45,49.8)} L${pt(8.4,49.63)} L${pt(8.05,49.63)} L${pt(7.95,49.75)} Z`,
+    label: geoToSvg(8.2, 49.78)
   }
 };

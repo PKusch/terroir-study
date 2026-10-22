@@ -45,5 +45,35 @@ export const GERMANY_REGIONS = {
     qualityLevels: ["Deutscher Wein", "Landwein", "Qualitätswein (Pfalz)", "Prädikatswein (Kabinett to Trockenbeerenauslese)", "VDP Grosses Gewächs (dry, single vineyard)"],
     whyConnection: "The Haardt hills are the Vosges under another name → the same rain shadow that makes Alsace dry makes the Pfalz warm and dry. Warmth means Riesling ripens fully → dry is the natural style, fuller in body and higher in alcohol, and the sweetness the Mosel needs for balance is not needed here. The same warmth ripens the Pinot family and Dornfelder — so the Pfalz makes far more dry and red wine than any cool northern region can.",
     color: "#C77D2A"
+  },
+  nahe: {
+    name: "Nahe",
+    country: "Germany",
+    climate: "Cool, sheltered and mild",
+    climateDetail: "The high ranges of the Soonwald, Hunsrück Hochwald and Nordpfälzer Bergland, 500 to 800 m above sea level, enclose the region on the north, west and south, and it opens only to the east, towards Rheinhessen. Rainfall is normally around 500 mm a year. The lower Nahe, from Bingen to Bad Kreuznach, feels Rheinhessen's warmth and dryness, with early budburst and flowering and moderate acidity. Upstream and in the side valleys it is cooler, and ripening comes 8 to 12 days later.",
+    keyGrapes: { red: ["Dornfelder", "Spätburgunder"], white: ["Riesling", "Müller-Thurgau", "Grauburgunder", "Weissburgunder", "Silvaner"] },
+    subRegions: ["Bad Kreuznach", "Niederhausen", "Norheim", "Langenlonsheim"],
+    soils: "Almost every kind of rock in one small region: volcanic rock such as rhyolite (porphyry) and melaphyre, sandstone, slate, clay, limestone, quartzite, loess and loam. Rhyolite soils lie at Niederhausen, Norheim, Traisen and Bad Münster am Stein-Ebernburg; Bad Kreuznach is mostly clay and loess; and the lower Nahe is quartzite and slate. Steep sites have volcanic or weathered stone or red clayey slate, and flatter sites have loam, loess and sand.",
+    viticultureNotes: "Riesling is the leading grape at 29.2% of plantings in 2022, followed by Müller-Thurgau at 11.4%, Grauburgunder at 9.1%, Dornfelder at 9%, Weissburgunder at 7.7% and Spätburgunder at 6.9%. About 77% of the vineyard is white and 23% red. The region has one Bereich (Nahetal) and seven Grosslagen, and about 4,250 hectares, the 7th largest of Germany's 13 regions in 2023.",
+    winemaking: "The usual German ladder applies: Deutscher Wein, Landwein, Qualitätswein and Prädikatswein. VDP estates add their own pyramid of Gutswein, Ortswein, Erste Lage and Grosse Lage; a dry wine from a Grosse Lage is called a Grosses Gewächs.",
+    typicalStyle: "Riesling is elegant and piquant with finesse and a light spiciness, and the soil of each site shows in the glass. Müller-Thurgau is lighter and fragrant, Silvaner is full-bodied and earthy, and Pinot Gris and Pinot Blanc are increasingly planted.",
+    qualityLevels: ["Deutscher Wein", "Landwein", "Qualitätswein (Nahe)", "Prädikatswein: Kabinett to Trockenbeerenauslese", "VDP Gutswein / Ortswein / Erste Lage / Grosse Lage"],
+    whyConnection: "Mountains to the north, west and south → shelter, little frost and low rain. A patchwork of volcanic, sedimentary and metamorphic rocks → very different wines from neighbouring sites. A warmer lower valley and a cooler upper valley → ripening that differs by 8 to 12 days.",
+    color: "#B8553D"
+  },
+  rheinhessen: {
+    name: "Rheinhessen",
+    country: "Germany",
+    climate: "Warm and dry, sheltered by hills",
+    climateDetail: "One of the driest and warmest of Germany's regions, with low rainfall, warm summers and mild winters. Hills to the west, the Hunsrück and the Pfälzer Bergland (with the Donnersberg), and the Taunus to the north shield it from cold, wet weather. It is a rolling landscape, nicknamed the land of the thousand hills.",
+    keyGrapes: { red: ["Dornfelder", "Spätburgunder"], white: ["Riesling", "Müller-Thurgau", "Silvaner", "Grauburgunder", "Weissburgunder", "Chardonnay"] },
+    subRegions: ["Bingen", "Nierstein", "Wonnegau", "Roter Hang"],
+    soils: "Loess is the dominant soil, with limestone and loam, often mixed with sand or gravel. The Roter Hang (red slope) between Nackenheim and Nierstein is Rotliegend, an iron-rich red clayey slate. Quartzite slate outcrops near Bingen, and limestone sites such as Dalsheim's Hubacker and Westhofen's Kirchspiel suit Silvaner and Riesling.",
+    viticultureNotes: "Riesling was the most planted grape in 2023 at 19.6%, followed by Müller-Thurgau at 13.9% and Dornfelder at 11.0%, the leading red. The region holds about 43% of Germany's Silvaner, and it is now Germany's most important region for Grauburgunder and for Chardonnay. About 74 to 75% of the vineyard is white. At 27,657 hectares in 2025 it is the largest of Germany's 13 regions.",
+    winemaking: "The usual German ladder applies: Deutscher Wein, Landwein, Qualitätswein and Prädikatswein, with VDP estates adding Gutswein, Ortswein, Erste Lage and Grosse Lage. A quality drive since the 1980s moved the region from mass production to Grosses Gewächs; the Maxime Herkunft Rheinhessen producers' association uses its own Gutswein, Ortswein and Lagenwein pyramid, which is not law.",
+    typicalStyle: "From simple everyday wines to serious dry Riesling and Silvaner from named sites. Silvaner from limestone is herbal and almondy, and the Roter Hang gives some of the region's most intense Riesling.",
+    qualityLevels: ["Deutscher Wein", "Landwein", "Qualitätswein (Rheinhessen)", "Prädikatswein: Kabinett to Trockenbeerenauslese", "VDP Gutswein / Ortswein / Erste Lage / Grosse Lage"],
+    whyConnection: "Sheltering hills → low rainfall and ripe grapes. Loess, limestone and red slate across a gently rolling land → many grapes and styles side by side. Germany's largest region, in the past it was known for volume, and the sites on the Roter Hang and the limestone have led its rise in quality.",
+    color: "#D6B84A"
   }
 };

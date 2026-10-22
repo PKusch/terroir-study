@@ -22,5 +22,17 @@ export const PLACES_GERMANY = {
     "Forst": [8.16, 49.43],
     "Deidesheim": [8.18, 49.41],
     "Südliche Weinstrasse": [8.08, 49.18] // Landau / Edenkoben district
+  },
+  nahe: {
+    "Bad Kreuznach": [7.86667, 49.85],
+    "Niederhausen": [7.78472, 49.80139],
+    "Norheim": [7.81611, 49.81167],
+    "Langenlonsheim": [7.89806, 49.89472]
+  },
+  rheinhessen: {
+    "Bingen": [7.9, 49.96667],
+    "Nierstein": [8.3375, 49.86944],
+    "Wonnegau": [8.36528, 49.63194],
+    "Roter Hang": [8.34, 49.9]
   }
 };
