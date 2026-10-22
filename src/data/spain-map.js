@@ -56,5 +56,35 @@ export const SPAIN_REGION_PATHS = {
     // Cariñena: south-west of Zaragoza, between the Huerva and the Jalón
     d: `M${pt(-1.35,41.5)} L${pt(-0.95,41.5)} L${pt(-0.9,41.2)} L${pt(-1.3,41.15)} Z`,
     label: geoToSvg(-1.12, 41.33)
+  },
+  bierzo: {
+    // Bierzo: a basin in the north of León, ringed by mountains
+    d: `M${pt(-6.95,42.7)} L${pt(-6.45,42.7)} L${pt(-6.4,42.45)} L${pt(-6.9,42.4)} Z`,
+    label: geoToSvg(-6.67, 42.55)
+  },
+  valencia: {
+    // Valencia: inland from the city, from the Alto Turia down to Clariano
+    d: `M${pt(-1.05,39.8)} L${pt(-0.5,39.8)} L${pt(-0.4,38.9)} L${pt(-0.95,38.9)} Z`,
+    label: geoToSvg(-0.75, 39.55)
+  },
+  jumilla: {
+    // Jumilla: the Murcia–Albacete border, around Jumilla and Hellín
+    d: `M${pt(-1.75,38.65)} L${pt(-1.2,38.65)} L${pt(-1.2,38.35)} L${pt(-1.75,38.35)} Z`,
+    label: geoToSvg(-1.48, 38.5)
+  },
+  yecla: {
+    // Yecla: a single municipality north-east of Jumilla
+    d: `M${pt(-1.2,38.75)} L${pt(-0.98,38.75)} L${pt(-0.98,38.5)} L${pt(-1.2,38.5)} Z`,
+    label: geoToSvg(-1.09, 38.62)
+  },
+  laMancha: {
+    // La Mancha: the great plateau of Ciudad Real, Albacete and Cuenca
+    d: `M${pt(-3.4,39.55)} L${pt(-2.45,39.55)} L${pt(-2.45,39.0)} L${pt(-3.4,39.0)} Z`,
+    label: geoToSvg(-2.9, 39.27)
+  },
+  valdepenas: {
+    // Valdepeñas: an enclave on the southern edge of La Mancha
+    d: `M${pt(-3.6,38.92)} L${pt(-3.1,38.92)} L${pt(-3.1,38.62)} L${pt(-3.6,38.62)} Z`,
+    label: geoToSvg(-3.35, 38.77)
   }
 };

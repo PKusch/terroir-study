@@ -59,5 +59,33 @@ export const PLACES_SPAIN = {
   carinena: {
     "Cariñena": [-1.217, 41.333],
     "Aguarón": [-1.2697, 41.3389]
+  },
+  bierzo: {
+    "Ponferrada": [-6.583, 42.55],
+    "Cacabelos": [-6.717, 42.6],
+    "Villafranca del Bierzo": [-6.811, 42.606],
+    "Corullón": [-6.817, 42.583]
+  },
+  valencia: {
+    "Alto Turia": [-0.998, 39.747],
+    "Valentino": [-0.72, 39.471],
+    "Moscatel de Valencia": [-0.712, 39.39],
+    "Clariano": [-0.519, 38.989]
+  },
+  jumilla: {
+    "Jumilla": [-1.325, 38.4792],
+    "Hellín": [-1.68333, 38.51667]
+  },
+  yecla: {
+    "Yecla": [-1.11447, 38.61]
+  },
+  laMancha: {
+    "Tomelloso": [-3.02083, 39.15778],
+    "Alcázar de San Juan": [-3.20556, 39.40556],
+    "Socuéllamos": [-2.79417, 39.29333],
+    "Villarrobledo": [-2.6, 39.26667]
+  },
+  valdepenas: {
+    "Valdepeñas": [-3.385, 38.76167]
   }
 };

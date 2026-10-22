@@ -430,6 +430,17 @@ export const GRAPES = {
     aromas: ["red plum", "red cherry", "blackcurrant", "spice", "chocolate"],
     notes: "A versatile grape whose style changes with altitude: soft, ripe and jammy at low sites; balanced and structured at mid-altitude; fresher and more acidic high up. Takes oak well, and also makes rosé and sweet wines."
   },
+  mencia: {
+    name: "Mencía",
+    aliases: [],
+    colour: "red",
+    body: "medium",
+    acidity: "high",
+    tannin: "medium",
+    aromas: ["red cherry", "blackberry", "violet", "liquorice", "mineral"],
+    notes: "The red grape of Bierzo, at its best on old bush vines on slate and quartzite slopes, where it gives fruit with freshness and structure. Oak adds vanilla and spice, and age adds savoury notes."
+  },
+
   // ── Whites ────────────────────────────────────────────────────────────────
   grunerVeltliner: {
     name: "Grüner Veltliner",
@@ -799,6 +810,24 @@ export const GRAPES = {
     acidity: "medium",
     aromas: ["green apple", "lemon", "white flowers", "honey", "nuts"],
     notes: "Ripens late and keeps acidity in the cooler parts of Rioja; neutral when young. Traditional long oak ageing turns it nutty and honeyed, and it is also a base for Cava."
+  },
+  godello: {
+    name: "Godello",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["apple", "pear", "citrus", "white flowers", "stone"],
+    notes: "Grown in the cool north-west of Spain, in Bierzo and Valdeorras. It keeps its acidity and has the weight to take lees ageing or oak, which add a creamy, nutty note."
+  },
+  airen: {
+    name: "Airén",
+    aliases: ["Airen", "Manchega"],
+    colour: "white",
+    body: "low",
+    acidity: "low",
+    aromas: ["apple", "pear", "lemon", "white flowers", "neutral"],
+    notes: "Spain's old workhorse white, planted widely on the hot, dry plains of La Mancha, where bush vines cope with drought. Neutral and soft, it is mostly made as a simple, young wine or distilled; old vines give more flavour."
   },
   palomino: {
     name: "Palomino",
