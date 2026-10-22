@@ -3890,5 +3890,730 @@ export const QUIZ_QUESTIONS = [
     question: "Which Aragón DO, south-west of Zaragoza, probably gave its name to the Carignan grape?",
     answer: "carinena",
     explanation: "The town of Cariñena is likely where Carignan got its name, and the region has had a wine law since the Estatuto de la Vid of 1696."
+  },
+  {
+    id: "de-19",
+    type: "scenario",
+    country: "Germany",
+    question: "How much rain does the Nahe normally get in a year?",
+    options: [
+      "About 1,500 mm a year, like the Black Forest",
+      "About 500 mm a year",
+      "About 1,100 mm a year, like the Mosel gorge",
+      "About 900 mm a year, spread evenly all year"
+    ],
+    answer: 1,
+    region: "nahe",
+    explanation: "Rainfall is normally around 500 mm, and deep, fine soils hold water well."
+  },
+  {
+    id: "de-20",
+    type: "scenario",
+    country: "Germany",
+    question: "Which ranges shelter the Nahe to the north, west and south?",
+    options: [
+      "Soonwald, Hunsrück Hochwald and Nordpfälzer Bergland",
+      "The Black Forest, the Vosges and the Swabian Jura ranges",
+      "The Taunus, the Odenwald and the Spessart hill ranges",
+      "The Eifel, the Westerwald and the Siebengebirge ranges"
+    ],
+    answer: 0,
+    region: "nahe",
+    explanation: "They rise to 500 to 800 m, and the region opens only east, towards Rheinhessen."
+  },
+  {
+    id: "de-21",
+    type: "scenario",
+    country: "Germany",
+    question: "Which rock is found at Niederhausen, Norheim and Traisen on the Nahe?",
+    options: [
+      "Muschelkalk, a shell limestone found in Franken",
+      "Grey Devonian slate, as on the steep Mosel slopes",
+      "Rhyolite (porphyry), a volcanic rock",
+      "Keuper gypsum marl, as found around Iphofen"
+    ],
+    answer: 2,
+    region: "nahe",
+    explanation: "The Nahe has almost every kind of rock, and rhyolite soils lie at several of its best-known villages."
+  },
+  {
+    id: "de-22",
+    type: "scenario",
+    country: "Germany",
+    question: "Which grape covers the most vineyard in the Nahe?",
+    options: [
+      "Riesling, at about 29% in 2022",
+      "Dornfelder, the leading red, at about 35%",
+      "Müller-Thurgau, the old crossing, at about 40%",
+      "Silvaner, the old Franconian grape, at about 30%"
+    ],
+    answer: 0,
+    region: "nahe",
+    explanation: "Riesling led in 2022 with 29.2%, followed by Müller-Thurgau at 11.4%."
+  },
+  {
+    id: "de-23",
+    type: "connection",
+    country: "Germany",
+    question: "Why does ripening in the upper Nahe come later than on the lower Nahe?",
+    options: [
+      "It is warmer upstream, because the valley is wider",
+      "It is cooler upstream, by 8 to 12 days",
+      "Rainfall is much heavier on the lower stretch",
+      "Soils are all sandstone, which cool the vines"
+    ],
+    answer: 1,
+    region: "nahe",
+    explanation: "The lower Nahe feels Rheinhessen's warmth and dryness, while upstream and the side valleys are cooler."
+  },
+  {
+    id: "de-24",
+    type: "scenario",
+    country: "Germany",
+    question: "Which is Germany's largest wine region by vineyard area?",
+    options: [
+      "Rheinhessen, at about 27,000 ha",
+      "Pfalz, at about 33,000 ha of vines",
+      "Baden, at about 28,000 ha of vines",
+      "Mosel, at about 29,000 ha of vines"
+    ],
+    answer: 0,
+    region: "rheinhessen",
+    explanation: "Rheinhessen had 27,499 ha in 2023, with Pfalz next at 23,793 ha."
+  },
+  {
+    id: "de-25",
+    type: "scenario",
+    country: "Germany",
+    question: "What is the Roter Hang between Nackenheim and Nierstein?",
+    options: [
+      "A slope of black volcanic basalt rock",
+      "A slope of white Muschelkalk limestone",
+      "Red iron-rich clayey slate, Rotliegend",
+      "A slope of grey Devonian blue slate"
+    ],
+    answer: 2,
+    region: "rheinhessen",
+    explanation: "The Rotliegend gives some of the region's most intense Riesling."
+  },
+  {
+    id: "de-26",
+    type: "scenario",
+    country: "Germany",
+    question: "What share of Germany's Silvaner does Rheinhessen hold?",
+    options: [
+      "About 10%",
+      "About 43%",
+      "About 20%",
+      "About 85%"
+    ],
+    answer: 1,
+    region: "rheinhessen",
+    explanation: "Rheinhessen has about 1,763 ha of Silvaner, around 43% of Germany's plantings."
+  },
+  {
+    id: "de-27",
+    type: "scenario",
+    country: "Germany",
+    question: "What are the three Bereiche of Rheinhessen?",
+    options: [
+      "Bingen, Nierstein and Wonnegau",
+      "Bingen, Worms and Alzey",
+      "Mainz, Nierstein and Ingelheim",
+      "Nackenheim, Wonnegau and Mainz"
+    ],
+    answer: 0,
+    region: "rheinhessen",
+    explanation: "Bingen lies towards the Nahe, Nierstein holds about a third of the Riesling, and Wonnegau is centred on Worms."
+  },
+  {
+    id: "de-28",
+    type: "scenario",
+    country: "Germany",
+    question: "Which red grape leads in Rheinhessen?",
+    options: [
+      "Spätburgunder, at about 25%",
+      "Portugieser, at about 20%",
+      "Dornfelder, at about 11%",
+      "Merlot, at about 15%"
+    ],
+    answer: 2,
+    region: "rheinhessen",
+    explanation: "Dornfelder had 11.0% in 2023, and red area more than doubled in a decade."
+  },
+  {
+    id: "de-29",
+    type: "map",
+    country: "Germany",
+    question: "Which German region, the country's largest, holds the Roter Hang between Nackenheim and Nierstein?",
+    answer: "rheinhessen",
+    explanation: "Rheinhessen is the largest of the 13 regions, with 27,499 ha in 2023."
+  },
+  {
+    id: "de-30",
+    type: "map",
+    country: "Germany",
+    question: "Which small German region follows the Nahe river, with volcanic rhyolite soils at Niederhausen and Norheim?",
+    answer: "nahe",
+    explanation: "The Nahe is sheltered on three sides and has seven Grosslagen."
+  },
+  {
+    id: "de-31",
+    type: "scenario",
+    country: "Germany",
+    question: "Which German region is the only one in EU wine zone B?",
+    options: [
+      "Pfalz",
+      "Baden",
+      "Franken",
+      "Mosel"
+    ],
+    answer: 1,
+    region: "baden",
+    explanation: "Zone B needs higher must weights, and Baden is Germany's warmest region."
+  },
+  {
+    id: "de-32",
+    type: "scenario",
+    country: "Germany",
+    question: "What share of Baden's plantings is the Pinot family?",
+    options: [
+      "About 61%",
+      "About 25%",
+      "About 40%",
+      "About 90%"
+    ],
+    answer: 0,
+    region: "baden",
+    explanation: "The Pinot family covers 9,162 ha, and Baden has more Spätburgunder than any other region."
+  },
+  {
+    id: "de-33",
+    type: "scenario",
+    country: "Germany",
+    question: "What is the Kaiserstuhl?",
+    options: [
+      "An old volcano with volcanic rock and loess",
+      "A limestone plateau above the Main valley",
+      "A slate cliff that rises steeply over the Rhine",
+      "A glacial moraine on the shore of Lake Constance"
+    ],
+    answer: 0,
+    region: "baden",
+    explanation: "The loess on its sheltered sides is up to 40 m deep."
+  },
+  {
+    id: "de-34",
+    type: "scenario",
+    country: "Germany",
+    question: "What share of Baden's wine do its cooperatives make?",
+    options: [
+      "About 20%",
+      "About 40%",
+      "About 85%",
+      "About 60%"
+    ],
+    answer: 2,
+    region: "baden",
+    explanation: "About 100 cooperatives make about 85% of Baden's wine, and the Breisach cellars are the largest in Europe."
+  },
+  {
+    id: "de-35",
+    type: "scenario",
+    country: "Germany",
+    question: "What is the Ortenau name for Riesling?",
+    options: [
+      "Gutedel (Chasselas)",
+      "Klingelberger",
+      "Ruländer (Pinot Gris)",
+      "Clevner (Pinot Noir)"
+    ],
+    answer: 1,
+    region: "baden",
+    explanation: "Gutedel (Chasselas) belongs to the Markgräflerland."
+  },
+  {
+    id: "de-36",
+    type: "map",
+    country: "Germany",
+    question: "Which region, Germany's warmest and the only one in zone B, runs from Lake Constance to Heidelberg east of the Rhine?",
+    answer: "baden",
+    explanation: "Baden has nine Bereiche, the most of any German region."
+  },
+  {
+    id: "de-37",
+    type: "scenario",
+    country: "Germany",
+    question: "Which grape is the signature of Franken?",
+    options: [
+      "Silvaner, at about a quarter of plantings",
+      "Riesling, at about half of all plantings",
+      "Spätburgunder, at about a third of plantings",
+      "Dornfelder, at about a fifth of all plantings"
+    ],
+    answer: 0,
+    region: "franken",
+    explanation: "Silvaner covered 1,536 ha in 2025 and overtook Müller-Thurgau in 2019."
+  },
+  {
+    id: "de-38",
+    type: "scenario",
+    country: "Germany",
+    question: "What soil lies around Würzburg in the Maindreieck?",
+    options: [
+      "Buntsandstein, a coloured sandstone",
+      "Muschelkalk (shell limestone)",
+      "Keuper with gypsum marl layers",
+      "Rotliegend, a red clayey slate"
+    ],
+    answer: 1,
+    region: "franken",
+    explanation: "Buntsandstein is in the Mainviereck and Keuper in the Steigerwald."
+  },
+  {
+    id: "de-39",
+    type: "scenario",
+    country: "Germany",
+    question: "What does a wine in a Bocksbeutel need?",
+    options: [
+      "At least 72 °Oechsle and an official test",
+      "At least 95 °Oechsle and a gold medal",
+      "At least 55 °Oechsle and ageing in oak",
+      "At least 80 °Oechsle and a single vineyard"
+    ],
+    answer: 0,
+    region: "franken",
+    explanation: "The flat, round bottle is a protected emblem of Franconian wine."
+  },
+  {
+    id: "de-40",
+    type: "scenario",
+    country: "Germany",
+    question: "What does 'fränkisch trocken' mean?",
+    options: [
+      "Sugar of 9 g/L or less",
+      "Sugar of 18 g/L or less",
+      "Sugar of 5 g/L or less",
+      "Sugar of 30 g/L or less"
+    ],
+    answer: 2,
+    region: "franken",
+    explanation: "German law allows up to 9 g/L for trocken, but the Franconian term is stricter."
+  },
+  {
+    id: "de-41",
+    type: "map",
+    country: "Germany",
+    question: "Which German region, with the Bocksbeutel bottle and Silvaner as its signature, lies along the Main around Würzburg?",
+    answer: "franken",
+    explanation: "Franken has three Bereiche: Mainviereck, Maindreieck and Steigerwald."
+  },
+  {
+    id: "es-83",
+    type: "scenario",
+    country: "Spain",
+    question: "What does a red Bierzo need?",
+    options: [
+      "At least 85% from four listed local reds",
+      "At least 100% Mencía from the DO's own old vines",
+      "At least 50% Tempranillo and the rest any local grape",
+      "At least 70% Godello and the rest any red grape"
+    ],
+    answer: 0,
+    region: "bierzo",
+    explanation: "The old rule of 70% Mencía has been replaced by a list of four red grapes."
+  },
+  {
+    id: "es-84",
+    type: "scenario",
+    country: "Spain",
+    question: "When is irrigation allowed in Bierzo?",
+    options: [
+      "Only in the first two years of a new planting",
+      "Always, using drip irrigation in summer",
+      "Never, whatever the age of the vineyard",
+      "Only in the driest years, with the regulator's leave"
+    ],
+    answer: 0,
+    region: "bierzo",
+    explanation: "The average vine age is about 75 years and 85% of the area is old vines."
+  },
+  {
+    id: "es-85",
+    type: "scenario",
+    country: "Spain",
+    question: "How does Bierzo's rule book describe its climate?",
+    options: [
+      "Dry Mediterranean with a long hot summer",
+      "A transition between oceanic and continental",
+      "Cold continental, like the high plateau of Toro",
+      "Wet Atlantic, like Rías Baixas, all year round"
+    ],
+    answer: 1,
+    region: "bierzo",
+    explanation: "It is a basin ringed by mountains, with an average temperature of about 12.3 °C."
+  },
+  {
+    id: "es-86",
+    type: "scenario",
+    country: "Spain",
+    question: "How much lower is the yield for a Bierzo 'Vino de Paraje'?",
+    options: [
+      "25% lower",
+      "10% lower",
+      "40% lower",
+      "50% lower"
+    ],
+    answer: 0,
+    region: "bierzo",
+    explanation: "Villa is 20% lower, Paraje 25%, Viña Clasificada 30% and Gran Viña Clasificada 35%."
+  },
+  {
+    id: "es-87",
+    type: "map",
+    country: "Spain",
+    question: "Which north-western DO, a basin ringed by mountains in León, is known for Mencía on slate and quartzite?",
+    answer: "bierzo",
+    explanation: "Its first village and paraje wines reached the market in June 2020."
+  },
+  {
+    id: "es-88",
+    type: "scenario",
+    country: "Spain",
+    question: "What are the four sub-zones of DO Valencia?",
+    options: [
+      "Alto Turia, Valentino, Moscatel and Clariano",
+      "Alto Turia, Utiel-Requena, Valentino and Clariano",
+      "Valentino, Utiel, Requena and Moscatel zones",
+      "Alto Turia, Valentino, Utiel and Moscatel zone"
+    ],
+    answer: 0,
+    region: "valencia",
+    explanation: "The sub-zone names can be used only for grapes grown in that sub-zone."
+  },
+  {
+    id: "es-89",
+    type: "scenario",
+    country: "Spain",
+    question: "Which famous towns are NOT in DO Valencia?",
+    options: [
+      "Chiva and Turís, which are in the Valentino zone",
+      "Utiel and Requena, which have their own DO",
+      "Chelva and Titaguas, in the Alto Turia zone",
+      "Xàtiva and Ontinyent, in the Clariano zone"
+    ],
+    answer: 1,
+    region: "valencia",
+    explanation: "Utiel-Requena is a separate DO."
+  },
+  {
+    id: "es-90",
+    type: "scenario",
+    country: "Spain",
+    question: "What is Moscatel de Valencia?",
+    options: [
+      "A dry white of any blend of Moscatel and Macabeo",
+      "A sparkling wine made by the traditional method",
+      "A vino de licor of 100% Moscatel de Alejandría",
+      "A late-harvest wine of Verdejo and Moscatel grapes"
+    ],
+    answer: 2,
+    region: "valencia",
+    explanation: "Alcohol is added to the must, and it needs at least 15% acquired and 17.5% total alcohol."
+  },
+  {
+    id: "es-91",
+    type: "scenario",
+    country: "Spain",
+    question: "What is 'Petit Valencia'?",
+    options: [
+      "A light, partly fermented wine of 4.5 to 9%",
+      "A dry white wine of 14% alcohol, kept in oak",
+      "A fortified red wine of 17.5% alcohol or more",
+      "A sparkling rosé wine of 11% alcohol or more"
+    ],
+    answer: 0,
+    region: "valencia",
+    explanation: "It is made by incomplete fermentation and may keep some sugar."
+  },
+  {
+    id: "es-92",
+    type: "map",
+    country: "Spain",
+    question: "Which eastern DO has the sub-zones Alto Turia, Valentino, Moscatel and Clariano, and makes a fortified Moscatel?",
+    answer: "valencia",
+    explanation: "Its rules give about 520 mm of rain a year over 55 rainy days."
+  },
+  {
+    id: "es-93",
+    type: "scenario",
+    country: "Spain",
+    question: "About how much rain does Jumilla get in a year?",
+    options: [
+      "About 300 mm",
+      "About 700 mm",
+      "About 1,000 mm",
+      "About 450 mm"
+    ],
+    answer: 0,
+    region: "jumilla",
+    explanation: "Rain is uneven, with a peak in autumn, and the climate is dry continental."
+  },
+  {
+    id: "es-94",
+    type: "scenario",
+    country: "Spain",
+    question: "What does 'Jumilla Monastrell' on a label require?",
+    options: [
+      "At least 85% Monastrell",
+      "At least 100% Monastrell from old ungrafted vines",
+      "At least 50% Monastrell and the rest Tempranillo",
+      "At least 70% Monastrell, as it is the main grape"
+    ],
+    answer: 0,
+    region: "jumilla",
+    explanation: "A plain Jumilla red has no general minimum share of Monastrell."
+  },
+  {
+    id: "es-95",
+    type: "scenario",
+    country: "Spain",
+    question: "What does 'Viña vieja' mean on a Jumilla label?",
+    options: [
+      "At least 85% of grapes from vines over 50 years old",
+      "At least 85% of grapes from vines at least 30 years old",
+      "All grapes from vines grown without any irrigation",
+      "All grapes from ungrafted vines grown on their own roots"
+    ],
+    answer: 1,
+    region: "jumilla",
+    explanation: "The age must be provable from vineyard registers."
+  },
+  {
+    id: "es-96",
+    type: "scenario",
+    country: "Spain",
+    question: "What share of Jumilla's vineyard is Monastrell?",
+    options: [
+      "About 30% of it",
+      "About 15% of it",
+      "More than 70%",
+      "About 50% of it"
+    ],
+    answer: 2,
+    region: "jumilla",
+    explanation: "About a quarter of the world's Monastrell is grown in Jumilla, according to WSET."
+  },
+  {
+    id: "es-97",
+    type: "map",
+    country: "Spain",
+    question: "Which dry south-eastern DO, around 300 mm of rain and Monastrell on calcareous soils, sits on the Murcia–Albacete border?",
+    answer: "jumilla",
+    explanation: "Vineyards run from 320 to 900 m on the Altiplano Levantino."
+  },
+  {
+    id: "es-98",
+    type: "scenario",
+    country: "Spain",
+    question: "What is unusual about the Yecla production zone?",
+    options: [
+      "It is a single municipality",
+      "It lies in two regions of Spain",
+      "It sits wholly above 1,200 m",
+      "It is all an island in the sea"
+    ],
+    answer: 0,
+    region: "yecla",
+    explanation: "Yecla is the only Spanish wine zone made of one municipality."
+  },
+  {
+    id: "es-99",
+    type: "scenario",
+    country: "Spain",
+    question: "Is irrigation allowed in Yecla?",
+    options: [
+      "Yes, dry-farmed and irrigated vines",
+      "No, it has been banned since the 1970s",
+      "Only for white grapes in the first year",
+      "Only with water from the Mediterranean"
+    ],
+    answer: 0,
+    region: "yecla",
+    explanation: "Maximum red yields are 4,000 kg/ha dry-farmed and 7,000 kg/ha irrigated."
+  },
+  {
+    id: "es-100",
+    type: "scenario",
+    country: "Spain",
+    question: "What is Yecla's principal grape?",
+    options: [
+      "Tempranillo, with at least 85% required",
+      "Monastrell, with no legal minimum share",
+      "Garnacha, with at least 70% required",
+      "Airén, with at least 50% required"
+    ],
+    answer: 1,
+    region: "yecla",
+    explanation: "The rule book names Monastrell as the principal variety."
+  },
+  {
+    id: "es-101",
+    type: "map",
+    country: "Spain",
+    question: "Which Murcia DO, the only wine zone in Spain that is one municipality, lies north-east of Jumilla?",
+    answer: "yecla",
+    explanation: "It has over 3,000 hours of clear sun a year."
+  },
+  {
+    id: "es-102",
+    type: "scenario",
+    country: "Spain",
+    question: "What is Airén called locally in La Mancha?",
+    options: [
+      "Manchega",
+      "Cencibel",
+      "Viura",
+      "Moravia"
+    ],
+    answer: 0,
+    region: "laMancha",
+    explanation: "Cencibel is the local name for Tempranillo."
+  },
+  {
+    id: "es-103",
+    type: "connection",
+    country: "Spain",
+    question: "What happened to Airén in 2022?",
+    options: [
+      "Tempranillo passed it as Spain's top grape",
+      "It was banned in all Spanish quality wines",
+      "It became the most planted grape in the world",
+      "It was replaced by Verdejo in La Mancha DO"
+    ],
+    answer: 0,
+    region: "laMancha",
+    explanation: "Airén has lost over 43% of its area in 40 years."
+  },
+  {
+    id: "es-104",
+    type: "scenario",
+    country: "Spain",
+    question: "What ended La Mancha's ban on irrigation?",
+    options: [
+      "A royal decree of 1932 on vines",
+      "An EU rule of 2008 on wine",
+      "A drought-relief law of 1996",
+      "A DO reform of 2020 on yields"
+    ],
+    answer: 2,
+    region: "laMancha",
+    explanation: "The ban came with the Estatuto de la Viña of 1970."
+  },
+  {
+    id: "es-105",
+    type: "scenario",
+    country: "Spain",
+    question: "What does a red Gran Reserva from La Mancha need?",
+    options: [
+      "60 months in total, at least 18 in oak",
+      "24 months in total, at least 6 in oak",
+      "36 months in total, at least 12 in oak",
+      "48 months in total, at least 24 in oak"
+    ],
+    answer: 0,
+    region: "laMancha",
+    explanation: "Oak is limited to 330 litres, and cork is mandatory."
+  },
+  {
+    id: "es-106",
+    type: "scenario",
+    country: "Spain",
+    question: "What is banned in La Mancha DO wine?",
+    options: [
+      "Using Tempranillo in a white wine",
+      "Mixing white and red grapes",
+      "Growing more than one variety in a plot",
+      "Using any oak barrel above 100 litres"
+    ],
+    answer: 1,
+    region: "laMancha",
+    explanation: "A grape name on the label needs at least 85% of that variety."
+  },
+  {
+    id: "es-107",
+    type: "map",
+    country: "Spain",
+    question: "Which huge plateau DO, with Airén and Cencibel and summers near 45 °C, is the largest demarcated vineyard in Spain?",
+    answer: "laMancha",
+    explanation: "It has more than 3,000 hours of sun and 300 to 350 mm of rain."
+  },
+  {
+    id: "es-108",
+    type: "scenario",
+    country: "Spain",
+    question: "How much red grape must a Valdepeñas red contain?",
+    options: [
+      "At least 85% red grapes",
+      "At least 100% red grapes",
+      "At least 50% red grapes",
+      "At least 25% red grapes"
+    ],
+    answer: 0,
+    region: "valdepenas",
+    explanation: "A rosé needs at least 25% red grapes."
+  },
+  {
+    id: "es-109",
+    type: "scenario",
+    country: "Spain",
+    question: "When did phylloxera reach Valdepeñas?",
+    options: [
+      "In 1863, early",
+      "In 1892",
+      "In 1911, late",
+      "In 1950"
+    ],
+    answer: 2,
+    region: "valdepenas",
+    explanation: "Its arrival was late."
+  },
+  {
+    id: "es-110",
+    type: "scenario",
+    country: "Spain",
+    question: "What is Valdepeñas' average altitude?",
+    options: [
+      "705 m",
+      "205 m",
+      "1,205 m",
+      "1,505 m"
+    ],
+    answer: 0,
+    region: "valdepenas",
+    explanation: "It has over 2,500 hours of sun and 200 to 400 mm of rain."
+  },
+  {
+    id: "es-111",
+    type: "scenario",
+    country: "Spain",
+    question: "What does a Valdepeñas Roble red need?",
+    options: [
+      "At least 90 days in oak",
+      "At least 24 months in oak",
+      "At least 18 days in oak",
+      "No time in oak, only oak chips"
+    ],
+    answer: 0,
+    region: "valdepenas",
+    explanation: "A Roble white needs at least 45 days."
+  },
+  {
+    id: "es-112",
+    type: "map",
+    country: "Spain",
+    question: "Which enclave DO, almost surrounded by La Mancha, has limestone soils and red Crianza of 24 months?",
+    answer: "valdepenas",
+    explanation: "Valdepeñas has an average altitude of 705 m."
   }
 ];
