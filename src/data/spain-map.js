@@ -21,5 +21,10 @@ export const SPAIN_REGION_PATHS = {
     // The sherry triangle: Jerez, Sanlúcar de Barrameda and El Puerto de Santa María
     d: `M${pt(-6.5,36.85)} L${pt(-6.0,36.9)} L${pt(-5.9,36.6)} L${pt(-6.2,36.5)} L${pt(-6.45,36.6)} Z`,
     label: geoToSvg(-6.2, 36.72)
+  },
+  riasBaixas: {
+    // The coast of southern Galicia, from the Miño on the Portuguese border up to the Ulla
+    d: `M${pt(-8.85,41.98)} L${pt(-8.15,42.12)} L${pt(-8.2,42.5)} L${pt(-8.65,42.75)} L${pt(-8.95,42.55)} L${pt(-8.8,42.2)} Z`,
+    label: geoToSvg(-8.55, 42.4)
   }
 };

@@ -60,5 +60,20 @@ export const SPAIN_REGIONS = {
     qualityLevels: ["Vino de España", "Vino de la Tierra", "DO Jerez-Xérès-Sherry / DO Manzanilla-Sanlúcar de Barrameda"],
     whyConnection: "Albariza stores winter rain → Palomino survives the hot, dry summer without irrigation. The poniente wind off the Atlantic keeps the bodegas cool and humid → flor thrives, and Fino and Manzanilla stay pale and fresh; Manzanilla is only made in seaside Sanlúcar de Barrameda, where flor grows thickest and the wine has a salty tang. Fortify a little more and flor cannot live → oxidative Oloroso. The solera system blends young into old, so the style never changes from year to year.",
     color: "#C9A227"
+  },
+  riasBaixas: {
+    name: "Rías Baixas",
+    country: "Spain",
+    climate: "Cool, wet Atlantic",
+    climateDetail: "A markedly Atlantic climate at about 42 °N: mild temperatures (about 10 to 25 °C) with four distinct seasons and small swings between them, and about 1,300 mm of rain through the year that falls away sharply in summer. The humidity makes fungal disease a major risk. Ripening gets modest sunshine and medium temperatures, so the wines are known for acidity and aroma more than for alcohol.",
+    keyGrapes: { red: [], white: ["Albariño", "Treixadura", "Loureiro"] },
+    subRegions: ["Val do Salnés", "Condado do Tea", "O Rosal", "Soutomaior", "Ribeira do Ulla"],
+    soils: "Mostly granite, with some schist and river-laid (alluvial) deposits. The soils are sandy to sandy-loam, acidic, poor in nutrients and fairly shallow, so they hold little water and dry out in summer.",
+    viticultureNotes: "Albariño is by far the main grape. Vines are trained on pergolas (parra), raised off the damp ground so that air moves through and fungal disease is held back; the pergola also uses the light well, controls vigour and leaves room for other crops underneath. Holdings are tiny: more than 4,300 ha in about 22,800 plots, worked by over 5,000 growers, most of them part-time with under a hectare. The maximum yield for Albariño is 12,000 kg/ha.",
+    winemaking: "Mostly fresh whites, made in stainless steel after settling and a temperature-controlled fermentation. Many producers use wild yeast, some ferment in barrel, malolactic may be blocked for freshness or allowed for roundness, and ageing on the lees adds texture. Label rules: Rías Baixas Albariño must be 100% Albariño; Condado do Tea must be at least 70% Albariño and Treixadura together; Rosal and Salnés have their own lists of grapes, also at least 70%. A sub-zone name may be used only if the grapes and the winemaking are both inside that sub-zone. Barrica wines are aged in wood of no more than 600 litres, and the label must say for how long. Sparkling wine is made only by second fermentation in the bottle. The vintage year is compulsory on the label, except for sparkling.",
+    typicalStyle: "Albariño: pale straw, medium body, aromas of citrus, apple, flowers and stone fruit; balanced and persistent, with a floral, fruity finish. The oaked Barrica style adds toast, smoke and nut.",
+    qualityLevels: ["Vino de España", "DO Rías Baixas", "Rías Baixas Albariño (100% Albariño)", "Sub-zone wines: Condado do Tea, Rosal, Salnés, Soutomaior, Ribeira do Ulla", "Barrica (aged in wood of up to 600 litres)", "Espumoso (traditional method sparkling)"],
+    whyConnection: "Atlantic rain and humidity → fungal disease is the main risk → vines are trained high on pergolas so air can move through, on poor granite soils that dry out in summer. A cool Atlantic climate with modest sunshine → grapes ripen with acidity and aroma rather than high alcohol → fresh, aromatic whites.",
+    color: "#3E8E7E"
   }
 };

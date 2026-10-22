@@ -20,5 +20,12 @@ export const PLACES_SPAIN = {
     "Jerez de la Frontera": [-6.14, 36.69],
     "Sanlúcar de Barrameda (Manzanilla)": [-6.35, 36.78],
     "El Puerto de Santa María": [-6.23, 36.60]
+  },
+  riasBaixas: {
+    "Val do Salnés": [-8.81361, 42.51472],
+    "Condado do Tea": [-8.49806, 42.08306],
+    "O Rosal": [-8.825, 41.93556],
+    "Soutomaior": [-8.567, 42.333],
+    "Ribeira do Ulla": [-8.66028, 42.73806]
   }
 };

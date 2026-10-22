@@ -469,7 +469,7 @@ export const GRAPES = {
   },
   loureiro: {
     name: "Loureiro",
-    aliases: [],
+    aliases: ["Loureira"],
     colour: "white",
     body: "low",
     acidity: "high",
