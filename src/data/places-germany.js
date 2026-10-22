@@ -34,5 +34,17 @@ export const PLACES_GERMANY = {
     "Nierstein": [8.3375, 49.86944],
     "Wonnegau": [8.36528, 49.63194],
     "Roter Hang": [8.34, 49.9]
+  },
+  baden: {
+    "Kaiserstuhl": [7.632, 48.089],
+    "Markgräflerland": [7.633, 47.8],
+    "Ortenau": [8.017, 48.5],
+    "Kraichgau": [8.6, 49.133],
+    "Bodensee": [9.267, 47.7]
+  },
+  franken: {
+    "Mainviereck": [9.183, 49.783],
+    "Maindreieck": [9.933, 49.783],
+    "Steigerwald": [10.267, 49.7]
   }
 };
