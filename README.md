@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **43** regions | 📍 **217** places on the map | ❓ **271** quiz questions | 🍇 **89** grapes | ✅ **131** tests |
+| 🌍 **9** countries | 🗺️ **57** regions | 📍 **261** places on the map | ❓ **297** quiz questions | 🍇 **92** grapes | ✅ **131** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -117,8 +117,8 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 |:-:|---|---|
 | 🇫🇷 | **France** | Bordeaux · Burgundy · Northern Rhône · Southern Rhône · Loire Valley · Alsace · Champagne · Languedoc-Roussillon · Provence · South-West · Beaujolais |
 | 🇮🇹 | **Italy** | Piedmont · Tuscany · Veneto · Southern Italy |
-| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) |
-| 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz |
+| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas |
+| 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz · Nahe · Rheinhessen · Baden · Franken |
 | 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
 | 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo |
 | 🇭🇺 | **Hungary** | Tokaj · Eger · Villány |
@@ -249,13 +249,13 @@ npm run dev
 
 - [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry, Rías Baixas, Rueda, Cava)
-- [x] Germany (Mosel, Rheingau, Pfalz)
+- [x] Germany (Mosel, Rheingau, Pfalz, Nahe, Rheinhessen, Baden, Franken)
 - [x] Austria (Niederösterreich, Burgenland, Steiermark)
 - [x] Portugal (Vinho Verde, Douro, Alentejo)
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (271: 63 France, 30 Italy, 56 Spain, 18 Germany, 17 Austria, 17 Portugal, 17 Hungary, 17 Greece, 36 New World; 203 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (297: 63 France, 30 Italy, 82 Spain, 18 Germany, 17 Austria, 17 Portugal, 17 Hungary, 17 Greece, 36 New World; 225 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -263,7 +263,7 @@ npm run dev
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
-- [x] Sub-region drill-down maps (Zoom into any region: 217 places marked across 43 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 261 places marked across 57 regions)
 
 ## About
 
