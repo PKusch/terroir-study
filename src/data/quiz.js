@@ -3159,5 +3159,133 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "southernItaly",
     explanation: "Etna Rosso is at least 80% Nerello Mascalese, grown on volcanic soil on bush vines at altitude."
+  },
+  {
+    id: "es-31",
+    type: "map",
+    country: "Spain",
+    question: "Which Galician region, on cool, wet Atlantic granite, trains its Albariño vines on pergolas?",
+    answer: "riasBaixas",
+    explanation: "Rías Baixas, in the south-west corner of Galicia, has an Atlantic climate with about 1,300 mm of rain and a constant risk of fungal disease, so its vines are raised on pergolas."
+  },
+  {
+    id: "es-32",
+    type: "connection",
+    country: "Spain",
+    question: "Why are Rías Baixas vines traditionally trained on high pergolas?",
+    options: [
+      "They keep fruit off damp ground and let air through, holding back fungal disease",
+      "They shade the grapes from the fierce summer sun and keep the bunches cool all day long",
+      "They make machine harvesting possible on steep terraces",
+      "They protect the buds from hard spring frosts"
+    ],
+    answer: 0,
+    region: "riasBaixas",
+    explanation: "Rain and humidity make fungal disease the main risk. A raised pergola lets air through and keeps the vegetation away from the damp ground. It also controls vigour and leaves room for other crops underneath."
+  },
+  {
+    id: "es-33",
+    type: "scenario",
+    country: "Spain",
+    question: "A bottle is labelled Rías Baixas Albariño. What must be in it?",
+    options: [
+      "At least 70% Albariño and Treixadura together",
+      "100% Albariño",
+      "At least 85% Albariño, with up to 15% Godello",
+      "Any mix of the authorised white grapes"
+    ],
+    answer: 1,
+    region: "riasBaixas",
+    explanation: "A wine called Rías Baixas Albariño must be made entirely from Albariño. The sub-zone wines have their own rules, usually at least 70% from a list of grapes."
+  },
+  {
+    id: "es-34",
+    type: "scenario",
+    country: "Spain",
+    question: "What must a Condado do Tea wine contain?",
+    options: [
+      "100% Albariño, as in the plain Albariño wine",
+      "At least 70% Loureiro, with Albariño left out",
+      "At least 70% Albariño plus Treixadura",
+      "Mainly Godello and Mencía"
+    ],
+    answer: 2,
+    region: "riasBaixas",
+    explanation: "Condado do Tea must be at least 70% Albariño and Treixadura together, and both the grapes and the winemaking must be inside that sub-zone to use its name."
+  },
+  {
+    id: "es-35",
+    type: "scenario",
+    country: "Spain",
+    question: "How is Rías Baixas sparkling wine made?",
+    options: [
+      "By the tank method, with the second fermentation in a sealed tank",
+      "By adding carbon dioxide to a still wine",
+      "By stopping the first fermentation early to keep some fizz",
+      "By second fermentation in the bottle, the traditional method"
+    ],
+    answer: 3,
+    region: "riasBaixas",
+    explanation: "The rules allow sparkling Rías Baixas only by second fermentation in the bottle. The vintage year is compulsory on the label, except for sparkling."
+  },
+  {
+    id: "es-36",
+    type: "scenario",
+    country: "Spain",
+    question: "What does 'Barrica' on a Rías Baixas label tell you?",
+    options: [
+      "Aged in wood of up to 600 litres, and the label says how long",
+      "The wine was fermented in concrete tanks and then aged in glass bottles for years",
+      "The wine is a sweet wine from dried grapes",
+      "The wine was aged in a solera for at least five years"
+    ],
+    answer: 0,
+    region: "riasBaixas",
+    explanation: "Barrica wines are aged in wood containers of no more than 600 litres, and the label must give the time in wood, in months or years."
+  },
+  {
+    id: "es-37",
+    type: "connection",
+    country: "Spain",
+    question: "Why are Rías Baixas whites known for acidity and aroma rather than for alcohol?",
+    options: [
+      "Irrigation floods the vines every summer, which dilutes the sugar",
+      "A cool Atlantic climate with modest sunshine",
+      "The vineyards are high on a plateau, where the nights freeze",
+      "Winemakers always remove alcohol after fermentation"
+    ],
+    answer: 1,
+    region: "riasBaixas",
+    explanation: "Ripening gets modest sunshine and medium temperatures with some rain, so the grapes keep acidity and aroma and do not build high alcohol."
+  },
+  {
+    id: "es-38",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the main soil of Rías Baixas?",
+    options: [
+      "Granite, sandy and acidic",
+      "Chalk, as in Champagne",
+      "Black slate, as in Priorat",
+      "Red clay over limestone, as in Coonawarra"
+    ],
+    answer: 0,
+    region: "riasBaixas",
+    explanation: "The soils are mostly granite, with some schist and river-laid deposits. They are sandy, acidic, poor and fairly shallow, so they dry out in summer."
+  },
+  {
+    id: "es-39",
+    type: "scenario",
+    country: "Spain",
+    question: "How many sub-zones does the Rías Baixas DO have?",
+    options: [
+      "Two",
+      "Three",
+      "Five",
+      "Eight"
+    ],
+    answer: 2,
+    region: "riasBaixas",
+    explanation: "The five are Val do Salnés, Condado do Tea, O Rosal, Soutomaior and Ribeira do Ulla. Val do Salnés is the oldest, largest, coolest and wettest."
   }
 ];
