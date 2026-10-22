@@ -36,5 +36,15 @@ export const SPAIN_REGION_PATHS = {
     // The Duero plain south of Valladolid, around Rueda, La Seca and Medina del Campo
     d: `M${pt(-5.1,41.5)} L${pt(-4.8,41.55)} L${pt(-4.65,41.35)} L${pt(-4.8,41.2)} L${pt(-5.15,41.25)} Z`,
     label: geoToSvg(-4.9, 41.65)
+  },
+  toro: {
+    // The Duero plain around Toro in Zamora, west of Rueda
+    d: `M${pt(-5.65,41.6)} L${pt(-5.3,41.65)} L${pt(-5.25,41.4)} L${pt(-5.55,41.33)} Z`,
+    label: geoToSvg(-5.6, 41.75)
+  },
+  navarra: {
+    // From the Pyrenean foothills to the Ebro, east of Rioja
+    d: `M${pt(-2.1,42.82)} L${pt(-1.3,42.85)} L${pt(-1.15,42.55)} L${pt(-1.2,42.05)} L${pt(-1.65,42.05)} L${pt(-1.6,42.4)} L${pt(-1.9,42.62)} Z`,
+    label: geoToSvg(-1.45, 42.95)
   }
 };

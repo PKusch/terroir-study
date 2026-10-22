@@ -39,5 +39,17 @@ export const PLACES_SPAIN = {
     "Nava del Rey": [-5.0833, 41.3333],
     "Medina del Campo": [-4.9167, 41.3],
     "Tordesillas": [-5.0, 41.5]
+  },
+  toro: {
+    "Toro": [-5.39111, 41.52556],
+    "Morales de Toro": [-5.3, 41.533],
+    "Villabuena del Puente": [-5.40667, 41.38083]
+  },
+  navarra: {
+    "Baja Montaña": [-1.283, 42.583],
+    "Valdizarbe": [-1.81504, 42.672134],
+    "Tierra Estella": [-2.03194, 42.67194],
+    "Ribera Alta": [-1.6625, 42.4875],
+    "Ribera Baja": [-1.60667, 42.06528]
   }
 };

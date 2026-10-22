@@ -105,5 +105,35 @@ export const SPAIN_REGIONS = {
     qualityLevels: ["Vino de España", "DO Rueda (1980, the first DO in Castilla y León)", "Rueda Verdejo (at least 75% Verdejo under the DO's current wording)", "Vino de Pueblo (85% of the grapes from the named village)", "Gran Vino de Rueda (old vines, low yields)", "Rueda Dorado (oxidative, fortified-style)", "Rueda sparkling"],
     whyConnection: "A high plateau with a continental climate → cold winters, late frosts and a big day–night swing → late ripening that keeps acidity while sugar builds. Poor, stony, well-drained soils and little rain → fresh, aromatic, slightly bitter Verdejo. Picking at night keeps the must cold and stops it oxidising.",
     color: "#B5C93A"
+  },
+  toro: {
+    name: "Toro",
+    country: "Spain",
+    climate: "Extreme continental, semi-arid",
+    climateDetail: "A continental and extreme climate with Atlantic influences, semi-arid, with little moisture and frequent spring frosts. Rainfall is only 350 to 400 mm a year, temperatures run from about −11 to 37 °C, and there are about 2,600 hours of sun, up to 3,000. The vineyards lie at 620 to 840 m, and in the ripening season the swing between day and night is more than 15 °C.",
+    keyGrapes: { red: ["Tinta de Toro (Tempranillo)", "Garnacha"], white: ["Verdejo"] },
+    subRegions: ["Toro", "Morales de Toro", "Villabuena del Puente"],
+    soils: "Sandy-loam, formed from Pliocene sandstone, clay and pebbly sediments, with brown calcareous soils low in organic matter (under 1%) and poor in trace elements except iron. Tinta de Toro grows best on stony ground over clay, while the lighter sandy soils suit Garnacha, Malvasía and Albillo.",
+    viticultureNotes: "Tinta de Toro is a clone of Tempranillo, with smaller berries, thicker skins and more tannin, and it is less acidic. Bush vines (en vaso) and trellising are both allowed, usually spaced about 3 × 3 m, and more than half of the vineyards are over 40 years old. The sandy soils helped old vines through phylloxera, so some very old, ungrafted vines survive (how many is an unofficial estimate). The maximum yield is 7,500 kg/ha for Tinta de Toro and 9,000 kg/ha for the other grapes.",
+    winemaking: "A red wine must be at least 85% Tinta de Toro, or at least 85% Garnacha for a Garnacha red, with up to 15% of other authorised grapes. Whites may be made only from Malvasía Castellana, Verdejo, Moscatel de Grano Menudo and Albillo Real, and most of the wine is red. Oak is common; the DO uses Spain's national terms Roble, Crianza, Reserva and Gran Reserva.",
+    typicalStyle: "Structured reds with a high content of tannin and a high alcohol, often 14 to 15%, ripe black fruit and often oak. They are less acidic and have a higher pH than the wines of the neighbouring areas.",
+    qualityLevels: ["Vino de España", "Vino de la Tierra de Castilla y León", "DO Toro (recognised in 1987)", "Roble", "Crianza / Reserva / Gran Reserva"],
+    whyConnection: "A high, dry plateau with a big swing between day and night → thick-skinned Tinta de Toro ripens fully, with high sugar and tannin but lower acidity. Sandy soils spared old vines from phylloxera → many very old vines with low yields → deep, powerful reds.",
+    color: "#8B3A2B"
+  },
+  navarra: {
+    name: "Navarra",
+    country: "Spain",
+    climate: "Mediterranean, with Atlantic influence in the north-west",
+    climateDetail: "A Mediterranean climate with some Atlantic influence in the north-north-west. Vineyards lie at about 300 to 550 m, rainfall is 350 to 800 mm, and the swing between day and night is high to very high, over 20 °C. The cierzo, a cold, dry north-west wind, cuts the risk of disease. The north (Baja Montaña, Valdizarbe) is the wetter and more Pyrenean; the south (Ribera Baja) is the driest and most arid, with about 360 to 380 mm of rain.",
+    keyGrapes: { red: ["Garnacha", "Tempranillo", "Cabernet Sauvignon", "Merlot"], white: ["Chardonnay", "Viura"] },
+    subRegions: ["Baja Montaña", "Valdizarbe", "Tierra Estella", "Ribera Alta", "Ribera Baja"],
+    soils: "Calcareous and permeable with few nutrients: loam to clay-loam, a pH of about 7.5 to 8.5, carbonates always above 35%, and a lot of stones on rolling land. Valdizarbe and Tierra Estella have marls with sandstone, and Ribera Baja lies on Quaternary terraces on the right bank of the Ebro.",
+    viticultureNotes: "The rules set no minimum share for any grape, only a list of authorised ones: for reds Garnacha Tinta, Tempranillo, Graciano, Mazuelo, Merlot, Cabernet Sauvignon, Syrah and Pinot Noir; for whites Chardonnay, Garnacha Blanca, Viura, Malvasía, Moscatel de Grano Menudo and Sauvignon Blanc. Phylloxera arrived in 1892, and replanting after 1912 was mostly Garnacha. The maximum yield is 8,000 kg/ha for reds and 9,200 kg/ha for whites, and localised irrigation is allowed.",
+    winemaking: "Rosado (rosé) is a speciality: it must be at least 85% red grapes, made by bleeding the vat (saignée) or by pressing. 'Rosado Tradición' is 100% Garnacha Tinta, run off by gravity alone, with a higher minimum alcohol. A Crianza red needs 24 months in total, at least 9 of them in oak of up to 330 litres; a Crianza white needs 18 months, at least 6 in oak. A sweet Moscatel de Grano Menudo wine (vino de licor) is made too, and Navarra has several Vinos de Pago, single-estate wines.",
+    typicalStyle: "By sub-zone: Baja Montaña mostly rosado and fruity reds of intense colour; Valdizarbe and Tierra Estella medium-bodied and aromatic, with fresh whites and rosados; Ribera Alta warmer, with reds suited to barrel ageing; Ribera Baja the fullest and ripest.",
+    qualityLevels: ["Vino de España", "DO Navarra (recognised in 1933)", "Rosado", "Rosado Tradición (100% Garnacha Tinta)", "Vino de Pueblo (one municipality)", "Crianza (24 months, 9 in oak)", "Vino de Pago (single estate)"],
+    whyConnection: "A Mediterranean climate with a dry cierzo wind and a big day–night swing → healthy, fruity grapes. Garnacha was replanted after phylloxera → a tradition of deeply coloured rosado made by bleeding the red vat. A climate that runs from the cool, wet Pyrenean north to the arid south → each sub-zone makes a different style.",
+    color: "#D98BA3"
   }
 };
