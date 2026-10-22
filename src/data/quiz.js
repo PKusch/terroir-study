@@ -3784,5 +3784,111 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "navarra",
     explanation: "Phylloxera arrived in 1892, and replanting after 1912 was mostly Garnacha, which also suited the tradition of deeply coloured rosado."
+  },
+  {
+    id: "es-75",
+    type: "scenario",
+    country: "Spain",
+    question: "At what altitude does most of Calatayud's vineyard lie?",
+    options: [
+      "Below 150 m, close to the Mediterranean coast",
+      "About 200 to 300 m, on the Ebro plain floor",
+      "About 650 to 900 m, some sites above 1,000 m",
+      "Only on valley floors under 400 m in altitude"
+    ],
+    answer: 2,
+    region: "calatayud",
+    explanation: "More than 80% of the vineyard is at 650 to 900 m, and the altitude gives cold nights that slow ripening."
+  },
+  {
+    id: "es-76",
+    type: "scenario",
+    country: "Spain",
+    question: "What do the rules of Calatayud say about spring frost?",
+    options: [
+      "It is very frequent in the valley bottoms",
+      "It never happens, because of the sea breeze",
+      "It is only a risk on the highest slopes of the DO",
+      "It is stopped by the warm winds from the south"
+    ],
+    answer: 0,
+    region: "calatayud",
+    explanation: "The climate is extreme continental, and frost in the valley bottoms is very frequent in spring."
+  },
+  {
+    id: "es-77",
+    type: "scenario",
+    country: "Spain",
+    question: "What does 'Calatayud Superior' require?",
+    options: [
+      "At least 85% Garnacha Tinta from vines over 50 years",
+      "At least 85% Tempranillo from vines over 20 years old",
+      "Any blend of authorised reds aged for two years in oak",
+      "At least 85% Syrah grown on terraces above 900 m"
+    ],
+    answer: 0,
+    region: "calatayud",
+    explanation: "It also needs yields of no more than 3,500 kg/ha, at least 14% alcohol and at least 6 months in oak."
+  },
+  {
+    id: "es-78",
+    type: "map",
+    country: "Spain",
+    question: "Which Aragón DO, the youngest in the region, is known for old-vine Garnacha grown at 650 to 900 m in the west of Zaragoza province?",
+    answer: "calatayud",
+    explanation: "Calatayud is the youngest DO in Aragón, built on old Garnacha vines at 650 to 900 m."
+  },
+  {
+    id: "es-79",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the most widespread soil type in Cariñena?",
+    options: [
+      "'Cascajo': brown limestone over loose rock",
+      "Slate in terraces cut by the Duero river gorge",
+      "Pure sand that kept the vines free of phylloxera",
+      "Black volcanic soil from an ancient eruption"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "More than 80% of the soils are Miocene clays, and cascajo is the most extensive type."
+  },
+  {
+    id: "es-80",
+    type: "connection",
+    country: "Spain",
+    question: "Why is the Cariñena climate so dry?",
+    options: [
+      "Hot summers, cold winters and a dry cierzo wind",
+      "It sits in the rain shadow of the Pyrenees only",
+      "The Atlantic Ocean warms the vineyards all year round",
+      "Irrigation is banned, so the soils cannot hold any water"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "The climate is temperate with a strong continental tendency, and the cierzo contributes to the dryness."
+  },
+  {
+    id: "es-81",
+    type: "scenario",
+    country: "Spain",
+    question: "What does 'Viñas viejas' mean on a Cariñena label?",
+    options: [
+      "Vines over 20 years old",
+      "Vines over 35 years old yielding under 4,500 kg/ha",
+      "Vines over 50 years old yielding under 3,500 kg/ha",
+      "Vines that have never been grafted onto rootstock"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "In Cariñena the threshold is 20 years; in neighbouring Calatayud it is 35."
+  },
+  {
+    id: "es-82",
+    type: "map",
+    country: "Spain",
+    question: "Which Aragón DO, south-west of Zaragoza, probably gave its name to the Carignan grape?",
+    answer: "carinena",
+    explanation: "The town of Cariñena is likely where Carignan got its name, and the region has had a wine law since the Estatuto de la Vid of 1696."
   }
 ];
