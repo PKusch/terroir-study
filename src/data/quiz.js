@@ -3528,5 +3528,261 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rueda",
     explanation: "The principal varieties (Verdejo, Sauvignon Blanc, Viura, Chardonnay and Viognier) must be at least 75%, with up to 25% of secondary varieties."
+  },
+  {
+    id: "es-57",
+    type: "map",
+    country: "Spain",
+    question: "Which high, semi-arid Castilla y León region makes powerful reds from Tinta de Toro?",
+    answer: "toro",
+    explanation: "Toro, on the Duero plain in Zamora, has an extreme continental, semi-arid climate. Its reds are at least 85% Tinta de Toro, a Tempranillo clone with thick skins."
+  },
+  {
+    id: "es-58",
+    type: "scenario",
+    country: "Spain",
+    question: "What is Tinta de Toro?",
+    options: [
+      "A cross of Garnacha and Cabernet Sauvignon grown only in Zamora",
+      "A local clone of Tempranillo with thicker skins",
+      "A white grape grown for sparkling wine",
+      "The local name for Mencía"
+    ],
+    answer: 1,
+    region: "toro",
+    explanation: "Tinta de Toro is genetically very close to Tempranillo, with smaller berries, thicker skins and more tannin, and less acidity."
+  },
+  {
+    id: "es-59",
+    type: "scenario",
+    country: "Spain",
+    question: "What share of a Toro red must be Tinta de Toro?",
+    options: [
+      "At least 50%",
+      "At least 95%",
+      "At least 85%",
+      "There is no minimum"
+    ],
+    answer: 2,
+    region: "toro",
+    explanation: "A Toro red must be at least 85% Tinta de Toro (or at least 85% Garnacha for a Garnacha red), with up to 15% of other authorised grapes."
+  },
+  {
+    id: "es-60",
+    type: "connection",
+    country: "Spain",
+    question: "How did Toro keep very old vines through phylloxera?",
+    options: [
+      "Its sandy soils protected them",
+      "Growers grafted every vine onto American roots in the 1880s",
+      "The Duero floods the vineyards each winter",
+      "A law banned all imports of vines"
+    ],
+    answer: 0,
+    region: "toro",
+    explanation: "Sandy soils helped vines survive phylloxera, so some very old, ungrafted vines remain. How many is an unofficial estimate."
+  },
+  {
+    id: "es-61",
+    type: "scenario",
+    country: "Spain",
+    question: "How old are more than half of Toro's vineyards?",
+    options: [
+      "Under 10 years",
+      "About 20 years",
+      "Over 100 years",
+      "Over 40 years"
+    ],
+    answer: 3,
+    region: "toro",
+    explanation: "The rules say more than 50% of Toro's vineyards are over 40 years old, mostly bush vines, which keep yields low."
+  },
+  {
+    id: "es-62",
+    type: "scenario",
+    country: "Spain",
+    question: "How is Toro's climate described in its rules?",
+    options: [
+      "Cool and wet Atlantic, like Galicia, with rain all year",
+      "Extreme continental, semi-arid",
+      "Warm and humid Mediterranean coast",
+      "Cool maritime, like Rías Baixas"
+    ],
+    answer: 1,
+    region: "toro",
+    explanation: "Toro is continental and extreme, semi-arid, with only 350 to 400 mm of rain a year and frequent spring frosts."
+  },
+  {
+    id: "es-63",
+    type: "scenario",
+    country: "Spain",
+    question: "At what altitude do Toro's vineyards lie?",
+    options: [
+      "About 620 to 840 m",
+      "Below 100 m",
+      "About 200 to 300 m",
+      "Above 1,500 m"
+    ],
+    answer: 0,
+    region: "toro",
+    explanation: "Toro's vineyards are high on the Duero plain, at about 620 to 840 m, with the highest ones in the south-west."
+  },
+  {
+    id: "es-64",
+    type: "connection",
+    country: "Spain",
+    question: "Why are Toro's reds high in alcohol and tannin but lower in acidity?",
+    options: [
+      "The wines are fortified before bottling, which raises the alcohol",
+      "Winemakers add sugar to every vintage",
+      "Hot, dry sun ripens the thick-skinned grapes fully",
+      "The grapes are picked before they are ripe"
+    ],
+    answer: 2,
+    region: "toro",
+    explanation: "With about 2,600 hours of sun and little rain, Tinta de Toro ripens fully, so the wines are structured and strong, with higher pH and less acidity."
+  },
+  {
+    id: "es-65",
+    type: "scenario",
+    country: "Spain",
+    question: "In which year was Toro recognised as a DO?",
+    options: [
+      "1933",
+      "1987",
+      "1958",
+      "2004"
+    ],
+    answer: 1,
+    region: "toro",
+    explanation: "Toro was recognised as a DO in 1987, although it was already named in the 1933 Wine Statute."
+  },
+  {
+    id: "es-66",
+    type: "map",
+    country: "Spain",
+    question: "Which north-eastern region, known for deeply coloured rosado, runs from the Pyrenean foothills to the Ebro in five sub-zones?",
+    answer: "navarra",
+    explanation: "Navarra has a Mediterranean climate with Atlantic influence in the north-west, and sub-zones from Baja Montaña to Ribera Baja."
+  },
+  {
+    id: "es-67",
+    type: "scenario",
+    country: "Spain",
+    question: "How many sub-zones does Navarra have?",
+    options: [
+      "Five",
+      "Three",
+      "Seven",
+      "Twelve"
+    ],
+    answer: 0,
+    region: "navarra",
+    explanation: "The five are Baja Montaña, Valdizarbe, Tierra Estella, Ribera Alta and Ribera Baja."
+  },
+  {
+    id: "es-68",
+    type: "scenario",
+    country: "Spain",
+    question: "Which Navarra sub-zone is the driest and most arid?",
+    options: [
+      "Baja Montaña",
+      "Ribera Baja",
+      "Valdizarbe",
+      "Tierra Estella"
+    ],
+    answer: 1,
+    region: "navarra",
+    explanation: "Ribera Baja, in the south by the Ebro, has about 360 to 380 mm of rain and a water deficit of over 300 mm. Valdizarbe is the wettest."
+  },
+  {
+    id: "es-69",
+    type: "connection",
+    country: "Spain",
+    question: "What does the cierzo do for Navarra's vineyards?",
+    options: [
+      "A warm wind that raises the sugar in the grapes each summer",
+      "A sea breeze that brings fog and rain",
+      "A cold, dry north-west wind that cuts disease",
+      "It carries dust that makes the grapes bitter"
+    ],
+    answer: 2,
+    region: "navarra",
+    explanation: "The cierzo is a cold, dry north-west wind. It dries the vines and reduces disease."
+  },
+  {
+    id: "es-70",
+    type: "scenario",
+    country: "Spain",
+    question: "What must a Navarra rosado contain?",
+    options: [
+      "100% Garnacha Tinta",
+      "At least 50% white grapes",
+      "Only Tempranillo",
+      "At least 85% red grapes"
+    ],
+    answer: 3,
+    region: "navarra",
+    explanation: "A Navarra rosado must be at least 85% red grapes, made by bleeding the vat or by pressing."
+  },
+  {
+    id: "es-71",
+    type: "scenario",
+    country: "Spain",
+    question: "What is a Navarra Rosado Tradición?",
+    options: [
+      "100% Garnacha Tinta, run off by gravity",
+      "A sparkling rosé made from Chardonnay by the tank method",
+      "A rosé aged in oak for two years",
+      "A blend of Tempranillo and white grapes"
+    ],
+    answer: 0,
+    region: "navarra",
+    explanation: "Rosado Tradición is made entirely from Garnacha Tinta, run off by gravity alone, with a higher minimum alcohol than other rosados."
+  },
+  {
+    id: "es-72",
+    type: "scenario",
+    country: "Spain",
+    question: "What does a Navarra Crianza red need?",
+    options: [
+      "6 months in total, none of it in oak",
+      "24 months, at least 9 in oak",
+      "12 months in total, all in steel",
+      "60 months in total, with 18 in oak"
+    ],
+    answer: 1,
+    region: "navarra",
+    explanation: "A Navarra Crianza red needs 24 months in total, at least 9 in oak of up to 330 litres. A white needs 18 months, at least 6 in oak."
+  },
+  {
+    id: "es-73",
+    type: "scenario",
+    country: "Spain",
+    question: "What do Navarra's rules say about the share of each grape in a table wine?",
+    options: [
+      "At least 85% of the named grape",
+      "At least 75% Garnacha in every red",
+      "No minimum, only a list of authorised grapes",
+      "At least 60% Tempranillo in every red wine, by law"
+    ],
+    answer: 2,
+    region: "navarra",
+    explanation: "The rules set only a list of authorised grapes, with no minimum share for any of them. The percentages apply to rosado and the sweet Moscatel wine."
+  },
+  {
+    id: "es-74",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Navarra make so much Garnacha?",
+    options: [
+      "Replanting after 1912 was mostly Garnacha",
+      "Garnacha is the only grape the DO allows",
+      "Garnacha is the only grape that survives frost",
+      "Garnacha is the only grape that grows without irrigation"
+    ],
+    answer: 0,
+    region: "navarra",
+    explanation: "Phylloxera arrived in 1892, and replanting after 1912 was mostly Garnacha, which also suited the tradition of deeply coloured rosado."
   }
 ];
