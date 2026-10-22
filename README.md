@@ -208,6 +208,8 @@ The region facts, grape profiles and quiz questions were first written from memo
 
 It is not a substitute for your course book. Many official pages could not be read, so some points rest on secondary sources, and where sources disagreed the number was left out rather than guessed. Still unchecked: Soave and Bolgheri soils, the Vin Santo barrels, bush vines in Puglia, Elgin and Stellenbosch soils, how far Coonawarra is from the sea, and the legal ageing minimums for Naoussa and Nemea Reserve. The mock exam's 50 questions and 55% pass mark are WSET's published format; its 72-seconds-a-question clock is this app's own, because WSET gives two hours for the whole written paper and no time for the multiple-choice part alone.
 
+Rías Baixas, Rueda and Cava were researched separately, from the rule books themselves where they could be read: the Rías Baixas DO's 2024 specification, Rueda's own site, and the Cava specification. Left out because the sources disagreed or could not be read: Cava Reserva's minimum ageing (one text says 15 months, newer ones 18), the Penedès altitude bands, how Corpinnat split from Cava, the exact Rueda tiers before the 2024 change, and Rueda's minimum alcohol (the DO's own pages give two figures).
+
 ## Tech Stack
 
 - **React 18** — Component-based UI with hooks
