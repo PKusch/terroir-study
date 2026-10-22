@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **40** regions | 📍 **204** places on the map | ❓ **245** quiz questions | 🍇 **86** grapes | ✅ **131** tests |
+| 🌍 **9** countries | 🗺️ **43** regions | 📍 **217** places on the map | ❓ **271** quiz questions | 🍇 **89** grapes | ✅ **131** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -117,7 +117,7 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 |:-:|---|---|
 | 🇫🇷 | **France** | Bordeaux · Burgundy · Northern Rhône · Southern Rhône · Loire Valley · Alsace · Champagne · Languedoc-Roussillon · Provence · South-West · Beaujolais |
 | 🇮🇹 | **Italy** | Piedmont · Tuscany · Veneto · Southern Italy |
-| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) |
+| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) |
 | 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz |
 | 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
 | 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo |
@@ -151,12 +151,15 @@ Italy (4 WSET L3 exam areas) with its own map, Rome as orientation marker, the P
 - **Veneto** — Corvina and appassimento (Valpolicella, Ripasso, Amarone, Recioto), Soave, Prosecco by the tank method
 - **Southern Italy** — Aglianico (Taurasi, Vulture), Fiano and Greco, Primitivo and Negroamaro, Etna and Marsala; heat moderated by altitude and sea
 
-Spain (4 WSET L3 exam areas) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
+Spain (7 WSET L3 exam areas) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
 
 - **Rioja** — Tempranillo blends across Rioja Alta, Alavesa and Oriental; the Cantabrian shield, clay-limestone, and the Crianza–Reserva–Gran Reserva oak ladder
 - **Ribera del Duero** — Tempranillo (Tinto Fino) at altitude on the Duero plateau; hot days, cold nights, frost, and darker, firmer wines than Rioja
 - **Priorat** — Old-vine Garnacha and Cariñena on licorella slate terraces; tiny yields, concentrated reds, DOQ status
 - **Sherry (Jerez)** — Palomino on albariza; Fino and Manzanilla under flor, Oloroso oxidative, Amontillado between, Pedro Ximénez sweet; the solera system
+- **Rías Baixas** — cool, wet Atlantic Galicia on granite; Albariño on pergolas raised off the damp ground against fungal disease; tiny holdings; the 100% Albariño and 70% rules, five sub-zones, Barrica and bottle-fermented sparkling (from the DO's 2024 specification)
+- **Rueda** — Verdejo on a high Duero plateau with cold winters, late frosts and a big day–night swing; stony soils, machine harvest at night against oxidation; the 2024 rule that principal varieties make at least 75%; Dorado and sparkling
+- **Cava (Penedès)** — traditional-method sparkling around Sant Sadurní d'Anoia; Macabeo, Xarel·lo and Parellada; at least 9 months on the lees for Guarda, 30 for Gran Reserva and 36 for Paraje Calificado; dosage from Brut Nature to Dulce
 
 Germany (3 WSET L3 exam regions) with its own map, Berlin as orientation marker, the Rhine and the Mosel, and the neighbouring countries drawn faintly:
 
@@ -243,14 +246,14 @@ npm run dev
 ## Roadmap
 
 - [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
-- [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry)
+- [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry, Rías Baixas, Rueda, Cava)
 - [x] Germany (Mosel, Rheingau, Pfalz)
 - [x] Austria (Niederösterreich, Burgenland, Steiermark)
 - [x] Portugal (Vinho Verde, Douro, Alentejo)
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (245: 63 France, 30 Italy, 30 Spain, 18 Germany, 17 Austria, 17 Portugal, 17 Hungary, 17 Greece, 36 New World; 180 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (271: 63 France, 30 Italy, 56 Spain, 18 Germany, 17 Austria, 17 Portugal, 17 Hungary, 17 Greece, 36 New World; 203 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -258,7 +261,7 @@ npm run dev
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
-- [x] Sub-region drill-down maps (Zoom into any region: 204 places marked across 40 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 217 places marked across 43 regions)
 
 ## About
 
