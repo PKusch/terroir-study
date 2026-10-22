@@ -155,7 +155,7 @@ test("the same seed gives the same numbers, a different seed different ones", ()
 });
 
 test("numbered papers are fixed, never share a question, and together use the whole bank", () => {
-  const papers = [0, 1, 2, 3].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
+  const papers = [0, 1, 2, 3, 4, 5, 6, 7].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
   assert.equal(papers[0].length, 50);
   assert.equal(papers[1].length, 50);
   assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 0), papers[0], "the same every time");
@@ -204,7 +204,7 @@ test("paperPoolSize reports what each kind of paper can offer", () => {
 });
 
 test("every kind of paper is listed with a label and a note", () => {
-  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "paper4", "missed", "unseen"]);
+  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "paper4", "paper5", "paper6", "paper7", "paper8", "missed", "unseen"]);
   for (const p of PAPERS) assert.ok(p.label && p.note);
 });
 
@@ -230,12 +230,12 @@ test("a question taken out of the bank just drops out of its paper", () => {
   assert.ok(!fixedPaperIds(smaller, 0).includes(gone));
 });
 
-test("Papers 3 and 4 hold the rest, and share nothing with Papers 1 and 2 or each other", () => {
+test("Papers 3 onwards hold the rest, and share nothing with Papers 1 and 2 or each other", () => {
   const frozen = new Set([...fixedPaperIds(QUIZ_QUESTIONS, 0), ...fixedPaperIds(QUIZ_QUESTIONS, 1)]);
-  const three = fixedPaperIds(QUIZ_QUESTIONS, 2), four = fixedPaperIds(QUIZ_QUESTIONS, 3);
-  assert.ok([...three, ...four].every((id) => !frozen.has(id)));
-  assert.ok(three.every((id) => !four.includes(id)));
-  assert.equal(three.length + four.length + frozen.size, multipleChoice(QUIZ_QUESTIONS).length);
+  const rest = [2, 3, 4, 5, 6, 7].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
+  assert.ok(rest.flat().every((id) => !frozen.has(id)));
+  assert.equal(new Set(rest.flat()).size, rest.flat().length, "no question on two of them");
+  assert.equal(rest.flat().length + frozen.size, multipleChoice(QUIZ_QUESTIONS).length);
 });
 
 test("Paper 4 is empty until Paper 3 is full, then takes the next fifty", () => {

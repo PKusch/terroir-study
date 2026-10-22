@@ -163,8 +163,10 @@ export const MockExam = ({ active = true }) => {
 
         <div style={label}>Paper</div>
         <div style={{ display: "flex", gap: "8px", marginBottom: "16px", flexWrap: "wrap" }}>
-          {PAPERS.map((p) => {
-            const n = paperPoolSize(QUIZ_QUESTIONS, p.id, { progress, country });
+          {PAPERS.map((p) => ({ p, n: paperPoolSize(QUIZ_QUESTIONS, p.id, { progress, country }) }))
+            // A numbered paper only shows once there are questions for it.
+            .filter(({ p, n }) => !isFixedPaper(p.id) || n > 0)
+            .map(({ p, n }) => {
             return (
               <button key={p.id} aria-pressed={paper === p.id} onClick={() => setPaper(p.id)} disabled={n === 0} style={{
                 ...choiceButton(paper === p.id), flex: "1 1 140px", textAlign: "center", opacity: n === 0 ? 0.4 : 1
