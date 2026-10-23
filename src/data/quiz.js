@@ -5520,5 +5520,200 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "newZealand",
     explanation: "Riesling is about 17% of its area."
+  },
+  {
+    id: "nw-49",
+    type: "scenario",
+    country: "New World",
+    question: "Why is the Anderson Valley in Mendocino cooler than inland Mendocino?",
+    options: [
+      "A large inland lake",
+      "Volcanic heat from the soil",
+      "The Sierra Nevada snowmelt",
+      "Pacific fog"
+    ],
+    answer: 3,
+    region: "california",
+    explanation: "It is known for Pinot Noir and sparkling wine."
+  },
+  {
+    id: "nw-50",
+    type: "scenario",
+    country: "New World",
+    question: "How is the Santa Cruz Mountains AVA boundary set?",
+    options: [
+      "By county lines only",
+      "By the river catchment area",
+      "By soil type, shale only",
+      "By elevation, above fog"
+    ],
+    answer: 3,
+    region: "california",
+    explanation: "It was approved in 1981, and soils are thin, stony and well drained."
+  },
+  {
+    id: "nw-51",
+    type: "scenario",
+    country: "New World",
+    question: "What cools Lodi's hot summer days?",
+    options: [
+      "The Pacific fog",
+      "The Santa Ana wind",
+      "The Delta breeze",
+      "The Sierra snowmelt"
+    ],
+    answer: 2,
+    region: "california",
+    explanation: "The Delta is the only break in the Coast Ranges."
+  },
+  {
+    id: "nw-52",
+    type: "scenario",
+    country: "New World",
+    question: "Why does Monterey need irrigation?",
+    options: [
+      "Rainfall is over 100 inches a year",
+      "The soil is pure clay, which holds no water",
+      "The vines are all own-rooted on sand",
+      "Rainfall is only about 10 to 16 inches"
+    ],
+    answer: 3,
+    region: "california",
+    explanation: "Winds from Monterey Bay blow down the Salinas Valley, and Chardonnay is about half of the vines."
+  },
+  {
+    id: "nw-53",
+    type: "scenario",
+    country: "New World",
+    question: "Which soil is rare in Chile and found in Limarí?",
+    options: [
+      "Granite soil",
+      "Black volcanic ash soil",
+      "Red slate soil",
+      "Calcareous soil"
+    ],
+    answer: 3,
+    region: "chile",
+    explanation: "Limarí is semi-arid, with Camanchaca fog, and Chardonnay is its leading grape."
+  },
+  {
+    id: "nw-54",
+    type: "scenario",
+    country: "New World",
+    question: "What is Camanchaca?",
+    options: [
+      "A cold wind off the Andes",
+      "A frost that hits spring buds",
+      "A sea current of the Pacific",
+      "Chile's morning coastal fog"
+    ],
+    answer: 3,
+    region: "chile",
+    explanation: "It cools the maritime-influenced Limarí Valley."
+  },
+  {
+    id: "nw-55",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape is the main red of arid Elqui?",
+    options: [
+      "Carmenère",
+      "Pinot Noir",
+      "Syrah",
+      "Malbec"
+    ],
+    answer: 2,
+    region: "chile",
+    explanation: "Vineyards climb to roughly 2,000 m."
+  },
+  {
+    id: "nw-56",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape is Peumo, in Cachapoal, known for?",
+    options: [
+      "Pinot Noir",
+      "Riesling",
+      "Torrontés",
+      "Carmenère"
+    ],
+    answer: 3,
+    region: "chile",
+    explanation: "Cabernet Sauvignon, Carmenère and Merlot lead the valley."
+  },
+  {
+    id: "nw-57",
+    type: "scenario",
+    country: "New World",
+    question: "Which grapes are old vines of the Itata Valley?",
+    options: [
+      "Cabernet Sauvignon and Merlot",
+      "Syrah and Viognier",
+      "Carmenère and Sauvignon Blanc",
+      "País and Moscatel"
+    ],
+    answer: 3,
+    region: "chile",
+    explanation: "Itata soils are sandy and granitic."
+  },
+  {
+    id: "nw-58",
+    type: "scenario",
+    country: "New World",
+    question: "What share of Argentina's vineyard area is in Mendoza province?",
+    options: [
+      "About 10% of it",
+      "About 25% of it",
+      "About 40% of it",
+      "More than 70%"
+    ],
+    answer: 3,
+    region: "argentina",
+    explanation: "Cafayate in Salta stands at about 1,683 m."
+  },
+  {
+    id: "nw-59",
+    type: "scenario",
+    country: "New World",
+    question: "What is Worcester best known for in South Africa?",
+    options: [
+      "Pinot Noir on the coast",
+      "Cool-climate Riesling",
+      "Most wine, and brandy",
+      "Pinotage on old bush vines"
+    ],
+    answer: 2,
+    region: "southAfrica",
+    explanation: "It depends on irrigation and makes fortified Muscadel and Hanepoot."
+  },
+  {
+    id: "nw-60",
+    type: "scenario",
+    country: "New World",
+    question: "What cools Durbanville's vineyards?",
+    options: [
+      "Snow melt from the Hex River mountains",
+      "Warm dry winds from the Karoo",
+      "The Agulhas Current of the Indian Ocean",
+      "Table Bay and False Bay winds"
+    ],
+    answer: 3,
+    region: "southAfrica",
+    explanation: "Sauvignon Blanc is the signature."
+  },
+  {
+    id: "nw-61",
+    type: "scenario",
+    country: "New World",
+    question: "Why does Robertson need the Breede River?",
+    options: [
+      "Over 1,500 mm of rain, so it needs drainage",
+      "The river brings cooling snow to the vines",
+      "The river stops frost from reaching the vines",
+      "Under 400 mm of rain, so irrigation"
+    ],
+    answer: 3,
+    region: "southAfrica",
+    explanation: "Its soils are lime-rich, and Chardonnay is the signature."
   }
 ];
