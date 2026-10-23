@@ -473,6 +473,27 @@ export const GRAPES = {
     notes: "The grape of Montefalco in Umbria, thick-skinned and very tannic. It needs careful extraction and long ageing, in large oak and bottle, to soften; it can be made dry or as a sweet passito."
   },
 
+  lagrein: {
+    name: "Lagrein",
+    aliases: [],
+    colour: "red",
+    body: "high",
+    acidity: "medium",
+    tannin: "high",
+    aromas: ["blackberry", "plum", "violet", "dark chocolate", "spice"],
+    notes: "A dark red grape grown in Alto Adige, deep in colour with firm tannin; it suits the warm valley floor around Bolzano, and oak softens it."
+  },
+  teroldego: {
+    name: "Teroldego",
+    aliases: [],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["blackberry", "wild berries", "plum", "violet", "pepper"],
+    notes: "The red grape of the Campo Rotaliano plain in Trentino, deep in colour and fruity; Teroldego Rotaliano must be made from this grape alone."
+  },
+
   // ── Whites ────────────────────────────────────────────────────────────────
   grunerVeltliner: {
     name: "Grüner Veltliner",
@@ -887,6 +908,24 @@ export const GRAPES = {
     acidity: "high",
     aromas: ["lemon", "green apple", "white peach", "almond", "white flowers"],
     notes: "The white grape of the Marche, with high acidity and a bitter-almond finish. Most is made in stainless steel for freshness, and the best, from Matelica and from Jesi Riserva, can age for many years."
+  },
+  friulano: {
+    name: "Friulano",
+    aliases: ["Tocai Friulano", "Tocai"],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["white flowers", "pear", "almond", "fennel", "stone"],
+    notes: "The traditional white of Friuli, once called Tocai Friulano until an EU ruling over the name Tokaji. It gives floral wines that pick up nut and fennel notes with age."
+  },
+  ribollaGialla: {
+    name: "Ribolla Gialla",
+    aliases: ["Ribolla"],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["apricot", "tangerine", "Asian pear", "citrus", "white flowers"],
+    notes: "A high-acid white of the hills of Friuli, once mostly a blending grape. It is now made as a fresh still wine, as spumante, and as an amber wine left on its skins."
   },
   palomino: {
     name: "Palomino",

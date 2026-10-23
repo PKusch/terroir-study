@@ -124,5 +124,37 @@ export const ITALY_REGIONS = {
     qualityLevels: ["Vino d'Italia", "IGT", "Frascati DOC (1966)", "Frascati Superiore DOCG (2011)", "Cannellino di Frascati DOCG (2011)"],
     whyConnection: "Volcanic soils and warm sea breezes → fresh, light whites.",
     color: "#D9843B"
+  },
+  friuli: {
+    name: "Friuli-Venezia Giulia",
+    country: "Italy",
+    climate: "Warm days, cool nights, Alps and Adriatic",
+    climateDetail: "Warm days and chilly nights, with the Alps sheltering the hills to the north and the Adriatic moderating temperature extremes to the south. In Collio the cool Bora wind adds freshness and acidity, and harvest is normally in September.",
+    keyGrapes: { red: [], white: ["Pinot Grigio", "Friulano", "Ribolla Gialla"] },
+    subRegions: ["Cormons", "Prepotto", "Cividale del Friuli"],
+    subRegionsLabel: "Towns (Collio and Colli Orientali)",
+    soils: "The hills have marl and flysch sandstone; the valleys have clay, sand and gravel, and Friuli Grave is a wide flat valley of large stones that warm by day and cool at night. Collio is calcareous marl and flysch sandstone.",
+    viticultureNotes: "Collio, Colli Orientali and Friuli Grave are the main DOCs. In Collio the single-grape wines of Friulano, Pinot Grigio, Ribolla Gialla and Pinot Bianco each need at least 85% of that grape; in Friuli Grave, Pinot Grigio and Refosco dal Peduncolo Rosso need at least 95%. Over 85% of Collio's production is white. Colli Orientali has five sub-zones: Cialla, Faedis, Prepotto, Rosazzo and Savorgnano.",
+    winemaking: "Collio is made with cold fermentation, pneumatic presses and limited oak. A Collio Riserva needs 20 months for whites and 30 months for reds, including 6 in barrel. Orange (amber) wine, white grapes left on their skins for a long time, has been revived in the region since the mid-1990s.",
+    typicalStyle: "Fresh to concentrated whites, with floral Friulano, citrusy Pinot Grigio (richer in Collio) and high-acid Ribolla Gialla, plus skin-contact amber wines.",
+    qualityLevels: ["Vino d'Italia", "IGT", "Collio DOC (1968)", "Colli Orientali del Friuli DOC (1970)", "Friuli Grave DOC (1970)", "Picolit DOCG (2006)", "Ramandolo and Rosazzo DOCG (2011)"],
+    whyConnection: "Alps to the north and sea to the south → warm days with cool nights and fresh whites. Marl and flysch sandstone → structured Collio whites. Skin-contact experiments by pioneers such as Gravner and Radikon → amber wines.",
+    color: "#4E9A8F"
+  },
+  trentinoAltoAdige: {
+    name: "Trentino-Alto Adige",
+    country: "Italy",
+    climate: "Alpine-Mediterranean",
+    climateDetail: "Alto Adige is described as Alpine-Mediterranean, with over 300 sunny days a year, about 1,950 hours of sun and about 815 mm of rain; July days average about 30 °C and nights about 16 °C. Vineyards lie at 200 to 1,000 m, and the Ora wind blows up from Lake Garda.",
+    keyGrapes: { red: ["Lagrein", "Teroldego"], white: ["Pinot Grigio", "Chardonnay"] },
+    subRegions: ["Bolzano", "Termeno", "Merano", "Trento", "Mezzolombardo"],
+    subRegionsLabel: "Towns",
+    soils: "More than 150 different soil types in Alto Adige: red volcanic porphyry around Bolzano, dolomitic limestone mainly south of Bolzano, and quartz, slate and mica in the Valle Isarco and Val Venosta. Trentino has volcanic, alluvial, clay and limestone soils.",
+    viticultureNotes: "Alto Adige has about 5,860 ha, 65% white and 35% red, and its single-grape wines need at least 85% of that grape. Lagrein and Schiava are indigenous reds, and Teroldego Rotaliano must be 100% Teroldego. Alto Adige's sub-zones include Terlano, Valle Isarco, Valle Venosta, Colli di Bolzano, Meranese and Santa Maddalena.",
+    winemaking: "Trento DOC is a traditional-method sparkling wine from Chardonnay, Pinot Bianco, Pinot Meunier and Pinot Nero, with at least 15 months on the lees for non-vintage, 24 for a Millesimato and 36 for a Riserva. Alto Adige Spumante Riserva needs 42 months including 36 on the lees.",
+    typicalStyle: "Crisp, aromatic whites and fine sparkling wine from the cool slopes; reds such as Lagrein are deeply coloured, and Teroldego is fruity.",
+    qualityLevels: ["Vino d'Italia", "IGT", "Trentino DOC (1971)", "Teroldego Rotaliano DOC (1971)", "Alto Adige DOC (1975)", "Trento DOC (1993)"],
+    whyConnection: "Alpine slopes with warm Mediterranean air from Lake Garda → ripe fruit with fresh acidity. Altitude from 200 to 1,000 m → cool nights and aromatic whites. Chardonnay planted since about 1900 → the base for Trento DOC sparkling wine.",
+    color: "#5A6FA8"
   }
 };

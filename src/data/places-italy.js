@@ -67,5 +67,17 @@ export const PLACES_ITALY = {
     "Grottaferrata": [12.66667, 41.8],
     "Monte Porzio Catone": [12.71667, 41.81667],
     "Monte Compatri": [12.73722, 41.80806]
+  },
+  friuli: {
+    "Cormons": [13.4667, 45.95],
+    "Prepotto": [13.4833, 46.05],
+    "Cividale del Friuli": [13.4333, 46.1]
+  },
+  trentinoAltoAdige: {
+    "Bolzano": [11.35, 46.5],
+    "Termeno": [11.25, 46.35],
+    "Merano": [11.1667, 46.6667],
+    "Trento": [11.1167, 46.0667],
+    "Mezzolombardo": [11.1, 46.2167]
   }
 };

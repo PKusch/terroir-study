@@ -42,5 +42,15 @@ export const ITALY_REGION_PATHS = {
     // Lazio: the Alban Hills south-east of Rome, where Frascati is grown
     d: `M${pt(12.4,42.0)} L${pt(12.9,42.0)} L${pt(12.9,41.65)} L${pt(12.4,41.65)} Z`,
     label: geoToSvg(12.65, 41.85)
+  },
+  friuli: {
+    // Friuli: Collio and Colli Orientali on the Slovenian border, with the Grave plain to the west
+    d: `M${pt(12.6,46.15)} L${pt(13.5,46.2)} L${pt(13.65,45.9)} L${pt(13.4,45.7)} L${pt(12.6,45.85)} Z`,
+    label: geoToSvg(13.1, 46.0)
+  },
+  trentinoAltoAdige: {
+    // Trentino-Alto Adige: the Adige valley from Bolzano south to Trento
+    d: `M${pt(10.95,46.75)} L${pt(11.7,46.8)} L${pt(11.75,46.05)} L${pt(11.2,45.95)} L${pt(10.95,46.1)} Z`,
+    label: geoToSvg(11.35, 46.4)
   }
 };
