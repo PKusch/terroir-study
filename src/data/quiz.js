@@ -5340,5 +5340,185 @@ export const QUIZ_QUESTIONS = [
     question: "Which alpine region has Alto Adige and Trentino, with Lagrein, Teroldego and Trento DOC sparkling wine?",
     answer: "trentinoAltoAdige",
     explanation: "Alto Adige is 65% white and 35% red."
+  },
+  {
+    id: "nw-37",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape is almost half of McLaren Vale's crush each year?",
+    options: [
+      "Riesling",
+      "Pinot Noir",
+      "Semillon",
+      "Shiraz"
+    ],
+    answer: 3,
+    region: "australia",
+    explanation: "Grenache, from vines planted in the late 1800s and early 1900s, is the base of its GSM blends."
+  },
+  {
+    id: "nw-38",
+    type: "scenario",
+    country: "New World",
+    question: "Why are the Adelaide Hills cool for South Australia?",
+    options: [
+      "The ocean cold current on a low coast",
+      "Dense forest that shades the vines",
+      "A lake that cools the valley floor",
+      "Altitude, with vineyards up to 714 m"
+    ],
+    answer: 3,
+    region: "australia",
+    explanation: "Many meso-climates exist, and Sauvignon Blanc, Chardonnay and Pinot Noir do well."
+  },
+  {
+    id: "nw-39",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape is the most planted on the Mornington Peninsula?",
+    options: [
+      "Shiraz",
+      "Pinot Noir",
+      "Semillon",
+      "Cabernet Sauvignon"
+    ],
+    answer: 1,
+    region: "australia",
+    explanation: "No vineyard is more than 7 km from the sea."
+  },
+  {
+    id: "nw-40",
+    type: "scenario",
+    country: "New World",
+    question: "What are Heathcote's soils known as?",
+    options: [
+      "Black volcanic ash soils",
+      "White limestone and chalk soils",
+      "Pale sandy beach soils",
+      "Red Cambrian greenstone soils"
+    ],
+    answer: 3,
+    region: "australia",
+    explanation: "Shiraz is the signature grape."
+  },
+  {
+    id: "nw-41",
+    type: "scenario",
+    country: "New World",
+    question: "What is special about Goulburn Valley's Marsanne?",
+    options: [
+      "It is the only Marsanne in the world",
+      "Oldest and largest in the world",
+      "It is always aged in new oak barrels",
+      "It is grown only as a sweet wine"
+    ],
+    answer: 1,
+    region: "australia",
+    explanation: "Tahbilk was founded in 1860."
+  },
+  {
+    id: "nw-42",
+    type: "scenario",
+    country: "New World",
+    question: "What is Tasmania's January mean temperature, among Australian regions?",
+    options: [
+      "The highest, at 28.0 °C",
+      "About the same as Riverina",
+      "About the same as Barossa",
+      "The lowest, at 15.6 °C"
+    ],
+    answer: 3,
+    region: "australia",
+    explanation: "Pinot Noir and Chardonnay drive its traditional-method sparkling wine."
+  },
+  {
+    id: "nw-43",
+    type: "scenario",
+    country: "New World",
+    question: "How long does Great Southern Riesling need to peak?",
+    options: [
+      "About six months",
+      "About eight weeks",
+      "About ten years",
+      "About one year only"
+    ],
+    answer: 2,
+    region: "australia",
+    explanation: "The region runs from maritime coast to continental inland."
+  },
+  {
+    id: "nw-44",
+    type: "scenario",
+    country: "New World",
+    question: "What are the four fortified tiers of Rutherglen Muscat and Topaque?",
+    options: [
+      "Young, Old, Older and Oldest",
+      "Fino, Amontillado, Oloroso and Palo Cortado",
+      "Ruby, Tawny, Colheita and Vintage",
+      "Rutherglen, Classic, Grand and Rare"
+    ],
+    answer: 3,
+    region: "australia",
+    explanation: "Topaque replaced Tokay after 1999."
+  },
+  {
+    id: "nw-45",
+    type: "scenario",
+    country: "New World",
+    question: "What does Riverina's Semillon speciality use?",
+    options: [
+      "Ice, for a frozen Icewine",
+      "Botrytis, for a dessert wine",
+      "Straw mats, for a dried passito",
+      "Flor yeast, for a dry fino"
+    ],
+    answer: 1,
+    region: "australia",
+    explanation: "Irrigation is essential in this hot region."
+  },
+  {
+    id: "nw-46",
+    type: "scenario",
+    country: "New World",
+    question: "Which NZ region has the Ormond Golden Slope?",
+    options: [
+      "Nelson",
+      "Marlborough",
+      "Waipara",
+      "Gisborne"
+    ],
+    answer: 3,
+    region: "newZealand",
+    explanation: "Patutahi is known for Gewürztraminer."
+  },
+  {
+    id: "nw-47",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape is about 58% of Nelson's vineyard?",
+    options: [
+      "Riesling, the German grape",
+      "Chardonnay, the Burgundian grape",
+      "Sauvignon Blanc",
+      "Syrah, the Rhône grape"
+    ],
+    answer: 2,
+    region: "newZealand",
+    explanation: "Nelson has about 970 ha, and Pinot Noir is next."
+  },
+  {
+    id: "nw-48",
+    type: "scenario",
+    country: "New World",
+    question: "What shelters North Canterbury (Waipara) from rain?",
+    options: [
+      "The rain shadow of the Southern Alps",
+      "The warm Pacific current off the coast",
+      "A ring of volcanic hills",
+      "The Cook Strait winds in winter"
+    ],
+    answer: 0,
+    region: "newZealand",
+    explanation: "Riesling is about 17% of its area."
   }
 ];
