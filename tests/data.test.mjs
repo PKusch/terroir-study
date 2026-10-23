@@ -171,7 +171,7 @@ test("every country in the region table has a map, and every map a country", asy
 test("the New World map draws exactly the regions the data describes", () => {
   // The New World facts file is written separately, so this checks the map
   // against the agreed list of six keys rather than importing that file.
-  const NEW_WORLD_KEYS = ["california", "australia", "newZealand", "southAfrica", "chile", "argentina"];
+  const NEW_WORLD_KEYS = ["california", "australia", "newZealand", "southAfrica", "chile", "argentina", "oregon", "washington", "newYork", "ontario", "britishColumbia"];
   checkPaths(NEW_WORLD_REGION_PATHS, Object.fromEntries(NEW_WORLD_KEYS.map((k) => [k, {}])));
 });
 

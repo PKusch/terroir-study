@@ -73,5 +73,32 @@ export const PLACES_NEW_WORLD = {
     "San Juan": [-68.53, -31.54],
     "Salta (Cafayate)": [-65.98, -26.07], // NOTE: lies north of the argentina tile (latMax -28)
     "Patagonia": [-67.90, -38.90] // Río Negro / Neuquén valleys
+  },
+  oregon: {
+    "Dundee Hills": [-123.06, 45.28],
+    "Eola-Amity Hills": [-123.11, 45.06],
+    "Chehalem Mountains": [-122.55, 45.26],
+    "Yamhill-Carlton": [-123.19, 45.42]
+  },
+  washington: {
+    "Yakima Valley": [-120.29, 46.45],
+    "Walla Walla Valley": [-118.2, 46.17],
+    "Red Mountain": [-119.45, 46.27],
+    "Horse Heaven Hills": [-119.83, 45.9]
+  },
+  newYork: {
+    "Seneca Lake": [-76.88, 42.52],
+    "Cayuga Lake": [-76.65, 42.57]
+  },
+  ontario: {
+    "Niagara-on-the-Lake": [-79.07, 43.26],
+    "Beamsville": [-79.48, 43.17],
+    "Prince Edward County": [-77.25, 44.0]
+  },
+  britishColumbia: {
+    "Osoyoos": [-119.47, 49.03],
+    "Okanagan Falls": [-119.57, 49.35],
+    "Naramata": [-119.58, 49.58],
+    "Kelowna": [-119.5, 49.89]
   }
 };
