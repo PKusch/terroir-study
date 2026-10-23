@@ -219,7 +219,7 @@ test("Papers 1 and 2 do not change when questions are added to the bank", () => 
   const bigger = [...QUIZ_QUESTIONS, ...added];
   assert.deepEqual(fixedPaperIds(bigger, 0), before1);
   assert.deepEqual(fixedPaperIds(bigger, 1), before2);
-  const later = [...fixedPaperIds(bigger, 2), ...fixedPaperIds(bigger, 3)];
+  const later = [2, 3, 4, 5, 6, 7].flatMap((i) => fixedPaperIds(bigger, i));
   assert.ok(later.includes("zz-01") && later.includes("zz-02"), "new questions land after the frozen papers");
 });
 

@@ -4766,5 +4766,224 @@ export const QUIZ_QUESTIONS = [
     question: "Which umbrella DO covers municipalities across Catalonia, many of which also lie in Penedès, Montsant and Cava?",
     answer: "catalunya",
     explanation: "It authorises 38 grapes and sets no minimum share."
+  },
+  {
+    id: "it-31",
+    type: "scenario",
+    country: "Italy",
+    question: "What does Montepulciano d'Abruzzo DOC need?",
+    options: [
+      "At least 85% Montepulciano",
+      "At least 100% Sangiovese grapes",
+      "At least 50% Trebbiano grapes",
+      "At least 70% Nebbiolo grapes"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "The Montepulciano grape is not the Tuscan town's wine, which is Sangiovese."
+  },
+  {
+    id: "it-32",
+    type: "scenario",
+    country: "Italy",
+    question: "What does 'Cerasuolo' mean in Cerasuolo d'Abruzzo?",
+    options: [
+      "Cherry-red, a rosato",
+      "Cherry-scented, a sparkling white",
+      "Cherry-sweet, a late-harvest red",
+      "Cherry-wood, an oak-aged red"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "It is darker and more intense than most rosés, with brief skin contact, and its own DOC since 2010."
+  },
+  {
+    id: "it-33",
+    type: "scenario",
+    country: "Italy",
+    question: "How much of Abruzzo's vineyard is trained on the pergola abruzzese?",
+    options: [
+      "About 10% of it",
+      "About 30% of it",
+      "More than 80%",
+      "About 50% of it"
+    ],
+    answer: 2,
+    region: "abruzzo",
+    explanation: "New plantings mostly use row systems."
+  },
+  {
+    id: "it-34",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum Montepulciano in Colline Teramane DOCG?",
+    options: [
+      "At least 90%",
+      "At least 50%",
+      "At least 70%",
+      "At least 100%"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "It became a DOCG in 2003."
+  },
+  {
+    id: "it-35",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the altitude limit for Montepulciano d'Abruzzo DOC vineyards?",
+    options: [
+      "500 m, or 600 m on south-facing slopes",
+      "200 m, or 300 m on north-facing slopes",
+      "1,000 m on any slope",
+      "No limit, vines may grow at any height"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "More than 65% of Abruzzo is mountainous."
+  },
+  {
+    id: "it-36",
+    type: "map",
+    country: "Italy",
+    question: "Which Adriatic region, with Montepulciano and the pergola abruzzese, makes the cherry-red Cerasuolo rosato?",
+    answer: "abruzzo",
+    explanation: "Montepulciano d'Abruzzo DOC dates from 1968."
+  },
+  {
+    id: "pt-18",
+    type: "scenario",
+    country: "Portugal",
+    question: "What soils does the Dão have?",
+    options: [
+      "Very poor granite soils",
+      "Deep clay-limestone soils",
+      "Black volcanic soils",
+      "Schist terraces cut by the Douro"
+    ],
+    answer: 0,
+    region: "dao",
+    explanation: "They are sandy and well drained, which keeps yields low."
+  },
+  {
+    id: "pt-19",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which mountains shelter the Dão?",
+    options: [
+      "The Marão and Alvão ranges in the north",
+      "The Estrela, Caramulo and Nave",
+      "The Sintra and Arrábida hills by the sea",
+      "The Algarve and Monchique ranges"
+    ],
+    answer: 1,
+    region: "dao",
+    explanation: "They shield the vines from both continental and maritime influences."
+  },
+  {
+    id: "pt-20",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which grape is the leading white of the Dão?",
+    options: [
+      "Encruzado",
+      "Fernão Pires",
+      "Loureiro",
+      "Alvarinho"
+    ],
+    answer: 0,
+    region: "dao",
+    explanation: "It gives citrus and mineral tension."
+  },
+  {
+    id: "pt-21",
+    type: "scenario",
+    country: "Portugal",
+    question: "In which year was the Dão first demarcated?",
+    options: [
+      "1756",
+      "1933",
+      "1908",
+      "1999"
+    ],
+    answer: 2,
+    region: "dao",
+    explanation: "It has seven sub-regions."
+  },
+  {
+    id: "pt-22",
+    type: "map",
+    country: "Portugal",
+    question: "Which granite-soiled region around Viseu, sheltered by the Estrela mountains, is known for elegant reds and Encruzado whites?",
+    answer: "dao",
+    explanation: "Vineyards grow from about 200 m to 1,000 m."
+  },
+  {
+    id: "pt-23",
+    type: "scenario",
+    country: "Portugal",
+    question: "What is Bairrada's main red grape?",
+    options: [
+      "Baga",
+      "Castelão",
+      "Touriga Franca",
+      "Trincadeira"
+    ],
+    answer: 0,
+    region: "bairrada",
+    explanation: "It is thick-skinned and late ripening, with firm tannin and high acidity."
+  },
+  {
+    id: "pt-24",
+    type: "scenario",
+    country: "Portugal",
+    question: "What is Fernão Pires called locally in Bairrada?",
+    options: [
+      "Arinto, the Bucelas white",
+      "Maria Gomes",
+      "Bical, the Bairrada white",
+      "Cercial, the Bairrada white"
+    ],
+    answer: 1,
+    region: "bairrada",
+    explanation: "It is one of the main white grapes."
+  },
+  {
+    id: "pt-25",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which town is nicknamed the 'Capital do Espumante'?",
+    options: [
+      "Anadia",
+      "Viseu city",
+      "Porto city",
+      "Évora city"
+    ],
+    answer: 0,
+    region: "bairrada",
+    explanation: "Bairrada makes roughly two-thirds of Portugal's sparkling wine."
+  },
+  {
+    id: "pt-26",
+    type: "scenario",
+    country: "Portugal",
+    question: "What kind of soil is best for Baga in Bairrada?",
+    options: [
+      "Pure granite rock",
+      "Loose wind-blown sand",
+      "Clay-limestone",
+      "Black schist slate"
+    ],
+    answer: 2,
+    region: "bairrada",
+    explanation: "Sandy strips give lighter wines."
+  },
+  {
+    id: "pt-27",
+    type: "map",
+    country: "Portugal",
+    question: "Which cool, Atlantic-influenced region around Anadia is known for Baga and traditional-method sparkling wine?",
+    answer: "bairrada",
+    explanation: "The cool humid climate gives high-acid, low-alcohol grapes."
   }
 ];
