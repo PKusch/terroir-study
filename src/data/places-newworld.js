@@ -8,7 +8,11 @@ export const PLACES_NEW_WORLD = {
     "Sonoma (Russian River Valley, Dry Creek Valley)": [-122.80, 38.50], // between Santa Rosa and Healdsburg
     "Carneros": [-122.35, 38.24],
     "Central Coast (Santa Barbara, Paso Robles)": [-120.44, 35.00], // Santa Maria, midway between the two
-    "Central Valley": [-119.95, 36.95] // San Joaquin Valley near Fresno / Madera
+    "Central Valley": [-119.95, 36.95], // San Joaquin Valley near Fresno / Madera
+    "Mendocino County": [-123.21, 39.25],
+    "Santa Cruz Mountains": [-122.11, 37.3],
+    "Monterey": [-121.3, 36.35],
+    "Lodi": [-121.03, 38.02]
   },
   australia: {
     "Barossa Valley": [138.96, -34.53], // Tanunda
@@ -45,14 +49,22 @@ export const PLACES_NEW_WORLD = {
     "Constantia": [18.42, -34.03],
     "Swartland": [18.80, -33.40], // Malmesbury / Riebeek-Kasteel
     "Elgin": [19.03, -34.15],
-    "Walker Bay (Hemel-en-Aarde)": [19.24, -34.40] // just inland of Hermanus
+    "Walker Bay (Hemel-en-Aarde)": [19.24, -34.40], // just inland of Hermanus
+    "Robertson": [19.88, -33.8],
+    "Worcester": [19.44, -33.65],
+    "Durbanville": [18.65, -33.83]
   },
   chile: {
     "Casablanca Valley": [-71.41, -33.32],
     "San Antonio Valley (Leyda)": [-71.55, -33.60],
     "Maipo Valley": [-70.65, -33.70], // Pirque / Buin
     "Colchagua Valley": [-71.36, -34.64], // Santa Cruz
-    "Southern Central Valley (Rapel, Curicó, Maule)": [-71.40, -35.10] // between Curicó and Talca
+    "Southern Central Valley (Rapel, Curicó, Maule)": [-71.40, -35.10], // between Curicó and Talca
+    "Elqui Valley": [-71.25, -29.9],
+    "Limarí Valley": [-71.0, -30.5],
+    "Aconcagua Valley": [-70.72, -32.75],
+    "Cachapoal Valley": [-71.17, -34.4],
+    "Itata and Bío-Bío": [-72.12, -36.6]
   },
   argentina: {
     "Luján de Cuyo": [-68.88, -33.04],
