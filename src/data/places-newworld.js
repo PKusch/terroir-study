@@ -18,13 +18,26 @@ export const PLACES_NEW_WORLD = {
     "Hunter Valley": [151.30, -32.78], // Pokolbin
     "Margaret River": [115.07, -33.95],
     "Yarra Valley": [145.52, -37.65], // Healesville
-    "Riverland and Murray–Darling (volume)": [141.40, -34.20] // between Renmark and Mildura
+    "Riverland and Murray–Darling (volume)": [141.40, -34.20], // between Renmark and Mildura
+    "McLaren Vale": [138.54, -35.22],
+    "Adelaide Hills": [138.83, -34.92],
+    "Mornington Peninsula": [145.02, -38.36],
+    "Geelong": [144.36, -38.15],
+    "Heathcote": [144.7, -36.92],
+    "Goulburn Valley": [145.16, -36.77],
+    "Tasmania": [147.15, -41.44],
+    "Great Southern": [117.67, -34.63],
+    "Rutherglen": [146.46, -36.06],
+    "Riverina": [146.04, -34.29]
   },
   newZealand: {
     "Marlborough (Wairau Valley, Awatere Valley)": [173.85, -41.52], // Renwick / Blenheim
     "Central Otago": [169.20, -45.04], // Cromwell
     "Hawke's Bay (Gimblett Gravels)": [176.80, -39.63], // Hastings
-    "Wairarapa (Martinborough)": [175.46, -41.22]
+    "Wairarapa (Martinborough)": [175.46, -41.22],
+    "Gisborne": [178.02, -38.66],
+    "Nelson": [173.28, -41.27],
+    "Canterbury (Waipara)": [172.75, -43.07]
   },
   southAfrica: {
     "Stellenbosch": [18.86, -33.93],
