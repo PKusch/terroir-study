@@ -52,7 +52,8 @@ export const PLACES_NEW_WORLD = {
     "Walker Bay (Hemel-en-Aarde)": [19.24, -34.40], // just inland of Hermanus
     "Robertson": [19.88, -33.8],
     "Worcester": [19.44, -33.65],
-    "Durbanville": [18.65, -33.83]
+    "Durbanville": [18.65, -33.83],
+    "Elim": [19.76, -34.59]
   },
   chile: {
     "Casablanca Valley": [-71.41, -33.32],

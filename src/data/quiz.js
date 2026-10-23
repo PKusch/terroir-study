@@ -5995,5 +5995,20 @@ export const QUIZ_QUESTIONS = [
     question: "Which western Canadian province has the Okanagan Valley, in the rain shadow of the Coast Mountains?",
     answer: "britishColumbia",
     explanation: "It has 11 sub-GIs, including Naramata Bench."
+  },
+  {
+    id: "nw-83",
+    type: "scenario",
+    country: "New World",
+    question: "What cools Elim, in the Cape Agulhas district?",
+    options: [
+      "Strong summer winds",
+      "Snow melt from the mountains in spring",
+      "Warm dry winds blowing from the Karoo desert",
+      "Heavy cloud that stays all through the summer"
+    ],
+    answer: 0,
+    region: "southAfrica",
+    explanation: "Elim has a small hectarage and is known for Sauvignon Blanc, Sémillon and Shiraz."
   }
 ];
