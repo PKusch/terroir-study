@@ -191,7 +191,7 @@ Greece (3 WSET L3 exam areas) with its own map, Athens as orientation marker, Cr
 - **Naoussa** — the eastern slopes of Mount Vermio; Xinomavro, "acid black", high in acidity and tannin and often compared with Nebbiolo; red only under the PDO
 - **Nemea** — the Peloponnese hills; Agiorgitiko, red only under the PDO, soft and plummy in the warm lowlands and fresher at altitude (the three altitude zones, about 200 to 850 metres, are informal)
 
-New World (6 WSET L3 countries, one region each) sharing one map:
+New World (11 regions in 9 countries, one small map tile each) sharing one map:
 
 - **California** — Napa Cabernet, Sonoma Pinot Noir and Zinfandel, Santa Barbara and Paso Robles, Central Valley volume; Pacific fog through gaps in the Coast Ranges decides the style, and an AVA is a place name, not a quality mark
 - **Australia** — Barossa Shiraz from old ungrafted vines, Eden and Clare Riesling at altitude, Coonawarra Cabernet on terra rossa, Hunter Sémillon picked early to age, Margaret River and Yarra; Murray irrigation for volume; the GI system
@@ -199,6 +199,11 @@ New World (6 WSET L3 countries, one region each) sharing one map:
 - **South Africa** — Stellenbosch Cabernet and Bordeaux blends, Chenin Blanc as the most planted grape, Pinotage (Pinot Noir × Cinsault), the Benguela current and the Cape Doctor, Walker Bay and Elgin for cool-climate Pinot and Chardonnay, Swartland bush vines; Wine of Origin
 - **Chile** — the Pacific (Humboldt current) and the Andes as the two coolers, Casablanca and San Antonio whites, Maipo Cabernet, Colchagua Carmenère (the Bordeaux grape mistaken for Merlot), Central Valley volume; ungrafted vines, no phylloxera
 - **Argentina** — Mendoza Malbec at altitude (Luján de Cuyo, Uco Valley), desert climate irrigated by Andean meltwater, the zonda wind and hail, thick skins from strong sunlight, Torrontés from high-altitude Salta; Cabernet and Bonarda
+- **Oregon** — Willamette Valley Pinot Noir behind the Coast Range rain shadow; Jory volcanic soil in the Dundee Hills, marine sediment and Laurelwood loess elsewhere
+- **Washington** — Columbia Valley in the rain shadow of the Cascades, 6 to 8 inches of rain, irrigated desert on basalt, Missoula flood deposits and loess; Cabernet Sauvignon and Riesling lead
+- **New York** — Finger Lakes Riesling and Cabernet Franc; the deep lakes keep winter cold from killing the vines
+- **Ontario** — Niagara Peninsula between the escarpment and the lake, VQA labelling by area, and Icewine picked below -8 °C
+- **British Columbia** — the Okanagan Valley in the rain shadow of the Coast Mountains; irrigated, with Icewine rules of its own
 
 </details>
 
@@ -254,7 +259,7 @@ npm run dev
 - [x] Portugal (Vinho Verde, Douro, Alentejo)
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
-- [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
+- [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
 - [x] Expand quiz bank to 50+ questions (449: 63 France, 62 Italy, 123 Spain, 41 Germany, 17 Austria, 27 Portugal, 17 Hungary, 17 Greece, 82 New World; 352 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
