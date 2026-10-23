@@ -76,5 +76,53 @@ export const ITALY_REGIONS = {
     qualityLevels: ["Vino d'Italia", "IGT", "Abruzzo DOC (2010)", "Montepulciano d'Abruzzo DOC (1968)", "Cerasuolo d'Abruzzo DOC (2010)", "Colline Teramane DOCG (2003)"],
     whyConnection: "Adriatic breezes and mountain nights → ripe but fresh grapes. Warm hillsides and calcareous clay → deep, soft Montepulciano. A region of co-operatives → much of the wine is made in volume.",
     color: "#9C6B30"
+  },
+  marche: {
+    name: "Marche",
+    country: "Italy",
+    climate: "Adriatic hills, cooler and wetter inland",
+    climateDetail: "Two Verdicchio zones with different climates. The Castelli di Jesi zone is about 20 km from the sea, with sea breezes, sun and rain, and a mean annual rainfall of about 800 mm; 70% of its vineyards lie between 80 and 280 m. Matelica lies inland, in a valley with no marine influence, with very cold winters and hot summers, at 250 to 700 m, with 80% of vineyards between 280 and 480 m.",
+    keyGrapes: { red: [], white: ["Verdicchio"] },
+    subRegions: ["Jesi", "Cupramontana", "Cingoli", "Matelica"],
+    subRegionsLabel: "Towns",
+    soils: "Jesi: hills with a high clay content and a lot of calcium carbonate, poorly permeable and easily eroded, with calcareous stony soils on the flat alluvial land. Matelica: calcarenite-pelitic rocks, marl and limestone, with gravelly terraces on the valley floor.",
+    viticultureNotes: "Verdicchio must be at least 85% in both DOCs and in both Riserva DOCGs. In Castelli di Jesi the yield is 14 t/ha for the DOC and Classico, 11 t/ha for Classico Superiore and 10 t/ha for Riserva; in Matelica it is 13 t/ha for the DOC and 9.5 t/ha for Riserva. New plantings need at least 2,200 vines per hectare.",
+    winemaking: "Types are still, spumante and passito. A Riserva needs at least 18 months of ageing from 1 December of the harvest year, with at least 6 months in bottle in Jesi, and at least 12.5% alcohol. Classico Superiore may not use crown caps. Both Riservas became DOCGs in 2010.",
+    typicalStyle: "Fresh, high-acidity whites with lemon, green apple and a bitter-almond finish; Jesi is rounder and more open, Matelica more structured and slower to open.",
+    qualityLevels: ["Vino d'Italia", "IGT", "Verdicchio dei Castelli di Jesi DOC (1968)", "Verdicchio di Matelica DOC (1967)", "Classico Superiore", "Riserva DOCG (both zones, 2010)"],
+    whyConnection: "Sea breezes and cool nights → high-acidity whites. Clay and limestone soils → structure and an almond finish. An inland valley without sea influence → Matelica's more structured, longer-lived style.",
+    color: "#C8B560"
+  },
+  umbria: {
+    name: "Umbria",
+    country: "Italy",
+    climate: "Continental, with autumn fog by the lake",
+    climateDetail: "Montefalco is continental, with about 700 mm of rain, about 40 frost days a year, and vineyards from 220 to 472 m. Orvieto gets 700 to 1,000 mm of rain, with autumn the wettest season and a dry July and August; its vineyards lie between 100 and 500 m, and Lake Corbara and autumn fog support botrytis.",
+    keyGrapes: { red: ["Sagrantino", "Sangiovese"], white: ["Trebbiano Toscano"] },
+    subRegions: ["Montefalco", "Torgiano", "Orvieto"],
+    subRegionsLabel: "Towns",
+    soils: "Montefalco: alluvium, lake-deposited clays and sands, marls, and turbidites and conglomerates, alkaline, on hills only. Orvieto: clays, volcanic formations from the Vulsini volcano, alluvium, sands and conglomerates. Torgiano: sandy clays and clays from the old Tiber lake, with limy loams on the slopes.",
+    viticultureNotes: "Montefalco Sagrantino is 100% Sagrantino, with a maximum yield of 8 t/ha and at least 4,000 vines per hectare in new plantings. Montefalco Rosso is 60 to 80% Sangiovese and 10 to 25% Sagrantino. Orvieto needs at least 60% Trebbiano Toscano (Procanico) and Grechetto together. Torgiano Rosso Riserva is 70 to 100% Sangiovese.",
+    winemaking: "Sagrantino Secco is aged at least 33 months from 1 December of the harvest year, with at least 12 in oak, plus at least 4 months more in bottle, 37 in all; the sweet Passito needs at least 18% total alcohol. Orvieto Muffa Nobile needs grapes of at least 16% natural alcohol and a yield of 5 t/ha. Torgiano Rosso Riserva needs at least 3 years of ageing, with 6 months in bottle.",
+    typicalStyle: "Sagrantino is a deep, very tannic, full-bodied red that needs years to soften; Orvieto is a dry, light white, with sweet botrytised versions as a speciality.",
+    qualityLevels: ["Vino d'Italia", "IGT", "Orvieto DOC (1971)", "Montefalco DOC (1979)", "Montefalco Sagrantino DOCG (1992)", "Torgiano Rosso Riserva DOCG (1990)"],
+    whyConnection: "Hill sites and a long growing season → ripe, thick-skinned Sagrantino with high tannin. Long ageing rules → time to soften that tannin. Lake Corbara and autumn fog → botrytis for sweet Orvieto.",
+    color: "#6B4F8F"
+  },
+  lazio: {
+    name: "Lazio",
+    country: "Italy",
+    climate: "Mediterranean, with sea breezes",
+    climateDetail: "A Mediterranean climate on the Alban Hills south-east of Rome, with warm dry summers, rain in autumn and winter, and breezes from the Tyrrhenian Sea.",
+    keyGrapes: { red: [], white: ["Trebbiano Toscano"] },
+    subRegions: ["Frascati", "Grottaferrata", "Monte Porzio Catone", "Monte Compatri"],
+    subRegionsLabel: "Towns",
+    soils: "Volcanic soils from the Alban Hills, such as tuff and pozzolana, well drained and rich in potassium.",
+    viticultureNotes: "Frascati needs at least 70% Malvasia di Candia and/or Malvasia del Lazio, with up to 30% from Trebbiano, Greco, Bellone and Bombino Bianco and other authorised whites.",
+    winemaking: "Frascati comes dry, off-dry (amabile) and sparkling; Frascati Superiore and Cannellino di Frascati, a sweet wine from late-harvested or botrytised grapes, became DOCGs in 2011. The Frascati DOC dates from 1966.",
+    typicalStyle: "A light, dry white that is simple and fresh, with a sweet Cannellino as a speciality.",
+    qualityLevels: ["Vino d'Italia", "IGT", "Frascati DOC (1966)", "Frascati Superiore DOCG (2011)", "Cannellino di Frascati DOCG (2011)"],
+    whyConnection: "Volcanic soils and warm sea breezes → fresh, light whites.",
+    color: "#D9843B"
   }
 };

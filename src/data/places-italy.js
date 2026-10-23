@@ -50,5 +50,22 @@ export const PLACES_ITALY = {
     "Loreto Aprutino": [13.9833, 42.4333],
     "Ortona": [14.4, 42.35],
     "Vasto": [14.7069, 42.1167]
+  },
+  marche: {
+    "Jesi": [13.23917, 43.52361],
+    "Cupramontana": [13.11737, 43.44598],
+    "Cingoli": [13.21667, 43.36667],
+    "Matelica": [13.00959, 43.25659]
+  },
+  umbria: {
+    "Montefalco": [12.65238, 42.89376],
+    "Torgiano": [12.43398, 43.02563],
+    "Orvieto": [12.10827, 42.7182]
+  },
+  lazio: {
+    "Frascati": [12.68333, 41.81667],
+    "Grottaferrata": [12.66667, 41.8],
+    "Monte Porzio Catone": [12.71667, 41.81667],
+    "Monte Compatri": [12.73722, 41.80806]
   }
 };

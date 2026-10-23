@@ -462,6 +462,17 @@ export const GRAPES = {
     notes: "Thick-skinned and late ripening, it is the red of Bairrada. It gives deep colour, firm tannins and high acidity, and it is easy to over-extract; clay-limestone soils and careful picking soften it, and good bottles age for decades."
   },
 
+  sagrantino: {
+    name: "Sagrantino",
+    aliases: [],
+    colour: "red",
+    body: "high",
+    acidity: "medium",
+    tannin: "high",
+    aromas: ["blackberry", "black cherry", "plum", "liquorice", "spice"],
+    notes: "The grape of Montefalco in Umbria, thick-skinned and very tannic. It needs careful extraction and long ageing, in large oak and bottle, to soften; it can be made dry or as a sweet passito."
+  },
+
   // ── Whites ────────────────────────────────────────────────────────────────
   grunerVeltliner: {
     name: "Grüner Veltliner",
@@ -867,6 +878,15 @@ export const GRAPES = {
     acidity: "high",
     aromas: ["green apple", "citrus", "white flowers", "mineral", "honey"],
     notes: "A white of Bairrada and the Dão that keeps high acidity in cool, Atlantic-influenced sites, which suits fresh whites and the region's sparkling wine; it can develop honeyed notes with age."
+  },
+  verdicchio: {
+    name: "Verdicchio",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["lemon", "green apple", "white peach", "almond", "white flowers"],
+    notes: "The white grape of the Marche, with high acidity and a bitter-almond finish. Most is made in stainless steel for freshness, and the best, from Matelica and from Jesi Riserva, can age for many years."
   },
   palomino: {
     name: "Palomino",

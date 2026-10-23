@@ -27,5 +27,20 @@ export const ITALY_REGION_PATHS = {
     // Abruzzo: the Adriatic hills and Apennine valleys east of Rome
     d: `M${pt(13.5,42.9)} L${pt(14.3,42.7)} L${pt(14.8,42.0)} L${pt(14.4,41.8)} L${pt(13.7,42.0)} L${pt(13.4,42.5)} Z`,
     label: geoToSvg(14.0, 42.35)
+  },
+  marche: {
+    // Marche: the Esino valley around Jesi and the Matelica valley inland
+    d: `M${pt(12.95,43.6)} L${pt(13.3,43.55)} L${pt(13.25,43.15)} L${pt(12.95,43.2)} Z`,
+    label: geoToSvg(13.12, 43.4)
+  },
+  umbria: {
+    // Umbria: Orvieto in the west, Torgiano and Montefalco in the east
+    d: `M${pt(12.0,43.1)} L${pt(12.8,43.1)} L${pt(12.75,42.65)} L${pt(12.0,42.6)} Z`,
+    label: geoToSvg(12.4, 42.85)
+  },
+  lazio: {
+    // Lazio: the Alban Hills south-east of Rome, where Frascati is grown
+    d: `M${pt(12.4,42.0)} L${pt(12.9,42.0)} L${pt(12.9,41.65)} L${pt(12.4,41.65)} Z`,
+    label: geoToSvg(12.65, 41.85)
   }
 };
