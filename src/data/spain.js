@@ -1,6 +1,22 @@
 // ─── Wine Data: Spain Regions ────────────────────────────────────────────────
 // Same field shape as france.js and italy.js, with `country` set to Spain.
 export const SPAIN_REGIONS = {
+  catalunya: {
+    name: "Catalunya",
+    country: "Spain",
+    climate: "Mediterranean, milder on the coast",
+    climateDetail: "Mediterranean overall, with more than 2,500 hours of sun a year. The coast is milder and the interior more continental, with cold winters and very hot summers, and sea breezes regulate the heat. The mean annual temperature is about 14 to 15 °C and rainfall runs from about 350 mm in the driest areas to over 600 mm in the wettest. Vines grow from sea level to almost 800 m.",
+    keyGrapes: { red: ["Grenache", "Carignan", "Merlot", "Cabernet Sauvignon", "Tempranillo"], white: ["Chardonnay", "Macabeo", "Xarel·lo", "Parellada"] },
+    subRegions: ["Gandesa", "Reus", "Vilafranca del Penedès"],
+    subRegionsLabel: "Towns inside the DO",
+    soils: "Mainly calcareous Miocene sedimentary deposits, low in organic matter, with silt and clay textures that give body and structure. Near rivers there is Quaternary alluvium.",
+    viticultureNotes: "The umbrella DO for Catalonia, covering a long list of municipalities, many of which also lie in other DOs such as Penedès, Montsant and Cava, and meant to cover wineries not included in other specific DOs. 38 grapes are authorised, 19 white and 19 black, with no minimum share for any. The maximum yield is 10,000 kg/ha for black grapes and 12,000 kg/ha for white, and where a vineyard could also go to another DO, the stricter yield applies.",
+    winemaking: "Allows still wine, semi-sparkling (vino de aguja) and liqueur wine (15 to 22% alcohol). Ageing terms use oak of up to 330 litres: a red Crianza needs 2 years in total with at least 6 months in oak, a Reserva 3 years with 12 months in oak, and a Gran Reserva 5 years with 24 months in oak.",
+    typicalStyle: "Soft, dense wines with relatively low acidity and high alcohol, from the warm Mediterranean, with aromas that gain from ageing.",
+    qualityLevels: ["Vino de España", "DO Catalunya", "Crianza (red 2 years, 6 months in oak)", "Reserva (red 3 years, 12 months in oak)", "Gran Reserva (red 5 years, 24 months in oak)"],
+    whyConnection: "One DO for all of Catalonia → growers outside the smaller DOs can use a DO label. A warm Mediterranean climate with over 2,500 hours of sun → soft, ripe, higher-alcohol wines. Many authorised grapes and no minimum shares → blends that vary widely.",
+    color: "#4C9F9A"
+  },
   rioja: {
     name: "Rioja",
     country: "Spain",
@@ -30,6 +46,22 @@ export const SPAIN_REGIONS = {
     qualityLevels: ["Vino de España", "Vino de la Tierra de Castilla y León", "DO Ribera del Duero"],
     whyConnection: "Same grape as Rioja, different wine — because of altitude. Hot days on the plateau → deep colour and thick skins, so firmer tannin. Cold nights → acidity survives the heat. The short, frost-bound season → only fully ripe fruit is picked, and the wine is concentrated. Limestone and clay keep yields small. Where Rioja is red-fruited and mellow, Ribera is black-fruited and structured.",
     color: "#5B2C6F"
+  },
+  montsant: {
+    name: "Montsant",
+    country: "Spain",
+    climate: "Mediterranean with some continentality",
+    climateDetail: "A Mediterranean climate marked by a certain continentality, shaped by the mountains, the Ebre and sea winds. The mountains partly shield it from the sea, so day and night differ strongly at ripening. Winters are cold and summers dry and hot, with about 500 to 600 mm of rain a year, mostly in spring and autumn, and humid sea winds arrive in summer afternoons. The DO's own site gives vineyard altitudes of 50 to 700 m.",
+    keyGrapes: { red: ["Grenache", "Carignan", "Tempranillo", "Syrah", "Cabernet Sauvignon"], white: ["Garnacha Blanca", "Macabeo"] },
+    subRegions: ["Falset", "Cornudella de Montsant", "La Figuera", "Ulldemolins"],
+    subRegionsLabel: "Towns",
+    soils: "Three kinds. Compact calcareous soils, with reddish high-clay soils on the edges; disaggregated granitic sands, mainly around Falset, with low organic matter and low water retention; and stony soils from siliceous slate known locally as llicorella.",
+    viticultureNotes: "The mountains of Montsant form a semicircle round Priorat, open to the south towards the Ebre. Bush vines (en vaso) are traditional and centenarian vines are common; newer plantings are trellised, mostly on a double Royat cordon. The rules set no minimum share for any grape, only a list of authorised ones. Garnatxa negra and Carinyena (Cariñena) together are more than 65% of the vineyard, and about 94% of the area is black grapes. The maximum yield is 10,000 kg/ha for black grapes and 12,000 kg/ha for white.",
+    winemaking: "Fortified styles include rancio, mistela, garnacha, dulce natural and vimblanc, all with at least 15% alcohol. Ageing terms use oak of up to 330 litres: a red Crianza needs 2 years in total with at least 6 months in oak, a Reserva 3 years with at least 12 months in oak, and a Gran Reserva 5 years with at least 24 months in oak.",
+    typicalStyle: "Red wines from old Garnacha and Cariñena with ripe fruit and structure, from soils of llicorella, granite sand and limestone; whites are mostly Garnacha Blanca and Macabeo.",
+    qualityLevels: ["Vino de España", "DO Montsant (approved 2001)", "Crianza (red 2 years, 6 months in oak)", "Reserva (red 3 years, 12 months in oak)", "Gran Reserva (red 5 years, 24 months in oak)"],
+    whyConnection: "A ring of mountains round Priorat → strong contrast between day and night at ripening. Old Garnacha and Cariñena bush vines on llicorella, granite and limestone → structured, mineral reds. Once the Falset sub-zone of DO Tarragona → a young DO, approved in 2001.",
+    color: "#7B5E3C"
   },
   priorat: {
     name: "Priorat",

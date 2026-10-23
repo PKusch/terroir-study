@@ -2,6 +2,11 @@
 import { geoToSvgSpain as geoToSvg, ptSpain as pt } from "../geo.js";
 
 export const SPAIN_REGION_PATHS = {
+  catalunya: {
+    // Catalunya: the umbrella DO over the whole of Catalonia (drawn first, so smaller DOs sit on top)
+    d: `M${pt(0.3,42.3)} L${pt(1.7,42.45)} L${pt(3.2,42.35)} L${pt(3.2,41.7)} L${pt(2.6,41.4)} L${pt(1.3,41.0)} L${pt(0.9,40.55)} L${pt(0.4,40.7)} L${pt(0.35,41.2)} L${pt(0.4,41.8)} Z`,
+    label: geoToSvg(1.9, 42.2)
+  },
   rioja: {
     // Along the upper Ebro from Haro in the west to Alfaro in the east
     d: `M${pt(-3.1,42.65)} L${pt(-2.4,42.7)} L${pt(-1.7,42.45)} L${pt(-1.75,42.2)} L${pt(-2.5,42.25)} L${pt(-3.05,42.4)} Z`,
@@ -11,6 +16,11 @@ export const SPAIN_REGION_PATHS = {
     // The Duero plateau east of Valladolid, from Peñafiel to Aranda de Duero
     d: `M${pt(-4.3,41.75)} L${pt(-3.6,41.8)} L${pt(-3.2,41.7)} L${pt(-3.25,41.45)} L${pt(-3.9,41.4)} L${pt(-4.3,41.5)} Z`,
     label: geoToSvg(-3.75, 41.6)
+  },
+  montsant: {
+    // Montsant: a semicircle of mountains around Priorat, open to the south
+    d: `M${pt(0.62,41.36)} L${pt(0.98,41.38)} L${pt(1.05,41.08)} L${pt(0.65,41.04)} Z`,
+    label: geoToSvg(0.8, 41.5)
   },
   priorat: {
     // A small pocket of hills inland from Tarragona; the label sits just above it

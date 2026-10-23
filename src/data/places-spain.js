@@ -87,5 +87,16 @@ export const PLACES_SPAIN = {
   },
   valdepenas: {
     "Valdepeñas": [-3.385, 38.76167]
+  },
+  montsant: {
+    "Falset": [0.82008, 41.14619],
+    "Cornudella de Montsant": [0.90611, 41.26694],
+    "La Figuera": [0.73222, 41.21778],
+    "Ulldemolins": [0.87636, 41.3226]
+  },
+  catalunya: {
+    "Gandesa": [0.43972, 41.05528],
+    "Reus": [1.108, 41.156],
+    "Vilafranca del Penedès": [1.69944, 41.34472]
   }
 };
