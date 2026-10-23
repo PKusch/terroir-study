@@ -432,13 +432,34 @@ export const GRAPES = {
   },
   mencia: {
     name: "Mencía",
-    aliases: [],
+    aliases: ["Jaen"],
     colour: "red",
     body: "medium",
     acidity: "high",
     tannin: "medium",
     aromas: ["red cherry", "blackberry", "violet", "liquorice", "mineral"],
     notes: "The red grape of Bierzo, at its best on old bush vines on slate and quartzite slopes, where it gives fruit with freshness and structure. Oak adds vanilla and spice, and age adds savoury notes."
+  },
+
+  montepulciano: {
+    name: "Montepulciano",
+    aliases: [],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["black cherry", "plum", "blackberry", "dried herbs", "spice"],
+    notes: "Ripens late and does best on warm, sunny hillsides with a long autumn. It gives deep colour and soft, ripe fruit, and tannins that are generous but rounded; it is a grape, not the Tuscan town of that name, whose wine is mostly Sangiovese."
+  },
+  baga: {
+    name: "Baga",
+    aliases: [],
+    colour: "red",
+    body: "high",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["blackcurrant", "blackberry", "bell pepper", "tar", "violet"],
+    notes: "Thick-skinned and late ripening, it is the red of Bairrada. It gives deep colour, firm tannins and high acidity, and it is easy to over-extract; clay-limestone soils and careful picking soften it, and good bottles age for decades."
   },
 
   // ── Whites ────────────────────────────────────────────────────────────────
@@ -828,6 +849,24 @@ export const GRAPES = {
     acidity: "low",
     aromas: ["apple", "pear", "lemon", "white flowers", "neutral"],
     notes: "Spain's old workhorse white, planted widely on the hot, dry plains of La Mancha, where bush vines cope with drought. Neutral and soft, it is mostly made as a simple, young wine or distilled; old vines give more flavour."
+  },
+  encruzado: {
+    name: "Encruzado",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["citrus", "pear", "white flowers", "stone", "toast"],
+    notes: "The leading white of the Dão, grown on granite at altitude. It gives citrus and mineral tension, and has the weight to take lees ageing or some oak, which add a creamy, toasty note."
+  },
+  bical: {
+    name: "Bical",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["green apple", "citrus", "white flowers", "mineral", "honey"],
+    notes: "A white of Bairrada and the Dão that keeps high acidity in cool, Atlantic-influenced sites, which suits fresh whites and the region's sparkling wine; it can develop honeyed notes with age."
   },
   palomino: {
     name: "Palomino",

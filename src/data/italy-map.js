@@ -22,5 +22,10 @@ export const ITALY_REGION_PATHS = {
     d: `M${pt(14.0,41.3)} L${pt(15.5,41.5)} L${pt(16.8,41.2)} L${pt(18.3,40.4)} L${pt(18.0,40.0)} L${pt(16.9,40.3)} L${pt(15.8,40.0)} L${pt(14.6,40.4)} L${pt(14.0,40.8)} Z ` +
        `M${pt(12.6,38.0)} L${pt(13.5,38.15)} L${pt(15.1,38.2)} L${pt(15.5,38.0)} L${pt(15.2,37.2)} L${pt(14.3,37.1)} L${pt(12.7,37.7)} Z`,
     label: geoToSvg(16.0, 40.75)
+  },
+  abruzzo: {
+    // Abruzzo: the Adriatic hills and Apennine valleys east of Rome
+    d: `M${pt(13.5,42.9)} L${pt(14.3,42.7)} L${pt(14.8,42.0)} L${pt(14.4,41.8)} L${pt(13.7,42.0)} L${pt(13.4,42.5)} Z`,
+    label: geoToSvg(14.0, 42.35)
   }
 };

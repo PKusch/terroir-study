@@ -44,5 +44,11 @@ export const PLACES_ITALY = {
     "Etna (Sicily)": [15.05, 37.85],
     "Cerasuolo di Vittoria": [14.53, 36.95],
     "Marsala": [12.44, 37.80]
+  },
+  abruzzo: {
+    "Controguerra": [13.8167, 42.85],
+    "Loreto Aprutino": [13.9833, 42.4333],
+    "Ortona": [14.4, 42.35],
+    "Vasto": [14.7069, 42.1167]
   }
 };

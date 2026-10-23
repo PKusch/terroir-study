@@ -16,5 +16,15 @@ export const PORTUGAL_REGION_PATHS = {
     // The large southern plain, from Portalegre in the north to Moura in the south
     d: `M${pt(-8.2,39.5)} L${pt(-7.4,39.55)} L${pt(-7.15,38.9)} L${pt(-7.3,38.2)} L${pt(-7.45,37.75)} L${pt(-8.2,37.8)} L${pt(-8.6,38.2)} L${pt(-8.5,38.7)} L${pt(-8.4,39.1)} Z`,
     label: geoToSvg(-7.9, 38.6)
+  },
+  dao: {
+    // Dão: granite plateau around Viseu, between the Estrela, Caramulo and Nave mountains
+    d: `M${pt(-8.1,40.75)} L${pt(-7.6,40.78)} L${pt(-7.5,40.35)} L${pt(-8.05,40.3)} Z`,
+    label: geoToSvg(-7.8, 40.55)
+  },
+  bairrada: {
+    // Bairrada: the flat Atlantic plain around Anadia, inland of Figueira da Foz
+    d: `M${pt(-8.65,40.6)} L${pt(-8.3,40.62)} L${pt(-8.3,40.32)} L${pt(-8.65,40.3)} Z`,
+    label: geoToSvg(-8.5, 40.45)
   }
 };

@@ -60,5 +60,21 @@ export const ITALY_REGIONS = {
     qualityLevels: ["Vino d'Italia", "IGT Puglia / IGT Terre Siciliane", "Salice Salentino DOC / Etna DOC", "Fiano di Avellino DOCG / Greco di Tufo DOCG", "Taurasi DOCG / Aglianico del Vulture Superiore DOCG"],
     whyConnection: "Heat is the given; the question is what moderates it. Altitude on Etna and Vulture → cool nights, high acid and fine tannin from grapes that would be jammy on the plain. Sea breezes and bush vines protect Puglia's Primitivo and Negroamaro from sunburn. Volcanic soils drain freely and are poor → low yields, concentration and a smoky edge. Aglianico's very late ripening only works because southern autumns are long and dry.",
     color: "#D2691E"
+  },
+  abruzzo: {
+    name: "Abruzzo",
+    country: "Italy",
+    climate: "Mediterranean coast, continental mountains",
+    climateDetail: "The Adriatic gives a moderating Mediterranean climate on the coastal hills, while the inland mountains, which are more than 65% of the territory and rise to 2,750 m, are continental. The Apennines block many storms from the west, and there is a strong contrast between day and night and good ventilation. The northern Teramo vineyards get warm sun and dry Adriatic breezes.",
+    keyGrapes: { red: ["Montepulciano", "Sangiovese"], white: ["Trebbiano Toscano"] },
+    subRegions: ["Controguerra", "Loreto Aprutino", "Ortona", "Vasto"],
+    subRegionsLabel: "Towns",
+    soils: "Calcareous clay in river valleys running west to east, with limestone and marl. The best-regarded Montepulciano comes from ferrous clay and limestone in northern Teramo and Pescara.",
+    viticultureNotes: "The Abruzzo pergola (pergola abruzzese) covers more than 80% of the vineyards, though new plantings mostly use row systems. Chieti province holds about 75% of the vineyards. Montepulciano d'Abruzzo DOC needs at least 85% Montepulciano, and vineyards must lie below 500 m (600 m on south-facing slopes) for the Montepulciano DOC and Cerasuolo. Colline Teramane DOCG needs at least 90% Montepulciano.",
+    winemaking: "Montepulciano d'Abruzzo is the main red, with a Riserva of at least 2 years including at least 9 months in wood. Cerasuolo d'Abruzzo is a cherry-red rosato, darker and more intense than most rosés, made with brief skin contact. Trebbiano d'Abruzzo is a dry white, typically low in extract and acidity. About three quarters of production comes from co-operatives.",
+    typicalStyle: "Montepulciano d'Abruzzo is deeply coloured, with ripe dark fruit and rounded tannin; Cerasuolo is a dark, medium-bodied rosato; and Trebbiano d'Abruzzo is a dry, light white.",
+    qualityLevels: ["Vino d'Italia", "IGT", "Abruzzo DOC (2010)", "Montepulciano d'Abruzzo DOC (1968)", "Cerasuolo d'Abruzzo DOC (2010)", "Colline Teramane DOCG (2003)"],
+    whyConnection: "Adriatic breezes and mountain nights → ripe but fresh grapes. Warm hillsides and calcareous clay → deep, soft Montepulciano. A region of co-operatives → much of the wine is made in volume.",
+    color: "#9C6B30"
   }
 };

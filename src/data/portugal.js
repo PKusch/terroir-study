@@ -45,5 +45,37 @@ export const PORTUGAL_REGIONS = {
     qualityLevels: ["Vinho", "Vinho Regional Alentejano", "DOC Alentejo", "DOC Alentejo sub-region (Borba, Évora, Granja-Amareleja, Moura, Portalegre, Redondo, Reguengos, Vidigueira)", "Reserva / Garrafeira"],
     whyConnection: "Heat and sun on a flat plain → fully ripe, fruit-forward grapes with high sugar and low acidity → soft, easy wines. Altitude (Portalegre) and night picking win back freshness → good-value, approachable wines rather than the angular, structured wines of the north.",
     color: "#D08B3A"
+  },
+  dao: {
+    name: "Dão",
+    country: "Portugal",
+    climate: "Temperate, sheltered by mountains",
+    climateDetail: "Mountains, the Estrela, Caramulo and Nave, shield the vines from both continental and maritime influences. Winters bring abundant rain and summers are long, warm and dry. Vineyards lie from about 200 m up to 1,000 m on the slopes of the Serra da Estrela.",
+    keyGrapes: { red: ["Touriga Nacional", "Tempranillo", "Mencía"], white: ["Encruzado", "Bical"] },
+    subRegions: ["Viseu", "Nelas", "Mangualde", "Seia"],
+    subRegionsLabel: "Towns",
+    soils: "Very poor granite soils, sandy and well drained, which keep yields low.",
+    viticultureNotes: "Reds are Touriga Nacional, Alfrocheiro, Jaen (the same grape as Mencía), Tinta Roriz and Baga; whites are Encruzado, Bical, Cercial, Malvasia Fina, Rabo de Ovelha and Verdelho. The Dão was first demarcated as a wine region in 1908. It has seven sub-regions: Alva, Besteiros, Castendo, Serra da Estrela, Silgueiros, Terras de Azurara and Terras de Senhorim, and about 80% of production is red.",
+    winemaking: "Modern reds are fresh and fine-grained, while the whites, led by Encruzado, show citrus and mineral tension. Many are aged in older oak or large wood.",
+    typicalStyle: "Elegant, medium-bodied reds with fine tannin and freshness, and mineral whites.",
+    qualityLevels: ["Vinho de Portugal", "Vinho Regional Terras do Dão", "DOC Dão", "Reserva", "Garrafeira"],
+    whyConnection: "Mountains on all sides → shelter from the Atlantic and continental extremes. Poor granite soils and altitude → low yields and freshness. Encruzado on granite → one of Portugal's most interesting whites.",
+    color: "#5B8A72"
+  },
+  bairrada: {
+    name: "Bairrada",
+    country: "Portugal",
+    climate: "Cool Atlantic with high rainfall",
+    climateDetail: "A flat, coastal region with a marked Atlantic influence, abundant rain and mild temperatures, cool and humid. The cool humid climate gives grapes with high acidity and low alcohol, which suits sparkling wine.",
+    keyGrapes: { red: ["Baga", "Touriga Nacional"], white: ["Arinto", "Bical"] },
+    subRegions: ["Anadia", "Mealhada", "Oliveira do Bairro", "Cantanhede"],
+    subRegionsLabel: "Towns",
+    soils: "Clay-limestone, which suits Baga best, with sandy strips that give lighter wines. The land is split into thousands of small plots.",
+    viticultureNotes: "Baga is the main red, a thick-skinned, late-ripening grape with deep colour, firm tannin and high acidity. Other reds are Alfrocheiro, Tinta Pinheira and Touriga Nacional, and the whites are Fernão Pires (called Maria Gomes locally), Arinto, Bical, Cercial and Rabo de Ovelha.",
+    winemaking: "Two styles live side by side: classic Baga wines and newer bairradino blends. Bairrada was one of the first Portuguese regions to adopt sparkling wine, made by the traditional method, and it produces roughly two-thirds of the country's sparkling wine. Anadia is nicknamed the 'Capital do Espumante'.",
+    typicalStyle: "Baga reds are deep, tannic and high in acidity, and the best age for decades; the sparkling wines are fresh and high in acidity.",
+    qualityLevels: ["Vinho de Portugal", "Vinho Regional Beira Atlântico", "DOC Bairrada", "Reserva", "Garrafeira"],
+    whyConnection: "A cool, wet Atlantic climate → grapes with high acidity and low sugar, good for sparkling wine. Thick-skinned, late-ripening Baga → firm tannin and acidity. Clay-limestone soils → the best Baga.",
+    color: "#4A6FA5"
   }
 };

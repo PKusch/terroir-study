@@ -21,5 +21,17 @@ export const PLACES_PORTUGAL = {
     "Vidigueira": [-7.8, 38.21],
     "Portalegre": [-7.43, 39.29],
     "Moura": [-7.45, 38.14]
+  },
+  dao: {
+    "Viseu": [-7.9167, 40.6667],
+    "Nelas": [-7.85, 40.5167],
+    "Mangualde": [-7.7611, 40.6042],
+    "Seia": [-7.7, 40.4167]
+  },
+  bairrada: {
+    "Anadia": [-8.435, 40.4408],
+    "Mealhada": [-8.45, 40.3833],
+    "Oliveira do Bairro": [-8.5, 40.5167],
+    "Cantanhede": [-8.5833, 40.35]
   }
 };
