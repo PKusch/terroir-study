@@ -5174,5 +5174,171 @@ export const QUIZ_QUESTIONS = [
     question: "Which region around Rome, on the Alban Hills, is the home of Frascati?",
     answer: "lazio",
     explanation: "Its vineyards grow on volcanic soils."
+  },
+  {
+    id: "it-51",
+    type: "scenario",
+    country: "Italy",
+    question: "What did Friulano used to be called?",
+    options: [
+      "Tocai Friulano",
+      "Ribolla Gialla",
+      "Pinot Bianco",
+      "Verduzzo Friulano"
+    ],
+    answer: 0,
+    region: "friuli",
+    explanation: "It was renamed after an EU ruling over the name Tokaji in 2006."
+  },
+  {
+    id: "it-52",
+    type: "scenario",
+    country: "Italy",
+    question: "What does a Collio single-grape wine need?",
+    options: [
+      "At least 85% of the named grape",
+      "At least 100% of the named grape",
+      "At least 50% of the named grape",
+      "At least 70% of the named grape"
+    ],
+    answer: 0,
+    region: "friuli",
+    explanation: "Friulano, Pinot Grigio, Ribolla Gialla and Pinot Bianco each follow this rule."
+  },
+  {
+    id: "it-53",
+    type: "scenario",
+    country: "Italy",
+    question: "How much Pinot Grigio does Friuli Grave Pinot Grigio need?",
+    options: [
+      "At least 95%",
+      "At least 50%",
+      "At least 70%",
+      "At least 85%"
+    ],
+    answer: 0,
+    region: "friuli",
+    explanation: "Refosco dal Peduncolo Rosso also needs at least 95%."
+  },
+  {
+    id: "it-54",
+    type: "scenario",
+    country: "Italy",
+    question: "Which soils are typical of Collio?",
+    options: [
+      "Black volcanic ash from Etna",
+      "Calcareous marl and flysch sandstone",
+      "Red porphyry of the Bolzano hills",
+      "Deep alluvial gravel of the Po plain"
+    ],
+    answer: 1,
+    region: "friuli",
+    explanation: "Over 85% of Collio's production is white."
+  },
+  {
+    id: "it-55",
+    type: "scenario",
+    country: "Italy",
+    question: "What are the five sub-zones of Colli Orientali del Friuli?",
+    options: [
+      "Cialla, Faedis, Prepotto, Rosazzo and Savorgnano",
+      "Collio, Grave, Carso, Isonzo and Aquileia",
+      "Barolo, Langhe, Roero, Asti and Alba",
+      "Soave, Valpolicella, Lugana, Bardolino and Garda"
+    ],
+    answer: 0,
+    region: "friuli",
+    explanation: "Rosazzo and Ramandolo became DOCGs in 2011, and Picolit in 2006."
+  },
+  {
+    id: "it-56",
+    type: "map",
+    country: "Italy",
+    question: "Which north-eastern region, known for Collio, Colli Orientali and Friuli Grave, borders Slovenia?",
+    answer: "friuli",
+    explanation: "Collio DOC dates from 1968."
+  },
+  {
+    id: "it-57",
+    type: "scenario",
+    country: "Italy",
+    question: "How many months on the lees does a Trento DOC non-vintage need?",
+    options: [
+      "15 months",
+      "3 months",
+      "60 months",
+      "9 months"
+    ],
+    answer: 0,
+    region: "trentinoAltoAdige",
+    explanation: "A Millesimato needs 24 months and a Riserva 36 months."
+  },
+  {
+    id: "it-58",
+    type: "scenario",
+    country: "Italy",
+    question: "Which grapes may go into Trento DOC?",
+    options: [
+      "Chardonnay and the Pinots",
+      "Glera, Verdicchio and Garganega only",
+      "Nebbiolo, Barbera and Dolcetto only",
+      "Lagrein, Schiava and Teroldego only"
+    ],
+    answer: 0,
+    region: "trentinoAltoAdige",
+    explanation: "Trento DOC dates from 1993 and is a traditional-method wine."
+  },
+  {
+    id: "it-59",
+    type: "scenario",
+    country: "Italy",
+    question: "What must Teroldego Rotaliano be made from?",
+    options: [
+      "At least 85% Lagrein",
+      "At least 70% Schiava",
+      "100% Teroldego",
+      "At least 50% Merlot"
+    ],
+    answer: 2,
+    region: "trentinoAltoAdige",
+    explanation: "Teroldego Rotaliano DOC dates from 1971."
+  },
+  {
+    id: "it-60",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the range of vineyard altitudes in Alto Adige?",
+    options: [
+      "200 to 1,000 m",
+      "0 to 50 m",
+      "1,500 to 2,500 m",
+      "100 to 150 m"
+    ],
+    answer: 0,
+    region: "trentinoAltoAdige",
+    explanation: "The climate is described as Alpine-Mediterranean."
+  },
+  {
+    id: "it-61",
+    type: "scenario",
+    country: "Italy",
+    question: "Which soil is typical around Bolzano in Alto Adige?",
+    options: [
+      "White coastal chalk",
+      "Red porphyry rock",
+      "Black basalt rock",
+      "Pure river sand"
+    ],
+    answer: 1,
+    region: "trentinoAltoAdige",
+    explanation: "Dolomitic limestone is found mainly south of Bolzano."
+  },
+  {
+    id: "it-62",
+    type: "map",
+    country: "Italy",
+    question: "Which alpine region has Alto Adige and Trentino, with Lagrein, Teroldego and Trento DOC sparkling wine?",
+    answer: "trentinoAltoAdige",
+    explanation: "Alto Adige is 65% white and 35% red."
   }
 ];
