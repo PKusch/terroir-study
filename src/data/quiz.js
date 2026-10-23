@@ -5715,5 +5715,285 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "southAfrica",
     explanation: "Its soils are lime-rich, and Chardonnay is the signature."
+  },
+  {
+    id: "nw-62",
+    type: "scenario",
+    country: "New World",
+    question: "What is Jory soil?",
+    options: [
+      "Volcanic soil from Columbia River basalt",
+      "Marine sediment from an old sea floor",
+      "Windblown loess from the Missoula floods",
+      "Gravel from an old glacial river"
+    ],
+    answer: 0,
+    region: "oregon",
+    explanation: "It covers about 80% of the Dundee Hills AVA."
+  },
+  {
+    id: "nw-63",
+    type: "scenario",
+    country: "New World",
+    question: "What does the Coast Range do for the Willamette Valley?",
+    options: [
+      "Holds back cold air from the Arctic",
+      "Blocks Pacific rain, a rain shadow",
+      "Shelters the vines from the Pacific fog",
+      "Funnels warm winds in from the desert"
+    ],
+    answer: 1,
+    region: "oregon",
+    explanation: "The Coast Range gets 90 to 135 inches of rain, and Dundee Hills 30 to 45."
+  },
+  {
+    id: "nw-64",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape is 60% of Oregon's planted acreage?",
+    options: [
+      "Chardonnay",
+      "Pinot Gris",
+      "Pinot Noir",
+      "Riesling"
+    ],
+    answer: 2,
+    region: "oregon",
+    explanation: "In the Willamette Valley in 2017 it was 73%."
+  },
+  {
+    id: "nw-65",
+    type: "map",
+    country: "New World",
+    question: "Which state, with the Willamette Valley, Dundee Hills and Jory soils, is known for Pinot Noir?",
+    answer: "oregon",
+    explanation: "The Willamette Valley AVA was established in 1983."
+  },
+  {
+    id: "nw-66",
+    type: "scenario",
+    country: "New World",
+    question: "What is the Columbia Valley's annual rainfall?",
+    options: [
+      "6 to 8 inches",
+      "About 30 inches",
+      "About 60 inches",
+      "About 100 inches"
+    ],
+    answer: 0,
+    region: "washington",
+    explanation: "It sits in the rain shadow of the Cascades and the Olympics."
+  },
+  {
+    id: "nw-67",
+    type: "scenario",
+    country: "New World",
+    question: "What left slackwater deposits across the Columbia Valley?",
+    options: [
+      "The Pacific tsunamis",
+      "The Missoula floods",
+      "The Columbia River's slow flow",
+      "The melting of the Rocky Mountains"
+    ],
+    answer: 1,
+    region: "washington",
+    explanation: "Loess blown on top is as fine as powdered sugar."
+  },
+  {
+    id: "nw-68",
+    type: "scenario",
+    country: "New World",
+    question: "Why are many Washington vines own-rooted?",
+    options: [
+      "Rootstocks are banned by law",
+      "The sandy soil is too wet",
+      "Winter freezes kill many pests",
+      "The vines are too old to graft"
+    ],
+    answer: 2,
+    region: "washington",
+    explanation: "Water comes from the Columbia, Snake, Yakima and Walla Walla rivers."
+  },
+  {
+    id: "nw-69",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape was 27% of Washington's 2024 harvest?",
+    options: [
+      "Merlot, the Bordeaux red",
+      "Syrah, the Rhône red",
+      "Chardonnay, the white",
+      "Cabernet Sauvignon"
+    ],
+    answer: 3,
+    region: "washington",
+    explanation: "Riesling was second at 15%."
+  },
+  {
+    id: "nw-70",
+    type: "map",
+    country: "New World",
+    question: "Which state has the Columbia Valley, Yakima Valley and Red Mountain, in the rain shadow of the Cascades?",
+    answer: "washington",
+    explanation: "Yakima Valley (1983) was its first AVA."
+  },
+  {
+    id: "nw-71",
+    type: "scenario",
+    country: "New World",
+    question: "What do the Finger Lakes do for vines?",
+    options: [
+      "Moderate winter cold",
+      "Add salt to the soil for minerals",
+      "Bring heavy rain through summer",
+      "Block the wind from the north"
+    ],
+    answer: 0,
+    region: "newYork",
+    explanation: "Without the lakes winters would kill vines."
+  },
+  {
+    id: "nw-72",
+    type: "scenario",
+    country: "New World",
+    question: "Which grape is the most planted vinifera in the Finger Lakes?",
+    options: [
+      "Merlot",
+      "Syrah",
+      "Zinfandel",
+      "Riesling"
+    ],
+    answer: 3,
+    region: "newYork",
+    explanation: "It had 832 of 10,790 producing acres in 2024."
+  },
+  {
+    id: "nw-73",
+    type: "scenario",
+    country: "New World",
+    question: "How are Finger Lakes vines protected in winter?",
+    options: [
+      "Wrapped in plastic from the top",
+      "Planted in pots indoors",
+      "Mounded soil, multiple trunks",
+      "Sprayed with salt and water"
+    ],
+    answer: 2,
+    region: "newYork",
+    explanation: "Cane pruning is used, because cordons survive poorly."
+  },
+  {
+    id: "nw-74",
+    type: "map",
+    country: "New World",
+    question: "Which eastern state, with Seneca and Cayuga lakes, has the Finger Lakes AVA?",
+    answer: "newYork",
+    explanation: "The AVA was established in 1982."
+  },
+  {
+    id: "nw-75",
+    type: "scenario",
+    country: "New World",
+    question: "At what temperature is Ontario Icewine picked?",
+    options: [
+      "Below -8 °C",
+      "Below 0 °C",
+      "Below -25 °C",
+      "Below 10 °C"
+    ],
+    answer: 0,
+    region: "ontario",
+    explanation: "The juice must be at least 35 degrees Brix, and Vidal is the only hybrid allowed."
+  },
+  {
+    id: "nw-76",
+    type: "scenario",
+    country: "New World",
+    question: "What share of local grapes does a Niagara Peninsula wine need?",
+    options: [
+      "100% from the region",
+      "At least 85%",
+      "50% from the region",
+      "At least 70% from Ontario"
+    ],
+    answer: 1,
+    region: "ontario",
+    explanation: "A sub-appellation needs 100% from it."
+  },
+  {
+    id: "nw-77",
+    type: "scenario",
+    country: "New World",
+    question: "What delays bud-break on the Niagara Peninsula in spring?",
+    options: [
+      "The warm lake",
+      "A cold wind off the Rockies",
+      "The winter-cooled lake",
+      "Snow cover on the vines"
+    ],
+    answer: 2,
+    region: "ontario",
+    explanation: "In autumn, lake breezes extend the season."
+  },
+  {
+    id: "nw-78",
+    type: "map",
+    country: "New World",
+    question: "Which Canadian province, with Niagara Peninsula, Beamsville Bench and Icewine from Vidal, has three viticultural areas?",
+    answer: "ontario",
+    explanation: "VQA Ontario means 100% Ontario grapes."
+  },
+  {
+    id: "nw-79",
+    type: "scenario",
+    country: "New World",
+    question: "Why is irrigation essential in the Okanagan?",
+    options: [
+      "It is a desert with no mountains",
+      "It is hit by monsoon rains",
+      "It is far from any lake",
+      "The Coast Mountains' rain shadow"
+    ],
+    answer: 3,
+    region: "britishColumbia",
+    explanation: "Osoyoos gets about 318 mm and Kelowna about 415 mm."
+  },
+  {
+    id: "nw-80",
+    type: "scenario",
+    country: "New World",
+    question: "What is the minimum for each pressing of BC Icewine?",
+    options: [
+      "32 degrees Brix",
+      "22 degrees Brix",
+      "26 degrees Brix",
+      "10 degrees Brix"
+    ],
+    answer: 0,
+    region: "britishColumbia",
+    explanation: "The tank average must be at least 35, with 100 g/L of sugar at bottling."
+  },
+  {
+    id: "nw-81",
+    type: "scenario",
+    country: "New World",
+    question: "How long are the Okanagan vineyards, from the US border?",
+    options: [
+      "About 10 km",
+      "About 100 km",
+      "About 500 km",
+      "About 1,000 km"
+    ],
+    answer: 1,
+    region: "britishColumbia",
+    explanation: "It is BC's largest and oldest wine region."
+  },
+  {
+    id: "nw-82",
+    type: "map",
+    country: "New World",
+    question: "Which western Canadian province has the Okanagan Valley, in the rain shadow of the Coast Mountains?",
+    answer: "britishColumbia",
+    explanation: "It has 11 sub-GIs, including Naramata Bench."
   }
 ];

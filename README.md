@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **67** regions | 📍 **324** places on the map | ❓ **428** quiz questions | 🍇 **102** grapes | ✅ **131** tests |
+| 🌍 **9** countries | 🗺️ **72** regions | 📍 **341** places on the map | ❓ **449** quiz questions | 🍇 **102** grapes | ✅ **131** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -123,7 +123,7 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 | 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo · Dão · Bairrada |
 | 🇭🇺 | **Hungary** | Tokaj · Eger · Villány |
 | 🇬🇷 | **Greece** | Santorini · Naoussa · Nemea |
-| 🌎 | **New World** | California · Australia · New Zealand · South Africa · Chile · Argentina |
+| 🌎 | **New World** | California · Australia · New Zealand · South Africa · Chile · Argentina · Oregon · Washington · New York · Ontario · British Columbia |
 
 *Every country has its own hand-projected map, built from real latitude and longitude, with its capital, its main rivers and its neighbours drawn faintly. The quiz covers all of them.*
 
@@ -255,7 +255,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina)
-- [x] Expand quiz bank to 50+ questions (428: 63 France, 62 Italy, 123 Spain, 41 Germany, 17 Austria, 27 Portugal, 17 Hungary, 17 Greece, 61 New World; 336 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (449: 63 France, 62 Italy, 123 Spain, 41 Germany, 17 Austria, 27 Portugal, 17 Hungary, 17 Greece, 82 New World; 352 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -263,7 +263,7 @@ npm run dev
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
-- [x] Sub-region drill-down maps (Zoom into any region: 324 places marked across 67 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 341 places marked across 72 regions)
 
 ## About
 
