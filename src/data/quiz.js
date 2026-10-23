@@ -4985,5 +4985,194 @@ export const QUIZ_QUESTIONS = [
     question: "Which cool, Atlantic-influenced region around Anadia is known for Baga and traditional-method sparkling wine?",
     answer: "bairrada",
     explanation: "The cool humid climate gives high-acid, low-alcohol grapes."
+  },
+  {
+    id: "it-37",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum Verdicchio in the Verdicchio DOCs?",
+    options: [
+      "At least 85%",
+      "At least 100%",
+      "At least 50%",
+      "At least 70%"
+    ],
+    answer: 0,
+    region: "marche",
+    explanation: "Other white grapes suitable for the Marche can make up the rest."
+  },
+  {
+    id: "it-38",
+    type: "scenario",
+    country: "Italy",
+    question: "How does Matelica differ from Castelli di Jesi?",
+    options: [
+      "Matelica is inland, no sea influence",
+      "Matelica lies right on the Adriatic coast",
+      "Matelica sits on volcanic soil near Rome",
+      "Matelica is lower, at under 100 m"
+    ],
+    answer: 0,
+    region: "marche",
+    explanation: "Matelica vineyards lie at 250 to 700 m, against 80 to 280 m for most of Jesi."
+  },
+  {
+    id: "it-39",
+    type: "scenario",
+    country: "Italy",
+    question: "How much ageing does a Verdicchio Riserva DOCG need?",
+    options: [
+      "At least 18 months from 1 December",
+      "At least 6 months from the harvest date",
+      "At least 36 months with 12 in oak barrels",
+      "At least 60 months with 18 in oak barrels"
+    ],
+    answer: 0,
+    region: "marche",
+    explanation: "Jesi Riserva needs at least 6 of those months in bottle; both Riservas became DOCGs in 2010."
+  },
+  {
+    id: "it-40",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the mean annual rainfall in the Castelli di Jesi zone?",
+    options: [
+      "About 300 mm",
+      "About 1,800 mm",
+      "About 800 mm",
+      "About 100 mm"
+    ],
+    answer: 2,
+    region: "marche",
+    explanation: "The zone is about 20 km from the sea."
+  },
+  {
+    id: "it-41",
+    type: "map",
+    country: "Italy",
+    question: "Which Adriatic region is known for Verdicchio, from Castelli di Jesi and Matelica?",
+    answer: "marche",
+    explanation: "Verdicchio is a high-acidity white with a bitter-almond finish."
+  },
+  {
+    id: "it-42",
+    type: "scenario",
+    country: "Italy",
+    question: "What does Montefalco Sagrantino DOCG require?",
+    options: [
+      "100% Sagrantino",
+      "At least 70% Sangiovese",
+      "At least 85% Grechetto",
+      "At least 60% Montepulciano"
+    ],
+    answer: 0,
+    region: "umbria",
+    explanation: "The maximum yield is 8 t/ha."
+  },
+  {
+    id: "it-43",
+    type: "scenario",
+    country: "Italy",
+    question: "How long is Sagrantino Secco aged before release?",
+    options: [
+      "37 months, at least 12 in oak",
+      "12 months in all, none of them in oak",
+      "6 months in all, all of them in oak",
+      "60 months in all, all of them in oak"
+    ],
+    answer: 0,
+    region: "umbria",
+    explanation: "At least 33 months from 1 December of the harvest year, plus at least 4 months in bottle."
+  },
+  {
+    id: "it-44",
+    type: "scenario",
+    country: "Italy",
+    question: "What blend is Montefalco Rosso DOC?",
+    options: [
+      "Sangiovese 60-80%, Sagrantino 10-25%",
+      "100% Sagrantino with no other grapes",
+      "60 to 80% Grechetto, with Sagrantino",
+      "10 to 25% Sangiovese, with Merlot"
+    ],
+    answer: 0,
+    region: "umbria",
+    explanation: "The DOC dates from 1979; the Sagrantino DOCG from 1992."
+  },
+  {
+    id: "it-45",
+    type: "scenario",
+    country: "Italy",
+    question: "Which grapes must make up at least 60% of Orvieto?",
+    options: [
+      "Verdicchio and Malvasia di Candia",
+      "Procanico and Grechetto",
+      "Sagrantino and Sangiovese",
+      "Cortese and Garganega"
+    ],
+    answer: 1,
+    region: "umbria",
+    explanation: "Vineyards must lie between 100 and 500 m."
+  },
+  {
+    id: "it-46",
+    type: "scenario",
+    country: "Italy",
+    question: "What helps botrytis for sweet Orvieto?",
+    options: [
+      "Lake Corbara and autumn fog",
+      "A hot dry wind from Africa in summer",
+      "Heavy snow on the vines in winter",
+      "Irrigation with sea water in spring"
+    ],
+    answer: 0,
+    region: "umbria",
+    explanation: "Muffa Nobile needs grapes of at least 16% natural alcohol."
+  },
+  {
+    id: "it-47",
+    type: "map",
+    country: "Italy",
+    question: "Which landlocked region, with Sagrantino and Orvieto, lies between Tuscany and Marche?",
+    answer: "umbria",
+    explanation: "Montefalco Sagrantino became a DOCG in 1992."
+  },
+  {
+    id: "it-48",
+    type: "scenario",
+    country: "Italy",
+    question: "What does Frascati need?",
+    options: [
+      "At least 70% Malvasia grapes",
+      "100% Trebbiano Toscano grapes",
+      "At least 85% Verdicchio grapes",
+      "At least 60% Sangiovese grapes"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "The rest can include Trebbiano, Greco, Bellone and Bombino Bianco."
+  },
+  {
+    id: "it-49",
+    type: "scenario",
+    country: "Italy",
+    question: "Which Frascati wines became DOCGs in 2011?",
+    options: [
+      "Superiore and Cannellino",
+      "Spumante and Novello styles",
+      "Rosso and Rosato styles",
+      "Riserva and Passito styles"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "The Frascati DOC itself dates from 1966."
+  },
+  {
+    id: "it-50",
+    type: "map",
+    country: "Italy",
+    question: "Which region around Rome, on the Alban Hills, is the home of Frascati?",
+    answer: "lazio",
+    explanation: "Its vineyards grow on volcanic soils."
   }
 ];
