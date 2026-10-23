@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **57** regions | 📍 **261** places on the map | ❓ **350** quiz questions | 🍇 **92** grapes | ✅ **131** tests |
+| 🌍 **9** countries | 🗺️ **59** regions | 📍 **268** places on the map | ❓ **361** quiz questions | 🍇 **92** grapes | ✅ **131** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -117,7 +117,7 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 |:-:|---|---|
 | 🇫🇷 | **France** | Bordeaux · Burgundy · Northern Rhône · Southern Rhône · Loire Valley · Alsace · Champagne · Languedoc-Roussillon · Provence · South-West · Beaujolais |
 | 🇮🇹 | **Italy** | Piedmont · Tuscany · Veneto · Southern Italy |
-| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas |
+| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas · Montsant · Catalunya |
 | 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz · Nahe · Rheinhessen · Baden · Franken |
 | 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
 | 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo |

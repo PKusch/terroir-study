@@ -4615,5 +4615,156 @@ export const QUIZ_QUESTIONS = [
     question: "Which enclave DO, almost surrounded by La Mancha, has limestone soils and red Crianza of 24 months?",
     answer: "valdepenas",
     explanation: "Valdepeñas has an average altitude of 705 m."
+  },
+  {
+    id: "es-113",
+    type: "scenario",
+    country: "Spain",
+    question: "What did DO Montsant grow out of?",
+    options: [
+      "The Falset sub-zone of DO Tarragona",
+      "The Priorat DOQ's own outer ring zone",
+      "The old Penedès sub-zone of Terra Alta",
+      "The DO Costers del Segre foothill zone"
+    ],
+    answer: 0,
+    region: "montsant",
+    explanation: "Montsant was approved in 2001."
+  },
+  {
+    id: "es-114",
+    type: "scenario",
+    country: "Spain",
+    question: "What shape do the mountains of Montsant form around Priorat?",
+    options: [
+      "A closed ring with no gaps at all",
+      "A semicircle, open to the south",
+      "A straight wall along the coast",
+      "A single line along the river Ebre"
+    ],
+    answer: 1,
+    region: "montsant",
+    explanation: "The Serra de Montsant lies to the north, and the DO opens towards the Ebre."
+  },
+  {
+    id: "es-115",
+    type: "scenario",
+    country: "Spain",
+    question: "Which two grapes together make up more than 65% of Montsant's vineyard?",
+    options: [
+      "Garnatxa negra and Carinyena",
+      "Tempranillo and Merlot together",
+      "Syrah and Cabernet Sauvignon",
+      "Macabeo and Garnacha Blanca"
+    ],
+    answer: 0,
+    region: "montsant",
+    explanation: "About 94% of the vineyard is black grapes."
+  },
+  {
+    id: "es-116",
+    type: "scenario",
+    country: "Spain",
+    question: "What is llicorella in Montsant?",
+    options: [
+      "Pure white chalk from the coast",
+      "Black volcanic sand from the hills",
+      "Stony soil from siliceous slate",
+      "Deep red alluvial clay from the Ebre"
+    ],
+    answer: 2,
+    region: "montsant",
+    explanation: "The rules also name calcareous soils and granitic sands, mainly around Falset."
+  },
+  {
+    id: "es-117",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for black grapes in Montsant?",
+    options: [
+      "10,000 kg/ha",
+      "5,000 kg/ha",
+      "7,000 kg/ha",
+      "20,000 kg/ha"
+    ],
+    answer: 0,
+    region: "montsant",
+    explanation: "White grapes may reach 12,000 kg/ha."
+  },
+  {
+    id: "es-118",
+    type: "map",
+    country: "Spain",
+    question: "Which Catalan DO forms a semicircle of mountains around Priorat and used to be the Falset sub-zone of DO Tarragona?",
+    answer: "montsant",
+    explanation: "Montsant was approved in 2001."
+  },
+  {
+    id: "es-119",
+    type: "scenario",
+    country: "Spain",
+    question: "What is DO Catalunya?",
+    options: [
+      "An umbrella DO across Catalonia",
+      "A DO for sparkling wine only, like Cava",
+      "A DO for a single village in the Penedès",
+      "A DO only for fortified wines of Tarragona"
+    ],
+    answer: 0,
+    region: "catalunya",
+    explanation: "It was created for wineries not included in other specific DOs, and many of its municipalities overlap other DOs."
+  },
+  {
+    id: "es-120",
+    type: "scenario",
+    country: "Spain",
+    question: "How many grapes does DO Catalunya authorise?",
+    options: [
+      "8, with at least 85% Garnacha",
+      "38, with no minimum share",
+      "12, with at least 50% Macabeo",
+      "19, with at least 70% Carignan"
+    ],
+    answer: 1,
+    region: "catalunya",
+    explanation: "19 are white and 19 are black."
+  },
+  {
+    id: "es-121",
+    type: "scenario",
+    country: "Spain",
+    question: "Which wine types does DO Catalunya allow besides still wine?",
+    options: [
+      "Semi-sparkling and liqueur wine",
+      "Only sparkling wine by the traditional method",
+      "Only fortified solera wines like Sherry",
+      "Only late-harvest sweet wines of botrytis"
+    ],
+    answer: 0,
+    region: "catalunya",
+    explanation: "Vino de aguja has 1 to 2.5 bar, and liqueur wine is 15 to 22% alcohol."
+  },
+  {
+    id: "es-122",
+    type: "scenario",
+    country: "Spain",
+    question: "What happens where a Catalunya vineyard could also go to another DO?",
+    options: [
+      "The higher yield limit applies",
+      "The vineyard must leave Catalunya",
+      "The stricter yield limit applies",
+      "The yield limit does not apply"
+    ],
+    answer: 2,
+    region: "catalunya",
+    explanation: "The maximum yield is 10,000 kg/ha black and 12,000 kg/ha white."
+  },
+  {
+    id: "es-123",
+    type: "map",
+    country: "Spain",
+    question: "Which umbrella DO covers municipalities across Catalonia, many of which also lie in Penedès, Montsant and Cava?",
+    answer: "catalunya",
+    explanation: "It authorises 38 grapes and sets no minimum share."
   }
 ];
