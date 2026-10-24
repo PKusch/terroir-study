@@ -5414,7 +5414,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "australia",
-    explanation: "Tahbilk was founded in 1860."
+    explanation: "Tahbilk's winery dates from 1860."
   },
   {
     id: "nw-42",
@@ -5495,7 +5495,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-47",
     type: "scenario",
     country: "New World",
-    question: "Which grape is about 58% of Nelson's vineyard?",
+    question: "Which grape is more than half of Nelson's vineyard?",
     options: [
       "Riesling, the German grape",
       "Chardonnay, the Burgundian grape",
@@ -5504,7 +5504,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "newZealand",
-    explanation: "Nelson has about 970 ha, and Pinot Noir is next."
+    explanation: "Sauvignon Blanc is the leading grape in Nelson."
   },
   {
     id: "nw-48",
@@ -5519,7 +5519,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "newZealand",
-    explanation: "Riesling is about 17% of its area."
+    explanation: "Waipara lies in the lee of the Southern Alps."
   },
   {
     id: "nw-49",
@@ -5549,7 +5549,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "california",
-    explanation: "It was approved in 1981, and soils are thin, stony and well drained."
+    explanation: "It was published in 1981, and its soils are varied and low in fertility."
   },
   {
     id: "nw-51",
@@ -5564,7 +5564,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "california",
-    explanation: "The Delta is the only break in the Coast Ranges."
+    explanation: "The Delta is the main sea-level gap in the Coast Ranges."
   },
   {
     id: "nw-52",
@@ -5585,7 +5585,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-53",
     type: "scenario",
     country: "New World",
-    question: "Which soil is rare in Chile and found in Limarí?",
+    question: "Which soil is a feature of Limarí, in Chile?",
     options: [
       "Granite soil",
       "Black volcanic ash soil",
@@ -5594,7 +5594,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "chile",
-    explanation: "Limarí is semi-arid, with Camanchaca fog, and Chardonnay is its leading grape."
+    explanation: "Limarí is semi-arid, with Camanchaca fog, and Chardonnay is its best-known grape."
   },
   {
     id: "nw-54",
@@ -5684,7 +5684,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "southAfrica",
-    explanation: "It depends on irrigation and makes fortified Muscadel and Hanepoot."
+    explanation: "It depends on irrigation and makes fortified Muscadel."
   },
   {
     id: "nw-60",
@@ -5750,7 +5750,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-64",
     type: "scenario",
     country: "New World",
-    question: "Which grape is 60% of Oregon's planted acreage?",
+    question: "Which grape is about 60% of Oregon's planted acreage?",
     options: [
       "Chardonnay",
       "Pinot Gris",
@@ -5759,7 +5759,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "oregon",
-    explanation: "In the Willamette Valley in 2017 it was 73%."
+    explanation: "The share changes a little from year to year."
   },
   {
     id: "nw-65",
@@ -5767,7 +5767,7 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Which state, with the Willamette Valley, Dundee Hills and Jory soils, is known for Pinot Noir?",
     answer: "oregon",
-    explanation: "The Willamette Valley AVA was established in 1983."
+    explanation: "The Willamette Valley AVA was approved in 1983."
   },
   {
     id: "nw-66",
@@ -5782,7 +5782,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "washington",
-    explanation: "It sits in the rain shadow of the Cascades and the Olympics."
+    explanation: "It sits in the rain shadow of the Cascades."
   },
   {
     id: "nw-67",
@@ -5797,13 +5797,13 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "washington",
-    explanation: "Loess blown on top is as fine as powdered sugar."
+    explanation: "Windblown loess lies on top."
   },
   {
     id: "nw-68",
     type: "scenario",
     country: "New World",
-    question: "Why are many Washington vines own-rooted?",
+    question: "Why can many Washington vines be own-rooted?",
     options: [
       "Rootstocks are banned by law",
       "The sandy soil is too wet",
@@ -5850,7 +5850,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "newYork",
-    explanation: "Without the lakes winters would kill vines."
+    explanation: "Without the lakes, winters would be colder and riskier for vinifera."
   },
   {
     id: "nw-72",
@@ -5880,7 +5880,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "newYork",
-    explanation: "Cane pruning is used, because cordons survive poorly."
+    explanation: "Growers also train spare trunks as insurance."
   },
   {
     id: "nw-74",
@@ -5903,7 +5903,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "ontario",
-    explanation: "The juice must be at least 35 degrees Brix, and Vidal is the only hybrid allowed."
+    explanation: "The juice must be at least 35 degrees Brix, and Vidal is the one hybrid exception."
   },
   {
     id: "nw-76",
@@ -5939,7 +5939,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-78",
     type: "map",
     country: "New World",
-    question: "Which Canadian province, with Niagara Peninsula, Beamsville Bench and Icewine from Vidal, has three viticultural areas?",
+    question: "Which Canadian province, with Niagara Peninsula, Beamsville Bench and Icewine from Vidal, has three designated viticultural areas?",
     answer: "ontario",
     explanation: "VQA Ontario means 100% Ontario grapes."
   },
@@ -5977,16 +5977,16 @@ export const QUIZ_QUESTIONS = [
     id: "nw-81",
     type: "scenario",
     country: "New World",
-    question: "How long are the Okanagan vineyards, from the US border?",
+    question: "How many of British Columbia's 12 sub-geographical indications are in the Okanagan?",
     options: [
-      "About 10 km",
-      "About 100 km",
-      "About 500 km",
-      "About 1,000 km"
+      "2",
+      "11",
+      "6",
+      "All 12"
     ],
     answer: 1,
     region: "britishColumbia",
-    explanation: "It is BC's largest and oldest wine region."
+    explanation: "The Okanagan is home to 11 of the 12, including Naramata Bench and Okanagan Falls, and it is the largest of BC's regions."
   },
   {
     id: "nw-82",
@@ -6009,6 +6009,6 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "southAfrica",
-    explanation: "Elim has a small hectarage and is known for Sauvignon Blanc, Sémillon and Shiraz."
+    explanation: "Elim is known for Sauvignon Blanc, Sémillon and Shiraz."
   }
 ];
