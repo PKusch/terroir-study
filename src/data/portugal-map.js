@@ -26,5 +26,10 @@ export const PORTUGAL_REGION_PATHS = {
     // Bairrada: the flat Atlantic plain around Anadia, inland of Figueira da Foz
     d: `M${pt(-8.65,40.6)} L${pt(-8.3,40.62)} L${pt(-8.3,40.32)} L${pt(-8.65,40.3)} Z`,
     label: geoToSvg(-8.5, 40.45)
+  },
+  lisboa: {
+    // Lisboa: the Atlantic coast and the hills north of Lisbon, from Colares and Bucelas up to Óbidos
+    d: `M${pt(-9.45,39.4)} L${pt(-8.95,39.3)} L${pt(-8.95,38.85)} L${pt(-9.45,38.7)} Z`,
+    label: geoToSvg(-9.2, 39.05)
   }
 };

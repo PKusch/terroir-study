@@ -33,5 +33,12 @@ export const PLACES_PORTUGAL = {
     "Mealhada": [-8.45, 40.3833],
     "Oliveira do Bairro": [-8.5, 40.5167],
     "Cantanhede": [-8.5833, 40.35]
+  },
+  lisboa: {
+    "Bucelas": [-9.119, 38.901],
+    "Colares": [-9.45, 38.803],
+    "Alenquer": [-9.0167, 39.05],
+    "Torres Vedras": [-9.2667, 39.0833],
+    "Óbidos": [-9.1578, 39.358]
   }
 };

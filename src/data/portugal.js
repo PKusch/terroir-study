@@ -77,5 +77,21 @@ export const PORTUGAL_REGIONS = {
     qualityLevels: ["Vinho de Portugal", "Vinho Regional Beira Atlântico", "DOC Bairrada", "Reserva", "Garrafeira"],
     whyConnection: "A cool, wet Atlantic climate → grapes with high acidity and low sugar, good for sparkling wine. Thick-skinned, late-ripening Baga → firm tannin and acidity. Clay-limestone soils → the best Baga.",
     color: "#4A6FA5"
+  },
+  lisboa: {
+    name: "Lisboa",
+    country: "Portugal",
+    climate: "Atlantic on the coast, Mediterranean inland",
+    climateDetail: "The coastal vineyards are shaped by the Atlantic, while the inland vineyards, sheltered by mountains, have a transitional Mediterranean climate. The Serra de Montejunto hills form a divide between the windswept coastal strip and the more sheltered inland areas. Bucelas is sheltered by the Montejunto from Atlantic storms and rain, and Colares is cooled by strong, humid sea winds.",
+    keyGrapes: { red: ["Touriga Nacional", "Tempranillo"], white: ["Arinto"] },
+    subRegions: ["Bucelas", "Colares", "Alenquer", "Torres Vedras", "Óbidos"],
+    subRegionsLabel: "Towns",
+    soils: "Clayey-limestone and sandy-clayey soils. Bucelas vines must grow on 'caeiras', soils derived from marls and hard limestones. Colares has two zones: 'chão de areia', deep sand in the dunes, which holds about 80% of the vineyards, and 'chão rijo', calcareous marl.",
+    viticultureNotes: "Bucelas wine must be white, with at least 75% Arinto and no more than 25% Rabo-de-Ovelha and Esgana-Cão together, and a maximum yield of 70 hl/ha. In Colares the sand kept phylloxera away, and cuttings are planted by 'unhar', pushed down through the sand into the clay beneath; vines are shielded from sea winds by cane palisades. Colares red is about 80% Ramisco, a grape grown only there, and its white is Malvasia de Colares. The regional wine, Vinho Regional Lisboa, allows yields of up to 200 hl/ha and permits over 100 grapes.",
+    winemaking: "Colares red is tannic and high in acidity, and needs about a decade to soften; minimum ageing is 18 months in wood and 6 in bottle. Bucelas is a dry, mineral white that can show a kerosene note with age. Carcavelos was a fortified wine, and almost no vineyards remain.",
+    typicalStyle: "Atlantic-fresh whites such as Bucelas Arinto and Colares Malvasia, tannic Ramisco reds, and high-volume regional wines.",
+    qualityLevels: ["Vinho de Portugal", "Vinho Regional Lisboa", "DOC Bucelas (white only)", "DOC Colares (demarcated in 1908)", "DOC Alenquer, Torres Vedras and Óbidos"],
+    whyConnection: "The Atlantic and the Montejunto hills → a cool, windy coast and a sheltered inland. Deep sand in Colares → phylloxera could not live there, so the vines grow on their own roots. A region with over 100 permitted grapes and a yield cap of 200 hl/ha → both high-volume regional wines and rare gems.",
+    color: "#B5707A"
   }
 };

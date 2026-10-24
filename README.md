@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **72** regions | 📍 **341** places on the map | ❓ **449** quiz questions | 🍇 **102** grapes | ✅ **131** tests |
+| 🌍 **9** countries | 🗺️ **73** regions | 📍 **347** places on the map | ❓ **456** quiz questions | 🍇 **102** grapes | ✅ **131** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -120,7 +120,7 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 | 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas · Montsant · Catalunya |
 | 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz · Nahe · Rheinhessen · Baden · Franken |
 | 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
-| 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo · Dão · Bairrada |
+| 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo · Dão · Bairrada · Lisboa |
 | 🇭🇺 | **Hungary** | Tokaj · Eger · Villány |
 | 🇬🇷 | **Greece** | Santorini · Naoussa · Nemea |
 | 🌎 | **New World** | California · Australia · New Zealand · South Africa · Chile · Argentina · Oregon · Washington · New York · Ontario · British Columbia |

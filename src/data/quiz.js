@@ -6010,5 +6010,88 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "southAfrica",
     explanation: "Elim is known for Sauvignon Blanc, Sémillon and Shiraz."
+  },
+  {
+    id: "pt-28",
+    type: "scenario",
+    country: "Portugal",
+    question: "What must Bucelas DOC wine be?",
+    options: [
+      "White, 75% Arinto or more",
+      "Red, 75% Ramisco or more",
+      "Rosé, 75% Touriga or more",
+      "Sparkling, 75% Baga or more"
+    ],
+    answer: 0,
+    region: "lisboa",
+    explanation: "Rabo-de-Ovelha and Esgana-Cão can make up to 25% together."
+  },
+  {
+    id: "pt-29",
+    type: "scenario",
+    country: "Portugal",
+    question: "Why is Colares unusual?",
+    options: [
+      "Vines in sand, on own roots",
+      "Vines grown on high terraces of slate",
+      "Vines trained high up trees for shade",
+      "Vines grown under glass in winter"
+    ],
+    answer: 0,
+    region: "lisboa",
+    explanation: "The sand kept phylloxera away, and cuttings are pushed down into the clay beneath."
+  },
+  {
+    id: "pt-30",
+    type: "scenario",
+    country: "Portugal",
+    question: "What is the red grape of Colares?",
+    options: [
+      "Baga",
+      "Ramisco",
+      "Castelão",
+      "Alfrocheiro"
+    ],
+    answer: 1,
+    region: "lisboa",
+    explanation: "Colares red is about 80% Ramisco, and it is tannic with high acidity."
+  },
+  {
+    id: "pt-31",
+    type: "scenario",
+    country: "Portugal",
+    question: "What protects Colares vines from sea winds?",
+    options: [
+      "Rows of tall pine trees",
+      "Glass greenhouses",
+      "Cane palisades",
+      "Rubber netting over the rows"
+    ],
+    answer: 2,
+    region: "lisboa",
+    explanation: "Strong, humid sea winds blow in from the Atlantic."
+  },
+  {
+    id: "pt-32",
+    type: "scenario",
+    country: "Portugal",
+    question: "What do Bucelas vines grow on?",
+    options: [
+      "Pure granite sand soils",
+      "Black volcanic soils",
+      "Deep alluvial river soils",
+      "Caeiras, soils from marl"
+    ],
+    answer: 3,
+    region: "lisboa",
+    explanation: "The soils come from marls and hard limestones, and the yield cap is 70 hl/ha."
+  },
+  {
+    id: "pt-33",
+    type: "map",
+    country: "Portugal",
+    question: "Which Atlantic region, with Bucelas, Colares and Óbidos, has an Arinto-led white DOC and a sand-grown red DOC?",
+    answer: "lisboa",
+    explanation: "Colares was demarcated in 1908."
   }
 ];
