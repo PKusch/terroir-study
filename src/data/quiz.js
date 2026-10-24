@@ -3851,7 +3851,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "carinena",
-    explanation: "More than 80% of the soils are Miocene clays, and cascajo is the most extensive type."
+    explanation: "Most of the DO lies on Miocene clays, and cascajo is the most extensive type."
   },
   {
     id: "es-80",
@@ -3887,7 +3887,7 @@ export const QUIZ_QUESTIONS = [
     id: "es-82",
     type: "map",
     country: "Spain",
-    question: "Which Aragón DO, south-west of Zaragoza, probably gave its name to the Carignan grape?",
+    question: "Which Aragón DO, south-west of Zaragoza, is the likely namesake of the Carignan grape?",
     answer: "carinena",
     explanation: "The town of Cariñena is likely where Carignan got its name, and the region has had a wine law since the Estatuto de la Vid of 1696."
   },
@@ -4009,7 +4009,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "rheinhessen",
-    explanation: "Rheinhessen has about 1,763 ha of Silvaner, around 43% of Germany's plantings."
+    explanation: "Rheinhessen has about 43% of Germany's Silvaner plantings."
   },
   {
     id: "de-27",
@@ -4024,7 +4024,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "rheinhessen",
-    explanation: "Bingen lies towards the Nahe, Nierstein holds about a third of the Riesling, and Wonnegau is centred on Worms."
+    explanation: "Bingen lies towards the Nahe, and Wonnegau is centred on Worms."
   },
   {
     id: "de-28",
@@ -4070,7 +4070,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "baden",
-    explanation: "Zone B needs higher must weights, and Baden is Germany's warmest region."
+    explanation: "Zone B needs higher must weights, and the Kaiserstuhl is Germany's warmest area."
   },
   {
     id: "de-32",
@@ -4100,7 +4100,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "baden",
-    explanation: "The loess on its sheltered sides is up to 40 m deep."
+    explanation: "The loess on its sheltered sides is deep."
   },
   {
     id: "de-34",
@@ -4115,7 +4115,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "baden",
-    explanation: "About 100 cooperatives make about 85% of Baden's wine, and the Breisach cellars are the largest in Europe."
+    explanation: "Cooperatives make about 85% of Baden's wine."
   },
   {
     id: "de-35",
@@ -4136,7 +4136,7 @@ export const QUIZ_QUESTIONS = [
     id: "de-36",
     type: "map",
     country: "Germany",
-    question: "Which region, Germany's warmest and the only one in zone B, runs from Lake Constance to Heidelberg east of the Rhine?",
+    question: "Which region, the only one in zone B, runs from Lake Constance to Heidelberg east of the Rhine?",
     answer: "baden",
     explanation: "Baden has nine Bereiche, the most of any German region."
   },
@@ -4153,7 +4153,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "franken",
-    explanation: "Silvaner covered 1,536 ha in 2025 and overtook Müller-Thurgau in 2019."
+    explanation: "Silvaner covered 1,536 ha in 2025, with Müller-Thurgau second."
   },
   {
     id: "de-38",
@@ -4193,7 +4193,7 @@ export const QUIZ_QUESTIONS = [
     options: [
       "Sugar of 9 g/L or less",
       "Sugar of 18 g/L or less",
-      "Sugar of 5 g/L or less",
+      "Sugar of 4 g/L or less",
       "Sugar of 30 g/L or less"
     ],
     answer: 2,
@@ -4402,7 +4402,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "jumilla",
-    explanation: "About a quarter of the world's Monastrell is grown in Jumilla, according to WSET."
+    explanation: "Jumilla has the world's largest area of Monastrell, according to WSET."
   },
   {
     id: "es-97",
