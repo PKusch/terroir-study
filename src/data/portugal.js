@@ -72,7 +72,7 @@ export const PORTUGAL_REGIONS = {
     subRegionsLabel: "Towns",
     soils: "Clay-limestone, which suits Baga best, with sandy strips that give lighter wines. The land is split into thousands of small plots.",
     viticultureNotes: "Baga is the main red, a thick-skinned, late-ripening grape with deep colour, firm tannin and high acidity. Other reds are Alfrocheiro, Tinta Pinheira and Touriga Nacional, and the whites are Fernão Pires (called Maria Gomes locally), Arinto, Bical, Cercial and Rabo de Ovelha.",
-    winemaking: "Two styles live side by side: classic Baga wines and newer bairradino blends. Bairrada was one of the first Portuguese regions to adopt sparkling wine, made by the traditional method, and it produces roughly two-thirds of the country's sparkling wine. Anadia is nicknamed the 'Capital do Espumante'.",
+    winemaking: "Two styles live side by side: classic Baga wines and newer bairradino blends. Bairrada was one of the first Portuguese regions to adopt sparkling wine, made by the traditional method, and it produces roughly half to two-thirds of the country's sparkling wine. Anadia is nicknamed the 'Capital do Espumante'.",
     typicalStyle: "Baga reds are deep, tannic and high in acidity, and the best age for decades; the sparkling wines are fresh and high in acidity.",
     qualityLevels: ["Vinho de Portugal", "Vinho Regional Beira Atlântico", "DOC Bairrada", "Reserva", "Garrafeira"],
     whyConnection: "A cool, wet Atlantic climate → grapes with high acidity and low sugar, good for sparkling wine. Thick-skinned, late-ripening Baga → firm tannin and acidity. Clay-limestone soils → the best Baga.",

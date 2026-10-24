@@ -4833,7 +4833,7 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "What is the altitude limit for Montepulciano d'Abruzzo DOC vineyards?",
     options: [
-      "500 m, or 600 m on south-facing slopes",
+      "600 m, or 700 m on south-facing slopes",
       "200 m, or 300 m on north-facing slopes",
       "1,000 m on any slope",
       "No limit, vines may grow at any height"
@@ -4961,7 +4961,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "bairrada",
-    explanation: "Bairrada makes roughly two-thirds of Portugal's sparkling wine."
+    explanation: "Bairrada makes roughly half to two-thirds of Portugal's sparkling wine."
   },
   {
     id: "pt-26",
@@ -5188,7 +5188,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "friuli",
-    explanation: "It was renamed after an EU ruling over the name Tokaji in 2006."
+    explanation: "It was renamed after an EU ruling (2005) over the name Tokaji; the old name ended on EU labels in March 2007."
   },
   {
     id: "it-52",
@@ -5239,16 +5239,16 @@ export const QUIZ_QUESTIONS = [
     id: "it-55",
     type: "scenario",
     country: "Italy",
-    question: "What are the five sub-zones of Colli Orientali del Friuli?",
+    question: "What are the official sub-zones of Colli Orientali del Friuli?",
     options: [
-      "Cialla, Faedis, Prepotto, Rosazzo and Savorgnano",
-      "Collio, Grave, Carso, Isonzo and Aquileia",
-      "Barolo, Langhe, Roero, Asti and Alba",
+      "Cialla and four named for a grape and a village",
+      "Collio, Grave, Carso, Isonzo, Aquileia and Latisana",
+      "Barolo, Langhe, Roero, Asti, Alba and Barbaresco",
       "Soave, Valpolicella, Lugana, Bardolino and Garda"
     ],
     answer: 0,
     region: "friuli",
-    explanation: "Rosazzo and Ramandolo became DOCGs in 2011, and Picolit in 2006."
+    explanation: "The four are Ribolla Gialla di Rosazzo, Pignolo di Rosazzo, Schioppettino di Prepotto and Refosco di Faedis. Ramandolo became a DOCG in 2001, Picolit in 2006 and Rosazzo in 2011."
   },
   {
     id: "it-56",
