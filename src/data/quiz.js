@@ -4469,12 +4469,12 @@ export const QUIZ_QUESTIONS = [
     id: "es-102",
     type: "scenario",
     country: "Spain",
-    question: "What is Airén called locally in La Mancha?",
+    question: "What is Cencibel, a red grape of La Mancha?",
     options: [
-      "Manchega",
-      "Cencibel",
-      "Viura",
-      "Moravia"
+      "Tempranillo",
+      "Garnacha (Grenache)",
+      "Bobal, a Levante red",
+      "Monastrell (Mourvèdre)"
     ],
     answer: 0,
     region: "laMancha",
@@ -4493,22 +4493,22 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "laMancha",
-    explanation: "Airén has lost over 43% of its area in 40 years."
+    explanation: "Spanish ministry data in 2022 showed Tempranillo (202,198 ha) just ahead of Airén (200,084 ha)."
   },
   {
     id: "es-104",
     type: "scenario",
     country: "Spain",
-    question: "What ended La Mancha's ban on irrigation?",
+    question: "What is La Mancha's maximum yield for bush vines?",
     options: [
-      "A royal decree of 1932 on vines",
-      "An EU rule of 2008 on wine",
-      "A drought-relief law of 1996",
-      "A DO reform of 2020 on yields"
+      "5,000 kg/ha",
+      "13,000 kg/ha",
+      "10,000 kg/ha",
+      "20,000 kg/ha"
     ],
     answer: 2,
     region: "laMancha",
-    explanation: "The ban came with the Estatuto de la Viña of 1970."
+    explanation: "Trellised vines may reach 13,000 kg/ha."
   },
   {
     id: "es-105",
@@ -4599,14 +4599,14 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "What does a Valdepeñas Roble red need?",
     options: [
-      "At least 90 days in oak",
+      "More than 90 days in oak",
       "At least 24 months in oak",
       "At least 18 days in oak",
       "No time in oak, only oak chips"
     ],
     answer: 0,
     region: "valdepenas",
-    explanation: "A Roble white needs at least 45 days."
+    explanation: "A Roble white needs more than 45 days."
   },
   {
     id: "es-112",
@@ -4650,7 +4650,7 @@ export const QUIZ_QUESTIONS = [
     id: "es-115",
     type: "scenario",
     country: "Spain",
-    question: "Which two grapes together make up more than 65% of Montsant's vineyard?",
+    question: "Which two grapes together make up about two-thirds of Montsant's vineyard?",
     options: [
       "Garnatxa negra and Carinyena",
       "Tempranillo and Merlot together",
@@ -4659,7 +4659,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "montsant",
-    explanation: "About 94% of the vineyard is black grapes."
+    explanation: "About 95% of the vineyard is black grapes."
   },
   {
     id: "es-116",
@@ -4674,7 +4674,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "montsant",
-    explanation: "The rules also name calcareous soils and granitic sands, mainly around Falset."
+    explanation: "The rules also name calcareous soils with red clays, and granitic sands mainly around Falset."
   },
   {
     id: "es-117",
@@ -4712,7 +4712,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "catalunya",
-    explanation: "It was created for wineries not included in other specific DOs, and many of its municipalities overlap other DOs."
+    explanation: "Its area overlaps other DOs, so many vineyards could go to either."
   },
   {
     id: "es-120",
@@ -4721,13 +4721,13 @@ export const QUIZ_QUESTIONS = [
     question: "How many grapes does DO Catalunya authorise?",
     options: [
       "8, with at least 85% Garnacha",
-      "38, with no minimum share",
+      "About 38, no minimum share",
       "12, with at least 50% Macabeo",
       "19, with at least 70% Carignan"
     ],
     answer: 1,
     region: "catalunya",
-    explanation: "19 are white and 19 are black."
+    explanation: "19 are white and 19 or 20 are black."
   },
   {
     id: "es-121",
@@ -4765,7 +4765,7 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Which umbrella DO covers municipalities across Catalonia, many of which also lie in Penedès, Montsant and Cava?",
     answer: "catalunya",
-    explanation: "It authorises 38 grapes and sets no minimum share."
+    explanation: "It authorises about 38 grapes and sets no minimum share."
   },
   {
     id: "it-31",
