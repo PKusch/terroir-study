@@ -20,7 +20,7 @@ export const SPAIN_REGION_PATHS = {
   montsant: {
     // Montsant: a semicircle of mountains around Priorat, open to the south
     d: `M${pt(0.62,41.36)} L${pt(0.98,41.38)} L${pt(1.05,41.08)} L${pt(0.65,41.04)} Z`,
-    label: geoToSvg(0.8, 41.5)
+    label: geoToSvg(0.85, 40.88)
   },
   priorat: {
     // A small pocket of hills inland from Tarragona; the label sits just above it
