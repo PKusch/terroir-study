@@ -536,6 +536,17 @@ export const GRAPES = {
     notes: "A pale, light red grown in Alto Adige, where it is called Vernatsch, and in Württemberg, where it is Trollinger. It ripens late on sunny slopes and is mostly drunk young, with a strawberry fruit and a hint of smoke."
   },
 
+  saintLaurent: {
+    name: "Saint Laurent",
+    aliases: ["Sankt Laurent", "St Laurent"],
+    colour: "red",
+    body: "medium",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["elderberry", "wild cherry", "blackcurrant", "dark chocolate"],
+    notes: "A red of Austria and the Czech lands that ripens early and prefers limestone soils at medium height. It is frost-sensitive in spring, so growers plant it in sheltered spots, and it is one parent of Zweigelt."
+  },
+
   // ── Whites ────────────────────────────────────────────────────────────────
   grunerVeltliner: {
     name: "Grüner Veltliner",
@@ -995,6 +1006,24 @@ export const GRAPES = {
     acidity: "high",
     aromas: ["apple", "lemon", "green herbs", "white flowers"],
     notes: "Burgundy's second white, a light, high-acid grape that ripens early and tolerates cold. Bouzeron is its best-known home, and it is often drunk young and fresh."
+  },
+  scheurebe: {
+    name: "Scheurebe",
+    aliases: ["Sämling 88"],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["blackcurrant", "grapefruit", "peach", "pear"],
+    notes: "A German cross of Riesling and another grape, bred in the last century. It is almost as demanding as Riesling over sites, and gives aromatic wines from dry to sweet, often with a blackcurrant note."
+  },
+  kerner: {
+    name: "Kerner",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["pear", "green apple", "apricot", "orange"],
+    notes: "A German cross of Trollinger and Riesling, robust and frost-hardy, which needs a long season to ripen. It gives fruity wines with lively acidity and a slight muscat note."
   },
   palomino: {
     name: "Palomino",
