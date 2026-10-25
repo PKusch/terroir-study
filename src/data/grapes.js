@@ -494,6 +494,27 @@ export const GRAPES = {
     notes: "The red grape of the Campo Rotaliano plain in Trentino, deep in colour and fruity; Teroldego Rotaliano must be made from this grape alone."
   },
 
+  bobal: {
+    name: "Bobal",
+    aliases: ["Bobos"],
+    colour: "red",
+    body: "medium",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["red cherry", "blackberry", "violet", "spice"],
+    notes: "The red grape of Utiel-Requena and the Valencia hills, vigorous and resistant to drought. It does best on high, cool-night sites, where its deep colour, fresh acidity and firm tannin make wines that can age or be blended."
+  },
+  castelao: {
+    name: "Castelão",
+    aliases: ["Castelao"],
+    colour: "red",
+    body: "medium",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["redcurrant", "preserved plum", "red berries", "game"],
+    notes: "A red of the warm, sandy south of Portugal, from Tejo to Setúbal and Alentejo. Careful handling gives firm tannin and acidity, and the best old-vine wines age well, though it rarely loses a rustic edge."
+  },
+
   // ── Whites ────────────────────────────────────────────────────────────────
   grunerVeltliner: {
     name: "Grüner Veltliner",
@@ -926,6 +947,24 @@ export const GRAPES = {
     acidity: "high",
     aromas: ["apricot", "tangerine", "Asian pear", "citrus", "white flowers"],
     notes: "A high-acid white of the hills of Friuli, once mostly a blending grape. It is now made as a fresh still wine, as spumante, and as an amber wine left on its skins."
+  },
+  fernaoPires: {
+    name: "Fernão Pires",
+    aliases: ["Fernao Pires", "Maria Gomes"],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["lime", "lemon", "rose", "tangerine", "orange blossom"],
+    notes: "Portugal's most planted white, called Maria Gomes in Bairrada, and an aromatic grape that does best in warm places on fertile soils. It gives high yields and is mostly drunk young."
+  },
+  verdelho: {
+    name: "Verdelho",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["lime", "honeysuckle", "citrus", "tropical fruit"],
+    notes: "A grape of Madeira and the Azores that is also made in Australia, where it gives rich, aromatic dry whites. In Madeira its base wine is high in acidity and is turned into a medium-dry fortified wine aged in cask."
   },
   palomino: {
     name: "Palomino",
