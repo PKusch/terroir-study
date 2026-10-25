@@ -205,3 +205,13 @@ test("a region may name its list of places something other than sub-regions", ()
   }
   assert.equal(REGIONS.santorini.subRegionsLabel, "Wine villages", "Santorini has villages, not official sub-regions");
 });
+
+test("every region has at least three quiz questions about it", () => {
+  const asked = {};
+  for (const q of QUIZ_QUESTIONS) {
+    const key = q.region ?? q.answer;
+    asked[key] = (asked[key] ?? 0) + 1;
+  }
+  const thin = Object.keys(REGIONS).filter((k) => (asked[k] ?? 0) < 3);
+  assert.deepEqual(thin, [], `regions with fewer than three questions: ${thin.join(", ")}`);
+});
