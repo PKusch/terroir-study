@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **73** regions | 📍 **347** places on the map | ❓ **456** quiz questions | 🍇 **102** grapes | ✅ **131** tests |
+| 🌍 **9** countries | 🗺️ **73** regions | 📍 **347** places on the map | ❓ **456** quiz questions | 🍇 **102** grapes | ✅ **134** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -260,7 +260,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (449: 63 France, 62 Italy, 123 Spain, 41 Germany, 17 Austria, 27 Portugal, 17 Hungary, 17 Greece, 82 New World; 352 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (456: 63 France, 62 Italy, 123 Spain, 41 Germany, 17 Austria, 33 Portugal, 17 Hungary, 17 Greece, 83 New World; 358 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (86 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -268,7 +268,7 @@ npm run dev
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
-- [x] Sub-region drill-down maps (Zoom into any region: 341 places marked across 72 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 347 places marked across 73 regions)
 
 ## About
 
@@ -280,7 +280,7 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 npm test
 ```
 
-131 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
+134 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
 
 ## License
 
