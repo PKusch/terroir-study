@@ -6093,5 +6093,140 @@ export const QUIZ_QUESTIONS = [
     question: "Which Atlantic region, with Bucelas, Colares and Óbidos, has an Arinto-led white DOC and a sand-grown red DOC?",
     answer: "lisboa",
     explanation: "Colares was demarcated in 1908."
+  },
+  {
+    id: "nw-84",
+    type: "scenario",
+    country: "New World",
+    question: "What is Laurelwood soil in Oregon made of?",
+    options: [
+      "Basalt and loess",
+      "Marine sediment alone",
+      "River gravel and sand",
+      "Black volcanic ash alone"
+    ],
+    answer: 0,
+    region: "oregon",
+    explanation: "It is fine and silty, with no rocks, and up to 100 feet deep."
+  },
+  {
+    id: "nw-85",
+    type: "scenario",
+    country: "New World",
+    question: "Which AVA was Washington's first?",
+    options: [
+      "Walla Walla Valley",
+      "Yakima Valley",
+      "Red Mountain",
+      "Columbia Valley"
+    ],
+    answer: 1,
+    region: "washington",
+    explanation: "It was designated in 1983, and Columbia Valley followed in 1984."
+  },
+  {
+    id: "nw-86",
+    type: "scenario",
+    country: "New World",
+    question: "Which Washington AVA has about 5 inches of rain and almost only reds?",
+    options: [
+      "Red Mountain",
+      "Yakima Valley",
+      "Puget Sound",
+      "Walla Walla Valley"
+    ],
+    answer: 0,
+    region: "washington",
+    explanation: "It was designated in 2001."
+  },
+  {
+    id: "nw-87",
+    type: "scenario",
+    country: "New World",
+    question: "Which two lakes have their own sub-AVAs in the Finger Lakes?",
+    options: [
+      "Erie and Ontario",
+      "Huron and Michigan",
+      "Cayuga and Seneca",
+      "Champlain and George"
+    ],
+    answer: 2,
+    region: "newYork",
+    explanation: "Cayuga Lake dates from 1988 and Seneca Lake from 2003."
+  },
+  {
+    id: "nw-88",
+    type: "scenario",
+    country: "New World",
+    question: "How many sub-appellations does the Niagara Peninsula have?",
+    options: [
+      "Two",
+      "Four",
+      "Twenty",
+      "Ten"
+    ],
+    answer: 3,
+    region: "ontario",
+    explanation: "A sub-appellation wine must be 100% from it."
+  },
+  {
+    id: "es-124",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must Calatayud Superior spend in oak?",
+    options: [
+      "At least 36 months",
+      "At least 6 months",
+      "No time in oak at all",
+      "At least 5 years"
+    ],
+    answer: 1,
+    region: "calatayud",
+    explanation: "It needs at least 85% Garnacha Tinta from vines over 50 years old."
+  },
+  {
+    id: "es-125",
+    type: "scenario",
+    country: "Spain",
+    question: "In what year was Cariñena's Estatuto de la Vid approved?",
+    options: [
+      "1696",
+      "1066",
+      "1932",
+      "1989"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "It was approved in the town of Cariñena."
+  },
+  {
+    id: "es-126",
+    type: "scenario",
+    country: "Spain",
+    question: "How many hours of clear sun does Yecla get in a year?",
+    options: [
+      "About 800",
+      "About 1,200",
+      "About 1,800",
+      "Over 3,000"
+    ],
+    answer: 3,
+    region: "yecla",
+    explanation: "It also gets only about 300 mm of rain."
+  },
+  {
+    id: "it-63",
+    type: "scenario",
+    country: "Italy",
+    question: "What kind of wine is Cannellino di Frascati?",
+    options: [
+      "A sweet wine",
+      "A dry sparkling wine",
+      "A dry red wine",
+      "A fortified wine"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "It became a DOCG in 2011, along with Frascati Superiore."
   }
 ];
