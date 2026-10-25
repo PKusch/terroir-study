@@ -515,6 +515,27 @@ export const GRAPES = {
     notes: "A red of the warm, sandy south of Portugal, from Tejo to Setúbal and Alentejo. Careful handling gives firm tannin and acidity, and the best old-vine wines age well, though it rarely loses a rustic edge."
   },
 
+  refosco: {
+    name: "Refosco",
+    aliases: ["Refosco dal Peduncolo Rosso", "Refosco Nostrano"],
+    colour: "red",
+    body: "high",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["plum", "almond", "dark berries", "pepper"],
+    notes: "The dark red of Friuli, a slow ripener that needs plenty of warmth and sun. It is deep in colour and full in body with high acidity, and fairly resistant to rot in autumn rain."
+  },
+  schiava: {
+    name: "Schiava",
+    aliases: ["Vernatsch", "Trollinger"],
+    colour: "red",
+    body: "low",
+    acidity: "medium",
+    tannin: "low",
+    aromas: ["strawberry", "red cherry", "smoke", "violet"],
+    notes: "A pale, light red grown in Alto Adige, where it is called Vernatsch, and in Württemberg, where it is Trollinger. It ripens late on sunny slopes and is mostly drunk young, with a strawberry fruit and a hint of smoke."
+  },
+
   // ── Whites ────────────────────────────────────────────────────────────────
   grunerVeltliner: {
     name: "Grüner Veltliner",
@@ -965,6 +986,15 @@ export const GRAPES = {
     acidity: "high",
     aromas: ["lime", "honeysuckle", "citrus", "tropical fruit"],
     notes: "A grape of Madeira and the Azores that is also made in Australia, where it gives rich, aromatic dry whites. In Madeira its base wine is high in acidity and is turned into a medium-dry fortified wine aged in cask."
+  },
+  aligote: {
+    name: "Aligoté",
+    aliases: ["Aligote"],
+    colour: "white",
+    body: "low",
+    acidity: "high",
+    aromas: ["apple", "lemon", "green herbs", "white flowers"],
+    notes: "Burgundy's second white, a light, high-acid grape that ripens early and tolerates cold. Bouzeron is its best-known home, and it is often drunk young and fresh."
   },
   palomino: {
     name: "Palomino",
