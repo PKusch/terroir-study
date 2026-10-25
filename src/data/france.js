@@ -18,7 +18,7 @@ export const REGIONS = {
     name: "Burgundy",
     climate: "Continental",
     climateDetail: "Cold winters, warm summers. Frost and hail risks. Vintage variation significant.",
-    keyGrapes: { red: ["Pinot Noir"], white: ["Chardonnay"] },
+    keyGrapes: { red: ["Pinot Noir"], white: ["Chardonnay", "Aligoté"] },
     subRegions: ["Chablis", "Côte de Nuits", "Côte de Beaune", "Côte Chalonnaise", "Mâconnais"],
     soils: "Limestone and clay; varies plot by plot. Chablis: Kimmeridgian limestone.",
     viticultureNotes: "Single-variety wines. Terroir-driven — same grape, different site = different wine. Tiny plots (climat).",

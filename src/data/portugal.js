@@ -83,7 +83,7 @@ export const PORTUGAL_REGIONS = {
     country: "Portugal",
     climate: "Atlantic on the coast, Mediterranean inland",
     climateDetail: "The coastal vineyards are shaped by the Atlantic, while the inland vineyards, sheltered by mountains, have a transitional Mediterranean climate. The Serra de Montejunto hills form a divide between the windswept coastal strip and the more sheltered inland areas. Bucelas is sheltered by the Montejunto from Atlantic storms and rain, and Colares is cooled by strong, humid sea winds.",
-    keyGrapes: { red: ["Touriga Nacional", "Tempranillo"], white: ["Arinto"] },
+    keyGrapes: { red: ["Touriga Nacional", "Tempranillo", "Castelão"], white: ["Arinto", "Fernão Pires"] },
     subRegions: ["Bucelas", "Colares", "Alenquer", "Torres Vedras", "Óbidos"],
     subRegionsLabel: "Towns",
     soils: "Clayey-limestone and sandy-clayey soils. Bucelas vines must grow on 'caeiras', soils derived from marls and hard limestones. Colares has two zones: 'chão de areia', deep sand in the dunes, which holds about 80% of the vineyards, and 'chão rijo', calcareous marl.",

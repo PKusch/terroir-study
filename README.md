@@ -264,7 +264,7 @@ npm run dev
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
 - [x] Expand quiz bank to 50+ questions (465: 63 France, 63 Italy, 126 Spain, 41 Germany, 17 Austria, 33 Portugal, 17 Hungary, 17 Greece, 88 New World; 367 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
-- [x] Grape variety profiles with tasting descriptors (86 grapes)
+- [x] Grape variety profiles with tasting descriptors (112 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
 - [x] Map drill: find it, name it and place it, with a round score and a study list

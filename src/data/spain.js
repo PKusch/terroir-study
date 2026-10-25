@@ -218,7 +218,7 @@ export const SPAIN_REGIONS = {
     country: "Spain",
     climate: "Mediterranean, milder inland",
     climateDetail: "A mild, humid climate near the sea, with a mean annual temperature of about 15 °C and long, dry, hot summers with a big day–night range. The frost-free period runs from mid-April to the end of October. Rain falls mainly in spring and autumn, about 520 mm a year over 55 rainy days.",
-    keyGrapes: { red: ["Tempranillo", "Garnacha", "Monastrell"], white: ["Moscatel", "Macabeo"] },
+    keyGrapes: { red: ["Tempranillo", "Garnacha", "Monastrell", "Bobal"], white: ["Moscatel", "Macabeo"] },
     subRegions: ["Alto Turia", "Valentino", "Moscatel de Valencia", "Clariano"],
     soils: "Brown-calcareous soils with little-developed humus horizons and a silty-sandy texture.",
     viticultureNotes: "There is no minimum share for any grape in the DO, and a grape name can go on the label only with at least 85% of that variety. Yields are capped at 9,100 kg/ha for reds, 12,000 kg/ha for whites and 16,000 kg/ha for Moscatel de Alejandría. The four sub-zones are Alto Turia, Valentino, Moscatel de Valencia and Clariano, and Utiel and Requena are not part of the DO (they have their own DO, Utiel-Requena).",

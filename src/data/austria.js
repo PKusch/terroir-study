@@ -6,7 +6,7 @@ export const AUSTRIA_REGIONS = {
     country: "Austria",
     climate: "Cool to warm continental",
     climateDetail: "Cool air from the west meets warm, dry air from the east. Summer days are hot and nights cold, which lets aromas build and keeps acidity high. The forested hills north of the Danube shelter the vineyards, and the river itself moderates the cold. In the Wachau, the cold air also drains down the valley at night.",
-    keyGrapes: { red: ["Zweigelt", "Blaufränkisch"], white: ["Grüner Veltliner", "Riesling"] },
+    keyGrapes: { red: ["Zweigelt", "Blaufränkisch", "Saint Laurent"], white: ["Grüner Veltliner", "Riesling"] },
     subRegions: ["Wachau", "Kremstal", "Kamptal", "Wagram", "Traisental", "Weinviertel"],
     soils: "Primary rock (gneiss and other crystalline rock) on the steep terraces of the Wachau and the Kamp valley; loess, a wind-blown silt, on the gentler slopes of Kremstal, Wagram and the Weinviertel; some limestone and clay. The rock soils give structured, mineral wines; loess holds water and gives fuller, softer ones.",
     viticultureNotes: "Grüner Veltliner is Austria's signature grape, with Riesling on the primary rock terraces. In the Wachau the vineyards are small terraces held up by dry-stone walls and worked mostly by hand. Grüner Veltliner needs a good site and a warm end to the season; on poor or overcropped sites it tastes thin and green.",
