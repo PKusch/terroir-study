@@ -6513,5 +6513,80 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "penedes",
     explanation: "There are ten optional sub-zone names, and the grapes must all come from the named sub-zone."
+  },
+  {
+    id: "es-133",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must Penedès quality sparkling wine spend from bottling to disgorgement?",
+    options: [
+      "At least 9 months",
+      "At least 30 months",
+      "At least 15 months",
+      "At least 5 years"
+    ],
+    answer: 2,
+    region: "penedes",
+    explanation: "This is made by the traditional method, with the second fermentation in the bottle."
+  },
+  {
+    id: "es-134",
+    type: "scenario",
+    country: "Spain",
+    question: "What is different about Penedès ancestral sparkling wine?",
+    options: [
+      "It is made in a large closed tank",
+      "No sugar or must is added",
+      "It is sweetened with grape spirit",
+      "It is never left to age on its lees"
+    ],
+    answer: 1,
+    region: "penedes",
+    explanation: "The first fermentation is slowed so enough natural sugar remains, and the bottle fermentation uses that."
+  },
+  {
+    id: "es-135",
+    type: "scenario",
+    country: "Spain",
+    question: "What must the label say on an undisgorged ancestral Penedès sparkling wine?",
+    options: [
+      "No degollado",
+      "Brut Nature",
+      "Gran Reserva",
+      "Vino de Mas"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "It means the wine is sold with its lees still in the bottle."
+  },
+  {
+    id: "es-136",
+    type: "scenario",
+    country: "Spain",
+    question: "Which Penedès sparkling label must come from the producer's own organic vineyards and be vintage-dated?",
+    options: [
+      "Cava de Paraje Calificado",
+      "Clàssic Penedès",
+      "Corpinnat",
+      "Vino de Mas"
+    ],
+    answer: 1,
+    region: "penedes",
+    explanation: "The producer must also disgorge on site and show the disgorgement date. Corpinnat is a separate private mark."
+  },
+  {
+    id: "es-137",
+    type: "scenario",
+    country: "Spain",
+    question: "Which grape is called Ull de Llebre in Penedès?",
+    options: [
+      "Tempranillo",
+      "Cabernet Franc",
+      "Sumoi Tinto",
+      "Pinot Noir"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "The name means hare's eye in Catalan."
   }
 ];
