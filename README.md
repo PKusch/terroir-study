@@ -217,6 +217,8 @@ Rías Baixas, Rueda and Cava were researched separately, from the rule books the
 
 The regions added later (Toro and Navarra, Calatayud and Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya, Nahe, Rheinhessen, Baden, Franken, the extra Italian and Portuguese ones, and the extra New World ones) were each built from the official rule book or specification where it could be read, then every quiz question was checked a second time by a separate pass against the same kind of source. That second pass found a few real mistakes, now fixed: the Franconian "fränkisch trocken" sugar limit is 4 g/L, not 5, and the sub-zones of Colli Orientali del Friuli are Cialla plus four named for a grape and a village. Anything it could not confirm was reworded, softened or dropped. The weakest spots are the Dão, Bairrada and Lazio regions and the Oregon, Washington, Finger Lakes, Ontario and British Columbia ones, where the official pages would not load and a wine-reference site or Wikipedia stands in. The rule is simple: a number is only in the app if a page said it.
 
+A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
+
 ## Tech Stack
 
 - **React 18** — Component-based UI with hooks
