@@ -215,3 +215,15 @@ test("every region has at least three quiz questions about it", () => {
   const thin = Object.keys(REGIONS).filter((k) => (asked[k] ?? 0) < 3);
   assert.deepEqual(thin, [], `regions with fewer than three questions: ${thin.join(", ")}`);
 });
+
+test("every region is listed under exactly one country", () => {
+  const seen = {};
+  for (const [country, keys] of Object.entries(COUNTRIES)) {
+    for (const key of keys) {
+      assert.ok(REGIONS[key], `${country} lists '${key}', which is not a region`);
+      assert.equal(seen[key], undefined, `'${key}' is listed under both ${seen[key]} and ${country}`);
+      seen[key] = country;
+    }
+  }
+  assert.deepEqual(Object.keys(seen).sort(), Object.keys(REGIONS).sort());
+});
