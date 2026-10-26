@@ -96,5 +96,10 @@ export const SPAIN_REGION_PATHS = {
     // Valdepeñas: an enclave on the southern edge of La Mancha
     d: `M${pt(-3.6,38.92)} L${pt(-3.1,38.92)} L${pt(-3.1,38.62)} L${pt(-3.6,38.62)} Z`,
     label: geoToSvg(-3.35, 38.77)
+  },
+  penedes: {
+    // Penedès: the hills and coastal plain between Montserrat and the sea, around Vilafranca
+    d: `M${pt(1.48,41.2)} L${pt(1.52,41.42)} L${pt(1.8,41.5)} L${pt(1.95,41.4)} L${pt(1.9,41.2)} Z`,
+    label: geoToSvg(1.68, 41.1)
   }
 };

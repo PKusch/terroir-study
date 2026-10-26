@@ -287,5 +287,21 @@ export const SPAIN_REGIONS = {
     qualityLevels: ["Vino de España", "DO Valdepeñas", "Joven", "Roble", "Crianza (24 months, 6 in oak)", "Reserva (36 months, 12 in oak)", "Gran Reserva (60 months, 18 in oak)"],
     whyConnection: "Limestone soils and a dry climate → water stress, low yields and good ripening. Aged in oak under strict minimums → smooth, ageing-style reds. An enclave inside La Mancha → its own DO and its own rules.",
     color: "#8C3B4A"
+  },
+  penedes: {
+    name: "Penedès",
+    country: "Spain",
+    climate: "Mediterranean, cooler inland and higher up",
+    climateDetail: "A Mediterranean climate from the coast up to vineyards at roughly 800 to 900 m. The sea warms the low coastal plain, while the inland hills are cooler and more mountainous. The three physical units are the Garraf massif, the Prelittoral Depression and the Prelittoral Range, which runs from Montserrat to Montmell.",
+    keyGrapes: {"red": ["Tempranillo", "Garnacha", "Cabernet Sauvignon", "Merlot"], "white": ["Xarel·lo", "Macabeo", "Parellada", "Chardonnay"]},
+    subRegions: ["Vilafranca del Penedès", "Sant Sadurní d'Anoia", "Sitges", "El Vendrell", "Olèrdola"],
+    subRegionsLabel: "Towns inside the DO",
+    soils: "Calcareous soils with 5 to 10% active limestone, mostly 80 to 120 cm deep.",
+    viticultureNotes: "The DO for still wine and quality sparkling wine from the hills and plains around Vilafranca del Penedès, apart from the Cava DO. Grapes and wine from the 2025 vintage on must be certified organic. The maximum yield is 12,000 kg/ha for white grapes and 9,000 kg/ha for red. The main whites are Xarel·lo, Macabeo and Parellada, with Chardonnay, Sauvignon Blanc and others also authorised. The reds include Ull de Llebre (Tempranillo), Garnacha, Cabernet Sauvignon, Merlot and Pinot Noir. Ten optional sub-zone names exist, among them Costers de l'Anoia, Massís del Garraf and Muntanyes d'Ordal, and a label may use one only if the vines are certified organic and every grape comes from inside that sub-zone.",
+    winemaking: "Still wines must be at least 9.5% alcohol for white and rosé and 11% for red. Ageing terms use oak of up to 330 litres: a red Crianza needs 24 months with 6 in oak, a Reserva 36 months with 12 in oak and a Gran Reserva 60 months with 24 in oak. The quality sparkling wine is made by the traditional method with at least 15 months from bottling to disgorgement, and the ancestral method also needs 15 months, with no sugar or must added. Clàssic Penedès is a sparkling label that must come from the producer's own certified organic vineyards, be vintage-dated and show the disgorgement date.",
+    typicalStyle: "Fresh, fruity whites and sparkling wines from the local white grapes, alongside softer reds and a few barrel-aged blends.",
+    qualityLevels: ["Vino de España", "DO Penedès", "Vino de Mas and Gran Vino de Mas (from a named estate)", "Crianza (red 24 months, 6 in oak)", "Reserva (red 36 months, 12 in oak)", "Gran Reserva (red 60 months, 24 in oak)", "Clàssic Penedès (organic, vintage-dated sparkling)"],
+    whyConnection: "Hills from the sea up to about 800 m → cooler inland sites keep acidity for fresh whites and sparkling base wines. Local white grapes Xarel·lo, Macabeo and Parellada → the same trio as Cava, but made as still wine here. Organic farming required → the DO is among the first in Spain to make it a rule.",
+    color: "#6FA05A"
   }
 };

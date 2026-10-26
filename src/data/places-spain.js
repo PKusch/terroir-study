@@ -98,5 +98,12 @@ export const PLACES_SPAIN = {
     "Gandesa": [0.43972, 41.05528],
     "Reus": [1.108, 41.156],
     "Vilafranca del Penedès": [1.69944, 41.34472]
+  },
+  penedes: {
+    "Vilafranca del Penedès": [1.6929, 41.3483],
+    "Sant Sadurní d'Anoia": [1.785, 41.4261],
+    "Sitges": [1.823, 41.237],
+    "El Vendrell": [1.5347, 41.2203],
+    "Olèrdola": [1.7231, 41.3219]
   }
 };
