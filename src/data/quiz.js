@@ -6663,5 +6663,80 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "penedes",
     explanation: "Gran Vino de Mas also exists, and both have yields 15% below the general limit."
+  },
+  {
+    id: "es-143",
+    type: "scenario",
+    country: "Spain",
+    question: "How many optional sub-zone names can a DO Penedès label use?",
+    options: [
+      "Ten",
+      "Three",
+      "Five",
+      "Twenty"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "They include Alts d'Ancosa, Marina del Garraf, Massís del Garraf and Turons de Vilafranca."
+  },
+  {
+    id: "es-144",
+    type: "scenario",
+    country: "Spain",
+    question: "Which Penedès sub-zones cover the Garraf area?",
+    options: [
+      "Alts d'Ancosa and Conca del Foix",
+      "Marina del Garraf and Massís del Garraf",
+      "Turons de Vilafranca and Vall Bitlles-Anoia",
+      "Costers de Lavernó and Muntanyes d'Ordal"
+    ],
+    answer: 1,
+    region: "penedes",
+    explanation: "One is the coastal part and the other the limestone massif behind it."
+  },
+  {
+    id: "es-145",
+    type: "scenario",
+    country: "Spain",
+    question: "Which range of hills runs from Montserrat to Montmell through the Penedès?",
+    options: [
+      "The Prelittoral Range",
+      "The Sierra de Guadarrama range",
+      "The Pyrenees",
+      "The Montsant massif ridge"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "The other two physical units are the Garraf massif and the Prelittoral Depression."
+  },
+  {
+    id: "es-146",
+    type: "scenario",
+    country: "Spain",
+    question: "Why can Penedès still wine and sparkling base wine keep freshness in a warm Mediterranean climate?",
+    options: [
+      "Almost all vines grow below sea level on flat ground",
+      "Rainfall is above 2,000 mm a year, all in summer",
+      "Vines climb from the coast to 800 m",
+      "The soils are pure slate that stays cold all year"
+    ],
+    answer: 2,
+    region: "penedes",
+    explanation: "Cooler inland sites hold acidity, while the coastal plain is warm and dry."
+  },
+  {
+    id: "es-147",
+    type: "scenario",
+    country: "Spain",
+    question: "Which town is the centre of the Penedès DO?",
+    options: [
+      "Sitges, a seaside resort town",
+      "Vilafranca del Penedès",
+      "Figueres, near the French border",
+      "Reus, in Tarragona province"
+    ],
+    answer: 1,
+    region: "penedes",
+    explanation: "Sant Sadurní d'Anoia, to the north, is the centre of Cava."
   }
 ];
