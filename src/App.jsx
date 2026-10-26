@@ -11,6 +11,7 @@ import { QuizMode } from "./QuizMode.jsx";
 import { TastePanel } from "./TastePanel.jsx";
 import { MockExam } from "./MockExam.jsx";
 import { MapDrill } from "./MapDrill.jsx";
+import { RegionChips } from "./RegionChips.jsx";
 import { BackupPanel } from "./BackupPanel.jsx";
 
 // ─── Main App ────────────────────────────────────────────────────────────────
@@ -199,6 +200,10 @@ export default function WsetStudyApp() {
             )}
           </div>
         </div>
+
+        {mode !== "quiz" && mode !== "exam" && mode !== "drill" && (
+          <RegionChips country={country} activeRegion={activeRegion} onSelect={(key) => { setActiveRegion(key); setZoomed(false); }} />
+        )}
 
         {/* Zoom and print: their own block, so they never sit on top of the heading */}
         {mode !== "quiz" && mode !== "exam" && mode !== "drill" && (
