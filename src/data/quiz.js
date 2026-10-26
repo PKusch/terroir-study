@@ -6738,5 +6738,50 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "penedes",
     explanation: "Sant Sadurní d'Anoia, to the north, is the centre of Cava."
+  },
+  {
+    id: "es-148",
+    type: "scenario",
+    country: "Spain",
+    question: "Clàssic Penedès needs at least 15 months of ageing. What is the Cava minimum for Cava de Guarda?",
+    options: [
+      "3 months",
+      "30 months",
+      "9 months",
+      "36 months"
+    ],
+    answer: 2,
+    region: "penedes",
+    explanation: "Clàssic Penedès asks for more time, and also bans non-vintage wines."
+  },
+  {
+    id: "es-149",
+    type: "scenario",
+    country: "Spain",
+    question: "Can a Clàssic Penedès producer buy in wine to make the sparkling base?",
+    options: [
+      "No, every step is done on its own premises",
+      "Yes, from any other DO in Catalonia or Aragon",
+      "Yes, but only for up to half of the volume made",
+      "Yes, if the bought wine is also certified organic"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "The wine must also be vintage-dated, with the disgorgement date on the label."
+  },
+  {
+    id: "es-150",
+    type: "scenario",
+    country: "Spain",
+    question: "What is Corpinnat?",
+    options: [
+      "A private mark of growers who left Cava",
+      "A DO for still wine from the Garraf massif",
+      "A sparkling category inside Clàssic Penedès rules",
+      "A Cava de Paraje Calificado single estate"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "It is not a DO, and the Penedès DO's own sparkling rules are separate from it."
   }
 ];
