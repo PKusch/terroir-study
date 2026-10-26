@@ -6438,5 +6438,80 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rheinhessen",
     explanation: "They are commonly named Bingen, Nierstein and Wonnegau."
+  },
+  {
+    id: "es-128",
+    type: "scenario",
+    country: "Spain",
+    question: "What farming rule applies to DO Penedès grapes from the 2025 vintage on?",
+    options: [
+      "They must be certified organic",
+      "They must be hand-harvested",
+      "They must come from bush vines",
+      "They must be dry-farmed"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "The DO rules make organic certification mandatory from the 2025 vintage."
+  },
+  {
+    id: "es-129",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for white grapes in DO Penedès?",
+    options: [
+      "6,000 kg/ha",
+      "9,000 kg/ha",
+      "12,000 kg/ha",
+      "20,000 kg/ha"
+    ],
+    answer: 2,
+    region: "penedes",
+    explanation: "Red grapes are held lower, at 9,000 kg/ha."
+  },
+  {
+    id: "es-130",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for red grapes in DO Penedès?",
+    options: [
+      "9,000 kg/ha",
+      "5,000 kg/ha",
+      "12,000 kg/ha",
+      "15,000 kg/ha"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "White grapes are allowed 12,000 kg/ha."
+  },
+  {
+    id: "es-131",
+    type: "scenario",
+    country: "Spain",
+    question: "Which local white grapes make up the core of DO Penedès, as they do in Cava?",
+    options: [
+      "Verdejo, Viura and Albariño",
+      "Xarel·lo, Macabeo and Parellada",
+      "Garnacha Blanca, Godello and Airén",
+      "Palomino, Moscatel and Pedro Ximénez"
+    ],
+    answer: 1,
+    region: "penedes",
+    explanation: "Chardonnay, Sauvignon Blanc and others are also authorised."
+  },
+  {
+    id: "es-132",
+    type: "scenario",
+    country: "Spain",
+    question: "What do the sub-zone names on a Penedès label, such as Costers de l'Anoia, require?",
+    options: [
+      "Organic vines, all grapes from that sub-zone",
+      "Grapes only from vines more than fifty years old",
+      "Hand harvesting into small boxes at dawn only",
+      "Wine aged for at least twelve months in oak"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "There are ten optional sub-zone names, and the grapes must all come from the named sub-zone."
   }
 ];
