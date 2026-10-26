@@ -6228,5 +6228,95 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "lazio",
     explanation: "It became a DOCG in 2011, along with Frascati Superiore."
+  },
+  {
+    id: "es-127",
+    type: "scenario",
+    country: "Spain",
+    question: "Which red grape is native to Utiel-Requena and the Valencia hills?",
+    options: [
+      "Mencía",
+      "Monastrell",
+      "Bobal",
+      "Tempranillo"
+    ],
+    answer: 2,
+    region: "valencia",
+    explanation: "It is vigorous, drought-resistant and best on high, cool-night sites."
+  },
+  {
+    id: "de-42",
+    type: "scenario",
+    country: "Germany",
+    question: "Which German grape is a cross of Trollinger and Riesling?",
+    options: [
+      "Kerner",
+      "Scheurebe",
+      "Dornfelder",
+      "Müller-Thurgau"
+    ],
+    answer: 0,
+    region: "pfalz",
+    explanation: "It is robust and frost-hardy, with lively acidity and a slight muscat note."
+  },
+  {
+    id: "it-64",
+    type: "scenario",
+    country: "Italy",
+    question: "What is Schiava called in Alto Adige?",
+    options: [
+      "Lagrein",
+      "Vernatsch",
+      "Teroldego",
+      "Marzemino"
+    ],
+    answer: 1,
+    region: "trentinoAltoAdige",
+    explanation: "In Württemberg the same grape is called Trollinger."
+  },
+  {
+    id: "it-65",
+    type: "scenario",
+    country: "Italy",
+    question: "Which Friulian red is a slow ripener that needs plenty of warmth and sun?",
+    options: [
+      "Refosco",
+      "Pinot Nero",
+      "Lagrein",
+      "Schiava"
+    ],
+    answer: 0,
+    region: "friuli",
+    explanation: "It is deep in colour, full-bodied and high in acidity."
+  },
+  {
+    id: "at-18",
+    type: "scenario",
+    country: "Austria",
+    question: "Which Austrian cross has Saint Laurent as one of its parents?",
+    options: [
+      "Grüner Veltliner",
+      "Welschriesling",
+      "Müller-Thurgau",
+      "Zweigelt"
+    ],
+    answer: 3,
+    region: "niederosterreich",
+    explanation: "Zweigelt is Saint Laurent crossed with Blaufränkisch."
+  },
+  {
+    id: "pt-34",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which red grape of southern Portugal likes hot climates and dry, sandy soils?",
+    options: [
+      "Baga",
+      "Alfrocheiro",
+      "Castelão",
+      "Tinta Roriz"
+    ],
+    answer: 2,
+    region: "lisboa",
+    explanation: "The best old-vine wines age well, though it rarely loses a rustic edge."
   }
 ];
