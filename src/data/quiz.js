@@ -6318,5 +6318,65 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "lisboa",
     explanation: "The best old-vine wines age well, though it rarely loses a rustic edge."
+  },
+  {
+    id: "pt-35",
+    type: "scenario",
+    country: "Portugal",
+    question: "How many vines per hectare must new Bucelas plantings have?",
+    options: [
+      "At least 3,300",
+      "At least 500",
+      "At least 1,000",
+      "At least 10,000"
+    ],
+    answer: 0,
+    region: "lisboa",
+    explanation: "The vines must be low-trained, as bush vines or on low cordons."
+  },
+  {
+    id: "pt-36",
+    type: "scenario",
+    country: "Portugal",
+    question: "What is the maximum yield for Bucelas DOC?",
+    options: [
+      "20 hl/ha",
+      "70 hl/ha",
+      "200 hl/ha",
+      "120 hl/ha"
+    ],
+    answer: 1,
+    region: "lisboa",
+    explanation: "The regional Vinho Regional Lisboa allows up to 200 hl/ha."
+  },
+  {
+    id: "pt-37",
+    type: "scenario",
+    country: "Portugal",
+    question: "What is the maximum yield for Vinho Regional Lisboa?",
+    options: [
+      "200 hl/ha",
+      "100 hl/ha",
+      "70 hl/ha",
+      "55 hl/ha"
+    ],
+    answer: 0,
+    region: "lisboa",
+    explanation: "The wine institute may raise it by up to a quarter in a given year."
+  },
+  {
+    id: "pt-38",
+    type: "scenario",
+    country: "Portugal",
+    question: "How long must Bucelas be aged before sale?",
+    options: [
+      "At least 6 years in oak",
+      "No ageing is required",
+      "8 months, 2 in bottle",
+      "At least 3 years, 1 in bottle"
+    ],
+    answer: 2,
+    region: "lisboa",
+    explanation: "Bucelas must also have at least 4.0 g/L of fixed acidity."
   }
 ];
