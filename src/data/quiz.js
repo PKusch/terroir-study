@@ -6588,5 +6588,80 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "penedes",
     explanation: "The name means hare's eye in Catalan."
+  },
+  {
+    id: "es-138",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a Penedès red Crianza be aged in total?",
+    options: [
+      "24 months, 6 in oak",
+      "12 months, 3 in oak",
+      "18 months, 12 in oak",
+      "36 months, 12 in oak"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "The oak vessels may hold up to 330 litres."
+  },
+  {
+    id: "es-139",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a Penedès red Reserva be aged in total?",
+    options: [
+      "24 months, 6 in oak",
+      "48 months, 18 in oak",
+      "36 months, 12 in oak",
+      "60 months, 24 in oak"
+    ],
+    answer: 2,
+    region: "penedes",
+    explanation: "A Gran Reserva red needs 60 months, 24 of them in oak."
+  },
+  {
+    id: "es-140",
+    type: "scenario",
+    country: "Spain",
+    question: "How much oak ageing does a Penedès red Gran Reserva need?",
+    options: [
+      "6 months",
+      "24 months",
+      "12 months",
+      "36 months"
+    ],
+    answer: 1,
+    region: "penedes",
+    explanation: "The total ageing is 60 months."
+  },
+  {
+    id: "es-141",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the minimum alcohol for a still red wine under DO Penedès?",
+    options: [
+      "11%",
+      "9.5%",
+      "12.5%",
+      "13.5%"
+    ],
+    answer: 0,
+    region: "penedes",
+    explanation: "White and rosé wines need at least 9.5%."
+  },
+  {
+    id: "es-142",
+    type: "scenario",
+    country: "Spain",
+    question: "What does the Penedès label term Vino de Mas mean?",
+    options: [
+      "Wine from the oldest local vines",
+      "Wine from a named estate (masia)",
+      "Wine made without added sulphur",
+      "Wine from the Garraf coast alone"
+    ],
+    answer: 1,
+    region: "penedes",
+    explanation: "Gran Vino de Mas also exists, and both have yields 15% below the general limit."
   }
 ];
