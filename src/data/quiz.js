@@ -6378,5 +6378,65 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "lisboa",
     explanation: "Bucelas must also have at least 4.0 g/L of fixed acidity."
+  },
+  {
+    id: "de-43",
+    type: "scenario",
+    country: "Germany",
+    question: "How many Grosslagen (collective sites) does the Nahe have?",
+    options: [
+      "One",
+      "Twenty",
+      "Seven",
+      "Seventy"
+    ],
+    answer: 2,
+    region: "nahe",
+    explanation: "The Nahe is one Bereich, Nahetal."
+  },
+  {
+    id: "de-44",
+    type: "scenario",
+    country: "Germany",
+    question: "How many districts does Baden have?",
+    options: [
+      "Two",
+      "Four",
+      "Fourteen",
+      "Nine"
+    ],
+    answer: 3,
+    region: "baden",
+    explanation: "Baden is the third-largest German region."
+  },
+  {
+    id: "de-45",
+    type: "scenario",
+    country: "Germany",
+    question: "What share of Franken's vineyard is white?",
+    options: [
+      "About 83%",
+      "About 30%",
+      "About 50%",
+      "About 65%"
+    ],
+    answer: 0,
+    region: "franken",
+    explanation: "Silvaner covered 1,536 ha in 2025."
+  },
+  {
+    id: "de-46",
+    type: "scenario",
+    country: "Germany",
+    question: "How many districts does Rheinhessen have?",
+    options: [
+      "One",
+      "Three",
+      "Seven",
+      "Twelve"
+    ],
+    answer: 1,
+    region: "rheinhessen",
+    explanation: "They are commonly named Bingen, Nierstein and Wonnegau."
   }
 ];
