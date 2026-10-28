@@ -6933,5 +6933,80 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "rhoneSouth",
     explanation: "Côtes du Rhône-Villages is held lower, at 44 hl/ha."
+  },
+  {
+    id: "fr-74",
+    type: "scenario",
+    country: "France",
+    question: "What is the minimum Mourvèdre share in a red Bandol?",
+    options: [
+      "50%",
+      "15%",
+      "30%",
+      "85%"
+    ],
+    answer: 0,
+    region: "provence",
+    explanation: "The maximum is 95%. A Bandol rosé needs only 20%."
+  },
+  {
+    id: "fr-75",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Bandol?",
+    options: [
+      "25 hl/ha",
+      "40 hl/ha",
+      "60 hl/ha",
+      "85 hl/ha"
+    ],
+    answer: 1,
+    region: "provence",
+    explanation: "Bandol grapes must also be picked by hand."
+  },
+  {
+    id: "fr-76",
+    type: "scenario",
+    country: "France",
+    question: "What are the 'restanques' of Bandol?",
+    options: [
+      "Dry-stone terraces on the hillsides",
+      "Wind breaks of cypress trees",
+      "Underground cellars cut in limestone",
+      "Stone huts used by the pickers"
+    ],
+    answer: 0,
+    region: "provence",
+    explanation: "The terraces hold the thin soil and face the sea."
+  },
+  {
+    id: "fr-77",
+    type: "scenario",
+    country: "France",
+    question: "Which white grape must make up at least half of a white Bandol?",
+    options: [
+      "Viognier",
+      "Chenin Blanc",
+      "Clairette",
+      "Muscat"
+    ],
+    answer: 2,
+    region: "provence",
+    explanation: "Clairette must be between 50% and 95% of a white Bandol."
+  },
+  {
+    id: "fr-78",
+    type: "scenario",
+    country: "France",
+    question: "How many ways of making rosé does the Côtes de Provence rule book allow?",
+    options: [
+      "Four, among them bleeding and direct pressing",
+      "Only one, direct pressing with no skin contact",
+      "Only one, bleeding off a tank of red wine",
+      "None, it is made by blending red and white wine"
+    ],
+    answer: 0,
+    region: "provence",
+    explanation: "Direct pressing is only one of four allowed methods."
   }
 ];
