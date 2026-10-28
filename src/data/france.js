@@ -45,11 +45,11 @@ export const REGIONS = {
   rhoneSouth: {
     name: "Southern Rhône",
     climate: "Mediterranean",
-    climateDetail: "Hot, dry summers. Mistral wind. Drought stress possible.",
+    climateDetail: "Hot, dry summers and the mistral wind, with drought stress possible. The Châteauneuf-du-Pape rule book gives about 2,800 hours of sun and under 650 mm of rain a year, and calls it one of the driest parts of the Rhône Valley.",
     keyGrapes: { red: ["Grenache", "Syrah", "Mourvèdre"], white: ["Grenache Blanc", "Roussanne", "Clairette"] },
     subRegions: ["Châteauneuf-du-Pape", "Gigondas", "Vacqueyras", "Côtes du Rhône", "Côtes du Rhône-Villages"],
     soils: "Châteauneuf-du-Pape: famous galets (large stones) that retain heat.",
-    viticultureNotes: "Bush vines (gobelet) for Grenache — no trellising needed in hot climate. Blending tradition.",
+    viticultureNotes: "Bush vines (gobelet) for Grenache — no trellising needed in hot climate. Blending tradition. Châteauneuf-du-Pape lists 18 grape names, counting colour variants separately (13 if they are grouped), yields are capped at 35 hl/ha, the grapes must reach 12.5% natural alcohol and must be hand-picked and sorted. Gigondas needs at least 50% Grenache, Côtes du Rhône at least 30% (outside the north) and Côtes du Rhône-Villages at least 40%. Tavel makes only rosé.",
     winemaking: "Large old oak (foudre) for ageing — oak flavour not the goal. Grenache-based blends.",
     typicalStyle: "Rich, warm, high alcohol. Red fruit, herbs (garrigue), spice. Generous and full-bodied.",
     qualityLevels: ["Côtes du Rhône", "Côtes du Rhône-Villages", "Gigondas", "Châteauneuf-du-Pape"],
