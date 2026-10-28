@@ -7008,5 +7008,80 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "provence",
     explanation: "Direct pressing is only one of four allowed methods."
+  },
+  {
+    id: "fr-79",
+    type: "scenario",
+    country: "France",
+    question: "Which colour makes up about two thirds of the vineyard area of Cassis?",
+    options: [
+      "White",
+      "Red",
+      "Rosé",
+      "Orange"
+    ],
+    answer: 0,
+    region: "provence",
+    explanation: "Cassis is one of the few Provence appellations where white leads."
+  },
+  {
+    id: "fr-80",
+    type: "scenario",
+    country: "France",
+    question: "How many sun hours a year do the Bandol, Cassis and Palette rule books give?",
+    options: [
+      "About 1,500",
+      "About 3,000",
+      "About 2,000",
+      "About 4,000"
+    ],
+    answer: 1,
+    region: "provence",
+    explanation: "Rainfall is about 650 to 670 mm a year, and the mistral blows through."
+  },
+  {
+    id: "fr-81",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Coteaux d'Aix-en-Provence?",
+    options: [
+      "60 hl/ha",
+      "30 hl/ha",
+      "40 hl/ha",
+      "90 hl/ha"
+    ],
+    answer: 0,
+    region: "provence",
+    explanation: "Côtes de Provence is lower, at 55 hl/ha for the plain appellation."
+  },
+  {
+    id: "fr-82",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for the plain Côtes de Provence appellation?",
+    options: [
+      "25 hl/ha",
+      "35 hl/ha",
+      "55 hl/ha",
+      "80 hl/ha"
+    ],
+    answer: 2,
+    region: "provence",
+    explanation: "The named zones such as Sainte-Victoire and Fréjus are held to 50 hl/ha."
+  },
+  {
+    id: "fr-83",
+    type: "scenario",
+    country: "France",
+    question: "Does the Les Baux-de-Provence rule book require organic farming?",
+    options: [
+      "No, it only bans herbicide on the plot",
+      "Yes, every vineyard must be certified organic",
+      "Yes, but only for the red wines made there",
+      "No, it bans every kind of spraying in the vineyard"
+    ],
+    answer: 0,
+    region: "provence",
+    explanation: "The 2024 text bans herbicide use, not all synthetic treatments."
   }
 ];
