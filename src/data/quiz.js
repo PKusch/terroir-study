@@ -6858,5 +6858,80 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "rhoneSouth",
     explanation: "It dates from 1937, and the appellation's rule book does not make it compulsory."
+  },
+  {
+    id: "fr-69",
+    type: "scenario",
+    country: "France",
+    question: "Which colour of wine may Tavel be?",
+    options: [
+      "Red and rosé",
+      "White and rosé",
+      "Red, white and rosé",
+      "Rosé only"
+    ],
+    answer: 3,
+    region: "rhoneSouth",
+    explanation: "The rule book reserves the appellation for still rosé wines."
+  },
+  {
+    id: "fr-70",
+    type: "scenario",
+    country: "France",
+    question: "What is the minimum share of Grenache in Gigondas?",
+    options: [
+      "50%",
+      "20%",
+      "30%",
+      "80%"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "Syrah and Mourvèdre together must reach at least 15%."
+  },
+  {
+    id: "fr-71",
+    type: "scenario",
+    country: "France",
+    question: "In Côtes du Rhône reds and rosés, what is the minimum Grenache share, except north of Montélimar?",
+    options: [
+      "10%",
+      "30%",
+      "50%",
+      "70%"
+    ],
+    answer: 1,
+    region: "rhoneSouth",
+    explanation: "Syrah and Mourvèdre together must reach at least 20%."
+  },
+  {
+    id: "fr-72",
+    type: "scenario",
+    country: "France",
+    question: "How does Côtes du Rhône-Villages differ from basic Côtes du Rhône?",
+    options: [
+      "A lower yield, more Grenache",
+      "It allows only white grapes and no reds",
+      "It has no limit at all on its yield",
+      "It must come from north of Montélimar only"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "The yield is 44 hl/ha against 51, and Grenache must be at least 40% against 30%."
+  },
+  {
+    id: "fr-73",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for basic Côtes du Rhône?",
+    options: [
+      "25 hl/ha",
+      "35 hl/ha",
+      "51 hl/ha",
+      "90 hl/ha"
+    ],
+    answer: 2,
+    region: "rhoneSouth",
+    explanation: "Côtes du Rhône-Villages is held lower, at 44 hl/ha."
   }
 ];
