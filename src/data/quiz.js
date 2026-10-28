@@ -6783,5 +6783,80 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "penedes",
     explanation: "It is not a DO, and the Penedès DO's own sparkling rules are separate from it."
+  },
+  {
+    id: "fr-64",
+    type: "scenario",
+    country: "France",
+    question: "How many grape names does the Châteauneuf-du-Pape rule book list, counting colour variants separately?",
+    options: [
+      "Eighteen",
+      "Only five",
+      "Only eight",
+      "Over thirty"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "The traditional figure is thirteen, which groups colour variants of Grenache, Clairette and Piquepoul together."
+  },
+  {
+    id: "fr-65",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Châteauneuf-du-Pape?",
+    options: [
+      "20 hl/ha",
+      "35 hl/ha",
+      "50 hl/ha",
+      "65 hl/ha"
+    ],
+    answer: 1,
+    region: "rhoneSouth",
+    explanation: "The appellation is lost above 36 hl/ha, or above 42 hl/ha when the extra is sorted out."
+  },
+  {
+    id: "fr-66",
+    type: "scenario",
+    country: "France",
+    question: "What is the minimum natural alcohol for Châteauneuf-du-Pape?",
+    options: [
+      "12.5%",
+      "10.5%",
+      "11%",
+      "14%"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "This is a rule for the grapes as harvested, before any fermentation."
+  },
+  {
+    id: "fr-67",
+    type: "scenario",
+    country: "France",
+    question: "How must Châteauneuf-du-Pape grapes be harvested?",
+    options: [
+      "By hand, with machines banned",
+      "By machine only, at night",
+      "By hand or machine, as the grower likes",
+      "By machine, with hand sorting afterwards"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "Sorting the grapes is also compulsory, in the vineyard or the cellar."
+  },
+  {
+    id: "fr-68",
+    type: "scenario",
+    country: "France",
+    question: "Is the embossed bottle with the tiara and crossed keys a rule of the Châteauneuf-du-Pape appellation?",
+    options: [
+      "Yes, it is compulsory for every bottle",
+      "Yes, but only for the white wine",
+      "No, it is the growers' own trademark",
+      "No, it is a rule of the wider Rhône instead"
+    ],
+    answer: 2,
+    region: "rhoneSouth",
+    explanation: "It dates from 1937, and the appellation's rule book does not make it compulsory."
   }
 ];
