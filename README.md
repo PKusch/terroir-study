@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **74** regions | 📍 **352** places on the map | ❓ **522** quiz questions | 🍇 **112** grapes | ✅ **136** tests |
+| 🌍 **9** countries | 🗺️ **74** regions | 📍 **352** places on the map | ❓ **526** quiz questions | 🍇 **112** grapes | ✅ **136** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -217,7 +217,7 @@ Rías Baixas, Rueda and Cava were researched separately, from the rule books the
 
 Penedès (still wines) was built from the DO's own specification (version March 2026), except the Clàssic Penedès and Corpinnat points, which come from a wine-trade article and press reports; sources disagree on its top altitude (800 or 900 m), so the questions say "about 800 m", and on when the Clàssic Penedès name began (2013 or 2014), so that date is left out. Castilla y León's table wine is still missing because its rules could not be read.
 
-The southern Rhône and Provence questions (fr-64 to fr-83) come from the INAO rule books for Châteauneuf-du-Pape, Gigondas, Tavel, Côtes du Rhône, Côtes de Provence, Coteaux d'Aix, Les Baux, Bandol and Cassis, read as the ministry's copies because the INAO site itself would not load. Two figures differ between sources and the rule book was followed: Bandol rosé needs 20% Mourvèdre, not 50%, and Côtes du Rhône-Villages needs 40% Grenache, not 50%. The Provence rosé share (88% in the app, 89% in the rule book's 2009 figure) is a dated figure, and some newer rule-book versions (Lirac, Gigondas, Bandol) were not opened.
+The southern Rhône and Provence questions (fr-64 to fr-87) come from the INAO rule books for Châteauneuf-du-Pape, Gigondas, Tavel, Côtes du Rhône, Côtes de Provence, Coteaux d'Aix, Les Baux, Bandol and Cassis, read as the ministry's copies because the INAO site itself would not load. Two figures differ between sources and the rule book was followed: Bandol rosé needs 20% Mourvèdre, not 50%, and Côtes du Rhône-Villages needs 40% Grenache, not 50%. The Provence rosé share (88% in the app, 89% in the rule book's 2009 figure) is a dated figure, and some newer rule-book versions (Lirac, Gigondas, Bandol) were not opened.
 
 The regions added later (Toro and Navarra, Calatayud and Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya, Nahe, Rheinhessen, Baden, Franken, the extra Italian and Portuguese ones, and the extra New World ones) were each built from the official rule book or specification where it could be read, then every quiz question was checked a second time by a separate pass against the same kind of source. That second pass found a few real mistakes, now fixed: the Franconian "fränkisch trocken" sugar limit is 4 g/L, not 5, and the sub-zones of Colli Orientali del Friuli are Cialla plus four named for a grape and a village. Anything it could not confirm was reworded, softened or dropped. The weakest spots are the Dão, Bairrada and Lazio regions and the Oregon, Washington, Finger Lakes, Ontario and British Columbia ones, where the official pages would not load and a wine-reference site or Wikipedia stands in. The rule is simple: a number is only in the app if a page said it.
 
@@ -268,7 +268,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (522: 83 France, 65 Italy, 150 Spain, 46 Germany, 18 Austria, 38 Portugal, 17 Hungary, 17 Greece, 88 New World; 424 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (526: 87 France, 65 Italy, 150 Spain, 46 Germany, 18 Austria, 38 Portugal, 17 Hungary, 17 Greece, 88 New World; 428 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (112 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)

@@ -7083,5 +7083,65 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "provence",
     explanation: "The 2024 text bans herbicide use, not all synthetic treatments."
+  },
+  {
+    id: "fr-84",
+    type: "scenario",
+    country: "France",
+    question: "In red Vacqueyras, what is the minimum share of Grenache?",
+    options: [
+      "50%",
+      "10%",
+      "25%",
+      "75%"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "Syrah and Mourvèdre together must reach at least 20%."
+  },
+  {
+    id: "fr-85",
+    type: "scenario",
+    country: "France",
+    question: "Which three colours may Lirac be?",
+    options: [
+      "Red only",
+      "Red, white and rosé",
+      "Red and rosé only",
+      "White and rosé only"
+    ],
+    answer: 1,
+    region: "rhoneSouth",
+    explanation: "Tavel, its neighbour across the river, is rosé only."
+  },
+  {
+    id: "fr-86",
+    type: "scenario",
+    country: "France",
+    question: "What are the galets roulés of Châteauneuf-du-Pape?",
+    options: [
+      "Rounded stones over red clay",
+      "Windblown dunes of sand",
+      "Layers of black slate",
+      "Chalk cliffs above the river"
+    ],
+    answer: 0,
+    region: "rhoneSouth",
+    explanation: "The rule book's own description is of rounded stones in a red clay matrix."
+  },
+  {
+    id: "fr-87",
+    type: "scenario",
+    country: "France",
+    question: "Which pair of Côtes du Rhône-Villages names is for red wine only?",
+    options: [
+      "Sablet and Séguret, say",
+      "Valréas and Visan, say",
+      "Nyons and Plan de Dieu",
+      "Roaix and Rochegude, say"
+    ],
+    answer: 2,
+    region: "rhoneSouth",
+    explanation: "Nyons and Plan de Dieu are red only. Sablet, Séguret, Valréas, Visan, Roaix and Rochegude may be white, red or rosé."
   }
 ];
