@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **74** regions | 📍 **352** places on the map | ❓ **566** quiz questions | 🍇 **112** grapes | ✅ **136** tests |
+| 🌍 **9** countries | 🗺️ **74** regions | 📍 **352** places on the map | ❓ **570** quiz questions | 🍇 **112** grapes | ✅ **136** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -223,6 +223,8 @@ The Alsace, Beaujolais, Northern Rhône, Languedoc-Roussillon and Bordeaux quest
 
 The Amarone, Prosecco and South West questions (it-66 to it-70, fr-113 to fr-117) come from the rule books themselves (Amarone's 2023 text, the Prosecco DOC rules in English translation, and the ministry's copies of the Madiran and Monbazillac texts). The Mosel, Rheingau and Südsteiermark ones (de-47 to de-49, at-19 and at-20) come from the German Wine Institute's consumer site and the Südsteiermark DAC regulation as hosted by a blog, so they are the least firm of this batch. Not checked: the Prädikat must-weight table by region, the Rheingau Erstes Gewächs rules, Conegliano Valdobbiadene and Rive, Cahors and Bergerac in their rule books, and the current Jurançon and Gaillac texts (the ones read were older), so no question uses those.
 
+The four British Columbia questions rest on the BC Wines of Marked Quality Regulation (B.C. Reg. 168/2018) and the BC Wine Authority's Icewine page. Two sources disagree on how much of a sub-region wine must come from the sub-region (85% or 95%), so no question asks it. Nothing in the app is taken from the Lazio and Villány searches: the Frascati text could not be read, and the Villány rules found were from a repealed decree.
+
 The regions added later (Toro and Navarra, Calatayud and Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya, Nahe, Rheinhessen, Baden, Franken, the extra Italian and Portuguese ones, and the extra New World ones) were each built from the official rule book or specification where it could be read, then every quiz question was checked a second time by a separate pass against the same kind of source. That second pass found a few real mistakes, now fixed: the Franconian "fränkisch trocken" sugar limit is 4 g/L, not 5, and the sub-zones of Colli Orientali del Friuli are Cialla plus four named for a grape and a village. Anything it could not confirm was reworded, softened or dropped. The weakest spots are the Dão, Bairrada and Lazio regions and the Oregon, Washington, Finger Lakes, Ontario and British Columbia ones, where the official pages would not load and a wine-reference site or Wikipedia stands in. The rule is simple: a number is only in the app if a page said it.
 
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
@@ -272,7 +274,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (566: 117 France, 70 Italy, 150 Spain, 49 Germany, 20 Austria, 38 Portugal, 17 Hungary, 17 Greece, 88 New World; 468 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (570: 117 France, 70 Italy, 150 Spain, 49 Germany, 20 Austria, 38 Portugal, 17 Hungary, 17 Greece, 92 New World; 472 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (112 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
