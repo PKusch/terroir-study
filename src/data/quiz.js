@@ -7443,5 +7443,80 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "languedocRoussillon",
     explanation: "Fitou is red only, and the main grapes together must reach 60%."
+  },
+  {
+    id: "fr-108",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Sauternes?",
+    options: [
+      "25 hl/ha",
+      "10 hl/ha",
+      "45 hl/ha",
+      "60 hl/ha"
+    ],
+    answer: 0,
+    region: "bordeaux",
+    explanation: "The grapes are picked by hand in several passes, from vines with noble rot."
+  },
+  {
+    id: "fr-109",
+    type: "scenario",
+    country: "France",
+    question: "What minimum sugar must Sauternes grapes reach in the must?",
+    options: [
+      "144 g/L",
+      "221 g/L",
+      "170 g/L",
+      "340 g/L"
+    ],
+    answer: 1,
+    region: "bordeaux",
+    explanation: "The finished wine must still reach at least 12% alcohol, with a minimum of 15% potential."
+  },
+  {
+    id: "fr-110",
+    type: "scenario",
+    country: "France",
+    question: "How many red grapes does the Médoc rule book permit?",
+    options: [
+      "Two",
+      "Four",
+      "Six",
+      "Nine"
+    ],
+    answer: 2,
+    region: "bordeaux",
+    explanation: "Cabernet Franc, Cabernet Sauvignon, Carmenère, Merlot, Malbec and Petit Verdot."
+  },
+  {
+    id: "fr-111",
+    type: "scenario",
+    country: "France",
+    question: "How long is a Saint-Émilion Grand Cru Classé classification valid?",
+    options: [
+      "Ten years",
+      "One year",
+      "Fifty years",
+      "For ever"
+    ],
+    answer: 0,
+    region: "bordeaux",
+    explanation: "The classification covers Grand Cru Classé and Premier Grand Cru Classé."
+  },
+  {
+    id: "fr-112",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Haut-Médoc and Médoc?",
+    options: [
+      "30 hl/ha",
+      "55 hl/ha",
+      "40 hl/ha",
+      "75 hl/ha"
+    ],
+    answer: 1,
+    region: "bordeaux",
+    explanation: "The ceiling is 65 hl/ha, and Saint-Émilion Grand Cru is held lower, at 46 hl/ha."
   }
 ];
