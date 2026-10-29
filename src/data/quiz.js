@@ -7518,5 +7518,80 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "bordeaux",
     explanation: "The ceiling is 65 hl/ha, and Saint-Émilion Grand Cru is held lower, at 46 hl/ha."
+  },
+  {
+    id: "it-66",
+    type: "scenario",
+    country: "Italy",
+    question: "How much Corvina and Corvinone together must go into Amarone della Valpolicella?",
+    options: [
+      "45 to 95%",
+      "10 to 25%",
+      "100%",
+      "5 to 30%"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Rondinella makes up 5 to 30% of the blend."
+  },
+  {
+    id: "it-67",
+    type: "scenario",
+    country: "Italy",
+    question: "What natural alcohol must the dried grapes for Amarone reach?",
+    options: [
+      "At least 9%",
+      "At least 14%",
+      "At least 11%",
+      "At least 17%"
+    ],
+    answer: 1,
+    region: "veneto",
+    explanation: "The finished wine must also reach at least 14% alcohol."
+  },
+  {
+    id: "it-68",
+    type: "scenario",
+    country: "Italy",
+    question: "How long must an Amarone Riserva age, counted from 1 November of the harvest?",
+    options: [
+      "At least 1 year",
+      "At least 2 years",
+      "At least 4 years",
+      "At least 10 years"
+    ],
+    answer: 2,
+    region: "veneto",
+    explanation: "The rules set no minimum number of drying days, only the alcohol the dried grapes must reach."
+  },
+  {
+    id: "it-69",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the maximum yield for Amarone della Valpolicella?",
+    options: [
+      "12 tonnes per hectare",
+      "4 tonnes per hectare",
+      "7 tonnes per hectare",
+      "25 tonnes per hectare"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "The fresh grapes must have at least 11% natural alcohol before drying."
+  },
+  {
+    id: "it-70",
+    type: "scenario",
+    country: "Italy",
+    question: "Which method is used to make Prosecco DOC spumante?",
+    options: [
+      "Tank fermentation (autoclave)",
+      "Second fermentation in each bottle",
+      "Carbon dioxide pumped into a still wine",
+      "Fermentation in small oak barrels"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Frizzante may also be made by bottle fermentation."
   }
 ];
