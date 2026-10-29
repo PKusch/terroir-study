@@ -7293,5 +7293,80 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "beaujolais",
     explanation: "Red and rosé are Gamay, with only a small allowance of other grapes."
+  },
+  {
+    id: "fr-98",
+    type: "scenario",
+    country: "France",
+    question: "Which grape makes up all of a Cornas?",
+    options: [
+      "Viognier",
+      "Syrah",
+      "Marsanne",
+      "Grenache"
+    ],
+    answer: 1,
+    region: "rhoneNorth",
+    explanation: "The rule book says the wines come from Syrah alone."
+  },
+  {
+    id: "fr-99",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum share of Viognier in a Côte-Rôtie vineyard?",
+    options: [
+      "20%",
+      "5%",
+      "50%",
+      "80%"
+    ],
+    answer: 0,
+    region: "rhoneNorth",
+    explanation: "Syrah must be at least 80% of the holding."
+  },
+  {
+    id: "fr-100",
+    type: "scenario",
+    country: "France",
+    question: "Which grape makes all of Condrieu and Château-Grillet?",
+    options: [
+      "Marsanne",
+      "Roussanne",
+      "Viognier",
+      "Chardonnay"
+    ],
+    answer: 2,
+    region: "rhoneNorth",
+    explanation: "Both are 100% Viognier and both are hand-picked."
+  },
+  {
+    id: "fr-101",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Côte-Rôtie?",
+    options: [
+      "40 hl/ha",
+      "25 hl/ha",
+      "55 hl/ha",
+      "70 hl/ha"
+    ],
+    answer: 0,
+    region: "rhoneNorth",
+    explanation: "Côte-Rôtie is hand-picked from terraces, at least 6,000 vines per hectare."
+  },
+  {
+    id: "fr-102",
+    type: "scenario",
+    country: "France",
+    question: "What is the minimum Syrah share in Hermitage and Crozes-Hermitage red?",
+    options: [
+      "50% of the holding",
+      "85% of the holding",
+      "60% of the holding",
+      "100% of the holding"
+    ],
+    answer: 1,
+    region: "rhoneNorth",
+    explanation: "Saint-Joseph asks for at least 90%, and the rest may be Marsanne or Roussanne."
   }
 ];
