@@ -7668,5 +7668,80 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "southWest",
     explanation: "The wines may be dry (sec), sweet (moelleux) or late-harvest (vendanges tardives)."
+  },
+  {
+    id: "de-47",
+    type: "scenario",
+    country: "Germany",
+    question: "Which part of the Mosel runs from Riveris to Ruwer near Trier and is the smallest?",
+    options: [
+      "The Saar",
+      "The Middle Mosel",
+      "The Ruwer",
+      "The Lower Mosel"
+    ],
+    answer: 2,
+    region: "mosel",
+    explanation: "The Saar runs from Serrig to Konz."
+  },
+  {
+    id: "de-48",
+    type: "scenario",
+    country: "Germany",
+    question: "About how steep are half of the Mosel's vineyards?",
+    options: [
+      "Almost flat, under 3 degrees",
+      "Over 30 degrees",
+      "A gentle 5 degrees or so",
+      "A uniform 10 degrees or so"
+    ],
+    answer: 1,
+    region: "mosel",
+    explanation: "The slopes are terraced slate, and some plots reach 70 degrees."
+  },
+  {
+    id: "de-49",
+    type: "scenario",
+    country: "Germany",
+    question: "What protects the Rheingau vineyards from cold winds?",
+    options: [
+      "The Black Forest ranges",
+      "The Eifel volcanoes",
+      "The Harz mountains",
+      "The Taunus Hills"
+    ],
+    answer: 3,
+    region: "rheingau",
+    explanation: "Riesling does best on dry, stony, south-facing slopes."
+  },
+  {
+    id: "at-19",
+    type: "scenario",
+    country: "Austria",
+    question: "Which three tiers does the Südsteiermark DAC have?",
+    options: [
+      "Kabinett, Spätlese and Auslese wines",
+      "Classic, Reserve and Grand Reserve wines",
+      "Gebietswein, Ortswein, Riedenwein",
+      "Village, Premier Cru and Grand Cru wines"
+    ],
+    answer: 2,
+    region: "steiermark",
+    explanation: "Ortswein names a village and Riedenwein a registered single vineyard."
+  },
+  {
+    id: "at-20",
+    type: "scenario",
+    country: "Austria",
+    question: "What is Riedenwein in Südsteiermark DAC?",
+    options: [
+      "Wine from a registered vineyard",
+      "Wine blended from the whole region",
+      "Wine from one named village alone",
+      "A sparkling wine made by tank method"
+    ],
+    answer: 0,
+    region: "steiermark",
+    explanation: "Ortswein is from a named village, and up to 15% may come from neighbouring municipalities."
   }
 ];
