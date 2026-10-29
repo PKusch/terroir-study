@@ -7143,5 +7143,80 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "rhoneSouth",
     explanation: "Nyons and Plan de Dieu are red only. Sablet, Séguret, Valréas, Visan, Roaix and Rochegude may be white, red or rosé."
+  },
+  {
+    id: "fr-88",
+    type: "scenario",
+    country: "France",
+    question: "How many Grand Cru sites does the Alsace Grand Cru rule book list?",
+    options: [
+      "51",
+      "12",
+      "33",
+      "70"
+    ],
+    answer: 0,
+    region: "alsace",
+    explanation: "The Grand Cru rules name each site as its own appellation."
+  },
+  {
+    id: "fr-89",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for white Alsace Grand Cru?",
+    options: [
+      "30 hl/ha",
+      "50 hl/ha",
+      "65 hl/ha",
+      "90 hl/ha"
+    ],
+    answer: 1,
+    region: "alsace",
+    explanation: "Red Grand Cru is held lower, at 40 hl/ha, and plain AOC Alsace white is allowed 80 hl/ha."
+  },
+  {
+    id: "fr-90",
+    type: "scenario",
+    country: "France",
+    question: "Which red grape is allowed in a few Alsace Grand Cru sites such as Hengst, Vorbourg and Kirchberg de Barr?",
+    options: [
+      "Pinot Noir",
+      "Gamay",
+      "Syrah",
+      "Cabernet Franc"
+    ],
+    answer: 0,
+    region: "alsace",
+    explanation: "Every other Grand Cru is white."
+  },
+  {
+    id: "fr-91",
+    type: "scenario",
+    country: "France",
+    question: "What minimum must weight do Gewurztraminer and Pinot Gris need for Alsace Vendange Tardive?",
+    options: [
+      "170 g/L of sugar",
+      "195 g/L of sugar",
+      "270 g/L of sugar",
+      "306 g/L of sugar"
+    ],
+    answer: 2,
+    region: "alsace",
+    explanation: "Sélection de Grains Nobles needs 306 g/L, and Riesling and Muscat need 244 g/L for Vendange Tardive."
+  },
+  {
+    id: "fr-92",
+    type: "scenario",
+    country: "France",
+    question: "How long must Crémant d'Alsace stay on its lees?",
+    options: [
+      "At least 9 months",
+      "At least 3 months",
+      "At least 24 months",
+      "At least 5 years"
+    ],
+    answer: 0,
+    region: "alsace",
+    explanation: "It is not sold before 12 months from bottling, and the grapes are hand-picked and pressed whole."
   }
 ];
