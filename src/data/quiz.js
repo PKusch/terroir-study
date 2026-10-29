@@ -7593,5 +7593,80 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "veneto",
     explanation: "Frizzante may also be made by bottle fermentation."
+  },
+  {
+    id: "fr-113",
+    type: "scenario",
+    country: "France",
+    question: "What is the minimum share of Tannat in Madiran?",
+    options: [
+      "60%",
+      "15%",
+      "30%",
+      "90%"
+    ],
+    answer: 0,
+    region: "southWest",
+    explanation: "The accessory grapes are Cabernet Franc, Cabernet Sauvignon, Fer and Manseng Noir."
+  },
+  {
+    id: "fr-114",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Madiran?",
+    options: [
+      "30 hl/ha",
+      "40 hl/ha",
+      "55 hl/ha",
+      "85 hl/ha"
+    ],
+    answer: 2,
+    region: "southWest",
+    explanation: "The hard ceiling is 60 hl/ha."
+  },
+  {
+    id: "fr-115",
+    type: "scenario",
+    country: "France",
+    question: "What minimum grape sugar must Monbazillac reach?",
+    options: [
+      "221 g/L, about 14% potential alcohol",
+      "144 g/L, about 9% potential alcohol",
+      "170 g/L, about 10% potential alcohol",
+      "300 g/L, about 18% potential alcohol"
+    ],
+    answer: 0,
+    region: "southWest",
+    explanation: "Sélection de grains nobles needs 255 g/L, about 17%."
+  },
+  {
+    id: "fr-116",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Monbazillac?",
+    options: [
+      "40 hl/ha",
+      "25 hl/ha",
+      "60 hl/ha",
+      "90 hl/ha"
+    ],
+    answer: 0,
+    region: "southWest",
+    explanation: "The grapes are picked over-ripe, with or without noble rot."
+  },
+  {
+    id: "fr-117",
+    type: "scenario",
+    country: "France",
+    question: "Which grapes are the principal ones for Jurançon?",
+    options: [
+      "Sémillon and Sauvignon Blanc",
+      "Gros and Petit Manseng",
+      "Chenin Blanc and Mauzac",
+      "Viognier and Marsanne"
+    ],
+    answer: 1,
+    region: "southWest",
+    explanation: "The wines may be dry (sec), sweet (moelleux) or late-harvest (vendanges tardives)."
   }
 ];
