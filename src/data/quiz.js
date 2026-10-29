@@ -7743,5 +7743,65 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "steiermark",
     explanation: "Ortswein is from a named village, and up to 15% may come from neighbouring municipalities."
+  },
+  {
+    id: "nw-89",
+    type: "scenario",
+    country: "New World",
+    question: "At what air temperature or colder must grapes be frozen on the vine for BC Icewine?",
+    options: [
+      "-8°C",
+      "-4°C",
+      "-2°C",
+      "-15°C"
+    ],
+    answer: 0,
+    region: "britishColumbia",
+    explanation: "The grapes must freeze naturally and be pressed frozen. Freezing them with refrigeration is not allowed."
+  },
+  {
+    id: "nw-90",
+    type: "scenario",
+    country: "New World",
+    question: "What is the minimum residual sugar for BC Icewine?",
+    options: [
+      "100 g/L",
+      "30 g/L",
+      "60 g/L",
+      "180 g/L"
+    ],
+    answer: 0,
+    region: "britishColumbia",
+    explanation: "Chaptalisation is not allowed, and the grapes must be grown and pressed in the same geographical indication."
+  },
+  {
+    id: "nw-91",
+    type: "scenario",
+    country: "New World",
+    question: "How much of a BC VQA wine must come from BC-grown grapes?",
+    options: [
+      "All of it",
+      "Three quarters",
+      "Half",
+      "Nine tenths"
+    ],
+    answer: 0,
+    region: "britishColumbia",
+    explanation: "Imported grapes or juice cannot be in a VQA wine."
+  },
+  {
+    id: "nw-92",
+    type: "scenario",
+    country: "New World",
+    question: "How is the Okanagan Valley geographical indication drawn?",
+    options: [
+      "Along the Okanagan watershed",
+      "Along the lake shoreline",
+      "Along the Canada-US border",
+      "Along the 500 m contour line"
+    ],
+    answer: 0,
+    region: "britishColumbia",
+    explanation: "The Similkameen Valley is likewise defined by its river watershed."
   }
 ];
