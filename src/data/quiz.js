@@ -7368,5 +7368,80 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rhoneNorth",
     explanation: "Saint-Joseph asks for at least 90%, and the rest may be Marsanne or Roussanne."
+  },
+  {
+    id: "fr-103",
+    type: "scenario",
+    country: "France",
+    question: "How is Banyuls made sweet?",
+    options: [
+      "Neutral spirit is added mid-fermentation",
+      "Late-harvested grapes dried on straw mats",
+      "Noble rot concentrates the grape sugar",
+      "Sugar is stirred in after fermentation"
+    ],
+    answer: 0,
+    region: "languedocRoussillon",
+    explanation: "The alcohol is at least 96% and equals 5 to 10% of the must volume."
+  },
+  {
+    id: "fr-104",
+    type: "scenario",
+    country: "France",
+    question: "How much of the must's volume is the alcohol added to Banyuls and Rivesaltes?",
+    options: [
+      "5 to 10%",
+      "1 to 2%",
+      "15 to 20%",
+      "40 to 50%"
+    ],
+    answer: 0,
+    region: "languedocRoussillon",
+    explanation: "It is added during fermentation, which stops it and keeps the grape sugar."
+  },
+  {
+    id: "fr-105",
+    type: "scenario",
+    country: "France",
+    question: "Which grape must make up at least 50% of a Crémant de Limoux?",
+    options: [
+      "Mauzac",
+      "Pinot Noir",
+      "Chardonnay",
+      "Chenin Blanc"
+    ],
+    answer: 2,
+    region: "languedocRoussillon",
+    explanation: "Chenin may be 10 to 40%, Pinot Noir up to 30% and Mauzac up to 20%."
+  },
+  {
+    id: "fr-106",
+    type: "scenario",
+    country: "France",
+    question: "Which colours may Pic Saint-Loup be?",
+    options: [
+      "Red only",
+      "White only",
+      "Red, white and rosé",
+      "Red and rosé only"
+    ],
+    answer: 3,
+    region: "languedocRoussillon",
+    explanation: "Syrah must be at least 50% of a red."
+  },
+  {
+    id: "fr-107",
+    type: "scenario",
+    country: "France",
+    question: "What is the share of Carignan and Grenache that Fitou needs, each?",
+    options: [
+      "At least 5% each",
+      "At least 20% each",
+      "At least 45% each",
+      "Exactly half each"
+    ],
+    answer: 1,
+    region: "languedocRoussillon",
+    explanation: "Fitou is red only, and the main grapes together must reach 60%."
   }
 ];
