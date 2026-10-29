@@ -7218,5 +7218,80 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "alsace",
     explanation: "It is not sold before 12 months from bottling, and the grapes are hand-picked and pressed whole."
+  },
+  {
+    id: "fr-93",
+    type: "scenario",
+    country: "France",
+    question: "Do the Beaujolais cru rule books require harvesting by hand?",
+    options: [
+      "No, machines are allowed, with sorting compulsory",
+      "Yes, by hand only",
+      "Yes, by hand for the north and machine for the south",
+      "No, and no sorting is needed either"
+    ],
+    answer: 0,
+    region: "beaujolais",
+    explanation: "Many people assume the crus must be hand-picked, but the rule books allow machines."
+  },
+  {
+    id: "fr-94",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for each of the ten Beaujolais crus?",
+    options: [
+      "35 hl/ha",
+      "56 hl/ha",
+      "45 hl/ha",
+      "75 hl/ha"
+    ],
+    answer: 1,
+    region: "beaujolais",
+    explanation: "Plain Beaujolais red may go to 60 hl/ha."
+  },
+  {
+    id: "fr-95",
+    type: "scenario",
+    country: "France",
+    question: "What is the minimum vine density for the Beaujolais crus?",
+    options: [
+      "6,000 per hectare",
+      "2,000 vines per hectare",
+      "3,500 vines per hectare",
+      "10,000 vines per hectare"
+    ],
+    answer: 0,
+    region: "beaujolais",
+    explanation: "Plain Beaujolais needs at least 5,000."
+  },
+  {
+    id: "fr-96",
+    type: "scenario",
+    country: "France",
+    question: "Which is a Beaujolais cru?",
+    options: [
+      "Moulin-à-Vent",
+      "Pouilly-Fuissé",
+      "Mâcon-Villages",
+      "Givry"
+    ],
+    answer: 0,
+    region: "beaujolais",
+    explanation: "The ten crus are Brouilly, Côte de Brouilly, Chénas, Chiroubles, Fleurie, Juliénas, Morgon, Moulin-à-Vent, Régnié and Saint-Amour."
+  },
+  {
+    id: "fr-97",
+    type: "scenario",
+    country: "France",
+    question: "What colour of Beaujolais may be made from grapes other than Gamay?",
+    options: [
+      "Red, which may be Pinot Noir only",
+      "Rosé, which is Syrah only",
+      "White, which is Chardonnay only",
+      "None, all Beaujolais is Gamay"
+    ],
+    answer: 2,
+    region: "beaujolais",
+    explanation: "Red and rosé are Gamay, with only a small allowance of other grapes."
   }
 ];
