@@ -7803,5 +7803,140 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "britishColumbia",
     explanation: "The Similkameen Valley is likewise defined by its river watershed."
+  },
+  {
+    id: "it-71",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum share of Verdicchio in Verdicchio dei Castelli di Jesi DOC?",
+    options: [
+      "85%",
+      "60%",
+      "70%",
+      "100%"
+    ],
+    answer: 0,
+    region: "marche",
+    explanation: "Up to 15% of other white grapes is allowed. The text read is an older copy, amended to 2011."
+  },
+  {
+    id: "it-72",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum natural alcohol for Castelli di Jesi Classico Superiore?",
+    options: [
+      "11.5%",
+      "9.5%",
+      "10.5%",
+      "12.5%"
+    ],
+    answer: 0,
+    region: "marche",
+    explanation: "The plain and Classico wines need 10.5%. The text read is an older copy, amended to 2011."
+  },
+  {
+    id: "es-151",
+    type: "scenario",
+    country: "Spain",
+    question: "What must a Bierzo 'Vino de Villa' be made from?",
+    options: [
+      "Grapes from one named village",
+      "One grape variety only",
+      "One estate with its own winery",
+      "Vines over 80 years old"
+    ],
+    answer: 0,
+    region: "bierzo",
+    explanation: "A 'Vino de Paraje' narrows this to one named plot, with a bigger yield cut."
+  },
+  {
+    id: "es-152",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for Mencía in Bierzo?",
+    options: [
+      "5,000 kg/ha",
+      "11,000 kg/ha",
+      "7,000 kg/ha",
+      "15,000 kg/ha"
+    ],
+    answer: 1,
+    region: "bierzo",
+    explanation: "The rule book gives the same figure for Godello. It is about 81 hl/ha."
+  },
+  {
+    id: "es-153",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the altitude range of Jumilla's vineyards?",
+    options: [
+      "0 to 150 m",
+      "150 to 250 m",
+      "320 to 900 m",
+      "1,000 to 1,500 m"
+    ],
+    answer: 2,
+    region: "jumilla",
+    explanation: "The rule book calls the climate continental, with about 300 mm of rain and summer highs above 40°C."
+  },
+  {
+    id: "es-154",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the yield cap for red grapes in Jumilla's non-trellised vineyards?",
+    options: [
+      "5,000 kg/ha",
+      "2,000 kg/ha",
+      "8,750 kg/ha",
+      "12,000 kg/ha"
+    ],
+    answer: 0,
+    region: "jumilla",
+    explanation: "Intensive, trellised vineyards may crop 8,750 kg/ha."
+  },
+  {
+    id: "es-155",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a Valdepeñas red Crianza age in total?",
+    options: [
+      "12 months",
+      "24 months",
+      "18 months",
+      "36 months"
+    ],
+    answer: 1,
+    region: "valdepenas",
+    explanation: "At least 6 months must be in oak of 330 L or less. The 2019 rule book was read; a renewal may be under way."
+  },
+  {
+    id: "es-156",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a Valdepeñas red Reserva age in total?",
+    options: [
+      "24 months",
+      "48 months",
+      "36 months",
+      "60 months"
+    ],
+    answer: 2,
+    region: "valdepenas",
+    explanation: "At least 12 months must be in oak of 330 L or less, and the rest in bottle."
+  },
+  {
+    id: "es-157",
+    type: "scenario",
+    country: "Spain",
+    question: "How many months of oak does a Valdepeñas Gran Reserva need?",
+    options: [
+      "At least 18",
+      "At least 6",
+      "At least 12",
+      "At least 36"
+    ],
+    answer: 0,
+    region: "valdepenas",
+    explanation: "Its total ageing is 60 months, the rest in bottle."
   }
 ];
