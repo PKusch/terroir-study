@@ -7938,5 +7938,140 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "valdepenas",
     explanation: "Its total ageing is 60 months, the rest in bottle."
+  },
+  {
+    id: "es-158",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for red grapes in Cariñena?",
+    options: [
+      "8,500 kg/ha",
+      "4,000 kg/ha",
+      "6,000 kg/ha",
+      "12,000 kg/ha"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "Whites may crop 9,000 kg/ha. The rule book read is the 2025 order."
+  },
+  {
+    id: "es-159",
+    type: "scenario",
+    country: "Spain",
+    question: "At what altitudes do Cariñena's vineyards sit?",
+    options: [
+      "0 to 100 m",
+      "400 to 800 m",
+      "100 to 250 m",
+      "900 to 1,300 m"
+    ],
+    answer: 1,
+    region: "carinena",
+    explanation: "The rule book describes a semi-arid, tending-to-continental climate dried by the cierzo wind."
+  },
+  {
+    id: "es-160",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for red grapes in Calatayud?",
+    options: [
+      "3,500 kg/ha",
+      "5,000 kg/ha",
+      "7,000 kg/ha",
+      "10,000 kg/ha"
+    ],
+    answer: 2,
+    region: "calatayud",
+    explanation: "Calatayud Superior is held to an average of 3,500 kg/ha. The rule book read is the 2024 order."
+  },
+  {
+    id: "es-161",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a DO Catalunya red Gran Reserva age in total?",
+    options: [
+      "At least five years",
+      "At least two years",
+      "At least three years",
+      "At least eight years"
+    ],
+    answer: 0,
+    region: "catalunya",
+    explanation: "It needs at least 24 months in oak of 330 L or less. The text read is the April 2026 version, and a further change is proposed."
+  },
+  {
+    id: "es-162",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for white grapes in DO Catalunya?",
+    options: [
+      "7,000 kg/ha",
+      "12,000 kg/ha",
+      "9,000 kg/ha",
+      "16,000 kg/ha"
+    ],
+    answer: 1,
+    region: "catalunya",
+    explanation: "Reds are capped at 10,000 kg/ha."
+  },
+  {
+    id: "it-73",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum share of Garganega in Soave DOC?",
+    options: [
+      "70%",
+      "50%",
+      "85%",
+      "100%"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Trebbiano di Soave and Chardonnay make up most of the rest. The text read is the 2009 version."
+  },
+  {
+    id: "it-74",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the maximum yield for Soave Superiore DOCG?",
+    options: [
+      "7 t/ha",
+      "12 t/ha",
+      "10 t/ha",
+      "15 t/ha"
+    ],
+    answer: 2,
+    region: "veneto",
+    explanation: "Plain Soave DOC may crop 15 t/ha. The text read is the 2011 version."
+  },
+  {
+    id: "it-75",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum residual sugar in Recioto di Soave?",
+    options: [
+      "70 g/L",
+      "10 g/L",
+      "30 g/L",
+      "150 g/L"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "The grapes are dried and must reach 14% natural alcohol. The text read is the 2019 version."
+  },
+  {
+    id: "it-76",
+    type: "scenario",
+    country: "Italy",
+    question: "When can Soave Superiore Riserva first be sold?",
+    options: [
+      "After 1 April the next year",
+      "After 1 November the next year",
+      "After 1 December the same year",
+      "After 1 February the next year"
+    ],
+    answer: 1,
+    region: "veneto",
+    explanation: "Soave Superiore without Riserva is released after 1 April. The text read is the 2011 version."
   }
 ];
