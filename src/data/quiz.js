@@ -8178,5 +8178,95 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "southWest",
     explanation: "No single grape may be more than 65% of the blend. The cahier read is the 2018 version."
+  },
+  {
+    id: "it-77",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum share of Malvasia in Frascati DOC?",
+    options: [
+      "70%",
+      "30%",
+      "50%",
+      "90%"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "Bellone, Bombino, Greco and Trebbiano can make up the rest. The text read is an AIS copy; later amendments are unchecked."
+  },
+  {
+    id: "it-78",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the maximum grape yield for Frascati DOC?",
+    options: [
+      "8 t/ha",
+      "14 t/ha",
+      "11 t/ha",
+      "18 t/ha"
+    ],
+    answer: 1,
+    region: "lazio",
+    explanation: "Frascati Superiore DOCG is held to 11 t/ha."
+  },
+  {
+    id: "it-79",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the minimum residual sugar in Cannellino di Frascati?",
+    options: [
+      "4 g/L",
+      "15 g/L",
+      "35 g/L",
+      "90 g/L"
+    ],
+    answer: 2,
+    region: "lazio",
+    explanation: "The grapes are picked late and may be partly dried. Its ageing minimum could not be confirmed."
+  },
+  {
+    id: "it-80",
+    type: "scenario",
+    country: "Italy",
+    question: "What is the maximum grape yield for Superiore di Cartizze?",
+    options: [
+      "12 t/ha",
+      "9 t/ha",
+      "13.5 t/ha",
+      "16 t/ha"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Plain Conegliano Valdobbiadene is held to 13.5 t/ha. The text read is a 2018 translation."
+  },
+  {
+    id: "it-81",
+    type: "scenario",
+    country: "Italy",
+    question: "How many municipalities make up the Conegliano Valdobbiadene zone?",
+    options: [
+      "15",
+      "6",
+      "9",
+      "24"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Cartizze is a small sub-zone in Valdobbiadene. The text read is a 2018 translation."
+  },
+  {
+    id: "it-82",
+    type: "scenario",
+    country: "Italy",
+    question: "How must grapes for a Conegliano Valdobbiadene Rive be harvested?",
+    options: [
+      "By hand only",
+      "By machine at night",
+      "By machine or by hand",
+      "In one early pass"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Rive are sparkling wines labelled with the village name and the vintage year."
   }
 ];
