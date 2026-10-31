@@ -8073,5 +8073,110 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "veneto",
     explanation: "Soave Superiore without Riserva is released after 1 April. The text read is the 2011 version."
+  },
+  {
+    id: "fr-118",
+    type: "scenario",
+    country: "France",
+    question: "What is the minimum share of Cot (Malbec) in a Cahors wine?",
+    options: [
+      "70%",
+      "50%",
+      "85%",
+      "100%"
+    ],
+    answer: 0,
+    region: "southWest",
+    explanation: "The rest can only be Merlot and Tannat. The cahier read is the 2011 version; later amendments are unchecked."
+  },
+  {
+    id: "fr-119",
+    type: "scenario",
+    country: "France",
+    question: "What is the hard yield ceiling for Cahors?",
+    options: [
+      "60 hl/ha",
+      "45 hl/ha",
+      "75 hl/ha",
+      "90 hl/ha"
+    ],
+    answer: 0,
+    region: "southWest",
+    explanation: "The base yield is 50 hl/ha. Destemming is compulsory."
+  },
+  {
+    id: "fr-120",
+    type: "scenario",
+    country: "France",
+    question: "Which are the only accessory grapes allowed in Cahors?",
+    options: [
+      "Syrah and Grenache",
+      "Merlot and Tannat",
+      "Négrette and Fer Servadou",
+      "Cabernet Franc and Cabernet Sauvignon"
+    ],
+    answer: 1,
+    region: "southWest",
+    explanation: "Cot is the principal grape. 'Auxerrois' is a local name that does not appear in the cahier."
+  },
+  {
+    id: "fr-121",
+    type: "scenario",
+    country: "France",
+    question: "What minimum natural alcohol must Saussignac reach?",
+    options: [
+      "13%",
+      "15%",
+      "17%",
+      "21%"
+    ],
+    answer: 2,
+    region: "southWest",
+    explanation: "Saussignac is sweet white only, hand-picked in several passes, with no chaptalisation. The cahier read is the 2017 version."
+  },
+  {
+    id: "fr-122",
+    type: "scenario",
+    country: "France",
+    question: "What is the maximum yield for Saussignac?",
+    options: [
+      "25 hl/ha",
+      "40 hl/ha",
+      "55 hl/ha",
+      "70 hl/ha"
+    ],
+    answer: 0,
+    region: "southWest",
+    explanation: "The hard ceiling is 30 hl/ha."
+  },
+  {
+    id: "fr-123",
+    type: "scenario",
+    country: "France",
+    question: "Which style is Bergerac AOC not made in?",
+    options: [
+      "Still dry white",
+      "Sweet white",
+      "Still red wine",
+      "Still rosé wine"
+    ],
+    answer: 1,
+    region: "southWest",
+    explanation: "Sweet whites are sold as Saussignac, Monbazillac and others. The cahier read is the 2021 version."
+  },
+  {
+    id: "fr-124",
+    type: "scenario",
+    country: "France",
+    question: "What is Pécharmant made as?",
+    options: [
+      "Still red and rosé",
+      "Sweet white only",
+      "Still red only",
+      "Still red and sparkling"
+    ],
+    answer: 2,
+    region: "southWest",
+    explanation: "No single grape may be more than 65% of the blend. The cahier read is the 2018 version."
   }
 ];
