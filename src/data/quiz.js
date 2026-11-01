@@ -8268,5 +8268,65 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "veneto",
     explanation: "Rive are sparkling wines labelled with the village name and the vintage year."
+  },
+  {
+    id: "de-50",
+    type: "scenario",
+    country: "Germany",
+    question: "What is the minimum must weight for a Mosel Kabinett, for most varieties?",
+    options: [
+      "60 °Oechsle",
+      "85 °Oechsle",
+      "93 °Oechsle",
+      "73 °Oechsle"
+    ],
+    answer: 3,
+    region: "mosel",
+    explanation: "Elbling needs 70. The figures are from the Mosel product specification, which is a very recent consolidated text."
+  },
+  {
+    id: "de-51",
+    type: "scenario",
+    country: "Germany",
+    question: "What is the minimum must weight for a Mosel Beerenauslese?",
+    options: [
+      "110 °Oechsle",
+      "88 °Oechsle",
+      "130 °Oechsle",
+      "150 °Oechsle"
+    ],
+    answer: 0,
+    region: "mosel",
+    explanation: "Eiswein needs the same 110. Trockenbeerenauslese needs 150."
+  },
+  {
+    id: "de-52",
+    type: "scenario",
+    country: "Germany",
+    question: "What is the minimum must weight for a Mosel Riesling Spätlese?",
+    options: [
+      "65 °Oechsle",
+      "80 °Oechsle",
+      "95 °Oechsle",
+      "110 °Oechsle"
+    ],
+    answer: 1,
+    region: "mosel",
+    explanation: "Other white grapes need 85. Riesling Auslese needs 88."
+  },
+  {
+    id: "de-53",
+    type: "scenario",
+    country: "Germany",
+    question: "What is the maximum yield for the Mosel?",
+    options: [
+      "60 hl/ha",
+      "90 hl/ha",
+      "125 hl/ha",
+      "160 hl/ha"
+    ],
+    answer: 2,
+    region: "mosel",
+    explanation: "The Prädikat minimums are set in each region's own specification, not in one national table."
   }
 ];
