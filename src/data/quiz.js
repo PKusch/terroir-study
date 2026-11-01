@@ -8478,5 +8478,185 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rueda",
     explanation: "Bush-trained Verdejo is held to 8,000 kg/ha."
+  },
+  {
+    id: "gr-18",
+    type: "scenario",
+    country: "Greece",
+    question: "What is the maximum yield for PDO Naoussa?",
+    options: [
+      "6,000 kg/ha",
+      "10,000 kg/ha",
+      "14,000 kg/ha",
+      "18,000 kg/ha"
+    ],
+    answer: 1,
+    region: "naoussa",
+    explanation: "It is 100% Xinomavro. The specification read is the 2011 text, and no later amendment was found."
+  },
+  {
+    id: "gr-19",
+    type: "scenario",
+    country: "Greece",
+    question: "How long must a Naoussa Reserve age in total?",
+    options: [
+      "At least six months",
+      "At least one year",
+      "At least two years",
+      "At least five years"
+    ],
+    answer: 2,
+    region: "naoussa",
+    explanation: "It needs 12 months in oak and 6 in bottle. Grande Réserve needs four years, with 18 months in oak and 18 in bottle."
+  },
+  {
+    id: "gr-20",
+    type: "scenario",
+    country: "Greece",
+    question: "How long must a Nemea Grande Réserve age in total?",
+    options: [
+      "At least one year",
+      "At least two years",
+      "At least seven years",
+      "At least four years"
+    ],
+    answer: 3,
+    region: "nemea",
+    explanation: "It needs 18 months in oak and 18 in bottle. Some wine-education pages give a different figure, but nothing official was found for it."
+  },
+  {
+    id: "hu-18",
+    type: "scenario",
+    country: "Hungary",
+    question: "How many grape varieties must an Egri Bikavér blend contain at least?",
+    options: [
+      "Four",
+      "Two",
+      "Three",
+      "Seven"
+    ],
+    answer: 0,
+    region: "eger",
+    explanation: "Each of the four must be over 5%. The text read is the 2020 amendment; a later one was not read."
+  },
+  {
+    id: "hu-19",
+    type: "scenario",
+    country: "Hungary",
+    question: "What share of an Egri Bikavér must Kékfrankos make up?",
+    options: [
+      "5 to 10%",
+      "70 to 95%",
+      "30 to 65%",
+      "100%"
+    ],
+    answer: 2,
+    region: "eger",
+    explanation: "It must also be the largest part. Turán may not exceed 10%."
+  },
+  {
+    id: "hu-20",
+    type: "scenario",
+    country: "Hungary",
+    question: "How long is the skin contact for a Bikavér Superior, at the least?",
+    options: [
+      "3 days",
+      "8 days",
+      "30 days",
+      "14 days"
+    ],
+    answer: 3,
+    region: "eger",
+    explanation: "Classicus needs 8 days. Superior also needs 12 months in oak."
+  },
+  {
+    id: "pt-39",
+    type: "scenario",
+    country: "Portugal",
+    question: "How is sparkling Bairrada made?",
+    options: [
+      "Tank method, in steel vats",
+      "Traditional method",
+      "Carbonation, then bottling",
+      "One fermentation in cask"
+    ],
+    answer: 1,
+    region: "bairrada",
+    explanation: "The text read is the 2011 specification; a 2023 amendment was not read."
+  },
+  {
+    id: "pt-40",
+    type: "scenario",
+    country: "Portugal",
+    question: "How long must sparkling Bairrada age before sale?",
+    options: [
+      "At least nine months",
+      "At least three months",
+      "At least eighteen months",
+      "At least three years"
+    ],
+    answer: 0,
+    region: "bairrada",
+    explanation: "The finished wine needs at least 11% alcohol."
+  },
+  {
+    id: "pt-41",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which rock dominates the soils of the Dão?",
+    options: [
+      "Limestone",
+      "Chalk",
+      "Granite",
+      "Basalt"
+    ],
+    answer: 2,
+    region: "dao",
+    explanation: "Some schist outcrops occur. The Dão wine board says about 97% of the soils are granitic."
+  },
+  {
+    id: "nw-93",
+    type: "scenario",
+    country: "New World",
+    question: "How much of a wine labelled Niagara Escarpment must be grown in it?",
+    options: [
+      "All of it",
+      "At least 85%",
+      "About one half",
+      "About 70 per cent"
+    ],
+    answer: 1,
+    region: "ontario",
+    explanation: "The other 15% must come from the Niagara Peninsula. A single sub-appellation such as Four Mile Creek needs 100%."
+  },
+  {
+    id: "nw-94",
+    type: "scenario",
+    country: "New World",
+    question: "How much of an Ontario VQA wine must come from its stated vintage?",
+    options: [
+      "At least 85%",
+      "100%",
+      "At least 70%",
+      "At least 95%"
+    ],
+    answer: 0,
+    region: "ontario",
+    explanation: "The rule is in Ontario Regulation 406/00, read in its July 2026 consolidation."
+  },
+  {
+    id: "nw-95",
+    type: "scenario",
+    country: "New World",
+    question: "What is the minimum residual sugar for Ontario VQA Icewine?",
+    options: [
+      "30 g/L",
+      "60 g/L",
+      "180 g/L",
+      "100 g/L"
+    ],
+    answer: 3,
+    region: "ontario",
+    explanation: "It must come from the grapes' own sugar. Freeze concentration is not allowed."
   }
 ];
