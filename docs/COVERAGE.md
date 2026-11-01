@@ -24,6 +24,21 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 - **Canada's other areas.** Only Niagara and the Okanagan.
 - **Anything from the specification's other units**, such as production and the business of wine, beyond what the quiz touches.
 
+## Thinnest regions in the quiz
+
+`npm run coverage` lists how many questions each region has. On 2026-11-02 the eight thinnest were:
+
+- 3 questions: villany
+- 4 questions: bairrada
+- 4 questions: dao
+- 4 questions: eger
+- 4 questions: naoussa
+- 4 questions: nemea
+- 4 questions: newYork
+- 4 questions: ontario
+
+Every region has at least three, which a test checks.
+
 ## How the facts were checked
 
 See "How far to trust the facts" in the README.
