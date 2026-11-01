@@ -26,7 +26,7 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 
 ## Thinnest regions in the quiz
 
-`npm run coverage` lists how many questions each region has. On 2026-11-02 the eight thinnest were:
+`npm run coverage` lists how many questions each region has. On 2026-11-01 the eight thinnest were:
 
 - 3 questions: villany
 - 4 questions: newYork
