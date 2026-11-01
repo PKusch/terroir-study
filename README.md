@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **74** regions | 📍 **352** places on the map | ❓ **615** quiz questions | 🍇 **112** grapes | ✅ **136** tests |
+| 🌍 **9** countries | 🗺️ **74** regions | 📍 **352** places on the map | ❓ **627** quiz questions | 🍇 **112** grapes | ✅ **136** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -233,6 +233,8 @@ The Cahors, Saussignac, Bergerac, Pécharmant, Frascati and Conegliano Valdobbia
 
 The Mosel, Rías Baixas, Priorat and Rueda questions rest on rule books read in full: the Mosel product specification (a very recent consolidated text), the Rías Baixas pliego of July 2024, the Priorat pliego of November 2021 and Rueda revision 4 of July 2024. German federal law no longer holds the Prädikat must-weight table; each region's specification does, so the Mosel figures are from the Mosel's own text. The Rheingau figures were read but not used, because its Beerenauslese minimum is much higher than the Mosel's and could not be checked against a second source. Today's Rueda text no longer defines 'Rueda Verdejo' or 'Rueda Sauvignon' as wine names, so no question asks about them.
 
+The Naoussa, Nemea, Eger, Bairrada, Dão and Ontario questions rest on official texts read in full, several of them old: Naoussa and Nemea are the 2011 Greek specifications, Bairrada the 2011 one (a 2023 amendment was not read), and Eger the 2020 amendment (a 2022 one was not read). Ontario is Regulation 406/00 in its July 2026 consolidation. The Dão rule books of 2013 and 2014 disagree on yields and on 'Nobre', and no legal minimum for Touriga Nacional was found, so no question asks about them. Bairrada's 50% Baga rule applies to its Clássico red in the 2011 text, and Nemea's written yield contradicts itself, so neither is asked.
+
 The regions added later (Toro and Navarra, Calatayud and Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya, Nahe, Rheinhessen, Baden, Franken, the extra Italian and Portuguese ones, and the extra New World ones) were each built from the official rule book or specification where it could be read, then every quiz question was checked a second time by a separate pass against the same kind of source. That second pass found a few real mistakes, now fixed: the Franconian "fränkisch trocken" sugar limit is 4 g/L, not 5, and the sub-zones of Colli Orientali del Friuli are Cialla plus four named for a grape and a village. Anything it could not confirm was reworded, softened or dropped. The weakest spots are the Dão, Bairrada and Lazio regions and the Oregon, Washington, Finger Lakes, Ontario and British Columbia ones, where the official pages would not load and a wine-reference site or Wikipedia stands in. The rule is simple: a number is only in the app if a page said it.
 
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
@@ -282,7 +284,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (615: 124 France, 82 Italy, 172 Spain, 53 Germany, 20 Austria, 38 Portugal, 17 Hungary, 17 Greece, 92 New World; 517 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (627: 124 France, 82 Italy, 172 Spain, 53 Germany, 20 Austria, 41 Portugal, 20 Hungary, 20 Greece, 95 New World; 529 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (112 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
