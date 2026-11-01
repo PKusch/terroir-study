@@ -11,6 +11,7 @@
     "dev": "vite",
     "test": "node --test tests/*.test.mjs",
     "quizcheck": "node scripts/quizcheck.mjs",
+    "coverage": "node scripts/coverage.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
