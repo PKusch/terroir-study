@@ -8080,12 +8080,12 @@ export const QUIZ_QUESTIONS = [
     country: "France",
     question: "What is the minimum share of Cot (Malbec) in a Cahors wine?",
     options: [
-      "70%",
+      "100%",
       "50%",
       "85%",
-      "100%"
+      "70%"
     ],
-    answer: 0,
+    answer: 3,
     region: "southWest",
     explanation: "The rest can only be Merlot and Tannat. The cahier read is the 2011 version; later amendments are unchecked."
   },
@@ -8095,12 +8095,12 @@ export const QUIZ_QUESTIONS = [
     country: "France",
     question: "What is the hard yield ceiling for Cahors?",
     options: [
-      "60 hl/ha",
+      "90 hl/ha",
       "45 hl/ha",
       "75 hl/ha",
-      "90 hl/ha"
+      "60 hl/ha"
     ],
-    answer: 0,
+    answer: 3,
     region: "southWest",
     explanation: "The base yield is 50 hl/ha. Destemming is compulsory."
   },
@@ -8140,12 +8140,12 @@ export const QUIZ_QUESTIONS = [
     country: "France",
     question: "What is the maximum yield for Saussignac?",
     options: [
-      "25 hl/ha",
+      "70 hl/ha",
       "40 hl/ha",
       "55 hl/ha",
-      "70 hl/ha"
+      "25 hl/ha"
     ],
-    answer: 0,
+    answer: 3,
     region: "southWest",
     explanation: "The hard ceiling is 30 hl/ha."
   },
@@ -8185,12 +8185,12 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "What is the minimum share of Malvasia in Frascati DOC?",
     options: [
-      "70%",
+      "90%",
       "30%",
       "50%",
-      "90%"
+      "70%"
     ],
-    answer: 0,
+    answer: 3,
     region: "lazio",
     explanation: "Bellone, Bombino, Greco and Trebbiano can make up the rest. The text read is an AIS copy; later amendments are unchecked."
   },
@@ -8230,12 +8230,12 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "What is the maximum grape yield for Superiore di Cartizze?",
     options: [
-      "12 t/ha",
+      "16 t/ha",
       "9 t/ha",
       "13.5 t/ha",
-      "16 t/ha"
+      "12 t/ha"
     ],
-    answer: 0,
+    answer: 3,
     region: "veneto",
     explanation: "Plain Conegliano Valdobbiadene is held to 13.5 t/ha. The text read is a 2018 translation."
   },
@@ -8245,12 +8245,12 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "How many municipalities make up the Conegliano Valdobbiadene zone?",
     options: [
-      "15",
+      "24",
       "6",
       "9",
-      "24"
+      "15"
     ],
-    answer: 0,
+    answer: 3,
     region: "veneto",
     explanation: "Cartizze is a small sub-zone in Valdobbiadene. The text read is a 2018 translation."
   },
@@ -8260,12 +8260,12 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "How must grapes for a Conegliano Valdobbiadene Rive be harvested?",
     options: [
-      "By hand only",
+      "In one early pass",
       "By machine at night",
       "By machine or by hand",
-      "In one early pass"
+      "By hand only"
     ],
-    answer: 0,
+    answer: 3,
     region: "veneto",
     explanation: "Rive are sparkling wines labelled with the village name and the vintage year."
   }
