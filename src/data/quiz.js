@@ -8328,5 +8328,155 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "mosel",
     explanation: "The Prädikat minimums are set in each region's own specification, not in one national table."
+  },
+  {
+    id: "es-163",
+    type: "scenario",
+    country: "Spain",
+    question: "What must a bottle labelled 'Rías Baixas Albariño' contain?",
+    options: [
+      "100% Albariño",
+      "At least 70% Albariño",
+      "At least 85% Albariño",
+      "At least 50% Albariño"
+    ],
+    answer: 0,
+    region: "riasBaixas",
+    explanation: "The pliego read is the July 2024 version."
+  },
+  {
+    id: "es-164",
+    type: "scenario",
+    country: "Spain",
+    question: "How many subzones does Rías Baixas have?",
+    options: [
+      "Two",
+      "Three",
+      "Eight",
+      "Five"
+    ],
+    answer: 3,
+    region: "riasBaixas",
+    explanation: "They are Val do Salnés, Condado do Tea, O Rosal, Ribeira do Ulla and Soutomaior."
+  },
+  {
+    id: "es-165",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the maximum yield for Albariño in Rías Baixas?",
+    options: [
+      "6,000 kg/ha",
+      "12,000 kg/ha",
+      "8,000 kg/ha",
+      "16,000 kg/ha"
+    ],
+    answer: 1,
+    region: "riasBaixas",
+    explanation: "Caíño tinto is held to 10,000 kg/ha."
+  },
+  {
+    id: "es-166",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the base yield cap for red grapes in Priorat?",
+    options: [
+      "6,000 kg/ha",
+      "3,000 kg/ha",
+      "9,000 kg/ha",
+      "12,000 kg/ha"
+    ],
+    answer: 0,
+    region: "priorat",
+    explanation: "Whites may crop 8,000 kg/ha. The pliego read is the November 2021 version."
+  },
+  {
+    id: "es-167",
+    type: "scenario",
+    country: "Spain",
+    question: "How many vilas can name a Priorat 'Vi de Vila'?",
+    options: [
+      "Three",
+      "Six",
+      "Twelve",
+      "Twenty"
+    ],
+    answer: 2,
+    region: "priorat",
+    explanation: "They include Gratallops, Porrera, Poboleda and Torroja."
+  },
+  {
+    id: "es-168",
+    type: "scenario",
+    country: "Spain",
+    question: "How much Cariñena and/or Garnacha must a Priorat Vi de Vila contain?",
+    options: [
+      "At least 60%",
+      "At least 30%",
+      "At least 85%",
+      "Exactly 100%"
+    ],
+    answer: 0,
+    region: "priorat",
+    explanation: "The same minimum applies to Vi de Paratge."
+  },
+  {
+    id: "es-169",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the yield cap for red grapes in a Priorat Vi de Paratge?",
+    options: [
+      "2,000 kg/ha",
+      "6,000 kg/ha",
+      "8,000 kg/ha",
+      "4,000 kg/ha"
+    ],
+    answer: 3,
+    region: "priorat",
+    explanation: "A Vi de Vila red is held to 5,000 kg/ha."
+  },
+  {
+    id: "es-170",
+    type: "scenario",
+    country: "Spain",
+    question: "How long must a Rueda Dorado age?",
+    options: [
+      "Four years, two in oak",
+      "Two years, none in oak",
+      "Six months in oak",
+      "One year in bottle"
+    ],
+    answer: 0,
+    region: "rueda",
+    explanation: "It is a dry fortified wine of at least 15%. The text read is revision 4 of July 2024."
+  },
+  {
+    id: "es-171",
+    type: "scenario",
+    country: "Spain",
+    question: "How old must the vines be for a 'Gran Vino de Rueda'?",
+    options: [
+      "Over 10 years",
+      "Over 30 years",
+      "Over 15 years",
+      "Over 60 years"
+    ],
+    answer: 1,
+    region: "rueda",
+    explanation: "Yields are held to 6,500 kg/ha, with extraction of no more than 65%."
+  },
+  {
+    id: "es-172",
+    type: "scenario",
+    country: "Spain",
+    question: "What is the yield cap for trellised Verdejo in Rueda?",
+    options: [
+      "10,000 kg/ha",
+      "5,000 kg/ha",
+      "7,000 kg/ha",
+      "14,000 kg/ha"
+    ],
+    answer: 0,
+    region: "rueda",
+    explanation: "Bush-trained Verdejo is held to 8,000 kg/ha."
   }
 ];
