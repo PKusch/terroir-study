@@ -130,7 +130,7 @@ Study everything, one country at a time, or *Fortified* (Port, Madeira, Sherry, 
 <details>
 <summary><b>Region by region: what the app says about each</b></summary>
 
-France (11 WSET L3 exam regions) with geographically accurate map, Paris as orientation marker, and major rivers:
+France (11 regions) with geographically accurate map, Paris as orientation marker, and major rivers:
 
 - **Bordeaux** — Left Bank / Right Bank, Cabernet Sauvignon & Merlot blends
 - **Burgundy** — Chablis through Mâconnais, Pinot Noir & Chardonnay terroir expression
@@ -144,14 +144,20 @@ France (11 WSET L3 exam regions) with geographically accurate map, Paris as orie
 - **South-West** — Cahors Malbec, Madiran Tannat, micro-oxygenation origin
 - **Beaujolais** — Gamay, 10 Crus on granite, carbonic maceration
 
-Italy (4 WSET L3 exam areas) with its own map, Rome as orientation marker, the Po, and Sicily and Sardinia drawn in outline:
+Italy (10 regions) with its own map, Rome as orientation marker, the Po, and Sicily and Sardinia drawn in outline:
 
 - **Piedmont** — Nebbiolo in Barolo and Barbaresco, Barbera, Dolcetto, Moscato d'Asti, Gavi; fog, Alps and calcareous marl
 - **Tuscany** — Sangiovese from Chianti to Brunello, Bolgheri and the Super Tuscan story, galestro and alberese
 - **Veneto** — Corvina and appassimento (Valpolicella, Ripasso, Amarone, Recioto), Soave, Prosecco by the tank method
 - **Southern Italy** — Aglianico (Taurasi, Vulture), Fiano and Greco, Primitivo and Negroamaro, Etna and Marsala; heat moderated by altitude and sea
+- **Abruzzo** — Adriatic breezes and cool mountain nights; deep, soft Montepulciano on calcareous clay; much of the wine made by co-operatives
+- **Marche** — Verdicchio with high acidity and an almond finish; Castelli di Jesi near the sea, and Matelica inland, more structured
+- **Umbria** — Sagrantino di Montefalco, thick-skinned and very tannic, with long ageing rules; Orvieto, where autumn fog off Lake Corbara brings botrytis for sweet wines
+- **Lazio** — volcanic soils and warm sea breezes; fresh, light whites such as Frascati
+- **Friuli-Venezia Giulia** — the Alps to the north and the Adriatic to the south; Friulano, Pinot Grigio and Ribolla Gialla, structured Collio whites on marl and sandstone, and amber skin-contact wines
+- **Trentino-Alto Adige** — Alpine slopes from 200 to 1,000 m, warmed by air from Lake Garda; Lagrein, Teroldego and Schiava reds, aromatic whites, and Trento DOC sparkling from Chardonnay
 
-Spain (7 WSET L3 exam areas) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
+Spain (20 regions) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
 
 - **Rioja** — Tempranillo blends across Rioja Alta, Alavesa and Oriental; the Cantabrian shield, clay-limestone, and the Crianza–Reserva–Gran Reserva oak ladder
 - **Ribera del Duero** — Tempranillo (Tinto Fino) at altitude on the Duero plateau; hot days, cold nights, frost, and darker, firmer wines than Rioja
@@ -160,33 +166,53 @@ Spain (7 WSET L3 exam areas) with its own map, Madrid as orientation marker, the
 - **Rías Baixas** — cool, wet Atlantic Galicia on granite; Albariño on pergolas raised off the damp ground against fungal disease; tiny holdings; the 100% Albariño and 70% rules, five sub-zones, Barrica and bottle-fermented sparkling (from the DO's 2024 specification)
 - **Rueda** — Verdejo on a high Duero plateau with cold winters, late frosts and a big day–night swing; stony soils, machine harvest at night against oxidation; the 2024 rule that principal varieties make at least 75%; Dorado and sparkling
 - **Cava (Penedès)** — traditional-method sparkling around Sant Sadurní d'Anoia; Macabeo, Xarel·lo and Parellada; at least 9 months on the lees for Guarda, 30 for Gran Reserva and 36 for Paraje Calificado; dosage from Brut Nature to Dulce
+- **Toro** — a high, dry plateau; thick-skinned Tinta de Toro (Tempranillo) high in sugar and tannin, and very old vines on sand
+- **Navarra** — Garnacha, Tempranillo and international grapes; known for deep rosado made by bleeding the red vat
+- **Calatayud** — high, dry and cold at night; old Garnacha bush vines on poor, stony soils
+- **Cariñena** — hot summers, cold winters and the dry cierzo wind; broad Garnacha reds, and probably where the Carignan grape got its name
+- **Bierzo** — between Atlantic and continental; fresh Mencía and Godello from old vines on slate, classified by village and site
+- **Valencia** — four sub-zones from the high Alto Turia to the low Moscatel area; Bobal, Monastrell and sweet fortified Moscatel
+- **Jumilla** — hot and very dry; Monastrell holds over 70% of the vineyard
+- **Yecla** — a one-town DO; ripe, low-yielding Monastrell on limestone
+- **La Mancha** — a huge, flat, dry plateau; Airén, and Tempranillo (Cencibel), now Spain's most planted grape
+- **Valdepeñas** — an enclave inside La Mancha; smooth, oak-aged Tempranillo under strict ageing rules
+- **Montsant** — the ring of hills round Priorat; old Garnacha and Cariñena on llicorella, granite and limestone
+- **Catalunya** — one DO for the whole of Catalonia, with many grapes and no minimum shares
+- **Penedès (still wines)** — hills from the sea up to about 800 m; Xarel·lo, Macabeo and Parellada made as still wine, the same trio as Cava
 
-Germany (3 WSET L3 exam regions) with its own map, Berlin as orientation marker, the Rhine and the Mosel, and the neighbouring countries drawn faintly:
+Germany (7 regions) with its own map, Berlin as orientation marker, the Rhine and the Mosel, and the neighbouring countries drawn faintly:
 
 - **Mosel** — Riesling on steep, south-facing slate above the river; cool, light, high-acid, off-dry to sweet; the Prädikat ladder from Kabinett to Trockenbeerenauslese and Eiswein
 - **Rheingau** — Riesling where the Rhine turns west; warmer and drier, fuller dry wines and VDP Grosses Gewächs; Spätburgunder at Assmannshausen; botrytis sweet wines
 - **Pfalz** — warm and dry in the rain shadow of the Haardt (the Vosges continued); riper dry Riesling, Grauburgunder, Weissburgunder, Spätburgunder, Dornfelder
+- **Nahe** — sheltered by mountains; a patchwork of volcanic and sedimentary rocks gives very different Riesling from neighbouring sites
+- **Rheinhessen** — Germany's largest region; warm and dry, with Silvaner, Müller-Thurgau and Riesling, and its top sites on the Rhine slopes
+- **Baden** — Germany's warmest area; the Pinot family leads (Spätburgunder, Grauburgunder, Weissburgunder), and co-operatives are strong
+- **Franken** — continental, along the Main; earthy Silvaner on limestone, in the flat, round Bocksbeutel bottle
 
-Austria (3 WSET L3 exam areas) with its own map, Vienna as orientation marker and the Danube:
+Austria (3 regions) with its own map, Vienna as orientation marker and the Danube:
 
 - **Niederösterreich** — Grüner Veltliner and Riesling along the Danube: Wachau, Kremstal, Kamptal, Wagram, Traisental and the Weinviertel; hot days and cold nights, primary rock terraces and loess; Steinfeder, Federspiel and Smaragd, and the DAC system
 - **Burgenland** — warm, dry Pannonian climate; Zweigelt and Blaufränkisch (Mittelburgenland, Eisenberg, Leithaberg, Neusiedlersee); autumn mist off the shallow Neusiedler See brings noble rot and the sweet wines of Rust
 - **Steiermark** — Austria's cool, hilly south; Sauvignon Blanc, Welschriesling and Morillon, Schilcher rosé from Blauer Wildbacher, and the Gebietswein–Ortswein–Riedenwein pyramid
 
-Portugal (3 WSET L3 exam areas) with its own map, Lisbon as orientation marker, the Douro and the Tejo, and Spain drawn faintly:
+Portugal (7 regions) with its own map, Lisbon as orientation marker, the Douro and the Tejo, and Spain drawn faintly:
 
 - **Vinho Verde** — the wet, cool northwest; light, low-alcohol, high-acid whites from Alvarinho (best in Monção e Melgaço), Loureiro and Arinto; vines trained high on pergolas for air; granite soils
 - **Douro** — terraced schist slopes along the river; Touriga Nacional, Touriga Franca and Tinta Roriz; Port (fortified with grape spirit, Ruby, Tawny, LBV, Vintage) and Douro table wine; Baixo Corgo wettest, Douro Superior hottest and driest
 - **Alentejo** — the hot southern plain; soft, fruity Aragonez, Trincadeira and Alicante Bouschet, Antão Vaz and Arinto whites; cork oak, vinho de talha in clay amphorae, and eight DOC sub-regions
+- **Dão** — a granite plateau ringed by mountains; Touriga Nacional and Encruzado, kept fresh by altitude
+- **Bairrada** — cool and wet near the Atlantic; firm, tannic Baga on clay-limestone, and sparkling wine
+- **Lisboa** — a cool, windy coast and a sheltered inland; ungrafted vines in the Colares sand, and over 100 permitted grapes
 - **Madeira** — a volcanic Atlantic island, drawn in its own box on the Portugal map; vines on basalt terraces (poios) and low pergolas, watered by levadas; Tinta Negra plus Sercial, Verdelho, Boal and Malvasia, each tied by law to a sweetness; fortified with 96% spirit, then aged in heat by estufagem (up to 50 °C, three months at least) or canteiro (casks in warm lofts); Reserve 5 years, Special Reserve 10, Colheita and Frasqueira
 
-Hungary (3 WSET L3 exam areas) with its own map, Budapest as orientation marker, the Danube and the Tisza:
+Hungary (3 regions) with its own map, Budapest as orientation marker, the Danube and the Tisza:
 
 - **Tokaj** — Furmint and Hárslevelű where the Bodrog meets the Tisza; river mist then dry sun brings noble rot; dry Furmint, Szamorodni, Aszú (at least 120 g/l of sugar, with the optional 5 and 6 puttonyos terms) and Eszencia; volcanic soils
 - **Eger** — cool northern foothills of the Bükk; Egri Bikavér, "Bull's Blood", led by Kékfrankos, in three tiers (Classicus, Superior, Grand Superior), and the Egri Csillag white blend
 - **Villány** — the warmest corner, in the far south; Cabernet Franc and Bordeaux-style reds on limestone and loess; Classicus, Premium and Super Premium tiers
 
-Greece (3 WSET L3 exam areas) with its own map, Athens as orientation marker, Crete and the islands drawn in outline:
+Greece (3 regions) with its own map, Athens as orientation marker, Crete and the islands drawn in outline:
 
 - **Santorini** — a hot, dry, windy volcanic island; Assyrtiko (at least 85% in dry PDO wines) from old ungrafted vines trained in low baskets (kouloura); Nykteri and the sweet Vinsanto
 - **Naoussa** — the eastern slopes of Mount Vermio; Xinomavro, "acid black", high in acidity and tannin and often compared with Nebbiolo; red only under the PDO
@@ -279,23 +305,28 @@ npm run dev
 
 ## Roadmap
 
-- [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy)
-- [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry, Rías Baixas, Rueda, Cava)
+- [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy, Abruzzo, Marche, Umbria, Lazio, Friuli-Venezia Giulia, Trentino-Alto Adige)
+- [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry, Rías Baixas, Rueda, Cava, Penedès, Toro, Navarra, Calatayud, Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya)
 - [x] Germany (Mosel, Rheingau, Pfalz, Nahe, Rheinhessen, Baden, Franken)
 - [x] Austria (Niederösterreich, Burgenland, Steiermark)
-- [x] Portugal (Vinho Verde, Douro, Alentejo)
+- [x] Portugal (Vinho Verde, Douro, Alentejo, Dão, Bairrada, Lisboa, Madeira)
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
 - [x] Expand quiz bank to 50+ questions (673: 132 France, 86 Italy, 181 Spain, 53 Germany, 20 Austria, 63 Portugal, 20 Hungary, 20 Greece, 98 New World; 574 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
-- [x] Grape variety profiles with tasting descriptors (112 grapes)
+- [x] Grape variety profiles with tasting descriptors (117 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
 - [x] Sub-region drill-down maps (Zoom into any region: 357 places marked across 75 regions)
+- [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
+- [ ] Sparkling wine as a topic: the methods side by side, Franciacorta, and a *Sparkling* filter (in progress)
+- [ ] Written-answer practice, once WSET's current theory paper format is checked against its own pages
+- [ ] Castilla y León Vino de la Tierra, once its rules can be read
+- [ ] More questions for the thinnest regions (Villány has 3; New York, Oregon, Vinho Verde and Yecla have 4)
 
 ## About
 
