@@ -10173,5 +10173,65 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "newYork",
     explanation: "Seneca Lake is the deepest of the Finger Lakes and rarely freezes, so it does the most to soften winter cold on the slopes around it."
+  },
+  {
+    id: "nw-105",
+    type: "scenario",
+    country: "New World",
+    question: "An Oregon producer wants to call a wine 'Pinot Noir'. How much of the wine must be Pinot Noir under Oregon's rules?",
+    options: [
+      "At least 75%, the US rule",
+      "At least 85% of the wine",
+      "At least 90% of the wine",
+      "Every drop of it, 100%"
+    ],
+    answer: 2,
+    region: "oregon",
+    explanation: "Oregon's own rules ask for at least 90% of a named grape, stricter than the US minimum of 75%. Pinot Noir is not on the short list of grapes allowed at 75%."
+  },
+  {
+    id: "nw-106",
+    type: "scenario",
+    country: "New World",
+    question: "Oregon lets a few grape names go on the label at only 75%. Which of these is one of them?",
+    options: [
+      "Pinot Noir",
+      "Pinot Gris",
+      "Chardonnay",
+      "Syrah"
+    ],
+    answer: 3,
+    region: "oregon",
+    explanation: "Oregon's 90% rule has a list of exceptions allowed at 75%, mostly grapes often blended, such as Syrah, Cabernet Sauvignon, Merlot and Malbec. Pinot Noir, Pinot Gris and Chardonnay are not on it, so they need 90%."
+  },
+  {
+    id: "nw-107",
+    type: "scenario",
+    country: "New World",
+    question: "A wine is labelled 'Willamette Valley'. How much of it must come from inside the AVA under Oregon's rules?",
+    options: [
+      "At least 95% of it",
+      "At least 85%, the US rule",
+      "At least 75% of it",
+      "Just over half of it"
+    ],
+    answer: 0,
+    region: "oregon",
+    explanation: "Oregon asks that 95% of the grapes come from inside a named appellation, stricter than the US rule of 85% for an AVA."
+  },
+  {
+    id: "nw-108",
+    type: "scenario",
+    country: "New World",
+    question: "A wine is labelled 'Oregon'. How many of its grapes must be grown in Oregon?",
+    options: [
+      "At least 75% of them",
+      "All of them",
+      "At least 85% of them",
+      "At least 90% of them"
+    ],
+    answer: 1,
+    region: "oregon",
+    explanation: "If 'Oregon' appears anywhere on the label, every grape must have been grown in Oregon. The US rule for a state name is only 75%."
   }
 ];
