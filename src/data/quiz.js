@@ -10803,5 +10803,365 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "dao",
     explanation: "The Dão is believed to be the home of Touriga Nacional, which is now the leading quality grape of Port and the Douro."
+  },
+  {
+    id: "fr-147",
+    type: "connection",
+    country: "France",
+    question: "In 2015 UNESCO put Burgundy on its World Heritage list. What exactly was listed?",
+    options: [
+      "The Hospices de Beaune and its wine auction",
+      "Its climats, the small named vineyard plots",
+      "The abbey of Cîteaux and the cellars its monks dug",
+      "The Grand Cru villages of the Côte de Nuits"
+    ],
+    answer: 1,
+    region: "burgundy",
+    explanation: "UNESCO listed the Climats of Burgundy in July 2015: 1,247 small, precisely mapped vineyard plots along the Côte between Dijon and Santenay. The listing honours the idea that each plot gives its own wine."
+  },
+  {
+    id: "fr-148",
+    type: "connection",
+    country: "France",
+    question: "Burgundy has 84 appellations. How are they split between regional, village and Grand Cru?",
+    options: [
+      "7 regional, 44 village, 33 Grand Cru",
+      "33 regional, 44 village, 7 Grand Cru",
+      "20 regional, 50 village, 14 Grand Cru",
+      "44 regional, 33 village, 7 Grand Cru"
+    ],
+    answer: 0,
+    region: "burgundy",
+    explanation: "The Burgundy wine board counts 84 appellations: 7 regional, 44 village and 33 Grand Cru. Premier Cru is not a separate appellation: it is a named plot within a village appellation."
+  },
+  {
+    id: "fr-149",
+    type: "connection",
+    country: "France",
+    question: "A buyer picks up a Burgundy Grand Cru such as Chambertin. What is missing from the label that a Premier Cru would show?",
+    options: [
+      "The vintage year",
+      "The grape variety",
+      "The producer's own name",
+      "The village name"
+    ],
+    answer: 3,
+    region: "burgundy",
+    explanation: "A Premier Cru label gives the village, the words Premier Cru and usually the plot name, for example Gevrey-Chambertin Premier Cru. A Grand Cru stands alone under its own name, with no village on the label."
+  },
+  {
+    id: "fr-150",
+    type: "connection",
+    country: "France",
+    question: "Roughly what share of Burgundy's wine is Grand Cru?",
+    options: [
+      "About a third",
+      "About a tenth",
+      "Less than 2%",
+      "About a quarter"
+    ],
+    answer: 2,
+    region: "burgundy",
+    explanation: "Grand Cru is under 2% of Burgundy's wine. Premier Cru is about 10%, village wine about 37%, and regional wine such as Bourgogne about half."
+  },
+  {
+    id: "de-58",
+    type: "connection",
+    country: "Germany",
+    question: "What sets the Rheingau apart among Germany's wine regions in what it plants?",
+    options: [
+      "It has the highest share of Riesling",
+      "It grows more red grapes than white",
+      "It plants mostly Silvaner and Müller-Thurgau",
+      "It is the largest region by area"
+    ],
+    answer: 0,
+    region: "rheingau",
+    explanation: "Riesling covers roughly three quarters of the Rheingau's vineyards, the highest share of any German region. Spätburgunder is the main red grape, especially around Assmannshausen."
+  },
+  {
+    id: "de-59",
+    type: "connection",
+    country: "Germany",
+    question: "Tradition says late-picked, noble-rotted Riesling was first made in 1775 at one Rheingau estate, after the harvest permit arrived late. Which estate?",
+    options: [
+      "Kloster Eberbach abbey",
+      "Schloss Vollrads",
+      "Schloss Johannisberg",
+      "Weingut Robert Weil"
+    ],
+    answer: 2,
+    region: "rheingau",
+    explanation: "Schloss Johannisberg needed permission from the abbey of Fulda to start picking. In 1775 the messenger came late, the grapes had noble rot, and the wine turned out far better than expected. Historians treat the messenger as legend, but the estate still celebrates it as the birth of Spätlese."
+  },
+  {
+    id: "de-60",
+    type: "connection",
+    country: "Germany",
+    question: "How big is the Rheingau compared with the Pfalz?",
+    options: [
+      "About the same size as the Pfalz",
+      "Twice as big",
+      "About half the size",
+      "About a seventh the size"
+    ],
+    answer: 3,
+    region: "rheingau",
+    explanation: "The Rheingau has a little over 3,100 hectares of vines. The Pfalz has more than 23,000, so the Rheingau is about a seventh of its size, small but famous."
+  },
+  {
+    id: "de-61",
+    type: "connection",
+    country: "Germany",
+    question: "Where does the Pfalz rank among Germany's wine regions by vineyard area?",
+    options: [
+      "Largest of all",
+      "Second, after Rheinhessen",
+      "Third, after Rheinhessen and Baden",
+      "Fifth, after the Mosel"
+    ],
+    answer: 1,
+    region: "pfalz",
+    explanation: "The Pfalz is Germany's second largest wine region, after its northern neighbour Rheinhessen. It has more than 23,000 hectares of vines."
+  },
+  {
+    id: "de-62",
+    type: "connection",
+    country: "Germany",
+    question: "The Deutsche Weinstrasse runs about 85 km through the Pfalz. Where does it end in the south?",
+    options: [
+      "At Schweigen, on the border with Alsace",
+      "At Bockenheim, near Rheinhessen",
+      "At Neustadt, in the middle of the region",
+      "At Worms, on the Rhine"
+    ],
+    answer: 0,
+    region: "pfalz",
+    explanation: "The German Wine Route runs from Bockenheim in the north to Schweigen in the south, right on the French border with Alsace. Most of the Pfalz's wine villages lie along it."
+  },
+  {
+    id: "de-63",
+    type: "connection",
+    country: "Germany",
+    question: "The Pfalz is split into two Bereiche. Which are they?",
+    options: [
+      "Maindreieck and Mainviereck",
+      "Johannisberg and Bingen",
+      "Mittelhaardt and Südliche Weinstrasse",
+      "Kaiserstuhl, Tuniberg and the Ortenau"
+    ],
+    answer: 2,
+    region: "pfalz",
+    explanation: "Mittelhaardt-Deutsche Weinstrasse is the northern half, with Forst and Deidesheim. Südliche Weinstrasse runs from Neustadt south to the French border."
+  },
+  {
+    id: "de-64",
+    type: "connection",
+    country: "Germany",
+    question: "Silvaner is Franken's signature grape. Where and when is it first recorded there?",
+    options: [
+      "Würzburg, in 1775",
+      "Castell, in 1659",
+      "Iphofen, in 1855",
+      "Escherndorf, in 1910"
+    ],
+    answer: 1,
+    region: "franken",
+    explanation: "A document from Castell records Silvaner in 1659. That is the oldest written record of the grape in Franken."
+  },
+  {
+    id: "de-65",
+    type: "connection",
+    country: "Germany",
+    question: "Since 1989 the Bocksbeutel bottle has had EU protection. Who may use it?",
+    options: [
+      "Only producers inside Franken",
+      "Any German wine region at all",
+      "Any EU producer of dry white wine",
+      "Franken and parts of Baden"
+    ],
+    answer: 3,
+    region: "franken",
+    explanation: "The flat, round Bocksbeutel is Franken's emblem and has been protected since 1989. But it is not Franken's alone: some neighbouring parts of Baden have a traditional right to use it too."
+  },
+  {
+    id: "de-66",
+    type: "connection",
+    country: "Germany",
+    question: "Roughly how many hectares of vines does Franken have?",
+    options: [
+      "About 6,000",
+      "About 600",
+      "About 23,000",
+      "About 60,000"
+    ],
+    answer: 0,
+    region: "franken",
+    explanation: "Franken has about 6,100 hectares of vines, mostly along the Main. That is a mid-sized region by German standards, about a quarter of the size of the Pfalz."
+  },
+  {
+    id: "at-24",
+    type: "connection",
+    country: "Austria",
+    question: "Which was Burgenland's first DAC, and Austria's first DAC for red wine?",
+    options: [
+      "Neusiedlersee DAC, for Zweigelt reds",
+      "Eisenberg DAC, for Blaufränkisch",
+      "Mittelburgenland, for Blaufränkisch",
+      "Leithaberg DAC, for its white wines"
+    ],
+    answer: 2,
+    region: "burgenland",
+    explanation: "Mittelburgenland DAC began with the 2005 vintage. It covers Blaufränkisch alone and was Austria's first DAC for a red wine."
+  },
+  {
+    id: "at-25",
+    type: "connection",
+    country: "Austria",
+    question: "Which is the smallest of Burgenland's DACs, with only about 240 hectares?",
+    options: [
+      "Eisenberg",
+      "Rosalia",
+      "Carnuntum",
+      "Leithaberg"
+    ],
+    answer: 1,
+    region: "burgenland",
+    explanation: "Rosalia, with about 240 hectares, is Burgenland's smallest DAC. Neusiedlersee is the largest, at about 6,000 hectares. Carnuntum is in Lower Austria."
+  },
+  {
+    id: "at-26",
+    type: "connection",
+    country: "Austria",
+    question: "Which two Burgenland DACs came after Mittelburgenland, both in 2009?",
+    options: [
+      "Leithaberg and Eisenberg",
+      "Rosalia and Neusiedlersee",
+      "Kamptal and Kremstal",
+      "Wachau and Weinviertel"
+    ],
+    answer: 0,
+    region: "burgenland",
+    explanation: "Mittelburgenland came first, in 2005. Leithaberg and Eisenberg followed in 2009. Kamptal, Kremstal, Wachau and Weinviertel are in Lower Austria, not Burgenland."
+  },
+  {
+    id: "hu-21",
+    type: "connection",
+    country: "Hungary",
+    question: "Which settlers shaped Villány's wine villages from about 1720 until the end of the Second World War?",
+    options: [
+      "French Huguenot refugees",
+      "Italian Benedictine monks",
+      "Danube Swabians",
+      "Serbian river traders"
+    ],
+    answer: 2,
+    region: "villany",
+    explanation: "German-speaking settlers, the Danube Swabians, arrived around 1720 and were the main people of Villány until 1945. Their wine-making traditions are still part of the region's identity."
+  },
+  {
+    id: "hu-22",
+    type: "connection",
+    country: "Hungary",
+    question: "Which light, fruity red grape is thought to have come to Villány with German settlers, and is still more at home there than anywhere else in Hungary?",
+    options: [
+      "Kadarka",
+      "Kékfrankos",
+      "Cabernet Franc",
+      "Portugieser"
+    ],
+    answer: 3,
+    region: "villany",
+    explanation: "Portugieser was probably brought by the Swabian settlers. Villány remains its stronghold in Hungary, even though Cabernet Franc and Bordeaux-style blends now lead its fine wine."
+  },
+  {
+    id: "hu-23",
+    type: "connection",
+    country: "Hungary",
+    question: "What was the Villány-Siklós Wine Route, set up in 1994, the first of in Hungary?",
+    options: [
+      "The first wine route",
+      "The first organic region",
+      "The first PDO",
+      "The first wine school"
+    ],
+    answer: 0,
+    region: "villany",
+    explanation: "The Villány-Siklós Wine Route was founded in 1994 as Hungary's first wine route. It links villages, cellars and guest houses for wine tourism."
+  },
+  {
+    id: "hu-24",
+    type: "connection",
+    country: "Hungary",
+    question: "What happened to Villány's fine wine in the communist years?",
+    options: [
+      "It was exported to France",
+      "It all but disappeared",
+      "It moved to white wine",
+      "It was made only as sweet wine"
+    ],
+    answer: 1,
+    region: "villany",
+    explanation: "Under communism, quality wine in Villány all but vanished. Since then its red wines, and its Portugieser, have come back."
+  },
+  {
+    id: "hu-25",
+    type: "connection",
+    country: "Hungary",
+    question: "What style is Villány best known for today?",
+    options: [
+      "Sweet wines from noble rot",
+      "Traditional-method sparkling wine",
+      "Full-bodied Bordeaux-style reds",
+      "Light, dry whites made from Furmint"
+    ],
+    answer: 2,
+    region: "villany",
+    explanation: "Villány is Hungary's warm south and its red-wine corner. It is known for full-bodied reds, often blends of Bordeaux grapes, with Cabernet Franc as the flagship."
+  },
+  {
+    id: "gr-21",
+    type: "connection",
+    country: "Greece",
+    question: "When was the Nemea appellation set up?",
+    options: [
+      "1935",
+      "1971",
+      "1989",
+      "2009"
+    ],
+    answer: 1,
+    region: "nemea",
+    explanation: "Wines of Greece dates the Nemea zone to 1971. It is for red wine made entirely from Agiorgitiko."
+  },
+  {
+    id: "gr-22",
+    type: "connection",
+    country: "Greece",
+    question: "How many villages may make PDO Nemea?",
+    options: [
+      "3",
+      "7",
+      "40",
+      "17"
+    ],
+    answer: 3,
+    region: "nemea",
+    explanation: "Seventeen villages may make Nemea wine. Most are in southern-central Korinthia, with a few in the north-west of Argolida, and they differ widely in altitude, soil and aspect."
+  },
+  {
+    id: "gr-23",
+    type: "connection",
+    country: "Greece",
+    question: "What is special about the size of PDO Nemea within Greece?",
+    options: [
+      "Largest PDO zone for red wine",
+      "Smallest PDO in the whole country",
+      "The only PDO for rosé wine in Greece",
+      "Largest PDO for white wine"
+    ],
+    answer: 0,
+    region: "nemea",
+    explanation: "Nemea is Greece's largest PDO zone for red wine, spread across hillsides from about 200 to 850 metres in the north-east Peloponnese."
   }
 ];
