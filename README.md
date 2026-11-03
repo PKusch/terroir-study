@@ -9,7 +9,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 [![deploy](https://github.com/PKusch/terroir-study/actions/workflows/deploy.yml/badge.svg)](https://github.com/PKusch/terroir-study/actions/workflows/deploy.yml)
 ![License: MIT](https://img.shields.io/badge/license-MIT-C4A962)
-![React 18](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
 ![No UI libraries](https://img.shields.io/badge/UI%20libraries-none-722F37)
 
@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **74** regions | 📍 **352** places on the map | ❓ **627** quiz questions | 🍇 **112** grapes | ✅ **136** tests |
+| 🌍 **9** countries | 🗺️ **75** regions | 📍 **357** places on the map | ❓ **673** quiz questions | 🍇 **117** grapes | ✅ **138** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -103,7 +103,7 @@ The Quiz and Taste keep a record in your browser. The mock exam reads the quiz r
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
 
-Study everything or one country at a time, switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes. On a multiple-choice question, press 1 to 4 to answer and Enter for the next one.
+Study everything, one country at a time, or *Fortified* (Port, Madeira, Sherry, the French Vins Doux Naturels, Marsala and Rutherglen Muscat, across every country), switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes. On a multiple-choice question, press 1 to 4 to answer and Enter for the next one.
 
 **🍷 Taste** — Tasting practice without a glass. The app names a wine it knows ("You are tasting: Nebbiolo from Piedmont"). You set its body, acidity and, for reds, tannin to low, medium or high, and tick the aromas you expect from eight words (the grape's own plus a few from other grapes of the same colour). Press Check and each row is marked against the grape profile, the aroma words turn green (right), red (wrong pick) or gold (missed), and a short "Why" card explains the answer from the grape and the region. Click a region on the map to taste a wine from there. This is the exam's Systematic Approach to Tasting, cut down to what the app has data for.
 
@@ -120,7 +120,7 @@ Study everything or one country at a time, switch on *Due only* to drill just th
 | 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Penedès (still wines) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas · Montsant · Catalunya |
 | 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz · Nahe · Rheinhessen · Baden · Franken |
 | 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
-| 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo · Dão · Bairrada · Lisboa |
+| 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo · Dão · Bairrada · Lisboa · Madeira |
 | 🇭🇺 | **Hungary** | Tokaj · Eger · Villány |
 | 🇬🇷 | **Greece** | Santorini · Naoussa · Nemea |
 | 🌎 | **New World** | California · Australia · New Zealand · South Africa · Chile · Argentina · Oregon · Washington · New York · Ontario · British Columbia |
@@ -178,6 +178,7 @@ Portugal (3 WSET L3 exam areas) with its own map, Lisbon as orientation marker, 
 - **Vinho Verde** — the wet, cool northwest; light, low-alcohol, high-acid whites from Alvarinho (best in Monção e Melgaço), Loureiro and Arinto; vines trained high on pergolas for air; granite soils
 - **Douro** — terraced schist slopes along the river; Touriga Nacional, Touriga Franca and Tinta Roriz; Port (fortified with grape spirit, Ruby, Tawny, LBV, Vintage) and Douro table wine; Baixo Corgo wettest, Douro Superior hottest and driest
 - **Alentejo** — the hot southern plain; soft, fruity Aragonez, Trincadeira and Alicante Bouschet, Antão Vaz and Arinto whites; cork oak, vinho de talha in clay amphorae, and eight DOC sub-regions
+- **Madeira** — a volcanic Atlantic island, drawn in its own box on the Portugal map; vines on basalt terraces (poios) and low pergolas, watered by levadas; Tinta Negra plus Sercial, Verdelho, Boal and Malvasia, each tied by law to a sweetness; fortified with 96% spirit, then aged in heat by estufagem (up to 50 °C, three months at least) or canteiro (casks in warm lofts); Reserve 5 years, Special Reserve 10, Colheita and Frasqueira
 
 Hungary (3 WSET L3 exam areas) with its own map, Budapest as orientation marker, the Danube and the Tisza:
 
@@ -237,11 +238,13 @@ The Naoussa, Nemea, Eger, Bairrada, Dão and Ontario questions rest on official 
 
 The regions added later (Toro and Navarra, Calatayud and Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya, Nahe, Rheinhessen, Baden, Franken, the extra Italian and Portuguese ones, and the extra New World ones) were each built from the official rule book or specification where it could be read, then every quiz question was checked a second time by a separate pass against the same kind of source. That second pass found a few real mistakes, now fixed: the Franconian "fränkisch trocken" sugar limit is 4 g/L, not 5, and the sub-zones of Colli Orientali del Friuli are Cialla plus four named for a grape and a village. Anything it could not confirm was reworded, softened or dropped. The weakest spots are the Dão, Bairrada and Lazio regions and the Oregon, Washington, Finger Lakes, Ontario and British Columbia ones, where the official pages would not load and a wine-reference site or Wikipedia stands in. The rule is simple: a number is only in the app if a page said it.
 
+Fortified wines were researched in November 2026, from the rule books where they could be read. Port rests on the IVDP's own pages and the 2008 Port regulation; Madeira on Portarias 38 and 39 of 2015, read in an English translation; Sherry on the Jerez and Manzanilla specifications as consolidated in May 2026; the Vins Doux Naturels on the Banyuls, Maury, Rivesaltes, Rasteau and Muscat de Beaumes-de-Venise rule books; Marsala on its DOC rules as amended to 2014; Rutherglen on the Winemakers of Rutherglen's pages. That found three mistakes, now fixed: Amontillado needs 16% alcohol, not 17%; the spirit added to a Vin Doux Naturel is 5 to 10% of the must counted as pure alcohol; and a Sherry no longer has to be fortified if it reaches its strength naturally. Left out because sources disagree: the exact bottling deadlines for Vintage Port and LBV, the Douro vineyard grades, Tinta Negra's share of Madeira's vineyards, Madeira's sweetness in grams per litre (its rules use degrees Baumé), the Classic and Grand ages for Rutherglen, and Marsala Fine's minimum alcohol. Banyuls Grand Cru rests on the INAO's summary page, not its rule book, and Muscat de Rivesaltes on a summary of its EU file. The aroma words for the Madeira grapes are general Madeira tasting words, not checked grape by grape.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
 
-- **React 18** — Component-based UI with hooks
+- **React 19** — Component-based UI with hooks
 - **Vite** — Fast build tooling
 - **Custom SVG map** — Geographically projected from real lat/lon coordinates (not a library)
 - **GitHub Pages** — Automated deployment via GitHub Actions
@@ -284,7 +287,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (627: 124 France, 82 Italy, 172 Spain, 53 Germany, 20 Austria, 41 Portugal, 20 Hungary, 20 Greece, 95 New World; 529 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (673: 132 France, 86 Italy, 181 Spain, 53 Germany, 20 Austria, 63 Portugal, 20 Hungary, 20 Greece, 98 New World; 574 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (112 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -292,7 +295,7 @@ npm run dev
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
-- [x] Sub-region drill-down maps (Zoom into any region: 352 places marked across 74 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 357 places marked across 75 regions)
 
 ## About
 

@@ -55,6 +55,14 @@ export const ptAustria = austria.pt;
 const portugal = makeProjection({ lonMin: -11.95, lonMax: -3.75, latMin: 36.9, latMax: 42.2 });
 export const geoToSvgPortugal = portugal.geoToSvg;
 export const ptPortugal = portugal.pt;
+// Madeira sits about 1,000 km south-west of Lisbon, far off this map, so it is
+// drawn as an inset in the empty Atlantic at the bottom left, on its own scale
+// (about five times larger than the mainland), with one degree of longitude
+// drawn about 0.84 as wide as one of latitude, as it is at 32.7° N.
+export const MADEIRA_INSET = { x: 12, y: 318, width: 140, height: 90 };
+const madeira = makeProjection({ lonMin: -17.33, lonMax: -16.59, latMin: 32.585, latMax: 32.94, width: 130, height: 77, offsetX: 17, offsetY: 326 });
+export const geoToSvgMadeira = madeira.geoToSvg;
+export const ptMadeira = madeira.pt;
 
 // Hungary spans ~16.1°..22.9° lon, ~45.7°..48.6° lat. The box is a little taller
 // than the country so one degree of longitude is drawn about two thirds as wide

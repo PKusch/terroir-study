@@ -1,7 +1,7 @@
 // ─── Which projection and which polygon table a region belongs to ────────────
 // The zoomed view draws the country map with a tighter view box and places
 // markers with the same projection the map itself uses, so the two agree.
-import { geoToSvg, geoToSvgItaly, geoToSvgSpain, geoToSvgGermany, geoToSvgAustria, geoToSvgPortugal, geoToSvgHungary, geoToSvgGreece } from "../geo.js";
+import { geoToSvg, geoToSvgItaly, geoToSvgSpain, geoToSvgGermany, geoToSvgAustria, geoToSvgPortugal, geoToSvgMadeira, geoToSvgHungary, geoToSvgGreece } from "../geo.js";
 import { COUNTRIES } from "./regions.js";
 import { FRANCE_REGION_PATHS } from "./france-map.js";
 import { ITALY_REGION_PATHS } from "./italy-map.js";
@@ -31,7 +31,7 @@ const PROJECTIONS = {
   Spain: () => geoToSvgSpain,
   Germany: () => geoToSvgGermany,
   Austria: () => geoToSvgAustria,
-  Portugal: () => geoToSvgPortugal,
+  Portugal: (key) => (key === "madeira" ? geoToSvgMadeira : geoToSvgPortugal),
   Hungary: () => geoToSvgHungary,
   Greece: () => geoToSvgGreece,
   "New World": (key) => NEW_WORLD_PROJECTIONS[key]

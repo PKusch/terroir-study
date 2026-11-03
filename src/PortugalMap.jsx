@@ -1,6 +1,6 @@
 import { PORTUGAL_REGIONS as REGIONS } from "./data/portugal.js";
 import { regionProps, mapProps } from "./a11y.js";
-import { geoToSvgPortugal as geoToSvg, ptPortugal as pt } from "./geo.js";
+import { geoToSvgPortugal as geoToSvg, ptPortugal as pt, geoToSvgMadeira, MADEIRA_INSET } from "./geo.js";
 import { PORTUGAL_REGION_PATHS } from "./data/portugal-map.js";
 
 const serif = "'Cormorant Garamond', Georgia, serif";
@@ -93,6 +93,14 @@ export const PortugalMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "
       {/* Capital marker */}
       <circle cx={capital[0]} cy={capital[1]} r="3.5" fill="#1a1a1a" stroke="#C4A962" strokeWidth="1.5" />
       <text x={capital[0] + 7} y={capital[1] + 2} fontSize="8" fill="#8B7355" fontFamily="'Source Sans 3', sans-serif" fontWeight="500">Lisboa</text>
+
+      {/* Madeira inset: the island is far out in the Atlantic, so it gets its own box */}
+      <g aria-hidden="true">
+        <rect x={MADEIRA_INSET.x} y={MADEIRA_INSET.y} width={MADEIRA_INSET.width} height={MADEIRA_INSET.height} rx="4" fill="#A8C4D4" fillOpacity="0.08" stroke="#B8B0A0" strokeWidth="0.8" strokeDasharray="3,2" />
+        <text x={MADEIRA_INSET.x + 5} y={MADEIRA_INSET.y + 10} fontSize="6.5" fill="#8B7355" fontStyle="italic" fontFamily={serif}>Madeira · 1,000 km south-west, larger scale</text>
+        <circle cx={geoToSvgMadeira(-16.91, 32.65)[0]} cy={geoToSvgMadeira(-16.91, 32.65)[1]} r="2" fill="#1a1a1a" stroke="#C4A962" strokeWidth="1" />
+        <text x={geoToSvgMadeira(-16.91, 32.65)[0] + 4} y={geoToSvgMadeira(-16.91, 32.65)[1] + 9} fontSize="6.5" fill="#8B7355" fontFamily="'Source Sans 3', sans-serif">Funchal</text>
+      </g>
 
       {/* Region shapes */}
       {Object.entries(regionPaths).map(([key, { d, label }]) => {

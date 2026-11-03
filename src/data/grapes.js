@@ -119,6 +119,16 @@ export const GRAPES = {
     aromas: ["apricot", "peach", "honey", "orange peel", "nuts"],
     notes: "A blending grape in white Rioja, where it adds body and perfume to the more neutral Viura. Low acidity means it is picked early to keep freshness; in the traditional oak-aged style it turns golden and nutty."
   },
+  tintaNegra: {
+    name: "Tinta Negra",
+    aliases: ["Tinta Negra Mole", "Molar"],
+    colour: "red",
+    body: "medium",
+    acidity: "high",
+    tannin: "low",
+    aromas: ["dried fruit", "caramel", "toffee", "walnut", "coffee"],
+    notes: "By far the most planted grape on Madeira, and the workhorse of the island: it can make every style from dry to sweet. Its colour fades in the heated, oxidative ageing, so the wine turns amber to brown like the white-grape Madeiras. Its name may now go on the label."
+  },
   malbec: {
     name: "Malbec",
     aliases: ["Côt"],
@@ -988,6 +998,42 @@ export const GRAPES = {
     acidity: "medium",
     aromas: ["lime", "lemon", "rose", "tangerine", "orange blossom"],
     notes: "Portugal's most planted white, called Maria Gomes in Bairrada, and an aromatic grape that does best in warm places on fertile soils. It gives high yields and is mostly drunk young."
+  },
+  sercial: {
+    name: "Sercial",
+    aliases: ["Esgana-cão", "Esgana Cão"],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["lemon", "citrus peel", "almond", "walnut", "caramel"],
+    notes: "A Madeira grape with very high acidity. The DO rules tie it to the driest style: a Madeira labelled Sercial must be dry or extra dry. Long ageing in cask adds nutty, caramel notes while the acidity stays sharp."
+  },
+  boal: {
+    name: "Boal",
+    aliases: ["Bual", "Boal (Bual)", "Malvasia Fina"],
+    colour: "white",
+    body: "high",
+    acidity: "high",
+    aromas: ["caramel", "raisin", "fig", "walnut", "coffee"],
+    notes: "The label name in Madeira for Malvasia Fina. The DO rules tie it to the medium-sweet style, between Verdelho (medium dry) and Malvasia (sweet). Its high acidity balances the sweetness."
+  },
+  malmsey: {
+    name: "Malmsey",
+    aliases: ["Malvasia (Malmsey)", "Malvasia de São Jorge", "Malvasia Cândida"],
+    colour: "white",
+    body: "high",
+    acidity: "high",
+    aromas: ["raisin", "caramel", "toffee", "coffee", "orange peel"],
+    notes: "The English name for Madeira's Malvasia, a different grape from the Malvasía of Rioja. The DO rules tie it to the sweetest style: a Madeira labelled Malvasia must be sweet. Its high acidity keeps the sweetness from feeling heavy, even after decades in cask."
+  },
+  terrantez: {
+    name: "Terrantez",
+    aliases: ["Folgasão"],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["citrus peel", "apricot", "honey", "walnut", "caramel"],
+    notes: "A rare Madeira grape. The DO rules let it be made medium dry or medium sweet. Like the other Madeira grapes it keeps high acidity through long ageing in cask."
   },
   verdelho: {
     name: "Verdelho",

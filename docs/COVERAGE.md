@@ -20,7 +20,8 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 
 - **Castilla y León Vino de la Tierra.** Still not a region. The WSET wording and the full list of allowed grapes could not be found, and the official specification pages would not open, so nothing about it is guessed here. Penedès (still wines) was added on 2026-10-26 from the DO's own specification, version March 2026.
 - **Smaller places inside a region.** The specification names many districts and appellations (Sancerre, Muscadet, Saumur and others). Some are listed as places inside a region, but they have no page of their own.
-- **Sparkling and fortified wines as a topic.** Champagne, Cava, Sherry, Trento DOC and a few others are covered inside their regions. Port, Madeira, Marsala, Prosecco as a style and Rutherglen Muscat are touched on only where they sit in a region page.
+- **Sparkling wine as a topic.** Champagne, Cava, Prosecco, Trento DOC and a few others are covered inside their regions, but the methods are not compared side by side.
+- **Fortified wines** are now covered: Madeira has its own region (added 2026-11-03), and Port, Sherry, the French Vins Doux Naturels, Marsala and Rutherglen Muscat sit in their regions, with a *Fortified* filter in the quiz and the mock exam that gathers every fortified question.
 - **Canada's other areas.** Only Niagara and the Okanagan.
 - **Anything from the specification's other units**, such as production and the business of wine, beyond what the quiz touches.
 

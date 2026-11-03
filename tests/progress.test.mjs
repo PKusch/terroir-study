@@ -287,6 +287,20 @@ test("poolFor narrows the quiz to one country, and French questions count as Fra
   assert.deepEqual(poolFor(qs, "Spain"), []);
 });
 
+test("poolFor's Fortified filter picks tagged questions from every country", async () => {
+  const { poolFor, TOPICS } = await import("../src/progress.js");
+  assert.ok(TOPICS.includes("Fortified"));
+  const qs = [{ id: "fr-01", topic: "fortified" }, { id: "it-01", country: "Italy" }, { id: "pt-01", country: "Portugal", topic: "fortified" }];
+  assert.deepEqual(poolFor(qs, "Fortified").map((q) => q.id), ["fr-01", "pt-01"]);
+});
+
+test("every fortified-wine question in the bank is tagged, so the Fortified filter is complete", async () => {
+  const { QUIZ_QUESTIONS } = await import("../src/data/quiz.js");
+  const tagged = QUIZ_QUESTIONS.filter((q) => q.topic === "fortified");
+  assert.ok(tagged.length >= 40, `only ${tagged.length} fortified questions`);
+  for (const q of tagged) assert.ok(q.options, `${q.id} should be multiple choice so the mock exam can use it`);
+});
+
 test("studyPool keeps only questions due for review, and falls back when none are", async () => {
   const { studyPool, recordAnswer } = await import("../src/progress.js");
   const qs = [{ id: "fr-01" }, { id: "fr-02" }, { id: "it-01", country: "Italy" }];

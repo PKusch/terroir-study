@@ -25,7 +25,7 @@ export const PORTUGAL_REGIONS = {
     subRegions: ["Baixo Corgo", "Cima Corgo", "Douro Superior"],
     soils: "Schist (xisto) on almost every slope: broken, layered rock that vine roots push deep into to find water; some granite on higher ground.",
     viticultureNotes: "Vineyards are cut into steep slopes as terraces, the older ones held up by stone walls, with wider terraces (patamares) and vines planted straight up the slope in newer sites. Old vineyards are often field blends of many grapes. Main reds: Touriga Nacional (aromatic, concentrated), Touriga Franca (the most planted, floral and structured), Tinta Roriz (Tempranillo), Tinta Barroca and Tinto Cão. Whites include Gouveio, Viosinho, Rabigato and Malvasia Fina.",
-    winemaking: "Two families of wine. Port: fermentation is stopped part-way by adding grape spirit (aguardente, about 77% abv), so the wine keeps natural sweetness and ends up at 19–22% abv. It is aged in oak and in the lodges of Vila Nova de Gaia: Ruby (young, kept in tank or large oak), Reserve, Late Bottled Vintage (LBV), Tawny (aged in oak for years, nutty and oxidative) and Vintage (declared only in the best years, bottled young and aged in bottle). Table wine: dry reds and whites under Douro DOC, from the same grapes.",
+    winemaking: "Two families of wine. Port: fermentation is stopped part-way by adding grape spirit (aguardente, about 77% abv), so the wine keeps natural sweetness and ends up at 19–22% abv. It is aged in oak, mostly in the lodges of Vila Nova de Gaia, where the Atlantic keeps the cellars cooler and damper than the valley: Ruby (young, kept in tank or large oak), Reserve, Late Bottled Vintage (LBV), Tawny (aged in oak for years, nutty and oxidative) and Vintage (declared only in the best years, bottled young and aged in bottle). Table wine: dry reds and whites under Douro DOC, from the same grapes.",
     typicalStyle: "Ruby Port: deep ruby, sweet, full body, red and black fruit, a spirity kick. Tawny: amber-brown, nutty, dried fruit and caramel. Douro red: deep colour, full body, high tannin, black fruit, violet and spice.",
     qualityLevels: ["Vinho Regional Duriense", "DOC Douro (table wine)", "DOC Porto: Ruby, Tawny", "DOC Porto: Reserve, LBV", "DOC Porto: aged Tawny (10, 20, 30, 40 years), Colheita", "DOC Porto: Vintage"],
     whyConnection: "Steep schist, hot dry summers and deep roots → low yields of concentrated, tannic grapes → wines strong enough to carry fortification and long ageing. Atlantic rain stops at the mountains → the Douro Superior is the hottest and driest part.",
@@ -93,5 +93,21 @@ export const PORTUGAL_REGIONS = {
     qualityLevels: ["Vinho de Portugal", "Vinho Regional Lisboa", "DOC Bucelas (white only)", "DOC Colares (demarcated in 1908)", "DOC Alenquer, Torres Vedras and Óbidos"],
     whyConnection: "The Atlantic and the Montejunto hills → a cool, windy coast and a sheltered inland. Deep sand in Colares → phylloxera could not live there, so the vines grow on their own roots. A region with over 100 permitted grapes and a yield cap of 200 hl/ha → both high-volume regional wines and rare gems.",
     color: "#B5707A"
+  },
+  madeira: {
+    name: "Madeira",
+    country: "Portugal",
+    climate: "Mild subtropical, maritime",
+    climateDetail: "A volcanic island in the Atlantic, about 600 km off Morocco and 1,000 km from Lisbon. It is mild all year. A mountain ridge runs along the island, rising to 1,862 m. The north coast faces the Atlantic winds, so it is cooler and more humid; the south coast is warmer and sunnier.",
+    keyGrapes: { red: ["Tinta Negra"], white: ["Sercial", "Verdelho", "Boal (Bual)", "Malvasia (Malmsey)", "Terrantez"] },
+    subRegions: ["Câmara de Lobos", "São Vicente", "Seixal", "Porto Moniz", "Santana"],
+    subRegionsLabel: "Wine villages",
+    soils: "Volcanic basalt: acidic soils, rich in iron and phosphorus and poor in potassium, which help keep the grapes' acidity high.",
+    viticultureNotes: "Vines grow on small, steep terraces called poios, held up by basalt walls, from sea level to about 800 m. Levadas, old irrigation channels, carry water from the mountains to the farms. Most vines are trained on low pergolas (latada), which lift the grapes away from damp and disease. Tinta Negra is by far the most planted grape and can make every style. A wine named after one grape must contain at least 85% of it, and only one grape may be named.",
+    winemaking: "Fermentation is stopped by adding neutral grape spirit of at least 96% abv; sweet styles are fortified early, drier ones later. The wine ends at 17–22% abv. It is then aged in heat, one of two ways. Estufagem: heated in tanks to no more than 50 °C for at least three months, and not sold before 31 October of the second year after the harvest. Canteiro: aged in casks in warm lofts for at least two years, never heated in a tank, and bottled after three years at the soonest. The casks are not filled to the top, so the wine slowly oxidises.",
+    typicalStyle: "High acidity in every style. By law each noble grape has its own sweetness: Sercial dry or extra dry, Verdelho medium dry, Boal medium sweet, Malvasia sweet. Amber to brown, with nutty, caramel and dried-fruit flavours that grow with age. Rainwater is a pale, medium-dry style.",
+    qualityLevels: ["Selected / Finest", "Rainwater (medium dry, up to 10 years)", "5 years (Reserve)", "10 years (Old Reserve / Special Reserve)", "15 years (Extra Reserve)", "20, 30, 40, 50 and over 50 years", "Colheita (one vintage, 5+ years in cask)", "Frasqueira (one vintage, canteiro, 20+ years in cask)"],
+    whyConnection: "A humid island → pergolas lift the grapes away from rot. Volcanic soils → high acidity, which balances the sweetness. Heat and air on purpose in ageing → nutty, complex wines that barely change once the bottle is open.",
+    color: "#8C5A2B"
   }
 };

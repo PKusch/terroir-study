@@ -206,8 +206,14 @@ export function countryOfQuestion(q) {
   return q.country ?? "France";
 }
 
+// Besides a country, the filter can be a topic that cuts across countries:
+// "Fortified" picks every question tagged topic: "fortified".
+export const TOPICS = ["Fortified"];
+
 export function poolFor(questions, country = "All") {
-  return country === "All" ? questions : questions.filter((q) => countryOfQuestion(q) === country);
+  if (country === "All") return questions;
+  if (TOPICS.includes(country)) return questions.filter((q) => q.topic === country.toLowerCase());
+  return questions.filter((q) => countryOfQuestion(q) === country);
 }
 
 // Revision before an exam: only what is due. If nothing in the chosen set is

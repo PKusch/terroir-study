@@ -12,6 +12,7 @@ import {
   progressSummary,
   weakAreas,
   poolFor,
+  TOPICS,
   studyPool
 } from "./progress.js";
 
@@ -146,7 +147,7 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
     <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
       {/* Country filter: everything, or one country at a time */}
       <div style={{ display: "flex", gap: "4px", flexWrap: "wrap", marginBottom: "10px" }}>
-        {["All", ...Object.keys(COUNTRIES)].map((c) => (
+        {["All", ...Object.keys(COUNTRIES), ...TOPICS].map((c) => (
           <button
             key={c}
             onClick={() => chooseFilter(c)}

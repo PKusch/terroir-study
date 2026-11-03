@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { COUNTRIES } from "./data/regions.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import { useTwoStep } from "./useTwoStep.js";
-import { loadProgress } from "./progress.js";
+import { loadProgress, TOPICS } from "./progress.js";
 import {
   PASS_MARK,
   SECONDS_PER_QUESTION,
@@ -193,7 +193,7 @@ export const MockExam = ({ active = true }) => {
 
         {!fixed && <div style={label}>Questions from</div>}
         {!fixed && <div style={{ display: "flex", gap: "6px", marginBottom: "12px", flexWrap: "wrap" }}>
-          {["All", ...Object.keys(COUNTRIES)].map((c) => (
+          {["All", ...Object.keys(COUNTRIES), ...TOPICS].map((c) => (
             <button key={c} aria-pressed={country === c} onClick={() => setCountry(c)} style={{
               padding: "6px 12px", borderRadius: "6px", fontSize: "10px", letterSpacing: "0.1em",
               textTransform: "uppercase", cursor: "pointer",

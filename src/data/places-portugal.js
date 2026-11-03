@@ -40,5 +40,12 @@ export const PLACES_PORTUGAL = {
     "Alenquer": [-9.0167, 39.05],
     "Torres Vedras": [-9.2667, 39.0833],
     "Óbidos": [-9.1578, 39.358]
+  },
+  madeira: {
+    "Câmara de Lobos": [-16.975, 32.649],
+    "São Vicente": [-17.047, 32.802],
+    "Seixal": [-17.107, 32.826],
+    "Porto Moniz": [-17.167, 32.867],
+    "Santana": [-16.881, 32.805]
   }
 };

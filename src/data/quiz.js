@@ -549,6 +549,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-45",
+    topic: "fortified",
     type: "connection",
     question: "Why does Roussillon's schist suit Grenache destined for fortified wine?",
     options: [
@@ -577,6 +578,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-47",
+    topic: "fortified",
     type: "scenario",
     question: "A sweet wine is fortified, made from Grenache, and shows complex, oxidative flavours. Where is it from?",
     options: [
@@ -1309,6 +1311,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-21",
+    topic: "fortified",
     type: "connection",
     country: "Spain",
     question: "Why does Fino stay pale and fresh while Oloroso turns brown and nutty?",
@@ -1339,6 +1342,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-23",
+    topic: "fortified",
     type: "scenario",
     country: "Spain",
     question: "A bodega wants its Fino to taste the same year after year. Which practice delivers that?",
@@ -1354,6 +1358,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-24",
+    topic: "fortified",
     type: "scenario",
     country: "Spain",
     question: "A buyer wants the lightest, freshest style of Sherry, with a salty tang. Which should they choose?",
@@ -2199,6 +2204,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "pt-06",
+    topic: "fortified",
     type: "scenario",
     country: "Portugal",
     question: "A Port is amber-brown, with nutty, dried-fruit flavours from years of ageing in oak casks. What is it?",
@@ -2622,6 +2628,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "pt-12",
+    topic: "fortified",
     type: "scenario",
     country: "Portugal",
     question: "How does Port keep its natural sweetness?",
@@ -2652,6 +2659,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "pt-14",
+    topic: "fortified",
     type: "scenario",
     country: "Portugal",
     question: "Which Port is declared only in the best years, bottled young and aged in bottle?",
@@ -3042,21 +3050,23 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-29",
+    topic: "fortified",
     type: "scenario",
     country: "Spain",
-    question: "Which Sherry styles are fortified to at least 17%, so flor cannot grow?",
+    question: "Which two Sherry styles must be at least 17% alcohol, too strong for flor to grow?",
     options: [
-      "Oloroso, Amontillado and Palo Cortado",
+      "Oloroso and Palo Cortado",
       "Fino and Manzanilla, the pale flor-aged styles",
       "Only Pedro Ximénez",
       "Fino and Oloroso"
     ],
     answer: 0,
     region: "sherry",
-    explanation: "Fino and Manzanilla are fortified to about 15% so flor grows. Amontillado, Palo Cortado and Oloroso are fortified to at least 17%."
+    explanation: "Fino and Manzanilla are usually fortified to about 15% (the legal minimum is now 14%) so flor grows. Oloroso and Palo Cortado need at least 17%. Amontillado, which starts under flor, needs at least 16%."
   },
   {
     id: "es-30",
+    topic: "fortified",
     type: "scenario",
     country: "Spain",
     question: "Which soil of the Sherry region soaks up winter rain and reflects sunlight?",
@@ -5448,6 +5458,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "nw-44",
+    topic: "fortified",
     type: "scenario",
     country: "New World",
     question: "What are the four fortified tiers of Rutherglen Muscat and Topaque?",
@@ -5459,7 +5470,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "australia",
-    explanation: "Topaque replaced Tokay after 1999."
+    explanation: "The tiers rise with age, and Rare is over 20 years old on average. Topaque is made from Muscadelle and replaced the name Tokay around 1999, to avoid confusion with Hungary's Tokaji."
   },
   {
     id: "nw-45",
@@ -7371,6 +7382,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-103",
+    topic: "fortified",
     type: "scenario",
     country: "France",
     question: "How is Banyuls made sweet?",
@@ -7382,13 +7394,14 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "languedocRoussillon",
-    explanation: "The alcohol is at least 96% and equals 5 to 10% of the must volume."
+    explanation: "Neutral grape spirit of at least 96% is added during fermentation, which stops it and keeps the grape sugar. Counted as pure alcohol, it is 5 to 10% of the must volume."
   },
   {
     id: "fr-104",
+    topic: "fortified",
     type: "scenario",
     country: "France",
-    question: "How much of the must's volume is the alcohol added to Banyuls and Rivesaltes?",
+    question: "Counted as pure alcohol, how much of the must's volume is the spirit added to Banyuls and Rivesaltes?",
     options: [
       "5 to 10%",
       "1 to 2%",
@@ -8436,6 +8449,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-170",
+    topic: "fortified",
     type: "scenario",
     country: "Spain",
     question: "How long must a Rueda Dorado age?",
@@ -8658,5 +8672,733 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "ontario",
     explanation: "It must come from the grapes' own sugar. Freeze concentration is not allowed."
+  },
+  {
+    id: "pt-42",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "How long does a Late Bottled Vintage Port spend in wood before bottling?",
+    options: [
+      "Two to three years",
+      "Four to six years",
+      "At least seven years",
+      "Ten years on average"
+    ],
+    answer: 1,
+    region: "douro",
+    explanation: "LBV is a Ruby from a single year. It is bottled after four to six years in wood. Vintage Port is bottled sooner, after two to three years."
+  },
+  {
+    id: "pt-43",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "What is a Colheita Port?",
+    options: [
+      "A blend of years kept in tank for two years",
+      "A single-year Ruby bottled after four years",
+      "A one-harvest Tawny, seven years in cask",
+      "A one-estate Vintage bottled after two years"
+    ],
+    answer: 2,
+    region: "douro",
+    explanation: "Colheita is a Tawny from one harvest. It must age in cask for at least seven years. It ages in wood, unlike Vintage, which ages in bottle."
+  },
+  {
+    id: "pt-44",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Roughly how much of a finished Port is the added grape spirit?",
+    options: [
+      "About a fifth",
+      "About a tenth",
+      "About a twentieth",
+      "About a half"
+    ],
+    answer: 0,
+    region: "douro",
+    explanation: "The rules give about 115 litres of spirit to 435 litres of fermenting wine. That makes the spirit about a fifth of the finished Port, which ends at 19 to 22% abv."
+  },
+  {
+    id: "pt-45",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Which Port is a blend of several harvests that must spend three years in bottle and throws a deposit?",
+    options: [
+      "Colheita",
+      "Reserve Tawny",
+      "Reserve White",
+      "Crusted"
+    ],
+    answer: 3,
+    region: "douro",
+    explanation: "Crusted is a blended Port. It must rest at least three years in bottle before sale. The deposit it throws is the crust that gives it its name."
+  },
+  {
+    id: "pt-46",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "What must a 20 Year Old Tawny show to be approved by the IVDP?",
+    options: [
+      "Cask records proving every drop is 20 years old",
+      "Grapes from one harvest exactly 20 years earlier",
+      "A style and character that match the stated age",
+      "Twenty years in bottle before it goes on sale"
+    ],
+    answer: 2,
+    region: "douro",
+    explanation: "The age on an aged Tawny describes its style. The IVDP tasting panel checks that the wine tastes like a Port of that age. Only Colheita is tied to a single harvest."
+  },
+  {
+    id: "pt-47",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "When is a Vintage Port bottled?",
+    options: [
+      "Two to three years after harvest",
+      "Within a year of the harvest",
+      "Four to six years after harvest",
+      "Seven years after harvest at the soonest"
+    ],
+    answer: 0,
+    region: "douro",
+    explanation: "Vintage Port comes from one harvest. It is bottled two to three years later and then ages in bottle. Four to six years in wood describes LBV."
+  },
+  {
+    id: "pt-48",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Why did Port houses traditionally age their wine at Vila Nova de Gaia rather than up the Douro?",
+    options: [
+      "Gaia had the only cooperage able to build Port casks",
+      "The law banned any Port from being stored in the valley",
+      "Gaia's schist cellars added the nutty flavour of Tawny",
+      "Gaia's cellars near the Atlantic are cooler and damper"
+    ],
+    answer: 3,
+    region: "douro",
+    explanation: "Gaia sits near the coast, so its lodges stay cooler and damper than the hot inland valley. Wine aged in Douro heat can pick up a cooked taste called the Douro bake."
+  },
+  {
+    id: "pt-49",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "What does the benefício decide each year?",
+    options: [
+      "How much of a vineyard's crop may become Port",
+      "Which years producers may declare as a Vintage",
+      "The date on which the Douro harvest may start",
+      "The price the lodges must pay for each grape"
+    ],
+    answer: 0,
+    region: "douro",
+    explanation: "The benefício is a yearly quota set by the IVDP. Each vineyard's share depends on its grade, and A is the best."
+  },
+  {
+    id: "pt-50",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Why did Symington build robotic lagares to replace foot treading?",
+    options: [
+      "Robots extract more colour than any human foot can",
+      "Foot treading was banned by the IVDP in the 1990s",
+      "There were too few workers left to tread",
+      "Steel lagares let them skip fortification altogether"
+    ],
+    answer: 2,
+    region: "douro",
+    explanation: "The Douro ran short of workers. Symington copied the shape of the granite lagar in steel, and the first units started work at Quinta dos Malvedos in 2000."
+  },
+  {
+    id: "pt-51",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Which White Port is the sweetest style?",
+    options: [
+      "Extra Dry",
+      "Light Dry",
+      "Semi-sweet",
+      "Lágrima"
+    ],
+    answer: 3,
+    region: "douro",
+    explanation: "White Port runs from extra dry to Lágrima, the sweetest. Light Dry White Port is a lower-alcohol style with a minimum of 16.5% abv."
+  },
+  {
+    id: "es-173",
+    type: "scenario",
+    country: "Spain",
+    topic: "fortified",
+    question: "What is the minimum average age for any DO Sherry before sale?",
+    options: [
+      "Six months",
+      "One year",
+      "Two years",
+      "Three years"
+    ],
+    answer: 2,
+    region: "sherry",
+    explanation: "The rule text sets a minimum average age of two years. This covers the dry styles and the blended sweet styles. Pedro Ximénez and Moscatel also need at least two years of ageing."
+  },
+  {
+    id: "es-174",
+    type: "scenario",
+    country: "Spain",
+    topic: "fortified",
+    question: "A Sherry is labelled VORS. What average age does that guarantee?",
+    options: [
+      "More than 12 years",
+      "More than 15 years",
+      "More than 20 years",
+      "More than 30 years"
+    ],
+    answer: 3,
+    region: "sherry",
+    explanation: "VORS means Very Old Rare Sherry, over 30 years old. VOS means over 20 years. There are also 12-year and 15-year statements."
+  },
+  {
+    id: "es-175",
+    type: "scenario",
+    country: "Spain",
+    topic: "fortified",
+    question: "Fino may be aged in any town of the Sherry zone except one. Which?",
+    options: [
+      "Sanlúcar de Barrameda",
+      "El Puerto de Santa María",
+      "Jerez de la Frontera",
+      "Chiclana de la Frontera"
+    ],
+    answer: 0,
+    region: "sherry",
+    explanation: "Flor-aged wine from Sanlúcar de Barrameda is Manzanilla. So Fino is made everywhere else in the zone."
+  },
+  {
+    id: "es-176",
+    type: "scenario",
+    country: "Spain",
+    topic: "fortified",
+    question: "What sugar range does the DO set for a Cream Sherry?",
+    options: [
+      "50 to 115 g/L",
+      "115 to 140 g/L",
+      "4 to 50 g/L",
+      "At least 212 g/L"
+    ],
+    answer: 1,
+    region: "sherry",
+    explanation: "Cream has 115 to 140 g/L of sugar. Pale Cream has 50 to under 115 g/L, and Pale Dry 4 to under 50 g/L. Pedro Ximénez needs at least 212 g/L."
+  },
+  {
+    id: "es-177",
+    type: "connection",
+    country: "Spain",
+    topic: "fortified",
+    question: "What does 'en rama' on a Sherry label tell you?",
+    options: [
+      "Aged at least seven years under flor",
+      "Made only from one single vineyard",
+      "Sweetened with grape must before bottling",
+      "Only filtered, nothing else to stabilise"
+    ],
+    answer: 3,
+    region: "sherry",
+    explanation: "En rama is reserved for wines given no stabilisation other than filtering. Seven years under flor is Fino Viejo or Manzanilla Pasada."
+  },
+  {
+    id: "es-178",
+    type: "scenario",
+    country: "Spain",
+    topic: "fortified",
+    question: "A long-aged Manzanilla shows a golden colour. What minimum average age lets it be called Manzanilla Pasada?",
+    options: [
+      "Two years",
+      "Seven years",
+      "Ten years",
+      "Twelve years"
+    ],
+    answer: 1,
+    region: "sherry",
+    explanation: "Manzanilla Pasada needs an average of at least seven years. The long flor ageing gives it more colour and structure. Fino Viejo is the same idea in the Jerez DO."
+  },
+  {
+    id: "es-179",
+    type: "scenario",
+    country: "Spain",
+    topic: "fortified",
+    question: "What minimum sugar does the DO set for a Pedro Ximénez?",
+    options: [
+      "At least 160 g/L",
+      "At least 115 g/L",
+      "At least 212 g/L",
+      "At least 50 g/L"
+    ],
+    answer: 2,
+    region: "sherry",
+    explanation: "Pedro Ximénez needs at least 212 g/L of sugar. At least 85% must come from sun-dried Pedro Ximénez grapes. Moscatel needs at least 160 g/L."
+  },
+  {
+    id: "es-180",
+    type: "connection",
+    country: "Spain",
+    topic: "fortified",
+    question: "In the criaderas and solera system, what is the solera itself?",
+    options: [
+      "The oldest row, from which wine is bottled",
+      "The youngest row, topped up with new wine",
+      "The vineyard plot the grapes came from",
+      "The layer of yeast that floats on the wine"
+    ],
+    answer: 0,
+    region: "sherry",
+    explanation: "The solera is the oldest row of casks, and wine for bottling is drawn from it. The criaderas are the younger rows that refill it, each from the next younger row."
+  },
+  {
+    id: "es-181",
+    type: "scenario",
+    country: "Spain",
+    topic: "fortified",
+    question: "Which Sherry style needs at least 16% alcohol, rather than 17%?",
+    options: [
+      "Oloroso",
+      "Amontillado",
+      "Palo Cortado",
+      "Pedro Ximénez"
+    ],
+    answer: 1,
+    region: "sherry",
+    explanation: "Amontillado needs 16 to 22%. Oloroso and Palo Cortado need at least 17%. Pedro Ximénez needs at least 15%."
+  },
+  {
+    id: "nw-96",
+    type: "connection",
+    country: "New World",
+    topic: "fortified",
+    question: "Which grape makes Rutherglen Muscat?",
+    options: [
+      "Muscadelle",
+      "Muscat Ottonel",
+      "Muscat à Petits Grains Rouge",
+      "Muscat of Alexandria (Gordo Blanco)"
+    ],
+    answer: 2,
+    region: "australia",
+    explanation: "Rutherglen Muscat comes from Muscat à Petits Grains Rouge, known locally as Brown Muscat. Muscadelle makes Topaque."
+  },
+  {
+    id: "nw-97",
+    type: "connection",
+    country: "New World",
+    topic: "fortified",
+    question: "Why was Rutherglen Tokay renamed Topaque?",
+    options: [
+      "To avoid confusion with Hungary's Tokaji",
+      "Because producers swapped to Muscadelle",
+      "Because the wines became much drier",
+      "To match the new Rare classification tier"
+    ],
+    answer: 0,
+    region: "australia",
+    explanation: "The name changed to avoid confusion with Hungary's Tokaji. The grape stayed Muscadelle. The change followed Australia's wine agreement with the EU."
+  },
+  {
+    id: "nw-98",
+    type: "connection",
+    country: "New World",
+    topic: "fortified",
+    question: "Why are Rutherglen Muscat casks often kept under hot tin roofs?",
+    options: [
+      "Cool sheds stop the wine oxidising",
+      "Heat and evaporation concentrate the wine",
+      "The roof keeps winter rain off the casks",
+      "Low light keeps the colour pale and bright"
+    ],
+    answer: 1,
+    region: "australia",
+    explanation: "Warm storage speeds maturing, and casks lose about 3% a year to evaporation. Both make the wine richer and more concentrated. Casks nearest the roof mature fastest."
+  },
+  {
+    id: "pt-52",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Why are many Madeira vines trained on low latada pergolas?",
+    options: [
+      "To shade the grapes from the summer sun",
+      "To limit fungal disease in the humid air",
+      "To let machines pass along the terraces",
+      "To protect the flowers from spring frost"
+    ],
+    answer: 1,
+    region: "madeira",
+    explanation: "Madeira is humid. Pergolas lift the grapes off the ground, where air moves more freely and rot is less likely."
+  },
+  {
+    id: "pt-53",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "A bottle is labelled Madeira Sercial. Under the rules, which sweetness must it be?",
+    options: [
+      "Medium sweet only",
+      "Sweet or very sweet",
+      "Medium dry only",
+      "Dry or extra dry"
+    ],
+    answer: 3,
+    region: "madeira",
+    explanation: "The DO rules tie Sercial to dry or extra dry, Verdelho to medium dry, Boal to medium sweet and Malvasia to sweet."
+  },
+  {
+    id: "pt-54",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Under the rules, a Madeira labelled Boal (Bual) must be which style?",
+    options: [
+      "Dry or extra dry",
+      "Medium sweet",
+      "Medium dry",
+      "Sweet"
+    ],
+    answer: 1,
+    region: "madeira",
+    explanation: "Boal is medium sweet. It sits between Verdelho (medium dry) and Malvasia (sweet)."
+  },
+  {
+    id: "pt-55",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "A producer ages young Madeira by estufagem. What do the rules allow?",
+    options: [
+      "Up to 50 °C, for at least three months",
+      "At least 60 °C, for no more than one month",
+      "Up to 40 °C, for at least two years",
+      "Any heat, as long as it lasts a year"
+    ],
+    answer: 0,
+    region: "madeira",
+    explanation: "Estufagem tanks may not go above 50 °C, and the heating must last at least three months. The wine cannot be sold before 31 October of the second year after the harvest."
+  },
+  {
+    id: "pt-56",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "Why does an opened bottle of Madeira keep for months?",
+    options: [
+      "Its high sugar keeps oxygen out of the wine",
+      "It is bottled under inert gas after heating",
+      "Heat and air have already changed it",
+      "Its low alcohol makes it stable once opened"
+    ],
+    answer: 2,
+    region: "madeira",
+    explanation: "Madeira is deliberately heated and oxidised as it ages. Fresh air does little further harm, so the wine is almost indestructible."
+  },
+  {
+    id: "pt-57",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "A label shows a vintage year, one grape and the word Frasqueira. What must be true?",
+    options: [
+      "Heated in an estufa, then 5 years in cask",
+      "Aged at least 10 years in bottle first",
+      "Made from Tinta Negra in a solera",
+      "Canteiro-aged 20+ years in cask"
+    ],
+    answer: 3,
+    region: "madeira",
+    explanation: "Frasqueira (or Garrafeira) is the top vintage category. It must be made by canteiro, never heated in a tank, with at least 20 years of unbroken cask ageing."
+  },
+  {
+    id: "pt-58",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "What is the minimum cask ageing for a Madeira Colheita?",
+    options: [
+      "3 years",
+      "5 years",
+      "10 years",
+      "20 years"
+    ],
+    answer: 1,
+    region: "madeira",
+    explanation: "A Colheita is a single-vintage Madeira with at least 5 years in cask. Frasqueira needs at least 20."
+  },
+  {
+    id: "pt-59",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "What job do Madeira's levadas do for the vineyards?",
+    options: [
+      "Carry mountain water down to the farms",
+      "Drain heavy rain off the terraces",
+      "Hold up the terraces with basalt walls",
+      "Channel warm air into the canteiro lofts"
+    ],
+    answer: 0,
+    region: "madeira",
+    explanation: "Levadas are old irrigation channels. They bring mountain water to farms on the steep terraces (poios), in places from the wetter north to the drier south."
+  },
+  {
+    id: "pt-60",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "A Madeira is labelled Special Reserve. What age does that term stand for?",
+    options: [
+      "5 years old",
+      "15 years old",
+      "10 years old",
+      "20 years old"
+    ],
+    answer: 2,
+    region: "madeira",
+    explanation: "Reserve means 5 years, Special Reserve or Old Reserve means 10 years, and Extra Reserve means 15 years."
+  },
+  {
+    id: "pt-61",
+    type: "connection",
+    country: "Portugal",
+    topic: "fortified",
+    question: "How is fermentation stopped when making Madeira?",
+    options: [
+      "Chilling the must and filtering the yeast",
+      "Adding grape spirit at about 77% abv",
+      "Heating the must in an estufa tank",
+      "Adding neutral grape spirit at 96% abv"
+    ],
+    answer: 3,
+    region: "madeira",
+    explanation: "Madeira is fortified with neutral spirit of at least 96% abv. Port uses a weaker spirit of about 77%."
+  },
+  {
+    id: "pt-62",
+    type: "scenario",
+    country: "Portugal",
+    topic: "fortified",
+    question: "How is a canteiro Madeira aged?",
+    options: [
+      "Heated in steel tanks for three months",
+      "In casks in warm lofts for two years",
+      "In glass demijohns out in the open sun",
+      "Under flor in a solera near the sea"
+    ],
+    answer: 1,
+    region: "madeira",
+    explanation: "Canteiro wine ages slowly in casks in the warm upper floors of the lodges, for at least two years, and is never heated in a tank. It cannot be bottled until it has had three years."
+  },
+  {
+    id: "pt-63",
+    type: "map",
+    country: "Portugal",
+    question: "Which Atlantic island's wines are fortified and then aged in heat, by estufagem or canteiro?",
+    answer: "madeira",
+    explanation: "Madeira is heated in tanks (estufagem, up to 50 °C) or aged in casks in warm lofts (canteiro), which makes it nutty, high in acid and long-lived."
+  },
+  {
+    id: "fr-125",
+    type: "scenario",
+    country: "France",
+    topic: "fortified",
+    question: "What does 'rimage' on a Banyuls label tell you?",
+    options: [
+      "Aged in oak for at least five years",
+      "A red kept from air and bottled young",
+      "Made only from white Grenache grapes",
+      "Aged outdoors in glass jars for years"
+    ],
+    answer: 1,
+    region: "languedocRoussillon",
+    explanation: "Rimage is red Grenache kept away from air. It is aged until 1 May after the harvest, with at least three months in bottle. That keeps its fresh red fruit and kirsch flavours."
+  },
+  {
+    id: "fr-126",
+    type: "scenario",
+    country: "France",
+    topic: "fortified",
+    question: "What is the minimum share of Grenache Noir in Banyuls Grand Cru?",
+    options: [
+      "50%",
+      "60%",
+      "75%",
+      "90%"
+    ],
+    answer: 2,
+    region: "languedocRoussillon",
+    explanation: "Banyuls Grand Cru needs at least 75% Grenache Noir. It is red only and spends at least 30 months in wood."
+  },
+  {
+    id: "fr-127",
+    type: "scenario",
+    country: "France",
+    topic: "fortified",
+    question: "How is a Maury labelled 'grenat' made?",
+    options: [
+      "Red Grenache, aged away from air",
+      "White grapes, aged in contact with air",
+      "Red Grenache, aged in air for 5 years",
+      "Muscat grapes, bottled within a year"
+    ],
+    answer: 0,
+    region: "languedocRoussillon",
+    explanation: "Grenat is mainly Grenache Noir, kept away from air. It keeps a deep colour and red and black fruit."
+  },
+  {
+    id: "fr-128",
+    type: "scenario",
+    country: "France",
+    topic: "fortified",
+    question: "In Banyuls, which grapes make an 'ambré'?",
+    options: [
+      "Red Grenache Noir only",
+      "Carignan and Syrah",
+      "Muscat grapes only",
+      "White or grey grapes"
+    ],
+    answer: 3,
+    region: "languedocRoussillon",
+    explanation: "Ambré is made from white or grey grapes and aged in contact with air, which turns it amber."
+  },
+  {
+    id: "fr-129",
+    type: "connection",
+    country: "France",
+    topic: "fortified",
+    question: "Why do some Roussillon producers leave Vin Doux Naturel in glass jars outdoors?",
+    options: [
+      "So sun and heat build oxidised flavours",
+      "To keep the wine fresh, pale and fruity",
+      "To let a layer of flor yeast grow on it",
+      "To set off a second, sparkling fermentation"
+    ],
+    answer: 0,
+    region: "languedocRoussillon",
+    explanation: "The jars are called bonbonnes. Sun and heat age the wine with air, which gives the dried fruit, nut and coffee notes of the oxidative styles."
+  },
+  {
+    id: "fr-130",
+    type: "scenario",
+    country: "France",
+    topic: "fortified",
+    question: "Which grape makes Muscat de Beaumes-de-Venise?",
+    options: [
+      "Muscat of Alexandria only",
+      "Muscat Ottonel",
+      "Orange Muscat",
+      "Muscat à Petits Grains"
+    ],
+    answer: 3,
+    region: "rhoneSouth",
+    explanation: "Only Muscat à Petits Grains is allowed, in its white and red forms. Most of the wine is white, fresh and grapey."
+  },
+  {
+    id: "fr-131",
+    type: "scenario",
+    country: "France",
+    topic: "fortified",
+    question: "Which of these must keep at least 100 g/L of sugar, not 45 g/L?",
+    options: [
+      "Banyuls rimage from Roussillon",
+      "Maury grenat from Roussillon",
+      "Muscat de Beaumes-de-Venise",
+      "Rasteau tuilé from the Rhône"
+    ],
+    answer: 2,
+    region: "rhoneSouth",
+    explanation: "The Grenache-based styles need at least 45 g/L of sugar. Muscat de Beaumes-de-Venise needs at least 100 g/L. All need at least 15% alcohol."
+  },
+  {
+    id: "fr-132",
+    type: "connection",
+    country: "France",
+    topic: "fortified",
+    question: "Which Southern Rhône village makes a Grenache-based Vin Doux Naturel?",
+    options: [
+      "Gigondas",
+      "Rasteau",
+      "Vacqueyras",
+      "Tavel"
+    ],
+    answer: 1,
+    region: "rhoneSouth",
+    explanation: "Rasteau makes VDN as well as dry reds. Its grenat and tuilé styles need at least 75% Grenache Noir."
+  },
+  {
+    id: "it-83",
+    type: "scenario",
+    country: "Italy",
+    topic: "fortified",
+    question: "What is the minimum ageing for Marsala Vergine?",
+    options: [
+      "2 years",
+      "4 years",
+      "10 years",
+      "5 years"
+    ],
+    answer: 3,
+    region: "southernItaly",
+    explanation: "Vergine (also called Soleras) needs at least five years in wood. Superiore needs two and Superiore Riserva four. Vergine Stravecchio needs ten."
+  },
+  {
+    id: "it-84",
+    type: "scenario",
+    country: "Italy",
+    topic: "fortified",
+    question: "Which Marsala colour is made with cooked must (mosto cotto)?",
+    options: [
+      "Oro",
+      "Ambra",
+      "Rubino",
+      "All three"
+    ],
+    answer: 1,
+    region: "southernItaly",
+    explanation: "Fine and Superiore ambra must contain at least 1% cooked must, which darkens the colour. It is banned in oro and rubino, and Vergine may not use it at all."
+  },
+  {
+    id: "it-85",
+    type: "scenario",
+    country: "Italy",
+    topic: "fortified",
+    question: "Which grapes make Marsala Rubino?",
+    options: [
+      "Nero d'Avola and Perricone",
+      "Grillo and Ansonica (Inzolia)",
+      "Catarratto and Damaschino",
+      "Aglianico and Negroamaro"
+    ],
+    answer: 0,
+    region: "southernItaly",
+    explanation: "Rubino comes from black grapes: Perricone (locally Pignatello), Nero d'Avola and Nerello Mascalese. Up to 30% white grapes may be added. Grillo, Catarratto, Inzolia and Damaschino make oro and ambra."
+  },
+  {
+    id: "it-86",
+    type: "scenario",
+    country: "Italy",
+    topic: "fortified",
+    question: "How much sugar does a Marsala labelled 'semisecco' have?",
+    options: [
+      "Under 40 g/L",
+      "100 to 150 g/L",
+      "40 to 100 g/L",
+      "Over 100 g/L"
+    ],
+    answer: 2,
+    region: "southernItaly",
+    explanation: "Secco is under 40 g/L of sugar. Semisecco is between 40 and 100 g/L. Dolce is over 100 g/L."
   }
 ];

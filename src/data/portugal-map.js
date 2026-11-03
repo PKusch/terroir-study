@@ -1,5 +1,5 @@
 // ─── Portugal region polygons (real lat/lon, hand-projected) ────────────────
-import { geoToSvgPortugal as geoToSvg, ptPortugal as pt } from "../geo.js";
+import { geoToSvgPortugal as geoToSvg, ptPortugal as pt, geoToSvgMadeira, ptMadeira } from "../geo.js";
 
 export const PORTUGAL_REGION_PATHS = {
   vinhoVerde: {
@@ -31,5 +31,12 @@ export const PORTUGAL_REGION_PATHS = {
     // Lisboa: the Atlantic coast and the hills north of Lisbon, from Colares and Bucelas up to Óbidos
     d: `M${pt(-9.45,39.4)} L${pt(-8.95,39.3)} L${pt(-8.95,38.85)} L${pt(-9.45,38.7)} Z`,
     label: geoToSvg(-9.2, 39.05)
+  },
+  madeira: {
+    // The whole island, drawn in the inset box (its own projection, see geo.js).
+    // Clockwise from Ponta do Pargo in the west along the north coast to Ponta de
+    // São Lourenço, then back along the south coast past Funchal (OpenStreetMap points).
+    d: `M${ptMadeira(-17.265,32.814)} L${ptMadeira(-17.168,32.87)} L${ptMadeira(-17.107,32.83)} L${ptMadeira(-17.047,32.808)} L${ptMadeira(-16.987,32.832)} L${ptMadeira(-16.91,32.83)} L${ptMadeira(-16.85,32.798)} L${ptMadeira(-16.68,32.748)} L${ptMadeira(-16.74,32.735)} L${ptMadeira(-16.766,32.716)} L${ptMadeira(-16.909,32.642)} L${ptMadeira(-16.946,32.632)} L${ptMadeira(-17.065,32.666)} L${ptMadeira(-17.18,32.718)} L${ptMadeira(-17.228,32.752)} Z`,
+    label: geoToSvgMadeira(-16.98, 32.76)
   }
 };
