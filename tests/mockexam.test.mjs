@@ -155,7 +155,7 @@ test("the same seed gives the same numbers, a different seed different ones", ()
 });
 
 test("numbered papers are fixed, never share a question, and together use the whole bank", () => {
-  const papers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
+  const papers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
   assert.equal(papers[0].length, 50);
   assert.equal(papers[1].length, 50);
   assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 0), papers[0], "the same every time");
@@ -204,7 +204,7 @@ test("paperPoolSize reports what each kind of paper can offer", () => {
 });
 
 test("every kind of paper is listed with a label and a note", () => {
-  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "paper4", "paper5", "paper6", "paper7", "paper8", "paper9", "paper10", "paper11", "paper12", "paper13", "missed", "unseen"]);
+  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "paper4", "paper5", "paper6", "paper7", "paper8", "paper9", "paper10", "paper11", "paper12", "paper13", "paper14", "paper15", "missed", "unseen"]);
   for (const p of PAPERS) assert.ok(p.label && p.note);
 });
 
@@ -219,7 +219,7 @@ test("Papers 1 and 2 do not change when questions are added to the bank", () => 
   const bigger = [...QUIZ_QUESTIONS, ...added];
   assert.deepEqual(fixedPaperIds(bigger, 0), before1);
   assert.deepEqual(fixedPaperIds(bigger, 1), before2);
-  const later = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].flatMap((i) => fixedPaperIds(bigger, i));
+  const later = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].flatMap((i) => fixedPaperIds(bigger, i));
   assert.ok(later.includes("zz-01") && later.includes("zz-02"), "new questions land after the frozen papers");
 });
 
@@ -232,7 +232,7 @@ test("a question taken out of the bank just drops out of its paper", () => {
 
 test("Papers 3 onwards hold the rest, and share nothing with Papers 1 and 2 or each other", () => {
   const frozen = new Set([...fixedPaperIds(QUIZ_QUESTIONS, 0), ...fixedPaperIds(QUIZ_QUESTIONS, 1)]);
-  const rest = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
+  const rest = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
   assert.ok(rest.flat().every((id) => !frozen.has(id)));
   assert.equal(new Set(rest.flat()).size, rest.flat().length, "no question on two of them");
   assert.equal(rest.flat().length + frozen.size, multipleChoice(QUIZ_QUESTIONS).length);
