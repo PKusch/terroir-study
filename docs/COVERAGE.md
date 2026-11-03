@@ -27,18 +27,9 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 
 ## Thinnest regions in the quiz
 
-`npm run coverage` lists how many questions each region has. On 2026-11-01 the eight thinnest were:
+`npm run coverage` lists how many questions each region has. On 2026-11-03 the 21 thinnest regions (Villány, New York, Oregon, Vinho Verde, Yecla, Burgundy and fifteen that had five) were each brought to at least eight. The thinnest now have six each, 19 of them: baden, bairrada, bierzo, carinena, catalunya, franciacorta, friuli, jumilla, lazio, marche, nahe, naoussa, rheinhessen, rioja, santorini, steiermark, trentinoAltoAdige, tuscany, washington.
 
-- 3 questions: villany
-- 4 questions: newYork
-- 4 questions: oregon
-- 4 questions: vinhoVerde
-- 4 questions: yecla
-- 5 questions: abruzzo
-- 5 questions: alentejo
-- 5 questions: argentina
-
-Every region has at least three, which a test checks.
+Every region has at least six, which a test checks.
 
 ## How the facts were checked
 

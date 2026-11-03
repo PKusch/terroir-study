@@ -272,6 +272,8 @@ Fortified wines were researched in November 2026, from the rule books where they
 
 Sparkling wines were researched in November 2026, from the rule books where they could be read: the Champagne cahier des charges (2014 text; a 2026 revision could not be opened), the Crémant de Loire, Crémant de Limoux and Vouvray cahiers, the EU rules for sparkling wine terms and sweetness, the Comité Champagne's own sheets, the Prosecco DOC, Asolo and Franciacorta rule books, the 2026 EU text for Asti, the DO Cava's guide to its 2022 rules, German wine law for Winzersekt, and the Austrian Wine pages for Sekt g.U. That found three mistakes, now fixed: a vintage Champagne must wait 36 months from tirage before sale, but its lees minimum is 12 months, as for non-vintage; the 50% Chardonnay rule for Crémant de Limoux is a planting rule, and in the wine itself Chardonnay must be at least 30%; and Cava Reserva needs 18 months on the lees since January 2022 (15 before). Left out because sources disagree: the time Austria's Große Reserve must spend on the lees (30 or 36 months), the year Cap Classique moved to 12 months, Asti's and Moscato d'Asti's pressures, Satèn's sugar, and the Crémant de Bourgogne base rule. These rest on secondary sources: the Conegliano Valdobbiadene, Trento DOC and Crémant d'Alsace and Bourgogne points, Riesling's share of German Sekt, Tasmania, Cap Classique, and the Champagne houses in California. The transfer method and carbonation link to no region, because no region in the app is a checked example of either.
 
+The questions added on 2026-11-03 for the thinnest regions rest on: the US federal labelling rules (27 CFR 4.23 and 4.25) for New York; Oregon's own labelling rules (OAR 845-010-0915 and 0920); Argentina's wine law, Ley 25.163; the DO rule books for Yecla, Calatayud, La Mancha, Montsant (an amendment still being approved in July 2026), Ribera del Duero and Valencia; the Italian rule books for Abruzzo, Torgiano and Orvieto; Portarias 333/2016 and 246/2014 for Vinho Verde and the Dão; and Wines of Greece for Nemea. The Burgundy, Rheingau, Pfalz, Franken, Burgenland and Villány questions rest on secondary sources (Decanter, UNESCO's listing, trade and estate pages), because the official pages would not load, so check them against your course book. Seneca Lake, Avesso in Baião, Loureiro's districts, Antão Vaz in Vidigueira and the Dão's rivers are also secondary, and the Alentejo talha rule rests on a 2026 notice seen only in excerpts. One mistake was fixed on the way: Ribera del Duero has made white wines (at least 75% Albillo Mayor) and rosados since 2019.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
@@ -333,7 +335,8 @@ npm run dev
 - [x] Styles tab: the sparkling methods and the fortified wines side by side
 - [ ] Written-answer practice, once WSET's current theory paper format is checked against its own pages
 - [ ] Castilla y León Vino de la Tierra, once its rules can be read
-- [ ] More questions for the thinnest regions (Villány has 3; New York, Oregon, Vinho Verde and Yecla have 4)
+- [x] More questions for the thinnest regions: every region now has at least six, and the 21 thinnest were each brought to eight or more
+- [ ] More questions for the regions that still have only six (baden, bairrada, bierzo, carinena, catalunya, franciacorta, friuli, jumilla, lazio, marche, nahe, naoussa, rheinhessen, rioja, santorini, steiermark, trentinoAltoAdige, tuscany, washington)
 
 ## About
 
