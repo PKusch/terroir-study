@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **75** regions | 📍 **357** places on the map | ❓ **673** quiz questions | 🍇 **117** grapes | ✅ **138** tests |
+| 🌍 **9** countries | 🗺️ **76** regions | 📍 **364** places on the map | ❓ **716** quiz questions | 🍇 **117** grapes | ✅ **141** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -48,7 +48,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ## What it does
 
-Six ways to study, one map. Each one reads from the same data, so what you explore is what you are quizzed on.
+Seven ways to study, one map. Each one reads from the same data, so what you explore is what you are quizzed on.
 
 ```mermaid
 flowchart LR
@@ -58,6 +58,7 @@ flowchart LR
     Q -- "weak areas: study →" --> E
     D["📍 Map drill<br/>find it, name it, place it"] -- "what you missed: study →" --> E
     Q -- "missed and not-yet-seen papers" --> M["📝 Mock exam<br/>timed, marked at the end"]
+    S["🍾 Styles<br/>methods side by side"] -- "study →" --> E
 ```
 
 The Quiz and Taste keep a record in your browser. The mock exam reads the quiz record to build its *Missed before* and *Not yet seen* papers, and the map drill and the exam save nothing.
@@ -103,7 +104,7 @@ The Quiz and Taste keep a record in your browser. The mock exam reads the quiz r
 - **Connection questions** — "Why is Merlot dominant on the Right Bank?"
 - **Scenario questions** — "A Champagne producer wants a richer style. What would they do?"
 
-Study everything, one country at a time, or *Fortified* (Port, Madeira, Sherry, the French Vins Doux Naturels, Marsala and Rutherglen Muscat, across every country), switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes. On a multiple-choice question, press 1 to 4 to answer and Enter for the next one.
+Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the French Vins Doux Naturels, Marsala and Rutherglen Muscat) or *Sparkling* (Champagne, the Crémants, Cava, Prosecco, Asti, Franciacorta, Trento, Sekt and Cap Classique), each across every country, switch on *Due only* to drill just the questions you got wrong recently, and click any weak area to jump to that region's notes. On a multiple-choice question, press 1 to 4 to answer and Enter for the next one.
 
 **🍷 Taste** — Tasting practice without a glass. The app names a wine it knows ("You are tasting: Nebbiolo from Piedmont"). You set its body, acidity and, for reds, tannin to low, medium or high, and tick the aromas you expect from eight words (the grape's own plus a few from other grapes of the same colour). Press Check and each row is marked against the grape profile, the aroma words turn green (right), red (wrong pick) or gold (missed), and a short "Why" card explains the answer from the grape and the region. Click a region on the map to taste a wine from there. This is the exam's Systematic Approach to Tasting, cut down to what the app has data for.
 
@@ -111,12 +112,14 @@ Study everything, one country at a time, or *Fortified* (Port, Madeira, Sherry, 
 
 **📍 Map drill** — Learn where things are, ten questions a round, for every country or one. *Find it* gives you a region's name and you click it on the map. *Name it* lights a region up and you pick its name from four. *Place it* gives you a village or district, such as Mád or Pauillac, and you click where it is on the zoomed map; a hit is within a twelfth of the map's width, and the answer is shown with a dot and a line to your click. At the end you see what you missed, with a link to study each one. It never touches your quiz progress.
 
+**🍾 Styles** — The ways of making one family of wine, side by side. *Sparkling* sets the traditional, transfer, tank, Asti and ancestral methods and carbonation next to each other (where the second fermentation happens, how long on the lees, how the wine is cleared, what it tastes like), with the EU sweetness terms from Brut Nature to Doux. *Fortified* does the same for Port, Madeira, Sherry, Vin Doux Naturel, Marsala and Rutherglen Muscat. Each card links to the regions that make it.
+
 ## Regions Covered
 
 | | Country | Regions |
 |:-:|---|---|
 | 🇫🇷 | **France** | Bordeaux · Burgundy · Northern Rhône · Southern Rhône · Loire Valley · Alsace · Champagne · Languedoc-Roussillon · Provence · South-West · Beaujolais |
-| 🇮🇹 | **Italy** | Piedmont · Tuscany · Veneto · Southern Italy · Abruzzo · Marche · Umbria · Lazio · Friuli-Venezia Giulia · Trentino-Alto Adige |
+| 🇮🇹 | **Italy** | Piedmont · Tuscany · Veneto · Southern Italy · Abruzzo · Marche · Umbria · Lazio · Friuli-Venezia Giulia · Trentino-Alto Adige · Franciacorta |
 | 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Penedès (still wines) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas · Montsant · Catalunya |
 | 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz · Nahe · Rheinhessen · Baden · Franken |
 | 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
@@ -144,7 +147,7 @@ France (11 regions) with geographically accurate map, Paris as orientation marke
 - **South-West** — Cahors Malbec, Madiran Tannat, micro-oxygenation origin
 - **Beaujolais** — Gamay, 10 Crus on granite, carbonic maceration
 
-Italy (10 regions) with its own map, Rome as orientation marker, the Po, and Sicily and Sardinia drawn in outline:
+Italy (11 regions) with its own map, Rome as orientation marker, the Po, and Sicily and Sardinia drawn in outline:
 
 - **Piedmont** — Nebbiolo in Barolo and Barbaresco, Barbera, Dolcetto, Moscato d'Asti, Gavi; fog, Alps and calcareous marl
 - **Tuscany** — Sangiovese from Chianti to Brunello, Bolgheri and the Super Tuscan story, galestro and alberese
@@ -156,6 +159,7 @@ Italy (10 regions) with its own map, Rome as orientation marker, the Po, and Sic
 - **Lazio** — volcanic soils and warm sea breezes; fresh, light whites such as Frascati
 - **Friuli-Venezia Giulia** — the Alps to the north and the Adriatic to the south; Friulano, Pinot Grigio and Ribolla Gialla, structured Collio whites on marl and sandstone, and amber skin-contact wines
 - **Trentino-Alto Adige** — Alpine slopes from 200 to 1,000 m, warmed by air from Lake Garda; Lagrein, Teroldego and Schiava reds, aromatic whites, and Trento DOC sparkling from Chardonnay
+- **Franciacorta** — glacial moraine hills between Lake Iseo and Brescia in Lombardy; traditional-method sparkling from Chardonnay, Pinot Nero and Pinot Bianco, 18 months on the lees for non-vintage up to 60 for Riserva; Satèn is white grapes only, Brut, with softer bubbles
 
 Spain (20 regions) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
 
@@ -240,7 +244,7 @@ The region facts, grape profiles and quiz questions were first written from memo
 
 It is not a substitute for your course book. Many official pages could not be read, so some points rest on secondary sources, and where sources disagreed the number was left out rather than guessed. Still unchecked: Soave and Bolgheri soils, the Vin Santo barrels, bush vines in Puglia, Elgin and Stellenbosch soils, how far Coonawarra is from the sea, and the legal ageing minimums for Naoussa and Nemea Reserve. The mock exam's 50 questions and 55% pass mark are WSET's published format; its 72-seconds-a-question clock is this app's own, because WSET gives two hours for the whole written paper and no time for the multiple-choice part alone.
 
-Rías Baixas, Rueda and Cava were researched separately, from the rule books themselves where they could be read: the Rías Baixas DO's 2024 specification, Rueda's own site, and the Cava specification. Left out because the sources disagreed or could not be read: Cava Reserva's minimum ageing (one text says 15 months, newer ones 18), the Penedès altitude bands, how Corpinnat split from Cava, the exact Rueda tiers before the 2024 change, and Rueda's minimum alcohol (the DO's own pages give two figures).
+Rías Baixas, Rueda and Cava were researched separately, from the rule books themselves where they could be read: the Rías Baixas DO's 2024 specification, Rueda's own site, and the Cava specification. Left out because the sources disagreed or could not be read: the Penedès altitude bands, how Corpinnat split from Cava, the exact Rueda tiers before the 2024 change, and Rueda's minimum alcohol (the DO's own pages give two figures).
 
 Penedès (still wines) was built from the DO's own specification (version March 2026), except the Clàssic Penedès and Corpinnat points, which come from a wine-trade article and press reports; sources disagree on its top altitude (800 or 900 m), so the questions say "about 800 m", and on when the Clàssic Penedès name began (2013 or 2014), so that date is left out. Castilla y León's table wine is still missing because its rules could not be read.
 
@@ -265,6 +269,8 @@ The Naoussa, Nemea, Eger, Bairrada, Dão and Ontario questions rest on official 
 The regions added later (Toro and Navarra, Calatayud and Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya, Nahe, Rheinhessen, Baden, Franken, the extra Italian and Portuguese ones, and the extra New World ones) were each built from the official rule book or specification where it could be read, then every quiz question was checked a second time by a separate pass against the same kind of source. That second pass found a few real mistakes, now fixed: the Franconian "fränkisch trocken" sugar limit is 4 g/L, not 5, and the sub-zones of Colli Orientali del Friuli are Cialla plus four named for a grape and a village. Anything it could not confirm was reworded, softened or dropped. The weakest spots are the Dão, Bairrada and Lazio regions and the Oregon, Washington, Finger Lakes, Ontario and British Columbia ones, where the official pages would not load and a wine-reference site or Wikipedia stands in. The rule is simple: a number is only in the app if a page said it.
 
 Fortified wines were researched in November 2026, from the rule books where they could be read. Port rests on the IVDP's own pages and the 2008 Port regulation; Madeira on Portarias 38 and 39 of 2015, read in an English translation; Sherry on the Jerez and Manzanilla specifications as consolidated in May 2026; the Vins Doux Naturels on the Banyuls, Maury, Rivesaltes, Rasteau and Muscat de Beaumes-de-Venise rule books; Marsala on its DOC rules as amended to 2014; Rutherglen on the Winemakers of Rutherglen's pages. That found three mistakes, now fixed: Amontillado needs 16% alcohol, not 17%; the spirit added to a Vin Doux Naturel is 5 to 10% of the must counted as pure alcohol; and a Sherry no longer has to be fortified if it reaches its strength naturally. Left out because sources disagree: the exact bottling deadlines for Vintage Port and LBV, the Douro vineyard grades, Tinta Negra's share of Madeira's vineyards, Madeira's sweetness in grams per litre (its rules use degrees Baumé), the Classic and Grand ages for Rutherglen, and Marsala Fine's minimum alcohol. Banyuls Grand Cru rests on the INAO's summary page, not its rule book, and Muscat de Rivesaltes on a summary of its EU file. The aroma words for the Madeira grapes are general Madeira tasting words, not checked grape by grape.
+
+Sparkling wines were researched in November 2026, from the rule books where they could be read: the Champagne cahier des charges (2014 text; a 2026 revision could not be opened), the Crémant de Loire, Crémant de Limoux and Vouvray cahiers, the EU rules for sparkling wine terms and sweetness, the Comité Champagne's own sheets, the Prosecco DOC, Asolo and Franciacorta rule books, the 2026 EU text for Asti, the DO Cava's guide to its 2022 rules, German wine law for Winzersekt, and the Austrian Wine pages for Sekt g.U. That found three mistakes, now fixed: a vintage Champagne must wait 36 months from tirage before sale, but its lees minimum is 12 months, as for non-vintage; the 50% Chardonnay rule for Crémant de Limoux is a planting rule, and in the wine itself Chardonnay must be at least 30%; and Cava Reserva needs 18 months on the lees since January 2022 (15 before). Left out because sources disagree: the time Austria's Große Reserve must spend on the lees (30 or 36 months), the year Cap Classique moved to 12 months, Asti's and Moscato d'Asti's pressures, Satèn's sugar, and the Crémant de Bourgogne base rule. These rest on secondary sources: the Conegliano Valdobbiadene, Trento DOC and Crémant d'Alsace and Bourgogne points, Riesling's share of German Sekt, Tasmania, Cap Classique, and the Champagne houses in California. The transfer method and carbonation link to no region, because no region in the app is a checked example of either.
 
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
@@ -305,7 +311,7 @@ npm run dev
 
 ## Roadmap
 
-- [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy, Abruzzo, Marche, Umbria, Lazio, Friuli-Venezia Giulia, Trentino-Alto Adige)
+- [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy, Abruzzo, Marche, Umbria, Lazio, Friuli-Venezia Giulia, Trentino-Alto Adige, Franciacorta)
 - [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry, Rías Baixas, Rueda, Cava, Penedès, Toro, Navarra, Calatayud, Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya)
 - [x] Germany (Mosel, Rheingau, Pfalz, Nahe, Rheinhessen, Baden, Franken)
 - [x] Austria (Niederösterreich, Burgenland, Steiermark)
@@ -313,7 +319,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (673: 132 France, 86 Italy, 181 Spain, 53 Germany, 20 Austria, 63 Portugal, 20 Hungary, 20 Greece, 98 New World; 574 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (716: 146 France, 101 Italy, 186 Spain, 57 Germany, 23 Austria, 63 Portugal, 20 Hungary, 20 Greece, 100 New World; 616 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (117 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -321,9 +327,10 @@ npm run dev
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
-- [x] Sub-region drill-down maps (Zoom into any region: 357 places marked across 75 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 364 places marked across 76 regions)
 - [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
-- [ ] Sparkling wine as a topic: the methods side by side, Franciacorta, and a *Sparkling* filter (in progress)
+- [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
+- [x] Styles tab: the sparkling methods and the fortified wines side by side
 - [ ] Written-answer practice, once WSET's current theory paper format is checked against its own pages
 - [ ] Castilla y León Vino de la Tierra, once its rules can be read
 - [ ] More questions for the thinnest regions (Villány has 3; New York, Oregon, Vinho Verde and Yecla have 4)

@@ -294,11 +294,15 @@ test("poolFor's Fortified filter picks tagged questions from every country", asy
   assert.deepEqual(poolFor(qs, "Fortified").map((q) => q.id), ["fr-01", "pt-01"]);
 });
 
-test("every fortified-wine question in the bank is tagged, so the Fortified filter is complete", async () => {
+test("the Fortified and Sparkling filters each have a full set of multiple-choice questions", async () => {
   const { QUIZ_QUESTIONS } = await import("../src/data/quiz.js");
-  const tagged = QUIZ_QUESTIONS.filter((q) => q.topic === "fortified");
-  assert.ok(tagged.length >= 40, `only ${tagged.length} fortified questions`);
-  for (const q of tagged) assert.ok(q.options, `${q.id} should be multiple choice so the mock exam can use it`);
+  const { TOPICS } = await import("../src/progress.js");
+  for (const topic of TOPICS.map((t) => t.toLowerCase())) {
+    const tagged = QUIZ_QUESTIONS.filter((q) => q.topic === topic);
+    assert.ok(tagged.length >= 40, `only ${tagged.length} ${topic} questions`);
+    for (const q of tagged) assert.ok(q.options, `${q.id} should be multiple choice so the mock exam can use it`);
+  }
+  for (const q of QUIZ_QUESTIONS) if (q.topic) assert.ok(TOPICS.map((t) => t.toLowerCase()).includes(q.topic), `${q.id}: unknown topic ${q.topic}`);
 });
 
 test("studyPool keeps only questions due for review, and falls back when none are", async () => {

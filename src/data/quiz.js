@@ -66,6 +66,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-06",
+    topic: "sparkling",
     type: "connection",
     question: "Why can Chenin Blanc in Vouvray be made dry, sweet, AND sparkling?",
     options: [
@@ -101,6 +102,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-09",
+    topic: "sparkling",
     type: "scenario",
     question: "A producer in Champagne wants to make a richer, more full-bodied style. Which approach would achieve this?",
     options: [
@@ -472,6 +474,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-39",
+    topic: "sparkling",
     type: "connection",
     question: "Why does Champagne's marginal climate produce such good base wine for sparkling?",
     options: [
@@ -486,6 +489,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-40",
+    topic: "sparkling",
     type: "scenario",
     question: "A Champagne shows bready, biscuity, brioche notes. Where do those flavours come from?",
     options: [
@@ -500,6 +504,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-41",
+    topic: "sparkling",
     type: "scenario",
     question: "A Champagne is labelled Blanc de Blancs, meaning it is made only from white grapes. Which grape is it, and how will it taste compared with a Blanc de Noirs?",
     options: [
@@ -514,17 +519,18 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-42",
+    topic: "sparkling",
     type: "connection",
     question: "Why does a vintage Champagne usually taste more bready and developed than a non-vintage one?",
     options: [
-      "Vintage must spend at least 36 months on the lees, against 12 for non-vintage",
+      "Vintage must age 36 months from tirage, against 15 for non-vintage",
       "Vintage wines use only Pinot Noir",
       "Vintage wines skip the second fermentation",
       "Vintage wines are made only from grapes grown on chalk, which adds the biscuit flavour"
     ],
     answer: 0,
     region: "champagne",
-    explanation: "Non-vintage must age at least 15 months, 12 of them on the lees; vintage must spend at least 36 months on the lees. Autolysis, the breakdown of yeast on the lees, builds bready, biscuity flavour, so more time on the lees means more of it."
+    explanation: "Neither may be disgorged before 12 months on the lees, but non-vintage may be sold 15 months after tirage and vintage only after 36. Autolysis, the breakdown of yeast on the lees, builds bready, biscuity flavour, so more time on the lees means more of it."
   },
   {
     id: "fr-43",
@@ -824,6 +830,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "it-06",
+    topic: "sparkling",
     type: "scenario",
     country: "Italy",
     question: "A winemaker in Asti wants a sweet, grapey, lightly sparkling wine from Moscato Bianco with low alcohol. Which method does the region use?",
@@ -946,6 +953,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "it-16",
+    topic: "sparkling",
     type: "connection",
     country: "Italy",
     question: "Why is Prosecco made by the tank method rather than the traditional method used in Champagne?",
@@ -3225,6 +3233,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-35",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "How is Rías Baixas sparkling wine made?",
@@ -3308,6 +3317,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-41",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "What is the minimum time on the lees for a basic Cava de Guarda?",
@@ -3323,6 +3333,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-42",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "How long must a Cava Gran Reserva age on its lees?",
@@ -3338,6 +3349,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-43",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "Which three white grapes make up most of the grapes used for Cava?",
@@ -3353,6 +3365,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-44",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "How is Cava made fizzy?",
@@ -3368,6 +3381,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-45",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "What does Brut Nature on a Cava label mean?",
@@ -3383,6 +3397,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-46",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "What is special about a Cava de Paraje Calificado?",
@@ -3398,6 +3413,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-47",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "Where were the first bottles of Cava made, in 1872?",
@@ -3413,6 +3429,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-48",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "What is the minimum pressure of a Cava?",
@@ -4960,6 +4977,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "pt-25",
+    topic: "sparkling",
     type: "scenario",
     country: "Portugal",
     question: "Which town is nicknamed the 'Capital do Espumante'?",
@@ -5270,6 +5288,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "it-57",
+    topic: "sparkling",
     type: "scenario",
     country: "Italy",
     question: "How many months on the lees does a Trento DOC non-vintage need?",
@@ -5285,6 +5304,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "it-58",
+    topic: "sparkling",
     type: "scenario",
     country: "Italy",
     question: "Which grapes may go into Trento DOC?",
@@ -6527,6 +6547,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-133",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "How long must Penedès quality sparkling wine spend from bottling to disgorgement?",
@@ -6542,6 +6563,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-134",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "What is different about Penedès ancestral sparkling wine?",
@@ -6557,6 +6579,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-135",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "What must the label say on an undisgorged ancestral Penedès sparkling wine?",
@@ -6572,6 +6595,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-136",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "Which Penedès sparkling label must come from the producer's own organic vineyards and be vintage-dated?",
@@ -6752,6 +6776,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-148",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "Clàssic Penedès needs at least 15 months of ageing. What is the Cava minimum for Cava de Guarda?",
@@ -6767,6 +6792,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-149",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "Can a Clàssic Penedès producer buy in wine to make the sparkling base?",
@@ -6782,6 +6808,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "es-150",
+    topic: "sparkling",
     type: "scenario",
     country: "Spain",
     question: "What is Corpinnat?",
@@ -7217,6 +7244,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-92",
+    topic: "sparkling",
     type: "scenario",
     country: "France",
     question: "How long must Crémant d'Alsace stay on its lees?",
@@ -7414,9 +7442,10 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "fr-105",
+    topic: "sparkling",
     type: "scenario",
     country: "France",
-    question: "Which grape must make up at least 50% of a Crémant de Limoux?",
+    question: "Which grape must make up at least 30% of the blend in white Crémant de Limoux?",
     options: [
       "Mauzac",
       "Pinot Noir",
@@ -7425,7 +7454,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "languedocRoussillon",
-    explanation: "Chenin may be 10 to 40%, Pinot Noir up to 30% and Mauzac up to 20%."
+    explanation: "In the wine, Chardonnay must be at least 30% and Chenin at least 10%, together 60 to 90%. Mauzac and Pinot Noir together may be at most 40%, and Mauzac at most 20%."
   },
   {
     id: "fr-106",
@@ -7594,6 +7623,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "it-70",
+    topic: "sparkling",
     type: "scenario",
     country: "Italy",
     question: "Which method is used to make Prosecco DOC spumante?",
@@ -8269,6 +8299,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "it-82",
+    topic: "sparkling",
     type: "scenario",
     country: "Italy",
     question: "How must grapes for a Conegliano Valdobbiadene Rive be harvested?",
@@ -8585,6 +8616,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "pt-39",
+    topic: "sparkling",
     type: "scenario",
     country: "Portugal",
     question: "How is sparkling Bairrada made?",
@@ -8600,6 +8632,7 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "pt-40",
+    topic: "sparkling",
     type: "scenario",
     country: "Portugal",
     question: "How long must sparkling Bairrada age before sale?",
@@ -9400,5 +9433,685 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "southernItaly",
     explanation: "Secco is under 40 g/L of sugar. Semisecco is between 40 and 100 g/L. Dolce is over 100 g/L."
+  },
+  {
+    id: "es-182",
+    type: "scenario",
+    country: "Spain",
+    topic: "sparkling",
+    question: "What is the minimum time on the lees for a Cava Reserva today?",
+    options: [
+      "At least 9 months",
+      "At least 12 months",
+      "At least 18 months",
+      "At least 24 months"
+    ],
+    answer: 2,
+    region: "cava",
+    explanation: "Reserva needs at least 18 months on the lees. It was 15 months before the rules changed in January 2022."
+  },
+  {
+    id: "es-183",
+    type: "connection",
+    country: "Spain",
+    topic: "sparkling",
+    question: "Which Cava group includes Reserva, Gran Reserva and Paraje Calificado?",
+    options: [
+      "Cava de Guarda Superior",
+      "Cava de Guarda Reserva",
+      "Cava de Paraje Selecto",
+      "Cava de Crianza Especial"
+    ],
+    answer: 0,
+    region: "cava",
+    explanation: "These three form Cava de Guarda Superior, which has stricter vineyard rules. All other Cava is Cava de Guarda."
+  },
+  {
+    id: "es-184",
+    type: "scenario",
+    country: "Spain",
+    topic: "sparkling",
+    question: "From the 2025 harvest, what must be true of the vineyards for Cava de Guarda Superior?",
+    options: [
+      "Picked by hand at night",
+      "Grown above 500 metres",
+      "Planted over 30 years ago",
+      "Certified organic"
+    ],
+    answer: 3,
+    region: "cava",
+    explanation: "Guarda Superior vineyards had to be organic or in conversion from 2022. From the 2025 harvest, they must be fully organic."
+  },
+  {
+    id: "es-185",
+    type: "scenario",
+    country: "Spain",
+    topic: "sparkling",
+    question: "What is the minimum vine age for grapes used in Cava de Guarda Superior?",
+    options: [
+      "3 years",
+      "5 years",
+      "10 years",
+      "25 years"
+    ],
+    answer: 2,
+    region: "cava",
+    explanation: "Guarda Superior vines must be at least 10 years old. Other Cava can use grapes from the vine's third year."
+  },
+  {
+    id: "es-186",
+    type: "connection",
+    country: "Spain",
+    topic: "sparkling",
+    question: "Which of these is a Cava zone outside Catalonia?",
+    options: [
+      "Comtats de Barcelona",
+      "Valle del Ebro",
+      "Serra de Mar",
+      "Conca del Gaià"
+    ],
+    answer: 1,
+    region: "cava",
+    explanation: "Valle del Ebro is a Cava zone with its own subzones, Alto Ebro and Valle del Cierzo. Comtats de Barcelona is the Catalan zone, and Serra de Mar and Conca del Gaià are two of its subzones."
+  },
+  {
+    id: "de-54",
+    type: "scenario",
+    country: "Germany",
+    topic: "sparkling",
+    question: "A German sparkling wine is labelled Winzersekt. What must be true?",
+    options: [
+      "Tank method, from grapes bought across Germany",
+      "Bottle-fermented from the estate's own grapes",
+      "Made only from Riesling, aged for two years",
+      "Carbonated, from imported base wine"
+    ],
+    answer: 1,
+    region: "mosel",
+    explanation: "Winzersekt must come from the producer's own grapes and ferment a second time in the bottle. The label must show the estate, the grape and the vintage."
+  },
+  {
+    id: "de-55",
+    type: "scenario",
+    country: "Germany",
+    topic: "sparkling",
+    question: "How long must a Winzersekt rest on its lees before disgorging?",
+    options: [
+      "At least 9 months",
+      "At least 3 months",
+      "At least 18 months",
+      "At least 6 months"
+    ],
+    answer: 0,
+    region: "mosel",
+    explanation: "German wine law requires at least 9 months on the lees, without a break and in the same cellar. The wine is then disgorged."
+  },
+  {
+    id: "de-56",
+    type: "connection",
+    country: "Germany",
+    topic: "sparkling",
+    question: "What does the b.A. in Sekt b.A. tell you?",
+    options: [
+      "Made by the traditional method, in this bottle",
+      "Aged for at least three years on its lees",
+      "Made from at least 85% Riesling grapes",
+      "Grapes from one named German wine region"
+    ],
+    answer: 3,
+    region: "mosel",
+    explanation: "Sekt b.A. must name its German wine region on the label. It may still be made in a tank, so b.A. says nothing about the method."
+  },
+  {
+    id: "de-57",
+    type: "connection",
+    country: "Germany",
+    topic: "sparkling",
+    question: "Which grape makes about half of premium German Sekt?",
+    options: [
+      "Müller-Thurgau",
+      "Silvaner",
+      "Pinot Blanc",
+      "Riesling"
+    ],
+    answer: 3,
+    region: "mosel",
+    explanation: "About half of premium Sekt is Riesling. About 30% comes from the three Pinots: Pinot Noir, Pinot Blanc and Pinot Gris."
+  },
+  {
+    id: "at-21",
+    type: "connection",
+    country: "Austria",
+    topic: "sparkling",
+    question: "From which tier of Austrian Sekt g.U. must the wine be made by the traditional method?",
+    options: [
+      "Klassik",
+      "Reserve",
+      "Große Reserve only",
+      "None: tank is allowed at every tier"
+    ],
+    answer: 1,
+    region: "niederosterreich",
+    explanation: "Klassik may be made in a tank or in the bottle. From Reserve upwards, only the traditional method is allowed."
+  },
+  {
+    id: "at-22",
+    type: "scenario",
+    country: "Austria",
+    topic: "sparkling",
+    question: "What is the minimum time on the lees for an Austrian Sekt g.U. Reserve?",
+    options: [
+      "6 months",
+      "9 months",
+      "12 months",
+      "18 months"
+    ],
+    answer: 3,
+    region: "niederosterreich",
+    explanation: "Reserve needs at least 18 months on the lees and hand-picked grapes. Klassik needs 9 months in bottle, or 6 months by tank."
+  },
+  {
+    id: "at-23",
+    type: "scenario",
+    country: "Austria",
+    topic: "sparkling",
+    question: "Where must the grapes for an Austrian Sekt g.U. Große Reserve come from?",
+    options: [
+      "One municipality",
+      "One federal state",
+      "Anywhere in Austria",
+      "Any Wachau estate"
+    ],
+    answer: 0,
+    region: "niederosterreich",
+    explanation: "Große Reserve grapes come from a single municipality, and a single vineyard is allowed. Klassik and Reserve may draw on one federal state."
+  },
+  {
+    id: "nw-99",
+    type: "scenario",
+    country: "New World",
+    topic: "sparkling",
+    question: "What is the minimum time on the lees for South African Cap Classique today?",
+    options: [
+      "6 months",
+      "9 months",
+      "12 months",
+      "15 months"
+    ],
+    answer: 2,
+    region: "southAfrica",
+    explanation: "Cap Classique must now spend at least 12 months on its lees. The old minimum was 9 months."
+  },
+  {
+    id: "nw-100",
+    type: "connection",
+    country: "New World",
+    topic: "sparkling",
+    question: "Why does Tasmania suit traditional-method sparkling wine?",
+    options: [
+      "Hot summers give ripe, sugary grapes",
+      "Volcanic soils add bubbles to the base wine",
+      "Cool weather keeps the acid high",
+      "Heavy irrigation gives large, neutral crops"
+    ],
+    answer: 2,
+    region: "australia",
+    explanation: "Tasmania is Australia's coolest wine region. Its Pinot Noir and Chardonnay keep the high acidity that sparkling base wine needs."
+  },
+  {
+    id: "it-87",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "What is the minimum share of Glera in Prosecco DOC?",
+    options: [
+      "85%",
+      "60%",
+      "100%",
+      "75%"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Prosecco DOC must be at least 85% Glera. Up to 15% may come from other grapes, such as Chardonnay or the Pinots."
+  },
+  {
+    id: "it-88",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "How much Pinot Nero goes into Prosecco DOC Rosé?",
+    options: [
+      "Up to 5% of the blend",
+      "At least 35% of the blend",
+      "Between 10% and 15%",
+      "Exactly half of the blend"
+    ],
+    answer: 2,
+    region: "veneto",
+    explanation: "Prosecco Rosé is 85–90% Glera and 10–15% Pinot Nero. The Pinot Nero is made as a red wine, which gives the pink colour."
+  },
+  {
+    id: "it-89",
+    type: "scenario",
+    country: "Italy",
+    topic: "sparkling",
+    question: "A producer makes Prosecco DOC Rosé. How long must its second fermentation in tank last?",
+    options: [
+      "At least 30 days",
+      "At least 60 days",
+      "At least 9 months",
+      "At least 15 months"
+    ],
+    answer: 1,
+    region: "veneto",
+    explanation: "The rules set at least sixty days in tank for the Rosé. The label must also say 'millesimato' and give the vintage."
+  },
+  {
+    id: "it-90",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "Which sweetness levels may Prosecco DOC Rosé be sold in?",
+    options: [
+      "Dry and demi-sec only",
+      "From demi-sec up to dolce",
+      "Only brut and dolce",
+      "Brut nature to extra dry"
+    ],
+    answer: 3,
+    region: "veneto",
+    explanation: "Rosé is sold from brut nature to extra dry. White Prosecco spumante may go further, up to dry and demi-sec."
+  },
+  {
+    id: "it-91",
+    type: "scenario",
+    country: "Italy",
+    topic: "sparkling",
+    question: "A Conegliano Valdobbiadene bottle says 'sui lieviti'. What does that mean?",
+    options: [
+      "Made in tank, then aged in oak",
+      "Pumped full of carbon dioxide",
+      "Fermented again in bottle, on lees",
+      "From dried grapes, fermented sweet"
+    ],
+    answer: 2,
+    region: "veneto",
+    explanation: "Sui lieviti, or col fondo, is re-fermented in the bottle and left on its lees. It is slightly cloudy and always Brut Nature."
+  },
+  {
+    id: "it-92",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "Which Italian regions does the Prosecco DOC zone cover?",
+    options: [
+      "Veneto and Friuli-Venezia Giulia",
+      "Only Veneto and Lombardy, not Friuli",
+      "Veneto and Trentino-Alto Adige",
+      "Friuli and Emilia-Romagna"
+    ],
+    answer: 0,
+    region: "veneto",
+    explanation: "Prosecco DOC covers nine provinces in Veneto and Friuli-Venezia Giulia. The label may add 'Treviso' or 'Trieste'."
+  },
+  {
+    id: "it-93",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "How much actual alcohol may Moscato d'Asti have?",
+    options: [
+      "Between 9% and 11%",
+      "Between 4.5% and 6.5%",
+      "At least 12% or more",
+      "Between 7.5% and 8.5%"
+    ],
+    answer: 1,
+    region: "piedmont",
+    explanation: "Fermentation is stopped early, so actual alcohol stays between 4.5% and 6.5%. The rest stays as grape sugar."
+  },
+  {
+    id: "it-94",
+    type: "scenario",
+    country: "Italy",
+    topic: "sparkling",
+    question: "A buyer wants the fully sparkling Moscato wine with more alcohol. Which should they pick?",
+    options: [
+      "Moscato d'Asti Vendemmia Tardiva",
+      "Moscato d'Asti from Strevi",
+      "Moscato d'Asti, lightly sparkling",
+      "Asti Spumante"
+    ],
+    answer: 3,
+    region: "piedmont",
+    explanation: "Asti Spumante is fully sparkling, with at least 6% actual alcohol. Moscato d'Asti is lighter, with between 4.5% and 6.5%."
+  },
+  {
+    id: "it-95",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "Where is Franciacorta?",
+    options: [
+      "In Piedmont, in the hills near Asti",
+      "On the Adriatic coast",
+      "In Lombardy, south of Lake Iseo",
+      "In the Trentino mountains"
+    ],
+    answer: 2,
+    region: "franciacorta",
+    explanation: "Franciacorta lies in the province of Brescia in Lombardy. Lake Iseo is to the north and Monte Orfano to the south."
+  },
+  {
+    id: "it-96",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "What are most Franciacorta soils made of?",
+    options: [
+      "Glacial moraine",
+      "Volcanic basalt",
+      "Chalk, as in Champagne",
+      "Red clay over limestone"
+    ],
+    answer: 0,
+    region: "franciacorta",
+    explanation: "Franciacorta is a morainic bowl left by the Valcamonica glacier. Its soils drain well and still hold a good water reserve."
+  },
+  {
+    id: "it-97",
+    type: "scenario",
+    country: "Italy",
+    topic: "sparkling",
+    question: "How long must a non-vintage Franciacorta stay on its lees?",
+    options: [
+      "9 months",
+      "15 months",
+      "18 months",
+      "36 months"
+    ],
+    answer: 2,
+    region: "franciacorta",
+    explanation: "Non-vintage Franciacorta needs 18 months on the lees. Rosé and Satèn need 24, Millesimato 30 and Riserva 60."
+  },
+  {
+    id: "it-98",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "What makes Franciacorta Satèn different?",
+    options: [
+      "Pinot Nero only, at any sweetness",
+      "White grapes only, 5 bar, Brut",
+      "Tank-made, for early drinking",
+      "No lees ageing, sold as dolce"
+    ],
+    answer: 1,
+    region: "franciacorta",
+    explanation: "Satèn is at least 50% Chardonnay, with up to 50% Pinot Bianco and no Pinot Nero. Its pressure is at most 5 bar, which gives a softer mousse. It may only be sold as brut."
+  },
+  {
+    id: "it-99",
+    type: "scenario",
+    country: "Italy",
+    topic: "sparkling",
+    question: "A Franciacorta producer wants 'metodo classico' on the label. What do the rules say?",
+    options: [
+      "It must appear on every label",
+      "Only Riserva may use it",
+      "Only on non-vintage wines",
+      "It is not allowed"
+    ],
+    answer: 3,
+    region: "franciacorta",
+    explanation: "The rules ban 'metodo classico', 'metodo tradizionale' and 'vino spumante' on the label. The word Franciacorta names both the wine and the method."
+  },
+  {
+    id: "it-100",
+    type: "connection",
+    country: "Italy",
+    topic: "sparkling",
+    question: "How much Pinot Nero must Franciacorta Rosé contain?",
+    options: [
+      "At least 35%",
+      "Up to 10% at most",
+      "None at all",
+      "Exactly 15%"
+    ],
+    answer: 0,
+    region: "franciacorta",
+    explanation: "Rosé needs at least 35% Pinot Nero, with at most 65% Chardonnay. It must spend at least 24 months on the lees."
+  },
+  {
+    id: "it-101",
+    type: "map",
+    country: "Italy",
+    question: "Which region, between Lake Iseo and Brescia, makes traditional-method sparkling wine from Chardonnay, Pinot Nero and Pinot Bianco?",
+    answer: "franciacorta",
+    explanation: "Franciacorta is a glacial moraine bowl in Lombardy. Its wines are bottle-fermented, and Satèn is its white-grape, softer-bubbled style."
+  },
+  {
+    id: "fr-133",
+    type: "connection",
+    country: "France",
+    topic: "sparkling",
+    question: "After the second fermentation, what is the earliest a Champagne may be disgorged?",
+    options: [
+      "9 months after tirage",
+      "12 months after tirage",
+      "15 months after tirage",
+      "36 months after tirage"
+    ],
+    answer: 1,
+    region: "champagne",
+    explanation: "Disgorgement cannot happen until 12 months after tirage, and the wine stays in its bottle on the lees all that time. Release then waits until 15 months after tirage, or 36 months for vintage."
+  },
+  {
+    id: "fr-134",
+    type: "scenario",
+    country: "France",
+    topic: "sparkling",
+    question: "A Champagne press holds 4,000 kg of grapes. How much juice may be kept as the cuvée, the first and best fraction?",
+    options: [
+      "2,550 litres",
+      "500 litres",
+      "3,000 litres",
+      "2,050 litres"
+    ],
+    answer: 3,
+    region: "champagne",
+    explanation: "The cuvée is the first 2,050 litres. The next 500 litres are the taille. Together that makes 2,550 litres, the legal cap of 102 litres per 160 kg."
+  },
+  {
+    id: "fr-135",
+    type: "scenario",
+    country: "France",
+    topic: "sparkling",
+    question: "A Champagne blender wants more fresh acidity and ageing potential. Which pressing fraction should they favour?",
+    options: [
+      "The cuvée, the first juice",
+      "The taille, the later juice",
+      "The rebêche, the last juice",
+      "Juice from destemmed grapes"
+    ],
+    answer: 0,
+    region: "champagne",
+    explanation: "The cuvée is rich in acid and gives fresh, lively aromas. The taille is fruitier with more tannin. The rebêche cannot be used for Champagne and goes to the distillery, and grapes go into the press as whole bunches."
+  },
+  {
+    id: "fr-136",
+    type: "connection",
+    country: "France",
+    topic: "sparkling",
+    question: "Which way of making rosé is allowed in Champagne?",
+    options: [
+      "Only by bleeding off black grapes",
+      "Red wine added in the dosage",
+      "Blending red and white base wine",
+      "Skin contact during riddling"
+    ],
+    answer: 2,
+    region: "champagne",
+    explanation: "Champagne may make rosé by blending white and red wine before tirage. Direct pressing, maceration and saignée are also allowed. Colour is never added at dosage."
+  },
+  {
+    id: "fr-137",
+    type: "connection",
+    country: "France",
+    topic: "sparkling",
+    question: "Why may a Champagne producer sell no more than 80% of a year's wine as vintage?",
+    options: [
+      "To keep the price of vintage wine high",
+      "To keep reserve wine for blending",
+      "Because vintage must age 36 months",
+      "To leave wine for Coteaux Champenois"
+    ],
+    answer: 1,
+    region: "champagne",
+    explanation: "The rules cap vintage at 80% of the year's volume, to keep wine back for blending and reserves. Reserve wines from earlier harvests add riper, more mature character and keep a house style consistent."
+  },
+  {
+    id: "fr-138",
+    type: "scenario",
+    country: "France",
+    topic: "sparkling",
+    question: "A Champagne label carries the code RM. Who made the wine?",
+    options: [
+      "A grower, from their own vines",
+      "A large house buying in grapes",
+      "A cooperative making wine for members",
+      "A merchant selling bought-in bottles"
+    ],
+    answer: 0,
+    region: "champagne",
+    explanation: "RM means récoltant-manipulant, a grower who makes the wine. NM is a négociant-manipulant, such as the big houses. CM is a cooperative. ND is a merchant selling bottles made by others."
+  },
+  {
+    id: "fr-139",
+    type: "scenario",
+    country: "France",
+    topic: "sparkling",
+    question: "A sparkling wine has 40 g/L of sugar after dosage. Which term goes on the label?",
+    options: [
+      "Brut",
+      "Extra Dry",
+      "Sec",
+      "Demi-Sec"
+    ],
+    answer: 3,
+    region: "champagne",
+    explanation: "Demi-Sec covers 32 to 50 g/L. Sec is 17 to 32, Extra Dry 12 to 17, and Brut under 12. Doux is over 50."
+  },
+  {
+    id: "fr-140",
+    type: "scenario",
+    country: "France",
+    topic: "sparkling",
+    question: "A customer wants the drier of two Champagnes: Brut or Extra Dry. Which should you pour?",
+    options: [
+      "Extra Dry, as the name suggests",
+      "They are the same sweetness",
+      "Brut, which is under 12 g/L",
+      "Extra Dry, which is under 6 g/L"
+    ],
+    answer: 2,
+    region: "champagne",
+    explanation: "Brut is under 12 g/L. Extra Dry is sweeter, at 12 to 17 g/L, and the name misleads many people. Extra Brut, at 0 to 6 g/L, is drier than both."
+  },
+  {
+    id: "fr-141",
+    type: "connection",
+    country: "France",
+    topic: "sparkling",
+    question: "In the transfer method, how is the wine cleared of its lees?",
+    options: [
+      "It is filtered in a pressure tank",
+      "It is riddled and then disgorged",
+      "It is sold with its lees in bottle",
+      "It is fined in barrel before tirage"
+    ],
+    answer: 0,
+    region: "champagne",
+    explanation: "The second fermentation and lees ageing happen in bottle, as in the traditional method. The bottles are then emptied into a pressurised tank, filtered, dosed and rebottled, which skips riddling and disgorging."
+  },
+  {
+    id: "fr-142",
+    type: "connection",
+    country: "France",
+    topic: "sparkling",
+    question: "Limoux méthode ancestrale is sweet, gently sparkling and 6–7% alcohol. How is it made?",
+    options: [
+      "Second fermentation in a sealed tank",
+      "Traditional method, long lees ageing",
+      "Grape spirit added to stop fermentation",
+      "One fermentation, ended in bottle"
+    ],
+    answer: 3,
+    region: "languedocRoussillon",
+    explanation: "The wine is bottled before its first fermentation ends. That fermentation finishes in the bottle and makes the bubbles. It is 100% Mauzac and keeps some grape sugar, so the alcohol stays low."
+  },
+  {
+    id: "fr-143",
+    type: "scenario",
+    country: "France",
+    topic: "sparkling",
+    question: "Which grape must make up at least 90% of Blanquette de Limoux?",
+    options: [
+      "Chardonnay",
+      "Mauzac",
+      "Chenin Blanc",
+      "Pinot Noir"
+    ],
+    answer: 1,
+    region: "languedocRoussillon",
+    explanation: "Blanquette de Limoux is at least 90% Mauzac, with Chardonnay or Chenin making up the rest. It is made by the traditional method. Crémant de Limoux is the one led by Chardonnay and Chenin."
+  },
+  {
+    id: "fr-144",
+    type: "connection",
+    country: "France",
+    topic: "sparkling",
+    question: "Which pressing rule applies to every Crémant, including Crémant de Bourgogne?",
+    options: [
+      "No more than 102 L per 160 kg",
+      "No pressing limit at all",
+      "No more than 100 L per 150 kg",
+      "No more than 150 L per 100 kg"
+    ],
+    answer: 2,
+    region: "burgundy",
+    explanation: "EU law caps Crémant at 100 litres of juice per 150 kg of grapes. The grapes must be picked by hand and the wine must spend at least nine months on its lees. Champagne's own cap is 102 litres per 160 kg."
+  },
+  {
+    id: "fr-145",
+    type: "scenario",
+    country: "France",
+    topic: "sparkling",
+    question: "Which grape is NOT allowed in Crémant de Loire?",
+    options: [
+      "Sauvignon Blanc",
+      "Cabernet-Sauvignon",
+      "Chenin Blanc",
+      "Pinot Noir"
+    ],
+    answer: 0,
+    region: "loire",
+    explanation: "The white grapes are Chenin Blanc, Chardonnay and Orbois. The black grapes include Cabernet Franc, Cabernet-Sauvignon, Grolleau, Pineau d'Aunis and Pinot Noir. Sauvignon Blanc is not on the list."
+  },
+  {
+    id: "fr-146",
+    type: "connection",
+    country: "France",
+    topic: "sparkling",
+    question: "How does Vouvray pétillant differ from Vouvray mousseux?",
+    options: [
+      "It is made by the tank method",
+      "It must be medium-sweet",
+      "It skips any lees ageing",
+      "It has less gas in the bottle"
+    ],
+    answer: 3,
+    region: "loire",
+    explanation: "Both get their second fermentation in the bottle, and both must age at least 12 months from tirage before sale. Pétillant just has less carbon dioxide, so its bubbles are gentler."
   }
 ];

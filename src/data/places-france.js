@@ -51,6 +51,7 @@ export const PLACES_FRANCE = {
     "Montagne de Reims": [4.10, 49.15],
     "Côte des Blancs": [4.00, 48.97],
     "Vallée de la Marne": [3.75, 49.07],
+    "Côte de Sézanne": [3.72, 48.72],
     "Côte des Bar": [4.55, 48.15]
   },
   languedocRoussillon: {

@@ -79,5 +79,13 @@ export const PLACES_ITALY = {
     "Merano": [11.1667, 46.6667],
     "Trento": [11.1167, 46.0667],
     "Mezzolombardo": [11.1, 46.2167]
+  },
+  franciacorta: {
+    "Erbusco": [9.9667, 45.6],
+    "Adro": [9.95, 45.6167],
+    "Corte Franca": [9.9833, 45.6333],
+    "Cazzago San Martino": [10.0258, 45.5817],
+    "Iseo": [10.05, 45.65],
+    "Rovato": [9.9833, 45.5667]
   }
 };

@@ -207,8 +207,9 @@ export function countryOfQuestion(q) {
 }
 
 // Besides a country, the filter can be a topic that cuts across countries:
-// "Fortified" picks every question tagged topic: "fortified".
-export const TOPICS = ["Fortified"];
+// "Fortified" picks every question tagged topic: "fortified", "Sparkling" every
+// one tagged topic: "sparkling".
+export const TOPICS = ["Fortified", "Sparkling"];
 
 export function poolFor(questions, country = "All") {
   if (country === "All") return questions;

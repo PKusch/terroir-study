@@ -52,5 +52,11 @@ export const ITALY_REGION_PATHS = {
     // Trentino-Alto Adige: the Adige valley from Bolzano south to Trento
     d: `M${pt(10.95,46.75)} L${pt(11.7,46.8)} L${pt(11.75,46.05)} L${pt(11.2,45.95)} L${pt(10.95,46.1)} Z`,
     label: geoToSvg(11.35, 46.4)
+  },
+  franciacorta: {
+    // Franciacorta: the moraine hills between the south shore of Lake Iseo and Brescia,
+    // bounded by the Oglio to the west and Monte Orfano to the south
+    d: `M${pt(9.92,45.65)} L${pt(9.97,45.675)} L${pt(10.05,45.665)} L${pt(10.12,45.645)} L${pt(10.16,45.6)} L${pt(10.15,45.565)} L${pt(10.03,45.555)} L${pt(9.95,45.56)} L${pt(9.92,45.6)} Z`,
+    label: geoToSvg(10.03, 45.61)
   }
 };
