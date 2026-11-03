@@ -1044,6 +1044,15 @@ export const GRAPES = {
     aromas: ["lime", "honeysuckle", "citrus", "tropical fruit"],
     notes: "A grape of Madeira and the Azores that is also made in Australia, where it gives rich, aromatic dry whites. In Madeira its base wine is high in acidity and is turned into a medium-dry fortified wine aged in cask."
   },
+  albilloMayor: {
+    name: "Albillo Mayor",
+    aliases: ["Blanca del País"],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["green apple", "pear", "citrus", "floral", "almond"],
+    notes: "The local white grape of Ribera del Duero, where it was long a small part of the red blend. The DO now also makes white wine, and Albillo Mayor must lead it."
+  },
   aligote: {
     name: "Aligoté",
     aliases: ["Aligote"],
