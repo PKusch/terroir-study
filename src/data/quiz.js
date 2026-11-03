@@ -10113,5 +10113,65 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "loire",
     explanation: "Both get their second fermentation in the bottle, and both must age at least 12 months from tirage before sale. Pétillant just has less carbon dioxide, so its bubbles are gentler."
+  },
+  {
+    id: "nw-101",
+    type: "scenario",
+    country: "New World",
+    question: "A wine is labelled with the Finger Lakes AVA. Under US federal rules, how much of the wine must come from grapes grown inside the AVA?",
+    options: [
+      "At least 75% of it",
+      "At least 85% of it",
+      "At least 95% of it",
+      "Every single grape, 100%"
+    ],
+    answer: 1,
+    region: "newYork",
+    explanation: "US federal labelling rules say a wine named for an AVA must get at least 85% of its grapes from inside that AVA's boundaries."
+  },
+  {
+    id: "nw-102",
+    type: "scenario",
+    country: "New World",
+    question: "A wine is labelled simply 'New York'. Under US federal rules, how much of it must come from fruit grown in the state?",
+    options: [
+      "At least 51% of it",
+      "At least 95% of it",
+      "Every single grape, 100%",
+      "At least 75% of it"
+    ],
+    answer: 3,
+    region: "newYork",
+    explanation: "A state name on a US label needs at least 75% of the wine from fruit grown in that state, and the wine must be finished in that state or a neighbouring one. An AVA name asks more: 85%."
+  },
+  {
+    id: "nw-103",
+    type: "scenario",
+    country: "New World",
+    question: "A New York producer labels a wine 'Concord', a native Vitis labrusca grape. What is the lowest share of Concord the label allows?",
+    options: [
+      "At least 85%, the AVA rule",
+      "At least 90%, like Oregon",
+      "51%, if the label says so",
+      "75%, with no exceptions"
+    ],
+    answer: 2,
+    region: "newYork",
+    explanation: "US rules let a Vitis labrusca grape such as Concord be named on the label at 51%, as long as the label states that it contains at least 51% of that grape. Below 75%, that statement is required."
+  },
+  {
+    id: "nw-104",
+    type: "scenario",
+    country: "New World",
+    question: "Which is the deepest of the Finger Lakes, with its own sub-AVA?",
+    options: [
+      "Seneca Lake",
+      "Cayuga Lake",
+      "Keuka Lake",
+      "Canandaigua Lake"
+    ],
+    answer: 0,
+    region: "newYork",
+    explanation: "Seneca Lake is the deepest of the Finger Lakes and rarely freezes, so it does the most to soften winter cold on the slopes around it."
   }
 ];
