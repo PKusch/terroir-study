@@ -10428,5 +10428,140 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "laMancha",
     explanation: "Quality sparkling wine is allowed. If it is made another way than the traditional method, the label must name that method."
+  },
+  {
+    id: "es-197",
+    type: "connection",
+    country: "Spain",
+    question: "Where in Montsant are the granite sands mostly found, and what are they like?",
+    options: [
+      "Around Falset; low in organic matter and slow to hold water",
+      "Around Ulldemolins; rich clay that holds water well",
+      "On the coast; deep sand lying over limestone and marl",
+      "Along the Ebre; fertile river silt left by floods each year"
+    ],
+    answer: 0,
+    region: "montsant",
+    explanation: "The granite sands lie mainly around Falset. They hold little water and little organic matter, and give structure to all the wines."
+  },
+  {
+    id: "es-198",
+    type: "connection",
+    country: "Spain",
+    question: "What does a red Montsant Reserva need?",
+    options: [
+      "2 years in total, 6 months in oak",
+      "5 years in total, 24 months in oak",
+      "1 year in oak, with no rule at all on bottle ageing",
+      "3 years, with 12 months in oak and 18 in bottle"
+    ],
+    answer: 3,
+    region: "montsant",
+    explanation: "A red Reserva ages at least 3 years, with at least 12 months in oak and 18 months in bottle."
+  },
+  {
+    id: "es-199",
+    type: "connection",
+    country: "Spain",
+    question: "After phylloxera, what helped keep vines growing in Montsant?",
+    options: [
+      "Large estates bought up by foreign investors from France",
+      "Co-operatives, like Falset's and Cornudella's of 1919",
+      "Moving the vineyards down to the coastal plain",
+      "A switch to white grapes sold to Cava houses"
+    ],
+    answer: 1,
+    region: "montsant",
+    explanation: "Co-operatives founded in the early 1900s kept growers on the land. The modernista co-operatives of Falset and Cornudella date from 1919 and still work today."
+  },
+  {
+    id: "es-200",
+    type: "connection",
+    country: "Spain",
+    question: "Since the 2019 rule change, what must a white Ribera del Duero be made from?",
+    options: [
+      "At least 75% Verdejo",
+      "Any white grape",
+      "At least 50% Sauvignon Blanc",
+      "At least 75% Albillo Mayor"
+    ],
+    answer: 3,
+    region: "riberaDelDuero",
+    explanation: "White wines joined the DO in 2019. They need at least 75% Albillo Mayor, the local white grape also called Blanca del País."
+  },
+  {
+    id: "es-201",
+    type: "connection",
+    country: "Spain",
+    question: "What is the maximum yield for Tempranillo in Ribera del Duero?",
+    options: [
+      "7,000 kg/ha",
+      "4,500 kg/ha",
+      "9,500 kg/ha",
+      "12,000 kg/ha"
+    ],
+    answer: 0,
+    region: "riberaDelDuero",
+    explanation: "All grapes are capped at 7,000 kg/ha except the white Albillo Mayor, which may reach 9,500 kg/ha."
+  },
+  {
+    id: "es-202",
+    type: "connection",
+    country: "Spain",
+    question: "What can a Ribera del Duero rosé call itself, and what must it contain?",
+    options: [
+      "Only 'rosado'; it must be 100% Tempranillo",
+      "'Rosado' or 'clarete'; at least 50% red grapes",
+      "Only 'clarete'; it may be made from any white grape",
+      "'Rosado'; it needs at least 85% Garnacha Tinta"
+    ],
+    answer: 1,
+    region: "riberaDelDuero",
+    explanation: "The rules allow either word, rosado or clarete. The wine needs at least 50% of the authorised red grapes."
+  },
+  {
+    id: "es-203",
+    type: "connection",
+    country: "Spain",
+    question: "How long must a Valencia quality sparkling wine take if its second fermentation is in bottle?",
+    options: [
+      "At least 3 months",
+      "At least 6 months",
+      "At least 9 months",
+      "At least 15 months"
+    ],
+    answer: 2,
+    region: "valencia",
+    explanation: "It needs at least 9 months from that fermentation, ageing included. A sparkling wine made in a closed tank needs at least 6 months."
+  },
+  {
+    id: "es-204",
+    type: "connection",
+    country: "Spain",
+    question: "A Valencia wine blends grapes from Alto Turia and Clariano. What name can its label use?",
+    options: [
+      "Alto Turia, the higher one",
+      "Clariano, the larger share",
+      "Valentino, as a compromise",
+      "Only 'Valencia'"
+    ],
+    answer: 3,
+    region: "valencia",
+    explanation: "A sub-zone name needs grapes only from that sub-zone. Wine from more than one sub-zone can only be sold as 'Valencia'."
+  },
+  {
+    id: "es-205",
+    type: "connection",
+    country: "Spain",
+    question: "How much wine may a Valencia 'Vino de Parcela' take from 100 kg of grapes?",
+    options: [
+      "Up to 65 litres",
+      "Up to 76 litres",
+      "Up to 82 litres",
+      "Up to 90 litres"
+    ],
+    answer: 0,
+    region: "valencia",
+    explanation: "The usual cap is 76 litres of wine per 100 kg. A Vino de Parcela, from a single plot, is held to 65 litres."
   }
 ];
