@@ -10278,5 +10278,155 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "argentina",
     explanation: "The law limits an IG to an area no larger than one province, or an inter-provincial zone already recognised. The wine must be made and bottled in that area from vinifera grapes."
+  },
+  {
+    id: "es-187",
+    type: "connection",
+    country: "Spain",
+    question: "Besides Crianza, Reserva and Gran Reserva, which ageing terms may a Yecla label use?",
+    options: [
+      "Noble, Añejo and Viejo",
+      "Roble, Joven and Tradicional",
+      "Superior, Clásico and Riserva",
+      "Fino, Oloroso and Amontillado"
+    ],
+    answer: 0,
+    region: "yecla",
+    explanation: "The rule book lists Noble, Añejo and Viejo alongside Crianza, Reserva and Gran Reserva."
+  },
+  {
+    id: "es-188",
+    type: "connection",
+    country: "Spain",
+    question: "How ripe must red grapes be at harvest for DO Yecla?",
+    options: [
+      "At least 9 °Baumé",
+      "At least 10 °Baumé",
+      "At least 11 °Baumé",
+      "At least 13 °Baumé"
+    ],
+    answer: 2,
+    region: "yecla",
+    explanation: "Reds need 11 °Baumé and whites 10. Grapes for vino de licor need 13."
+  },
+  {
+    id: "es-189",
+    type: "connection",
+    country: "Spain",
+    question: "How much finished wine may a Yecla producer take from 100 kg of grapes?",
+    options: [
+      "No more than 60 litres",
+      "No more than 74 litres",
+      "No more than 85 litres",
+      "No more than 90 litres"
+    ],
+    answer: 1,
+    region: "yecla",
+    explanation: "The cap is 74 litres per 100 kg. Pressing too hard is ruled out: continuous screw presses are banned."
+  },
+  {
+    id: "es-190",
+    type: "connection",
+    country: "Spain",
+    question: "Which two red grapes are on Yecla's authorised list?",
+    options: [
+      "Bobal and Mencía, two other Spanish reds",
+      "Graciano and Carignan from Rioja",
+      "Pinot Noir and Malbec, two French grapes",
+      "Garnacha Tintorera and Petit Verdot"
+    ],
+    answer: 3,
+    region: "yecla",
+    explanation: "The reds are Monastrell, Tempranillo, Cabernet Sauvignon, Syrah, Merlot, Garnacha Tinta, Garnacha Tintorera and Petit Verdot. Monastrell is the principal one."
+  },
+  {
+    id: "es-191",
+    type: "connection",
+    country: "Spain",
+    question: "What must a 'Vendimia tardía' (late-harvest) wine from Calatayud reach?",
+    options: [
+      "At least 12% alcohol, any total",
+      "At least 13.5% alcohol, over 15% in total",
+      "At least 15% alcohol, over 17.5% in total",
+      "At least 11% alcohol, over 13% in total"
+    ],
+    answer: 1,
+    region: "calatayud",
+    explanation: "It needs at least 13.5% actual alcohol and more than 15% total alcohol, counting the sugar left in the wine."
+  },
+  {
+    id: "es-192",
+    type: "connection",
+    country: "Spain",
+    question: "How much sugar must a 'Naturalmente dulce' wine from Calatayud keep?",
+    options: [
+      "At least 4 g/l",
+      "At least 12 g/l",
+      "At least 45 g/l",
+      "At least 100 g/l"
+    ],
+    answer: 2,
+    region: "calatayud",
+    explanation: "It must keep 45 g/l of sugar or more. Like the late-harvest wine, it needs at least 13.5% actual alcohol."
+  },
+  {
+    id: "es-193",
+    type: "connection",
+    country: "Spain",
+    question: "Over how many municipalities is DO Calatayud's vineyard spread?",
+    options: [
+      "51",
+      "12",
+      "120",
+      "5"
+    ],
+    answer: 0,
+    region: "calatayud",
+    explanation: "About 3,200 ha of vines lie in 51 municipalities in the south-west of Zaragoza province, around the rivers that feed the Ebro."
+  },
+  {
+    id: "es-194",
+    type: "connection",
+    country: "Spain",
+    question: "Which four provinces does DO La Mancha cover?",
+    options: [
+      "Madrid, Toledo, Guadalajara and Ávila de los Caballeros",
+      "Albacete, Murcia, Alicante and Valencia",
+      "Albacete, Ciudad Real, Cuenca and Toledo",
+      "Ciudad Real, Badajoz, Jaén and Córdoba"
+    ],
+    answer: 2,
+    region: "laMancha",
+    explanation: "The rule book lists towns in Albacete, Ciudad Real, Cuenca and Toledo, all in Castilla-La Mancha."
+  },
+  {
+    id: "es-195",
+    type: "connection",
+    country: "Spain",
+    question: "How long must a La Mancha 'Roble' wine spend in oak?",
+    options: [
+      "At least 6 months",
+      "At least 60 days",
+      "At least 12 months",
+      "At least 30 days"
+    ],
+    answer: 1,
+    region: "laMancha",
+    explanation: "A Roble wine needs at least 60 days in oak barrels. Crianza needs 6 months in oak within 24 months in total."
+  },
+  {
+    id: "es-196",
+    type: "connection",
+    country: "Spain",
+    question: "A La Mancha sparkling wine is not made by the traditional method. What must its label say?",
+    options: [
+      "Nothing extra, since the method is free",
+      "The word 'Cava' under the DO name",
+      "The method used, such as Charmat or Granvás",
+      "'Vino de aguja' in place of the word sparkling"
+    ],
+    answer: 2,
+    region: "laMancha",
+    explanation: "Quality sparkling wine is allowed. If it is made another way than the traditional method, the label must name that method."
   }
 ];
