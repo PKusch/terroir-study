@@ -10233,5 +10233,50 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "oregon",
     explanation: "If 'Oregon' appears anywhere on the label, every grape must have been grown in Oregon. The US rule for a state name is only 75%."
+  },
+  {
+    id: "nw-109",
+    type: "connection",
+    country: "New World",
+    question: "Under Argentina's 1999 wine law, which wines may use an Indicación de Procedencia (IP)?",
+    options: [
+      "Only quality Malbec",
+      "Only single-estate wines",
+      "Only table and regional wines",
+      "Only wines aged two years or more"
+    ],
+    answer: 2,
+    region: "argentina",
+    explanation: "The law keeps the IP for table and regional wines. The Indicación Geográfica (IG) is kept for quality wines, and the DOC sits above both."
+  },
+  {
+    id: "nw-110",
+    type: "connection",
+    country: "New World",
+    question: "What must happen inside the area of an Argentine DOC, such as Luján de Cuyo?",
+    options: [
+      "Growing, making, ageing, bottling",
+      "Only the growing; bottling can be anywhere",
+      "Only the bottling; grapes can come from anywhere",
+      "Only the ageing in barrel"
+    ],
+    answer: 0,
+    region: "argentina",
+    explanation: "Argentina's wine law says a DOC wine's grapes, winemaking, ageing and bottling all take place in the same defined area. Joining a DOC is voluntary, and the idea for a new one must come from growers and producers in the area."
+  },
+  {
+    id: "nw-111",
+    type: "connection",
+    country: "New World",
+    question: "How big can an Argentine Indicación Geográfica (IG), such as Mendoza, be?",
+    options: [
+      "No bigger than one department",
+      "It must cover two provinces",
+      "Any size, up to the whole country",
+      "No bigger than a province"
+    ],
+    answer: 3,
+    region: "argentina",
+    explanation: "The law limits an IG to an area no larger than one province, or an inter-provincial zone already recognised. The wine must be made and bottled in that area from vinifera grapes."
   }
 ];
