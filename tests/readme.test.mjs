@@ -39,3 +39,10 @@ test("the README roadmap quotes the real place and region count", () => {
   assert.equal(Number(m[1]), places, "places");
   assert.equal(Number(m[2]), regions, "regions");
 });
+
+test("the README's region-by-region list has a line for every region", () => {
+  const start = README.indexOf("<summary><b>Region by region");
+  const list = README.slice(start, README.indexOf("</details>", start));
+  const missing = Object.values(REGIONS).map((r) => r.name).filter((name) => !list.includes(`**${name.split(" (")[0]}`));
+  assert.deepEqual(missing, [], "add a line for each of these under Regions Covered");
+});
