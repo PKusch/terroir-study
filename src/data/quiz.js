@@ -10563,5 +10563,245 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "valencia",
     explanation: "The usual cap is 76 litres of wine per 100 kg. A Vino de Parcela, from a single plot, is held to 65 litres."
+  },
+  {
+    id: "it-102",
+    type: "scenario",
+    country: "Italy",
+    question: "What must Trebbiano d'Abruzzo DOC be made from?",
+    options: [
+      "At least 85% Montepulciano, made as a white wine",
+      "At least 85% Trebbiano abruzzese or toscano",
+      "Equal parts of Pecorino, Passerina and Cococciola",
+      "Only Bombino Bianco from the coastal hills"
+    ],
+    answer: 1,
+    region: "abruzzo",
+    explanation: "The rule book asks for at least 85% Trebbiano abruzzese and/or Trebbiano toscano, with up to 15% of other non-aromatic white grapes."
+  },
+  {
+    id: "it-103",
+    type: "scenario",
+    country: "Italy",
+    question: "How many sub-zones does the Montepulciano d'Abruzzo DOC have today?",
+    options: [
+      "Three",
+      "Five",
+      "Nine",
+      "Twelve"
+    ],
+    answer: 2,
+    region: "abruzzo",
+    explanation: "There were five at first, such as Terre di Casauria and Teate, and four more were added later. Colline Teramane left to become its own DOCG in 2003."
+  },
+  {
+    id: "it-104",
+    type: "connection",
+    country: "Italy",
+    question: "What is the most grapes a hectare may give for basic Montepulciano d'Abruzzo DOC?",
+    options: [
+      "15 t/ha",
+      "9.5 t/ha",
+      "8 t/ha",
+      "20 t/ha"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "The basic DOC allows 15 tonnes a hectare. The Terre di Casauria sub-zone allows only 9.5, so its grapes are more concentrated."
+  },
+  {
+    id: "it-105",
+    type: "scenario",
+    country: "Italy",
+    question: "How long must Torgiano Rosso Riserva DOCG be aged?",
+    options: [
+      "At least 24 months, with 6 in oak barrels",
+      "At least 60 months, all of it in large oak",
+      "At least 18 months, with no wood needed at all",
+      "36 months: 12 in wood, 6 in bottle"
+    ],
+    answer: 3,
+    region: "umbria",
+    explanation: "At least 36 months from 1 November of the harvest year, of which at least 12 in wood and 6 in bottle."
+  },
+  {
+    id: "it-106",
+    type: "scenario",
+    country: "Italy",
+    question: "Where must the grapes for Torgiano Rosso Riserva DOCG be grown?",
+    options: [
+      "Only in the commune of Torgiano",
+      "Anywhere in the province of Perugia",
+      "Across Umbria and northern Lazio",
+      "Around Lake Corbara near Orvieto"
+    ],
+    answer: 0,
+    region: "umbria",
+    explanation: "The grapes must come from the commune of Torgiano, and flat, damp land along the Tiber and Chiascio rivers is left out. The wine is 70 to 100% Sangiovese."
+  },
+  {
+    id: "it-107",
+    type: "scenario",
+    country: "Italy",
+    question: "The Orvieto DOC crosses a regional border. Which two regions share it?",
+    options: [
+      "Umbria and Tuscany",
+      "Umbria and Marche",
+      "Umbria and Lazio",
+      "Umbria and Abruzzo"
+    ],
+    answer: 2,
+    region: "umbria",
+    explanation: "Its communes lie in the province of Terni, in Umbria, and the province of Viterbo, in Lazio."
+  },
+  {
+    id: "pt-64",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which optional label term is kept only for Alvarinho wines from Monção e Melgaço?",
+    options: [
+      "Vinho Regional Minho",
+      "Origem do Alvarinho",
+      "Alvarinho Clássico",
+      "Reserva do Minho"
+    ],
+    answer: 1,
+    region: "vinhoVerde",
+    explanation: "A 2016 change to the Vinho Verde rules created 'Origem do Alvarinho' for Alvarinho-labelled wines made in Monção e Melgaço."
+  },
+  {
+    id: "pt-65",
+    type: "scenario",
+    country: "Portugal",
+    question: "How many sub-regions does the Vinho Verde DOC have?",
+    options: [
+      "Nine",
+      "Five",
+      "Seven",
+      "Twelve"
+    ],
+    answer: 0,
+    region: "vinhoVerde",
+    explanation: "They are Monção e Melgaço, Lima, Cávado, Ave, Basto, Sousa, Amarante, Baião and Paiva, and a sub-region name can go on the label next to Vinho Verde."
+  },
+  {
+    id: "pt-66",
+    type: "connection",
+    country: "Portugal",
+    question: "Which white grape is the speciality of Baião, the inland sub-region beside the Douro?",
+    options: [
+      "Loureiro",
+      "Alvarinho",
+      "Trajadura",
+      "Avesso"
+    ],
+    answer: 3,
+    region: "vinhoVerde",
+    explanation: "Baião sits between the warmer Douro valley and the sea-cooled coast, and is known for its whites from Avesso."
+  },
+  {
+    id: "pt-67",
+    type: "scenario",
+    country: "Portugal",
+    question: "A wine is labelled Vinho Verde from the coastal Lima sub-region. Which aromatic grape is it most likely built on?",
+    options: [
+      "Avesso",
+      "Loureiro",
+      "Encruzado",
+      "Antão Vaz"
+    ],
+    answer: 1,
+    region: "vinhoVerde",
+    explanation: "Loureiro, a floral grape, is strongest in the coastal sub-regions of Lima, Cávado and Ave."
+  },
+  {
+    id: "pt-68",
+    type: "scenario",
+    country: "Portugal",
+    question: "To be labelled Vinho de Talha DOC Alentejo, how long must the wine stay in the clay pot?",
+    options: [
+      "Until Easter of the year after the harvest",
+      "At least two full years, then into bottle",
+      "Until at least 11 November that year",
+      "Only until the fermentation has stopped"
+    ],
+    answer: 2,
+    region: "alentejo",
+    explanation: "The wine must stay in the talha from the start of fermentation until at least 11 November, St Martin's Day, of the harvest year."
+  },
+  {
+    id: "pt-69",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which Alentejo white grape also goes by the names Síria and Códega?",
+    options: [
+      "Antão Vaz",
+      "Arinto",
+      "Roupeiro",
+      "Encruzado"
+    ],
+    answer: 2,
+    region: "alentejo",
+    explanation: "Roupeiro is grown in almost every Alentejo sub-region for its high yields and strong fruity aromas."
+  },
+  {
+    id: "pt-70",
+    type: "connection",
+    country: "Portugal",
+    question: "Which white grape suits the Alentejo's hot plains and has become a star in Vidigueira and Évora?",
+    options: [
+      "Antão Vaz",
+      "Loureiro",
+      "Fernão Pires",
+      "Alvarinho"
+    ],
+    answer: 0,
+    region: "alentejo",
+    explanation: "Antão Vaz is a hot-climate grape from the Alentejo itself, and its oldest vines are found around Vidigueira."
+  },
+  {
+    id: "pt-71",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which Dão sub-region is made up of the municipality of Mangualde?",
+    options: [
+      "Terras de Senhorim",
+      "Terras de Azurara",
+      "Silgueiros",
+      "Castendo"
+    ],
+    answer: 1,
+    region: "dao",
+    explanation: "Terras de Azurara is Mangualde. Terras de Senhorim is Carregal do Sal and Nelas, and Castendo is Penalva do Castelo."
+  },
+  {
+    id: "pt-72",
+    type: "scenario",
+    country: "Portugal",
+    question: "Which two rivers give the Dão its vineyard valleys?",
+    options: [
+      "The Douro and the Tâmega",
+      "The Tagus and the Zêzere",
+      "The Minho and the Lima",
+      "The Mondego and the Dão"
+    ],
+    answer: 3,
+    region: "dao",
+    explanation: "The Dão wine region lies around the Mondego and its tributary, the Dão, which gives the region its name."
+  },
+  {
+    id: "pt-73",
+    type: "connection",
+    country: "Portugal",
+    question: "Which red grape, now central to Port, is thought to come from the Dão?",
+    options: [
+      "Baga",
+      "Tinta Roriz (Tempranillo)",
+      "Castelão",
+      "Touriga Nacional"
+    ],
+    answer: 3,
+    region: "dao",
+    explanation: "The Dão is believed to be the home of Touriga Nacional, which is now the leading quality grape of Port and the Douro."
   }
 ];
