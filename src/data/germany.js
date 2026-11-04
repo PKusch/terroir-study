@@ -100,10 +100,10 @@ export const GERMANY_REGIONS = {
     subRegions: ["Mainviereck", "Maindreieck", "Steigerwald"],
     soils: "All Triassic. Mainviereck (west) has Buntsandstein (coloured sandstone), Maindreieck (centre, around Würzburg) has Muschelkalk (shell limestone), and the Steigerwald (east, around Iphofen) has Keuper with gypsum.",
     viticultureNotes: "Silvaner is the signature grape, with 1,536 ha, about a quarter of plantings in 2025, followed by Müller-Thurgau. The first record of Silvaner in Franken is a Castell document of 1659. The region is 83% white and 17% red, and it has three Bereiche: Mainviereck, Maindreieck and Steigerwald.",
-    winemaking: "Most wine is dry, and 'fränkisch trocken' means 4 g/L of fermentable sugar or less. The flat, round Bocksbeutel bottle is a protected trademark of Franconian wine: its contents need at least 72 °Oechsle and an official quality test. Cooperatives make about 40% of production.",
+    winemaking: "Most wine is dry, and 'fränkisch trocken' means 4 g/L of fermentable sugar or less. The flat, round Bocksbeutel bottle is reserved by EU law for Franken and a few named parts of Baden (the Taubertal, the Schüpfergrund and four villages of Baden-Baden): in Franken its contents need at least 72 °Oechsle and an official quality test. Cooperatives make about 40% of production.",
     typicalStyle: "Dry, full-bodied whites with minerality, an earthy texture and firm acidity. Muschelkalk wines are chalky and precise, and Buntsandstein wines are broader and earthier. Most are single-grape wines.",
     qualityLevels: ["Deutscher Wein", "Landwein", "Qualitätswein (Franken)", "Prädikatswein: Kabinett to Trockenbeerenauslese", "VDP Gutswein / Ortswein / Erste Lage / Grosse Lage", "Bocksbeutel (protected bottle)"],
-    whyConnection: "A continental climate with cold winters and spring frost → vines on sheltered sites along the Main. Triassic limestone and sandstone → Silvaner with an earthy, mineral character. A bottle shape protected since 1989 → the Bocksbeutel is the region's emblem.",
+    whyConnection: "A continental climate with cold winters and spring frost → vines on sheltered sites along the Main. Triassic limestone and sandstone → Silvaner with an earthy, mineral character. A bottle shape protected since 1989, shared only with small parts of Baden → the Bocksbeutel is the region's emblem.",
     color: "#3E7CB1"
   }
 };

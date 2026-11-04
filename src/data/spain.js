@@ -238,9 +238,9 @@ export const SPAIN_REGIONS = {
     subRegions: ["Jumilla", "Hellín"],
     soils: "Brown and reddish-brown, calcareous, stony and loose, poor in organic matter and nutrients, with loam or sandy-loam texture. A limestone crust sometimes has to be broken mechanically. The sandy-clay nature of many soils limited the spread of phylloxera.",
     viticultureNotes: "Monastrell is more than 70% of the vineyard. A wine can be labelled 'Jumilla Monastrell' only if it has at least 85% Monastrell, and the other authorised reds are Garnacha Tintorera, Cencibel (Tempranillo), Cabernet Sauvignon, Garnacha, Merlot, Syrah and Petit Verdot. Extensive vineyards hold 1,100 to 1,900 vines per hectare and yield at most 5,000 kg/ha for reds. The dryness leaves almost no fungal disease. 'Viña vieja' needs at least 85% of grapes from vines at least 30 years old.",
-    winemaking: "Reds are broad and fleshy with good alcohol and acidity, ripe red and black fruit and well-integrated tannin. Jumilla Dulce is a sweet vino de licor made only from Monastrell with neutral grape alcohol, at least 17.5% total alcohol.",
+    winemaking: "Reds are broad and fleshy with good alcohol and acidity, ripe red and black fruit and well-integrated tannin. Two sweet types are separate in the 2025 rule book: Jumilla Dulce, a sweet red, rosé or white, and a vino de licor, red from Monastrell only, fortified with grape spirit to at least 17.5% total alcohol.",
     typicalStyle: "Full-bodied, ripe, fleshy reds from Monastrell with firm tannin and ripe black fruit.",
-    qualityLevels: ["Vino de España", "DO Jumilla", "Jumilla Monastrell (at least 85% Monastrell)", "Viña vieja (vines at least 30 years old)", "Jumilla Dulce (vino de licor)"],
+    qualityLevels: ["Vino de España", "DO Jumilla", "Jumilla Monastrell (at least 85% Monastrell)", "Viña vieja (vines at least 30 years old)", "Jumilla Dulce (sweet wine)", "Vino de licor (fortified Monastrell)"],
     whyConnection: "Very little rain and a hot sun → low yields, healthy grapes and almost no fungal disease. Monastrell, a grape that likes heat and dryness, takes more than 70% of the vineyard. Calcareous soils with sandy clay → in many places phylloxera spread slowly.",
     color: "#9A3B62"
   },
