@@ -11018,7 +11018,7 @@ export const QUIZ_QUESTIONS = [
     id: "at-26",
     type: "connection",
     country: "Austria",
-    question: "Which two Burgenland DACs came after Mittelburgenland, both in 2009?",
+    question: "Which two Burgenland DACs came next after Mittelburgenland, set up in 2009 and 2010?",
     options: [
       "Leithaberg and Eisenberg",
       "Rosalia and Neusiedlersee",
@@ -11027,13 +11027,13 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "burgenland",
-    explanation: "Mittelburgenland came first, in 2005. Leithaberg and Eisenberg followed in 2009. Kamptal, Kremstal, Wachau and Weinviertel are in Lower Austria, not Burgenland."
+    explanation: "Mittelburgenland came first, in 2005. Leithaberg followed in 2009 and Eisenberg in 2010. Kamptal, Kremstal, Wachau and Weinviertel are in Lower Austria, not Burgenland."
   },
   {
     id: "hu-21",
     type: "connection",
     country: "Hungary",
-    question: "Which settlers shaped Villány's wine villages from about 1720 until the end of the Second World War?",
+    question: "Which settlers reshaped Villány's wine villages from the 1740s onward?",
     options: [
       "French Huguenot refugees",
       "Italian Benedictine monks",
@@ -11042,7 +11042,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "villany",
-    explanation: "German-speaking settlers, the Danube Swabians, arrived around 1720 and were the main people of Villány until 1945. Their wine-making traditions are still part of the region's identity."
+    explanation: "After Turkish rule had emptied the area, German-speaking settlers were brought in from the 1740s. They brought their grapes and wine-making customs, and built most of the cellar rows at Villány, Villánykövesd and Palkonya."
   },
   {
     id: "hu-22",
@@ -11078,16 +11078,16 @@ export const QUIZ_QUESTIONS = [
     id: "hu-24",
     type: "connection",
     country: "Hungary",
-    question: "What happened to Villány's fine wine in the communist years?",
+    question: "What happened to Villány's vineyards in the four decades after 1945?",
     options: [
-      "It was exported to France",
-      "It all but disappeared",
-      "It moved to white wine",
-      "It was made only as sweet wine"
+      "Wine-making stopped there entirely",
+      "Large state farms took them over",
+      "They were replanted with white grapes",
+      "They made only sweet wine for export"
     ],
     answer: 1,
     region: "villany",
-    explanation: "Under communism, quality wine in Villány all but vanished. Since then its red wines, and its Portugieser, have come back."
+    explanation: "Large state farms ran the vineyards for four decades. Kadarka, once the main red grape, declined and Portugieser took its place, with new Kékfrankos, Merlot and Cabernet. Small producers took over again from the late 1980s, and quality became the aim."
   },
   {
     id: "hu-25",
