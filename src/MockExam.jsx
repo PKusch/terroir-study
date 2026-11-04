@@ -156,8 +156,9 @@ export const MockExam = ({ active = true }) => {
             A timed paper of multiple-choice questions, marked at the end. You see no answers until you hand it
             in. It is modelled on the multiple-choice part of the WSET Level 3 exam: 50 questions, closed book, one
             mark each, nothing lost for a wrong answer, and a pass mark of {Math.round(PASS_MARK * 100)}%. WSET sets
-            no time for that part on its own (it gives two hours for the whole written paper), so the clock here is
-            this app's own: 72 seconds a question. Your quiz progress is not touched.
+            no time for that part on its own (it gives two hours for the whole theory paper, which also has four
+            written questions of 25 marks each, and each part needs 55% on its own), so the clock here is this
+            app's own: 72 seconds a question. Your quiz progress is not touched.
           </p>
         </div>
 
