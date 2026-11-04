@@ -9,3 +9,13 @@ export function shuffled(list, rng = Math.random) {
   }
   return out;
 }
+
+// A multiple-choice question with its options in random order and `answer`
+// moved to follow the right option. Map questions come back unchanged. The
+// stored order puts the right answer first more often than last, so showing it
+// as written would reward always picking the first option.
+export function withShuffledOptions(q, rng = Math.random) {
+  if (!q?.options) return q;
+  const order = shuffled(q.options.map((_, i) => i), rng);
+  return { ...q, options: order.map((i) => q.options[i]), answer: order.indexOf(q.answer) };
+}

@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
+import { withShuffledOptions } from "./random.js";
 import { quizShortcut } from "./shortcuts.js";
 import { useTwoStep } from "./useTwoStep.js";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
@@ -32,7 +33,9 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
   const [score, setScore] = useState({ correct: 0, total: 0 });
   const [mapAnswer, setMapAnswer] = useState(null);
 
-  const q = byId(currentId);
+  // Options are shuffled once per question, so the right one is not always in
+  // the same place it is stored.
+  const q = useMemo(() => withShuffledOptions(byId(currentId)), [currentId]);
   const isMapQ = q.type === "map";
 
   // Tell the app which country's map to show for this question.
