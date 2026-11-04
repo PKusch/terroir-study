@@ -11808,5 +11808,110 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "bairrada",
     explanation: "The 1991 decree extended the denomination to rosé and natural sparkling wines, citing a climate well suited to them. Sparkling wine had already been made there for about a century."
+  },
+  {
+    id: "de-67",
+    type: "connection",
+    country: "Germany",
+    question: "Which parts of Baden may sell their wine in the flat, round Bocksbeutel bottle?",
+    options: [
+      "The whole of Baden, exactly as in Franken",
+      "Only the Kaiserstuhl and Tuniberg",
+      "Taubertal and four Baden-Baden villages",
+      "None at all: the bottle is reserved for Franken"
+    ],
+    answer: 2,
+    region: "baden",
+    explanation: "EU rules reserve the Bocksbeutel for Franken and for parts of Baden: Taubertal, Schüpfergrund, and Neuweier, Steinbach, Umweg and Varnhalt in Baden-Baden."
+  },
+  {
+    id: "de-68",
+    type: "connection",
+    country: "Germany",
+    question: "Which two German state governments may set extra quality rules for wine sold in Bocksbeutel bottles?",
+    options: [
+      "Baden-Württemberg and Bavaria",
+      "Rhineland-Palatinate and Hesse",
+      "Bavaria and Saxony",
+      "Hesse and Baden-Württemberg"
+    ],
+    answer: 0,
+    region: "baden",
+    explanation: "German wine rules let Baden-Württemberg (for Baden) and Bavaria (for Franken) require, for example, a minimum score in the official quality test before wine goes into a Bocksbeutel."
+  },
+  {
+    id: "de-69",
+    type: "connection",
+    country: "Germany",
+    question: "Before the 1971 German wine law, how were Nahe wines usually sold?",
+    options: [
+      "As Mosel wine",
+      "As plain Rhine wine",
+      "As Franken wine",
+      "Under their village names only"
+    ],
+    answer: 1,
+    region: "nahe",
+    explanation: "The Nahe became a wine region of its own only with the 1971 wine law. Before that, its wines were sold simply as Rhine wine."
+  },
+  {
+    id: "de-71",
+    type: "connection",
+    country: "Germany",
+    question: "Where and when did Georg Scheu breed the Scheurebe grape?",
+    options: [
+      "Alzey in Rheinhessen, in 1916",
+      "Geisenheim in the Rheingau, in 1882",
+      "Würzburg in Franken, in 1929",
+      "Freiburg in Baden, in 1938"
+    ],
+    answer: 0,
+    region: "rheinhessen",
+    explanation: "Scheu bred it at the state vine-breeding institute in Alzey in 1916. Rheinhessen still has about half of Germany's Scheurebe."
+  },
+  {
+    id: "de-72",
+    type: "connection",
+    country: "Germany",
+    question: "DNA tests in 2012 showed Scheurebe's parents. Which are they?",
+    options: [
+      "Riesling and Silvaner",
+      "Silvaner and Trollinger",
+      "Riesling and Bukettrebe",
+      "Müller-Thurgau and Riesling"
+    ],
+    answer: 2,
+    region: "rheinhessen",
+    explanation: "For decades it was thought to be Riesling and Silvaner, but DNA tests showed the second parent is Bukettrebe."
+  },
+  {
+    id: "at-27",
+    type: "connection",
+    country: "Austria",
+    question: "Which area makes up Vulkanland Steiermark DAC?",
+    options: [
+      "All of Steiermark south of the city of Graz",
+      "Only the district of Leibnitz",
+      "The Schilcher country west of Graz",
+      "Three districts and part of Leibnitz"
+    ],
+    answer: 3,
+    region: "steiermark",
+    explanation: "The DAC rules define it as the districts of Südoststeiermark, Hartberg-Fürstenfeld and Weiz, plus the Leibnitz villages on the left bank of the Mur."
+  },
+  {
+    id: "at-28",
+    type: "connection",
+    country: "Austria",
+    question: "Where must a Südsteiermark DAC wine be made and bottled?",
+    options: [
+      "Anywhere in Austria",
+      "In the Steiermark wine region",
+      "Only on the estate that grew it",
+      "In the Südsteiermark district only"
+    ],
+    answer: 1,
+    region: "steiermark",
+    explanation: "The 2018 DAC rules say Südsteiermark DAC must be made and bottled in the Steiermark wine region."
   }
 ];
