@@ -18,7 +18,7 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 
 ## Not covered, or only partly
 
-- **Castilla y León Vino de la Tierra.** Still not a region. The WSET wording and the full list of allowed grapes could not be found, and the official specification pages would not open, so nothing about it is guessed here. Penedès (still wines) was added on 2026-10-26 from the DO's own specification, version March 2026.
+- **Castilla y León Vino de la Tierra.** Still not a region in the app. WSET's specification names it but gives it no grapes of its own. Its rule book has now been read (a proposed revision of 2020, PGI-ES-A0948, on the Spanish ministry's site; whether it was adopted could not be confirmed): it covers every municipality of Castilla y León, allows still, liqueur, sparkling, semi-sparkling and overripe-grape wines, and names Tempranillo, Mencía, Garnacha, Juan García and Prieto Picudo as its main reds and Verdejo, Viura and the two Albillos as its main whites. Adding it as a region is the next step.
 - **Smaller places inside a region.** The specification names many districts and appellations (Sancerre, Muscadet, Saumur and others). Some are listed as places inside a region, but they have no page of their own.
 - **Sparkling wines** are now covered: Franciacorta has its own region (added 2026-11-03), the other sparkling wines sit in their regions, a *Sparkling* filter gathers every sparkling question, and the *Styles* tab compares the methods side by side.
 - **Fortified wines** are now covered: Madeira has its own region (added 2026-11-03), and Port, Sherry, the French Vins Doux Naturels, Marsala and Rutherglen Muscat sit in their regions, with a *Fortified* filter in the quiz and the mock exam that gathers every fortified question.
@@ -27,9 +27,9 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 
 ## Thinnest regions in the quiz
 
-`npm run coverage` lists how many questions each region has. On 2026-11-03 the 21 thinnest regions (Villány, New York, Oregon, Vinho Verde, Yecla, Burgundy and fifteen that had five) were each brought to at least eight. The thinnest now have six each, 19 of them: baden, bairrada, bierzo, carinena, catalunya, franciacorta, friuli, jumilla, lazio, marche, nahe, naoussa, rheinhessen, rioja, santorini, steiermark, trentinoAltoAdige, tuscany, washington.
+`npm run coverage` lists how many questions each region has. On 2026-11-04 the 19 regions that had six questions were each brought to eight. Two regions now have seven: Nahe, because one Wikipedia-only question was left out, and Naoussa, because a question on its Reserve ageing was removed as unchecked. Every other region has at least eight.
 
-Every region has at least six, which a test checks.
+Every region has at least seven, which a test checks.
 
 ## How the facts were checked
 

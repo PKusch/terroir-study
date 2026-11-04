@@ -279,6 +279,8 @@ The questions added on 2026-11-03 for the thinnest regions rest on: the US feder
 
 The exam format is from WSET's own Level 3 specification (2022, Issue 2), read in full. The theory paper is two hours, closed book, in two parts: 50 multiple-choice questions at one mark each, and four written questions of 25 marks each. Each part needs at least 55% on its own. The tasting paper is two still wines, tasted blind in 30 minutes, using the Level 3 Systematic Approach to Tasting. WSET's guidance on the words written questions use (identify, describe, explain) comes from its own study blog; it publishes no rule for how many marks a point earns.
 
+The questions added on 2026-11-04 rest mostly on rule books read in full: Rioja's DOCa specification, the Vino Nobile di Montepulciano, Ramandolo, Picolit, Cesanese del Piglio and Cònero rule books, the Quarts de Chaume cahier, the Tokaj and Egri Csillag specifications, the Bierzo, Cariñena, Catalunya, Jumilla and Valdepeñas pliegos, EU Reg. 2019/33 and the German wine regulation for the Bocksbeutel, Wines of Greece, and the Washington, US federal, British Columbia, New Zealand and Ontario rules. Secondary: Franciacorta Riserva, Frascati's DOC date, Lagrein Kretzer, Santorini Vinsanto, the Nahe's founding, the New Zealand 85% rule, and the Steiermark DACs (seen only in search results, because the Austrian law site would not load). Fixed on the way: Naoussa's slopes face south-east, at 150 to 400 m; the Ora wind claim for Alto Adige was dropped; Egri Csillag is a PDO of its own; the Bocksbeutel is shared with parts of Baden; Rosalia is a Burgenland DAC; and Jumilla's sweet wine and its fortified vino de licor are two types.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
@@ -339,9 +341,8 @@ npm run dev
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
 - [x] Styles tab: the sparkling methods and the fortified wines side by side
 - [x] Written-answer practice: a question per region with WSET's command words, and a self-check against the region's notes
-- [ ] Castilla y León Vino de la Tierra, once its rules can be read
-- [x] More questions for the thinnest regions: every region now has at least six, and the 21 thinnest were each brought to eight or more
-- [ ] More questions for the regions that still have only six (baden, bairrada, bierzo, carinena, catalunya, franciacorta, friuli, jumilla, lazio, marche, nahe, naoussa, rheinhessen, rioja, santorini, steiermark, trentinoAltoAdige, tuscany, washington)
+- [x] More questions for the thinnest regions: every region has at least seven, and all but two have eight or more
+- [ ] Castilla y León as a region (its rule book has been read; see docs/COVERAGE.md)
 
 ## About
 
