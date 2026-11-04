@@ -11448,5 +11448,185 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "santorini",
     explanation: "The grapes are laid out in the sun for several days after picking, which concentrates their sugar. Producers differ on the exact number of days."
+  },
+  {
+    id: "es-206",
+    type: "connection",
+    country: "Spain",
+    question: "What must a red Rioja Crianza do before it can use that word on the label?",
+    options: [
+      "Age for two years, at least one of them in oak barrels",
+      "Age for one year in any vessel it likes, with no oak needed at all",
+      "Age for three years, every month of it spent in new French oak",
+      "Age for six months in oak barrels and then go straight on sale"
+    ],
+    answer: 0,
+    region: "rioja",
+    explanation: "Rioja's rule book says a red Crianza ages for at least two years, with at least one of them in oak barrels of about 225 litres, followed by time in bottle. White and rosé Crianza need 18 months, with six in oak."
+  },
+  {
+    id: "es-207",
+    type: "connection",
+    country: "Spain",
+    question: "How long must a white or rosé Rioja Reserva age before release?",
+    options: [
+      "12 months in tank, with no oak needed at all",
+      "36 months, with at least 12 of them in oak",
+      "60 months, with at least 24 of them in oak",
+      "24 months, with at least 6 of them in oak"
+    ],
+    answer: 3,
+    region: "rioja",
+    explanation: "Rioja's whites and rosés have shorter ladders than its reds. A white or rosé Reserva needs at least 24 months in oak and bottle together, with at least six months in oak. The 36-month figure is for red Reserva."
+  },
+  {
+    id: "es-208",
+    type: "connection",
+    country: "Spain",
+    question: "A Rioja producer wants to label a wine 'Viñedo Singular' (single vineyard). Which rule must the vineyard meet?",
+    options: [
+      "It must lie in the warmer, drier zone of Rioja Oriental",
+      "Its vines are at least 35 years old and picked by hand",
+      "It must be planted only with Garnacha and Graciano vines",
+      "It must cover the whole of one village and its land"
+    ],
+    answer: 1,
+    region: "rioja",
+    explanation: "A Viñedo Singular is a named site smaller than a village, with its own soil and climate. Its vines must be at least 35 years old, it must be picked by hand, and its yield limit is lower than for ordinary Rioja."
+  },
+  {
+    id: "it-108",
+    type: "connection",
+    country: "Italy",
+    question: "What is the minimum share of Sangiovese in Vino Nobile di Montepulciano, and what is the grape called locally?",
+    options: [
+      "100%, called Brunello",
+      "80%, called Morellino",
+      "70%, called Prugnolo Gentile",
+      "85%, called Sangioveto Grosso"
+    ],
+    answer: 2,
+    region: "tuscany",
+    explanation: "The Vino Nobile rule book asks for at least 70% Sangiovese, which in Montepulciano is called Prugnolo Gentile. Up to 30% can be other grapes allowed in Tuscany, with no more than 5% white grapes."
+  },
+  {
+    id: "it-109",
+    type: "connection",
+    country: "Italy",
+    question: "A Vino Nobile di Montepulciano must mature for at least two years. What is the least time it can spend in wood?",
+    options: [
+      "12 months in wood, plus 6 months in bottle",
+      "No time in wood at all, if it rests in bottle",
+      "24 months in wood, whatever the producer wants",
+      "36 months in wood, the same as for a Riserva"
+    ],
+    answer: 0,
+    region: "tuscany",
+    explanation: "The rule book gives the producer three choices within the two years: 24 months in wood, at least 18 months in wood, or at least 12 months in wood plus at least 6 months in bottle. The two years count from 1 January after the harvest."
+  },
+  {
+    id: "it-110",
+    type: "connection",
+    country: "Italy",
+    question: "What does a Vino Nobile di Montepulciano need before it can be called Riserva?",
+    options: [
+      "Five years of ageing, every month of it in new oak",
+      "Grapes dried on straw mats for months before pressing",
+      "A blend led by Cabernet Sauvignon and Merlot",
+      "Three years of maturing, 6 months in bottle"
+    ],
+    answer: 3,
+    region: "tuscany",
+    explanation: "A Riserva needs grapes with at least 12.5% natural alcohol and at least three years of maturing, six months of it in bottle. The ordinary wine needs two years."
+  },
+  {
+    id: "fr-151",
+    type: "connection",
+    country: "France",
+    question: "Which Loire appellation may add the words 'grand cru' to its name?",
+    options: [
+      "Muscadet Sèvre et Maine",
+      "Sancerre",
+      "Chinon",
+      "Quarts de Chaume"
+    ],
+    answer: 3,
+    region: "loire",
+    explanation: "Quarts de Chaume, a sweet Chenin Blanc from the commune of Rochefort-sur-Loire in Anjou, may be labelled 'grand cru'. Its rule book allows only Chenin Blanc."
+  },
+  {
+    id: "fr-152",
+    type: "connection",
+    country: "France",
+    question: "How must the grapes for Quarts de Chaume be picked?",
+    options: [
+      "By machine, in one pass when the grapes are ripest",
+      "By hand, in several passes through each plot",
+      "By machine, as soon as the first frost has come",
+      "By hand, with every plot picked on the same day"
+    ],
+    answer: 1,
+    region: "loire",
+    explanation: "Pickers go through each plot several times, taking the bunches or berries that are ready, often shrivelled by noble rot. The grapes need at least 298 g/l of sugar, and adding sugar or freezing the grapes below -5°C is not allowed."
+  },
+  {
+    id: "hu-26",
+    type: "connection",
+    country: "Hungary",
+    question: "How is Tokaji Szamorodni made?",
+    options: [
+      "From whole bunches, rotten and healthy berries together",
+      "By pouring wine over the pressed paste left from aszú berries",
+      "From the free-run juice that drips from aszú berries in the vat",
+      "By soaking hand-picked aszú berries in a base wine or must"
+    ],
+    answer: 0,
+    region: "tokaj",
+    explanation: "Szamorodni uses whole bunches, rotten and healthy berries together, and can be dry or sweet. Dry Szamorodni needs at least 24 months in barrel and sweet Szamorodni at least 6. Pouring wine over pressed aszú paste makes Fordítás."
+  },
+  {
+    id: "hu-27",
+    type: "connection",
+    country: "Hungary",
+    question: "How long must a Tokaji Aszú age in wooden barrels, at the least?",
+    options: [
+      "6 months",
+      "12 months",
+      "18 months",
+      "36 months"
+    ],
+    answer: 2,
+    region: "tokaj",
+    explanation: "The Tokaj rule book asks for at least 18 months in wooden barrels. Aszú cannot go on sale before 1 January of the third year after the harvest."
+  },
+  {
+    id: "hu-28",
+    type: "connection",
+    country: "Hungary",
+    question: "What is Egri Csillag ('Star of Eger')?",
+    options: [
+      "A sweet wine from botrytised grapes",
+      "A red blend led by Kékfrankos",
+      "A dry white blend of at least four grapes",
+      "A sparkling rosé made in the tuff cellars"
+    ],
+    answer: 2,
+    region: "eger",
+    explanation: "Egri Csillag is Eger's dry white blend, the partner to the red Egri Bikavér. At least four grapes must each make up more than 5%, and at least half the blend must be local Hungarian grapes such as Olaszrizling, Furmint, Hárslevelű or Leányka."
+  },
+  {
+    id: "hu-29",
+    type: "connection",
+    country: "Hungary",
+    question: "In an Egri Csillag, what is the most that any one grape can make up?",
+    options: [
+      "30%",
+      "50%",
+      "75%",
+      "85%"
+    ],
+    answer: 1,
+    region: "eger",
+    explanation: "No single grape may go over 50%, so the wine always tastes of the blend. Aromatic grapes such as Irsai Olivér and the Muscats are held to 20% in total."
   }
 ];
