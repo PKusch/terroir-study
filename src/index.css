@@ -36,8 +36,8 @@ button {
 }
 
 @media (max-width: 520px) {
-  /* Seven tabs do not fit one row on a phone: wrap them into two rows of
-     four and three, so none is hidden off the edge. */
+  /* Eight tabs do not fit one row on a phone: wrap them into two rows of
+     four, so none is hidden off the edge. */
   .mode-tabs {
     padding: 10px 8px !important;
     gap: 3px !important;

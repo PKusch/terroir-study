@@ -48,7 +48,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ## What it does
 
-Seven ways to study, one map. Each one reads from the same data, so what you explore is what you are quizzed on.
+Eight ways to study, one map. Each one reads from the same data, so what you explore is what you are quizzed on.
 
 ```mermaid
 flowchart LR
@@ -59,6 +59,7 @@ flowchart LR
     D["📍 Map drill<br/>find it, name it, place it"] -- "what you missed: study →" --> E
     Q -- "missed and not-yet-seen papers" --> M["📝 Mock exam<br/>timed, marked at the end"]
     S["🍾 Styles<br/>methods side by side"] -- "study →" --> E
+    W["✍️ Written<br/>answer, then tick your points"] -- "study →" --> E
 ```
 
 The Quiz and Taste keep a record in your browser. The mock exam reads the quiz record to build its *Missed before* and *Not yet seen* papers, and the map drill and the exam save nothing.
@@ -113,6 +114,8 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 **📍 Map drill** — Learn where things are, ten questions a round, for every country or one. *Find it* gives you a region's name and you click it on the map. *Name it* lights a region up and you pick its name from four. *Place it* gives you a village or district, such as Mád or Pauillac, and you click where it is on the zoomed map; a hit is within a twelfth of the map's width, and the answer is shown with a dot and a line to your click. At the end you see what you missed, with a link to study each one. It never touches your quiz progress.
 
 **🍾 Styles** — The ways of making one family of wine, side by side. *Sparkling* sets the traditional, transfer, tank, Asti and ancestral methods and carbonation next to each other (where the second fermentation happens, how long on the lees, how the wine is cleared, what it tastes like), with the EU sweetness terms from Brut Nature to Doux. *Fortified* does the same for Port, Madeira, Sherry, Vin Doux Naturel, Marsala and Rutherglen Muscat. Each card links to the regions that make it.
+
+**✍️ Written** — Practice for the written part of the theory paper, which has four questions of 25 marks each and needs 55% on its own. The app asks a question about one region, using WSET's command words (identify, describe, explain, each with WSET's meaning shown). You write your answer, then see the points from that region's notes and tick the ones you made. It is a self-check, not WSET's mark scheme, which WSET does not publish, and nothing is saved.
 
 ## Regions Covered
 
@@ -335,7 +338,7 @@ npm run dev
 - [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
 - [x] Styles tab: the sparkling methods and the fortified wines side by side
-- [ ] Written-answer practice, once WSET's current theory paper format is checked against its own pages
+- [x] Written-answer practice: a question per region with WSET's command words, and a self-check against the region's notes
 - [ ] Castilla y León Vino de la Tierra, once its rules can be read
 - [x] More questions for the thinnest regions: every region now has at least six, and the 21 thinnest were each brought to eight or more
 - [ ] More questions for the regions that still have only six (baden, bairrada, bierzo, carinena, catalunya, franciacorta, friuli, jumilla, lazio, marche, nahe, naoussa, rheinhessen, rioja, santorini, steiermark, trentinoAltoAdige, tuscany, washington)

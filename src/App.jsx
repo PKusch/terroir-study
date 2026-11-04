@@ -12,6 +12,7 @@ import { TastePanel } from "./TastePanel.jsx";
 import { MockExam } from "./MockExam.jsx";
 import { MapDrill } from "./MapDrill.jsx";
 import { StylesPanel } from "./StylesPanel.jsx";
+import { WrittenPractice } from "./WrittenPractice.jsx";
 import { RegionChips } from "./RegionChips.jsx";
 import { BackupPanel } from "./BackupPanel.jsx";
 
@@ -50,7 +51,7 @@ export default function WsetStudyApp() {
 
   // Zooming in shows the region's own places; only where there are some to show.
   // These tabs are whole pages of their own, with no map above them.
-  const noMap = mode === "exam" || mode === "drill" || mode === "styles";
+  const noMap = mode === "exam" || mode === "drill" || mode === "styles" || mode === "written";
   const canZoom = mode !== "quiz" && !noMap && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
   const showDetail = zoomed && canZoom;
 
@@ -67,7 +68,8 @@ export default function WsetStudyApp() {
     { id: "taste", label: "Taste", icon: "🍷" },
     { id: "exam", label: "Mock exam", icon: "📝" },
     { id: "drill", label: "Map drill", icon: "📍" },
-    { id: "styles", label: "Styles", icon: "🍾" }
+    { id: "styles", label: "Styles", icon: "🍾" },
+    { id: "written", label: "Written", icon: "✍️" }
   ];
 
   const handleRegionClick = (key) => {
@@ -108,7 +110,7 @@ export default function WsetStudyApp() {
             Terroir <span style={{ color: "#C4A962" }}>Study</span>
           </h1>
           <div style={{ fontSize: "10px", color: "#8B7355", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "2px" }}>
-            WSET Level 3 · {mode === "exam" ? "Mock exam" : mode === "drill" ? "Map drill" : mode === "styles" ? "Styles side by side" : mapCountry}
+            WSET Level 3 · {mode === "exam" ? "Mock exam" : mode === "drill" ? "Map drill" : mode === "styles" ? "Styles side by side" : mode === "written" ? "Written answers" : mapCountry}
           </div>
         </div>
         {mode !== "quiz" && !noMap && (
@@ -260,6 +262,7 @@ export default function WsetStudyApp() {
           </div>
           {mode === "drill" && <MapDrill onStudyRegion={studyRegion} />}
           {mode === "styles" && <StylesPanel onStudyRegion={studyRegion} />}
+          {mode === "written" && <WrittenPractice onStudyRegion={studyRegion} />}
           {mode === "quiz" && (
             <QuizMode
               mapClick={quizMapClick}
