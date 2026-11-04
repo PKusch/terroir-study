@@ -344,7 +344,7 @@ npm run dev
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
 - [x] Styles tab: the sparkling methods and the fortified wines side by side
 - [x] Written-answer practice: a question per region with WSET's command words, and a self-check against the region's notes
-- [x] More questions for the thinnest regions: every region has at least seven, and all but two have eight or more
+- [x] More questions for the thinnest regions: every region has at least nine
 
 ## About
 

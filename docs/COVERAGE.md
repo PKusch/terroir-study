@@ -27,9 +27,9 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 
 ## Thinnest regions in the quiz
 
-`npm run coverage` lists how many questions each region has. On 2026-11-04 the 19 regions that had six questions were each brought to eight. Two regions now have seven: Nahe, because one Wikipedia-only question was left out, and Naoussa, because a question on its Reserve ageing was removed as unchecked. Every other region has at least eight.
+`npm run coverage` lists how many questions each region has, counting map questions for the region they point at, and how many each topic filter holds. On 2026-11-04 every region had at least nine questions.
 
-Every region has at least seven, which a test checks.
+Every region has at least nine, which a test checks.
 
 ## How the facts were checked
 
