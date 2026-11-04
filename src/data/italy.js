@@ -145,7 +145,7 @@ export const ITALY_REGIONS = {
     name: "Trentino-Alto Adige",
     country: "Italy",
     climate: "Alpine-Mediterranean",
-    climateDetail: "Alto Adige is described as Alpine-Mediterranean, with over 300 sunny days a year, about 1,950 hours of sun and about 815 mm of rain; July days average about 30 °C and nights about 16 °C. Vineyards lie at 200 to 1,000 m, and the Ora wind blows up from Lake Garda.",
+    climateDetail: "Alto Adige is described as Alpine-Mediterranean, with over 300 sunny days a year, about 1,950 hours of sun and about 815 mm of rain; July days average about 30 °C and nights about 16 °C. Vineyards lie at 200 to 1,000 m.",
     keyGrapes: { red: ["Lagrein", "Teroldego", "Schiava"], white: ["Pinot Grigio", "Chardonnay"] },
     subRegions: ["Bolzano", "Termeno", "Merano", "Trento", "Mezzolombardo"],
     subRegionsLabel: "Towns",

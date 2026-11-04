@@ -8540,21 +8540,6 @@ export const QUIZ_QUESTIONS = [
     explanation: "It is 100% Xinomavro. The specification read is the 2011 text, and no later amendment was found."
   },
   {
-    id: "gr-19",
-    type: "scenario",
-    country: "Greece",
-    question: "How long must a Naoussa Reserve age in total?",
-    options: [
-      "At least six months",
-      "At least one year",
-      "At least two years",
-      "At least five years"
-    ],
-    answer: 2,
-    region: "naoussa",
-    explanation: "It needs 12 months in oak and 6 in bottle. Grande Réserve needs four years, with 18 months in oak and 18 in bottle."
-  },
-  {
     id: "gr-20",
     type: "scenario",
     country: "Greece",

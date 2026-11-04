@@ -29,7 +29,7 @@ export const HUNGARY_REGIONS = {
     viticultureNotes: "Kékfrankos (Blaufränkisch in Austria) is the backbone of the reds, with Kadarka, a thin-skinned, spicy grape, and Cabernet Franc. Olaszrizling (Welschriesling) is the main white. Egri Bikavér, 'Bull's Blood', is the region's famous red blend.",
     winemaking: "Egri Bikavér is a blend of several red grapes with three tiers, Classicus, Superior and Grand Superior; Kékfrankos is always the largest part of the blend. Egri Csillag is the region's white blend. Reds are often aged in oak, in the cellars cut into the tuff.",
     typicalStyle: "Egri Bikavér: medium to full body, medium-plus to high acidity, red and black cherry, plum and spice, and firm tannins that soften with age. Whites: dry, light to medium body, green apple and citrus.",
-    qualityLevels: ["Tájbor (PGI)", "Eger PDO", "Egri Bikavér Classicus", "Egri Bikavér Superior", "Egri Bikavér Grand Superior", "Egri Csillag (white blend)"],
+    qualityLevels: ["Tájbor (PGI)", "Eger PDO", "Egri Bikavér Classicus", "Egri Bikavér Superior", "Egri Bikavér Grand Superior", "Egri Csillag (a separate PDO for a dry white blend)"],
     whyConnection: "Hills shelter a cool-ish northern site, and cool nights keep acidity → red blends that are fresh, with firm tannin. A blend, led by Kékfrankos, balances a late-ripening, high-acid grape with softer, more perfumed partners.",
     color: "#9B2D30"
   },
