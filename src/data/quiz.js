@@ -11253,5 +11253,215 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "ontario",
     explanation: "Ontario's VQA rule (O. Reg. 406/00, as amended in 2025) asks for at least 85% from the named grape. A wine named after a vinifera grape may not contain any wine from hybrid grapes."
+  },
+  {
+    id: "it-111",
+    type: "connection",
+    country: "Italy",
+    question: "Erbamat is a local white grape now allowed in Franciacorta. How much of the blend may it make up?",
+    options: [
+      "Up to 10%, in every type except Satèn",
+      "Up to 50%, in every type",
+      "Up to 25%, in Rosé only",
+      "None: it may only go into still wines"
+    ],
+    answer: 0,
+    region: "franciacorta",
+    explanation: "The consortium's rules allow Erbamat up to 10% of the blend, to start with, in all types except Satèn. It is a late-ripening local grape that keeps its acidity."
+  },
+  {
+    id: "it-112",
+    type: "connection",
+    country: "Italy",
+    question: "How long must a Franciacorta Riserva spend on its lees?",
+    options: [
+      "At least 18 months",
+      "At least 30 months",
+      "At least 60 months",
+      "At least 36 months"
+    ],
+    answer: 2,
+    region: "franciacorta",
+    explanation: "A Riserva needs at least 60 months on the lees. That is far longer than the 18 months for non-vintage and the 30 months for a Millesimato."
+  },
+  {
+    id: "it-113",
+    type: "connection",
+    country: "Italy",
+    question: "Which grape must make up the whole of Ramandolo DOCG?",
+    options: [
+      "Picolit",
+      "Refosco dal Peduncolo Rosso",
+      "Friulano",
+      "Verduzzo Friulano"
+    ],
+    answer: 3,
+    region: "friuli",
+    explanation: "Ramandolo must be 100% Verduzzo Friulano, known locally as Verduzzo Giallo. It is a sweet, golden wine from the hills around Nimis and Tarcento, with at least 14% alcohol."
+  },
+  {
+    id: "it-114",
+    type: "connection",
+    country: "Italy",
+    question: "What kind of wine is Colli Orientali del Friuli Picolit DOCG?",
+    options: [
+      "A dry, high-acid white sparkling wine",
+      "A sweet white from the Picolit grape",
+      "A deep red from the Refosco grape",
+      "A skin-contact amber wine from Ribolla"
+    ],
+    answer: 1,
+    region: "friuli",
+    explanation: "Picolit must be at least 85% Picolit. It is sweet or medium-sweet and golden, with at least 15% alcohol, and the grapes may be dried on the vine or on racks first."
+  },
+  {
+    id: "it-115",
+    type: "connection",
+    country: "Italy",
+    question: "Lazio's best-known red DOCG is Cesanese del Piglio. What is it made from?",
+    options: [
+      "At least 90% Cesanese",
+      "At least 85% Sangiovese",
+      "Montepulciano and Merlot",
+      "Mostly Malvasia, a red clone"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "Cesanese del Piglio needs at least 90% Cesanese (di Affile and/or Comune), with up to 10% of other local grapes. It comes from the province of Frosinone, south-east of Rome."
+  },
+  {
+    id: "it-116",
+    type: "connection",
+    country: "Italy",
+    question: "When did Frascati become a DOC?",
+    options: [
+      "In 2011, with Cannellino",
+      "In 1985",
+      "In 1966, among Italy's first",
+      "In 1996, as part of Castelli Romani"
+    ],
+    answer: 2,
+    region: "lazio",
+    explanation: "Frascati became a DOC in 1966, one of Italy's earliest. Frascati Superiore and Cannellino di Frascati followed as DOCGs in 2011."
+  },
+  {
+    id: "it-117",
+    type: "connection",
+    country: "Italy",
+    question: "The Marche also makes a red DOCG, Cònero. Which grape must lead it?",
+    options: [
+      "Sangiovese, at least 85%, plus Merlot",
+      "Lagrein, at least 85%",
+      "Cesanese, at least 90%",
+      "Montepulciano, at least 85%"
+    ],
+    answer: 3,
+    region: "marche",
+    explanation: "Cònero DOCG must be at least 85% Montepulciano, with up to 15% Sangiovese. It comes from the hills around Monte Conero, near Ancona on the Adriatic."
+  },
+  {
+    id: "it-118",
+    type: "connection",
+    country: "Italy",
+    question: "How long must Cònero DOCG age before it is sold?",
+    options: [
+      "At least 6 months",
+      "At least 2 years",
+      "At least 5 years",
+      "There is no rule"
+    ],
+    answer: 1,
+    region: "marche",
+    explanation: "Cònero must age at least 2 years, counted from 1 November of the harvest year. It also needs at least 12.5% alcohol."
+  },
+  {
+    id: "it-119",
+    type: "connection",
+    country: "Italy",
+    question: "How long must a Trento DOC Riserva spend on its lees?",
+    options: [
+      "At least 15 months",
+      "At least 24 months",
+      "At least 36 months",
+      "At least 60 months"
+    ],
+    answer: 2,
+    region: "trentinoAltoAdige",
+    explanation: "A Trento DOC Riserva needs at least 36 months on the lees, against 15 for non-vintage and 24 for a Millesimato. Many producers go much longer."
+  },
+  {
+    id: "it-120",
+    type: "connection",
+    country: "Italy",
+    question: "In Alto Adige, what is a Lagrein Kretzer?",
+    options: [
+      "A rosé made from Lagrein",
+      "A sweet wine from dried Lagrein",
+      "A sparkling Lagrein",
+      "A Lagrein aged in large old casks"
+    ],
+    answer: 0,
+    region: "trentinoAltoAdige",
+    explanation: "Kretzer is the local name for a Lagrein rosé. Lagrein, a native red of the Bolzano area, is better known as a deep-coloured, full-bodied red."
+  },
+  {
+    id: "gr-24",
+    type: "connection",
+    country: "Greece",
+    question: "At what altitude are most of Naoussa's vineyards?",
+    options: [
+      "Below 50 m, on the coastal plain",
+      "About 600 to 900 m",
+      "Above 1,000 m",
+      "About 150 to 400 m"
+    ],
+    answer: 3,
+    region: "naoussa",
+    explanation: "Most vineyards sit on the south-eastern slopes of Mount Vermio at 150 to 400 m. Varied altitude, aspect and soil give the zone many small terroirs."
+  },
+  {
+    id: "gr-25",
+    type: "connection",
+    country: "Greece",
+    question: "In what year was the Naoussa appellation set up?",
+    options: [
+      "1937",
+      "1971",
+      "1995",
+      "2009"
+    ],
+    answer: 1,
+    region: "naoussa",
+    explanation: "The Naoussa zone was set up in 1971. It covers ten areas in the north-west of the Imathia prefecture, including Naoussa itself."
+  },
+  {
+    id: "gr-26",
+    type: "connection",
+    country: "Greece",
+    question: "How much Assyrtiko must a sweet Santorini Vinsanto contain?",
+    options: [
+      "At least 85%",
+      "At least 51%",
+      "All of it (100%)",
+      "There is no minimum"
+    ],
+    answer: 1,
+    region: "santorini",
+    explanation: "Vinsanto needs at least 51% Assyrtiko, with the rest mostly Aidani and Athiri. The dry PDO wine needs at least 85%."
+  },
+  {
+    id: "gr-27",
+    type: "connection",
+    country: "Greece",
+    question: "What are the grapes for Santorini Vinsanto dried by?",
+    options: [
+      "Warm air in a heated room",
+      "Hanging in a cool, airy loft",
+      "Laying them out in the sun",
+      "Freezing on the vine"
+    ],
+    answer: 2,
+    region: "santorini",
+    explanation: "The grapes are laid out in the sun for several days after picking, which concentrates their sugar. Producers differ on the exact number of days."
   }
 ];
