@@ -11628,5 +11628,185 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "eger",
     explanation: "No single grape may go over 50%, so the wine always tastes of the blend. Aromatic grapes such as Irsai Olivér and the Muscats are held to 20% in total."
+  },
+  {
+    id: "es-216",
+    type: "connection",
+    country: "Spain",
+    question: "What share of red grapes must a Bierzo clarete contain?",
+    options: [
+      "40% to 60%",
+      "At least 85%",
+      "At least 70%",
+      "Up to 25% only"
+    ],
+    answer: 0,
+    region: "bierzo",
+    explanation: "Clarete is Bierzo's traditional pale red, so the rule book keeps red grapes between 40% and 60%, with white grapes making up the rest. A Bierzo rosé is different: it needs at least 70% red grapes."
+  },
+  {
+    id: "es-217",
+    type: "connection",
+    country: "Spain",
+    question: "Before a Bierzo wine can be called 'Viña Clasificada', how long must its plot have used the 'Vino de Paraje' name?",
+    options: [
+      "At least two years",
+      "At least ten years",
+      "At least five years",
+      "At least twenty years"
+    ],
+    answer: 2,
+    region: "bierzo",
+    explanation: "The plot must have used the Vino de Paraje name for at least five years. 'Gran Viña Clasificada' then needs five years as Viña Clasificada. Both wines are assessed by the regulating council before sale."
+  },
+  {
+    id: "es-218",
+    type: "connection",
+    country: "Spain",
+    question: "How must Cariñena growers control the grape moth?",
+    options: [
+      "With insecticide sprays each year",
+      "With pheromones, in every season",
+      "By hand-picking the larvae",
+      "Growers may choose any method"
+    ],
+    answer: 1,
+    region: "carinena",
+    explanation: "Since the 2025 change, pheromone treatment against the grape moth is compulsory every season in place of chemical sprays. Grapes from sprayed plots must be made separately, as wine outside the DO."
+  },
+  {
+    id: "es-219",
+    type: "connection",
+    country: "Spain",
+    question: "What natural alcohol must a Cariñena 'Vendimia tardía' wine have?",
+    options: [
+      "Over 12% vol",
+      "Over 13% vol",
+      "Over 15% vol",
+      "Over 17.5% vol"
+    ],
+    answer: 2,
+    region: "carinena",
+    explanation: "Late-harvest and 'naturally sweet' Cariñena must have over 15% natural alcohol from very ripe grapes, and at least 13% actual alcohol once made. A 'naturally sweet' wine also needs 45 g/L of sugar or more."
+  },
+  {
+    id: "es-220",
+    type: "connection",
+    country: "Spain",
+    question: "How long must a white DO Catalunya Gran Reserva age in total?",
+    options: [
+      "At least 4 years, 6 months in oak",
+      "At least 5 years, 24 months in oak",
+      "At least 2 years, 6 months in oak",
+      "At least 3 years, 12 months in oak"
+    ],
+    answer: 0,
+    region: "catalunya",
+    explanation: "Whites and rosés need 4 years, with at least 6 months in oak of 330 L or less and the rest in bottle. The red Gran Reserva needs 5 years with 24 months in oak. The text read is the April 2026 version."
+  },
+  {
+    id: "es-221",
+    type: "connection",
+    country: "Spain",
+    question: "What is the largest wooden vessel a DO Catalunya 'fermentado en barrica' wine may ferment in?",
+    options: [
+      "225 litres",
+      "330 litres",
+      "500 litres",
+      "600 litres"
+    ],
+    answer: 3,
+    region: "catalunya",
+    explanation: "Barrel fermentation may use wood of up to 600 L, the same limit as the 'barrica' and 'roble' labels. The Crianza, Reserva and Gran Reserva terms are stricter and need oak of 330 L or less."
+  },
+  {
+    id: "es-222",
+    type: "connection",
+    country: "Spain",
+    question: "Besides using at least 85% white grapes, how else may a white Jumilla be made?",
+    options: [
+      "With up to 50% Monastrell in the blend",
+      "From Airén alone, aged in oak for a year",
+      "By blending finished white and rosé wine",
+      "As blanc de noirs, from only red grapes"
+    ],
+    answer: 3,
+    region: "jumilla",
+    explanation: "A white Jumilla can be a 'blanc de noirs' made from 100% authorised red grapes, and the label must say so. Otherwise a white needs at least 85% of the authorised white grapes."
+  },
+  {
+    id: "es-223",
+    type: "connection",
+    country: "Spain",
+    question: "Where does DO Jumilla's production zone lie?",
+    options: [
+      "Only in Murcia, around Jumilla town",
+      "Jumilla in Murcia, six towns in Albacete",
+      "In Murcia, Albacete and Alicante provinces",
+      "Only in Albacete, around Hellín town"
+    ],
+    answer: 1,
+    region: "jumilla",
+    explanation: "The zone is the municipality of Jumilla in Murcia, plus Fuente-Álamo, Albatana, Ontur, Hellín, Tobarra and Montealegre del Castillo in Albacete."
+  },
+  {
+    id: "es-224",
+    type: "connection",
+    country: "Spain",
+    question: "How long must a white Valdepeñas Crianza age in total?",
+    options: [
+      "18 months, 6 in oak",
+      "12 months, 3 in oak",
+      "24 months, 6 in oak",
+      "36 months, 12 in oak"
+    ],
+    answer: 0,
+    region: "valdepenas",
+    explanation: "A white Crianza needs 18 months, with at least 6 in oak of 330 L or less; a red Crianza needs 24 months. The 2019 rule book was read; a renewal may be under way."
+  },
+  {
+    id: "es-225",
+    type: "connection",
+    country: "Spain",
+    question: "What colours may Valdepeñas sparkling wine be?",
+    options: [
+      "White only",
+      "White and rosé",
+      "Red, white and rosé",
+      "Rosé only"
+    ],
+    answer: 1,
+    region: "valdepenas",
+    explanation: "Valdepeñas quality sparkling wine may be white or rosé, with its bubbles from its own fermentation and at least 11% alcohol. The 2019 rule book was read."
+  },
+  {
+    id: "pt-74",
+    type: "connection",
+    country: "Portugal",
+    question: "When was Bairrada first officially recognised and demarcated?",
+    options: [
+      "1908",
+      "1937",
+      "1979",
+      "1991"
+    ],
+    answer: 2,
+    region: "bairrada",
+    explanation: "Despite its long wine history, Bairrada was only recognised and demarcated in 1979. Its regional wine commission followed in 1986."
+  },
+  {
+    id: "pt-75",
+    type: "connection",
+    country: "Portugal",
+    question: "What did Portugal's 1991 Bairrada decree add to the denomination?",
+    options: [
+      "Fortified and late-harvest wines",
+      "Wines made only from Arinto",
+      "A cru tier for single vineyards",
+      "Rosé and sparkling wines"
+    ],
+    answer: 3,
+    region: "bairrada",
+    explanation: "The 1991 decree extended the denomination to rosé and natural sparkling wines, citing a climate well suited to them. Sparkling wine had already been made there for about a century."
   }
 ];
