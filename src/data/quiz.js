@@ -12041,5 +12041,65 @@ export const QUIZ_QUESTIONS = [
     question: "Which Vino de la Tierra covers the whole of the high northern plateau around the Duero, taking in Ribera del Duero, Rueda, Toro and Bierzo?",
     answer: "castillaYLeon",
     explanation: "Castilla y León is one IGP for the whole region, from El Bierzo in the west to Soria in the east."
+  },
+  {
+    id: "de-73",
+    type: "connection",
+    country: "Germany",
+    question: "Besides the Nahe itself, which two rivers have vineyards on or near their banks in the Nahe region?",
+    options: [
+      "The Glan and the Alsenz",
+      "The Ahr and the Lahn",
+      "The Saar and the Ruwer, near Trier",
+      "The Main and the Tauber"
+    ],
+    answer: 0,
+    region: "nahe",
+    explanation: "Vines grow along the Nahe and two side rivers, the Glan and the Alsenz. Winegrowing has shaped these valleys for about 2,000 years."
+  },
+  {
+    id: "de-74",
+    type: "connection",
+    country: "Germany",
+    question: "How is a large share of Nahe wine sold?",
+    options: [
+      "Through big cooperatives, as in Baden",
+      "Directly to consumers by single estates",
+      "In bulk to merchants in Rheinhessen",
+      "Mostly as export wine under a Rhine label"
+    ],
+    answer: 1,
+    region: "nahe",
+    explanation: "Many Nahe estates sell straight to their customers. Cooperatives exist, at Meddersheim and Bretzenheim, but matter less here than in Baden, Württemberg or Franken."
+  },
+  {
+    id: "gr-28",
+    type: "connection",
+    country: "Greece",
+    question: "Why are traditional-style Naoussa reds pale and austere when young?",
+    options: [
+      "They are made from early-picked grapes grown on the flat plain",
+      "They are blended with white grapes",
+      "Long skin contact and long wood ageing to soften tannin",
+      "They are bottled straight after fermentation, with no oak at all"
+    ],
+    answer: 2,
+    region: "naoussa",
+    explanation: "Traditional producers give Xinomavro long skin contact and long wood ageing to tame its tannins. The wine starts pale and severe and needs time in bottle."
+  },
+  {
+    id: "gr-29",
+    type: "connection",
+    country: "Greece",
+    question: "How do modern-style Naoussa reds differ from traditional ones?",
+    options: [
+      "They are paler and need longer in bottle",
+      "They are made from a blend of Xinomavro and Merlot",
+      "They are always sweet and low in alcohol",
+      "More colour and fruit, easier to drink young"
+    ],
+    answer: 3,
+    region: "naoussa",
+    explanation: "Modern Naoussa has riper, more concentrated fruit, deeper colour and firm but less aggressive tannins, sometimes with noticeable oak. Both styles can age for more than ten years."
   }
 ];
