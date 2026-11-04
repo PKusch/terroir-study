@@ -11163,5 +11163,95 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "nemea",
     explanation: "Nemea is Greece's largest PDO zone for red wine, spread across hillsides from about 200 to 850 metres in the north-east Peloponnese."
+  },
+  {
+    id: "nw-112",
+    type: "connection",
+    country: "New World",
+    question: "A wine label says \"Washington\". How much of the grapes must be grown in Washington?",
+    options: [
+      "At least 75%, the federal minimum for a state name",
+      "At least 85%",
+      "At least 95%",
+      "All of them"
+    ],
+    answer: 2,
+    region: "washington",
+    explanation: "Washington state law (RCW 66.28.110) asks for at least 95% Washington grapes when the label names Washington. That is stricter than the US federal rule of 75% for a state name."
+  },
+  {
+    id: "nw-113",
+    type: "connection",
+    country: "New World",
+    question: "A Washington wine names an AVA, such as Red Mountain, and a vintage. How much must come from that year?",
+    options: [
+      "At least 95%",
+      "At least 85%, as for a state-named wine",
+      "At least 75%",
+      "All of it"
+    ],
+    answer: 0,
+    region: "washington",
+    explanation: "US federal rules (27 CFR 4.27) ask for at least 95% from the stated year when the label names an AVA. For a state or county name it is 85%."
+  },
+  {
+    id: "nw-114",
+    type: "connection",
+    country: "New World",
+    question: "A BC wine of distinction names one grape, such as Merlot. How much of the wine must be that grape?",
+    options: [
+      "At least 75%",
+      "At least 85%",
+      "At least 95%",
+      "All of it, with no blending allowed"
+    ],
+    answer: 1,
+    region: "britishColumbia",
+    explanation: "The BC Wines of Marked Quality Regulation (s. 51(3)(a)) says a single grape name may be used if at least 85% of the wine comes from that grape."
+  },
+  {
+    id: "nw-115",
+    type: "connection",
+    country: "New World",
+    question: "A New Zealand label says \"2020 Marlborough Pinot Noir\". What must be true?",
+    options: [
+      "85% must be Pinot Noir, and 85% from Marlborough, counted apart",
+      "At least 85% must be Pinot Noir grown in Marlborough in 2020",
+      "All of the grapes must be Marlborough Pinot Noir from 2020",
+      "75% must be Pinot Noir, as the region and year are free"
+    ],
+    answer: 1,
+    region: "newZealand",
+    explanation: "New Zealand's 85% rule covers grape, year and place. When a label combines them, at least 85% of the wine must match all of them at once."
+  },
+  {
+    id: "nw-116",
+    type: "connection",
+    country: "New World",
+    question: "Which three New Zealand wine names are \"enduring\" GIs, which never expire?",
+    options: [
+      "Marlborough, Hawke's Bay and Central Otago",
+      "Marlborough, Martinborough and Waiheke Island",
+      "Auckland, Wellington and Christchurch",
+      "New Zealand, North Island and South Island"
+    ],
+    answer: 3,
+    region: "newZealand",
+    explanation: "The register run by IPONZ lists three enduring GIs: New Zealand, North Island and South Island. They cannot be altered or removed. Regions such as Marlborough are registered GIs instead."
+  },
+  {
+    id: "nw-117",
+    type: "connection",
+    country: "New World",
+    question: "An Ontario VQA wine names one vinifera grape, such as Riesling. What does the rule say?",
+    options: [
+      "It may have up to 15% hybrid grapes, such as Vidal",
+      "At least 85% Riesling, and no hybrid grapes at all",
+      "It needs all Riesling, with no other grape allowed in the blend",
+      "It needs at least 75% Riesling, with hybrids allowed"
+    ],
+    answer: 1,
+    region: "ontario",
+    explanation: "Ontario's VQA rule (O. Reg. 406/00, as amended in 2025) asks for at least 85% from the named grape. A wine named after a vinifera grape may not contain any wine from hybrid grapes."
   }
 ];
