@@ -36,13 +36,17 @@ button {
 }
 
 @media (max-width: 520px) {
+  /* Seven tabs do not fit one row on a phone: wrap them into two rows of
+     four and three, so none is hidden off the edge. */
   .mode-tabs {
     padding: 10px 8px !important;
     gap: 3px !important;
+    flex-wrap: wrap;
   }
   .mode-tab {
     padding: 9px 4px !important;
     min-width: 56px;
+    flex: 1 1 22% !important;
     font-size: 10px !important;
     letter-spacing: 0.02em !important;
   }
