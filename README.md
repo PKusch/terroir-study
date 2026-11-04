@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **76** regions | 📍 **364** places on the map | ❓ **836** quiz questions | 🍇 **118** grapes | ✅ **148** tests |
+| 🌍 **9** countries | 🗺️ **77** regions | 📍 **373** places on the map | ❓ **845** quiz questions | 🍇 **118** grapes | ✅ **148** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -123,7 +123,7 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 |:-:|---|---|
 | 🇫🇷 | **France** | Bordeaux · Burgundy · Northern Rhône · Southern Rhône · Loire Valley · Alsace · Champagne · Languedoc-Roussillon · Provence · South-West · Beaujolais |
 | 🇮🇹 | **Italy** | Piedmont · Tuscany · Veneto · Southern Italy · Abruzzo · Marche · Umbria · Lazio · Friuli-Venezia Giulia · Trentino-Alto Adige · Franciacorta |
-| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Penedès (still wines) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas · Montsant · Catalunya |
+| 🇪🇸 | **Spain** | Rioja · Ribera del Duero · Priorat · Sherry (Jerez) · Rías Baixas · Rueda · Cava (Penedès) · Penedès (still wines) · Toro · Navarra · Calatayud · Cariñena · Bierzo · Valencia · Jumilla · Yecla · La Mancha · Valdepeñas · Montsant · Catalunya · Castilla y León |
 | 🇩🇪 | **Germany** | Mosel · Rheingau · Pfalz · Nahe · Rheinhessen · Baden · Franken |
 | 🇦🇹 | **Austria** | Niederösterreich · Burgenland · Steiermark |
 | 🇵🇹 | **Portugal** | Vinho Verde · Douro · Alentejo · Dão · Bairrada · Lisboa · Madeira |
@@ -164,7 +164,7 @@ Italy (11 regions) with its own map, Rome as orientation marker, the Po, and Sic
 - **Trentino-Alto Adige** — Alpine slopes from 200 to 1,000 m, warmed by air from Lake Garda; Lagrein, Teroldego and Schiava reds, aromatic whites, and Trento DOC sparkling from Chardonnay
 - **Franciacorta** — glacial moraine hills between Lake Iseo and Brescia in Lombardy; traditional-method sparkling from Chardonnay, Pinot Nero and Pinot Bianco, 18 months on the lees for non-vintage up to 60 for Riserva; Satèn is white grapes only, Brut, with softer bubbles
 
-Spain (20 regions) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
+Spain (21 regions) with its own map, Madrid as orientation marker, the Ebro, and Portugal drawn in outline:
 
 - **Rioja** — Tempranillo blends across Rioja Alta, Alavesa and Oriental; the Cantabrian shield, clay-limestone, and the Crianza–Reserva–Gran Reserva oak ladder
 - **Ribera del Duero** — Tempranillo (Tinto Fino) at altitude on the Duero plateau; hot days, cold nights, frost, and darker, firmer wines than Rioja
@@ -185,6 +185,7 @@ Spain (20 regions) with its own map, Madrid as orientation marker, the Ebro, and
 - **Valdepeñas** — an enclave inside La Mancha; smooth, oak-aged Tempranillo under strict ageing rules
 - **Montsant** — the ring of hills round Priorat; old Garnacha and Cariñena on llicorella, granite and limestone
 - **Catalunya** — one DO for the whole of Catalonia, with many grapes and no minimum shares
+- **Castilla y León** — one Vino de la Tierra (IGP) for the whole high northern plateau, drawn under Ribera del Duero, Rueda, Toro and Bierzo; long cold winters and late frosts; Tempranillo, Garnacha, Mencía and the local Prieto Picudo and Juan García; 'Roble' means three months in oak
 - **Penedès (still wines)** — hills from the sea up to about 800 m; Xarel·lo, Macabeo and Parellada made as still wine, the same trio as Cava
 
 Germany (7 regions) with its own map, Berlin as orientation marker, the Rhine and the Mosel, and the neighbouring countries drawn faintly:
@@ -281,6 +282,8 @@ The exam format is from WSET's own Level 3 specification (2022, Issue 2), read i
 
 The questions added on 2026-11-04 rest mostly on rule books read in full: Rioja's DOCa specification, the Vino Nobile di Montepulciano, Ramandolo, Picolit, Cesanese del Piglio and Cònero rule books, the Quarts de Chaume cahier, the Tokaj and Egri Csillag specifications, the Bierzo, Cariñena, Catalunya, Jumilla and Valdepeñas pliegos, EU Reg. 2019/33 and the German wine regulation for the Bocksbeutel, Wines of Greece, and the Washington, US federal, British Columbia, New Zealand and Ontario rules. Secondary: Franciacorta Riserva, Frascati's DOC date, Lagrein Kretzer, Santorini Vinsanto, the Nahe's founding, the New Zealand 85% rule, and the Steiermark DACs (seen only in search results, because the Austrian law site would not load). Fixed on the way: Naoussa's slopes face south-east, at 150 to 400 m; the Ora wind claim for Alto Adige was dropped; Egri Csillag is a PDO of its own; the Bocksbeutel is shared with parts of Baden; Rosalia is a Burgenland DAC; and Jumilla's sweet wine and its fortified vino de licor are two types.
 
+Castilla y León (added 2026-11-04) is built from its own rule book, PGI-ES-A0948, read in full from the Spanish ministry's copy. That copy is a proposed revision of 2020 that updated the grape list, and whether it was adopted unchanged could not be confirmed, so check the details against your course book. Its map shape is a rough outline of the region's borders.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
@@ -321,14 +324,14 @@ npm run dev
 ## Roadmap
 
 - [x] Italy (Piedmont, Tuscany, Veneto, Southern Italy, Abruzzo, Marche, Umbria, Lazio, Friuli-Venezia Giulia, Trentino-Alto Adige, Franciacorta)
-- [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry, Rías Baixas, Rueda, Cava, Penedès, Toro, Navarra, Calatayud, Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya)
+- [x] Spain (Rioja, Ribera del Duero, Priorat, Sherry, Rías Baixas, Rueda, Cava, Penedès, Toro, Navarra, Calatayud, Cariñena, Bierzo, Valencia, Jumilla, Yecla, La Mancha, Valdepeñas, Montsant, Catalunya, Castilla y León)
 - [x] Germany (Mosel, Rheingau, Pfalz, Nahe, Rheinhessen, Baden, Franken)
 - [x] Austria (Niederösterreich, Burgenland, Steiermark)
 - [x] Portugal (Vinho Verde, Douro, Alentejo, Dão, Bairrada, Lisboa, Madeira)
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (836: 152 France, 120 Italy, 218 Spain, 71 Germany, 28 Austria, 75 Portugal, 29 Hungary, 26 Greece, 117 New World; 736 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (845: 152 France, 120 Italy, 227 Spain, 71 Germany, 28 Austria, 75 Portugal, 29 Hungary, 26 Greece, 117 New World; 744 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (118 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -336,13 +339,12 @@ npm run dev
 - [x] Map drill: find it, name it and place it, with a round score and a study list
 - [x] Mock exam mode: timed multiple-choice paper, shuffled options, 55% pass mark, results by country and a review of every miss
 - [x] Facts fact-checked against sources, with the gaps listed above
-- [x] Sub-region drill-down maps (Zoom into any region: 364 places marked across 76 regions)
+- [x] Sub-region drill-down maps (Zoom into any region: 373 places marked across 77 regions)
 - [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
 - [x] Styles tab: the sparkling methods and the fortified wines side by side
 - [x] Written-answer practice: a question per region with WSET's command words, and a self-check against the region's notes
 - [x] More questions for the thinnest regions: every region has at least seven, and all but two have eight or more
-- [ ] Castilla y León as a region (its rule book has been read; see docs/COVERAGE.md)
 
 ## About
 

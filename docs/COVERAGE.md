@@ -18,7 +18,7 @@ This lists the wine regions that WSET's Level 3 specification names in its main 
 
 ## Not covered, or only partly
 
-- **Castilla y León Vino de la Tierra.** Still not a region in the app. WSET's specification names it but gives it no grapes of its own. Its rule book has now been read (a proposed revision of 2020, PGI-ES-A0948, on the Spanish ministry's site; whether it was adopted could not be confirmed): it covers every municipality of Castilla y León, allows still, liqueur, sparkling, semi-sparkling and overripe-grape wines, and names Tempranillo, Mencía, Garnacha, Juan García and Prieto Picudo as its main reds and Verdejo, Viura and the two Albillos as its main whites. Adding it as a region is the next step.
+- **Castilla y León Vino de la Tierra** is now a region (added 2026-11-04), from its rule book, PGI-ES-A0948 (a proposed revision of 2020; whether it was adopted unchanged could not be confirmed). WSET's specification names it but gives it no grapes of its own.
 - **Smaller places inside a region.** The specification names many districts and appellations (Sancerre, Muscadet, Saumur and others). Some are listed as places inside a region, but they have no page of their own.
 - **Sparkling wines** are now covered: Franciacorta has its own region (added 2026-11-03), the other sparkling wines sit in their regions, a *Sparkling* filter gathers every sparkling question, and the *Styles* tab compares the methods side by side.
 - **Fortified wines** are now covered: Madeira has its own region (added 2026-11-03), and Port, Sherry, the French Vins Doux Naturels, Marsala and Rutherglen Muscat sit in their regions, with a *Fortified* filter in the quiz and the mock exam that gathers every fortified question.

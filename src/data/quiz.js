@@ -11913,5 +11913,133 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "steiermark",
     explanation: "The 2018 DAC rules say Südsteiermark DAC must be made and bottled in the Steiermark wine region."
+  },
+  {
+    id: "es-226",
+    type: "scenario",
+    country: "Spain",
+    question: "Which words may a Castilla y León label use in place of 'IGP'?",
+    options: [
+      "Denominación de Origen",
+      "Vino de la Tierra",
+      "Vino de Pago",
+      "Vino de Calidad"
+    ],
+    answer: 1,
+    region: "castillaYLeon",
+    explanation: "The rule book lets the traditional term 'Vino de la Tierra' stand in for IGP. Castilla y León is a protected geographical indication, a step below the DOs inside it."
+  },
+  {
+    id: "es-227",
+    type: "connection",
+    country: "Spain",
+    question: "Which area does the Castilla y León IGP cover?",
+    options: [
+      "Only the Duero valley",
+      "Only land outside the DOs",
+      "Every municipality in the region",
+      "The provinces of León and Zamora"
+    ],
+    answer: 2,
+    region: "castillaYLeon",
+    explanation: "It covers every municipality in Castilla y León, so growers outside the region's DOs, such as Ribera del Duero and Rueda, can still use a regional name."
+  },
+  {
+    id: "es-228",
+    type: "scenario",
+    country: "Spain",
+    question: "A Castilla y León wine says 'Roble' on the label. What does that require?",
+    options: [
+      "At least 3 months in oak barrels",
+      "At least 12 months in oak barrels",
+      "Fermentation in new oak only",
+      "Two years of ageing in total"
+    ],
+    answer: 0,
+    region: "castillaYLeon",
+    explanation: "The rule book allows 'Roble' only when the wine has spent at least three months in oak barrels."
+  },
+  {
+    id: "es-229",
+    type: "connection",
+    country: "Spain",
+    question: "How much wine may a Castilla y León producer press from 100 kg of grapes?",
+    options: [
+      "Up to 60 litres",
+      "Up to 70 litres",
+      "Up to 85 litres",
+      "Up to 75 litres"
+    ],
+    answer: 3,
+    region: "castillaYLeon",
+    explanation: "Pressing may give no more than 75 litres of wine from 100 kg of grapes, and yields are capped at 16,000 kg a hectare."
+  },
+  {
+    id: "es-230",
+    type: "connection",
+    country: "Spain",
+    question: "Which of these is one of Castilla y León's main local red grapes?",
+    options: [
+      "Bobal, from Valencia",
+      "Prieto Picudo",
+      "Monastrell, from Murcia",
+      "Cariñena"
+    ],
+    answer: 1,
+    region: "castillaYLeon",
+    explanation: "The main reds are Tempranillo, Garnacha Tinta, Mencía, Juan García and Prieto Picudo. Prieto Picudo also gives full-bodied rosés."
+  },
+  {
+    id: "es-231",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Castilla y León's climate make frost a real risk for vines?",
+    options: [
+      "The sea air brings fog that freezes",
+      "The vines grow below sea level",
+      "Altitude brings long frost seasons",
+      "Rain falls mostly as snow in summer"
+    ],
+    answer: 2,
+    region: "castillaYLeon",
+    explanation: "More than 98% of the land is above 600 m. Frost can come on 180 to 220 days a year, from October to May, and late frosts are frequent."
+  },
+  {
+    id: "es-232",
+    type: "scenario",
+    country: "Spain",
+    question: "Which wine types may be made under the Castilla y León IGP?",
+    options: [
+      "Still, liqueur, sparkling, aguja",
+      "Only still red and white wines, no rosé",
+      "Only still wines and fortified wines",
+      "Only red wines that have aged in oak"
+    ],
+    answer: 0,
+    region: "castillaYLeon",
+    explanation: "It allows still white, rosé and red wine, liqueur wine, quality sparkling wine, semi-sparkling vino de aguja and wine from overripe grapes."
+  },
+  {
+    id: "es-233",
+    type: "connection",
+    country: "Spain",
+    question: "What is the minimum alcohol for a red Castilla y León wine?",
+    options: [
+      "9% in total",
+      "13% in total",
+      "10% in total",
+      "11% in total"
+    ],
+    answer: 3,
+    region: "castillaYLeon",
+    explanation: "Reds need at least 11% total alcohol. Whites and rosés need 9%, and still wines may not go above 16%."
+  },
+  {
+    id: "es-234",
+    type: "map",
+    country: "Spain",
+    question: "Which Vino de la Tierra covers the whole of the high northern plateau around the Duero, taking in Ribera del Duero, Rueda, Toro and Bierzo?",
+    answer: "castillaYLeon",
+    explanation: "Castilla y León is one IGP for the whole region, from El Bierzo in the west to Soria in the east."
   }
 ];

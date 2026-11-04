@@ -2,6 +2,12 @@
 import { geoToSvgSpain as geoToSvg, ptSpain as pt } from "../geo.js";
 
 export const SPAIN_REGION_PATHS = {
+  castillaYLeon: {
+    // Castilla y León: the whole region, a rough outline of its borders. Drawn
+    // first of all, so the DOs inside it (Ribera, Rueda, Toro, Bierzo) sit on top.
+    d: `M${pt(-6.95,42.85)} L${pt(-6.8,43.05)} L${pt(-5.8,43.1)} L${pt(-4.8,43.15)} L${pt(-4.3,43.05)} L${pt(-3.8,43.05)} L${pt(-3.3,43.2)} L${pt(-2.9,43.0)} L${pt(-3.0,42.6)} L${pt(-2.6,42.0)} L${pt(-1.8,41.6)} L${pt(-2.1,41.1)} L${pt(-3.4,41.15)} L${pt(-4.2,40.6)} L${pt(-4.6,40.2)} L${pt(-5.4,40.2)} L${pt(-6.2,40.25)} L${pt(-6.85,40.6)} L${pt(-6.8,41.0)} L${pt(-6.2,41.6)} L${pt(-6.6,41.95)} L${pt(-6.9,42.0)} L${pt(-7.05,42.5)} Z`,
+    label: geoToSvg(-4.9, 42.3)
+  },
   catalunya: {
     // Catalunya: the umbrella DO over the whole of Catalonia (drawn first, so smaller DOs sit on top)
     d: `M${pt(0.3,42.3)} L${pt(1.7,42.45)} L${pt(3.2,42.35)} L${pt(3.2,41.7)} L${pt(2.6,41.4)} L${pt(1.3,41.0)} L${pt(0.9,40.55)} L${pt(0.4,40.7)} L${pt(0.35,41.2)} L${pt(0.4,41.8)} Z`,

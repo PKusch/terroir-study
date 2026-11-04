@@ -105,5 +105,16 @@ export const PLACES_SPAIN = {
     "Sitges": [1.823, 41.237],
     "El Vendrell": [1.5347, 41.2203],
     "Olèrdola": [1.7231, 41.3219]
+  },
+  castillaYLeon: {
+    "Valladolid": [-4.72, 41.65],
+    "León": [-5.57, 42.6],
+    "Burgos": [-3.7, 42.34],
+    "Palencia": [-4.53, 42.01],
+    "Zamora": [-5.75, 41.5],
+    "Salamanca": [-5.66, 40.97],
+    "Segovia": [-4.12, 40.95],
+    "Ávila": [-4.7, 40.66],
+    "Soria": [-2.47, 41.76]
   }
 };

@@ -304,5 +304,21 @@ export const SPAIN_REGIONS = {
     qualityLevels: ["Vino de España", "DO Penedès", "Vino de Mas and Gran Vino de Mas (from a named estate)", "Crianza (red 24 months, 6 in oak)", "Reserva (red 36 months, 12 in oak)", "Gran Reserva (red 60 months, 24 in oak)", "Clàssic Penedès (organic, vintage-dated sparkling)"],
     whyConnection: "Hills from the sea up to about 800 m → cooler inland sites keep acidity for fresh whites and sparkling base wines. Local white grapes Xarel·lo, Macabeo and Parellada → the same trio as Cava, but made as still wine here. Organic farming required → the DO is among the first in Spain to make it a rule.",
     color: "#6FA05A"
+  },
+  castillaYLeon: {
+    name: "Castilla y León",
+    country: "Spain",
+    climate: "Semi-arid continental, on a high plateau",
+    climateDetail: "A large plateau ringed by mountains: the Cantabrian range to the north, the Iberian system to the north-east, the Central system to the south and the Montes de León to the north-west. More than 98% of the land is above 600 m. Winters are long and cold, summers short, hot and dry, and frost can come on 180 to 220 days a year, with frequent late frosts. The plains get only 350 to 500 mm of rain. El Bierzo, the Arribes del Duero and the Sierra de Salamanca are milder and wetter.",
+    keyGrapes: { red: ["Tempranillo (Tinto Fino / Tinta del País)", "Garnacha", "Mencía"], white: ["Verdejo", "Viura", "Albillo Mayor"] },
+    subRegions: ["Valladolid", "León", "Burgos", "Palencia", "Zamora", "Salamanca", "Segovia", "Ávila", "Soria"],
+    subRegionsLabel: "Provinces",
+    soils: "The Duero basin is filled with Miocene sediments (conglomerates, clays, sands and marls), cut by river terraces and flat-topped páramos. The west and south-west have acid soils over older rock; the mountains have humic soils better suited to forest than to vines.",
+    viticultureNotes: "A Vino de la Tierra (IGP) covering every municipality in Castilla y León, so it reaches growers outside the region's DOs such as Ribera del Duero, Rueda, Toro, Bierzo and Cigales. The main red grapes are Tempranillo (also called Tinto Fino, Tinta del País and Tinta de Toro), Garnacha Tinta, Mencía and the local Juan García and Prieto Picudo; the main whites are Verdejo, Viura and Albillo Mayor and Albillo Real, with many secondary grapes allowed besides. Yields are capped at 16,000 kg of grapes a hectare.",
+    winemaking: "Allows still white, rosé and red wine, liqueur wine, quality sparkling wine, semi-sparkling wine (vino de aguja) and wine from overripe grapes. Pressing may give no more than 75 litres of wine from 100 kg of grapes. 'Roble' on the label means at least three months in oak barrels. Wineries and any ageing must be inside the region.",
+    typicalStyle: "Young whites fresh and fruity with weight in the mouth; rosés fresh with red-fruit aromas, fuller-bodied when made from Prieto Picudo; reds powerful, deeply coloured and well structured, with ripe fruit and the capacity for long oak ageing.",
+    qualityLevels: ["Vino de España", "Vino de la Tierra / IGP Castilla y León", "Roble (at least 3 months in oak)", "The DOs inside the region (Ribera del Duero, Rueda, Toro, Bierzo and others)"],
+    whyConnection: "A high plateau with long cold winters, late frosts and a wide swing between day and night → slow ripening that keeps fruit and colour. One IGP for the whole region → growers outside the DOs, and grapes the DOs do not allow, can still carry a regional name. Local grapes such as Prieto Picudo and Juan García → styles found nowhere else in Spain.",
+    color: "#9C6B3E"
   }
 };
