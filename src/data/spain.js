@@ -310,7 +310,7 @@ export const SPAIN_REGIONS = {
     country: "Spain",
     climate: "Semi-arid continental, on a high plateau",
     climateDetail: "A large plateau ringed by mountains: the Cantabrian range to the north, the Iberian system to the north-east, the Central system to the south and the Montes de León to the north-west. More than 98% of the land is above 600 m. Winters are long and cold, summers short, hot and dry, and frost can come on 180 to 220 days a year, with frequent late frosts. The plains get only 350 to 500 mm of rain. El Bierzo, the Arribes del Duero and the Sierra de Salamanca are milder and wetter.",
-    keyGrapes: { red: ["Tempranillo (Tinto Fino / Tinta del País)", "Garnacha", "Mencía"], white: ["Verdejo", "Viura", "Albillo Mayor"] },
+    keyGrapes: { red: ["Tempranillo (Tinto Fino / Tinta del País)", "Garnacha", "Mencía", "Prieto Picudo", "Juan García"], white: ["Verdejo", "Viura", "Albillo Mayor", "Albillo Real"] },
     subRegions: ["Valladolid", "León", "Burgos", "Palencia", "Zamora", "Salamanca", "Segovia", "Ávila", "Soria"],
     subRegionsLabel: "Provinces",
     soils: "The Duero basin is filled with Miocene sediments (conglomerates, clays, sands and marls), cut by river terraces and flat-topped páramos. The west and south-west have acid soils over older rock; the mountains have humic soils better suited to forest than to vines.",

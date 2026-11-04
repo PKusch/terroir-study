@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **77** regions | 📍 **373** places on the map | ❓ **849** quiz questions | 🍇 **118** grapes | ✅ **155** tests |
+| 🌍 **9** countries | 🗺️ **77** regions | 📍 **373** places on the map | ❓ **849** quiz questions | 🍇 **121** grapes | ✅ **155** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -284,6 +284,8 @@ The questions added on 2026-11-04 rest mostly on rule books read in full: Rioja'
 
 Castilla y León (added 2026-11-04) is built from its own rule book, PGI-ES-A0948, read in full from the Spanish ministry's copy. That copy is a proposed revision of 2020 that updated the grape list, and whether it was adopted unchanged could not be confirmed, so check the details against your course book. Its map shape is a rough outline of the region's borders.
 
+The grape profiles for Prieto Picudo, Juan García and Albillo Real (added 2026-11-04) rest on Guía Peñín, Spain's trade body ICEX, the Toro DO and a winery page, because the grape reference sites would not load. Their aroma words and notes are sourced, but some body, acidity and tannin levels are a judgement where no source states one (Prieto Picudo's body, Juan García's body and acidity, Albillo Real's body and acidity), so Taste mode's marking for these three grapes is less firm than for the others.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
@@ -333,7 +335,7 @@ npm run dev
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
 - [x] Expand quiz bank to 50+ questions (849: 152 France, 120 Italy, 227 Spain, 73 Germany, 28 Austria, 75 Portugal, 29 Hungary, 28 Greece, 117 New World; 748 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
-- [x] Grape variety profiles with tasting descriptors (118 grapes)
+- [x] Grape variety profiles with tasting descriptors (121 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
 - [x] Progress tracking and weak-area identification
 - [x] Map drill: find it, name it and place it, with a round score and a study list

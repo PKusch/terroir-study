@@ -1053,6 +1053,35 @@ export const GRAPES = {
     aromas: ["green apple", "pear", "citrus", "floral", "almond"],
     notes: "The local white grape of Ribera del Duero, where it was long a small part of the red blend. The DO now also makes white wine, and Albillo Mayor must lead it."
   },
+  prietoPicudo: {
+    name: "Prieto Picudo",
+    aliases: [],
+    colour: "red",
+    body: "medium",
+    acidity: "high",
+    tannin: "high",
+    aromas: ["blackberry", "redcurrant", "liquorice", "black pepper", "floral"],
+    notes: "The signature grape of León, named for its tight bunches of pointed berries. It is thin-skinned and dislikes drought and too much sun, so it suits temperate sites; in years when it does not fully ripen the tannin turns drying. Oak softens its tannin, and it also makes fresh rosados, some by the madreo method, which leaves a slight natural sparkle."
+  },
+  juanGarcia: {
+    name: "Juan García",
+    aliases: ["Mouratón"],
+    colour: "red",
+    body: "low",
+    acidity: "medium",
+    tannin: "medium",
+    aromas: ["red cherry", "wild red fruit", "floral", "forest floor", "earthy"],
+    notes: "The main grape of Arribes, grown as unirrigated bush vines on steep granite and slate terraces above the Duero gorge. Thin-skinned and prone to rot on fertile soils, it gives perfumed, light to medium-bodied reds with modest alcohol and fairly austere tannins, and is often blended because its acidity is not high."
+  },
+  albilloReal: {
+    name: "Albillo Real",
+    aliases: [],
+    colour: "white",
+    body: "medium",
+    acidity: "low",
+    aromas: ["stone fruit", "white flowers", "ripe fruit", "honey"],
+    notes: "An old white grape of Toro, Cebreros and the Gredos mountains, usually from old vines in small plots on poor granite soils. It is high in glycerine, so the wines feel smooth and round, with lowish acidity. Lees contact and large, used oak barrels add texture without hiding its delicate fruit. Not the same grape as Albillo Mayor of Ribera del Duero."
+  },
   aligote: {
     name: "Aligoté",
     aliases: ["Aligote"],
