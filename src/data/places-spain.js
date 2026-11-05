@@ -18,7 +18,11 @@ export const PLACES_SPAIN = {
   },
   priorat: {
     "Priorat DOQ": [0.77, 41.19],
-    "Montsant DO (the ring of vineyards around Priorat)": [0.82, 41.14]
+    "Montsant DO (the ring of vineyards around Priorat)": [0.82, 41.14],
+    "Gratallops": [0.777, 41.193],
+    "Porrera": [0.856, 41.189],
+    "Poboleda": [0.845, 41.233],
+    "Torroja del Priorat": [0.811, 41.213]
   },
   sherry: {
     "Jerez de la Frontera": [-6.14, 36.69],
@@ -34,7 +38,10 @@ export const PLACES_SPAIN = {
   },
   cava: {
     "Sant Sadurní d'Anoia": [1.785, 41.42611],
-    "Vilafranca del Penedès": [1.69294, 41.34826]
+    "Vilafranca del Penedès": [1.69294, 41.34826],
+    "Subirats": [1.811, 41.395],
+    "Gelida": [1.861, 41.432],
+    "Avinyonet del Penedès": [1.782, 41.356]
   },
   rueda: {
     "Rueda": [-4.96, 41.414],
@@ -58,11 +65,19 @@ export const PLACES_SPAIN = {
   },
   calatayud: {
     "Calatayud": [-1.633, 41.35],
-    "Ateca": [-1.7929, 41.3308]
+    "Ateca": [-1.7929, 41.3308],
+    "Munébrega": [-1.721, 41.24],
+    "Maluenda": [-1.616, 41.287],
+    "Cervera de la Cañada": [-1.735, 41.432],
+    "Villarroya de la Sierra": [-1.784, 41.464]
   },
   carinena: {
     "Cariñena": [-1.217, 41.333],
-    "Aguarón": [-1.2697, 41.3389]
+    "Aguarón": [-1.2697, 41.3389],
+    "Paniza": [-1.212, 41.284],
+    "Almonacid de la Sierra": [-1.324, 41.397],
+    "Longares": [-1.168, 41.403],
+    "Cosuenda": [-1.299, 41.366]
   },
   bierzo: {
     "Ponferrada": [-6.583, 42.55],
@@ -78,7 +93,10 @@ export const PLACES_SPAIN = {
   },
   jumilla: {
     "Jumilla": [-1.325, 38.4792],
-    "Hellín": [-1.68333, 38.51667]
+    "Hellín": [-1.68333, 38.51667],
+    "Tobarra": [-1.689, 38.594],
+    "Ontur": [-1.498, 38.615],
+    "Albatana": [-1.523, 38.571]
   },
   yecla: {
     "Yecla": [-1.11447, 38.61],
