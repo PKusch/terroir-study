@@ -11,7 +11,11 @@ export const PLACES_GREECE = {
   },
   naoussa: {
     "Naoussa": [22.07, 40.63],
-    "Mount Vermio slopes": [22.1, 40.58]
+    "Mount Vermio slopes": [22.1, 40.58],
+    "Giannakochori": [22.056, 40.673],
+    "Rodochori": [22.017, 40.692],
+    "Stenimachos": [22.127, 40.603],
+    "Trilofo": [22.151, 40.572]
   },
   nemea: {
     "Nemea": [22.67, 37.82],

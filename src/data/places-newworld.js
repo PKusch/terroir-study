@@ -89,7 +89,10 @@ export const PLACES_NEW_WORLD = {
   },
   newYork: {
     "Seneca Lake": [-76.88, 42.52],
-    "Cayuga Lake": [-76.65, 42.57]
+    "Cayuga Lake": [-76.65, 42.57],
+    "Keuka Lake": [-77.108, 42.528],
+    "Niagara Escarpment": [-78.697, 43.169],
+    "Lake Erie": [-79.331, 42.44]
   },
   ontario: {
     "Niagara-on-the-Lake": [-79.07, 43.26],
