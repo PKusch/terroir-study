@@ -11196,18 +11196,18 @@ export const QUIZ_QUESTIONS = [
   },
   {
     id: "nw-115",
-    type: "connection",
+    type: "scenario",
     country: "New World",
-    question: "A New Zealand label says \"2020 Marlborough Pinot Noir\". What must be true?",
+    question: "A New Zealand wine for retail sale is labelled 'Marlborough'. How much of it must come from Marlborough?",
     options: [
-      "85% must be Pinot Noir, and 85% from Marlborough, counted apart",
-      "At least 85% must be Pinot Noir grown in Marlborough in 2020",
-      "All of the grapes must be Marlborough Pinot Noir from 2020",
-      "75% must be Pinot Noir, as the region and year are free"
+      "At least 75% of the wine",
+      "At least 85% of the wine",
+      "At least 95% of the wine",
+      "Every grape in the wine"
     ],
     answer: 1,
     region: "newZealand",
-    explanation: "New Zealand's 85% rule covers grape, year and place. When a label combines them, at least 85% of the wine must match all of them at once."
+    explanation: "New Zealand's 85% rule, as the Ministry for Primary Industries sets it out: if a label states a grape variety, a vintage or an area, at least 85% of the wine must be from that variety, vintage or area. It does not apply to wine sold in bulk."
   },
   {
     id: "nw-116",
