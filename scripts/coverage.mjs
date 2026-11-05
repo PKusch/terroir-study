@@ -20,6 +20,8 @@ const rows = [...counts].sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0]))
 if (process.argv.includes("--md")) {
   console.log("| Region | Questions |\n|:--|--:|");
   for (const [region, n] of rows) console.log(`| ${region} | ${n} |`);
+  console.log("\n| Topic | Questions |\n|:--|--:|");
+  for (const [t, n] of topics) console.log(`| ${t} | ${n} |`);
 } else {
   for (const [region, n] of rows) console.log(`${String(n).padStart(4)}  ${region}`);
   console.log("\nTopics: " + [...topics].map(([t, n]) => `${t} ${n}`).join(", "));
