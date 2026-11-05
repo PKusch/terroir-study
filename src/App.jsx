@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { tabFromHash } from "./tabs.js";
+import { tabFromHash, tabTitle } from "./tabs.js";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { MAPS } from "./maps.jsx";
 import { DetailMap } from "./DetailMap.jsx";
@@ -24,6 +24,7 @@ export default function WsetStudyApp() {
   useEffect(() => {
     const want = mode === "explore" ? window.location.pathname + window.location.search : `#${mode}`;
     if (mode === "explore" ? window.location.hash : window.location.hash !== `#${mode}`) window.history.replaceState(null, "", want);
+    document.title = tabTitle(mode);
   }, [mode]);
   const [country, setCountry] = useState("France");
   const [activeRegion, setActiveRegion] = useState("bordeaux");

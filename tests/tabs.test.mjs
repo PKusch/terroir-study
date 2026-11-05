@@ -16,3 +16,11 @@ test("every tab the app shows can be linked to", () => {
   const shown = [...app.slice(app.indexOf("const modes = [")).matchAll(/\{ id: "([a-z]+)", label:/g)].map((m) => m[1]);
   assert.deepEqual(shown, TAB_IDS);
 });
+
+test("the browser title names the tab, and Explore keeps the plain title", async () => {
+  const { tabTitle } = await import("../src/tabs.js");
+  assert.equal(tabTitle("explore"), "Terroir Study | WSET Level 3");
+  assert.equal(tabTitle("written"), "Written answers · Terroir Study | WSET Level 3");
+  for (const id of TAB_IDS) assert.match(tabTitle(id), /Terroir Study/);
+  assert.equal(tabTitle("nothing"), "Terroir Study | WSET Level 3");
+});

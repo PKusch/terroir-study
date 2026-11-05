@@ -8,3 +8,13 @@ export function tabFromHash(hash) {
   const id = String(hash ?? "").replace(/^#/, "").toLowerCase();
   return TAB_IDS.includes(id) ? id : "explore";
 }
+
+// What the browser tab and a bookmark say on each tab.
+const TAB_NAMES = {
+  explore: "Explore", connect: "Connect", quiz: "Quiz", taste: "Taste",
+  exam: "Mock exam", drill: "Map drill", styles: "Styles", written: "Written answers"
+};
+export function tabTitle(id) {
+  const name = TAB_NAMES[id];
+  return name && id !== "explore" ? `${name} · Terroir Study | WSET Level 3` : "Terroir Study | WSET Level 3";
+}
