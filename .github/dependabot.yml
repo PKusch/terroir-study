@@ -1,0 +1,13 @@
+# Weekly pull requests for npm updates and monthly ones for the GitHub
+# Actions the workflows use. Each one runs the tests before it can merge.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
