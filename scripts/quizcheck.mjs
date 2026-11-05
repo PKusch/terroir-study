@@ -17,3 +17,6 @@ for (const q of giveaways) {
   const lens = q.options.map((o) => o.length).join("/");
   console.log(`  ${q.id}  right is #${q.answer + 1}  lengths ${lens}`);
 }
+
+// Fail, like the test does, so the check can stand on its own in a script.
+if (giveaways.length) process.exitCode = 1;
