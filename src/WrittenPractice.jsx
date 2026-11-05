@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { COUNTRIES, REGIONS } from "./data/regions.js";
-import { COMMAND_WORDS, randomWritten, selfScore } from "./written.js";
+import { COMMAND_WORDS, randomWritten, selfScore, wordCount } from "./written.js";
 
 const serif = "'Cormorant Garamond', Georgia, serif";
 const gold = "#C4A962";
@@ -75,6 +75,7 @@ export const WrittenPractice = ({ onStudyRegion }) => {
             lineHeight: 1.6, fontFamily: "inherit", resize: "vertical"
           }}
         />
+        <div style={{ fontSize: "11px", color: "#8B7355", marginTop: "4px" }}>{wordCount(answer)} words</div>
         <div style={{ display: "flex", gap: "8px", flexWrap: "wrap", marginTop: "10px" }}>
           {!shown && <button onClick={() => setShown(true)} style={{ ...button, borderColor: gold, color: gold }}>Show the points</button>}
           <button onClick={() => next()} style={button}>Another question</button>

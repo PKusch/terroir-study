@@ -89,3 +89,8 @@ export function selfScore(points, ticked) {
   const got = points.filter((_, i) => ticked.has(i)).length;
   return { got, n, percent: n ? Math.round((got / n) * 100) : 0 };
 }
+
+// Words in an answer, so the writer can see how much they have put down.
+export function wordCount(text) {
+  return (String(text ?? "").match(/[\p{L}\p{N}][\p{L}\p{N}'’-]*/gu) ?? []).length;
+}

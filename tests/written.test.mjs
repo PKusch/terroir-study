@@ -50,3 +50,10 @@ test("Another question never gives the same question twice running", () => {
     prev = next;
   }
 });
+
+test("wordCount counts words, including accented ones, and ignores punctuation", async () => {
+  const { wordCount } = await import("../src/written.js");
+  assert.equal(wordCount(""), 0);
+  assert.equal(wordCount("Chalk soils hold water."), 4);
+  assert.equal(wordCount("Côte-Rôtie's Syrah — 12% abv"), 4);
+});
