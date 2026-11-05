@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **77** regions | 📍 **414** places on the map | ❓ **849** quiz questions | 🍇 **121** grapes | ✅ **161** tests |
+| 🌍 **9** countries | 🗺️ **77** regions | 📍 **414** places on the map | ❓ **849** quiz questions | 🍇 **121** grapes | ✅ **162** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>

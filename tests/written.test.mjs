@@ -57,3 +57,8 @@ test("wordCount counts words, including accented ones, and ignores punctuation",
   assert.equal(wordCount("Chalk soils hold water."), 4);
   assert.equal(wordCount("Côte-Rôtie's Syrah — 12% abv"), 4);
 });
+
+test("every region can also be asked about its growing and winemaking, with three points or more", () => {
+  const thin = Object.keys(REGIONS).filter((k) => pointsFor(k, "making").length < 3);
+  assert.deepEqual(thin, []);
+});
