@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { tabFromHash } from "./tabs.js";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
 import { MAPS } from "./maps.jsx";
 import { DetailMap } from "./DetailMap.jsx";
@@ -18,7 +19,12 @@ import { BackupPanel } from "./BackupPanel.jsx";
 
 // ─── Main App ────────────────────────────────────────────────────────────────
 export default function WsetStudyApp() {
-  const [mode, setMode] = useState("explore");
+  const [mode, setMode] = useState(() => tabFromHash(typeof window === "undefined" ? "" : window.location.hash));
+  // Keep the address in step with the tab, so it can be copied as a link.
+  useEffect(() => {
+    const want = mode === "explore" ? window.location.pathname + window.location.search : `#${mode}`;
+    if (mode === "explore" ? window.location.hash : window.location.hash !== `#${mode}`) window.history.replaceState(null, "", want);
+  }, [mode]);
   const [country, setCountry] = useState("France");
   const [activeRegion, setActiveRegion] = useState("bordeaux");
   const [quizMapClick, setQuizMapClick] = useState(null);
