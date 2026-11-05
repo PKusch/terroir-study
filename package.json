@@ -13,7 +13,8 @@
     "quizcheck": "node scripts/quizcheck.mjs",
     "coverage": "node scripts/coverage.mjs",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "readme": "node scripts/sync-readme.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",
