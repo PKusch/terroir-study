@@ -10,7 +10,11 @@ export const PLACES_SPAIN = {
     "Rioja Oriental (Rioja Baja)": [-1.95, 42.30]
   },
   riberaDelDuero: {
-    "Ribera del Duero": [-3.85, 41.65]
+    "Ribera del Duero": [-3.85, 41.65],
+    "Peñafiel": [-4.122, 41.597],
+    "Aranda de Duero": [-3.685, 41.672],
+    "Roa": [-3.928, 41.697],
+    "Pesquera de Duero": [-4.156, 41.642]
   },
   priorat: {
     "Priorat DOQ": [0.77, 41.19],
@@ -77,7 +81,8 @@ export const PLACES_SPAIN = {
     "Hellín": [-1.68333, 38.51667]
   },
   yecla: {
-    "Yecla": [-1.11447, 38.61]
+    "Yecla": [-1.11447, 38.61],
+    "Campo Arriba": [-1.162, 38.647]
   },
   laMancha: {
     "Tomelloso": [-3.02083, 39.15778],
@@ -86,7 +91,12 @@ export const PLACES_SPAIN = {
     "Villarrobledo": [-2.6, 39.26667]
   },
   valdepenas: {
-    "Valdepeñas": [-3.385, 38.76167]
+    "Valdepeñas": [-3.385, 38.76167],
+    "Moral de Calatrava": [-3.579, 38.829],
+    "San Carlos del Valle": [-3.242, 38.844],
+    "Santa Cruz de Mudela": [-3.467, 38.642],
+    "Torrenueva": [-3.365, 38.64],
+    "Alcubillas": [-3.134, 38.752]
   },
   montsant: {
     "Falset": [0.82008, 41.14619],
