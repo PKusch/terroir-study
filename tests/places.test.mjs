@@ -50,3 +50,10 @@ test("the zoom box contains the region and its markers, and keeps the map's shap
     assert.ok(z.w >= 50, `${key}: too tight to read`);
   }
 });
+
+// Every region should have something to zoom into and to ask about in the map
+// drill. (Champagne once lost all its places in an edit and nothing noticed.)
+test("every region has at least two places marked", () => {
+  const thin = Object.keys(REGIONS).filter((k) => Object.keys(PLACES[k] ?? {}).length < 2);
+  assert.deepEqual(thin, []);
+});
