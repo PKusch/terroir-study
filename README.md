@@ -313,6 +313,10 @@ and asks first. It adds to what is already there and keeps the more recent answe
 question in both, so restoring the same file twice changes nothing, and a file that is not a
 backup, or is damaged, is refused. **Clear progress** and **Clear results** need a second click. The mock exam and the map drill save nothing at all: they are practice, and the only thing they read is your quiz record, to build the *Missed before* and *Not yet seen* papers.
 
+## Links to a tab
+
+Each tab has its own address, so it can be bookmarked or shared: add `#explore`, `#connect`, `#quiz`, `#taste`, `#exam`, `#drill`, `#styles` or `#written` to the end, as in [pkusch.github.io/terroir-study/#written](https://pkusch.github.io/terroir-study/#written). The address and the browser's tab title change as you move between tabs.
+
 ## Keyboard and screen readers
 
 You can study without a mouse. Tab moves between the map regions and buttons, and
