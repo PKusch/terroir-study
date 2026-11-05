@@ -62,7 +62,7 @@ export const WrittenPractice = ({ onStudyRegion }) => {
         <p style={{ fontSize: "12px", color: "#8B7355", margin: "0 0 10px" }}>
           <b style={{ color: gold }}>{q.command}</b>: {COMMAND_WORDS[q.command]}
         </p>
-        <label htmlFor="written-answer" style={{ position: "absolute", left: "-9999px" }}>Your answer</label>
+        <label htmlFor="written-answer" className="visually-hidden">Your answer</label>
         <textarea
           id="written-answer"
           value={answer}
