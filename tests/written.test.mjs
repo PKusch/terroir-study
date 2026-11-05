@@ -41,3 +41,12 @@ test("selfScore counts the ticked points", () => {
   assert.deepEqual(selfScore(["a", "b", "c", "d"], new Set([0, 2])), { got: 2, n: 4, percent: 50 });
   assert.deepEqual(selfScore([], new Set()), { got: 0, n: 0, percent: 0 });
 });
+
+test("Another question never gives the same question twice running", () => {
+  let prev = randomWritten(["douro"]);
+  for (let i = 0; i < 50; i++) {
+    const next = randomWritten(["douro"], Math.random, prev);
+    assert.ok(!(next.regionKey === prev.regionKey && next.kind === prev.kind), "repeated");
+    prev = next;
+  }
+});

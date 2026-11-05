@@ -27,7 +27,7 @@ export const WrittenPractice = ({ onStudyRegion }) => {
   const [ticked, setTicked] = useState(new Set());
 
   const next = (c = country) => {
-    setQ(randomWritten(keysFor(c)));
+    setQ((prev) => randomWritten(keysFor(c), Math.random, prev));
     setAnswer("");
     setShown(false);
     setTicked(new Set());
