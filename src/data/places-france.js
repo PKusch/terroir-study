@@ -46,13 +46,13 @@ export const PLACES_FRANCE = {
     "Sancerre": [2.83, 47.33],
     "Pouilly-Fumé": [2.95, 47.28]
   },
-  alsace: {},
-  champagne: {
-    "Montagne de Reims": [4.10, 49.15],
-    "Côte des Blancs": [4.00, 48.97],
-    "Vallée de la Marne": [3.75, 49.07],
-    "Côte de Sézanne": [3.72, 48.72],
-    "Côte des Bar": [4.55, 48.15]
+  alsace: {
+    "Colmar": [7.358, 48.078],
+    "Riquewihr": [7.298, 48.166],
+    "Ribeauvillé": [7.325, 48.192],
+    "Kaysersberg": [7.241, 48.157],
+    "Eguisheim": [7.308, 48.045],
+    "Barr": [7.449, 48.409]
   },
   languedocRoussillon: {
     "Corbières": [2.70, 43.10],
