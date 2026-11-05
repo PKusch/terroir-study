@@ -291,6 +291,8 @@ Castilla y León (added 2026-11-04) is built from its own rule book, PGI-ES-A094
 
 The grape profiles for Prieto Picudo, Juan García and Albillo Real (added 2026-11-04) rest on Guía Peñín, Spain's trade body ICEX, the Toro DO and a winery page, because the grape reference sites would not load. Their aroma words and notes are sourced, but some body, acidity and tannin levels are a judgement where no source states one (Prieto Picudo's body, Juan García's body and acidity, Albillo Real's body and acidity), so Taste mode's marking for these three grapes is less firm than for the others.
 
+On 2026-11-05 Alsace, Ribera del Duero, Yecla, Valdepeñas, Priorat, Cava, Calatayud, Cariñena, Jumilla, Naoussa and New York were given more places, so every region has at least two to zoom into and to be asked about in the map drill. The positions come from OpenStreetMap; the choice of towns follows each DO's list of municipalities or its best-known wine villages. The same day the Seneca Lake question was confirmed from the US regulator's 2003 ruling that created the Seneca Lake AVA, and a New Zealand label question was rewritten, because its answer (one 85% covering grape, year and place together) had no source behind it; New Zealand's own guidance only says each claim needs 85%.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
