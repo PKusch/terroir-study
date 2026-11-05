@@ -25,20 +25,26 @@ point to, not from memory.
   and the next number, such as `hu-18`, and it never changes: progress is kept
   against it.
 - A multiple-choice question has four options, an `answer` index, a `region` key
-  and an `explanation` that says why. Put the right answer in different places
-  from question to question.
+  and an `explanation` that says why. The quiz and the mock exam shuffle the
+  options, so their stored order does not matter to the player.
 - Make the wrong options as long and as plausible as the right one. `npm test`
-  fails if more than one question in ten has the right answer as the longest
-  option, and `npm run quizcheck` lists the ones that do.
+  fails if any question has the right answer as the single longest option, and
+  `npm run quizcheck` lists the ones that do.
+- Every region needs at least nine questions (a test checks), and every fact
+  should come from a rule book or an official page; say in the README's "How far
+  to trust the facts" when one rests on a secondary source.
 - A new multiple-choice question joins the mock exams automatically. Papers 1 and
-  2 are frozen and do not change; the new question lands on Paper 3 or 4.
+  2 are frozen and do not change; the new question lands on one of the later
+  papers, which appear as the bank grows.
 
 ## Running it
 
 ```bash
 npm install
-npm test     # 81 tests over the pure logic, no browser needed
-npm run dev  # the app, for a visual change
+npm test           # the tests over the data and the logic, no browser needed
+npm run dev        # the app, for a visual change
+npm run readme     # update the counts the README quotes after adding content
+npm run coverage   # questions per region, fewest first, and per topic
 npm run quizcheck  # quiz questions where the right answer is the longest option
 ```
 
