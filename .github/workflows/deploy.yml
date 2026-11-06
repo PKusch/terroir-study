@@ -32,6 +32,9 @@ jobs:
       - name: Data checks
         run: npm test
 
+      - name: README counts are current
+        run: node scripts/sync-readme.mjs --check
+
       - name: Build
         run: npm run build
 
