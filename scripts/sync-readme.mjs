@@ -26,6 +26,7 @@ s = s.replace(/🗺️ \*\*\d+\*\* regions/, `🗺️ **${regions}** regions`)
   .replace(/❓ \*\*\d+\*\* quiz questions/, `❓ **${Q.length}** quiz questions`)
   .replace(/🍇 \*\*\d+\*\* grapes/, `🍇 **${grapes}** grapes`)
   .replace(/✅ \*\*\d+\*\* tests/, `✅ **${tests}** tests`)
+  .replace(/^\d+ tests cover the pure logic/m, `${tests} tests cover the pure logic`)
   .replace(/tasting descriptors \(\d+ grapes\)/, `tasting descriptors (${grapes} grapes)`)
   .replace(/\d+ places marked across \d+ regions/, `${places} places marked across ${regions} regions`);
 const order = ["France", "Italy", "Spain", "Germany", "Austria", "Portugal", "Hungary", "Greece", "New World"];
