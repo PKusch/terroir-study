@@ -34,8 +34,11 @@ export const PLACES_FRANCE = {
   },
   rhoneSouth: {
     "Châteauneuf-du-Pape": [4.83, 44.06],
-    "Gigondas": [5.00, 44.16],
-    "Vacqueyras": [4.98, 44.14]
+    "Gigondas": [5, 44.16],
+    "Vacqueyras": [4.98, 44.14],
+    "Rasteau": [4.986, 44.23],
+    "Tavel": [4.698, 44.013],
+    "Lirac": [4.691, 44.037]
   },
   loire: {
     "Muscadet": [-1.30, 47.17],

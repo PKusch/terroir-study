@@ -7,7 +7,7 @@ export const SPAIN_REGIONS = {
     climate: "Mediterranean, milder on the coast",
     climateDetail: "Mediterranean overall, with more than 2,500 hours of sun a year. The coast is milder and the interior more continental, with cold winters and very hot summers, and sea breezes regulate the heat. The mean annual temperature is about 14 to 15 °C and rainfall runs from about 350 mm in the driest areas to over 600 mm in the wettest. Vines grow from sea level to almost 800 m.",
     keyGrapes: { red: ["Grenache", "Carignan", "Merlot", "Cabernet Sauvignon", "Tempranillo"], white: ["Chardonnay", "Macabeo", "Xarel·lo", "Parellada"] },
-    subRegions: ["Gandesa", "Reus", "Vilafranca del Penedès"],
+    subRegions: ["Gandesa", "Reus", "Vilafranca del Penedès", "Alella", "Raimat", "Sant Sadurní d'Anoia"],
     subRegionsLabel: "Towns inside the DO",
     soils: "Mainly calcareous Miocene sedimentary deposits, low in organic matter, with silt and clay textures that give body and structure. Near rivers there is Quaternary alluvium.",
     viticultureNotes: "The umbrella DO for Catalonia, covering a long list of municipalities, many of which also lie in other DOs such as Penedès, Montsant and Cava. About 38 grapes are authorised, 19 white and 19 or 20 black, with no minimum share for any. The maximum yield is 10,000 kg/ha for black grapes and 12,000 kg/ha for white, and where a vineyard could also go to another DO, the stricter yield applies.",

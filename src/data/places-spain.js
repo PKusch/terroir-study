@@ -125,7 +125,10 @@ export const PLACES_SPAIN = {
   catalunya: {
     "Gandesa": [0.43972, 41.05528],
     "Reus": [1.108, 41.156],
-    "Vilafranca del Penedès": [1.69944, 41.34472]
+    "Vilafranca del Penedès": [1.69944, 41.34472],
+    "Alella": [2.294, 41.496],
+    "Raimat": [0.478, 41.678],
+    "Sant Sadurní d'Anoia": [1.786, 41.424]
   },
   penedes: {
     "Vilafranca del Penedès": [1.6929, 41.3483],

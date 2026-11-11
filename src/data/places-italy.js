@@ -60,7 +60,9 @@ export const PLACES_ITALY = {
   umbria: {
     "Montefalco": [12.65238, 42.89376],
     "Torgiano": [12.43398, 43.02563],
-    "Orvieto": [12.10827, 42.7182]
+    "Orvieto": [12.10827, 42.7182],
+    "Bevagna": [12.609, 42.934],
+    "Gualdo Cattaneo": [12.556, 42.909]
   },
   lazio: {
     "Frascati": [12.68333, 41.81667],
@@ -71,7 +73,10 @@ export const PLACES_ITALY = {
   friuli: {
     "Cormons": [13.4667, 45.95],
     "Prepotto": [13.4833, 46.05],
-    "Cividale del Friuli": [13.4333, 46.1]
+    "Cividale del Friuli": [13.4333, 46.1],
+    "Dolegna del Collio": [13.484, 46.017],
+    "Corno di Rosazzo": [13.442, 45.997],
+    "Buttrio": [13.334, 46.01]
   },
   trentinoAltoAdige: {
     "Bolzano": [11.35, 46.5],
