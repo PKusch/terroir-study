@@ -26,6 +26,13 @@ export default function WsetStudyApp() {
     if (mode === "explore" ? window.location.hash : window.location.hash !== `#${mode}`) window.history.replaceState(null, "", want);
     document.title = tabTitle(mode);
   }, [mode]);
+  // Follow the address when it changes while the app is open (a tab link
+  // clicked on the page, or the browser's Back button).
+  useEffect(() => {
+    const follow = () => setMode(tabFromHash(window.location.hash));
+    window.addEventListener("hashchange", follow);
+    return () => window.removeEventListener("hashchange", follow);
+  }, []);
   const [country, setCountry] = useState("France");
   const [activeRegion, setActiveRegion] = useState("bordeaux");
   const [quizMapClick, setQuizMapClick] = useState(null);
