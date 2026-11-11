@@ -10982,7 +10982,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "franken",
-    explanation: "Franken has about 6,100 hectares of vines, mostly along the Main. That is a mid-sized region by German standards, about a quarter of the size of the Pfalz."
+    explanation: "The German Wine Institute gives Franken 6,040 hectares of vines in 2025, mostly along the Main, with Silvaner on about a quarter of them. That is about a quarter of the size of the Pfalz."
   },
   {
     id: "at-24",

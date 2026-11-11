@@ -293,6 +293,8 @@ The grape profiles for Prieto Picudo, Juan García and Albillo Real (added 2026-
 
 On 2026-11-05 Alsace, Ribera del Duero, Yecla, Valdepeñas, Priorat, Cava, Calatayud, Cariñena, Jumilla, Naoussa and New York were given more places, so every region has at least two to zoom into and to be asked about in the map drill. The positions come from OpenStreetMap; the choice of towns follows each DO's list of municipalities or its best-known wine villages. The same day the Seneca Lake question was confirmed from the US regulator's 2003 ruling that created the Seneca Lake AVA, and a New Zealand label question was rewritten, because its answer (one 85% covering grape, year and place together) had no source behind it; New Zealand's own guidance only says each claim needs 85%.
 
+On 2026-11-11 more of the secondary-source questions were checked against official pages, this time in a real browser: UNESCO's own listing confirms the 1,247 Climats of Burgundy and the 2015 listing (and corrected where they run: south of Dijon to Maranges); the Burgundy wine board's figures confirm Grand Cru at under 2% of production, though its documents count regional appellations differently (7 or 23), so that number was taken out of the question; Wines of Greece confirms the Santorini grape shares (85% Assyrtiko for the dry wine, 51% for the sweet) and that Vinsanto grapes are sun-dried; and the German Wine Institute confirms Franken's size (6,040 hectares in 2025). Austria's law site asks visitors to prove they are not a robot, so the Burgenland questions remain on secondary sources.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
