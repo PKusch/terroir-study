@@ -27,7 +27,10 @@ export const PLACES_SPAIN = {
   sherry: {
     "Jerez de la Frontera": [-6.14, 36.69],
     "Sanlúcar de Barrameda (Manzanilla)": [-6.35, 36.78],
-    "El Puerto de Santa María": [-6.23, 36.60]
+    "El Puerto de Santa María": [-6.23, 36.6],
+    "Chipiona": [-6.435, 36.736],
+    "Trebujena": [-6.177, 36.869],
+    "Lebrija": [-6.076, 36.919]
   },
   riasBaixas: {
     "Val do Salnés": [-8.81361, 42.51472],
@@ -54,7 +57,10 @@ export const PLACES_SPAIN = {
   toro: {
     "Toro": [-5.39111, 41.52556],
     "Morales de Toro": [-5.3, 41.533],
-    "Villabuena del Puente": [-5.40667, 41.38083]
+    "Villabuena del Puente": [-5.40667, 41.38083],
+    "San Román de Hornija": [-5.285, 41.481],
+    "Venialbo": [-5.539, 41.39],
+    "Sanzoles": [-5.567, 41.432]
   },
   navarra: {
     "Baja Montaña": [-1.283, 42.583],
@@ -100,7 +106,8 @@ export const PLACES_SPAIN = {
   },
   yecla: {
     "Yecla": [-1.11447, 38.61],
-    "Campo Arriba": [-1.162, 38.647]
+    "Campo Arriba": [-1.162, 38.647],
+    "Campo Abajo": [-1.131, 38.48]
   },
   laMancha: {
     "Tomelloso": [-3.02083, 39.15778],
