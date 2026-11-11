@@ -12,7 +12,7 @@ test("every kind of written question uses one of WSET's command words", () => {
 
 test("splitPoints gives one point per sentence and drops scraps", () => {
   assert.deepEqual(splitPoints("Chalk drains well. It also stores water for dry spells. Ok."), ["Chalk drains well", "It also stores water for dry spells"]);
-  assert.deepEqual(splitPoints(["Grand Cru (one vineyard)", "AOC"]), ["Grand Cru (one vineyard)"]);
+  assert.deepEqual(splitPoints(["Grand Cru (one vineyard)", "AOC", " "]), ["Grand Cru (one vineyard)", "AOC"]);
   assert.deepEqual(splitPoints(undefined), []);
 });
 
@@ -60,5 +60,10 @@ test("wordCount counts words, including accented ones, and ignores punctuation",
 
 test("every region can also be asked about its growing and winemaking, with three points or more", () => {
   const thin = Object.keys(REGIONS).filter((k) => pointsFor(k, "making").length < 3);
+  assert.deepEqual(thin, []);
+});
+
+test("every region can be asked about its quality levels, with three points or more", () => {
+  const thin = Object.keys(REGIONS).filter((k) => pointsFor(k, "quality").length < 3);
   assert.deepEqual(thin, []);
 });

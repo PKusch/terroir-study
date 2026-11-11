@@ -43,11 +43,13 @@ export const KINDS = [
 ];
 
 // Split a note into separate points: one per sentence, or per item where the
-// note is already a list. Very short scraps are dropped.
+// note is already a list. Very short scraps of prose are dropped, but a list
+// item is kept however short, since "DO" or "Village" is a real answer.
 export function splitPoints(text) {
   if (!text) return [];
-  const items = Array.isArray(text) ? text : String(text).split(/(?<=[.;!?])\s+(?=[A-Z0-9'"(])/);
-  return items.map((s) => s.trim().replace(/[;.]$/, "").trim()).filter((s) => s.length >= 12);
+  const list = Array.isArray(text);
+  const items = list ? text : String(text).split(/(?<=[.;!?])\s+(?=[A-Z0-9'"(])/);
+  return items.map((s) => String(s).trim().replace(/[;.]$/, "").trim()).filter((s) => s.length >= (list ? 2 : 12));
 }
 
 export function pointsFor(regionKey, kindId) {
