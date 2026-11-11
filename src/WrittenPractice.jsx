@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { COUNTRIES, REGIONS } from "./data/regions.js";
+import { countryOf } from "./data/projections.js";
 import { COMMAND_WORDS, randomWritten, selfScore, wordCount } from "./written.js";
 
 const serif = "'Cormorant Garamond', Georgia, serif";
@@ -56,7 +57,7 @@ export const WrittenPractice = ({ onStudyRegion }) => {
 
       <div style={card}>
         <div style={{ fontSize: "10px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#8B7355" }}>
-          {REGIONS[q.regionKey].country} · {REGIONS[q.regionKey].name}
+          {countryOf(q.regionKey)} · {REGIONS[q.regionKey].name}
         </div>
         <h3 style={{ fontFamily: serif, fontSize: "21px", color: "#E8E4D9", margin: "6px 0 8px", fontWeight: 600 }}>{q.question}</h3>
         <p style={{ fontSize: "12px", color: "#8B7355", margin: "0 0 10px" }}>
