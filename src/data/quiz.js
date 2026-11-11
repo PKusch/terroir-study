@@ -10802,22 +10802,22 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "burgundy",
-    explanation: "UNESCO listed the Climats of Burgundy in July 2015: 1,247 small, precisely mapped vineyard plots along the Côte between Dijon and Santenay. The listing honours the idea that each plot gives its own wine."
+    explanation: "UNESCO listed the Climats of Burgundy in July 2015: 1,247 small, precisely mapped vineyard plots on the slopes of the Côte de Nuits and Côte de Beaune, stretching 50 km south of Dijon to Maranges. The listing honours the idea that each plot gives its own wine."
   },
   {
     id: "fr-148",
     type: "connection",
     country: "France",
-    question: "Burgundy has 84 appellations. How are they split between regional, village and Grand Cru?",
+    question: "How many Grand Cru appellations does Burgundy have?",
     options: [
-      "7 regional, 44 village, 33 Grand Cru",
-      "33 regional, 44 village, 7 Grand Cru",
-      "20 regional, 50 village, 14 Grand Cru",
-      "44 regional, 33 village, 7 Grand Cru"
+      "33, each one a named vineyard",
+      "7, all of them in Chablis",
+      "44, one for each wine village",
+      "562, one for every Premier Cru"
     ],
     answer: 0,
     region: "burgundy",
-    explanation: "The Burgundy wine board counts 84 appellations: 7 regional, 44 village and 33 Grand Cru. Premier Cru is not a separate appellation: it is a named plot within a village appellation."
+    explanation: "The Burgundy wine board counts 33 Grand Cru appellations and 44 village appellations. Premier Cru is not a separate appellation: the board lists 562 Premier Cru climats inside the village appellations. Its counts of regional appellations differ between its own documents (7 or 23), so that number is left out."
   },
   {
     id: "fr-149",
