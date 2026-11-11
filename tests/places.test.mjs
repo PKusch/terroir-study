@@ -53,7 +53,7 @@ test("the zoom box contains the region and its markers, and keeps the map's shap
 
 // Every region should have something to zoom into and to ask about in the map
 // drill. (Champagne once lost all its places in an edit and nothing noticed.)
-test("every region has at least two places marked", () => {
-  const thin = Object.keys(REGIONS).filter((k) => Object.keys(PLACES[k] ?? {}).length < 2);
+test("every region has at least three places marked", () => {
+  const thin = Object.keys(REGIONS).filter((k) => Object.keys(PLACES[k] ?? {}).length < 3);
   assert.deepEqual(thin, []);
 });
