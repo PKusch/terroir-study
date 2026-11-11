@@ -12101,5 +12101,65 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "naoussa",
     explanation: "Modern Naoussa has riper, more concentrated fruit, deeper colour and firm but less aggressive tannins, sometimes with noticeable oak. Both styles can age for more than ten years."
+  },
+  {
+    id: "es-235",
+    type: "connection",
+    country: "Spain",
+    question: "A red Rioja is labelled Gran Reserva. What is the least time it must have spent in oak?",
+    options: [
+      "6 months",
+      "12 months",
+      "24 months",
+      "36 months"
+    ],
+    answer: 2,
+    region: "rioja",
+    explanation: "A red Rioja Gran Reserva needs at least 60 months of ageing in total, with at least 24 in oak barrels and 24 in bottle. Crianza and Reserva need 12 months in oak."
+  },
+  {
+    id: "es-236",
+    type: "connection",
+    country: "Spain",
+    question: "Since 2017, which Rioja label names a wine from one single vineyard?",
+    options: [
+      "Viñedo Singular",
+      "Vino de Municipio",
+      "Rioja Oriental",
+      "Gran Reserva"
+    ],
+    answer: 0,
+    region: "rioja",
+    explanation: "Viñedo Singular is Rioja's single-vineyard label. Vino de Municipio names one village, Rioja Oriental is one of the three zones, and Gran Reserva is an ageing term."
+  },
+  {
+    id: "es-237",
+    type: "connection",
+    country: "Spain",
+    question: "Which Priorat tier sits at the top of the DOQ's own classification?",
+    options: [
+      "Vi de Vila (village)",
+      "Vi de Paratge (named site)",
+      "Vinya Classificada (vineyard)",
+      "Gran Vinya Classificada"
+    ],
+    answer: 3,
+    region: "priorat",
+    explanation: "Priorat's ladder runs DOQ Priorat, Vi de Vila (one village), Vi de Paratge (one named site), Vinya Classificada and, at the top, Gran Vinya Classificada."
+  },
+  {
+    id: "es-238",
+    type: "connection",
+    country: "Spain",
+    question: "A Priorat label says Vi de Vila. What does that tell you?",
+    options: [
+      "The grapes come from one village",
+      "The wine spent a year in oak",
+      "The vines are over seventy-five years old",
+      "It is a sweet fortified wine"
+    ],
+    answer: 0,
+    region: "priorat",
+    explanation: "Vi de Vila is Priorat's village tier: the grapes come from one of the DOQ's named villages, such as Gratallops or Porrera."
   }
 ];

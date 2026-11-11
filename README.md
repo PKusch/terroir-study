@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **849** quiz questions | 🍇 **121** grapes | ✅ **163** tests |
+| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **853** quiz questions | 🍇 **121** grapes | ✅ **163** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -346,7 +346,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (849: 152 France, 120 Italy, 227 Spain, 73 Germany, 28 Austria, 75 Portugal, 29 Hungary, 28 Greece, 117 New World; 748 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (853: 152 France, 120 Italy, 231 Spain, 73 Germany, 28 Austria, 75 Portugal, 29 Hungary, 28 Greece, 117 New World; 752 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (121 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
