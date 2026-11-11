@@ -12161,5 +12161,21 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "priorat",
     explanation: "Vi de Vila is Priorat's village tier: the grapes come from one of the DOQ's named villages, such as Gratallops or Porrera."
+  },
+  {
+    id: "es-239",
+    type: "connection",
+    country: "Spain",
+    topic: "fortified",
+    question: "A Sherry is labelled 15 Years. Why is that figure an average rather than an exact age?",
+    options: [
+      "The solera blends younger wine into older wine",
+      "The label rounds to the nearest five years",
+      "The age counts from the date of the grape harvest",
+      "It is the age of the oldest barrel used"
+    ],
+    answer: 0,
+    region: "sherry",
+    explanation: "In a solera, wine is drawn from the oldest barrels and topped up with younger wine, so no Sherry has a single vintage. The Consejo Regulador says the age can only be given as an average."
   }
 ];
