@@ -120,7 +120,7 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 
 **🍾 Styles** — The ways of making one family of wine, side by side. *Sparkling* sets the traditional, transfer, tank, Asti and ancestral methods and carbonation next to each other (where the second fermentation happens, how long on the lees, how the wine is cleared, what it tastes like), with the EU sweetness terms from Brut Nature to Doux. *Fortified* does the same for Port, Madeira, Sherry, Vin Doux Naturel, Marsala and Rutherglen Muscat. Each card links to the regions that make it.
 
-**✍️ Written** — Practice for the written part of the theory paper, which has four questions of 25 marks each and needs 55% on its own. The app asks a question about one region, using WSET's command words (identify, describe, explain, each with WSET's meaning shown). You write your answer, then see the points from that region's notes and tick the ones you made. It is a self-check, not WSET's mark scheme, which WSET does not publish, and nothing is saved.
+**✍️ Written** — Practice for the written part of the theory paper, which has four questions of 25 marks each and needs 55% on its own. The app asks a question about one region, using WSET's command words (identify, describe, explain, each with WSET's meaning shown). You can stick to one kind of question (climate and soils, growing and making, styles, or quality levels). You write your answer, then see the points from that region's notes and tick the ones you made. It is a self-check, not WSET's mark scheme, which WSET does not publish, and nothing is saved.
 
 ## Regions Covered
 
@@ -359,6 +359,7 @@ npm run dev
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
 - [x] Styles tab: the sparkling methods and the fortified wines side by side
 - [x] Written-answer practice: a question per region with WSET's command words, and a self-check against the region's notes
+- [x] Written practice can be limited to one kind of question
 - [x] More questions for the thinnest regions: every region has at least nine
 
 ## About
