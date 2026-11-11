@@ -1,13 +1,22 @@
-# Weekly pull requests for npm updates and monthly ones for the GitHub
-# Actions the workflows use. Each one runs the tests before it can merge.
+# Once a month, one pull request with every npm update and one with every
+# GitHub Actions update, grouped so they do not pile up as many small ones.
+# Each runs the tests before it can merge. (The grouping idea came from the
+# earlier pull request #1, which this replaces.)
 version: 2
 updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: weekly
-    open-pull-requests-limit: 5
+      interval: monthly
+    open-pull-requests-limit: 3
+    groups:
+      all:
+        patterns: ["*"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
+    open-pull-requests-limit: 3
+    groups:
+      all:
+        patterns: ["*"]
