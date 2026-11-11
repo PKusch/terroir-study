@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { COUNTRIES, REGIONS } from "./data/regions.js";
 import { countryOf } from "./data/projections.js";
-import { COMMAND_WORDS, randomWritten, selfScore, wordCount } from "./written.js";
+import { COMMAND_WORDS, KINDS, randomWritten, selfScore, wordCount } from "./written.js";
 
 const serif = "'Cormorant Garamond', Georgia, serif";
 const gold = "#C4A962";
@@ -21,19 +21,22 @@ const button = {
 // tick the points from the region's notes that it covers. Nothing is saved.
 export const WrittenPractice = ({ onStudyRegion }) => {
   const [country, setCountry] = useState("All");
+  const [kind, setKind] = useState("all");
   const keysFor = (c) => (c === "All" ? Object.keys(REGIONS) : COUNTRIES[c] ?? []);
   const [q, setQ] = useState(() => randomWritten(keysFor("All")));
   const [answer, setAnswer] = useState("");
   const [shown, setShown] = useState(false);
   const [ticked, setTicked] = useState(new Set());
 
-  const next = (c = country) => {
-    setQ((prev) => randomWritten(keysFor(c), Math.random, prev));
+  const next = (c = country, k = kind) => {
+    setQ((prev) => randomWritten(keysFor(c), Math.random, prev, k === "all" ? null : [k]));
     setAnswer("");
     setShown(false);
     setTicked(new Set());
   };
   const choose = (c) => { setCountry(c); next(c); };
+  const chooseKind = (k) => { setKind(k); next(country, k); };
+  const KIND_LABELS = { all: "Any question", terroir: "Climate & soils", making: "Growing & making", style: "Styles", quality: "Quality levels" };
   const toggle = (i) => setTicked((t) => { const n = new Set(t); n.has(i) ? n.delete(i) : n.add(i); return n; });
 
   if (!q) return null;
@@ -41,9 +44,15 @@ export const WrittenPractice = ({ onStudyRegion }) => {
 
   return (
     <div>
-      <div style={{ display: "flex", gap: "4px", flexWrap: "wrap", marginBottom: "12px" }}>
+      <div role="group" aria-label="Country" style={{ display: "flex", gap: "4px", flexWrap: "wrap", marginBottom: "8px" }}>
         {["All", ...Object.keys(COUNTRIES)].map((c) => (
           <button key={c} aria-pressed={country === c} onClick={() => choose(c)} style={pill(country === c)}>{c}</button>
+        ))}
+      </div>
+
+      <div role="group" aria-label="Kind of question" style={{ display: "flex", gap: "4px", flexWrap: "wrap", marginBottom: "12px" }}>
+        {["all", ...KINDS.map((k) => k.id)].map((k) => (
+          <button key={k} aria-pressed={kind === k} onClick={() => chooseKind(k)} style={pill(kind === k)}>{KIND_LABELS[k]}</button>
         ))}
       </div>
 

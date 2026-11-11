@@ -76,9 +76,10 @@ export function buildWritten(regionKey, kindId) {
 
 // A random question from a list of regions, skipping any with too few points
 // to be worth writing about, and never the same one as `last` twice running
-// (unless it is the only one there is).
-export function randomWritten(regionKeys, rng = Math.random, last = null) {
-  let pairs = regionKeys.flatMap((key) => KINDS.map((k) => [key, k.id])).filter(([key, k]) => pointsFor(key, k).length >= 3);
+// (unless it is the only one there is). `kindIds` limits it to some kinds.
+export function randomWritten(regionKeys, rng = Math.random, last = null, kindIds = null) {
+  const kinds = kindIds?.length ? KINDS.filter((k) => kindIds.includes(k.id)) : KINDS;
+  let pairs = regionKeys.flatMap((key) => kinds.map((k) => [key, k.id])).filter(([key, k]) => pointsFor(key, k).length >= 3);
   if (last && pairs.length > 1) pairs = pairs.filter(([key, k]) => !(key === last.regionKey && k === last.kind));
   if (!pairs.length) return null;
   const [key, k] = pairs[Math.floor(rng() * pairs.length)];

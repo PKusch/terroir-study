@@ -67,3 +67,9 @@ test("every region can be asked about its quality levels, with three points or m
   const thin = Object.keys(REGIONS).filter((k) => pointsFor(k, "quality").length < 3);
   assert.deepEqual(thin, []);
 });
+
+test("randomWritten can be limited to one kind of question", () => {
+  for (const k of ["terroir", "making", "style", "quality"]) {
+    for (let n = 0; n < 10; n++) assert.equal(randomWritten(["rioja", "douro"], Math.random, null, [k]).kind, k);
+  }
+});
