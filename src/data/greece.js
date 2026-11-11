@@ -40,7 +40,7 @@ export const GREECE_REGIONS = {
     climateDetail: "Vineyards on hillsides in the northeast of the Peloponnese, from about 200 metres up to about 850. Summers are hot and dry in the lowlands; the higher slopes are noticeably cooler, with colder nights. The altitude is what matters most to the style of the wine.",
     keyGrapes: { red: ["Agiorgitiko"], white: [] },
     subRegionsLabel: "Villages",
-    subRegions: ["Nemea", "Ancient Nemea", "Koutsi"],
+    subRegions: ["Nemea", "Ancient Nemea", "Koutsi", "Asprokampos", "Gymno", "Leontio"],
     soils: "Clay-limestone and marl, with some sandy soil on the lower slopes; the higher vineyards are stonier.",
     viticultureNotes: "Agiorgitiko ('St George') is the only grape. Vineyards are grouped by altitude: the low, warm ones give soft, jammy wines; the mid-altitude ones are balanced; the high, cool ones give fresher wines with higher acidity, which many producers prize. The altitude zones are informal and are not part of the PDO rules.",
     winemaking: "Dry red wines, from easy, fruity styles in stainless steel to oak-aged Reserve and Grande Reserve. PDO Nemea is for red wine only, made entirely from Agiorgitiko: dry, semi-sweet, and sweet (fortified, or from dried grapes, in small amounts).",

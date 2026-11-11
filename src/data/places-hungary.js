@@ -18,6 +18,8 @@ export const PLACES_HUNGARY = {
   villany: {
     "Villány": [18.45, 45.87],
     "Palkonya": [18.36, 45.87],
-    "Nagyharsány": [18.41, 45.85]
+    "Nagyharsány": [18.41, 45.85],
+    "Villánykövesd": [18.425, 45.881],
+    "Siklós": [18.298, 45.852]
   }
 };

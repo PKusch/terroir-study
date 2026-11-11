@@ -40,7 +40,7 @@ export const HUNGARY_REGIONS = {
     climateDetail: "The warmest and sunniest corner of Hungary, in the far south by the Croatian border. Long, hot summers and a warm autumn ripen red grapes fully; the Villány hills give south-facing slopes and some protection from the cold. The Mediterranean reaches this far north in the mild winters and long season.",
     keyGrapes: { red: ["Cabernet Franc", "Merlot", "Cabernet Sauvignon", "Kékfrankos"], white: [] },
     subRegionsLabel: "Villages",
-    subRegions: ["Villány", "Palkonya", "Nagyharsány"],
+    subRegions: ["Villány", "Palkonya", "Nagyharsány", "Villánykövesd", "Siklós"],
     soils: "Limestone and loess over the Villány hills; the limestone drains well and adds structure and a mineral edge.",
     viticultureNotes: "Red wine country. Cabernet Franc is the flagship, followed by Merlot, Cabernet Sauvignon and Kékfrankos. Yields are kept low on the best sites, and the long season lets late-ripening grapes reach full ripeness.",
     winemaking: "Reds are fermented on their skins and aged in oak, often small barriques for the top wines. The Villány PDO has three tiers, Classicus, Premium and Super Premium, each asking for lower yields and longer ageing. Cabernet Franc from the top tier is sold as 'Villányi Franc'.",

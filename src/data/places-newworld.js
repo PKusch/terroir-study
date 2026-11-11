@@ -97,7 +97,9 @@ export const PLACES_NEW_WORLD = {
   ontario: {
     "Niagara-on-the-Lake": [-79.07, 43.26],
     "Beamsville": [-79.48, 43.17],
-    "Prince Edward County": [-77.25, 44.0]
+    "Prince Edward County": [-77.25, 44],
+    "Jordan": [-79.369, 43.145],
+    "St. Davids": [-79.102, 43.158]
   },
   britishColumbia: {
     "Osoyoos": [-119.47, 49.03],

@@ -144,7 +144,7 @@ export const NEW_WORLD_REGIONS = {
     climate: "Cool continental, moderated by lakes",
     climateDetail: "At about 43° N the Niagara Peninsula is cool. In spring the winter-cooled lake delays bud-break, and in autumn lake breezes extend the season and keep cold air from pooling. The escarpment rises to about 177 m. Winter cold can injure vines, so cordons are not common and soil is hilled up to protect the graft union.",
     keyGrapes: { red: ["Cabernet Franc", "Merlot"], white: ["Riesling", "Chardonnay"] },
-    subRegions: ["Niagara-on-the-Lake", "Beamsville", "Prince Edward County"],
+    subRegions: ["Niagara-on-the-Lake", "Beamsville", "Prince Edward County", "Jordan", "St. Davids"],
     soils: "Clay, with silt and sand, on the benches between the escarpment and the lake; tile drains are used where the clay is heavy.",
     viticultureNotes: "VQA Ontario designates three viticultural areas: Niagara Peninsula, Lake Erie North Shore and Prince Edward County. Niagara has ten sub-appellations, including Beamsville Bench, Four Mile Creek and Twenty Mile Bench. An Ontario VQA wine is 100% Ontario grapes, a regional appellation such as Niagara Peninsula needs at least 85% from the region, and a sub-appellation needs 100% from it.",
     winemaking: "Icewine under VQA Ontario is picked when the temperature is below -8 °C, from juice of at least 35 degrees Brix, and Vidal is the one hybrid exception. Canada makes more Icewine than all other countries combined, about 90% from Ontario.",

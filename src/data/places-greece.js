@@ -20,6 +20,9 @@ export const PLACES_GREECE = {
   nemea: {
     "Nemea": [22.67, 37.82],
     "Ancient Nemea": [22.7, 37.8],
-    "Koutsi": [22.67, 37.8]
+    "Koutsi": [22.67, 37.8],
+    "Asprokampos": [22.561, 37.886],
+    "Gymno": [22.587, 37.78],
+    "Leontio": [22.594, 37.798]
   }
 };
