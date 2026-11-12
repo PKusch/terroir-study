@@ -12177,5 +12177,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "sherry",
     explanation: "In a solera, wine is drawn from the oldest barrels and topped up with younger wine, so no Sherry has a single vintage. The Consejo Regulador says the age can only be given as an average."
+  },
+  {
+    id: "it-121",
+    type: "connection",
+    country: "Italy",
+    question: "Most of Abruzzo's vineyards are trained on one traditional system. Which is it?",
+    options: [
+      "Pergola abruzzese",
+      "Bush vines (alberello)",
+      "Guyot on wires",
+      "Tendone over the rows"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "The Abruzzo pergola (pergola abruzzese) covers more than 80% of the vineyards, though new plantings mostly use row systems."
+  },
+  {
+    id: "it-122",
+    type: "connection",
+    country: "Italy",
+    question: "A wine is labelled Cerasuolo d'Abruzzo. What should you expect in the glass?",
+    options: [
+      "A dark, cherry-red rosato",
+      "A light, dry, still white",
+      "A sweet red passito wine",
+      "A sparkling white"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "Cerasuolo d'Abruzzo is a rosato from Montepulciano, made with brief skin contact. It is darker and more intense than most rosés."
   }
 ];
