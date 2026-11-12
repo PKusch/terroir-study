@@ -12747,5 +12747,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "catalunya",
     explanation: "The soils are mainly calcareous Miocene deposits, low in organic matter, with silt and clay textures that give body and structure."
+  },
+  {
+    id: "es-248",
+    type: "connection",
+    country: "Spain",
+    question: "Roughly what share of Montsant's vineyard is black grapes?",
+    options: [
+      "About 50%",
+      "About 70%",
+      "About 95%",
+      "About 30%"
+    ],
+    answer: 2,
+    region: "montsant",
+    explanation: "About 95% of Montsant's area is black grapes, and Garnatxa negra and Carinyena make up about two-thirds of the vineyard."
+  },
+  {
+    id: "es-249",
+    type: "connection",
+    country: "Spain",
+    question: "Montsant's fortified styles, such as rancio and mistela, need at least what alcohol?",
+    options: [
+      "15%",
+      "12%",
+      "17.5%",
+      "20%"
+    ],
+    answer: 0,
+    region: "montsant",
+    explanation: "Rancio, mistela, garnacha, dulce natural and vimblanc all need at least 15% alcohol."
   }
 ];
