@@ -12987,5 +12987,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "castillaYLeon",
     explanation: "More than 98% of the land is above 600 m, which is why winters are long and frost is a real risk."
+  },
+  {
+    id: "de-77",
+    type: "connection",
+    country: "Germany",
+    question: "What shields Rheinhessen from cold, wet weather?",
+    options: [
+      "Hills to the west and north",
+      "The North Sea",
+      "The Black Forest and the Vosges mountains",
+      "Lake Constance"
+    ],
+    answer: 0,
+    region: "rheinhessen",
+    explanation: "The Hunsrück and Pfälzer Bergland to the west and the Taunus to the north shield Rheinhessen, one of Germany's driest and warmest regions."
+  },
+  {
+    id: "de-78",
+    type: "connection",
+    country: "Germany",
+    question: "Rheinhessen is now Germany's most important region for which two grapes?",
+    options: [
+      "Grauburgunder and Chardonnay",
+      "Riesling and Spätburgunder (Pinot Noir)",
+      "Lemberger and Trollinger",
+      "Gutedel and Auxerrois"
+    ],
+    answer: 0,
+    region: "rheinhessen",
+    explanation: "Rheinhessen is now Germany's most important region for Grauburgunder and for Chardonnay, and it holds about 43% of Germany's Silvaner."
   }
 ];
