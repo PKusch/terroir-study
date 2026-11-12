@@ -12597,5 +12597,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "alsace",
     explanation: "Crémant d'Alsace rosé is made only from Pinot Noir."
+  },
+  {
+    id: "it-127",
+    type: "connection",
+    country: "Italy",
+    question: "What may a Verdicchio dei Castelli di Jesi Classico Superiore not be sealed with?",
+    options: [
+      "A crown cap",
+      "A natural cork",
+      "A screw cap",
+      "A glass stopper"
+    ],
+    answer: 0,
+    region: "marche",
+    explanation: "The rules for Classico Superiore ban crown caps."
+  },
+  {
+    id: "it-128",
+    type: "connection",
+    country: "Italy",
+    question: "What are the hill soils of the Castelli di Jesi like?",
+    options: [
+      "High in clay and lime, poorly permeable",
+      "Loose volcanic sand that drains very fast",
+      "Deep gravel over granite",
+      "Slate that stores heat by day"
+    ],
+    answer: 0,
+    region: "marche",
+    explanation: "Jesi's hills have a high clay content and a lot of calcium carbonate. They drain poorly and erode easily."
   }
 ];
