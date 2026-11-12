@@ -12837,5 +12837,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "navarra",
     explanation: "A Crianza white needs 18 months in total, at least 6 in oak. A Crianza red needs 24 months, at least 9 in oak."
+  },
+  {
+    id: "es-254",
+    type: "connection",
+    country: "Spain",
+    question: "What may a DO Valencia wine be aged in for Crianza, Reserva or Gran Reserva?",
+    options: [
+      "Oak only",
+      "Oak or clay jars",
+      "Oak or concrete",
+      "Any vessel"
+    ],
+    answer: 0,
+    region: "valencia",
+    explanation: "Crianza, Reserva and Gran Reserva are allowed in DO Valencia, with oak the only permitted ageing container."
+  },
+  {
+    id: "es-255",
+    type: "connection",
+    country: "Spain",
+    question: "Which grape has the highest yield cap in DO Valencia?",
+    options: [
+      "Moscatel de Alejandría",
+      "Red grapes",
+      "White grapes other than Moscatel",
+      "Bobal"
+    ],
+    answer: 0,
+    region: "valencia",
+    explanation: "Yields are capped at 16,000 kg/ha for Moscatel de Alejandría, 12,000 for whites and 9,100 for reds."
   }
 ];
