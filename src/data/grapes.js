@@ -882,6 +882,15 @@ export const GRAPES = {
     aromas: ["lemon", "citrus", "floral", "neutral"],
     notes: "A light, crisp blending grape in Lazio, used beside Malvasia del Lazio in Frascati."
   },
+  grechetto: {
+    name: "Grechetto",
+    aliases: ["Grechetto di Orvieto", "Grechetto di Todi"],
+    colour: "white",
+    body: "medium",
+    acidity: "high",
+    aromas: ["lemon", "white flowers", "apple", "almond"],
+    notes: "Thick skins resist mildew and let it be picked late and ripe. It gives Orvieto more body and flavour than Trebbiano alone, and is also used for Vin Santo."
+  },
   garganega: {
     name: "Garganega",
     aliases: [],

@@ -98,7 +98,7 @@ export const ITALY_REGIONS = {
     country: "Italy",
     climate: "Continental, with autumn fog by the lake",
     climateDetail: "Montefalco is continental, with about 700 mm of rain, about 40 frost days a year, and vineyards from 220 to 472 m. Orvieto gets 700 to 1,000 mm of rain, with autumn the wettest season and a dry July and August; its vineyards lie between 100 and 500 m, and Lake Corbara and autumn fog support botrytis.",
-    keyGrapes: { red: ["Sagrantino", "Sangiovese"], white: ["Trebbiano Toscano"] },
+    keyGrapes: { red: ["Sagrantino", "Sangiovese"], white: ["Grechetto", "Trebbiano Toscano"] },
     subRegions: ["Montefalco", "Torgiano", "Orvieto", "Bevagna", "Gualdo Cattaneo"],
     subRegionsLabel: "Towns",
     soils: "Montefalco: alluvium, lake-deposited clays and sands, marls, and turbidites and conglomerates, alkaline, on hills only. Orvieto: clays, volcanic formations from the Vulsini volcano, alluvium, sands and conglomerates. Torgiano: sandy clays and clays from the old Tiber lake, with limy loams on the slopes.",
