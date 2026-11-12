@@ -12537,5 +12537,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "umbria",
     explanation: "Sagrantino is a deep, very tannic, full-bodied red that needs years to soften."
+  },
+  {
+    id: "fr-153",
+    type: "connection",
+    country: "France",
+    question: "Which Languedoc appellation is known for vines mainly on schist?",
+    options: [
+      "Faugères",
+      "La Clape",
+      "Pic Saint-Loup",
+      "Limoux"
+    ],
+    answer: 0,
+    region: "languedocRoussillon",
+    explanation: "Faugères is one of the few Languedoc appellations where one soil leads: schist. La Clape and Pic Saint-Loup are limestone."
+  },
+  {
+    id: "fr-154",
+    type: "connection",
+    country: "France",
+    question: "How do Saint-Chinian's soils differ from north to south?",
+    options: [
+      "Schist in the north, limestone in the south",
+      "Limestone in the north, schist in the south",
+      "Granite in the north, sand in the south",
+      "Clay throughout, with no change"
+    ],
+    answer: 0,
+    region: "languedocRoussillon",
+    explanation: "Saint-Chinian is split: schist in the more northerly, hilly zone and limestone in the south."
   }
 ];
