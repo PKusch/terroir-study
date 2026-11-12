@@ -12927,5 +12927,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "yecla",
     explanation: "Dry-farmed reds may yield up to 4,000 kg/ha, and irrigated reds up to 7,000 kg/ha."
+  },
+  {
+    id: "es-260",
+    type: "connection",
+    country: "Spain",
+    question: "What often has to be done to La Mancha's soils before planting?",
+    options: [
+      "Break the lime crust",
+      "Drain the standing water",
+      "Add lime to cut acidity",
+      "Remove volcanic rock"
+    ],
+    answer: 0,
+    region: "laMancha",
+    explanation: "La Mancha's soils are rich in lime and chalk, and lime crusts often have to be broken so that roots can go deeper."
+  },
+  {
+    id: "es-261",
+    type: "connection",
+    country: "Spain",
+    question: "What does La Mancha's dry, sunny climate do for its growers?",
+    options: [
+      "It cuts the risk of fungal disease",
+      "It makes frost impossible",
+      "It removes the need for winter pruning entirely",
+      "It gives very high acidity"
+    ],
+    answer: 0,
+    region: "laMancha",
+    explanation: "With 300 to 350 mm of rain and more than 3,000 hours of sun, the dryness cuts the risk of fungal disease considerably."
   }
 ];
