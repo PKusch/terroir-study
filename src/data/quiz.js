@@ -12267,5 +12267,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "alentejo",
     explanation: "Trincadeira ripens late, so it needs heat and a dry autumn, which the Alentejo's long, hot, dry summers can give."
+  },
+  {
+    id: "pt-80",
+    type: "connection",
+    country: "Portugal",
+    question: "Dão's red grape Jaen is the same grape as which Spanish variety?",
+    options: [
+      "Mencía",
+      "Tempranillo",
+      "Garnacha",
+      "Monastrell"
+    ],
+    answer: 0,
+    region: "dao",
+    explanation: "Jaen is the same grape as Mencía, the red of Bierzo across the border in Spain."
+  },
+  {
+    id: "pt-81",
+    type: "connection",
+    country: "Portugal",
+    question: "Roughly what share of the Dão's production is red wine?",
+    options: [
+      "About 30%",
+      "About 50%",
+      "About 80%",
+      "About 95%"
+    ],
+    answer: 2,
+    region: "dao",
+    explanation: "About 80% of the Dão's production is red, led by Touriga Nacional, Alfrocheiro, Jaen and Tinta Roriz."
   }
 ];
