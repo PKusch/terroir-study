@@ -12477,5 +12477,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "burgenland",
     explanation: "Eisenberg has iron-rich schist and slate. The lake plain has gravel, sand and loam, and Mittelburgenland heavy clay-loam."
+  },
+  {
+    id: "it-123",
+    type: "connection",
+    country: "Italy",
+    question: "Malvasia del Lazio is also called Malvasia Puntinata. Where does that name come from?",
+    options: [
+      "Small dark dots on the grape skins",
+      "The pointed, deeply cut shape of its leaves",
+      "A village near Frascati",
+      "Its very small berries"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "Puntinata refers to the small dark dots that form on the skins. It is the most prized Malvasia in Frascati, and its proneness to rot also lets it make sweet wine."
+  },
+  {
+    id: "it-124",
+    type: "connection",
+    country: "Italy",
+    question: "What do the volcanic soils of the Alban Hills give Frascati's vineyards?",
+    options: [
+      "Good drainage",
+      "Deep, wet clay",
+      "Chalk that holds water",
+      "Slate that stores heat"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "The soils are volcanic, such as tuff and pozzolana, well drained and rich in potassium. With warm sea breezes they give fresh, light whites."
   }
 ];
