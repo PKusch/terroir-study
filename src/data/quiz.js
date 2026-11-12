@@ -12447,5 +12447,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "britishColumbia",
     explanation: "The soils are glacial deposits: sandy and gravelly, with sandy, silty and clay-based loams in the south."
+  },
+  {
+    id: "at-29",
+    type: "connection",
+    country: "Austria",
+    question: "Which Burgenland DAC covers white wines as well as Blaufränkisch?",
+    options: [
+      "Leithaberg",
+      "Mittelburgenland",
+      "Eisenberg",
+      "Neusiedlersee"
+    ],
+    answer: 0,
+    region: "burgenland",
+    explanation: "Leithaberg DAC covers whites (Pinot Blanc, Chardonnay, Neuburger, Grüner Veltliner) and Blaufränkisch reds. Mittelburgenland and Eisenberg are for Blaufränkisch, and Neusiedlersee is centred on Zweigelt."
+  },
+  {
+    id: "at-30",
+    type: "connection",
+    country: "Austria",
+    question: "What soils does Eisenberg, in southern Burgenland, have?",
+    options: [
+      "Iron-rich schist and slate",
+      "Gravel and sand by the lake",
+      "Heavy clay-loam",
+      "Loess over granite"
+    ],
+    answer: 0,
+    region: "burgenland",
+    explanation: "Eisenberg has iron-rich schist and slate. The lake plain has gravel, sand and loam, and Mittelburgenland heavy clay-loam."
   }
 ];
