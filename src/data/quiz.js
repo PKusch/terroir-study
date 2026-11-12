@@ -12717,5 +12717,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "franciacorta",
     explanation: "The glacial moraine soils drain well but still hold a good reserve of water."
+  },
+  {
+    id: "es-246",
+    type: "connection",
+    country: "Spain",
+    question: "How does DO Catalunya's climate change from the coast to the interior?",
+    options: [
+      "The interior is more continental",
+      "The interior is wetter and milder",
+      "The coast has colder winters",
+      "There is no real difference"
+    ],
+    answer: 0,
+    region: "catalunya",
+    explanation: "The coast is milder, and the interior more continental, with cold winters and very hot summers. Sea breezes temper the heat."
+  },
+  {
+    id: "es-247",
+    type: "connection",
+    country: "Spain",
+    question: "What do DO Catalunya's silt and clay soils give the wines?",
+    options: [
+      "Body and structure",
+      "Very high acidity and freshness",
+      "Smoky aromas",
+      "Pale colour"
+    ],
+    answer: 0,
+    region: "catalunya",
+    explanation: "The soils are mainly calcareous Miocene deposits, low in organic matter, with silt and clay textures that give body and structure."
   }
 ];
