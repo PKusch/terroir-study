@@ -12387,5 +12387,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "calatayud",
     explanation: "Calatayud has an extreme continental climate, and its cold nights help to limit disease."
+  },
+  {
+    id: "es-244",
+    type: "connection",
+    country: "Spain",
+    question: "A Cariñena wine is labelled 'Superior'. What does that require?",
+    options: [
+      "At least 85% of one main variety",
+      "At least two full years of ageing in oak barrels",
+      "Vines over 50 years old",
+      "Grapes from above 800 m"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "Cariñena sets no general minimum for any grape, but 'Superior' needs at least 85% of one main variety."
+  },
+  {
+    id: "es-245",
+    type: "connection",
+    country: "Spain",
+    question: "How long must a Cariñena 'Roble' red spend in oak?",
+    options: [
+      "30 days",
+      "60 days",
+      "90 days",
+      "6 months"
+    ],
+    answer: 1,
+    region: "carinena",
+    explanation: "A Cariñena 'Roble' red has 60 days in oak, and a white or rosé 30 days. In nearby Calatayud a Roble red needs more than 90 days."
   }
 ];
