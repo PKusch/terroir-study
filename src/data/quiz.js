@@ -12867,5 +12867,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "valencia",
     explanation: "Yields are capped at 16,000 kg/ha for Moscatel de Alejandría, 12,000 for whites and 9,100 for reds."
+  },
+  {
+    id: "es-256",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Jumilla have almost no fungal disease in its vineyards?",
+    options: [
+      "It is very dry",
+      "Its vines are grafted",
+      "Its winters are mild",
+      "It is near the sea"
+    ],
+    answer: 0,
+    region: "jumilla",
+    explanation: "With only about 300 mm of rain a year and about 3,000 hours of sun, the dryness leaves almost no fungal disease."
+  },
+  {
+    id: "es-257",
+    type: "connection",
+    country: "Spain",
+    question: "Jumilla's vino de licor must be made how?",
+    options: [
+      "Red Monastrell, fortified to 17.5%",
+      "Any grape, fortified to 15%",
+      "White Moscatel, unfortified and late-picked",
+      "Red Garnacha, dried in the sun"
+    ],
+    answer: 0,
+    region: "jumilla",
+    explanation: "Jumilla's vino de licor is red from Monastrell only, fortified with grape spirit to at least 17.5% total alcohol."
   }
 ];
