@@ -12687,5 +12687,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "trentinoAltoAdige",
     explanation: "Alto Adige Spumante Riserva needs 42 months, 36 of them on the lees."
+  },
+  {
+    id: "it-133",
+    type: "connection",
+    country: "Italy",
+    question: "What does Millesimato on a Franciacorta label require?",
+    options: [
+      "85% from the year, 30 months on lees",
+      "100% from one year, 18 months on lees",
+      "One vineyard only, 60 months on lees",
+      "Pinot Nero only, 24 months on lees"
+    ],
+    answer: 0,
+    region: "franciacorta",
+    explanation: "A Millesimato needs at least 85% of the wine from the stated year and at least 30 months on the lees."
+  },
+  {
+    id: "it-134",
+    type: "connection",
+    country: "Italy",
+    question: "Why do Franciacorta's moraine soils suit vines?",
+    options: [
+      "They drain well but keep water",
+      "They are rich and very fertile",
+      "They are dark and absorb heat",
+      "They are salty from the old lake"
+    ],
+    answer: 0,
+    region: "franciacorta",
+    explanation: "The glacial moraine soils drain well but still hold a good reserve of water."
   }
 ];
