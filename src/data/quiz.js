@@ -12897,5 +12897,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "jumilla",
     explanation: "Jumilla's vino de licor is red from Monastrell only, fortified with grape spirit to at least 17.5% total alcohol."
+  },
+  {
+    id: "es-258",
+    type: "connection",
+    country: "Spain",
+    question: "How do modern Yecla reds keep alcohol lower?",
+    options: [
+      "Earlier harvest and cool fermentation",
+      "Adding water to the must",
+      "Blending in white grapes before fermenting",
+      "Long ageing in new oak"
+    ],
+    answer: 0,
+    region: "yecla",
+    explanation: "Modern reds aim for lower alcohol and better balance through early harvest and temperature-controlled fermentation."
+  },
+  {
+    id: "es-259",
+    type: "connection",
+    country: "Spain",
+    question: "What is Yecla's maximum yield for dry-farmed red grapes?",
+    options: [
+      "4,000 kg/ha",
+      "7,000 kg/ha",
+      "10,000 kg/ha",
+      "2,000 kg/ha"
+    ],
+    answer: 0,
+    region: "yecla",
+    explanation: "Dry-farmed reds may yield up to 4,000 kg/ha, and irrigated reds up to 7,000 kg/ha."
   }
 ];
