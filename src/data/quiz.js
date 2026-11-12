@@ -12357,5 +12357,35 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "bierzo",
     explanation: "About 85% of Bierzo's vineyard is old vines, and the average vine is about 75 years old."
+  },
+  {
+    id: "es-242",
+    type: "connection",
+    country: "Spain",
+    question: "What does 'Viñas viejas' mean on a Calatayud label?",
+    options: [
+      "Vines over 35 years, at most 4,500 kg/ha",
+      "Vines over 20 years, any yield",
+      "Vines over 50 years, at least 14% alcohol",
+      "Vines over 75 years, bush-trained"
+    ],
+    answer: 0,
+    region: "calatayud",
+    explanation: "In Calatayud, 'Viñas viejas' means vines over 35 years old yielding no more than 4,500 kg/ha. Calatayud Superior asks for vines over 50 years."
+  },
+  {
+    id: "es-243",
+    type: "connection",
+    country: "Spain",
+    question: "What helps limit vine disease in Calatayud?",
+    options: [
+      "Cold nights",
+      "Sea breezes",
+      "Heavy summer rain",
+      "Deep fertile soils"
+    ],
+    answer: 0,
+    region: "calatayud",
+    explanation: "Calatayud has an extreme continental climate, and its cold nights help to limit disease."
   }
 ];
