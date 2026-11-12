@@ -12237,5 +12237,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "bairrada",
     explanation: "Baga is thick-skinned and late-ripening, with deep colour, firm tannin and high acidity. The best Baga reds age for decades."
+  },
+  {
+    id: "pt-78",
+    type: "connection",
+    country: "Portugal",
+    question: "Which part of the Alentejo is cooler than the plains, and why?",
+    options: [
+      "Portalegre, thanks to its altitude",
+      "Vidigueira, thanks to sea breezes",
+      "Reguengos, thanks to river fog",
+      "Moura, thanks to its heavy clay soils"
+    ],
+    answer: 0,
+    region: "alentejo",
+    explanation: "The hills of Portalegre, near the Spanish border, are cooler thanks to altitude. The plains are the hottest part of the region."
+  },
+  {
+    id: "pt-79",
+    type: "connection",
+    country: "Portugal",
+    question: "Trincadeira is late-ripening. What does it need from an Alentejo site?",
+    options: [
+      "Heat and a dry autumn",
+      "Cool nights and autumn rain",
+      "Shade and deep wet soils",
+      "Frost protection in spring"
+    ],
+    answer: 0,
+    region: "alentejo",
+    explanation: "Trincadeira ripens late, so it needs heat and a dry autumn, which the Alentejo's long, hot, dry summers can give."
   }
 ];
