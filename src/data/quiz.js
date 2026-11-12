@@ -12807,5 +12807,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "toro",
     explanation: "Toro's vineyards lie at 620 to 840 m, and in the ripening season the day–night swing is more than 15 °C."
+  },
+  {
+    id: "es-252",
+    type: "connection",
+    country: "Spain",
+    question: "Which part of Navarra is wetter, with more Pyrenean influence?",
+    options: [
+      "The north",
+      "The south",
+      "The far east",
+      "The Ebro valley floor"
+    ],
+    answer: 0,
+    region: "navarra",
+    explanation: "The north (Baja Montaña, Valdizarbe) is wetter and more Pyrenean. The south (Ribera Baja) is the driest."
+  },
+  {
+    id: "es-253",
+    type: "connection",
+    country: "Spain",
+    question: "What does a Navarra Crianza white need?",
+    options: [
+      "18 months, at least 6 in oak",
+      "24 months, at least 9 in oak",
+      "12 months, at least 3 in oak",
+      "36 months, at least 12 in oak"
+    ],
+    answer: 0,
+    region: "navarra",
+    explanation: "A Crianza white needs 18 months in total, at least 6 in oak. A Crianza red needs 24 months, at least 9 in oak."
   }
 ];
