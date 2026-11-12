@@ -67,7 +67,7 @@ export const PORTUGAL_REGIONS = {
     country: "Portugal",
     climate: "Cool Atlantic with high rainfall",
     climateDetail: "A flat, coastal region with a marked Atlantic influence, abundant rain and mild temperatures, cool and humid. The cool humid climate gives grapes with high acidity and low alcohol, which suits sparkling wine.",
-    keyGrapes: { red: ["Baga", "Touriga Nacional"], white: ["Arinto", "Bical"] },
+    keyGrapes: { red: ["Baga", "Touriga Nacional"], white: ["Fernão Pires", "Arinto", "Bical"] },
     subRegions: ["Anadia", "Mealhada", "Oliveira do Bairro", "Cantanhede"],
     subRegionsLabel: "Towns",
     soils: "Clay-limestone, which suits Baga best, with sandy strips that give lighter wines. The land is split into thousands of small plots.",
