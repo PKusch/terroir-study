@@ -36,7 +36,7 @@ export const PORTUGAL_REGIONS = {
     country: "Portugal",
     climate: "Hot Mediterranean-continental",
     climateDetail: "A large, flat to rolling plain in the south, inland from the Atlantic. Summers are long, hot and dry, and winters mild. The hills near the Spanish border (Portalegre) are cooler thanks to altitude; the plains are the hottest. Water is short, so irrigation is common.",
-    keyGrapes: { red: ["Aragonez (Tempranillo)", "Trincadeira", "Alicante Bouschet", "Syrah"], white: ["Antão Vaz", "Arinto"] },
+    keyGrapes: { red: ["Aragonez (Tempranillo)", "Trincadeira", "Alicante Bouschet", "Syrah", "Touriga Nacional"], white: ["Antão Vaz", "Arinto"] },
     subRegions: ["Évora", "Borba", "Reguengos", "Vidigueira", "Portalegre", "Moura", "Redondo", "Granja-Amareleja"],
     soils: "Varied: granite and schist in the north near Portalegre; clay and limestone around Borba; schist and granite around Vidigueira; deep, fertile clay and sand across much of the plain.",
     viticultureNotes: "Large estates and big vineyards on flat land that suits machine harvest, with cork oak woods between them. Main reds: Aragonez (Tempranillo), Trincadeira (late-ripening, it needs heat and a dry autumn), Alicante Bouschet (a red-fleshed grape of very deep colour), Syrah and Touriga Nacional. Whites: Antão Vaz (it keeps acidity in the heat), Arinto and Roupeiro.",
