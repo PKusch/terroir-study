@@ -12507,5 +12507,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "lazio",
     explanation: "The soils are volcanic, such as tuff and pozzolana, well drained and rich in potassium. With warm sea breezes they give fresh, light whites."
+  },
+  {
+    id: "it-125",
+    type: "connection",
+    country: "Italy",
+    question: "What does Grechetto's thick skin let growers do?",
+    options: [
+      "Pick it late and ripe",
+      "Plant it on valley floors",
+      "Skip pruning in winter",
+      "Harvest it by machine only"
+    ],
+    answer: 0,
+    region: "umbria",
+    explanation: "Grechetto's thick skins resist mildew, so it can hang late and ripen fully. It gives Orvieto more body and flavour than Trebbiano alone."
+  },
+  {
+    id: "it-126",
+    type: "connection",
+    country: "Italy",
+    question: "Why is Montefalco Sagrantino usually aged for years before drinking?",
+    options: [
+      "It is very tannic",
+      "It is very sweet",
+      "It is very low in alcohol",
+      "It is very light in colour"
+    ],
+    answer: 0,
+    region: "umbria",
+    explanation: "Sagrantino is a deep, very tannic, full-bodied red that needs years to soften."
   }
 ];
