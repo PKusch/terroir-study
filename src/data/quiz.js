@@ -12327,5 +12327,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "baden",
     explanation: "Markgräflerland is known for Gutedel (Chasselas), Kraichgau for Auxerrois, and Ortenau for Riesling, which it calls Klingelberger."
+  },
+  {
+    id: "es-240",
+    type: "connection",
+    country: "Spain",
+    question: "What must appear on every Bierzo label, even on an unaged wine?",
+    options: [
+      "The vintage",
+      "The village name",
+      "The vineyard altitude",
+      "The grape's share"
+    ],
+    answer: 0,
+    region: "bierzo",
+    explanation: "Bierzo's rules require the vintage on every label, even for unaged wines."
+  },
+  {
+    id: "es-241",
+    type: "connection",
+    country: "Spain",
+    question: "What share of Bierzo's vineyard counts as old vines?",
+    options: [
+      "About 25%",
+      "About 50%",
+      "About 85%",
+      "About 10%"
+    ],
+    answer: 2,
+    region: "bierzo",
+    explanation: "About 85% of Bierzo's vineyard is old vines, and the average vine is about 75 years old."
   }
 ];
