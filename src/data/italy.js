@@ -114,7 +114,7 @@ export const ITALY_REGIONS = {
     country: "Italy",
     climate: "Mediterranean, with sea breezes",
     climateDetail: "A Mediterranean climate on the Alban Hills south-east of Rome, with warm dry summers, rain in autumn and winter, and breezes from the Tyrrhenian Sea.",
-    keyGrapes: { red: [], white: ["Trebbiano Toscano"] },
+    keyGrapes: { red: [], white: ["Malvasia di Candia", "Malvasia del Lazio", "Trebbiano Toscano"] },
     subRegions: ["Frascati", "Grottaferrata", "Monte Porzio Catone", "Monte Compatri"],
     subRegionsLabel: "Towns",
     soils: "Volcanic soils from the Alban Hills, such as tuff and pozzolana, well drained and rich in potassium.",

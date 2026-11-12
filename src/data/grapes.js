@@ -864,6 +864,24 @@ export const GRAPES = {
     aromas: ["lemon", "green apple", "neutral", "floral", "herbs"],
     notes: "High-yielding and neutral, giving light, crisp wine wherever it is planted. Its acidity makes it a base for brandy and, dried, part of the Vin Santo blend."
   },
+  malvasiaDelLazio: {
+    name: "Malvasia del Lazio",
+    aliases: ["Malvasia Puntinata"],
+    colour: "white",
+    body: "medium",
+    acidity: "medium",
+    aromas: ["peach", "yellow fruit", "floral", "sage"],
+    notes: "Named for the small dark dots on its skins. Moderately aromatic and the most prized Malvasia in Frascati, it rots easily, which also lets it make sweet wine from botrytised grapes."
+  },
+  malvasiaDiCandia: {
+    name: "Malvasia di Candia",
+    aliases: ["Malvasia Bianca di Candia"],
+    colour: "white",
+    body: "low",
+    acidity: "high",
+    aromas: ["lemon", "citrus", "floral", "neutral"],
+    notes: "A light, crisp blending grape in Lazio, used beside Malvasia del Lazio in Frascati."
+  },
   garganega: {
     name: "Garganega",
     aliases: [],
