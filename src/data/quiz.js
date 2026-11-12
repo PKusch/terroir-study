@@ -12567,5 +12567,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "languedocRoussillon",
     explanation: "Saint-Chinian is split: schist in the more northerly, hilly zone and limestone in the south."
+  },
+  {
+    id: "fr-155",
+    type: "connection",
+    country: "France",
+    question: "Which grape makes up most white Crémant d'Alsace?",
+    options: [
+      "Pinot Blanc",
+      "Riesling",
+      "Gewurztraminer",
+      "Muscat"
+    ],
+    answer: 0,
+    region: "alsace",
+    explanation: "Crémant d'Alsace is made by the traditional method and is mostly Pinot Blanc."
+  },
+  {
+    id: "fr-156",
+    type: "connection",
+    country: "France",
+    question: "Which grape may a Crémant d'Alsace rosé be made from?",
+    options: [
+      "Pinot Noir only",
+      "Pinot Noir and Pinot Gris",
+      "Any Alsace grape",
+      "Pinot Noir and Gamay"
+    ],
+    answer: 0,
+    region: "alsace",
+    explanation: "Crémant d'Alsace rosé is made only from Pinot Noir."
   }
 ];
