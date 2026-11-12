@@ -12627,5 +12627,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "marche",
     explanation: "Jesi's hills have a high clay content and a lot of calcium carbonate. They drain poorly and erode easily."
+  },
+  {
+    id: "it-129",
+    type: "connection",
+    country: "Italy",
+    question: "Why do Friuli Grave's large stones matter in the vineyard?",
+    options: [
+      "They warm by day and cool at night",
+      "They hold rain water all summer",
+      "They shelter the vines from the cold Bora wind",
+      "They add salt to the grapes"
+    ],
+    answer: 0,
+    region: "friuli",
+    explanation: "Friuli Grave is a wide, flat valley of large stones that warm up by day and cool down at night."
+  },
+  {
+    id: "it-130",
+    type: "connection",
+    country: "Italy",
+    question: "Since the mid-1990s, Friuli has revived which style of white wine?",
+    options: [
+      "Orange wine, left long on the skins",
+      "Passito, from grapes dried for months on racks",
+      "Sparkling wine by the tank method",
+      "Fortified white wine"
+    ],
+    answer: 0,
+    region: "friuli",
+    explanation: "Orange (amber) wine, made by leaving white grapes on their skins for a long time, has been revived in Friuli since the mid-1990s."
   }
 ];
