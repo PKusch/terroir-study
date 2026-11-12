@@ -12957,5 +12957,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "laMancha",
     explanation: "With 300 to 350 mm of rain and more than 3,000 hours of sun, the dryness cuts the risk of fungal disease considerably."
+  },
+  {
+    id: "es-262",
+    type: "connection",
+    country: "Spain",
+    question: "Where must a Castilla y León IGP wine be made and aged?",
+    options: [
+      "Inside the region",
+      "Anywhere in Spain",
+      "In a DO winery",
+      "Within 50 km of the vines"
+    ],
+    answer: 0,
+    region: "castillaYLeon",
+    explanation: "Wineries and any ageing must be inside Castilla y León."
+  },
+  {
+    id: "es-263",
+    type: "connection",
+    country: "Spain",
+    question: "How much of Castilla y León lies above 600 m?",
+    options: [
+      "More than 98%",
+      "About half",
+      "About a quarter",
+      "About 75%"
+    ],
+    answer: 0,
+    region: "castillaYLeon",
+    explanation: "More than 98% of the land is above 600 m, which is why winters are long and frost is a real risk."
   }
 ];
