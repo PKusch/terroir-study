@@ -291,7 +291,7 @@ export const SPAIN_REGIONS = {
     soils: "Limestone, sandy and gypsum soils with red-yellow clay. The limestone soils have a pH of 7.5 to 8.5, are poor in organic matter and reflect light and store heat. The dry climate and limestone cause water stress, low yields and good ripening.",
     viticultureNotes: "The authorised reds are Cencibel (Tempranillo), Garnacha, Cabernet Sauvignon, Merlot, Syrah and Petit Verdot; the whites are Airén, Macabeo, Chardonnay, Sauvignon Blanc, Moscatel de Grano Menudo and Verdejo. The maximum yield is 8,000 kg/ha for whites and 7,500 kg/ha for reds. A red must be at least 85% red grapes, and a rosé at least 25%. Phylloxera arrived late, in 1911.",
     winemaking: "A red Crianza needs 24 months in total with at least 6 in oak of up to 330 litres, a Reserva 36 months with at least 12 in oak, and a Gran Reserva 60 months with at least 18 in oak. A Roble red spends more than 90 days in oak and a Roble white more than 45 days. Whites ferment cool, at no more than 18 °C.",
-    typicalStyle: "Smooth, velvety aged reds, together with whites and rosés.",
+    typicalStyle: "Reds, mostly Cencibel (Tempranillo): smooth and velvety, with oak flavours when aged as Roble, Crianza, Reserva or Gran Reserva. Whites, mostly Airén and fermented cool: light and fresh. Rosés too.",
     qualityLevels: ["Vino de España", "DO Valdepeñas", "Joven", "Roble", "Crianza (24 months, 6 in oak)", "Reserva (36 months, 12 in oak)", "Gran Reserva (60 months, 18 in oak)"],
     whyConnection: "Limestone soils and a dry climate → water stress, low yields and good ripening. Aged in oak under strict minimums → smooth, ageing-style reds. An enclave inside La Mancha → its own DO and its own rules.",
     color: "#8C3B4A"
