@@ -12207,5 +12207,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "abruzzo",
     explanation: "Cerasuolo d'Abruzzo is a rosato from Montepulciano, made with brief skin contact. It is darker and more intense than most rosés."
+  },
+  {
+    id: "pt-76",
+    type: "connection",
+    country: "Portugal",
+    question: "Why does Bairrada's climate suit traditional-method sparkling wine?",
+    options: [
+      "Cool, wet Atlantic weather keeps acid high",
+      "Hot, dry summers give very ripe, sugary grapes",
+      "Dry winds concentrate the sugar",
+      "High altitude gives cold nights"
+    ],
+    answer: 0,
+    region: "bairrada",
+    explanation: "Bairrada is flat, coastal and cool, with plenty of rain. Grapes keep high acidity and low sugar, which is what a sparkling base wine needs."
+  },
+  {
+    id: "pt-77",
+    type: "connection",
+    country: "Portugal",
+    question: "Baga, Bairrada's main red grape, gives wines with which structure?",
+    options: [
+      "Deep colour, firm tannin and high acidity",
+      "Pale colour, low tannin and soft acidity",
+      "Medium colour, soft tannin and low acidity",
+      "Deep colour, soft tannin and low acidity"
+    ],
+    answer: 0,
+    region: "bairrada",
+    explanation: "Baga is thick-skinned and late-ripening, with deep colour, firm tannin and high acidity. The best Baga reds age for decades."
   }
 ];
