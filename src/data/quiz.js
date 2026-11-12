@@ -12417,5 +12417,35 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "carinena",
     explanation: "A Cariñena 'Roble' red has 60 days in oak, and a white or rosé 30 days. In nearby Calatayud a Roble red needs more than 90 days."
+  },
+  {
+    id: "nw-118",
+    type: "connection",
+    country: "New World",
+    question: "Okanagan winters can fall below -25 °C. What do growers do to protect the vines?",
+    options: [
+      "Hill soil up over the graft union",
+      "Spray water to coat the buds in ice",
+      "Grow vines on high pergolas",
+      "Plant only on valley floors"
+    ],
+    answer: 0,
+    region: "britishColumbia",
+    explanation: "Growers hill soil up above the graft union to protect it from the winter cold."
+  },
+  {
+    id: "nw-119",
+    type: "connection",
+    country: "New World",
+    question: "What are the Okanagan's vineyard soils mainly made of?",
+    options: [
+      "Glacial sand and gravel",
+      "Volcanic basalt",
+      "Chalk",
+      "Red clay over limestone"
+    ],
+    answer: 0,
+    region: "britishColumbia",
+    explanation: "The soils are glacial deposits: sandy and gravelly, with sandy, silty and clay-based loams in the south."
   }
 ];
