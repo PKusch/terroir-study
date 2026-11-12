@@ -12777,5 +12777,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "montsant",
     explanation: "Rancio, mistela, garnacha, dulce natural and vimblanc all need at least 15% alcohol."
+  },
+  {
+    id: "es-250",
+    type: "connection",
+    country: "Spain",
+    question: "In Toro, where does Tinta de Toro grow best?",
+    options: [
+      "Stony ground over clay",
+      "Light sandy soils",
+      "Deep river alluvium near the Duero",
+      "Granite slopes"
+    ],
+    answer: 0,
+    region: "toro",
+    explanation: "Tinta de Toro grows best on stony ground over clay. The lighter sandy soils suit Garnacha, Malvasía and Albillo."
+  },
+  {
+    id: "es-251",
+    type: "connection",
+    country: "Spain",
+    question: "How much does the temperature swing between day and night in Toro's ripening season?",
+    options: [
+      "More than 15 °C",
+      "About 5 °C, as by the sea",
+      "About 8 °C",
+      "Less than 3 °C"
+    ],
+    answer: 0,
+    region: "toro",
+    explanation: "Toro's vineyards lie at 620 to 840 m, and in the ripening season the day–night swing is more than 15 °C."
   }
 ];
