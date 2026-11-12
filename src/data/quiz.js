@@ -12657,5 +12657,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "friuli",
     explanation: "Orange (amber) wine, made by leaving white grapes on their skins for a long time, has been revived in Friuli since the mid-1990s."
+  },
+  {
+    id: "it-131",
+    type: "connection",
+    country: "Italy",
+    question: "Roughly how is Alto Adige's vineyard split between white and red?",
+    options: [
+      "65% white, 35% red",
+      "35% white, 65% red",
+      "50% white, 50% red",
+      "90% white, 10% red"
+    ],
+    answer: 0,
+    region: "trentinoAltoAdige",
+    explanation: "Alto Adige has about 5,860 hectares, about 65% white and 35% red."
+  },
+  {
+    id: "it-132",
+    type: "connection",
+    country: "Italy",
+    question: "How long must an Alto Adige Spumante Riserva age?",
+    options: [
+      "42 months, including 36 on the lees",
+      "15 months on the lees",
+      "24 months, including 12 on the lees",
+      "60 months on the lees"
+    ],
+    answer: 0,
+    region: "trentinoAltoAdige",
+    explanation: "Alto Adige Spumante Riserva needs 42 months, 36 of them on the lees."
   }
 ];
