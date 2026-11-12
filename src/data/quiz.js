@@ -12297,5 +12297,35 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "dao",
     explanation: "About 80% of the Dão's production is red, led by Touriga Nacional, Alfrocheiro, Jaen and Tinta Roriz."
+  },
+  {
+    id: "de-75",
+    type: "connection",
+    country: "Germany",
+    question: "On the Kaiserstuhl, budburst to harvest takes about 100 to 110 days. How does that compare with the Mosel?",
+    options: [
+      "Shorter: the Mosel takes over 150 days",
+      "Longer: the Mosel takes about 80 days",
+      "The same: both take about 105 days",
+      "Shorter: the Mosel takes about 120 days"
+    ],
+    answer: 0,
+    region: "baden",
+    explanation: "The Kaiserstuhl is Germany's warmest area, so grapes ripen faster there: 100 to 110 days from budburst to harvest, against more than 150 on the Mosel."
+  },
+  {
+    id: "de-76",
+    type: "connection",
+    country: "Germany",
+    question: "Which grape is Baden's Markgräflerland known for?",
+    options: [
+      "Gutedel (Chasselas)",
+      "Auxerrois",
+      "Klingelberger (Riesling)",
+      "Silvaner"
+    ],
+    answer: 0,
+    region: "baden",
+    explanation: "Markgräflerland is known for Gutedel (Chasselas), Kraichgau for Auxerrois, and Ortenau for Riesling, which it calls Klingelberger."
   }
 ];
