@@ -74,7 +74,7 @@ export const REGIONS = {
     name: "Alsace",
     climate: "Cool continental (dry)",
     climateDetail: "Vosges Mountains create rain shadow — one of driest regions in France. Cold winters, warm dry summers.",
-    keyGrapes: { red: ["Pinot Noir"], white: ["Riesling", "Gewurztraminer", "Pinot Gris", "Muscat"] },
+    keyGrapes: { red: ["Pinot Noir"], white: ["Riesling", "Gewurztraminer", "Pinot Gris", "Muscat", "Pinot Blanc"] },
     subRegions: ["Alsace AOC", "Alsace Grand Cru", "Crémant d'Alsace", "Colmar", "Riquewihr", "Ribeauvillé", "Kaysersberg", "Eguisheim", "Barr"],
     subRegionsLabel: "Wine villages",
     soils: "Hugely varied: granite, limestone, sandstone, volcanic, clay. 51 Grand Cru sites.",
