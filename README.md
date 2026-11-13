@@ -360,7 +360,7 @@ npm run dev
 - [x] Styles tab: the sparkling methods and the fortified wines side by side
 - [x] Written-answer practice: a question per region with WSET's command words, and a self-check against the region's notes
 - [x] Written practice can be limited to one kind of question
-- [x] More questions for the thinnest regions: every region has at least ten (raised from nine, 2026-11-13)
+- [x] More questions for the thinnest regions: every region has at least eleven (raised from nine to ten, then to eleven, 2026-11-13)
 
 ## About
 
