@@ -13437,5 +13437,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "nahe",
     explanation: "About 77% is white and 23% red. Riesling leads at about 29% of plantings, then Müller-Thurgau and Grauburgunder."
+  },
+  {
+    id: "at-33",
+    type: "connection",
+    country: "Austria",
+    question: "What is the minimum alcohol for a Wachau wine labelled Smaragd?",
+    options: [
+      "11.5% abv",
+      "12% abv",
+      "12.5% abv",
+      "14% abv"
+    ],
+    answer: 2,
+    region: "niederosterreich",
+    explanation: "Smaragd is the fullest of the three dry style terms, at 12.5% or more. Steinfeder goes up to 11.5%, and Federspiel sits between 11.5 and 12.5%."
   }
 ];
