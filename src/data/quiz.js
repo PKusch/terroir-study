@@ -13587,5 +13587,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "abruzzo",
     explanation: "Chieti holds about 75% of the vineyards. The best-regarded Montepulciano comes from northern Teramo and Pescara, and the inland L'Aquila is mostly mountains."
+  },
+  {
+    id: "it-138",
+    type: "connection",
+    country: "Italy",
+    question: "How many vines per hectare must new Verdicchio plantings have, at the least?",
+    options: [
+      "1,500",
+      "2,200",
+      "3,300",
+      "4,500"
+    ],
+    answer: 1,
+    region: "marche",
+    explanation: "New plantings need at least 2,200 vines per hectare, in both the Castelli di Jesi and the Matelica zones."
   }
 ];
