@@ -13392,5 +13392,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "valdepenas",
     explanation: "White grapes may yield up to 8,000 kg/ha and red grapes up to 7,500 kg/ha. The dry climate and poor limestone keep real yields low anyway."
+  },
+  {
+    id: "de-81",
+    type: "connection",
+    country: "Germany",
+    question: "What soils lie on the steep western end of the Rheingau, near Rüdesheim and Assmannshausen?",
+    options: [
+      "Deep loess and loam",
+      "Slate and quartzite",
+      "Red sandstone and clay",
+      "Chalk and flint"
+    ],
+    answer: 1,
+    region: "rheingau",
+    explanation: "The steep west end is slate and quartzite. The gentler slopes to the east have deeper loess, loam and clay, which give fuller wines."
   }
 ];
