@@ -13512,5 +13512,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "california",
     explanation: "Chardonnay is about half of Monterey's vines. Winds off Monterey Bay blow down the Salinas Valley and keep it cool, and low rain means irrigation."
+  },
+  {
+    id: "nw-129",
+    type: "connection",
+    country: "New World",
+    question: "At roughly what altitude does Cafayate, in Salta, grow its Torrontés?",
+    options: [
+      "About 400 m",
+      "About 900 m",
+      "About 1,700 m",
+      "About 3,500 m"
+    ],
+    answer: 2,
+    region: "argentina",
+    explanation: "Cafayate sits at about 1,683 m with under 250 mm of rain. The height gives cold nights, which keep Torrontés' perfume fresh."
   }
 ];
