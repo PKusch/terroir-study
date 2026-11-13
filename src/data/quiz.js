@@ -13662,5 +13662,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "lisboa",
     explanation: "Colares red needs at least 18 months in wood and 6 in bottle. Ramisco makes it tannic and high in acidity, and it takes about a decade to soften."
+  },
+  {
+    id: "de-84",
+    type: "connection",
+    country: "Germany",
+    question: "What is Rheinhessen's nickname, from its rolling landscape?",
+    options: [
+      "The land of the thousand hills",
+      "The Tuscany of the German north",
+      "The sunny terrace of the Rhine valley",
+      "The vegetable garden of the Palatinate"
+    ],
+    answer: 0,
+    region: "rheinhessen",
+    explanation: "Rheinhessen is called the land of the thousand hills. Higher hills to the west and north shelter it, so it is one of Germany's warmest and driest regions."
   }
 ];
