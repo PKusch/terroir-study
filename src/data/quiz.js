@@ -13707,5 +13707,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "newZealand",
     explanation: "Screwcaps are the standard closure, even for the best wines. They help keep the fresh, pungent aromas that cool fermentation and early bottling preserve."
+  },
+  {
+    id: "nw-131",
+    type: "connection",
+    country: "New World",
+    question: "What soil in Walker Bay helps Pinot Noir by holding water?",
+    options: [
+      "Decomposed granite",
+      "Clay-rich shale",
+      "Deep wind-blown sand",
+      "Alluvial gravel"
+    ],
+    answer: 1,
+    region: "southAfrica",
+    explanation: "Walker Bay has clay-rich shale, which holds water for Pinot Noir. Stellenbosch has decomposed granite on its slopes, and Swartland has dry, poor shale and granite."
   }
 ];
