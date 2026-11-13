@@ -13467,5 +13467,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "tokaj",
     explanation: "Eszencia, the free-run juice of the aszú berries, needs at least 450 g/l of sugar. It is very low in alcohol and ferments very slowly. Aszú itself needs 120 g/l."
+  },
+  {
+    id: "hu-33",
+    type: "connection",
+    country: "Hungary",
+    question: "Why are so many of Eger's wine cellars cut into the rock under the town?",
+    options: [
+      "The soft volcanic tuff keeps a steady, cool temperature",
+      "Hard limestone keeps out the damp and the mould of the cellar",
+      "The rules require every Egri Bikavér to age underground",
+      "The rock walls add a smoky, mineral taste to the wine in barrel"
+    ],
+    answer: 0,
+    region: "eger",
+    explanation: "The cellars are dug into soft volcanic tuff (rhyolite), which stays cool and steady all year. Reds are often aged in oak down there."
   }
 ];
