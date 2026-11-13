@@ -13197,5 +13197,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "nemea",
     explanation: "The low, warm vineyards give soft, jammy wines, the mid-altitude ones balanced wines, and the high, cool ones fresher wines with higher acidity."
+  },
+  {
+    id: "nw-120",
+    type: "connection",
+    country: "New World",
+    question: "When was the Willamette Valley AVA approved, as Oregon's first?",
+    options: [
+      "1983",
+      "1966",
+      "1999",
+      "2010"
+    ],
+    answer: 0,
+    region: "oregon",
+    explanation: "The Willamette Valley AVA, the first in Oregon, was approved in 1983."
+  },
+  {
+    id: "nw-121",
+    type: "connection",
+    country: "New World",
+    question: "What is Willakenzie soil, found across all of Ribbon Ridge?",
+    options: [
+      "Marine sediment",
+      "Volcanic basalt",
+      "Windblown loess",
+      "Glacial gravel"
+    ],
+    answer: 0,
+    region: "oregon",
+    explanation: "Willakenzie soil is marine sediment, and all of Ribbon Ridge is on it. Jory is volcanic, and Laurelwood is basalt mixed with loess."
   }
 ];
