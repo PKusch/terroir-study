@@ -13542,5 +13542,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "bordeaux",
     explanation: "Haut-Brion, in the Graves, was the one red from outside the Médoc. The 1855 list also ranked the sweet wines of Sauternes and Barsac. The Right Bank estates were left out."
+  },
+  {
+    id: "fr-160",
+    type: "connection",
+    country: "France",
+    question: "What is the main rock of the hill of Hermitage?",
+    options: [
+      "Chalk",
+      "Granite",
+      "Limestone and clay",
+      "Volcanic basalt"
+    ],
+    answer: 1,
+    region: "rhoneNorth",
+    explanation: "Hermitage is mainly granite, and Côte-Rôtie is largely mica-schist and granite. The steep granite slopes drain well and catch the sun, which suits Syrah."
   }
 ];
