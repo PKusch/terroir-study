@@ -13527,5 +13527,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "argentina",
     explanation: "Cafayate sits at about 1,683 m with under 250 mm of rain. The height gives cold nights, which keep Torrontés' perfume fresh."
+  },
+  {
+    id: "fr-159",
+    type: "connection",
+    country: "France",
+    question: "The 1855 classification ranked red wines of the Médoc. Which estate from outside the Médoc was also included?",
+    options: [
+      "Château Pétrus in Pomerol",
+      "Château Haut-Brion in the Graves",
+      "Château Cheval Blanc in Saint-Émilion",
+      "Château Ausone in Saint-Émilion"
+    ],
+    answer: 1,
+    region: "bordeaux",
+    explanation: "Haut-Brion, in the Graves, was the one red from outside the Médoc. The 1855 list also ranked the sweet wines of Sauternes and Barsac. The Right Bank estates were left out."
   }
 ];
