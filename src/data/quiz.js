@@ -13227,5 +13227,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "oregon",
     explanation: "Willakenzie soil is marine sediment, and all of Ribbon Ridge is on it. Jory is volcanic, and Laurelwood is basalt mixed with loess."
+  },
+  {
+    id: "nw-122",
+    type: "connection",
+    country: "New World",
+    question: "How long can summer days be in Washington's Columbia Valley?",
+    options: [
+      "Up to 17 hours of sun",
+      "Up to 12 hours of sun",
+      "Up to 14 hours of sun",
+      "Up to 20 hours of sun"
+    ],
+    answer: 0,
+    region: "washington",
+    explanation: "At about 46° N the Columbia Valley gets up to 17 hours of sunlight in summer, with a big day–night range."
+  },
+  {
+    id: "nw-123",
+    type: "connection",
+    country: "New World",
+    question: "Which rivers supply irrigation water for the Columbia Valley?",
+    options: [
+      "Columbia, Snake, Yakima and Walla Walla",
+      "Willamette and Rogue",
+      "Sacramento, San Joaquin and the Russian River",
+      "Niagara and St Lawrence"
+    ],
+    answer: 0,
+    region: "washington",
+    explanation: "With 6 to 8 inches of rain a year, irrigation is essential, with water from the Columbia, Snake, Yakima and Walla Walla rivers."
   }
 ];
