@@ -13377,5 +13377,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "riberaDelDuero",
     explanation: "Albillo Mayor may yield up to 9,500 kg/ha. Every other grape, Tempranillo included, is capped at 7,000 kg/ha."
+  },
+  {
+    id: "es-265",
+    type: "connection",
+    country: "Spain",
+    question: "What is the maximum yield for white grapes in Valdepeñas?",
+    options: [
+      "6,000 kg/ha",
+      "7,500 kg/ha",
+      "8,000 kg/ha",
+      "10,000 kg/ha"
+    ],
+    answer: 2,
+    region: "valdepenas",
+    explanation: "White grapes may yield up to 8,000 kg/ha and red grapes up to 7,500 kg/ha. The dry climate and poor limestone keep real yields low anyway."
   }
 ];
