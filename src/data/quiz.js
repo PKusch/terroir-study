@@ -13722,5 +13722,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "southAfrica",
     explanation: "Walker Bay has clay-rich shale, which holds water for Pinot Noir. Stellenbosch has decomposed granite on its slopes, and Swartland has dry, poor shale and granite."
+  },
+  {
+    id: "nw-132",
+    type: "connection",
+    country: "New World",
+    question: "Most Chilean vines grow on their own roots. Why are Casablanca's vines grafted?",
+    options: [
+      "To protect them against phylloxera",
+      "To protect them against nematodes",
+      "To make them ripen sooner in the fog",
+      "Because the law requires it on the coast"
+    ],
+    answer: 1,
+    region: "chile",
+    explanation: "Phylloxera has never reached Chile, so most vines are ungrafted. Casablanca's are grafted against nematodes, tiny worms in the soil that attack the roots."
   }
 ];
