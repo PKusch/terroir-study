@@ -13047,5 +13047,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "franken",
     explanation: "Franken is continental, with frost a risk every year and harvests that vary widely, so vines sit in protected sites along the Main and the Steigerwald, and the site's microclimate matters more than the regional average."
+  },
+  {
+    id: "at-31",
+    type: "connection",
+    country: "Austria",
+    question: "What is Chardonnay often called in Steiermark?",
+    options: [
+      "Morillon",
+      "Muskateller",
+      "Schilcher",
+      "Welschriesling"
+    ],
+    answer: 0,
+    region: "steiermark",
+    explanation: "Chardonnay is often called Morillon in Steiermark."
+  },
+  {
+    id: "at-32",
+    type: "connection",
+    country: "Austria",
+    question: "What do the Vulkanland's volcanic soils add to its wines?",
+    options: [
+      "More spice",
+      "More sweetness",
+      "Lower acidity",
+      "Paler colour"
+    ],
+    answer: 0,
+    region: "steiermark",
+    explanation: "The Vulkanland has volcanic soils, which give the wines more spice. The Südsteiermark has sand, marl and limestone clay, and the Weststeiermark schist."
   }
 ];
