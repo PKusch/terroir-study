@@ -13362,5 +13362,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "piedmont",
     explanation: "Piedmont has no IGT. Its quality wines are all DOC or DOCG, such as Langhe DOC, Barolo DOCG and Barbaresco DOCG."
+  },
+  {
+    id: "es-264",
+    type: "connection",
+    country: "Spain",
+    question: "What is the maximum yield for the white grape Albillo Mayor in Ribera del Duero?",
+    options: [
+      "7,000 kg/ha",
+      "9,500 kg/ha",
+      "5,500 kg/ha",
+      "12,000 kg/ha"
+    ],
+    answer: 1,
+    region: "riberaDelDuero",
+    explanation: "Albillo Mayor may yield up to 9,500 kg/ha. Every other grape, Tempranillo included, is capped at 7,000 kg/ha."
   }
 ];
