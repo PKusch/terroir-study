@@ -13497,5 +13497,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "naoussa",
     explanation: "The vineyards are on the south-eastern slopes of Mount Vermio, mostly at 150 to 400 m. The mountain gives cool nights and catches the morning sun."
+  },
+  {
+    id: "nw-128",
+    type: "connection",
+    country: "New World",
+    question: "Which grape makes up about half of the vines in Monterey?",
+    options: [
+      "Cabernet Sauvignon",
+      "Pinot Noir",
+      "Chardonnay",
+      "Zinfandel"
+    ],
+    answer: 2,
+    region: "california",
+    explanation: "Chardonnay is about half of Monterey's vines. Winds off Monterey Bay blow down the Salinas Valley and keep it cool, and low rain means irrigation."
   }
 ];
