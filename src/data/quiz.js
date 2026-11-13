@@ -13287,5 +13287,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "newYork",
     explanation: "The soils are glacial. Dunkirk clay loam is commonest in the central lakes, the south has shaley, acidic soils, and the north has limestone, which suits vinifera."
+  },
+  {
+    id: "nw-126",
+    type: "connection",
+    country: "New World",
+    question: "Roughly what share of Canada's Icewine comes from Ontario?",
+    options: [
+      "About 90%",
+      "About 50%",
+      "About 25%",
+      "About 10%"
+    ],
+    answer: 0,
+    region: "ontario",
+    explanation: "Canada makes more Icewine than all other countries combined, about 90% of it from Ontario."
+  },
+  {
+    id: "nw-127",
+    type: "connection",
+    country: "New World",
+    question: "Why are tile drains used in some Niagara vineyards?",
+    options: [
+      "The clay can be heavy",
+      "The sand dries out too fast",
+      "Lake water floods them yearly",
+      "Frost collects in the drains"
+    ],
+    answer: 0,
+    region: "ontario",
+    explanation: "The benches between the escarpment and the lake are clay, with silt and sand, and tile drains are used where the clay is heavy."
   }
 ];
