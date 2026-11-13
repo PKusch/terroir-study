@@ -13017,5 +13017,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rheinhessen",
     explanation: "Rheinhessen is now Germany's most important region for Grauburgunder and for Chardonnay, and it holds about 43% of Germany's Silvaner."
+  },
+  {
+    id: "de-79",
+    type: "connection",
+    country: "Germany",
+    question: "How do Franken's Muschelkalk and Buntsandstein wines differ?",
+    options: [
+      "Muschelkalk chalky and precise, Buntsandstein broader",
+      "Muschelkalk broad and earthy, Buntsandstein chalky and precise",
+      "Both are light and floral",
+      "Muschelkalk sweet, Buntsandstein dry"
+    ],
+    answer: 0,
+    region: "franken",
+    explanation: "Muschelkalk (shell limestone) wines are chalky and precise, and Buntsandstein (coloured sandstone) wines are broader and earthier."
+  },
+  {
+    id: "de-80",
+    type: "connection",
+    country: "Germany",
+    question: "Why does the single site matter so much in Franken?",
+    options: [
+      "Frost is a yearly risk, so sheltered sites count",
+      "The region is flat, so all sites are alike",
+      "Rain is so high that only the steepest slopes can drain",
+      "The law bans wine from valley floors"
+    ],
+    answer: 0,
+    region: "franken",
+    explanation: "Franken is continental, with frost a risk every year and harvests that vary widely, so vines sit in protected sites along the Main and the Steigerwald, and the site's microclimate matters more than the regional average."
   }
 ];
