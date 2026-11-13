@@ -13407,5 +13407,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rheingau",
     explanation: "The steep west end is slate and quartzite. The gentler slopes to the east have deeper loess, loam and clay, which give fuller wines."
+  },
+  {
+    id: "de-82",
+    type: "connection",
+    country: "Germany",
+    question: "Where are the best Riesling sites of the Mittelhaardt in the Pfalz?",
+    options: [
+      "On the flat, sandy and gravelly plain beside the Rhine",
+      "On sandstone and basalt on the lower Haardt slopes",
+      "On the high, cold tops of the Haardt hills",
+      "On deep, heavy clay down in the valley floors of the region"
+    ],
+    answer: 1,
+    region: "pfalz",
+    explanation: "The top Riesling sites sit on sandstone and basalt on the lower slopes of the Haardt. The flat land is mostly given to volume grapes such as Müller-Thurgau."
   }
 ];
