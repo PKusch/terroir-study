@@ -13482,5 +13482,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "eger",
     explanation: "The cellars are dug into soft volcanic tuff (rhyolite), which stays cool and steady all year. Reds are often aged in oak down there."
+  },
+  {
+    id: "gr-34",
+    type: "connection",
+    country: "Greece",
+    question: "On the slopes of which mountain do Naoussa's vineyards lie?",
+    options: [
+      "Mount Olympus",
+      "Mount Vermio",
+      "Mount Parnassus",
+      "Mount Athos"
+    ],
+    answer: 1,
+    region: "naoussa",
+    explanation: "The vineyards are on the south-eastern slopes of Mount Vermio, mostly at 150 to 400 m. The mountain gives cool nights and catches the morning sun."
   }
 ];
