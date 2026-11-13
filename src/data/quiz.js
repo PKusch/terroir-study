@@ -13632,5 +13632,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "catalunya",
     explanation: "Black grapes may yield up to 10,000 kg/ha and white grapes 12,000 kg/ha. Where a vineyard could also go to another DO, the stricter limit applies."
+  },
+  {
+    id: "pt-84",
+    type: "connection",
+    country: "Portugal",
+    question: "Roughly how much of Portugal's sparkling wine comes from Bairrada?",
+    options: [
+      "About a tenth of the country's total",
+      "About a quarter of the country's total",
+      "About half to two thirds",
+      "Almost all of it, over nine tenths"
+    ],
+    answer: 2,
+    region: "bairrada",
+    explanation: "Bairrada makes roughly half to two thirds of Portugal's sparkling wine, by the traditional method. Its cool, wet Atlantic climate gives grapes with high acidity and little sugar."
   }
 ];
