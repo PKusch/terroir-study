@@ -13332,5 +13332,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "loire",
     explanation: "Muscadet sits on schist. Tuffeau limestone is the soil of Vouvray, and flint and Kimmeridgian marl are found in Sancerre."
+  },
+  {
+    id: "fr-158",
+    type: "connection",
+    country: "France",
+    question: "What soil lies under the southern Beaujolais, where most simple Beaujolais is grown?",
+    options: [
+      "Granite with some schist",
+      "Clay and limestone",
+      "Volcanic basalt",
+      "Flint and chalk"
+    ],
+    answer: 1,
+    region: "beaujolais",
+    explanation: "The south is clay and limestone. The ten crus sit on hills of mostly granite, which gives Gamay more minerality and structure than it gets on clay."
   }
 ];
