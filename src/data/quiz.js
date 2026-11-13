@@ -13617,5 +13617,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rueda",
     explanation: "Palomino Fino is no longer allowed in new plantings. Verdejo leads, joined by Sauvignon Blanc, Viura and, since 2019, Chardonnay and Viognier."
+  },
+  {
+    id: "es-267",
+    type: "connection",
+    country: "Spain",
+    question: "What is the maximum yield for black grapes in DO Catalunya?",
+    options: [
+      "7,000 kg/ha",
+      "8,000 kg/ha",
+      "10,000 kg/ha",
+      "12,000 kg/ha"
+    ],
+    answer: 2,
+    region: "catalunya",
+    explanation: "Black grapes may yield up to 10,000 kg/ha and white grapes 12,000 kg/ha. Where a vineyard could also go to another DO, the stricter limit applies."
   }
 ];
