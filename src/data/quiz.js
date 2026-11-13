@@ -13422,5 +13422,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "pfalz",
     explanation: "The top Riesling sites sit on sandstone and basalt on the lower slopes of the Haardt. The flat land is mostly given to volume grapes such as Müller-Thurgau."
+  },
+  {
+    id: "de-83",
+    type: "connection",
+    country: "Germany",
+    question: "Roughly how much of the Nahe vineyard is planted with white grapes?",
+    options: [
+      "About half, with red close behind",
+      "About three quarters",
+      "Almost all of it, over nine tenths",
+      "About a third, as reds lead"
+    ],
+    answer: 1,
+    region: "nahe",
+    explanation: "About 77% is white and 23% red. Riesling leads at about 29% of plantings, then Müller-Thurgau and Grauburgunder."
   }
 ];
