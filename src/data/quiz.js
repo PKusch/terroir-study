@@ -13572,5 +13572,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "tuscany",
     explanation: "Brunello is 100% Sangiovese. Chianti Classico, by contrast, is mostly Sangiovese and may include other grapes."
+  },
+  {
+    id: "it-137",
+    type: "connection",
+    country: "Italy",
+    question: "Which province holds about three quarters of Abruzzo's vineyards?",
+    options: [
+      "Teramo",
+      "Chieti",
+      "Pescara",
+      "L'Aquila"
+    ],
+    answer: 1,
+    region: "abruzzo",
+    explanation: "Chieti holds about 75% of the vineyards. The best-regarded Montepulciano comes from northern Teramo and Pescara, and the inland L'Aquila is mostly mountains."
   }
 ];
