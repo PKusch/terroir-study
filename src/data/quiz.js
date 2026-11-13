@@ -13137,5 +13137,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "villany",
     explanation: "Cabernet Franc from the top tier of the Villány PDO is sold as 'Villányi Franc'."
+  },
+  {
+    id: "gr-30",
+    type: "connection",
+    country: "Greece",
+    question: "Where do Santorini's vines get most of their water in the growing season?",
+    options: [
+      "Dew and night sea mist",
+      "Summer rain",
+      "Irrigation from deep wells on the island",
+      "Melting mountain snow"
+    ],
+    answer: 0,
+    region: "santorini",
+    explanation: "There is almost no rain in the growing season, so the vines drink the dew and the sea mist that settles at night."
+  },
+  {
+    id: "gr-31",
+    type: "connection",
+    country: "Greece",
+    question: "Which grapes may make up the rest of a dry PDO Santorini, beside Assyrtiko?",
+    options: [
+      "Athiri and Aidani",
+      "Moschofilero and Roditis",
+      "Malagousia and Savatiano",
+      "Agiorgitiko and Xinomavro"
+    ],
+    answer: 0,
+    region: "santorini",
+    explanation: "Dry PDO Santorini must be at least 85% Assyrtiko, with up to 15% Athiri and Aidani."
   }
 ];
