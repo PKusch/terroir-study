@@ -13452,5 +13452,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "niederosterreich",
     explanation: "Smaragd is the fullest of the three dry style terms, at 12.5% or more. Steinfeder goes up to 11.5%, and Federspiel sits between 11.5 and 12.5%."
+  },
+  {
+    id: "hu-32",
+    type: "connection",
+    country: "Hungary",
+    question: "What is the minimum sugar of Tokaji Eszencia?",
+    options: [
+      "120 g/l",
+      "150 g/l",
+      "450 g/l",
+      "250 g/l"
+    ],
+    answer: 2,
+    region: "tokaj",
+    explanation: "Eszencia, the free-run juice of the aszú berries, needs at least 450 g/l of sugar. It is very low in alcohol and ferments very slowly. Aszú itself needs 120 g/l."
   }
 ];
