@@ -13677,5 +13677,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rheinhessen",
     explanation: "Rheinhessen is called the land of the thousand hills. Higher hills to the west and north shelter it, so it is one of Germany's warmest and driest regions."
+  },
+  {
+    id: "at-34",
+    type: "connection",
+    country: "Austria",
+    question: "Which grape is the Neusiedlersee DAC centred on?",
+    options: [
+      "Blaufränkisch",
+      "Zweigelt",
+      "Welschriesling",
+      "Pinot Blanc"
+    ],
+    answer: 1,
+    region: "burgenland",
+    explanation: "Neusiedlersee DAC is centred on Zweigelt, the most planted red in Burgenland. Mittelburgenland and Eisenberg are for Blaufränkisch."
   }
 ];
