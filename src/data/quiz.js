@@ -13107,5 +13107,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "vinhoVerde",
     explanation: "The wine is fermented cool and bottled young, and a little carbon dioxide is often kept or added to give a light spritz."
+  },
+  {
+    id: "hu-30",
+    type: "connection",
+    country: "Hungary",
+    question: "Which three tiers does the Villány PDO have?",
+    options: [
+      "Classicus, Premium, Super Premium",
+      "Village, Premier, Grand",
+      "Gutswein, Ortswein, Lagenwein, Grosse Lage",
+      "Joven, Crianza, Reserva"
+    ],
+    answer: 0,
+    region: "villany",
+    explanation: "The Villány PDO has Classicus, Premium and Super Premium, each asking for lower yields and longer ageing."
+  },
+  {
+    id: "hu-31",
+    type: "connection",
+    country: "Hungary",
+    question: "What name is a top-tier Villány Cabernet Franc sold under?",
+    options: [
+      "Villányi Franc",
+      "Villányi Bikavér",
+      "Siklósi Cabernet",
+      "Kékfrankos Prémium"
+    ],
+    answer: 0,
+    region: "villany",
+    explanation: "Cabernet Franc from the top tier of the Villány PDO is sold as 'Villányi Franc'."
   }
 ];
