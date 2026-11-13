@@ -13692,5 +13692,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "burgenland",
     explanation: "Neusiedlersee DAC is centred on Zweigelt, the most planted red in Burgenland. Mittelburgenland and Eisenberg are for Blaufränkisch."
+  },
+  {
+    id: "nw-130",
+    type: "connection",
+    country: "New World",
+    question: "Which closure is standard for almost all New Zealand wine, top wines included?",
+    options: [
+      "Natural cork",
+      "Screwcap",
+      "Glass stopper",
+      "Synthetic cork"
+    ],
+    answer: 1,
+    region: "newZealand",
+    explanation: "Screwcaps are the standard closure, even for the best wines. They help keep the fresh, pungent aromas that cool fermentation and early bottling preserve."
   }
 ];
