@@ -13557,5 +13557,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rhoneNorth",
     explanation: "Hermitage is mainly granite, and Côte-Rôtie is largely mica-schist and granite. The steep granite slopes drain well and catch the sun, which suits Syrah."
+  },
+  {
+    id: "it-136",
+    type: "connection",
+    country: "Italy",
+    question: "What share of a Brunello di Montalcino must be Sangiovese?",
+    options: [
+      "At least 70%",
+      "At least 80%",
+      "At least 90%",
+      "All of it"
+    ],
+    answer: 3,
+    region: "tuscany",
+    explanation: "Brunello is 100% Sangiovese. Chianti Classico, by contrast, is mostly Sangiovese and may include other grapes."
   }
 ];
