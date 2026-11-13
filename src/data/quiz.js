@@ -13077,5 +13077,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "steiermark",
     explanation: "The Vulkanland has volcanic soils, which give the wines more spice. The Südsteiermark has sand, marl and limestone clay, and the Weststeiermark schist."
+  },
+  {
+    id: "pt-82",
+    type: "connection",
+    country: "Portugal",
+    question: "Why do Vinho Verde's granite soils make vines grow so vigorously?",
+    options: [
+      "They are acidic but fertile",
+      "They are deep and chalky",
+      "They hold no water at all",
+      "They are rich in volcanic ash"
+    ],
+    answer: 0,
+    region: "vinhoVerde",
+    explanation: "The granite soils are acidic and fertile, so vines grow vigorously. High training and careful canopy management keep that vigour in check."
+  },
+  {
+    id: "pt-83",
+    type: "connection",
+    country: "Portugal",
+    question: "How do Vinho Verde producers often give the wine a light spritz?",
+    options: [
+      "Keep or add a little carbon dioxide",
+      "Ferment it a second time in the bottle, as for Champagne",
+      "Age it for years on the lees",
+      "Blend in a sparkling wine"
+    ],
+    answer: 0,
+    region: "vinhoVerde",
+    explanation: "The wine is fermented cool and bottled young, and a little carbon dioxide is often kept or added to give a light spritz."
   }
 ];
