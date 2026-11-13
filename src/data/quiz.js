@@ -13647,5 +13647,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "bairrada",
     explanation: "Bairrada makes roughly half to two thirds of Portugal's sparkling wine, by the traditional method. Its cool, wet Atlantic climate gives grapes with high acidity and little sugar."
+  },
+  {
+    id: "pt-85",
+    type: "connection",
+    country: "Portugal",
+    question: "How long must a Colares red age before sale, at the least?",
+    options: [
+      "6 months in wood, with no bottle ageing",
+      "12 months in wood and 12 in bottle",
+      "18 months in wood and 6 in bottle",
+      "3 years in wood and a year in bottle"
+    ],
+    answer: 2,
+    region: "lisboa",
+    explanation: "Colares red needs at least 18 months in wood and 6 in bottle. Ramisco makes it tannic and high in acidity, and it takes about a decade to soften."
   }
 ];
