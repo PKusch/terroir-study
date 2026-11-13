@@ -13317,5 +13317,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "ontario",
     explanation: "The benches between the escarpment and the lake are clay, with silt and sand, and tile drains are used where the clay is heavy."
+  },
+  {
+    id: "fr-157",
+    type: "connection",
+    country: "France",
+    question: "Which rock lies under the vineyards of Muscadet, at the Atlantic end of the Loire?",
+    options: [
+      "Schist",
+      "Tuffeau limestone",
+      "Flint and Kimmeridgian marl",
+      "Granite and sandy loam"
+    ],
+    answer: 0,
+    region: "loire",
+    explanation: "Muscadet sits on schist. Tuffeau limestone is the soil of Vouvray, and flint and Kimmeridgian marl are found in Sancerre."
   }
 ];
