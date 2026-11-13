@@ -13257,5 +13257,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "washington",
     explanation: "With 6 to 8 inches of rain a year, irrigation is essential, with water from the Columbia, Snake, Yakima and Walla Walla rivers."
+  },
+  {
+    id: "nw-124",
+    type: "connection",
+    country: "New World",
+    question: "Why is Cabernet Franc popular in the Finger Lakes?",
+    options: [
+      "Partly for its cold hardiness",
+      "It needs a long, hot season",
+      "It resists summer drought",
+      "It is a native American grape"
+    ],
+    answer: 0,
+    region: "newYork",
+    explanation: "Cabernet Franc is popular partly for its cold hardiness, in a region with fewer than 200 frost-free days a year."
+  },
+  {
+    id: "nw-125",
+    type: "connection",
+    country: "New World",
+    question: "Which soil suits vinifera best in the Finger Lakes?",
+    options: [
+      "The limestone of the north",
+      "The shaley soils of the south",
+      "Dunkirk clay loam",
+      "Volcanic ash"
+    ],
+    answer: 0,
+    region: "newYork",
+    explanation: "The soils are glacial. Dunkirk clay loam is commonest in the central lakes, the south has shaley, acidic soils, and the north has limestone, which suits vinifera."
   }
 ];
