@@ -13602,5 +13602,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "marche",
     explanation: "New plantings need at least 2,200 vines per hectare, in both the Castelli di Jesi and the Matelica zones."
+  },
+  {
+    id: "es-266",
+    type: "connection",
+    country: "Spain",
+    question: "Which grape may no longer be used in new vineyard plantings in Rueda?",
+    options: [
+      "Palomino Fino",
+      "Viura",
+      "Sauvignon Blanc",
+      "Verdejo"
+    ],
+    answer: 0,
+    region: "rueda",
+    explanation: "Palomino Fino is no longer allowed in new plantings. Verdejo leads, joined by Sauvignon Blanc, Viura and, since 2019, Chardonnay and Viognier."
   }
 ];
