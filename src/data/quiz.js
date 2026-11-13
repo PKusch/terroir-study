@@ -13167,5 +13167,35 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "santorini",
     explanation: "Dry PDO Santorini must be at least 85% Assyrtiko, with up to 15% Athiri and Aidani."
+  },
+  {
+    id: "gr-32",
+    type: "connection",
+    country: "Greece",
+    question: "Which kinds of wine may PDO Nemea be?",
+    options: [
+      "Red only: dry, semi-sweet or sweet",
+      "Red and rosé, dry only",
+      "Red, white and rosé, in any style the grower chooses",
+      "White only, dry or sweet"
+    ],
+    answer: 0,
+    region: "nemea",
+    explanation: "PDO Nemea is for red wine only, all Agiorgitiko: dry, semi-sweet and sweet (fortified, or from dried grapes, in small amounts)."
+  },
+  {
+    id: "gr-33",
+    type: "connection",
+    country: "Greece",
+    question: "What style do Nemea's low, warm vineyards tend to give?",
+    options: [
+      "Soft, jammy reds",
+      "Fresh, high-acid reds",
+      "Light, pale rosés",
+      "Tannic, austere reds"
+    ],
+    answer: 0,
+    region: "nemea",
+    explanation: "The low, warm vineyards give soft, jammy wines, the mid-altitude ones balanced wines, and the high, cool ones fresher wines with higher acidity."
   }
 ];
