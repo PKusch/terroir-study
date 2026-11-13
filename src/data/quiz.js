@@ -13347,5 +13347,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "beaujolais",
     explanation: "The south is clay and limestone. The ten crus sit on hills of mostly granite, which gives Gamay more minerality and structure than it gets on clay."
+  },
+  {
+    id: "it-135",
+    type: "connection",
+    country: "Italy",
+    question: "Which step of the Italian quality ladder does Piedmont not use?",
+    options: [
+      "DOC",
+      "DOCG",
+      "IGT",
+      "Vino d'Italia"
+    ],
+    answer: 2,
+    region: "piedmont",
+    explanation: "Piedmont has no IGT. Its quality wines are all DOC or DOCG, such as Langhe DOC, Barolo DOCG and Barbaresco DOCG."
   }
 ];
