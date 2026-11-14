@@ -13872,5 +13872,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "calatayud",
     explanation: "A Calatayud Roble red spends more than 90 days in oak of up to 600 litres."
+  },
+  {
+    id: "es-272",
+    type: "connection",
+    country: "Spain",
+    question: "What is the minimum planting density in Cariñena?",
+    options: [
+      "1,000 vines/ha",
+      "1,500 vines/ha",
+      "3,000 vines/ha",
+      "5,000 vines/ha"
+    ],
+    answer: 1,
+    region: "carinena",
+    explanation: "New vineyards need at least 1,500 vines per hectare. Bush vines (en vaso) are traditional, and trellising is allowed."
   }
 ];
