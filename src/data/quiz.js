@@ -13962,5 +13962,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "laMancha",
     explanation: "Trellised vines may yield up to 13,000 kg/ha, against 10,000 kg/ha for bush vines. That is one reason trellising has spread across the plateau."
+  },
+  {
+    id: "es-278",
+    type: "connection",
+    country: "Spain",
+    question: "What is the maximum yield for the Castilla y León IGP?",
+    options: [
+      "7,000 kg/ha",
+      "10,000 kg/ha",
+      "12,000 kg/ha",
+      "16,000 kg/ha"
+    ],
+    answer: 3,
+    region: "castillaYLeon",
+    explanation: "The IGP allows up to 16,000 kg of grapes a hectare, far more than the DOs inside the region. Ribera del Duero, for example, caps Tempranillo at 7,000 kg/ha."
   }
 ];
