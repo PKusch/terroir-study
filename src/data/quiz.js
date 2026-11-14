@@ -14142,5 +14142,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "ontario",
     explanation: "VQA Ontario designates the Niagara Peninsula, Lake Erie North Shore and Prince Edward County. The Okanagan is in British Columbia, and the Finger Lakes are in New York."
+  },
+  {
+    id: "nw-137",
+    type: "connection",
+    country: "New World",
+    question: "Around 2011, which grape covered the most Okanagan vineyard?",
+    options: [
+      "Pinot Gris",
+      "Merlot",
+      "Chardonnay",
+      "Pinot Noir"
+    ],
+    answer: 1,
+    region: "britishColumbia",
+    explanation: "Around 2011 Merlot was about 16% of the area, then Pinot Gris at 11%, Pinot Noir at 10% and Chardonnay at 9%."
   }
 ];
