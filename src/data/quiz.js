@@ -13797,5 +13797,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "trentinoAltoAdige",
     explanation: "A Millesimato needs at least 24 months on the lees. Non-vintage Trento needs 15 and a Riserva 36."
+  },
+  {
+    id: "it-143",
+    type: "connection",
+    country: "Italy",
+    question: "When did Franciacorta become a DOCG?",
+    options: [
+      "1967",
+      "1980",
+      "1995",
+      "2010"
+    ],
+    answer: 2,
+    region: "franciacorta",
+    explanation: "Franciacorta became a DOC in 1967 and a DOCG in 1995. The name stands for both the wine and the method."
   }
 ];
