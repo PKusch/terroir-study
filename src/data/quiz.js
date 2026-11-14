@@ -14127,5 +14127,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "newYork",
     explanation: "The Finger Lakes AVA, set up in 1982, covers about 5.4 million acres and has 11 lakes. Cayuga Lake and Seneca Lake have their own sub-AVAs."
+  },
+  {
+    id: "nw-136",
+    type: "connection",
+    country: "New World",
+    question: "Which three viticultural areas does VQA Ontario designate?",
+    options: [
+      "Niagara Peninsula, Lake Erie North Shore, Prince Edward County",
+      "Niagara Peninsula, Okanagan Valley, Prince Edward County",
+      "Lake Erie North Shore, Finger Lakes, Niagara Peninsula",
+      "Prince Edward County, the Annapolis Valley, Lake Erie North Shore"
+    ],
+    answer: 0,
+    region: "ontario",
+    explanation: "VQA Ontario designates the Niagara Peninsula, Lake Erie North Shore and Prince Edward County. The Okanagan is in British Columbia, and the Finger Lakes are in New York."
   }
 ];
