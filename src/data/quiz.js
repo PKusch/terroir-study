@@ -13977,5 +13977,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "castillaYLeon",
     explanation: "The IGP allows up to 16,000 kg of grapes a hectare, far more than the DOs inside the region. Ribera del Duero, for example, caps Tempranillo at 7,000 kg/ha."
+  },
+  {
+    id: "de-85",
+    type: "connection",
+    country: "Germany",
+    question: "Which grape does Baden grow more of than any other German region?",
+    options: [
+      "Riesling",
+      "Müller-Thurgau",
+      "Spätburgunder",
+      "Silvaner"
+    ],
+    answer: 2,
+    region: "baden",
+    explanation: "Baden has more Spätburgunder (Pinot Noir), about 4,765 ha, and more Weissburgunder than any other German region. The Pinot family is 61% of its plantings."
   }
 ];
