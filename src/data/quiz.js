@@ -13812,5 +13812,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "franciacorta",
     explanation: "Franciacorta became a DOC in 1967 and a DOCG in 1995. The name stands for both the wine and the method."
+  },
+  {
+    id: "es-268",
+    type: "connection",
+    country: "Spain",
+    question: "How are Montsant's newer vineyards mostly trained?",
+    options: [
+      "As bush vines (en vaso)",
+      "On a double Royat cordon",
+      "On high, overhead pergolas",
+      "On single Guyot canes and wires"
+    ],
+    answer: 1,
+    region: "montsant",
+    explanation: "Bush vines are traditional, and many are a hundred years old. Newer plantings are trellised, mostly on a double Royat cordon."
   }
 ];
