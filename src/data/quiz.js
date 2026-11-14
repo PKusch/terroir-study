@@ -13752,5 +13752,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "umbria",
     explanation: "Muffa nobile means noble rot. The grapes need at least 16% potential natural alcohol, and the yield is cut to 5 t/ha. Lake Corbara and autumn fog bring the rot."
+  },
+  {
+    id: "it-140",
+    type: "connection",
+    country: "Italy",
+    question: "Where are Frascati's vineyards?",
+    options: [
+      "On the Alban Hills, south-east of Rome",
+      "On the flat coastal plain north of Rome",
+      "On the lower slopes of Vesuvius near Naples",
+      "In the high Apennine valleys east of Rome"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "Frascati comes from the Alban Hills south-east of Rome. The volcanic tuff and pozzolana soils drain well, and breezes come in from the Tyrrhenian Sea."
   }
 ];
