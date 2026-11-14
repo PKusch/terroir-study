@@ -14082,5 +14082,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "nemea",
     explanation: "Nemea is mostly clay-limestone and marl, with some sand on the lower slopes. The higher vineyards are stonier."
+  },
+  {
+    id: "nw-133",
+    type: "connection",
+    country: "New World",
+    question: "Roughly how much of the Dundee Hills AVA is covered by Jory soil?",
+    options: [
+      "About a tenth",
+      "About a third",
+      "About half",
+      "About 80%"
+    ],
+    answer: 3,
+    region: "oregon",
+    explanation: "Jory, a reddish, well-drained volcanic soil from Columbia River basalt, covers about 80% of the Dundee Hills AVA."
   }
 ];
