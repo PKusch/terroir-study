@@ -13902,5 +13902,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "bierzo",
     explanation: "Yields fall as the origin gets smaller: 20% lower for Vino de Villa, 25% for Vino de Paraje, 30% for Viña Clasificada and 35% for Gran Viña Clasificada."
+  },
+  {
+    id: "es-274",
+    type: "connection",
+    country: "Spain",
+    question: "How much of one grape must a DO Valencia wine contain to put that grape's name on the label?",
+    options: [
+      "At least 51%",
+      "At least 75%",
+      "At least 85%",
+      "All of it"
+    ],
+    answer: 2,
+    region: "valencia",
+    explanation: "A grape name needs at least 85% of that grape. Otherwise the DO sets no minimum share for any grape."
   }
 ];
