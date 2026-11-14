@@ -13992,5 +13992,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "baden",
     explanation: "Baden has more Spätburgunder (Pinot Noir), about 4,765 ha, and more Weissburgunder than any other German region. The Pinot family is 61% of its plantings."
+  },
+  {
+    id: "at-35",
+    type: "connection",
+    country: "Austria",
+    question: "Which grape is Schilcher, the rosé of the Weststeiermark, made from?",
+    options: [
+      "Zweigelt",
+      "Blauer Wildbacher",
+      "Blaufränkisch",
+      "Sankt Laurent (St. Laurent)"
+    ],
+    answer: 1,
+    region: "steiermark",
+    explanation: "Schilcher is made from the red Blauer Wildbacher grape on the schist of the Weststeiermark. It is pale pink-orange, with very high acidity and tart red berries."
   }
 ];
