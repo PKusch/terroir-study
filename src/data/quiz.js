@@ -13917,5 +13917,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "valencia",
     explanation: "A grape name needs at least 85% of that grape. Otherwise the DO sets no minimum share for any grape."
+  },
+  {
+    id: "es-275",
+    type: "connection",
+    country: "Spain",
+    question: "How many vines per hectare do Jumilla's widely spaced vineyards hold?",
+    options: [
+      "500 to 900",
+      "1,100 to 1,900",
+      "3,000 to 4,000",
+      "5,000 to 6,000"
+    ],
+    answer: 1,
+    region: "jumilla",
+    explanation: "These vineyards hold 1,100 to 1,900 vines per hectare and yield at most 5,000 kg/ha for reds. The region gets only about 300 mm of rain a year."
   }
 ];
