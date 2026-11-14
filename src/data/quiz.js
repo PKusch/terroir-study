@@ -13737,5 +13737,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "chile",
     explanation: "Phylloxera has never reached Chile, so most vines are ungrafted. Casablanca's are grafted against nematodes, tiny worms in the soil that attack the roots."
+  },
+  {
+    id: "it-139",
+    type: "connection",
+    country: "Italy",
+    question: "What natural alcohol must the grapes for Orvieto Muffa Nobile reach?",
+    options: [
+      "At least 11%",
+      "At least 13%",
+      "At least 16%",
+      "At least 20%"
+    ],
+    answer: 2,
+    region: "umbria",
+    explanation: "Muffa nobile means noble rot. The grapes need at least 16% potential natural alcohol, and the yield is cut to 5 t/ha. Lake Corbara and autumn fog bring the rot."
   }
 ];
