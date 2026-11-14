@@ -13857,5 +13857,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "navarra",
     explanation: "Navarra was recognised in 1933. Replanting after phylloxera was mostly Garnacha, which is behind its tradition of rosado."
+  },
+  {
+    id: "es-271",
+    type: "connection",
+    country: "Spain",
+    question: "How big may the oak be for a Calatayud 'Roble' red?",
+    options: [
+      "Up to 225 litres",
+      "Up to 330 litres",
+      "Up to 600 litres",
+      "Any size of vessel"
+    ],
+    answer: 2,
+    region: "calatayud",
+    explanation: "A Calatayud Roble red spends more than 90 days in oak of up to 600 litres."
   }
 ];
