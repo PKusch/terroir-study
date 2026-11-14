@@ -14112,5 +14112,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "washington",
     explanation: "The Columbia Valley AVA dates from 1984 and covers about 11.3 million acres. Yakima Valley, in 1983, was Washington's first AVA."
+  },
+  {
+    id: "nw-135",
+    type: "connection",
+    country: "New World",
+    question: "How many lakes are in the Finger Lakes AVA?",
+    options: [
+      "3",
+      "5",
+      "11",
+      "20"
+    ],
+    answer: 2,
+    region: "newYork",
+    explanation: "The Finger Lakes AVA, set up in 1982, covers about 5.4 million acres and has 11 lakes. Cayuga Lake and Seneca Lake have their own sub-AVAs."
   }
 ];
