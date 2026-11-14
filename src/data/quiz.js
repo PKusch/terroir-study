@@ -13842,5 +13842,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "toro",
     explanation: "White Toro may be made only from Malvasía Castellana, Verdejo, Moscatel de Grano Menudo and Albillo Real. Most Toro is red."
+  },
+  {
+    id: "es-270",
+    type: "connection",
+    country: "Spain",
+    question: "When was Navarra recognised as a DO?",
+    options: [
+      "1933",
+      "1970",
+      "1987",
+      "2001"
+    ],
+    answer: 0,
+    region: "navarra",
+    explanation: "Navarra was recognised in 1933. Replanting after phylloxera was mostly Garnacha, which is behind its tradition of rosado."
   }
 ];
