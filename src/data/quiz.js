@@ -14037,5 +14037,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "dao",
     explanation: "The vineyards run from about 200 m up to about 1,000 m on the slopes of the Serra da Estrela. Altitude and poor granite keep the wines fresh and the yields low."
+  },
+  {
+    id: "hu-34",
+    type: "connection",
+    country: "Hungary",
+    question: "What soils cover the Villány hills?",
+    options: [
+      "Volcanic tuff and rhyolite",
+      "Limestone and loess",
+      "Granite and schist",
+      "Sand on a flat plain"
+    ],
+    answer: 1,
+    region: "villany",
+    explanation: "The Villány hills are limestone and loess. The limestone drains well and adds structure and a mineral edge to the reds."
   }
 ];
