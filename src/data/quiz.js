@@ -13767,5 +13767,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "lazio",
     explanation: "Frascati comes from the Alban Hills south-east of Rome. The volcanic tuff and pozzolana soils drain well, and breezes come in from the Tyrrhenian Sea."
+  },
+  {
+    id: "it-141",
+    type: "connection",
+    country: "Italy",
+    question: "How long must a white Collio Riserva age?",
+    options: [
+      "12 months",
+      "20 months",
+      "30 months",
+      "36 months"
+    ],
+    answer: 1,
+    region: "friuli",
+    explanation: "A white Collio Riserva needs 20 months and a red one 30 months, including 6 in barrel."
   }
 ];
