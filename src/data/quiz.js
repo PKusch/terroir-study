@@ -13947,5 +13947,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "yecla",
     explanation: "Irrigated reds may yield up to 7,000 kg/ha, and dry-farmed reds only 4,000 kg/ha."
+  },
+  {
+    id: "es-277",
+    type: "connection",
+    country: "Spain",
+    question: "What is La Mancha's maximum yield for trellised vines?",
+    options: [
+      "7,000 kg/ha",
+      "10,000 kg/ha",
+      "13,000 kg/ha",
+      "18,000 kg/ha"
+    ],
+    answer: 2,
+    region: "laMancha",
+    explanation: "Trellised vines may yield up to 13,000 kg/ha, against 10,000 kg/ha for bush vines. That is one reason trellising has spread across the plateau."
   }
 ];
