@@ -13932,5 +13932,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "jumilla",
     explanation: "These vineyards hold 1,100 to 1,900 vines per hectare and yield at most 5,000 kg/ha for reds. The region gets only about 300 mm of rain a year."
+  },
+  {
+    id: "es-276",
+    type: "connection",
+    country: "Spain",
+    question: "What is Yecla's maximum yield for irrigated red grapes?",
+    options: [
+      "4,000 kg/ha",
+      "5,500 kg/ha",
+      "7,000 kg/ha",
+      "10,000 kg/ha"
+    ],
+    answer: 2,
+    region: "yecla",
+    explanation: "Irrigated reds may yield up to 7,000 kg/ha, and dry-farmed reds only 4,000 kg/ha."
   }
 ];
