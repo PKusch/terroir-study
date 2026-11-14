@@ -13782,5 +13782,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "friuli",
     explanation: "A white Collio Riserva needs 20 months and a red one 30 months, including 6 in barrel."
+  },
+  {
+    id: "it-142",
+    type: "connection",
+    country: "Italy",
+    question: "How long must a Trento DOC Millesimato (vintage) spend on its lees?",
+    options: [
+      "15 months",
+      "24 months",
+      "36 months",
+      "42 months"
+    ],
+    answer: 1,
+    region: "trentinoAltoAdige",
+    explanation: "A Millesimato needs at least 24 months on the lees. Non-vintage Trento needs 15 and a Riserva 36."
   }
 ];
