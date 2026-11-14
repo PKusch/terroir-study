@@ -14022,5 +14022,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "alentejo",
     explanation: "Aragonez is Tempranillo. It grows with Trincadeira, Alicante Bouschet, Syrah and Touriga Nacional on the hot Alentejo plains."
+  },
+  {
+    id: "pt-87",
+    type: "connection",
+    country: "Portugal",
+    question: "How high do the Dão's vineyards go?",
+    options: [
+      "From sea level to about 300 m",
+      "From about 200 m to about 1,000 m",
+      "From about 800 m to about 1,500 m",
+      "All of them above 1,000 m"
+    ],
+    answer: 1,
+    region: "dao",
+    explanation: "The vineyards run from about 200 m up to about 1,000 m on the slopes of the Serra da Estrela. Altitude and poor granite keep the wines fresh and the yields low."
   }
 ];
