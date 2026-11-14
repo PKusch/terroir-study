@@ -14052,5 +14052,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "villany",
     explanation: "The Villány hills are limestone and loess. The limestone drains well and adds structure and a mineral edge to the reds."
+  },
+  {
+    id: "gr-35",
+    type: "connection",
+    country: "Greece",
+    question: "How long must a Santorini Nykteri spend in oak, at the least?",
+    options: [
+      "No oak at all",
+      "3 months",
+      "12 months",
+      "24 months"
+    ],
+    answer: 1,
+    region: "santorini",
+    explanation: "Nykteri is a dry white, traditionally picked at night to avoid the heat, with at least 13.5% alcohol and at least 3 months in oak."
   }
 ];
