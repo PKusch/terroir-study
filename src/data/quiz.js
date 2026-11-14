@@ -14067,5 +14067,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "santorini",
     explanation: "Nykteri is a dry white, traditionally picked at night to avoid the heat, with at least 13.5% alcohol and at least 3 months in oak."
+  },
+  {
+    id: "gr-36",
+    type: "connection",
+    country: "Greece",
+    question: "What soils do Nemea's vineyards mostly have?",
+    options: [
+      "Volcanic ash and pumice",
+      "Clay-limestone and marl",
+      "Granite sand",
+      "Slate and schist"
+    ],
+    answer: 1,
+    region: "nemea",
+    explanation: "Nemea is mostly clay-limestone and marl, with some sand on the lower slopes. The higher vineyards are stonier."
   }
 ];
