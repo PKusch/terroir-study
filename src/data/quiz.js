@@ -14007,5 +14007,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "steiermark",
     explanation: "Schilcher is made from the red Blauer Wildbacher grape on the schist of the Weststeiermark. It is pale pink-orange, with very high acidity and tart red berries."
+  },
+  {
+    id: "pt-86",
+    type: "connection",
+    country: "Portugal",
+    question: "Aragonez is one of the Alentejo's main red grapes. Which grape is it?",
+    options: [
+      "Tempranillo",
+      "Grenache",
+      "Syrah",
+      "Touriga Franca"
+    ],
+    answer: 0,
+    region: "alentejo",
+    explanation: "Aragonez is Tempranillo. It grows with Trincadeira, Alicante Bouschet, Syrah and Touriga Nacional on the hot Alentejo plains."
   }
 ];
