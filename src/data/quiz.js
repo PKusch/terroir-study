@@ -13827,5 +13827,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "montsant",
     explanation: "Bush vines are traditional, and many are a hundred years old. Newer plantings are trellised, mostly on a double Royat cordon."
+  },
+  {
+    id: "es-269",
+    type: "connection",
+    country: "Spain",
+    question: "Which of these grapes may be used for a white Toro?",
+    options: [
+      "Airén, the La Mancha white",
+      "Malvasía Castellana",
+      "Albariño from the Atlantic",
+      "Viura (Macabeo)"
+    ],
+    answer: 1,
+    region: "toro",
+    explanation: "White Toro may be made only from Malvasía Castellana, Verdejo, Moscatel de Grano Menudo and Albillo Real. Most Toro is red."
   }
 ];
