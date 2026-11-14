@@ -13887,5 +13887,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "carinena",
     explanation: "New vineyards need at least 1,500 vines per hectare. Bush vines (en vaso) are traditional, and trellising is allowed."
+  },
+  {
+    id: "es-273",
+    type: "connection",
+    country: "Spain",
+    question: "How much lower is the yield for a Bierzo 'Gran Viña Clasificada'?",
+    options: [
+      "10% lower",
+      "20% lower",
+      "25% lower",
+      "35% lower"
+    ],
+    answer: 3,
+    region: "bierzo",
+    explanation: "Yields fall as the origin gets smaller: 20% lower for Vino de Villa, 25% for Vino de Paraje, 30% for Viña Clasificada and 35% for Gran Viña Clasificada."
   }
 ];
