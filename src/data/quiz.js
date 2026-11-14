@@ -14097,5 +14097,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "oregon",
     explanation: "Jory, a reddish, well-drained volcanic soil from Columbia River basalt, covers about 80% of the Dundee Hills AVA."
+  },
+  {
+    id: "nw-134",
+    type: "connection",
+    country: "New World",
+    question: "When was the Columbia Valley AVA designated?",
+    options: [
+      "1976",
+      "1984",
+      "1994",
+      "2001"
+    ],
+    answer: 1,
+    region: "washington",
+    explanation: "The Columbia Valley AVA dates from 1984 and covers about 11.3 million acres. Yakima Valley, in 1983, was Washington's first AVA."
   }
 ];
