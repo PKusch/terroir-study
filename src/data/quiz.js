@@ -14487,5 +14487,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "riasBaixas",
     explanation: "More than 4,300 ha are split into about 22,800 plots, worked by over 5,000 growers. Most are part-time, with under a hectare each."
+  },
+  {
+    id: "pt-89",
+    type: "connection",
+    country: "Portugal",
+    question: "How is Bairrada's vineyard land divided?",
+    options: [
+      "Into a handful of large estates",
+      "Into thousands of small plots",
+      "Into co-operative blocks of 100 ha",
+      "Into terraces owned by Port houses"
+    ],
+    answer: 1,
+    region: "bairrada",
+    explanation: "Bairrada is split into thousands of small plots, on clay-limestone with sandy strips. Clay-limestone suits Baga best."
   }
 ];
