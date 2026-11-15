@@ -14442,5 +14442,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "burgundy",
     explanation: "Éminent means at least 24 months on the lees and Grand Éminent at least 36. Crémant de Bourgogne is hand-picked and made by the traditional method."
+  },
+  {
+    id: "fr-166",
+    type: "connection",
+    country: "France",
+    question: "Which Alsace grape gives rich, smoky, honeyed wines?",
+    options: [
+      "Riesling",
+      "Pinot Gris",
+      "Pinot Blanc",
+      "Sylvaner"
+    ],
+    answer: 1,
+    region: "alsace",
+    explanation: "Pinot Gris is the rich, smoky, honeyed one. Alsace Riesling is dry and steely, and Gewurztraminer is the lychee-and-rose grape."
   }
 ];
