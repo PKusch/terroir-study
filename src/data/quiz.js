@@ -14547,5 +14547,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rheinhessen",
     explanation: "Quartzite slate outcrops near Bingen. Most of Rheinhessen is loess, with the red Rotliegend of the Roter Hang between Nackenheim and Nierstein."
+  },
+  {
+    id: "at-37",
+    type: "connection",
+    country: "Austria",
+    question: "What soils are found on Burgenland's Leithaberg hills?",
+    options: [
+      "Gravel and sand on a flat lakeside plain",
+      "Schist, limestone and shell-rich soils",
+      "Heavy clay-loam across the hills",
+      "Iron-rich slate and nothing else"
+    ],
+    answer: 1,
+    region: "burgenland",
+    explanation: "The Leithaberg has schist, limestone and shell-rich soils. The flat plain round the lake is gravel, sand and loam, and Mittelburgenland is heavy clay-loam."
   }
 ];
