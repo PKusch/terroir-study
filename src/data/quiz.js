@@ -14472,5 +14472,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "southernItaly",
     explanation: "Primitivo means 'first', from its early ripening. In Puglia it grows as bush vines (alberello), which shade the fruit from the sun."
+  },
+  {
+    id: "es-281",
+    type: "connection",
+    country: "Spain",
+    question: "Who owns most of the Rías Baixas vineyard?",
+    options: [
+      "A few large estates, each over 100 ha",
+      "Many part-time growers with tiny plots",
+      "Mostly co-operatives that own the land",
+      "Mostly sherry houses from the south"
+    ],
+    answer: 1,
+    region: "riasBaixas",
+    explanation: "More than 4,300 ha are split into about 22,800 plots, worked by over 5,000 growers. Most are part-time, with under a hectare each."
   }
 ];
