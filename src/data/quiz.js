@@ -14292,5 +14292,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "franken",
     explanation: "All of Franken's soils are Triassic. The Steigerwald in the east has Keuper with gypsum, the Maindreieck around Würzburg has Muschelkalk, and the Mainviereck in the west has Buntsandstein."
+  },
+  {
+    id: "at-36",
+    type: "connection",
+    country: "Austria",
+    question: "From which vintage has the Wachau also been a DAC?",
+    options: [
+      "2003",
+      "2010",
+      "2020",
+      "2024"
+    ],
+    answer: 2,
+    region: "niederosterreich",
+    explanation: "The Wachau has been a DAC from the 2020 vintage. It names the origin as Gebietswein, Ortswein or Riedenwein, alongside the older Steinfeder, Federspiel and Smaragd terms."
   }
 ];
