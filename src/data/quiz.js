@@ -14712,5 +14712,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "trentinoAltoAdige",
     explanation: "Alto Adige has over 300 sunny days a year, about 1,950 hours of sun and about 815 mm of rain."
+  },
+  {
+    id: "it-153",
+    type: "connection",
+    country: "Italy",
+    question: "What is the maximum grape yield for Franciacorta?",
+    options: [
+      "8 t/ha",
+      "10 t/ha",
+      "12 t/ha",
+      "15 t/ha"
+    ],
+    answer: 2,
+    region: "franciacorta",
+    explanation: "Franciacorta allows up to 12 tonnes of grapes a hectare, from Chardonnay, Pinot Nero, Pinot Bianco and a little Erbamat."
   }
 ];
