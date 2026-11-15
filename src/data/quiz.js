@@ -14217,5 +14217,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "riberaDelDuero",
     explanation: "In Ribera del Duero Tempranillo is Tinto Fino or Tinta del País. Cencibel is the La Mancha name, Ull de Llebre the Catalan one and Tinta Roriz the Portuguese one."
+  },
+  {
+    id: "es-280",
+    type: "connection",
+    country: "Spain",
+    question: "At what temperature do Valdepeñas whites ferment?",
+    options: [
+      "No more than 18 °C",
+      "Between 25 and 30 °C",
+      "Above 30 °C",
+      "No limit is set"
+    ],
+    answer: 0,
+    region: "valdepenas",
+    explanation: "Whites, mostly Airén, ferment cool, at no more than 18 °C. That keeps them light and fresh despite the hot, dry climate."
   }
 ];
