@@ -14187,5 +14187,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "beaujolais",
     explanation: "Beaujolais is warmer than Burgundy, sheltered from cold westerly winds, with a more southern influence."
+  },
+  {
+    id: "it-144",
+    type: "connection",
+    country: "Italy",
+    question: "Which three provinces make Asti and Moscato d'Asti?",
+    options: [
+      "Cuneo, Asti and Alessandria",
+      "Turin, Novara and Vercelli",
+      "Asti, Milan and Pavia",
+      "Cuneo, Turin and the Aosta Valley"
+    ],
+    answer: 0,
+    region: "piedmont",
+    explanation: "The Moscato Bianco for Asti and Moscato d'Asti comes from 51 communes in the provinces of Cuneo, Asti and Alessandria."
   }
 ];
