@@ -14232,5 +14232,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "valdepenas",
     explanation: "Whites, mostly Airén, ferment cool, at no more than 18 °C. That keeps them light and fresh despite the hot, dry climate."
+  },
+  {
+    id: "de-86",
+    type: "connection",
+    country: "Germany",
+    question: "Why do the Rheingau's vineyards face south?",
+    options: [
+      "The Rhine turns west, so its north bank faces south",
+      "The vineyards were terraced by hand to face the sun",
+      "The Taunus hills slope south of the river",
+      "Growers replanted every slope to face south after 1945"
+    ],
+    answer: 0,
+    region: "rheingau",
+    explanation: "For a stretch the Rhine flows west, so the whole bank faces south across the water. The Taunus hills behind it block cold north winds."
   }
 ];
