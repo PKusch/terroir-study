@@ -14592,5 +14592,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "southAfrica",
     explanation: "Cinsault was known as Hermitage at the Cape, so Pinot plus Hermitage became Pinotage. It was bred at Stellenbosch."
+  },
+  {
+    id: "nw-142",
+    type: "connection",
+    country: "New World",
+    question: "How high do the vineyards of arid Elqui reach?",
+    options: [
+      "About 300 m",
+      "About 800 m",
+      "About 2,000 m",
+      "About 3,500 m"
+    ],
+    answer: 2,
+    region: "chile",
+    explanation: "Elqui has under about 100 mm of rain, and its vineyards reach roughly 2,000 m. Syrah is its main red."
   }
 ];
