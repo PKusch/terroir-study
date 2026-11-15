@@ -14337,5 +14337,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "eger",
     explanation: "Olaszrizling is Welschriesling. It is Eger's main white, and Egri Csillag is the region's white blend."
+  },
+  {
+    id: "gr-37",
+    type: "connection",
+    country: "Greece",
+    question: "Which way do most of Naoussa's vineyard slopes face?",
+    options: [
+      "North-west",
+      "South-east",
+      "Due west",
+      "North"
+    ],
+    answer: 1,
+    region: "naoussa",
+    explanation: "The vineyards are on the south-eastern slopes of Mount Vermio and catch the morning sun. The mountain gives cool nights and some shelter."
   }
 ];
