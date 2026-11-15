@@ -14397,5 +14397,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "argentina",
     explanation: "Bonarda is the second red grape, made soft and fruity for early drinking. Cabernet Sauvignon is mostly blended with Malbec."
+  },
+  {
+    id: "fr-163",
+    type: "connection",
+    country: "France",
+    question: "Which Médoc classification sits below the 1855 Classed Growths?",
+    options: [
+      "Cru Bourgeois",
+      "Premier Grand Cru Classé",
+      "Cru Classé de Graves",
+      "Grand Cru (Saint-Émilion)"
+    ],
+    answer: 0,
+    region: "bordeaux",
+    explanation: "Cru Bourgeois is the Médoc tier below the 1855 Classed Growths. Premier Grand Cru Classé belongs to Saint-Émilion on the Right Bank."
   }
 ];
