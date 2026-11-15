@@ -14682,5 +14682,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "lazio",
     explanation: "Amabile means off-dry. Frascati also comes dry and sparkling, and Cannellino di Frascati is the sweet one."
+  },
+  {
+    id: "it-151",
+    type: "connection",
+    country: "Italy",
+    question: "Roughly how much of Collio's production is white wine?",
+    options: [
+      "About half",
+      "Over 85%",
+      "About two thirds",
+      "Under a third"
+    ],
+    answer: 1,
+    region: "friuli",
+    explanation: "Over 85% of Collio's production is white, from Friulano, Pinot Grigio, Ribolla Gialla, Pinot Bianco and others."
   }
 ];
