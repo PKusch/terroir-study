@@ -14457,5 +14457,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "alsace",
     explanation: "Pinot Gris is the rich, smoky, honeyed one. Alsace Riesling is dry and steely, and Gewurztraminer is the lychee-and-rose grape."
+  },
+  {
+    id: "it-145",
+    type: "connection",
+    country: "Italy",
+    question: "What does the name Primitivo refer to?",
+    options: [
+      "Its early ripening ('first')",
+      "Its very old vines",
+      "Its primitive, rustic taste",
+      "The first grape planted in Puglia"
+    ],
+    answer: 0,
+    region: "southernItaly",
+    explanation: "Primitivo means 'first', from its early ripening. In Puglia it grows as bush vines (alberello), which shade the fruit from the sun."
   }
 ];
