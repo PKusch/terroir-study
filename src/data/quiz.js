@@ -14502,5 +14502,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "bairrada",
     explanation: "Bairrada is split into thousands of small plots, on clay-limestone with sandy strips. Clay-limestone suits Baga best."
+  },
+  {
+    id: "pt-90",
+    type: "connection",
+    country: "Portugal",
+    question: "What kind of wine was Carcavelos, near Lisbon?",
+    options: [
+      "A fortified wine",
+      "A light red",
+      "A sparkling white",
+      "A sweet botrytis wine"
+    ],
+    answer: 0,
+    region: "lisboa",
+    explanation: "Carcavelos was a fortified wine. Almost none of its vineyards remain."
   }
 ];
