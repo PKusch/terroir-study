@@ -14772,5 +14772,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "montsant",
     explanation: "The DO gives vineyard altitudes of 50 to 700 m. The mountains partly shield it from the sea, so day and night differ strongly at ripening."
+  },
+  {
+    id: "es-285",
+    type: "connection",
+    country: "Spain",
+    question: "What is the maximum yield for Tinta de Toro?",
+    options: [
+      "5,000 kg/ha",
+      "7,500 kg/ha",
+      "10,000 kg/ha",
+      "12,000 kg/ha"
+    ],
+    answer: 1,
+    region: "toro",
+    explanation: "Tinta de Toro may yield up to 7,500 kg/ha and the other grapes 9,000 kg/ha. More than half the vineyards are over 40 years old."
   }
 ];
