@@ -14277,5 +14277,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "nahe",
     explanation: "The Nahe has one Bereich, Nahetal, and seven Grosslagen."
+  },
+  {
+    id: "de-89",
+    type: "connection",
+    country: "Germany",
+    question: "What soil is found in Franken's Steigerwald, around Iphofen?",
+    options: [
+      "Muschelkalk (shell limestone)",
+      "Buntsandstein (coloured sandstone)",
+      "Keuper with gypsum",
+      "Slate and quartzite"
+    ],
+    answer: 2,
+    region: "franken",
+    explanation: "All of Franken's soils are Triassic. The Steigerwald in the east has Keuper with gypsum, the Maindreieck around Würzburg has Muschelkalk, and the Mainviereck in the west has Buntsandstein."
   }
 ];
