@@ -14652,5 +14652,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "marche",
     explanation: "Castelli di Jesi is about 20 km from the sea, with sea breezes. Matelica lies inland in a valley with no marine influence."
+  },
+  {
+    id: "it-149",
+    type: "connection",
+    country: "Italy",
+    question: "What total alcohol must sweet Montefalco Sagrantino Passito reach?",
+    options: [
+      "At least 12%",
+      "At least 15%",
+      "At least 18%",
+      "At least 22%"
+    ],
+    answer: 2,
+    region: "umbria",
+    explanation: "The sweet Passito needs at least 18% total alcohol. The dry Secco is aged at least 37 months in all, 12 of them in oak."
   }
 ];
