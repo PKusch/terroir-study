@@ -14352,5 +14352,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "naoussa",
     explanation: "The vineyards are on the south-eastern slopes of Mount Vermio and catch the morning sun. The mountain gives cool nights and some shelter."
+  },
+  {
+    id: "pt-88",
+    type: "connection",
+    country: "Portugal",
+    question: "What colour is most Vinho Verde?",
+    options: [
+      "Red",
+      "White",
+      "Rosé",
+      "Orange (skin-contact)"
+    ],
+    answer: 1,
+    region: "vinhoVerde",
+    explanation: "Most Vinho Verde is white. The red and rosé versions are mostly drunk in the region."
   }
 ];
