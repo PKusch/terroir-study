@@ -14532,5 +14532,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "madeira",
     explanation: "Tinta Negra is by far the most planted grape and can make every style. Sercial, Verdelho, Boal and Malvasia are the noble grapes named on labels."
+  },
+  {
+    id: "de-90",
+    type: "connection",
+    country: "Germany",
+    question: "Which rock outcrops near Bingen in Rheinhessen?",
+    options: [
+      "Volcanic basalt",
+      "Quartzite slate",
+      "Shell limestone",
+      "Red sandstone"
+    ],
+    answer: 1,
+    region: "rheinhessen",
+    explanation: "Quartzite slate outcrops near Bingen. Most of Rheinhessen is loess, with the red Rotliegend of the Roter Hang between Nackenheim and Nierstein."
   }
 ];
