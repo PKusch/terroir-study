@@ -14787,5 +14787,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "toro",
     explanation: "Tinta de Toro may yield up to 7,500 kg/ha and the other grapes 9,000 kg/ha. More than half the vineyards are over 40 years old."
+  },
+  {
+    id: "es-286",
+    type: "connection",
+    country: "Spain",
+    question: "What is Navarra's maximum yield for red grapes?",
+    options: [
+      "6,000 kg/ha",
+      "8,000 kg/ha",
+      "11,000 kg/ha",
+      "14,000 kg/ha"
+    ],
+    answer: 1,
+    region: "navarra",
+    explanation: "Reds may yield up to 8,000 kg/ha and whites 9,200 kg/ha, and localised irrigation is allowed."
   }
 ];
