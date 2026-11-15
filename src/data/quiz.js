@@ -14202,5 +14202,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "piedmont",
     explanation: "The Moscato Bianco for Asti and Moscato d'Asti comes from 51 communes in the provinces of Cuneo, Asti and Alessandria."
+  },
+  {
+    id: "es-279",
+    type: "connection",
+    country: "Spain",
+    question: "What is Tempranillo called in Ribera del Duero?",
+    options: [
+      "Cencibel",
+      "Tinto Fino or Tinta del País",
+      "Ull de Llebre or Tinta de Toro",
+      "Tinta Roriz"
+    ],
+    answer: 1,
+    region: "riberaDelDuero",
+    explanation: "In Ribera del Duero Tempranillo is Tinto Fino or Tinta del País. Cencibel is the La Mancha name, Ull de Llebre the Catalan one and Tinta Roriz the Portuguese one."
   }
 ];
