@@ -14322,5 +14322,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "tokaj",
     explanation: "Aszúeszencia, once a category sweeter than 6 puttonyos Aszú, was dropped in 2013. Eszencia, the free-run juice of the aszú berries, remains."
+  },
+  {
+    id: "hu-36",
+    type: "connection",
+    country: "Hungary",
+    question: "Olaszrizling is Eger's main white grape. What is it called in Austria?",
+    options: [
+      "Riesling",
+      "Welschriesling",
+      "Grüner Veltliner",
+      "Pinot Blanc"
+    ],
+    answer: 1,
+    region: "eger",
+    explanation: "Olaszrizling is Welschriesling. It is Eger's main white, and Egri Csillag is the region's white blend."
   }
 ];
