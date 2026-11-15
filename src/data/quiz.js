@@ -14262,5 +14262,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "pfalz",
     explanation: "The Haardt is the Vosges under another name. The same rain shadow that makes Alsace dry makes the Pfalz warm and dry."
+  },
+  {
+    id: "de-88",
+    type: "connection",
+    country: "Germany",
+    question: "How many Bereiche (districts) does the Nahe have?",
+    options: [
+      "One",
+      "Three",
+      "Five",
+      "Nine"
+    ],
+    answer: 0,
+    region: "nahe",
+    explanation: "The Nahe has one Bereich, Nahetal, and seven Grosslagen."
   }
 ];
