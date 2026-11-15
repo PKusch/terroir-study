@@ -14802,5 +14802,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "navarra",
     explanation: "Reds may yield up to 8,000 kg/ha and whites 9,200 kg/ha, and localised irrigation is allowed."
+  },
+  {
+    id: "es-287",
+    type: "connection",
+    country: "Spain",
+    question: "Which river do Calatayud's vineyards lie beside, along with the Jiloca, Manubles, Mesa, Piedra and Ribota?",
+    options: [
+      "The Duero",
+      "The Jalón",
+      "The Ebro",
+      "The Tajo"
+    ],
+    answer: 1,
+    region: "calatayud",
+    explanation: "The vines sit on slopes and terraces beside the Jalón, Jiloca, Manubles, Mesa, Piedra and Ribota rivers."
   }
 ];
