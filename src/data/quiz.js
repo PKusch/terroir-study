@@ -14172,5 +14172,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "loire",
     explanation: "Crémant de Loire is hand-picked, spends at least 9 months on its lees, and is sold no sooner than 12 months after the second fermentation starts in bottle."
+  },
+  {
+    id: "fr-162",
+    type: "connection",
+    country: "France",
+    question: "How does Beaujolais' climate compare with Burgundy's, to the north?",
+    options: [
+      "Cooler, open to the cold westerly winds",
+      "Warmer, sheltered from cold westerlies",
+      "Much wetter, with Atlantic storms all year",
+      "The same in every way"
+    ],
+    answer: 1,
+    region: "beaujolais",
+    explanation: "Beaujolais is warmer than Burgundy, sheltered from cold westerly winds, with a more southern influence."
   }
 ];
