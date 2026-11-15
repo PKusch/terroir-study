@@ -14307,5 +14307,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "niederosterreich",
     explanation: "The Wachau has been a DAC from the 2020 vintage. It names the origin as Gebietswein, Ortswein or Riedenwein, alongside the older Steinfeder, Federspiel and Smaragd terms."
+  },
+  {
+    id: "hu-35",
+    type: "connection",
+    country: "Hungary",
+    question: "What happened to the Aszúeszencia category in 2013?",
+    options: [
+      "It was dropped",
+      "It became compulsory for Aszú",
+      "It replaced Eszencia",
+      "It was renamed Szamorodni"
+    ],
+    answer: 0,
+    region: "tokaj",
+    explanation: "Aszúeszencia, once a category sweeter than 6 puttonyos Aszú, was dropped in 2013. Eszencia, the free-run juice of the aszú berries, remains."
   }
 ];
