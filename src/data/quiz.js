@@ -14697,5 +14697,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "friuli",
     explanation: "Over 85% of Collio's production is white, from Friulano, Pinot Grigio, Ribolla Gialla, Pinot Bianco and others."
+  },
+  {
+    id: "it-152",
+    type: "connection",
+    country: "Italy",
+    question: "About how many sunny days a year does Alto Adige get?",
+    options: [
+      "About 150",
+      "About 200",
+      "Over 300",
+      "About 250"
+    ],
+    answer: 2,
+    region: "trentinoAltoAdige",
+    explanation: "Alto Adige has over 300 sunny days a year, about 1,950 hours of sun and about 815 mm of rain."
   }
 ];
