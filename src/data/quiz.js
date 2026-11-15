@@ -14607,5 +14607,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "chile",
     explanation: "Elqui has under about 100 mm of rain, and its vineyards reach roughly 2,000 m. Syrah is its main red."
+  },
+  {
+    id: "it-146",
+    type: "connection",
+    country: "Italy",
+    question: "What vessel do traditional Tuscan producers age their Sangiovese in?",
+    options: [
+      "Large old oak casks (botti)",
+      "Small new French barriques",
+      "Buried clay amphorae (talha)",
+      "Concrete eggs and steel"
+    ],
+    answer: 0,
+    region: "tuscany",
+    explanation: "Tradition is large old oak (botti); modern producers use barriques. Brunello and Vino Nobile need long ageing before release."
   }
 ];
