@@ -14562,5 +14562,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "burgenland",
     explanation: "The Leithaberg has schist, limestone and shell-rich soils. The flat plain round the lake is gravel, sand and loam, and Mittelburgenland is heavy clay-loam."
+  },
+  {
+    id: "nw-140",
+    type: "connection",
+    country: "New World",
+    question: "Who promoted canopy management in New Zealand in the 1980s?",
+    options: [
+      "Dr Richard Smart",
+      "André Tchelistcheff",
+      "Émile Peynaud",
+      "Max Schubert"
+    ],
+    answer: 0,
+    region: "newZealand",
+    explanation: "Dr Richard Smart promoted opening the leaves to sun and air, and Marlborough widely took it up. Fertile soils and strong light made the vines very vigorous."
   }
 ];
