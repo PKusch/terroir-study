@@ -14757,5 +14757,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rueda",
     explanation: "DO Rueda, in 1980, was the first DO in Castilla y León."
+  },
+  {
+    id: "es-284",
+    type: "connection",
+    country: "Spain",
+    question: "At what altitudes do Montsant's vineyards lie, according to the DO?",
+    options: [
+      "50 to 700 m",
+      "700 to 1,200 m",
+      "0 to 100 m",
+      "1,000 to 1,500 m"
+    ],
+    answer: 0,
+    region: "montsant",
+    explanation: "The DO gives vineyard altitudes of 50 to 700 m. The mountains partly shield it from the sea, so day and night differ strongly at ripening."
   }
 ];
