@@ -14367,5 +14367,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "vinhoVerde",
     explanation: "Most Vinho Verde is white. The red and rosé versions are mostly drunk in the region."
+  },
+  {
+    id: "nw-138",
+    type: "connection",
+    country: "New World",
+    question: "Which Champagne house is behind Domaine Carneros, set up in 1987?",
+    options: [
+      "Moët & Chandon",
+      "Louis Roederer",
+      "Taittinger",
+      "Bollinger"
+    ],
+    answer: 2,
+    region: "california",
+    explanation: "Domaine Carneros is Taittinger's. Domaine Chandon dates from 1973, and Roederer Estate in the Anderson Valley dates from 1982."
   }
 ];
