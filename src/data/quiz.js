@@ -14622,5 +14622,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "tuscany",
     explanation: "Tradition is large old oak (botti); modern producers use barriques. Brunello and Vino Nobile need long ageing before release."
+  },
+  {
+    id: "it-147",
+    type: "connection",
+    country: "Italy",
+    question: "Who makes about three quarters of Abruzzo's wine?",
+    options: [
+      "Co-operatives",
+      "Large family estates",
+      "Négociants from the north",
+      "Single-vineyard growers"
+    ],
+    answer: 0,
+    region: "abruzzo",
+    explanation: "About three quarters of production comes from co-operatives, so much of Abruzzo's wine is made in volume."
   }
 ];
