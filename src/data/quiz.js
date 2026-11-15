@@ -14577,5 +14577,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "newZealand",
     explanation: "Dr Richard Smart promoted opening the leaves to sun and air, and Marlborough widely took it up. Fertile soils and strong light made the vines very vigorous."
+  },
+  {
+    id: "nw-141",
+    type: "connection",
+    country: "New World",
+    question: "Pinotage is a cross of Pinot Noir and Cinsault. Where does the 'tage' come from?",
+    options: [
+      "Cinsault was called Hermitage in South Africa",
+      "It is the Afrikaans word for a grape",
+      "It comes from the farm where it was first bred",
+      "It means 'early' in Dutch"
+    ],
+    answer: 0,
+    region: "southAfrica",
+    explanation: "Cinsault was known as Hermitage at the Cape, so Pinot plus Hermitage became Pinotage. It was bred at Stellenbosch."
   }
 ];
