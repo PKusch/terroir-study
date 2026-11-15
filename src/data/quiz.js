@@ -14742,5 +14742,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "catalunya",
     explanation: "Vines grow from sea level to almost 800 m. The coast is milder and the interior more continental."
+  },
+  {
+    id: "es-283",
+    type: "connection",
+    country: "Spain",
+    question: "What was special about Rueda becoming a DO in 1980?",
+    options: [
+      "It was the first DO in Castilla y León",
+      "It was Spain's very first DO for white wine",
+      "It was Spain's first DOCa, before Rioja",
+      "It replaced the older Toro DO entirely"
+    ],
+    answer: 0,
+    region: "rueda",
+    explanation: "DO Rueda, in 1980, was the first DO in Castilla y León."
   }
 ];
