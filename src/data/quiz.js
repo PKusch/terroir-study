@@ -14667,5 +14667,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "umbria",
     explanation: "The sweet Passito needs at least 18% total alcohol. The dry Secco is aged at least 37 months in all, 12 of them in oak."
+  },
+  {
+    id: "it-150",
+    type: "connection",
+    country: "Italy",
+    question: "What does 'amabile' on a Frascati label mean?",
+    options: [
+      "Off-dry",
+      "Sparkling",
+      "Aged in oak",
+      "From late-picked grapes"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "Amabile means off-dry. Frascati also comes dry and sparkling, and Cannellino di Frascati is the sweet one."
   }
 ];
