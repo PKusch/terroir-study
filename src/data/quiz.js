@@ -14727,5 +14727,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "franciacorta",
     explanation: "Franciacorta allows up to 12 tonnes of grapes a hectare, from Chardonnay, Pinot Nero, Pinot Bianco and a little Erbamat."
+  },
+  {
+    id: "es-282",
+    type: "connection",
+    country: "Spain",
+    question: "At what altitudes do DO Catalunya's vines grow?",
+    options: [
+      "From sea level to almost 800 m",
+      "Only on high ground above 600 m",
+      "Only on the coast, below 100 m",
+      "From 1,000 m up to 1,500 m"
+    ],
+    answer: 0,
+    region: "catalunya",
+    explanation: "Vines grow from sea level to almost 800 m. The coast is milder and the interior more continental."
   }
 ];
