@@ -14637,5 +14637,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "abruzzo",
     explanation: "About three quarters of production comes from co-operatives, so much of Abruzzo's wine is made in volume."
+  },
+  {
+    id: "it-148",
+    type: "connection",
+    country: "Italy",
+    question: "About how far from the sea is the Castelli di Jesi Verdicchio zone?",
+    options: [
+      "On the shore itself",
+      "About 20 km",
+      "About 80 km",
+      "Over 150 km"
+    ],
+    answer: 1,
+    region: "marche",
+    explanation: "Castelli di Jesi is about 20 km from the sea, with sea breezes. Matelica lies inland in a valley with no marine influence."
   }
 ];
