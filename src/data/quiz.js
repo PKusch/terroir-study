@@ -14157,5 +14157,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "britishColumbia",
     explanation: "Around 2011 Merlot was about 16% of the area, then Pinot Gris at 11%, Pinot Noir at 10% and Chardonnay at 9%."
+  },
+  {
+    id: "fr-161",
+    type: "connection",
+    country: "France",
+    question: "How long must Crémant de Loire spend on its lees, at the least?",
+    options: [
+      "3 months",
+      "9 months",
+      "15 months",
+      "36 months"
+    ],
+    answer: 1,
+    region: "loire",
+    explanation: "Crémant de Loire is hand-picked, spends at least 9 months on its lees, and is sold no sooner than 12 months after the second fermentation starts in bottle."
   }
 ];
