@@ -14412,5 +14412,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "bordeaux",
     explanation: "Cru Bourgeois is the Médoc tier below the 1855 Classed Growths. Premier Grand Cru Classé belongs to Saint-Émilion on the Right Bank."
+  },
+  {
+    id: "fr-164",
+    type: "connection",
+    country: "France",
+    question: "Which cellar technique is common in top Northern Rhône Syrah?",
+    options: [
+      "Whole-bunch fermentation",
+      "Carbonic maceration of the whole crop",
+      "Adding sugar after the ferment",
+      "Ageing under flor yeast"
+    ],
+    answer: 0,
+    region: "rhoneNorth",
+    explanation: "Whole bunches, stems and all, are often fermented in the top wines. In Côte-Rôtie, some Viognier may be co-fermented with the Syrah."
   }
 ];
