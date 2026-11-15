@@ -14382,5 +14382,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "california",
     explanation: "Domaine Carneros is Taittinger's. Domaine Chandon dates from 1973, and Roederer Estate in the Anderson Valley dates from 1982."
+  },
+  {
+    id: "nw-139",
+    type: "connection",
+    country: "New World",
+    question: "Which is Argentina's second red grape, after Malbec?",
+    options: [
+      "Bonarda",
+      "Cabernet Sauvignon",
+      "Pinot Noir",
+      "Tannat"
+    ],
+    answer: 0,
+    region: "argentina",
+    explanation: "Bonarda is the second red grape, made soft and fruity for early drinking. Cabernet Sauvignon is mostly blended with Malbec."
   }
 ];
