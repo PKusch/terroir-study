@@ -14517,5 +14517,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "lisboa",
     explanation: "Carcavelos was a fortified wine. Almost none of its vineyards remain."
+  },
+  {
+    id: "pt-91",
+    type: "connection",
+    country: "Portugal",
+    question: "Which grape is by far the most planted on Madeira?",
+    options: [
+      "Sercial, the dry grape",
+      "Malvasia (Malmsey)",
+      "Tinta Negra",
+      "Verdelho"
+    ],
+    answer: 2,
+    region: "madeira",
+    explanation: "Tinta Negra is by far the most planted grape and can make every style. Sercial, Verdelho, Boal and Malvasia are the noble grapes named on labels."
   }
 ];
