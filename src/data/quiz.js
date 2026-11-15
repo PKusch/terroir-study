@@ -14247,5 +14247,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rheingau",
     explanation: "For a stretch the Rhine flows west, so the whole bank faces south across the water. The Taunus hills behind it block cold north winds."
+  },
+  {
+    id: "de-87",
+    type: "connection",
+    country: "Germany",
+    question: "The Haardt hills shelter the Pfalz. Which range are they the northern continuation of?",
+    options: [
+      "The Black Forest",
+      "The Vosges",
+      "The Taunus",
+      "The Hunsrück"
+    ],
+    answer: 1,
+    region: "pfalz",
+    explanation: "The Haardt is the Vosges under another name. The same rain shadow that makes Alsace dry makes the Pfalz warm and dry."
   }
 ];
