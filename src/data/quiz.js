@@ -14427,5 +14427,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rhoneNorth",
     explanation: "Whole bunches, stems and all, are often fermented in the top wines. In Côte-Rôtie, some Viognier may be co-fermented with the Syrah."
+  },
+  {
+    id: "fr-165",
+    type: "connection",
+    country: "France",
+    question: "What does 'Grand Éminent' on a Crémant de Bourgogne label mean?",
+    options: [
+      "At least 9 months on the lees",
+      "At least 24 months on the lees",
+      "At least 36 months on the lees",
+      "Grapes from Grand Cru vineyards"
+    ],
+    answer: 2,
+    region: "burgundy",
+    explanation: "Éminent means at least 24 months on the lees and Grand Éminent at least 36. Crémant de Bourgogne is hand-picked and made by the traditional method."
   }
 ];
