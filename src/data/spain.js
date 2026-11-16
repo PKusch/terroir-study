@@ -77,7 +77,7 @@ export const SPAIN_REGIONS = {
     winemaking: "Powerful, concentrated reds, usually Garnacha and Cariñena blends, aged in French oak (often new). Small producers; the wines were rediscovered in the late twentieth century and are now among Spain's most expensive.",
     typicalStyle: "Deep colour, full body, high alcohol, high tannin, medium-high acid; ripe black fruit, dried fig, liquorice, a stony, mineral edge from the slate. Concentrated and long-lived.",
     qualityLevels: ["DOQ Priorat (Catalan for DOCa)", "Vi de Vila (one village)", "Vi de Paratge (one named site)", "Vinya Classificada (a classified vineyard)", "Gran Vinya Classificada (the top tier)"],
-    whyConnection: "Heat plus licorella slate plus old bush vines → tiny yields, and tiny yields → concentration. The slate drains and stores heat, so Garnacha and Cariñena ripen fully but the roots have to dig deep for water, which stresses the vine and thickens the skins. Steep terraces mean hand work and small production. Result: powerful, mineral wines that earned DOQ status, Spain's top tier shared only with Rioja.",
+    whyConnection: "Heat plus licorella slate plus old bush vines → tiny yields, and tiny yields → concentration. The slate drains and stores heat, so Garnacha and Cariñena ripen fully but the roots have to dig deep for water, which stresses the vine and thickens the skins. Steep terraces mean hand work and small production. Result: powerful, mineral wines that earned DOQ status, DOQ (DOCa) status, a rank held only by Priorat and Rioja.",
     color: "#1F6F6B"
   },
   sherry: {

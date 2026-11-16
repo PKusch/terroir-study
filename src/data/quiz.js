@@ -1239,7 +1239,7 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "Which Spanish region is ringed by Montsant DO and shares Spain's top quality tier with Rioja?",
     answer: "priorat",
-    explanation: "Priorat holds DOQ status, the top tier that only it and Rioja have. Montsant DO is the ring of vineyards around it."
+    explanation: "Priorat holds DOQ (DOCa) status, a rank only it and Rioja hold. Montsant DO is the ring of vineyards around it."
   },
   {
     id: "es-15",
@@ -3039,7 +3039,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "priorat",
-    explanation: "Priorat is almost entirely surrounded by the Montsant DO. Priorat is a DOQ, a top tier it shares with Rioja."
+    explanation: "Priorat is almost entirely surrounded by the Montsant DO. Priorat is a DOQ (DOCa), a rank it shares only with Rioja."
   },
   {
     id: "es-28",
