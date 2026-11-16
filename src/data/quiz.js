@@ -14817,5 +14817,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "santorini",
     explanation: "Vinsanto is made from sun-dried grapes with at least 370 g/l of sugar, then matured oxidatively for at least 24 months."
+  },
+  {
+    id: "de-91",
+    type: "connection",
+    country: "Germany",
+    question: "Roughly how big is the Nahe's vineyard?",
+    options: [
+      "About 1,000 ha",
+      "About 4,250 ha",
+      "About 13,000 ha",
+      "About 27,000 ha"
+    ],
+    answer: 1,
+    region: "nahe",
+    explanation: "The Nahe has about 4,250 ha, seventh of Germany's 13 regions. Rheinhessen, the largest, has about 27,000 ha."
   }
 ];
