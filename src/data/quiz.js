@@ -3765,7 +3765,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "navarra",
-    explanation: "Rosado Tradición is made entirely from Garnacha Tinta, run off by gravity alone, with a higher minimum alcohol than other rosados."
+    explanation: "Rosado Tradición is made entirely from Garnacha Tinta, run off by gravity alone, within a set range of colour intensity."
   },
   {
     id: "es-72",
