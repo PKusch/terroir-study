@@ -14492,7 +14492,7 @@ export const QUIZ_QUESTIONS = [
     id: "pt-90",
     type: "connection",
     country: "Portugal",
-    question: "What kind of wine was Carcavelos, near Lisbon?",
+    question: "What kind of wine is Carcavelos, near Lisbon?",
     options: [
       "A fortified wine",
       "A light red",
@@ -14501,7 +14501,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "lisboa",
-    explanation: "Carcavelos was a fortified wine. Almost none of its vineyards remain."
+    explanation: "Carcavelos is a fortified wine, still made today. Only a few dozen hectares of vineyard remain, after Lisbon's suburbs spread over the rest."
   },
   {
     id: "pt-91",
