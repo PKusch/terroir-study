@@ -120,7 +120,7 @@ export const REGIONS = {
     keyGrapes: { red: ["Mourvèdre", "Grenache", "Syrah", "Cinsault"], white: ["Rolle (Vermentino)", "Clairette"] },
     subRegions: ["Côtes de Provence", "Bandol", "Cassis", "Aix-en-Provence", "Les Baux-de-Provence"],
     soils: "Limestone, clay, schist. Bandol: terraced limestone amphitheatre facing the sea.",
-    viticultureNotes: "Rosé dominates (88% of production). Bandol is the exception — serious, age-worthy reds from Mourvèdre (min 50% of blend). Bush vines common. Côtes de Provence is capped at 55 hl/ha and Coteaux d'Aix at 60 hl/ha; Bandol is capped at 40 hl/ha, with the grapes hand-picked from terraces called restanques. Cassis is the odd one out, with white grapes on about two thirds of its vineyard area.",
+    viticultureNotes: "Rosé dominates (about 90% of production). Bandol is the exception — serious, age-worthy reds from Mourvèdre (min 50% of blend). Bush vines common. Côtes de Provence is capped at 55 hl/ha and Coteaux d'Aix at 60 hl/ha; Bandol is capped at 40 hl/ha, with the grapes hand-picked from terraces called restanques. Cassis is the odd one out, with white grapes on about two thirds of its vineyard area.",
     winemaking: "Rosé: the Côtes de Provence rules allow four ways (bleeding, skin contact, free-run draining or direct pressing), all aiming for a pale pink. Bandol reds: min 18 months ageing in oak, most often large foudres. Quality rosé is serious winemaking — not simple.",
     typicalStyle: "Rosé: pale, dry, delicate, red fruit and herbs. Bandol red: dark, structured, savoury, meaty — needs ageing. Bandol is Mourvèdre's spiritual home.",
     qualityLevels: ["Côtes de Provence", "Coteaux d'Aix-en-Provence", "Bandol", "Cassis"],

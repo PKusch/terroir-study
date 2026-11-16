@@ -132,7 +132,7 @@ export const QUIZ_QUESTIONS = [
   {
     id: "fr-11",
     type: "map",
-    question: "Which region produces 88% rosé and is home to Bandol — France's greatest Mourvèdre wines?",
+    question: "Which region makes about 90% rosé and is home to Bandol — France's greatest Mourvèdre wines?",
     answer: "provence",
     explanation: "Provence is France's rosé capital. Bandol, on the Mediterranean coast, produces serious, age-worthy reds from Mourvèdre (minimum 50% of blend)."
   },
