@@ -10958,7 +10958,7 @@ export const QUIZ_QUESTIONS = [
     id: "de-65",
     type: "connection",
     country: "Germany",
-    question: "Since 1989 the Bocksbeutel bottle has had EU protection. Who may use it?",
+    question: "The Bocksbeutel bottle is protected by EU law. Who may use it?",
     options: [
       "Only producers inside Franken",
       "Any German wine region at all",
@@ -10967,7 +10967,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "franken",
-    explanation: "The flat, round Bocksbeutel is Franken's emblem and has been protected since 1989. But it is not Franken's alone: some neighbouring parts of Baden have a traditional right to use it too."
+    explanation: "The flat, round Bocksbeutel is Franken's emblem and has been protected by EU law since the late 1980s. But it is not Franken's alone: some neighbouring parts of Baden have a traditional right to use it too."
   },
   {
     id: "de-66",

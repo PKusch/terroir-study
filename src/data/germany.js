@@ -103,7 +103,7 @@ export const GERMANY_REGIONS = {
     winemaking: "Most wine is dry, and 'fränkisch trocken' means 4 g/L of fermentable sugar or less. The flat, round Bocksbeutel bottle is reserved by EU law for Franken and a few named parts of Baden (the Taubertal, the Schüpfergrund and four villages of Baden-Baden): in Franken its contents need at least 72 °Oechsle and an official quality test. Cooperatives make about 40% of production.",
     typicalStyle: "Dry, full-bodied whites with minerality, an earthy texture and firm acidity. Most are single-grape wines.",
     qualityLevels: ["Deutscher Wein", "Landwein", "Qualitätswein (Franken)", "Prädikatswein: Kabinett to Trockenbeerenauslese", "VDP Gutswein / Ortswein / Erste Lage / Grosse Lage", "Bocksbeutel (protected bottle)"],
-    whyConnection: "A continental climate with cold winters and spring frost → vines on sheltered sites along the Main. Triassic limestone and sandstone → Silvaner with an earthy, mineral character. A bottle shape protected since 1989, shared only with small parts of Baden → the Bocksbeutel is the region's emblem.",
+    whyConnection: "A continental climate with cold winters and spring frost → vines on sheltered sites along the Main. Triassic limestone and sandstone → Silvaner with an earthy, mineral character. A bottle shape protected by EU law since the late 1980s, shared only with small parts of Baden → the Bocksbeutel is the region's emblem.",
     color: "#3E7CB1"
   }
 };
