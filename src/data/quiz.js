@@ -2889,7 +2889,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "santorini",
-    explanation: "Nykteri is a dry white, traditionally harvested at night to avoid the heat, with at least 13.5% alcohol and at least 3 months in oak."
+    explanation: "Nykteri is a dry white with at least 13.5% alcohol and at least 3 months in oak. Its name refers to work done at night, away from the heat."
   },
   {
     id: "gr-11",
@@ -14051,7 +14051,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "santorini",
-    explanation: "Nykteri is a dry white, traditionally picked at night to avoid the heat, with at least 13.5% alcohol and at least 3 months in oak."
+    explanation: "Nykteri is a dry white with at least 13.5% alcohol and at least 3 months in oak. Its name refers to work done at night, away from the heat."
   },
   {
     id: "gr-36",
