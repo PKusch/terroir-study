@@ -623,7 +623,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "provence",
-    explanation: "Provence rosé is pale because the juice spends little or no time on the red skins: it is pressed straight off, or given only a short maceration. Quality rosé is serious winemaking; the 18 months in large oak belongs to Bandol reds."
+    explanation: "Provence rosé is pale because the juice spends little or no time on the red skins: it is pressed straight off, or given only a short maceration. Quality rosé is serious winemaking; the 18 months in oak (most often large foudres) belongs to Bandol reds."
   },
   {
     id: "fr-50",
