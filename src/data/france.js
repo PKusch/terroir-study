@@ -148,7 +148,7 @@ export const REGIONS = {
     keyGrapes: { red: ["Gamay"], white: [] },
     subRegions: ["Beaujolais", "Beaujolais-Villages", "Morgon", "Fleurie", "Moulin-à-Vent", "Brouilly", "Côte de Brouilly", "Chiroubles", "Juliénas", "Saint-Amour", "Chénas", "Régnié"],
     soils: "Cru Beaujolais: granite. Southern Beaujolais: clay and limestone.",
-    viticultureNotes: "Red Beaujolais is all Gamay (a little white Chardonnay is also made). 10 Cru villages, on hills of mostly granite with some schist and limestone, produce the best wines. Beaujolais Nouveau is the simple, carbonic maceration style — but Cru Beaujolais is serious wine.",
+    viticultureNotes: "Red Beaujolais is essentially Gamay: up to 15% of white vines (Chardonnay, Aligoté, Melon) may be planted among the Gamay, and a little white Chardonnay is also made. 10 Cru villages, on hills of mostly granite with some schist and limestone, produce the best wines. Beaujolais Nouveau is the simple, carbonic maceration style — but Cru Beaujolais is serious wine.",
     winemaking: "Carbonic maceration (whole bunches, intracellular fermentation) gives fresh, fruity character. Cru wines may use traditional vinification and oak ageing for more structure.",
     typicalStyle: "Beaujolais/Nouveau: light, fruity, banana, bubblegum. Cru Beaujolais (Morgon, Moulin-à-Vent): structured, earthy, can age 10+ years — rivals Burgundy Pinot Noir in complexity.",
     qualityLevels: ["Beaujolais", "Beaujolais-Villages", "10 Cru Beaujolais (Morgon, Fleurie, Moulin-à-Vent etc.)"],

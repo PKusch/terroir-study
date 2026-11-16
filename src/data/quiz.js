@@ -684,9 +684,9 @@ export const QUIZ_QUESTIONS = [
   {
     id: "fr-55",
     type: "map",
-    question: "Which region's reds are all Gamay, with ten Cru villages on hills of mostly granite?",
+    question: "Which region's reds are essentially all Gamay, with ten Cru villages on hills of mostly granite?",
     answer: "beaujolais",
-    explanation: "Beaujolais reds are all Gamay (a little white Chardonnay is also made). The ten Crus, such as Morgon, Fleurie and Moulin-à-Vent, sit mostly on granite, which gives Gamay structure and minerality that it lacks on the clay of the south."
+    explanation: "Beaujolais reds are essentially Gamay: up to 15% of white vines may be planted among the Gamay (a little white Chardonnay is also made). The ten Crus, such as Morgon, Fleurie and Moulin-à-Vent, sit mostly on granite, which gives Gamay structure and minerality that it lacks on the clay of the south."
   },
   {
     id: "fr-56",
