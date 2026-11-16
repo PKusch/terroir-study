@@ -21,7 +21,7 @@ export const GREECE_REGIONS = {
     name: "Naoussa",
     country: "Greece",
     climate: "Continental, with Mediterranean influence",
-    climateDetail: "Vineyards on the south-eastern slopes of Mount Vermio in northern Greece, mostly at 150 to 400 m. Summers are warm, winters cold, and the mountain gives cooling nights and some shelter. The slopes face south-east and catch the morning sun.",
+    climateDetail: "Vineyards on the south-eastern slopes of Mount Vermio in northern Greece, mostly at 150 to 400 m. Summers are warm, winters cold, and the mountain gives cooling nights and some shelter. The slopes face south-east, sheltered from cold northern winds.",
     keyGrapes: { red: ["Xinomavro"], white: [] },
     subRegions: ["Naoussa", "Mount Vermio slopes", "Giannakochori", "Rodochori", "Stenimachos", "Trilofo"],
     subRegionsLabel: "Wine villages",

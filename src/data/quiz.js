@@ -13496,7 +13496,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "naoussa",
-    explanation: "The vineyards are on the south-eastern slopes of Mount Vermio, mostly at 150 to 400 m. The mountain gives cool nights and catches the morning sun."
+    explanation: "The vineyards are on the south-eastern slopes of Mount Vermio, mostly at 150 to 400 m. The mountain gives cool nights and shelters the vines from cold northern winds."
   },
   {
     id: "nw-128",
@@ -14336,7 +14336,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "naoussa",
-    explanation: "The vineyards are on the south-eastern slopes of Mount Vermio and catch the morning sun. The mountain gives cool nights and some shelter."
+    explanation: "The vineyards are on the south-eastern slopes of Mount Vermio. The mountain gives cool nights and shelters the vines from cold northern winds."
   },
   {
     id: "pt-88",
