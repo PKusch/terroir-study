@@ -13217,7 +13217,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-121",
     type: "connection",
     country: "New World",
-    question: "What is Willakenzie soil, found across all of Ribbon Ridge?",
+    question: "What is Willakenzie soil, found across almost all of Ribbon Ridge?",
     options: [
       "Marine sediment",
       "Volcanic basalt",
@@ -13226,7 +13226,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "oregon",
-    explanation: "Willakenzie soil is marine sediment, and all of Ribbon Ridge is on it. Jory is volcanic, and Laurelwood is basalt mixed with loess."
+    explanation: "Willakenzie soil is marine sediment, and almost all of Ribbon Ridge is on it. Jory is volcanic, and Laurelwood is basalt mixed with loess."
   },
   {
     id: "nw-122",
