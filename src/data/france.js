@@ -62,7 +62,7 @@ export const REGIONS = {
     climateDetail: "Ranges from cool maritime (Muscadet) to cool continental (Sancerre). River moderates temperature.",
     keyGrapes: { red: ["Cabernet Franc"], white: ["Sauvignon Blanc", "Chenin Blanc", "Melon de Bourgogne"] },
     subRegions: ["Muscadet", "Anjou-Saumur", "Vouvray", "Chinon", "Bourgueil", "Sancerre", "Pouilly-Fumé"],
-    soils: "Varied: schist (Muscadet), tuffeau limestone (Vouvray), flint/kimmeridgian (Sancerre).",
+    soils: "Varied: gneiss, mica-schist and other ancient rock (Muscadet), tuffeau limestone (Vouvray), flint/kimmeridgian (Sancerre).",
     viticultureNotes: "Cool climate = high acidity wines. Chenin Blanc incredibly versatile (dry, sweet, sparkling). Botrytis for sweet wines in warm autumns.",
     winemaking: "Muscadet: sur lie ageing adds texture. Vouvray: range from bone dry to lusciously sweet. Sancerre: stainless steel, crisp, unoaked. Crémant de Loire is hand-picked, spends at least 9 months on its lees and is sold no sooner than 12 months after tirage; Chenin, Chardonnay and Cabernet Franc are typical. Vouvray mousseux and pétillant are also bottle-fermented, and pétillant just has less gas.",
     typicalStyle: "Sauvignon Blanc: herbaceous, citrus, mineral. Chenin Blanc: apple, honey, quince (varies dry to sweet). Cabernet Franc: red fruit, pencil shavings, fresh.",

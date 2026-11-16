@@ -13324,14 +13324,14 @@ export const QUIZ_QUESTIONS = [
     country: "France",
     question: "Which rock lies under the vineyards of Muscadet, at the Atlantic end of the Loire?",
     options: [
-      "Schist",
+      "Gneiss and mica-schist",
       "Tuffeau limestone",
       "Flint and Kimmeridgian marl",
-      "Granite and sandy loam"
+      "Chalk and clay with flint"
     ],
     answer: 0,
     region: "loire",
-    explanation: "Muscadet sits on schist. Tuffeau limestone is the soil of Vouvray, and flint and Kimmeridgian marl are found in Sancerre."
+    explanation: "Muscadet sits mainly on gneiss, mica-schist and other ancient rock of the Armorican Massif, with granite in places such as Clisson. Tuffeau limestone is the soil of Vouvray, and flint and Kimmeridgian marl are found in Sancerre."
   },
   {
     id: "fr-158",
