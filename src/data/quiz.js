@@ -1962,7 +1962,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-29",
     type: "scenario",
     country: "New World",
-    question: "A producer wants Chilean Cabernet Sauvignon with structure and freshness, grown on poor gravelly foothill soils where cold nights slow the ripening. Which zone?",
+    question: "A producer wants Chilean Cabernet Sauvignon with structure and freshness, grown on poor gravelly foothill soils where cold nights slow the ripening. Which part of Chile?",
     options: [
       "Casablanca Valley",
       "Leyda",
