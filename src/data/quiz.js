@@ -13691,7 +13691,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "burgenland",
-    explanation: "Neusiedlersee DAC is centred on Zweigelt, the most planted red in Burgenland. Mittelburgenland and Eisenberg are for Blaufränkisch."
+    explanation: "Neusiedlersee DAC is centred on Zweigelt, Austria's most planted red grape. Mittelburgenland and Eisenberg are for Blaufränkisch."
   },
   {
     id: "nw-130",
