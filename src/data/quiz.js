@@ -2760,7 +2760,7 @@ export const QUIZ_QUESTIONS = [
     id: "hu-11",
     type: "scenario",
     country: "Hungary",
-    question: "When was Tokaj's first vineyard classification drawn up?",
+    question: "In which year did a royal decree make Tokaj a closed, delimited wine district?",
     options: [
       "1855",
       "1737",
@@ -2769,7 +2769,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "tokaj",
-    explanation: "Tokaj has one of the oldest vineyard classifications in the world, drawn up in 1737 to rank the vineyards by quality."
+    explanation: "The 1737 royal decree closed and marked out the Tokaj district. Ranking the vineyards by quality began in 1730 and was completed in the censuses of 1765 and 1772."
   },
   {
     id: "hu-12",
