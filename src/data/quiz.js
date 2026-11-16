@@ -13766,7 +13766,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "friuli",
-    explanation: "A white Collio Riserva needs 20 months and a red one 30 months, including 6 in barrel."
+    explanation: "A white Collio Riserva needs 20 months, with no wood required. A red one needs 30 months, including at least 6 in wood."
   },
   {
     id: "it-142",
