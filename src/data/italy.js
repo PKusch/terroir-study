@@ -166,7 +166,7 @@ export const ITALY_REGIONS = {
     subRegions: ["Erbusco", "Adro", "Corte Franca", "Cazzago San Martino", "Iseo", "Rovato"],
     subRegionsLabel: "Towns",
     soils: "A wide bowl of glacial moraine left by the Valcamonica glacier: well-drained soils that still hold a good reserve of water.",
-    viticultureNotes: "Chardonnay and/or Pinot Nero, with up to 50% Pinot Bianco and up to 10% of the local Erbamat. The top yield is 12 t/ha. Satèn uses only white grapes: at least 50% Chardonnay, with Pinot Bianco and no Pinot Nero.",
+    viticultureNotes: "Chardonnay and/or Pinot Nero, with up to 50% Pinot Bianco and up to 10% of the local Erbamat. The maximum yield is 10 t/ha; the region may allow more in a good year. Satèn uses only white grapes: at least 50% Chardonnay, with Pinot Bianco and no Pinot Nero.",
     winemaking: "Second fermentation in the bottle only, then disgorging. Minimum time on the lees: 18 months for non-vintage, 24 for Rosé and Satèn, 30 for Millesimato (at least 85% from the stated year) and 60 for Riserva. Labels may not say 'metodo classico' or 'vino spumante': the word Franciacorta names both the wine and the method. DOC from 1967, DOCG from 1995.",
     typicalStyle: "Traditional-method sparkling wine with toasty, biscuit notes from long lees ageing. Satèn is Brut only, with softer bubbles (at most 5 bar). Rosé needs at least 35% Pinot Nero.",
     qualityLevels: ["Franciacorta DOCG (18 months on the lees)", "Franciacorta Satèn and Rosé (24 months)", "Franciacorta Millesimato (30 months)", "Franciacorta Riserva (60 months)"],

@@ -14724,9 +14724,9 @@ export const QUIZ_QUESTIONS = [
       "12 t/ha",
       "15 t/ha"
     ],
-    answer: 2,
+    answer: 1,
     region: "franciacorta",
-    explanation: "Franciacorta allows up to 12 tonnes of grapes a hectare, from Chardonnay, Pinot Nero, Pinot Bianco and a little Erbamat."
+    explanation: "The rules set a maximum of 10 tonnes of grapes a hectare, and the region may allow more in a good year. The grapes are Chardonnay, Pinot Nero, Pinot Bianco and a little Erbamat."
   },
   {
     id: "es-282",
