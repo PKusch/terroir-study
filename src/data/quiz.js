@@ -14209,14 +14209,14 @@ export const QUIZ_QUESTIONS = [
     country: "Spain",
     question: "At what temperature do Valdepeñas whites ferment?",
     options: [
-      "No more than 18 °C",
-      "Between 25 and 30 °C",
+      "Normally no more than 18 °C",
+      "Between 25 and 30 °C, the whole time",
       "Above 30 °C",
       "No limit is set"
     ],
     answer: 0,
     region: "valdepenas",
-    explanation: "Whites, mostly Airén, ferment cool, at no more than 18 °C. That keeps them light and fresh despite the hot, dry climate."
+    explanation: "Whites, mostly Airén, normally ferment cool, at no more than 18 °C; whites given a few days of skin contact may reach 25 °C. That keeps them light and fresh despite the hot, dry climate."
   },
   {
     id: "de-86",
