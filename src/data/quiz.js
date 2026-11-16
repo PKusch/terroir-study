@@ -4133,16 +4133,16 @@ export const QUIZ_QUESTIONS = [
     id: "de-34",
     type: "scenario",
     country: "Germany",
-    question: "What share of Baden's wine do its cooperatives make?",
+    question: "Roughly what share of Baden's vineyard do cooperatives and their members farm?",
     options: [
       "About 20%",
       "About 40%",
-      "About 85%",
-      "About 60%"
+      "About 65%",
+      "Over 90%"
     ],
     answer: 2,
     region: "baden",
-    explanation: "Cooperatives make about 85% of Baden's wine."
+    explanation: "Baden's cooperative association says its members farm about two-thirds of the vineyard, about 10,200 ha. The 85% figure often quoted is too high."
   },
   {
     id: "de-35",
@@ -12302,16 +12302,16 @@ export const QUIZ_QUESTIONS = [
     id: "de-75",
     type: "connection",
     country: "Germany",
-    question: "On the Kaiserstuhl, budburst to harvest takes about 100 to 110 days. How does that compare with the Mosel?",
+    question: "German growers time the harvest with a rule of thumb. Roughly how long after the vines flower does picking usually begin?",
     options: [
-      "Shorter: the Mosel takes over 150 days",
-      "Longer: the Mosel takes about 80 days",
-      "The same: both take about 105 days",
-      "Shorter: the Mosel takes about 120 days"
+      "About 30 days",
+      "About 100 days",
+      "About 200 days",
+      "About 60 days"
     ],
-    answer: 0,
+    answer: 1,
     region: "baden",
-    explanation: "The Kaiserstuhl is Germany's warmest area, so grapes ripen faster there: 100 to 110 days from budburst to harvest, against more than 150 on the Mosel."
+    explanation: "The harvest usually begins about 100 days after flowering. In a warm place such as the Kaiserstuhl, flowering and harvest both come early."
   },
   {
     id: "de-76",
