@@ -595,7 +595,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "languedocRoussillon",
-    explanation: "Maury and Banyuls are Vin Doux Naturel: sweet, fortified, and often oxidative in style, made from Grenache. Jurançon moelleux comes from late-harvested Petit Manseng, Sélection de Grains Nobles from botrytised Alsace grapes, and sweet Vouvray from botrytised Chenin Blanc; none is a fortified Grenache wine."
+    explanation: "Maury and Banyuls are Vin Doux Naturel: sweet, fortified, and often oxidative in style, made from Grenache. Jurançon moelleux comes mainly from late-harvested Petit Manseng, Sélection de Grains Nobles from botrytised Alsace grapes, and sweet Vouvray from botrytised Chenin Blanc; none is a fortified Grenache wine."
   },
   {
     id: "fr-48",
@@ -649,7 +649,7 @@ export const QUIZ_QUESTIONS = [
   {
     id: "fr-52",
     type: "map",
-    question: "Which region's Jurançon makes late-harvest sweet whites from thick-skinned Petit Manseng in the Pyrenean foothills?",
+    question: "Which region's Jurançon makes late-harvest sweet whites, mainly from thick-skinned Petit Manseng, in the Pyrenean foothills?",
     answer: "southWest",
     explanation: "Jurançon is in the South-West, where the Pyrenean foothills add altitude. Petit Manseng's thick skins resist botrytis and let the sugar concentrate on the vine for sweet, tropical, honeyed wines."
   },

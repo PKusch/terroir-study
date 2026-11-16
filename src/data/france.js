@@ -135,7 +135,7 @@ export const REGIONS = {
     subRegions: ["Cahors", "Madiran", "Jurançon", "Bergerac", "Fronton", "Irouléguy"],
     soils: "Cahors: gravel terraces along the River Lot, plus limestone plateau (causse) vineyards. Madiran: clay-limestone. Jurançon: Pyrenean foothills.",
     viticultureNotes: "Indigenous grape varieties distinguish this region from Bordeaux. Malbec originated here (not Argentina). Tannat is extremely tannic — needs careful handling.",
-    winemaking: "Cahors: Malbec min 70%. Historically 'black wine' — inky, tannic. Modern styles softer. Madiran: Tannat (at least 60%) — micro-oxygenation invented here to tame tannins. Jurançon: late-harvest sweet whites from Petit Manseng.",
+    winemaking: "Cahors: Malbec min 70%. Historically 'black wine' — inky, tannic. Modern styles softer. Madiran: Tannat (at least 60%) — micro-oxygenation invented here to tame tannins. Jurançon: late-harvest sweet whites, mainly from Petit Manseng (Gros Manseng is also allowed).",
     typicalStyle: "Cahors: dark, plummy, firm tannins — the original Malbec. Madiran: powerful, tannic, dark fruit. Jurançon sec: dry, aromatic. Jurançon moelleux: sweet, tropical, honeyed.",
     qualityLevels: ["Bergerac", "Cahors", "Madiran", "Jurançon"],
     whyConnection: "Continental climate inland = fully ripe, concentrated grapes. Malbec on gravel terraces and the limestone causse → deep colour, firm structure. Tannat's extreme tannins led to the invention of micro-oxygenation. Petit Manseng's thick skins resist botrytis and concentrate sugar for sweet wines.",
