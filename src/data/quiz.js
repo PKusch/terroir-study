@@ -13901,7 +13901,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "valencia",
-    explanation: "A grape name needs at least 85% of that grape. Otherwise the DO sets no minimum share for any grape."
+    explanation: "A grape name needs at least 85% of that grape. Moscatel de Valencia is the exception to the DO's open blending: it must be made entirely from Moscatel de Alejandría."
   },
   {
     id: "es-275",
