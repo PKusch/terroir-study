@@ -14471,7 +14471,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "riasBaixas",
-    explanation: "More than 4,300 ha are split into about 22,800 plots, worked by over 5,000 growers. Most are part-time, with under a hectare each."
+    explanation: "About 4,850 ha (end of 2025) are split into more than 20,000 plots, worked by just under 5,000 growers. Most are part-time, with under a hectare each."
   },
   {
     id: "pt-89",
