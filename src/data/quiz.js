@@ -13727,7 +13727,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-132",
     type: "connection",
     country: "New World",
-    question: "Most Chilean vines grow on their own roots. Why are Casablanca's vines grafted?",
+    question: "Chile is free of phylloxera, so many vines grow on their own roots. Why are Casablanca's vines often grafted?",
     options: [
       "To protect them against phylloxera",
       "To protect them against nematodes",
@@ -13736,7 +13736,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "chile",
-    explanation: "Phylloxera has never reached Chile, so most vines are ungrafted. Casablanca's are grafted against nematodes, tiny worms in the soil that attack the roots."
+    explanation: "Phylloxera has never reached Chile, so many vines are ungrafted. Casablanca's are often grafted against nematodes, tiny worms in the soil that attack the roots."
   },
   {
     id: "it-139",
