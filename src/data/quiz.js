@@ -13082,16 +13082,16 @@ export const QUIZ_QUESTIONS = [
     id: "pt-82",
     type: "connection",
     country: "Portugal",
-    question: "Why do Vinho Verde's granite soils make vines grow so vigorously?",
+    question: "Why do Vinho Verde's vines grow so vigorously?",
     options: [
-      "They are acidic but fertile",
+      "Heavy rain on acidic granite",
       "They are deep and chalky",
       "They hold no water at all",
       "They are rich in volcanic ash"
     ],
     answer: 0,
     region: "vinhoVerde",
-    explanation: "The granite soils are acidic and fertile, so vines grow vigorously. High training and careful canopy management keep that vigour in check."
+    explanation: "Heavy rain on acidic granite soils keeps the vines growing vigorously. High training and careful canopy management keep that vigour in check."
   },
   {
     id: "pt-83",
