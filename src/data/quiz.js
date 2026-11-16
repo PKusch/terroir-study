@@ -13022,16 +13022,16 @@ export const QUIZ_QUESTIONS = [
     id: "de-79",
     type: "connection",
     country: "Germany",
-    question: "How do Franken's Muschelkalk and Buntsandstein wines differ?",
+    question: "Most of Franken's soils are Triassic. Where are they not?",
     options: [
-      "Muschelkalk chalky and precise, Buntsandstein broader",
-      "Muschelkalk broad and earthy, Buntsandstein chalky and precise",
-      "Both are light and floral",
-      "Muschelkalk sweet, Buntsandstein dry"
+      "In the Spessart, on weathered primary rock",
+      "Around Würzburg, on dark volcanic basalt",
+      "In the Steigerwald, on white chalk and flint",
+      "Nowhere: every single site is Triassic"
     ],
     answer: 0,
     region: "franken",
-    explanation: "Muschelkalk (shell limestone) wines are chalky and precise, and Buntsandstein (coloured sandstone) wines are broader and earthier."
+    explanation: "The German Wine Institute lists weathered primary rock in the Spessart, alongside the Triassic Buntsandstein, Muschelkalk and Keuper found elsewhere in Franken."
   },
   {
     id: "de-80",
