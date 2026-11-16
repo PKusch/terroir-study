@@ -5710,12 +5710,12 @@ export const QUIZ_QUESTIONS = [
     options: [
       "Pinot Noir on the coast",
       "Cool-climate Riesling",
-      "Most wine, and brandy",
+      "Brandy and Muscadel",
       "Pinotage on old bush vines"
     ],
     answer: 2,
     region: "southAfrica",
-    explanation: "It depends on irrigation and makes fortified Muscadel."
+    explanation: "It is a big-volume district known for brandy and fortified Muscadel, and it depends on irrigation. Since Breedekloof was split off, Robertson and Breedekloof each have about twice its vineyard area."
   },
   {
     id: "nw-60",
