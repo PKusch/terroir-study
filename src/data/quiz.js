@@ -13592,7 +13592,7 @@ export const QUIZ_QUESTIONS = [
     id: "it-138",
     type: "connection",
     country: "Italy",
-    question: "How many vines per hectare must new Verdicchio plantings have, at the least?",
+    question: "How many vines per hectare must new Verdicchio di Matelica plantings have, at the least?",
     options: [
       "1,500",
       "2,200",
@@ -13601,7 +13601,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "marche",
-    explanation: "New plantings need at least 2,200 vines per hectare, in both the Castelli di Jesi and the Matelica zones."
+    explanation: "Matelica needs at least 2,200 vines per hectare. Castelli di Jesi raised its own minimum from 2,200 to 2,700 in 2026."
   },
   {
     id: "es-266",
