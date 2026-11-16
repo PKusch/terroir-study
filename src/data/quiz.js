@@ -4105,14 +4105,14 @@ export const QUIZ_QUESTIONS = [
     country: "Germany",
     question: "What share of Baden's plantings is the Pinot family?",
     options: [
-      "About 61%",
+      "About 60%",
       "About 25%",
       "About 40%",
       "About 90%"
     ],
     answer: 0,
     region: "baden",
-    explanation: "The Pinot family covers 9,162 ha, and Baden has more Spätburgunder than any other region."
+    explanation: "The German Wine Institute puts the Pinot family at about 62% of Baden's vineyard, and Baden has more Spätburgunder than any other region."
   },
   {
     id: "de-33",
@@ -13976,7 +13976,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "baden",
-    explanation: "Baden has more Spätburgunder (Pinot Noir), about 4,765 ha, and more Weissburgunder than any other German region. The Pinot family is 61% of its plantings."
+    explanation: "Baden has more Spätburgunder (Pinot Noir), about 4,765 ha, and more Weissburgunder than any other German region. The Pinot family is about 62% of its plantings."
   },
   {
     id: "at-35",
