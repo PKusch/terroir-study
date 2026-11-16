@@ -52,7 +52,7 @@ export const SPAIN_REGIONS = {
     name: "Montsant",
     country: "Spain",
     climate: "Mediterranean with some continentality",
-    climateDetail: "A Mediterranean climate marked by a certain continentality, shaped by the mountains, the Ebre and sea winds. The mountains partly shield it from the sea, so day and night differ strongly at ripening. Winters are cold and summers dry and hot, with about 500 to 600 mm of rain a year, mostly in spring and autumn, and humid sea winds arrive in summer afternoons. The DO's own site gives vineyard altitudes of 50 to 700 m.",
+    climateDetail: "A Mediterranean climate marked by a certain continentality, shaped by the mountains, the Ebre and sea winds. The mountains partly shield it from the sea, so day and night differ strongly at ripening. Winters are cold and summers dry and hot, with about 500 to 600 mm of rain a year, mostly in spring and autumn, and humid sea winds arrive in summer afternoons. Vineyards reach about 700 m; sources differ on the lowest sites, from about 50 to 200 m.",
     keyGrapes: { red: ["Grenache", "Carignan", "Tempranillo", "Syrah", "Cabernet Sauvignon"], white: ["Garnacha Blanca", "Macabeo"] },
     subRegions: ["Falset", "Cornudella de Montsant", "La Figuera", "Ulldemolins"],
     subRegionsLabel: "Towns",

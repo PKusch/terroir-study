@@ -14747,16 +14747,16 @@ export const QUIZ_QUESTIONS = [
     id: "es-284",
     type: "connection",
     country: "Spain",
-    question: "At what altitudes do Montsant's vineyards lie, according to the DO?",
+    question: "Up to roughly what altitude do Montsant's vineyards reach?",
     options: [
-      "50 to 700 m",
-      "700 to 1,200 m",
-      "0 to 100 m",
-      "1,000 to 1,500 m"
+      "About 700 m",
+      "About 200 m",
+      "About 1,200 m",
+      "About 1,800 m"
     ],
     answer: 0,
     region: "montsant",
-    explanation: "The DO gives vineyard altitudes of 50 to 700 m. The mountains partly shield it from the sea, so day and night differ strongly at ripening."
+    explanation: "Vineyards reach about 700 m; sources differ on the lowest, from about 50 to 200 m. The mountains partly shield it from the sea, so day and night differ strongly at ripening."
   },
   {
     id: "es-285",
