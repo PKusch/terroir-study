@@ -14351,7 +14351,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "vinhoVerde",
-    explanation: "Most Vinho Verde is white. The red and rosé versions are mostly drunk in the region."
+    explanation: "Most Vinho Verde is white. The red version is mostly drunk in the region."
   },
   {
     id: "nw-138",
