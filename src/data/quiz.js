@@ -14276,7 +14276,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "franken",
-    explanation: "All of Franken's soils are Triassic. The Steigerwald in the east has Keuper with gypsum, the Maindreieck around Würzburg has Muschelkalk, and the Mainviereck in the west has Buntsandstein."
+    explanation: "Most of Franken's soils are Triassic. The Steigerwald in the east has Keuper with gypsum, the Maindreieck around Würzburg has Muschelkalk, and the Mainviereck in the west has Buntsandstein."
   },
   {
     id: "at-36",
