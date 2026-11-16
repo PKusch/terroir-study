@@ -5896,7 +5896,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "newYork",
-    explanation: "It had 832 of 10,790 producing acres in 2024."
+    explanation: "It had 832 of the Finger Lakes' 9,035 vineyard acres in the 2024 state survey."
   },
   {
     id: "nw-73",

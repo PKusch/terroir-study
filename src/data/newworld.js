@@ -131,7 +131,7 @@ export const NEW_WORLD_REGIONS = {
     subRegions: ["Seneca Lake", "Cayuga Lake", "Keuka Lake", "Niagara Escarpment", "Lake Erie"],
     subRegionsLabel: "AVAs and lakes",
     soils: "Glacial deposits. Dunkirk clay loam is the commonest soil in the central lakes; the south has shaley, acidic soils and the north has limestone, which suits vinifera.",
-    viticultureNotes: "The Finger Lakes AVA was established in 1982 and covers about 5.4 million acres, with 11 lakes. Cayuga Lake (1988) and Seneca Lake (2003) are sub-AVAs. Riesling is the most planted vinifera, with 832 of 10,790 producing acres in 2024. Vinifera is protected from winter cold by mounding soil up around the vines, multiple trunks and cane pruning, and Cabernet Franc is popular partly for its cold hardiness.",
+    viticultureNotes: "The Finger Lakes AVA was established in 1982 and covers about 5.4 million acres, with 11 lakes. Cayuga Lake (1988) and Seneca Lake (2003) are sub-AVAs. Riesling is the most planted vinifera, with 832 of the Finger Lakes' 9,035 vineyard acres in the 2024 state survey. Vinifera is protected from winter cold by mounding soil up around the vines, multiple trunks and cane pruning, and Cabernet Franc is popular partly for its cold hardiness.",
     winemaking: "Riesling is made in two or three styles by the average producer, from dry to sweet.",
     typicalStyle: "Cool-climate whites with high acidity, especially Riesling, and lighter reds such as Cabernet Franc.",
     qualityLevels: ["American wine", "New York", "AVA: Finger Lakes (1982)", "Sub-AVA: Seneca Lake or Cayuga Lake"],
