@@ -4511,7 +4511,7 @@ export const QUIZ_QUESTIONS = [
     id: "es-103",
     type: "connection",
     country: "Spain",
-    question: "What happened to Airén in 2022?",
+    question: "What did Spain's vineyard survey of July 2021, published in 2022, show about Airén?",
     options: [
       "Tempranillo passed it as Spain's top grape",
       "It was banned in all Spanish quality wines",
@@ -4520,7 +4520,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "laMancha",
-    explanation: "Spanish ministry data in 2022 showed Tempranillo (202,198 ha) just ahead of Airén (200,084 ha)."
+    explanation: "The Ministry's survey of 31 July 2021 showed Tempranillo (202,917 ha) ahead of Airén (200,084 ha) for the first time."
   },
   {
     id: "es-104",

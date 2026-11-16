@@ -277,7 +277,7 @@ export const SPAIN_REGIONS = {
     winemaking: "At least 15% of a barrel-fermented wine must ferment in oak barrels of up to 600 litres. A red Crianza needs 24 months in total with at least 6 in oak of up to 330 litres, a Reserva 36 months with at least 12 in oak, and a Gran Reserva 60 months with at least 18 in oak.",
     typicalStyle: "At the basic end, neutral, light whites from Airén and fruity, medium-bodied reds; the quality tier is Crianza and Reserva from Cencibel.",
     qualityLevels: ["Vino de España", "DO La Mancha (recognised in 1932)", "Joven", "Roble (60 days in oak)", "Crianza (24 months, 6 in oak)", "Reserva (36 months, 12 in oak)", "Gran Reserva (60 months, 18 in oak)", "Vino de Pago (single estate)"],
-    whyConnection: "A huge, flat, dry plateau → dry-farmed bush vines that cope with drought, and an enormous volume of simple wine. Tempranillo (Cencibel) overtook Airén as Spain's most planted grape in 2022 → a shift towards reds. Trellised vineyards → higher yields than bush vines.",
+    whyConnection: "A huge, flat, dry plateau → dry-farmed bush vines that cope with drought, and an enormous volume of simple wine. Tempranillo (Cencibel) overtook Airén as Spain's most planted grape in the 31 July 2021 survey (published 2022) → a shift towards reds. Trellised vineyards → higher yields than bush vines.",
     color: "#D8A84E"
   },
   valdepenas: {
