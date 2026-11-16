@@ -3587,12 +3587,12 @@ export const QUIZ_QUESTIONS = [
     options: [
       "At least 50%",
       "At least 95%",
-      "At least 85%",
+      "At least 75%",
       "There is no minimum"
     ],
     answer: 2,
     region: "toro",
-    explanation: "A Toro red must be at least 85% Tinta de Toro (or at least 85% Garnacha for a Garnacha red), with up to 15% of other authorised grapes."
+    explanation: "Under the 2024 EU single document, a Toro red is either at least 75% Tinta de Toro or at least 85% Garnacha Tinta, and only those two grapes are allowed in red Toro."
   },
   {
     id: "es-60",
