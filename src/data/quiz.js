@@ -12002,7 +12002,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "castillaYLeon",
-    explanation: "More than 98% of the land is above 600 m. Frost can come on 180 to 220 days a year, from October to May, and late frosts are frequent."
+    explanation: "More than 98% of the land is above 600 m. The frost season lasts 180 to 220 days, from October to May, and late frosts are frequent."
   },
   {
     id: "es-232",
