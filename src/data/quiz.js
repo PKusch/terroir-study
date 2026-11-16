@@ -1561,7 +1561,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "pfalz",
-    explanation: "The Haardt hills are the Vosges under another name, and they give the Pfalz the same rain shadow that makes Alsace dry. Sunny summers and dry autumns follow, so drought is more of a risk than rot. The westward turn of the river is the Rheingau's story, not this one."
+    explanation: "The Haardt hills are the northern extension of the Vosges, and they give the Pfalz the same rain shadow that makes Alsace dry. Sunny summers and dry autumns follow, so drought is more of a risk than rot. The westward turn of the river is the Rheingau's story, not this one."
   },
   {
     id: "de-16",
@@ -14246,7 +14246,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "pfalz",
-    explanation: "The Haardt is the Vosges under another name. The same rain shadow that makes Alsace dry makes the Pfalz warm and dry."
+    explanation: "The Haardt is the northern extension of the Vosges. The same rain shadow that makes Alsace dry makes the Pfalz warm and dry."
   },
   {
     id: "de-88",
