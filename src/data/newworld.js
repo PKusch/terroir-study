@@ -161,7 +161,7 @@ export const NEW_WORLD_REGIONS = {
     keyGrapes: { red: ["Merlot", "Pinot Noir", "Cabernet Sauvignon"], white: ["Pinot Gris", "Chardonnay"] },
     subRegions: ["Osoyoos", "Okanagan Falls", "Naramata", "Kelowna"],
     soils: "Glacial deposits: sandy and gravelly, and in the south sandy, silty and clay-based loams.",
-    viticultureNotes: "The vineyards stretch along the valley from the US border north past Kelowna. The Okanagan is BC's largest and oldest wine region and has 11 sub-geographical indications, including Naramata Bench, Okanagan Falls and Golden Mile Bench. Around 2011 Merlot was 16% of the area, Pinot Gris 11%, Pinot Noir 10% and Chardonnay 9%.",
+    viticultureNotes: "The vineyards stretch along the valley from the US border north past Kelowna. The Okanagan is BC's largest and oldest wine region and has 11 sub-geographical indications, including Naramata Bench, Okanagan Falls and Golden Mile Bench. Across British Columbia around 2011, Merlot was about 16% of the vineyard and Pinot Gris about 11%, with Pinot Noir and Chardonnay each about 9 to 10%.",
     winemaking: "BC Icewine needs ambient air at -8 °C or colder at harvest, each pressing of at least 32 degrees Brix, a tank average of at least 35, and at least 100 g/L of residual sugar.",
     typicalStyle: "Fruity reds, whites such as Pinot Gris and Chardonnay, and Icewine.",
     qualityLevels: ["Wine of Canada", "BC VQA (British Columbia GI)", "Okanagan Valley GI", "Sub-GI, e.g. Naramata Bench", "Icewine (at least 35 degrees Brix)"],

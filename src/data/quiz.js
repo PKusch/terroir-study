@@ -14147,7 +14147,7 @@ export const QUIZ_QUESTIONS = [
     id: "nw-137",
     type: "connection",
     country: "New World",
-    question: "Around 2011, which grape covered the most Okanagan vineyard?",
+    question: "Around 2011, which grape covered the most vineyard in British Columbia?",
     options: [
       "Pinot Gris",
       "Merlot",
@@ -14156,7 +14156,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "britishColumbia",
-    explanation: "Around 2011 Merlot was about 16% of the area, then Pinot Gris at 11%, Pinot Noir at 10% and Chardonnay at 9%."
+    explanation: "Around 2011 Merlot was about 16% of British Columbia's vineyard and Pinot Gris about 11%, with Pinot Noir and Chardonnay each about 9 to 10%. Most of it is in the Okanagan."
   },
   {
     id: "fr-161",
