@@ -14802,5 +14802,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "calatayud",
     explanation: "The vines sit on slopes and terraces beside the Jalón, Jiloca, Manubles, Mesa, Piedra and Ribota rivers."
+  },
+  {
+    id: "gr-38",
+    type: "connection",
+    country: "Greece",
+    question: "What sugar level must Santorini Vinsanto reach, at the least?",
+    options: [
+      "120 g/l",
+      "250 g/l",
+      "370 g/l",
+      "450 g/l"
+    ],
+    answer: 2,
+    region: "santorini",
+    explanation: "Vinsanto is made from sun-dried grapes with at least 370 g/l of sugar, then matured oxidatively for at least 24 months."
   }
 ];
