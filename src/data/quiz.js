@@ -14832,5 +14832,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "nahe",
     explanation: "The Nahe has about 4,250 ha, seventh of Germany's 13 regions. Rheinhessen, the largest, has about 27,000 ha."
+  },
+  {
+    id: "nw-143",
+    type: "connection",
+    country: "New World",
+    question: "In which year was Washington's Red Mountain AVA approved?",
+    options: [
+      "1983",
+      "1984",
+      "2001",
+      "2015"
+    ],
+    answer: 2,
+    region: "washington",
+    explanation: "Red Mountain was approved in 2001. Yakima Valley (1983) was Washington's first AVA, and Columbia Valley followed in 1984."
   }
 ];
