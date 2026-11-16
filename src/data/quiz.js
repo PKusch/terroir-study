@@ -14111,7 +14111,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "washington",
-    explanation: "The Columbia Valley AVA dates from 1984 and covers about 11.3 million acres. Yakima Valley, in 1983, was Washington's first AVA."
+    explanation: "The Columbia Valley AVA dates from 1984 and covers about 11 million acres. Yakima Valley, in 1983, was Washington's first AVA."
   },
   {
     id: "nw-135",
