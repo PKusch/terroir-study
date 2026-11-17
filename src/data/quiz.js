@@ -14952,5 +14952,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "carinena",
     explanation: "Vendimia seleccionada comes from plots yielding under 7,000 kg/ha. 'Viñas viejas' is the term for vines over 20 years old."
+  },
+  {
+    id: "nw-144",
+    type: "connection",
+    country: "New World",
+    question: "On roughly how many days a year does the Willamette Valley pass 90 °F?",
+    options: [
+      "5 to 15",
+      "40 to 60",
+      "90 to 120",
+      "Almost none, ever"
+    ],
+    answer: 0,
+    region: "oregon",
+    explanation: "Temperatures pass 90 °F on only 5 to 15 days a year. The cool maritime climate keeps freshness in Pinot Noir."
   }
 ];
