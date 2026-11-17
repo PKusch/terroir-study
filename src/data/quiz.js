@@ -14937,5 +14937,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "vinhoVerde",
     explanation: "Alvarinho is Albariño, the main grape of Rías Baixas across the Minho river in Galicia."
+  },
+  {
+    id: "es-288",
+    type: "connection",
+    country: "Spain",
+    question: "What does 'Vendimia seleccionada' on a Cariñena label require?",
+    options: [
+      "Plots yielding under 7,000 kg/ha",
+      "Grapes picked by hand, at night only",
+      "At least 12 months in new French oak",
+      "Vines over 50 years old, bush-trained"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "Vendimia seleccionada comes from plots yielding under 7,000 kg/ha. 'Viñas viejas' is the term for vines over 20 years old."
   }
 ];
