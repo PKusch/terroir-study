@@ -15042,5 +15042,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "rheingau",
     explanation: "The steep west end near Rüdesheim and Assmannshausen is worked by hand, while the gentler middle of the region can be mechanised."
+  },
+  {
+    id: "de-93",
+    type: "connection",
+    country: "Germany",
+    question: "Where does the Pfalz mostly grow Müller-Thurgau?",
+    options: [
+      "On the flat land, for volume",
+      "On the steepest Haardt slopes",
+      "On basalt in the best Mittelhaardt sites",
+      "It is banned in the Pfalz"
+    ],
+    answer: 0,
+    region: "pfalz",
+    explanation: "Müller-Thurgau grows on the flat land for volume. The best Riesling sites are on sandstone and basalt on the lower Haardt slopes."
   }
 ];
