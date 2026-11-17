@@ -15027,5 +15027,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "riberaDelDuero",
     explanation: "French oak is common, often alongside some American. The Crianza, Reserva and Gran Reserva ladder is the same as in Rioja."
+  },
+  {
+    id: "de-92",
+    type: "connection",
+    country: "Germany",
+    question: "Where in the Rheingau can vineyard work be done by machine?",
+    options: [
+      "On the steep western end near Rüdesheim",
+      "Nowhere: every site is hand-worked",
+      "Only on the islands in the Rhine",
+      "On the gentler slopes in the middle"
+    ],
+    answer: 3,
+    region: "rheingau",
+    explanation: "The steep west end near Rüdesheim and Assmannshausen is worked by hand, while the gentler middle of the region can be mechanised."
   }
 ];
