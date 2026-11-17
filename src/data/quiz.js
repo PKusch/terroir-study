@@ -14997,5 +14997,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "california",
     explanation: "Lodi has over 100,000 acres of wine grapes. The Delta breeze, coming through the main sea-level gap in the Coast Ranges, cools its hot days."
+  },
+  {
+    id: "fr-168",
+    type: "scenario",
+    country: "France",
+    question: "A Cru Beaujolais producer wants a more structured wine for ageing. Which approach fits?",
+    options: [
+      "Full carbonic maceration and early bottling",
+      "Blending in white Chardonnay for freshness",
+      "Traditional vinification and oak ageing",
+      "Picking early for lower sugar and more acid"
+    ],
+    answer: 2,
+    region: "beaujolais",
+    explanation: "Cru wines may use traditional vinification and oak ageing for more structure. Carbonic maceration gives the light, fruity Nouveau style."
   }
 ];
