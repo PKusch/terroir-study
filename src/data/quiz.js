@@ -14907,5 +14907,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "niederosterreich",
     explanation: "Kamptal, Kremstal and Traisental DAC cover Grüner Veltliner and Riesling. Weinviertel DAC is for Grüner Veltliner."
+  },
+  {
+    id: "at-39",
+    type: "connection",
+    country: "Austria",
+    question: "Which of these is NOT one of Steiermark's three DAC districts?",
+    options: [
+      "Südsteiermark",
+      "Vulkanland Steiermark",
+      "Weststeiermark",
+      "Thermenregion"
+    ],
+    answer: 3,
+    region: "steiermark",
+    explanation: "Steiermark's three DAC districts are Südsteiermark, Vulkanland Steiermark and Weststeiermark. Thermenregion is in Niederösterreich."
   }
 ];
