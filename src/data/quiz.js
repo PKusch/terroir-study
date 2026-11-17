@@ -14892,5 +14892,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "piedmont",
     explanation: "Early budding exposes the young shoots to spring frost, and Nebbiolo also ripens late. That is why it gets the warmest south-facing slopes."
+  },
+  {
+    id: "at-38",
+    type: "connection",
+    country: "Austria",
+    question: "Which grapes may a Kamptal DAC wine be made from?",
+    options: [
+      "Grüner Veltliner and Riesling",
+      "Zweigelt and Blaufränkisch",
+      "Sauvignon Blanc and Chardonnay",
+      "Grüner Veltliner only"
+    ],
+    answer: 0,
+    region: "niederosterreich",
+    explanation: "Kamptal, Kremstal and Traisental DAC cover Grüner Veltliner and Riesling. Weinviertel DAC is for Grüner Veltliner."
   }
 ];
