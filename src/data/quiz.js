@@ -14847,5 +14847,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "washington",
     explanation: "Red Mountain was approved in 2001. Yakima Valley (1983) was Washington's first AVA, and Columbia Valley followed in 1984."
+  },
+  {
+    id: "hu-37",
+    type: "connection",
+    country: "Hungary",
+    question: "A Tokaji Aszú is labelled 5 puttonyos. How much sugar must it have, at the least?",
+    options: [
+      "60 g/l",
+      "120 g/l",
+      "150 g/l",
+      "450 g/l"
+    ],
+    answer: 1,
+    region: "tokaj",
+    explanation: "5 puttonyos means at least 120 g/l, the minimum for any Aszú, and 6 puttonyos at least 150 g/l. Eszencia needs 450 g/l. The puttonyos term is now optional."
   }
 ];
