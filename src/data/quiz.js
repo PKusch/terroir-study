@@ -14967,5 +14967,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "oregon",
     explanation: "Temperatures pass 90 °F on only 5 to 15 days a year. The cool maritime climate keeps freshness in Pinot Noir."
+  },
+  {
+    id: "nw-145",
+    type: "connection",
+    country: "New World",
+    question: "In which year did Seneca Lake become its own sub-AVA within the Finger Lakes?",
+    options: [
+      "1982",
+      "1988",
+      "2003",
+      "2016"
+    ],
+    answer: 2,
+    region: "newYork",
+    explanation: "Seneca Lake became a sub-AVA in 2003. The Finger Lakes AVA dates from 1982 and Cayuga Lake from 1988."
   }
 ];
