@@ -15012,5 +15012,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "beaujolais",
     explanation: "Cru wines may use traditional vinification and oak ageing for more structure. Carbonic maceration gives the light, fruity Nouveau style."
+  },
+  {
+    id: "es-289",
+    type: "connection",
+    country: "Spain",
+    question: "Which oak is most common for ageing Ribera del Duero reds?",
+    options: [
+      "Only large old chestnut casks, never oak",
+      "French oak, often alongside some American",
+      "Only brand-new American oak barrels, always",
+      "No oak: the DO bans barrel ageing"
+    ],
+    answer: 1,
+    region: "riberaDelDuero",
+    explanation: "French oak is common, often alongside some American. The Crianza, Reserva and Gran Reserva ladder is the same as in Rioja."
   }
 ];
