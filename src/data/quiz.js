@@ -14877,5 +14877,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "loire",
     explanation: "The climate runs from cool maritime at Muscadet, by the Atlantic, to cool continental at Sancerre, far inland. The river moderates temperatures along the way."
+  },
+  {
+    id: "it-154",
+    type: "connection",
+    country: "Italy",
+    question: "Nebbiolo buds early. Which risk does that bring in Piedmont?",
+    options: [
+      "Spring frost",
+      "Summer drought",
+      "Autumn rain at harvest",
+      "Winter cold damage to the trunk"
+    ],
+    answer: 0,
+    region: "piedmont",
+    explanation: "Early budding exposes the young shoots to spring frost, and Nebbiolo also ripens late. That is why it gets the warmest south-facing slopes."
   }
 ];
