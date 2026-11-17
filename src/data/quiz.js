@@ -14862,5 +14862,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "tokaj",
     explanation: "5 puttonyos means at least 120 g/l, the minimum for any Aszú, and 6 puttonyos at least 150 g/l. Eszencia needs 450 g/l. The puttonyos term is now optional."
+  },
+  {
+    id: "fr-167",
+    type: "connection",
+    country: "France",
+    question: "Which end of the Loire has the more continental climate?",
+    options: [
+      "Sancerre, in the east",
+      "Muscadet, by the Atlantic",
+      "Both ends are equally maritime",
+      "Anjou, in the middle"
+    ],
+    answer: 0,
+    region: "loire",
+    explanation: "The climate runs from cool maritime at Muscadet, by the Atlantic, to cool continental at Sancerre, far inland. The river moderates temperatures along the way."
   }
 ];
