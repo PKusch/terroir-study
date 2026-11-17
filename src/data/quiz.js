@@ -15057,5 +15057,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "pfalz",
     explanation: "Müller-Thurgau grows on the flat land for volume. The best Riesling sites are on sandstone and basalt on the lower Haardt slopes."
+  },
+  {
+    id: "hu-38",
+    type: "connection",
+    country: "Hungary",
+    question: "How do Eger's red wines compare with those of Hungary's warmer south?",
+    options: [
+      "Riper and more alcoholic, from long hot summers",
+      "Sweeter, because of noble rot",
+      "Fresher and lighter, thanks to cool nights",
+      "Exactly the same in style"
+    ],
+    answer: 2,
+    region: "eger",
+    explanation: "Eger sits in the foothills of the Bükk mountains. Cool nights keep acidity in the grapes, so its reds are fresher and lighter than those of the warmer south."
   }
 ];
