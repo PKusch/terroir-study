@@ -15102,5 +15102,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "naoussa",
     explanation: "Xinomavro is late-ripening and needs a warm site. Lower vineyards ripen it more easily, and higher ones keep more freshness."
+  },
+  {
+    id: "gr-40",
+    type: "connection",
+    country: "Greece",
+    question: "What tannin does Agiorgitiko usually have?",
+    options: [
+      "Very high and harsh",
+      "Soft to medium",
+      "Almost none, like a white wine",
+      "High, like Xinomavro"
+    ],
+    answer: 1,
+    region: "nemea",
+    explanation: "Agiorgitiko is medium to deep ruby with soft to medium tannin and ripe plum, red cherry and spice. Xinomavro, from Naoussa, is the high-tannin Greek red."
   }
 ];
