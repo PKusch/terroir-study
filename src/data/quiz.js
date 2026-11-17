@@ -15132,5 +15132,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "argentina",
     explanation: "Overhead pergola training is still used for bulk wine and for Torrontés. Hail nets are common, and drip irrigation has replaced flood irrigation in modern vineyards."
+  },
+  {
+    id: "nw-148",
+    type: "connection",
+    country: "New World",
+    question: "Why are cordon-trained vines uncommon on the Niagara Peninsula?",
+    options: [
+      "Winter cold can injure the vines",
+      "Cordons are banned under VQA rules",
+      "The soils are too sandy for them",
+      "The summers are too hot for them"
+    ],
+    answer: 0,
+    region: "ontario",
+    explanation: "Winter cold can injure vines, so cordons are not common, and soil is hilled up to protect the graft union."
   }
 ];
