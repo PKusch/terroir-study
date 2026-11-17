@@ -15087,5 +15087,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "villany",
     explanation: "In Hungary's warmest, sunniest corner, Cabernet Franc ripens fully. It is riper and richer than in the Loire, with red and black berry, pencil shavings and herbs."
+  },
+  {
+    id: "gr-39",
+    type: "connection",
+    country: "Greece",
+    question: "How does altitude change Xinomavro in Naoussa?",
+    options: [
+      "Higher up it ripens more easily; lower down it keeps more freshness",
+      "Altitude makes no difference to Xinomavro",
+      "Only the highest sites may use the PDO name",
+      "Higher up it keeps more freshness; lower down it ripens more easily"
+    ],
+    answer: 3,
+    region: "naoussa",
+    explanation: "Xinomavro is late-ripening and needs a warm site. Lower vineyards ripen it more easily, and higher ones keep more freshness."
   }
 ];
