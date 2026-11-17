@@ -14982,5 +14982,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "newYork",
     explanation: "Seneca Lake became a sub-AVA in 2003. The Finger Lakes AVA dates from 1982 and Cayuga Lake from 1988."
+  },
+  {
+    id: "nw-146",
+    type: "connection",
+    country: "New World",
+    question: "Roughly how many acres of wine grapes does Lodi have?",
+    options: [
+      "About 5,000",
+      "About 20,000",
+      "Over 100,000",
+      "About 1 million"
+    ],
+    answer: 2,
+    region: "california",
+    explanation: "Lodi has over 100,000 acres of wine grapes. The Delta breeze, coming through the main sea-level gap in the Coast Ranges, cools its hot days."
   }
 ];
