@@ -15072,5 +15072,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "eger",
     explanation: "Eger sits in the foothills of the Bükk mountains. Cool nights keep acidity in the grapes, so its reds are fresher and lighter than those of the warmer south."
+  },
+  {
+    id: "hu-39",
+    type: "connection",
+    country: "Hungary",
+    question: "How does Villány Cabernet Franc usually compare with Loire Cabernet Franc?",
+    options: [
+      "Lighter and greener",
+      "Riper and richer",
+      "Always sweeter",
+      "Lower in tannin and colour"
+    ],
+    answer: 1,
+    region: "villany",
+    explanation: "In Hungary's warmest, sunniest corner, Cabernet Franc ripens fully. It is riper and richer than in the Loire, with red and black berry, pencil shavings and herbs."
   }
 ];
