@@ -14922,5 +14922,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "steiermark",
     explanation: "Steiermark's three DAC districts are Südsteiermark, Vulkanland Steiermark and Weststeiermark. Thermenregion is in Niederösterreich."
+  },
+  {
+    id: "pt-92",
+    type: "connection",
+    country: "Portugal",
+    question: "Alvarinho grows in Monção e Melgaço, beside the Minho river. What is it called across the river in Spain?",
+    options: [
+      "Albariño",
+      "Godello",
+      "Verdejo",
+      "Loureira"
+    ],
+    answer: 0,
+    region: "vinhoVerde",
+    explanation: "Alvarinho is Albariño, the main grape of Rías Baixas across the Minho river in Galicia."
   }
 ];
