@@ -15117,5 +15117,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "nemea",
     explanation: "Agiorgitiko is medium to deep ruby with soft to medium tannin and ripe plum, red cherry and spice. Xinomavro, from Naoussa, is the high-tannin Greek red."
+  },
+  {
+    id: "nw-147",
+    type: "connection",
+    country: "New World",
+    question: "Where is overhead pergola training still used in Argentina?",
+    options: [
+      "Only for top Uco Valley Malbec",
+      "Nowhere: it was banned in 1999",
+      "For bulk wine and for Torrontés",
+      "Only in the coolest Patagonian sites"
+    ],
+    answer: 2,
+    region: "argentina",
+    explanation: "Overhead pergola training is still used for bulk wine and for Torrontés. Hail nets are common, and drip irrigation has replaced flood irrigation in modern vineyards."
   }
 ];
