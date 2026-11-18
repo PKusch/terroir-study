@@ -15327,5 +15327,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "lisboa",
     explanation: "The Serra de Montejunto separates the windswept coastal strip from the more sheltered inland. It also shelters Bucelas from Atlantic storms and rain."
+  },
+  {
+    id: "nw-149",
+    type: "connection",
+    country: "New World",
+    question: "What must the whole tank of juice average for BC Icewine?",
+    options: [
+      "At least 22 degrees Brix",
+      "At least 28 degrees Brix",
+      "At least 45 degrees Brix",
+      "At least 35 degrees Brix"
+    ],
+    answer: 3,
+    region: "britishColumbia",
+    explanation: "Each pressing needs at least 32 degrees Brix, and the tank average at least 35. The finished wine needs at least 100 g/L of residual sugar."
   }
 ];
