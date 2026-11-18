@@ -15297,5 +15297,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "alentejo",
     explanation: "The big vineyards sit on flat land that suits machine harvest, with cork oak woods between them."
+  },
+  {
+    id: "pt-94",
+    type: "connection",
+    country: "Portugal",
+    question: "When does most of the Dão's rain fall?",
+    options: [
+      "In summer, during ripening",
+      "In autumn, at harvest",
+      "In winter",
+      "Evenly through the year"
+    ],
+    answer: 2,
+    region: "dao",
+    explanation: "Winters bring abundant rain, and summers are long, warm and dry. The mountains shield the vines from both continental and maritime extremes."
   }
 ];
