@@ -15147,5 +15147,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "ontario",
     explanation: "Winter cold can injure vines, so cordons are not common, and soil is hilled up to protect the graft union."
+  },
+  {
+    id: "es-290",
+    type: "connection",
+    country: "Spain",
+    question: "At what altitude do most of Bierzo's vineyards lie?",
+    options: [
+      "Below 200 m",
+      "400 to 800 m",
+      "1,000 to 1,500 m",
+      "Above 1,500 m"
+    ],
+    answer: 1,
+    region: "bierzo",
+    explanation: "Vines grow from 355 to 1,200 m, but most lie at 400 to 800 m, in a basin ringed by mountains."
   }
 ];
