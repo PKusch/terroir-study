@@ -295,6 +295,8 @@ On 2026-11-05 Alsace, Ribera del Duero, Yecla, Valdepeñas, Priorat, Cava, Calat
 
 On 2026-11-11 more of the secondary-source questions were checked against official pages, this time in a real browser: UNESCO's own listing confirms the 1,247 Climats of Burgundy and the 2015 listing (and corrected where they run: south of Dijon to Maranges); the Burgundy wine board's figures confirm Grand Cru at under 2% of production, though its documents count regional appellations differently (7 or 23), so that number was taken out of the question; Wines of Greece confirms the Santorini grape shares (85% Assyrtiko for the dry wine, 51% for the sweet) and that Vinsanto grapes are sun-dried; and the German Wine Institute confirms Franken's size (6,040 hectares in 2025). Austria's law site asks visitors to prove they are not a robot, so the Burgenland questions remain on secondary sources.
 
+On 2026-11-16 the 120 questions added from 13 to 15 November were checked against rule books and official pages. About 95 held up. Five were wrong and are fixed: Franciacorta's yield limit is 10 tonnes a hectare, not 12; Castelli di Jesi now needs 2,700 vines a hectare for new plantings; Zweigelt is Austria's most planted red, but not Burgenland's; Franken's soils are mostly Triassic, not all; and Moscatel de Valencia must be made from Moscatel de Alejandría. The Colares ageing question was removed, because no official source for its rule could be found. About a dozen explanations were softened where sources said less than the app did.
+
 A list of which regions the WSET Level 3 specification names, and which of them the app has, is in [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Tech Stack
