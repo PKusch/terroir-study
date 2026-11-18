@@ -30,7 +30,7 @@ point to, not from memory.
 - Make the wrong options as long and as plausible as the right one. `npm test`
   fails if any question has the right answer as the single longest option, and
   `npm run quizcheck` lists the ones that do.
-- Every region needs at least nine questions (a test checks), and every fact
+- Every region needs at least thirteen questions (a test checks), and every fact
   should come from a rule book or an official page; say in the README's "How far
   to trust the facts" when one rests on a secondary source.
 - A new multiple-choice question joins the mock exams automatically. Papers 1 and
