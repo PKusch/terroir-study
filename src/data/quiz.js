@@ -15222,5 +15222,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "laMancha",
     explanation: "At least 15% of the wine must ferment in oak barrels of up to 600 litres."
+  },
+  {
+    id: "es-295",
+    type: "connection",
+    country: "Spain",
+    question: "What do Valdepeñas' pale limestone soils do for the vines?",
+    options: [
+      "Reflect light and store heat",
+      "Hold lots of water and organic matter",
+      "Keep the vines cool and shaded",
+      "Make the soil strongly acidic"
+    ],
+    answer: 0,
+    region: "valdepenas",
+    explanation: "The limestone soils have a pH of 7.5 to 8.5, are poor in organic matter, and reflect light and store heat. With the dry climate they cause water stress and low yields."
   }
 ];
