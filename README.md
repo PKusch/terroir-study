@@ -303,11 +303,11 @@ A list of which regions the WSET Level 3 specification names, and which of them 
 
 ## Tech Stack
 
-- **React 19** — Component-based UI with hooks
-- **Vite** — Fast build tooling
-- **Custom SVG map** — Geographically projected from real lat/lon coordinates (not a library)
-- **GitHub Pages** — Automated deployment via GitHub Actions
-- **No external UI libraries** — All components built from scratch
+- **React 19** draws the screens.
+- **Vite** builds the site.
+- **The map is drawn by hand** from real latitude and longitude, not with a map library.
+- **GitHub Pages** hosts it, and every change to `main` is tested and published automatically.
+- **No outside design kits**: every button and panel is the app's own.
 
 ## Keeping your progress
 
