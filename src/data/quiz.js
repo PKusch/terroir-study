@@ -15282,5 +15282,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "franken",
     explanation: "Cooperatives make about 40% of Franken's production. In Baden their members farm about two-thirds of the vineyard."
+  },
+  {
+    id: "pt-93",
+    type: "connection",
+    country: "Portugal",
+    question: "What often grows between the Alentejo's big vineyards?",
+    options: [
+      "Cork oak woods",
+      "Pine forest on dunes",
+      "Rice paddies",
+      "Terraced olive groves on steep slopes"
+    ],
+    answer: 0,
+    region: "alentejo",
+    explanation: "The big vineyards sit on flat land that suits machine harvest, with cork oak woods between them."
   }
 ];
