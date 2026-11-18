@@ -15162,5 +15162,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "bierzo",
     explanation: "Vines grow from 355 to 1,200 m, but most lie at 400 to 800 m, in a basin ringed by mountains."
+  },
+  {
+    id: "es-291",
+    type: "connection",
+    country: "Spain",
+    question: "About how much rain does DO Valencia get in a year?",
+    options: [
+      "About 150 mm",
+      "About 1,000 mm",
+      "About 1,500 mm",
+      "About 520 mm"
+    ],
+    answer: 3,
+    region: "valencia",
+    explanation: "About 520 mm falls a year, over about 55 rainy days, mainly in spring and autumn. Summers are long, dry and hot."
   }
 ];
