@@ -15252,5 +15252,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "castillaYLeon",
     explanation: "The Cantabrian range lies to the north, the Iberian system to the north-east, the Central system to the south and the Montes de León to the north-west."
+  },
+  {
+    id: "de-94",
+    type: "connection",
+    country: "Germany",
+    question: "Which grape is Baden's Kraichgau known for?",
+    options: [
+      "Gutedel",
+      "Klingelberger",
+      "Silvaner",
+      "Auxerrois"
+    ],
+    answer: 3,
+    region: "baden",
+    explanation: "Kraichgau is known for Auxerrois. Markgräflerland is known for Gutedel (Chasselas), and Ortenau for Riesling, called Klingelberger there."
   }
 ];
