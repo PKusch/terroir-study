@@ -33,6 +33,8 @@ point to, not from memory.
 - Every region needs at least thirteen questions (a test checks), and every fact
   should come from a rule book or an official page; say in the README's "How far
   to trust the facts" when one rests on a secondary source.
+- Use the newest rule book you can find, and note its date. Rules change often:
+  in 2026 alone, Castelli di Jesi raised its vine density and Asti added a rosé.
 - A new multiple-choice question joins the mock exams automatically. Papers 1 and
   2 are frozen and do not change; the new question lands on one of the later
   papers, which appear as the bank grows.
