@@ -15177,5 +15177,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "valencia",
     explanation: "About 520 mm falls a year, over about 55 rainy days, mainly in spring and autumn. Summers are long, dry and hot."
+  },
+  {
+    id: "es-292",
+    type: "connection",
+    country: "Spain",
+    question: "What is 'Jumilla Dulce' in the 2025 rule book?",
+    options: [
+      "A sweet red, rosé or white wine",
+      "A fortified Monastrell aged in a solera",
+      "A dry white from Airén",
+      "A sparkling wine from Monastrell"
+    ],
+    answer: 0,
+    region: "jumilla",
+    explanation: "Jumilla Dulce is a sweet red, rosé or white. The vino de licor is a separate, fortified category, red and from Monastrell only."
   }
 ];
