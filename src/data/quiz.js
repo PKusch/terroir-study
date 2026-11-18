@@ -15267,5 +15267,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "baden",
     explanation: "Kraichgau is known for Auxerrois. Markgräflerland is known for Gutedel (Chasselas), and Ortenau for Riesling, called Klingelberger there."
+  },
+  {
+    id: "de-95",
+    type: "connection",
+    country: "Germany",
+    question: "Roughly what share of Franken's wine do cooperatives make?",
+    options: [
+      "About 10%",
+      "About 40%",
+      "About 70%",
+      "About 90%"
+    ],
+    answer: 1,
+    region: "franken",
+    explanation: "Cooperatives make about 40% of Franken's production. In Baden their members farm about two-thirds of the vineyard."
   }
 ];
