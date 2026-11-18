@@ -333,6 +333,8 @@ readers, because the name is the answer.
 
 ## Run Locally
 
+You need Node 22 or newer.
+
 ```bash
 git clone https://github.com/PKusch/terroir-study.git
 cd terroir-study
