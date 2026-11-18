@@ -15207,5 +15207,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "yecla",
     explanation: "A Yecla vino de licor has 15 to 22% actual alcohol and at least 17.5% in total."
+  },
+  {
+    id: "es-294",
+    type: "connection",
+    country: "Spain",
+    question: "How much of a La Mancha 'fermented in barrel' wine must actually ferment in oak barrels?",
+    options: [
+      "All of it",
+      "At least half",
+      "At least 15%",
+      "None: the term is about ageing"
+    ],
+    answer: 2,
+    region: "laMancha",
+    explanation: "At least 15% of the wine must ferment in oak barrels of up to 600 litres."
   }
 ];
