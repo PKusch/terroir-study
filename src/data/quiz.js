@@ -15237,5 +15237,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "valdepenas",
     explanation: "The limestone soils have a pH of 7.5 to 8.5, are poor in organic matter, and reflect light and store heat. With the dry climate they cause water stress and low yields."
+  },
+  {
+    id: "es-296",
+    type: "connection",
+    country: "Spain",
+    question: "Which mountain range closes off the Castilla y León plateau to the north?",
+    options: [
+      "The Pyrenees",
+      "The Cantabrian range",
+      "The Sierra Nevada",
+      "The Montes de Toledo"
+    ],
+    answer: 1,
+    region: "castillaYLeon",
+    explanation: "The Cantabrian range lies to the north, the Iberian system to the north-east, the Central system to the south and the Montes de León to the north-west."
   }
 ];
