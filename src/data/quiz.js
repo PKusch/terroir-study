@@ -15192,5 +15192,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "jumilla",
     explanation: "Jumilla Dulce is a sweet red, rosé or white. The vino de licor is a separate, fortified category, red and from Monastrell only."
+  },
+  {
+    id: "es-293",
+    type: "connection",
+    country: "Spain",
+    question: "What actual alcohol may a Yecla vino de licor have?",
+    options: [
+      "8 to 11%",
+      "12 to 14%",
+      "15 to 22%",
+      "Over 25%"
+    ],
+    answer: 2,
+    region: "yecla",
+    explanation: "A Yecla vino de licor has 15 to 22% actual alcohol and at least 17.5% in total."
   }
 ];
