@@ -15312,5 +15312,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "dao",
     explanation: "Winters bring abundant rain, and summers are long, warm and dry. The mountains shield the vines from both continental and maritime extremes."
+  },
+  {
+    id: "pt-95",
+    type: "connection",
+    country: "Portugal",
+    question: "Which hills divide the Lisboa region's windswept coast from its sheltered inland?",
+    options: [
+      "The Serra da Estrela range",
+      "The Serra de Montejunto",
+      "The Serra do Caramulo",
+      "The Serra de Monchique"
+    ],
+    answer: 1,
+    region: "lisboa",
+    explanation: "The Serra de Montejunto separates the windswept coastal strip from the more sheltered inland. It also shelters Bucelas from Atlantic storms and rain."
   }
 ];
