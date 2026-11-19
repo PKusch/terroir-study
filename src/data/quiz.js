@@ -12551,7 +12551,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "languedocRoussillon",
-    explanation: "Faugères is one of the few Languedoc appellations where one soil leads: schist. La Clape and Pic Saint-Loup are limestone."
+    explanation: "Faugères is one of the few Languedoc appellations where one soil leads: its INAO description says schist only. La Clape and Pic Saint-Loup are limestone."
   },
   {
     id: "fr-154",
