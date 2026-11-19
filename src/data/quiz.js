@@ -911,14 +911,14 @@ export const QUIZ_QUESTIONS = [
     country: "Italy",
     question: "A Tuscan estate wants to make Vin Santo. Which method is used?",
     options: [
-      "Dry the grapes, then age the wine oxidatively in small sealed barrels",
+      "Dry the grapes, then age the wine oxidatively in small barrels",
       "Stop the fermentation early by chilling the must, as for Moscato d'Asti",
       "Fortify the wine with grape spirit after fermentation, as for Marsala",
       "Wait for noble rot to form on the vine, as in Sauternes"
     ],
     answer: 0,
     region: "tuscany",
-    explanation: "Vin Santo is made from dried grapes, which concentrates the sugar, and is then aged oxidatively in small sealed barrels. Marsala is the fortified wine of the south, and chilling to stop fermentation belongs to Asti, not Tuscany."
+    explanation: "Vin Santo is made from dried grapes, which concentrates the sugar, and is then aged oxidatively in small barrels called caratelli. Marsala is the fortified wine of the south, and chilling to stop fermentation belongs to Asti, not Tuscany."
   },
   {
     id: "it-13",
