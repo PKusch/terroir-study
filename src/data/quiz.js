@@ -15357,5 +15357,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "bordeaux",
     explanation: "Figeac was promoted to join Pavie at the top. Ausone, Cheval Blanc and Angélus withdrew before the 2022 list, and Pétrus is in Pomerol, which has no classification."
+  },
+  {
+    id: "es-297",
+    type: "connection",
+    country: "Spain",
+    question: "Since 2026, what is the minimum alcohol for a Fino Sherry?",
+    options: [
+      "12%",
+      "14%",
+      "15.5%",
+      "17%"
+    ],
+    answer: 1,
+    region: "sherry",
+    explanation: "A 2026 change, published in the EU's official journal, lowered the minimum for Fino and Pale Cream from 15% to 14%. That lets bodegas sell wines aged under flor without fortifying them further."
   }
 ];
