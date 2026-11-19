@@ -10,7 +10,7 @@ export const REGIONS = {
     viticultureNotes: "Blending tradition driven by vintage variation. Left Bank = Cabernet Sauvignon dominant. Right Bank = Merlot dominant.",
     winemaking: "Oak ageing (new French barriques for top wines). Blending is key — balances ripeness across varieties.",
     typicalStyle: "Left Bank: structured, tannic, blackcurrant, cedar. Right Bank: softer, plum, rounder tannins.",
-    qualityLevels: ["Bordeaux AOC", "Bordeaux Supérieur", "Cru Bourgeois (Médoc)", "1855 Classed Growths (Médoc, plus Haut-Brion and Sauternes-Barsac; First to Fifth)", "Saint-Émilion Grand Cru Classé and Premier Grand Cru Classé (A and B), revised about every ten years"],
+    qualityLevels: ["Bordeaux AOC", "Bordeaux Supérieur", "Cru Bourgeois (Médoc)", "1855 Classed Growths (Médoc, plus Haut-Brion and Sauternes-Barsac; First to Fifth)", "Saint-Émilion Grand Cru Classé and Premier Grand Cru Classé (A and B), revised about every ten years; in 2022 only Figeac and Pavie were A, after Ausone, Cheval Blanc and Angélus left"],
     whyConnection: "Gravel soils on Left Bank drain well and retain heat → suits late-ripening Cabernet Sauvignon. Clay on Right Bank retains water → suits earlier-ripening Merlot.",
     color: "#722F37"
   },
