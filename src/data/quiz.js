@@ -15342,5 +15342,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "britishColumbia",
     explanation: "Each pressing needs at least 32 degrees Brix, and the tank average at least 35. The finished wine needs at least 100 g/L of residual sugar."
+  },
+  {
+    id: "fr-169",
+    type: "connection",
+    country: "France",
+    question: "In the 2022 Saint-Émilion classification, which two estates were Premier Grand Cru Classé A?",
+    options: [
+      "Ausone and Cheval Blanc",
+      "Angélus and Ausone",
+      "Figeac and Pavie",
+      "Cheval Blanc and Pétrus"
+    ],
+    answer: 2,
+    region: "bordeaux",
+    explanation: "Figeac was promoted to join Pavie at the top. Ausone, Cheval Blanc and Angélus withdrew before the 2022 list, and Pétrus is in Pomerol, which has no classification."
   }
 ];
