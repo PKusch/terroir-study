@@ -8552,7 +8552,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "nemea",
-    explanation: "It needs 18 months in oak and 18 in bottle. Some wine-education pages give a different figure, but nothing official was found for it."
+    explanation: "Most sources give four years in all for a Grande Réserve red. They disagree on how it splits between oak and bottle (18 months each, or two years each), and no official text was found, so check your course book."
   },
   {
     id: "hu-18",
