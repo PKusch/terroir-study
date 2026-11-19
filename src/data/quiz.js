@@ -1690,7 +1690,7 @@ export const QUIZ_QUESTIONS = [
     country: "New World",
     question: "Which region has a narrow strip of terra rossa, red clay over limestone, at Coonawarra, and old ungrafted Shiraz vines in the Barossa?",
     answer: "australia",
-    explanation: "Coonawarra's terra rossa is a flat, narrow strip of red clay over free-draining limestone beside the Southern Ocean. The Barossa has some of the world's oldest Shiraz vines, still on their own roots because phylloxera never reached South Australia."
+    explanation: "Coonawarra's terra rossa is a flat, narrow strip of red clay over free-draining limestone, 80 to 100 km inland but cooled by the Southern Ocean. The Barossa has some of the world's oldest Shiraz vines, still on their own roots because phylloxera never reached South Australia."
   },
   {
     id: "nw-08",
