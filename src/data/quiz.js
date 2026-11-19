@@ -6865,7 +6865,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "rhoneSouth",
-    explanation: "This is a rule for the grapes as harvested, before any fermentation."
+    explanation: "The rule book sets this minimum for the wine. The grapes have their own sugar minimums, such as 216 g/L for Grenache."
   },
   {
     id: "fr-67",
