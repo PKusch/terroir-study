@@ -15567,5 +15567,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "naoussa",
     explanation: "The Naoussa specification filed with the EU sets Reserve at two years in all, with at least 12 months in oak and 6 in bottle. Grande Reserve needs four years, with at least 18 months in oak and 18 in bottle. The long rest helps soften Xinomavro's high tannin and acidity."
+  },
+  {
+    id: "fr-170",
+    type: "scenario",
+    country: "France",
+    question: "Colmar gets about 600 mm of rain a year, among the lowest in France, though Alsace lies far from the Mediterranean. Why?",
+    options: [
+      "The Rhine valley floor warms the clouds and stops the rain",
+      "The Vosges catch the rain from the west, leaving Colmar in a rain shadow",
+      "The Black Forest across the Rhine blocks the wet winds coming from the east",
+      "Cold air sliding down from the Alps keeps the summer storms away from the town"
+    ],
+    answer: 1,
+    region: "alsace",
+    explanation: "Météo-France's 1991–2020 normal for Colmar-Meyenheim is 595 mm a year. Westerly winds drop their rain on the Vosges, leaving the vineyards on the eastern slopes dry and sunny. The dry weather lets the aromatic grapes ripen without much rot."
   }
 ];
