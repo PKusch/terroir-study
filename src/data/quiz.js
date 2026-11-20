@@ -8552,7 +8552,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "nemea",
-    explanation: "Most sources give four years in all for a Grande Réserve red. They disagree on how it splits between oak and bottle (18 months each, or two years each), and no official text was found, so check your course book."
+    explanation: "The Nemea specification filed with the EU sets four years in all for a Grande Réserve red, with at least 18 months in oak barrels and 18 months in bottle. A Réserve needs two years, with at least 12 months in oak and 6 in bottle."
   },
   {
     id: "hu-18",
