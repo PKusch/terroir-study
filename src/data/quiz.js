@@ -15432,5 +15432,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "villany",
     explanation: "The limestone drains the hills and adds structure and a mineral edge. With Hungary's warmest climate, that gives reds closer to Bordeaux or the Loire's warmer sites than the lighter reds of the north."
+  },
+  {
+    id: "es-299",
+    type: "connection",
+    country: "Spain",
+    question: "How do Ribera del Duero's poor limestone and clay soils shape the wine?",
+    options: [
+      "They hold so much water that the wine tastes dilute",
+      "They keep yields small, so the wine is concentrated",
+      "They add natural sweetness to the ripe grapes",
+      "They make the vines ripen very early, in July"
+    ],
+    answer: 1,
+    region: "riberaDelDuero",
+    explanation: "Poor, well-drained limestone and clay keep yields low. Hot days, cold nights and a short season then give concentrated, structured Tempranillo."
   }
 ];
