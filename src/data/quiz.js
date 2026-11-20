@@ -15552,5 +15552,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "argentina",
     explanation: "Mendoza sits in the Andes' rain shadow with almost no rain in the growing season. Vines grow only where snowmelt can be carried to them in channels."
+  },
+  {
+    id: "gr-41",
+    type: "scenario",
+    country: "Greece",
+    question: "A Naoussa producer has a Xinomavro that spent 12 months in oak and 6 in bottle, two years in all. Which label can it carry?",
+    options: [
+      "Grande Reserve, because of the oak time",
+      "Reserve, the first of the two ageing labels",
+      "Neither, because Reserve needs 3 years",
+      "Grande Reserve, because it is all Xinomavro"
+    ],
+    answer: 1,
+    region: "naoussa",
+    explanation: "The Naoussa specification filed with the EU sets Reserve at two years in all, with at least 12 months in oak and 6 in bottle. Grande Reserve needs four years, with at least 18 months in oak and 18 in bottle. The long rest helps soften Xinomavro's high tannin and acidity."
   }
 ];
