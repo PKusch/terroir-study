@@ -15,6 +15,13 @@ for (const q of QUIZ_QUESTIONS) {
   if (counts.has(key)) counts.set(key, counts.get(key) + 1);
   if (q.topic) topics.set(q.topic, (topics.get(q.topic) ?? 0) + 1);
 }
+// A "why" question asks for a reason or a choice (a scenario, or one that
+// starts "Why" or "How does"); the rest ask the reader to recall a fact.
+// WSET Level 3 rewards explaining causes, so a region with few "why"
+// questions is worth topping up.
+const isWhy = (q) => q.type === "scenario" || /^(why|how does|how do)\b/i.test(q.question);
+let why = 0, recall = 0;
+for (const q of QUIZ_QUESTIONS) if (q.options) (isWhy(q) ? why++ : recall++);
 const rows = [...counts].sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0]));
 
 if (process.argv.includes("--md")) {
@@ -26,3 +33,4 @@ if (process.argv.includes("--md")) {
   for (const [region, n] of rows) console.log(`${String(n).padStart(4)}  ${region}`);
   console.log("\nTopics: " + [...topics].map(([t, n]) => `${t} ${n}`).join(", "));
 }
+console.log(`\nMultiple choice: ${why} ask why or what to do, ${recall} ask to recall a fact.`);
