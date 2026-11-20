@@ -27,7 +27,9 @@ point to, not from memory.
 - A multiple-choice question has four options, an `answer` index, a `region` key
   and an `explanation` that says why. The quiz and the mock exam shuffle the
   options, so their stored order does not matter to the player.
-- Prefer a question that asks why, or what a grower or winemaker should do, over\n  one that only asks for a number: the exam rewards explaining causes.\n- Make the wrong options as long and as plausible as the right one. `npm test`
+- Prefer a question that asks why, or what a grower or winemaker should do, over
+  one that only asks for a number: the exam rewards explaining causes.
+- Make the wrong options as long and as plausible as the right one. `npm test`
   fails if any question has the right answer as the single longest option, and
   `npm run quizcheck` lists the ones that do.
 - Every region needs at least thirteen questions (a test checks), and every fact
