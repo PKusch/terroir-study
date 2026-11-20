@@ -15447,5 +15447,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "riberaDelDuero",
     explanation: "Poor, well-drained limestone and clay keep yields low. Hot days, cold nights and a short season then give concentrated, structured Tempranillo."
+  },
+  {
+    id: "es-300",
+    type: "connection",
+    country: "Spain",
+    question: "Why do Montsant's grapes ripen with a strong difference between day and night temperatures?",
+    options: [
+      "The vineyards sit right on the Mediterranean beach",
+      "Constant Atlantic fog keeps the nights warm and damp",
+      "It lies in a deep river gorge that no wind reaches",
+      "The mountains partly shield it from the sea"
+    ],
+    answer: 3,
+    region: "montsant",
+    explanation: "The mountains ring Priorat and partly shield Montsant from the sea, so days are hot and nights cool at ripening. That keeps the old Garnacha and Cariñena fresh as well as ripe."
   }
 ];
