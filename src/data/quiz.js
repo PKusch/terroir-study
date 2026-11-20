@@ -15462,5 +15462,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "montsant",
     explanation: "The mountains ring Priorat and partly shield Montsant from the sea, so days are hot and nights cool at ripening. That keeps the old Garnacha and Cariñena fresh as well as ripe."
+  },
+  {
+    id: "es-301",
+    type: "connection",
+    country: "Spain",
+    question: "How does old-vine Garnacha in Calatayud keep its freshness despite hot summer days?",
+    options: [
+      "Irrigation keeps the grapes cool through the summer",
+      "Cool sea breezes blow in every afternoon",
+      "High vineyards and cold nights slow ripening",
+      "The grapes are picked in July, before the heat"
+    ],
+    answer: 2,
+    region: "calatayud",
+    explanation: "Most of the vineyard is at 650 to 900 m. Cold nights slow ripening, so acidity survives, and old, low-yielding bush vines on poor soils add concentration."
   }
 ];
