@@ -15417,5 +15417,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "burgenland",
     explanation: "Burgenland's reds are aged either in large old casks for freshness or in small barriques for more structure. Large old casks add little oak flavour, so the fruit stays in front."
+  },
+  {
+    id: "hu-40",
+    type: "connection",
+    country: "Hungary",
+    question: "Why do Villány's limestone hills suit its red wines?",
+    options: [
+      "The limestone holds water and keeps the vines cool",
+      "The limestone gives the wines sweetness",
+      "The limestone stops noble rot from forming",
+      "The limestone drains well and adds structure"
+    ],
+    answer: 3,
+    region: "villany",
+    explanation: "The limestone drains the hills and adds structure and a mineral edge. With Hungary's warmest climate, that gives reds closer to Bordeaux or the Loire's warmer sites than the lighter reds of the north."
   }
 ];
