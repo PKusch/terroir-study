@@ -27,7 +27,7 @@ point to, not from memory.
 - A multiple-choice question has four options, an `answer` index, a `region` key
   and an `explanation` that says why. The quiz and the mock exam shuffle the
   options, so their stored order does not matter to the player.
-- Make the wrong options as long and as plausible as the right one. `npm test`
+- Prefer a question that asks why, or what a grower or winemaker should do, over\n  one that only asks for a number: the exam rewards explaining causes.\n- Make the wrong options as long and as plausible as the right one. `npm test`
   fails if any question has the right answer as the single longest option, and
   `npm run quizcheck` lists the ones that do.
 - Every region needs at least thirteen questions (a test checks), and every fact
@@ -46,7 +46,7 @@ npm install
 npm test           # the tests over the data and the logic, no browser needed
 npm run dev        # the app, for a visual change
 npm run readme     # update the counts the README quotes after adding content
-npm run coverage   # questions per region, fewest first, and per topic
+npm run coverage   # questions per region, fewest first, per topic, and why vs recall
 npm run quizcheck  # quiz questions where the right answer is the longest option
 ```
 
