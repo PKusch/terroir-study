@@ -29,7 +29,7 @@ export const GREECE_REGIONS = {
     viticultureNotes: "Xinomavro ('acid black') is the grape: late-ripening, thin-skinned and high in both acidity and tannin. It needs a warm site and a long season; at lower altitude it ripens more easily, higher up it keeps more freshness. It is often compared with Nebbiolo.",
     winemaking: "Aged in oak and bottle for some time to soften the tannin and acidity. Traditional producers use large old oak; others use barriques. PDO Naoussa covers only red wine made entirely from Xinomavro, in dry to semi-sweet styles; rosé and sparkling Xinomavro are also made, but outside the PDO.",
     typicalStyle: "Xinomavro: pale to medium ruby, quick to show garnet, high acidity and high tannin; red cherry, tomato, olive, dried herbs and a savoury note. With age it gains leather and truffle. Like Nebbiolo, it is firm and structured when young.",
-    qualityLevels: ["Epitrapezios (table wine)", "PGI Macedonia", "PDO Naoussa", "PDO Naoussa Reserve / Grande Reserve (longer ageing)"],
+    qualityLevels: ["Epitrapezios (table wine)", "PGI Macedonia", "PDO Naoussa", "PDO Naoussa Reserve (2 years: 12 months oak, 6 bottle)", "PDO Naoussa Grande Reserve (4 years: 18 months oak, 18 bottle)"],
     whyConnection: "A late-ripening, thin-skinned grape on cool mountain slopes → the fruit holds high acidity and structure. Time in oak and bottle softens tannin → dry, savoury reds that need ageing to show at their best.",
     color: "#7B2C3F"
   },
