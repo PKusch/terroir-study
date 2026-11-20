@@ -15402,5 +15402,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "castillaYLeon",
     explanation: "The IGP covers every municipality in Castilla y León, so growers outside DOs such as Ribera del Duero or Rueda, and grapes those DOs do not permit, can still be sold under a regional name."
+  },
+  {
+    id: "at-40",
+    type: "scenario",
+    country: "Austria",
+    question: "A Burgenland producer wants a fresher, more fruit-led Blaufränkisch. Which oak choice fits?",
+    options: [
+      "Small new barriques, for more structure",
+      "Large old casks",
+      "No contact with oak or steel at all",
+      "Two years in new American oak"
+    ],
+    answer: 1,
+    region: "burgenland",
+    explanation: "Burgenland's reds are aged either in large old casks for freshness or in small barriques for more structure. Large old casks add little oak flavour, so the fruit stays in front."
   }
 ];
