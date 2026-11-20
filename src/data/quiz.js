@@ -15477,5 +15477,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "calatayud",
     explanation: "Most of the vineyard is at 650 to 900 m. Cold nights slow ripening, so acidity survives, and old, low-yielding bush vines on poor soils add concentration."
+  },
+  {
+    id: "es-302",
+    type: "connection",
+    country: "Spain",
+    question: "Why are DO Valencia's wines often intensely aromatic and deeply coloured?",
+    options: [
+      "Water stress and a big day-night swing",
+      "Long, cold winters with heavy snowfall",
+      "Very high yields from rich, wet soils",
+      "Ageing every wine for years in new oak"
+    ],
+    answer: 0,
+    region: "valencia",
+    explanation: "The DO puts its high aromatic intensity and marked colour down to water stress in long, dry summers and the big difference between day and night."
   }
 ];
