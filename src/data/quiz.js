@@ -15507,5 +15507,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "yecla",
     explanation: "About 300 mm of rain, over 3,000 hours of sun and poor, lime-rich soils hold yields down and ripen Monastrell fully."
+  },
+  {
+    id: "es-304",
+    type: "scenario",
+    country: "Spain",
+    question: "A La Mancha grower wants a bigger crop from the same land. Which change do the rules reward?",
+    options: [
+      "Moving the vineyard to a north-facing slope",
+      "Planting more Airén among the Tempranillo",
+      "Picking the whole crop a month earlier",
+      "Switching from bush vines to trellises"
+    ],
+    answer: 3,
+    region: "laMancha",
+    explanation: "Trellised vines may yield up to 13,000 kg/ha, against 10,000 kg/ha for bush vines. Dry-farmed bush vines cope better with drought, but give less."
   }
 ];
