@@ -45,7 +45,7 @@ export const GREECE_REGIONS = {
     viticultureNotes: "Agiorgitiko ('St George') is the only grape. Vineyards are grouped by altitude: the low, warm ones give soft, jammy wines; the mid-altitude ones are balanced; the high, cool ones give fresher wines with higher acidity, which many producers prize. The altitude zones are informal and are not part of the PDO rules.",
     winemaking: "Dry red wines, from easy, fruity styles in stainless steel to oak-aged Reserve and Grande Reserve. PDO Nemea is for red wine only, made entirely from Agiorgitiko: dry, semi-sweet, and sweet (fortified, or from dried grapes, in small amounts).",
     typicalStyle: "Agiorgitiko: medium to deep ruby, medium to full body, soft to medium tannin, ripe plum, red cherry, spice and sometimes chocolate; the high-altitude wines are fresher and brighter.",
-    qualityLevels: ["Epitrapezios (table wine)", "PGI Peloponnese", "PDO Nemea", "PDO Nemea Reserve / Grande Reserve"],
+    qualityLevels: ["Epitrapezios (table wine)", "PGI Peloponnese", "PDO Nemea", "PDO Nemea Reserve (2 years: 12 months oak, 6 bottle)", "PDO Nemea Grande Reserve (4 years: 18 months oak, 18 bottle)"],
     whyConnection: "The same grape in different places → altitude changes the style. Warm lowlands ripen Agiorgitiko to soft, jammy fruit; cooler nights at altitude keep its acidity and freshness → the best vineyards are usually in the middle or the heights.",
     color: "#B5651D"
   }
