@@ -15537,5 +15537,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "pfalz",
     explanation: "The Haardt's rain shadow makes the Pfalz warm and dry, so Riesling ripens fully. Dry is the natural style, fuller and higher in alcohol, without the sweetness the Mosel uses for balance."
+  },
+  {
+    id: "nw-150",
+    type: "connection",
+    country: "New World",
+    question: "Why do Mendoza's vineyards follow the rivers and irrigation channels?",
+    options: [
+      "The river valleys are the only flat land there",
+      "It is a desert, so snowmelt is the only water",
+      "Phylloxera cannot cross the river water",
+      "The law requires every vineyard to be by a river"
+    ],
+    answer: 1,
+    region: "argentina",
+    explanation: "Mendoza sits in the Andes' rain shadow with almost no rain in the growing season. Vines grow only where snowmelt can be carried to them in channels."
   }
 ];
