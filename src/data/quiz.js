@@ -15387,5 +15387,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "franciacorta",
     explanation: "Toast and biscuit come from time on the lees after the second fermentation. A Riserva needs at least 60 months, against 18 for non-vintage. Satèn's lower pressure softens the bubbles, not the flavour."
+  },
+  {
+    id: "es-298",
+    type: "connection",
+    country: "Spain",
+    question: "Why does a single IGP covering all of Castilla y León matter to growers?",
+    options: [
+      "It replaces Ribera and Rueda as the region's top quality level",
+      "It lets grapes from anywhere in Spain go into the blend",
+      "Wines outside the DOs can still carry a regional name",
+      "It guarantees a higher price than any DO wine can get"
+    ],
+    answer: 2,
+    region: "castillaYLeon",
+    explanation: "The IGP covers every municipality in Castilla y León, so growers outside DOs such as Ribera del Duero or Rueda, and grapes those DOs do not permit, can still be sold under a regional name."
   }
 ];
