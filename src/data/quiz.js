@@ -15522,5 +15522,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "laMancha",
     explanation: "Trellised vines may yield up to 13,000 kg/ha, against 10,000 kg/ha for bush vines. Dry-farmed bush vines cope better with drought, but give less."
+  },
+  {
+    id: "de-96",
+    type: "connection",
+    country: "Germany",
+    question: "Why does Pfalz Riesling not need sweetness to taste balanced, unlike much Mosel Riesling?",
+    options: [
+      "Warmth ripens it fully, so it feels fuller",
+      "Pfalz Riesling has almost no acidity left",
+      "The law bans sweet wine in the whole Pfalz",
+      "It is always aged for years in new oak barrels"
+    ],
+    answer: 0,
+    region: "pfalz",
+    explanation: "The Haardt's rain shadow makes the Pfalz warm and dry, so Riesling ripens fully. Dry is the natural style, fuller and higher in alcohol, without the sweetness the Mosel uses for balance."
   }
 ];
