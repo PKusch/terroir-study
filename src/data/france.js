@@ -73,7 +73,7 @@ export const REGIONS = {
   alsace: {
     name: "Alsace",
     climate: "Cool continental (dry)",
-    climateDetail: "Vosges Mountains create rain shadow — one of driest regions in France. Cold winters, warm dry summers.",
+    climateDetail: "The Vosges Mountains create a rain shadow, making Alsace one of the driest regions in France: Colmar averages about 600 mm of rain a year (595 mm, Météo-France 1991–2020). Cold winters, warm dry summers.",
     keyGrapes: { red: ["Pinot Noir"], white: ["Riesling", "Gewurztraminer", "Pinot Gris", "Muscat", "Pinot Blanc"] },
     subRegions: ["Alsace AOC", "Alsace Grand Cru", "Crémant d'Alsace", "Colmar", "Riquewihr", "Ribeauvillé", "Kaysersberg", "Eguisheim", "Barr"],
     subRegionsLabel: "Wine villages",
