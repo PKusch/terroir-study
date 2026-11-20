@@ -15492,5 +15492,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "valencia",
     explanation: "The DO puts its high aromatic intensity and marked colour down to water stress in long, dry summers and the big difference between day and night."
+  },
+  {
+    id: "es-303",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Yecla's Monastrell give low yields of very ripe grapes?",
+    options: [
+      "Heavy rain and deep, fertile river soils",
+      "Cool sea fog lying over it all summer",
+      "Little rain, lots of sun and poor soils",
+      "Frequent summer hail that thins the crop"
+    ],
+    answer: 2,
+    region: "yecla",
+    explanation: "About 300 mm of rain, over 3,000 hours of sun and poor, lime-rich soils hold yields down and ripen Monastrell fully."
   }
 ];
