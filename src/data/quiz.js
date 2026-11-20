@@ -15372,5 +15372,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "sherry",
     explanation: "A 2026 change, published in the EU's official journal, lowered the minimum for Fino and Pale Cream from 15% to 14%. That lets bodegas sell wines aged under flor without fortifying them further."
+  },
+  {
+    id: "it-155",
+    type: "scenario",
+    country: "Italy",
+    question: "A Franciacorta producer wants a wine with deep toasty, biscuit notes. Which choice gives them most?",
+    options: [
+      "Bottling it as Satèn, at a lower pressure",
+      "Long time on the lees, as for a Riserva",
+      "Picking the grapes later, for riper fruit",
+      "Adding more of the local Erbamat grape"
+    ],
+    answer: 1,
+    region: "franciacorta",
+    explanation: "Toast and biscuit come from time on the lees after the second fermentation. A Riserva needs at least 60 months, against 18 for non-vintage. Satèn's lower pressure softens the bubbles, not the flavour."
   }
 ];
