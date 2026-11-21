@@ -15807,5 +15807,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "valencia",
     explanation: "DO Valencia has four sub-zones, from the high Alto Turia to the low Moscatel de Valencia area. Different heights and climates give a wide range of styles, including the fortified sweet Moscatel de Valencia."
+  },
+  {
+    id: "es-309",
+    type: "scenario",
+    country: "Spain",
+    question: "La Mancha has 300 to 350 mm of rain a year and summers near 45 °C. Why are bush vines traditional there?",
+    options: [
+      "They give the biggest crops of any training system",
+      "They are the only shape the rules allow",
+      "They cope with drought without needing irrigation",
+      "They lift the grapes high above the hot ground"
+    ],
+    answer: 2,
+    region: "laMancha",
+    explanation: "On La Mancha's huge, flat, dry plateau, low bush vines can be dry-farmed and cope with drought. Trellised vines are allowed a bigger crop (13,000 kg/ha against 10,000)."
   }
 ];
