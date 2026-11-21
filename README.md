@@ -362,6 +362,7 @@ npm run dev
 - [x] Facts fact-checked against sources, with the gaps listed above
 - [x] Second fact-check, November 2026: the newest questions and every region's notes checked again against rule books
 - [x] Last open facts closed, 2026-11-20: Greek Reserve ageing, Maury, Colmar's rainfall, Crémant de Bordeaux
+- [x] More why questions, 2026-11-20 to 2026-11-21: 24 reasoning questions for the regions that leaned most on recall
 - [x] Sub-region drill-down maps (Zoom into any region: 439 places marked across 77 regions)
 - [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
