@@ -16062,5 +16062,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "rioja",
     explanation: "In the Rioja blend Graciano adds acidity and aroma, Mazuelo adds tannin and Garnacha adds body and alcohol. Viura is a white grape."
+  },
+  {
+    id: "de-104",
+    type: "scenario",
+    country: "Germany",
+    question: "A buyer tastes a fuller Rheingau Riesling from the east and a leaner one from the west. What explains it?",
+    options: [
+      "The east has deep loess and loam soils",
+      "The west gets far more sun than the east",
+      "The east is planted mostly with Pinot Noir",
+      "The west is the only part on the river"
+    ],
+    answer: 0,
+    region: "rheingau",
+    explanation: "The steep western end, near Rüdesheim, is slate and quartzite. The gentler eastern slopes have deeper loess, loam and clay, which give fuller wines."
   }
 ];
