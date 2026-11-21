@@ -15822,5 +15822,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "laMancha",
     explanation: "On La Mancha's huge, flat, dry plateau, low bush vines can be dry-farmed and cope with drought. Trellised vines are allowed a bigger crop (13,000 kg/ha against 10,000)."
+  },
+  {
+    id: "es-310",
+    type: "scenario",
+    country: "Spain",
+    question: "Why are Cariñena's grapes usually healthy, with low yields?",
+    options: [
+      "Hot summers, cold winters, the dry cierzo",
+      "Constant sea breezes and heavy summer rain",
+      "Frequent autumn fog that slows ripening",
+      "Rich, deep soils that hold plenty of water"
+    ],
+    answer: 0,
+    region: "carinena",
+    explanation: "Cariñena has very hot summers, cold winters and the cierzo, a cold, dry north-west wind. Dry air keeps rot away, and the dry, hot conditions keep yields low."
   }
 ];
