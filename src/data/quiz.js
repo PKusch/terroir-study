@@ -15582,5 +15582,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "alsace",
     explanation: "Météo-France's 1991–2020 normal for Colmar-Meyenheim is 595 mm a year. Westerly winds drop their rain on the Vosges, leaving the vineyards on the eastern slopes dry and sunny. The dry weather lets the aromatic grapes ripen without much rot."
+  },
+  {
+    id: "it-156",
+    type: "scenario",
+    country: "Italy",
+    question: "Why do Trento DOC's vineyards at about 200–800 m suit a sparkling base wine?",
+    options: [
+      "Warm days and cold nights keep the high acidity a base wine needs",
+      "The height lets the grapes reach very high sugar for a strong wine",
+      "Volcanic soils at that height add the bubbles before bottling",
+      "Lake Garda's warmth stops the grapes ever losing acidity at all"
+    ],
+    answer: 0,
+    region: "trentinoAltoAdige",
+    explanation: "Big swings between day and night temperature at altitude slow ripening and keep acidity high. A sparkling base wine needs that acidity, because its second fermentation and long lees ageing add richness that must be balanced."
   }
 ];
