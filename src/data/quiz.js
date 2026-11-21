@@ -15702,5 +15702,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "nemea",
     explanation: "Low, warm Nemea vineyards give soft, jammy wines; higher ones keep more acidity and freshness. Acidity helps a red last through long ageing, which is why many producers prize the mid and high slopes."
+  },
+  {
+    id: "es-305",
+    type: "scenario",
+    country: "Spain",
+    question: "Why do Castilla y León's reds tend to be deeply coloured and able to take long oak ageing?",
+    options: [
+      "Hot days and cold nights on a high plateau",
+      "Sea breezes from the Atlantic cool the vines every afternoon",
+      "The law requires all reds to spend two years in new oak barrels",
+      "Its very wet climate swells the berries and darkens their skins"
+    ],
+    answer: 0,
+    region: "castillaYLeon",
+    explanation: "More than 98% of the land is above 600 m. Hot summer days and cold nights give slow ripening that keeps fruit and colour, so the reds are powerful, deep and well structured, with the capacity for long oak ageing."
   }
 ];
