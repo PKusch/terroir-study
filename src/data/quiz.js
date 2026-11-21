@@ -15597,5 +15597,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "trentinoAltoAdige",
     explanation: "Big swings between day and night temperature at altitude slow ripening and keep acidity high. A sparkling base wine needs that acidity, because its second fermentation and long lees ageing add richness that must be balanced."
+  },
+  {
+    id: "it-157",
+    type: "scenario",
+    country: "Italy",
+    question: "Why is Verdicchio di Matelica usually more structured and slower to open than Castelli di Jesi?",
+    options: [
+      "It is made only as a sweet passito, so it needs more time",
+      "It needs at least 95% Verdicchio, against 85% in Jesi",
+      "It lies inland, with no sea influence and harsher seasons",
+      "Its vineyards sit right on the coast, so salt slows the wine down"
+    ],
+    answer: 2,
+    region: "marche",
+    explanation: "Jesi is about 20 km from the sea and gets sea breezes. Matelica lies inland, at 250–700 m, in a valley with no marine influence, very cold winters and hot summers. That gives a more structured wine that is slower to open. Both DOCs need at least 85% Verdicchio."
   }
 ];
