@@ -16047,5 +16047,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rioja",
     explanation: "The Cantabrian mountains block the Atlantic. The cooler west gives elegant, high-acid Tempranillo, the warmer east ripe Garnacha with body and alcohol. Blending them gives a balanced wine."
+  },
+  {
+    id: "es-313",
+    type: "scenario",
+    country: "Spain",
+    question: "A Rioja producer finds the blend a little flat and short on perfume. Which grape could they add?",
+    options: [
+      "Garnacha, for more alcohol",
+      "Mazuelo, for more tannin",
+      "Viura, for more colour",
+      "Graciano, for aroma"
+    ],
+    answer: 3,
+    region: "rioja",
+    explanation: "In the Rioja blend Graciano adds acidity and aroma, Mazuelo adds tannin and Garnacha adds body and alcohol. Viura is a white grape."
   }
 ];
