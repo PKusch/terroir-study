@@ -15912,5 +15912,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "steiermark",
     explanation: "Steiermark's vineyards sit on steep hills that drain well and catch the sun. Warm days and cool nights let Sauvignon Blanc ripen fully while keeping its high acidity."
+  },
+  {
+    id: "gr-43",
+    type: "scenario",
+    country: "Greece",
+    question: "Santorini is one of Europe's hottest, driest vineyards. Why are its whites still crisp?",
+    options: [
+      "Assyrtiko keeps its acidity in great heat",
+      "The grapes are always picked in early July",
+      "The wines are made with added acid by law",
+      "The island gets heavy rain in late summer"
+    ],
+    answer: 0,
+    region: "santorini",
+    explanation: "Assyrtiko holds its acidity even in great heat. That is why Santorini makes crisp, mineral whites despite almost no rain and hot, dry summers."
   }
 ];
