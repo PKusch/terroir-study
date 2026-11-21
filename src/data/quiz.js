@@ -15627,5 +15627,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "lazio",
     explanation: "The Alban Hills get breezes from the Tyrrhenian Sea, and their tuff and pozzolana soils drain well. Together they give the light, fresh, simple whites Frascati is known for."
+  },
+  {
+    id: "it-159",
+    type: "scenario",
+    country: "Italy",
+    question: "Why is rain at harvest a special worry for Sangiovese growers in the Chianti hills?",
+    options: [
+      "Sangiovese ripens early, so it is already picked before the rain",
+      "Rain makes the galestro soil too rich and the vines grow too much",
+      "Sangiovese is thin-skinned and still hanging in autumn",
+      "Rain washes the colour out of the grapes, so only rosé can be made"
+    ],
+    answer: 2,
+    region: "tuscany",
+    explanation: "Sangiovese ripens late and has thin skins. It is often still on the vine when autumn rain comes, and thin skins split and rot more easily. The notes list rain at harvest as a Tuscan risk."
   }
 ];
