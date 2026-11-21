@@ -15987,5 +15987,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "baden",
     explanation: "The Black Forest and the Vosges shelter the Rhine valley, and warm Mediterranean air comes in through the Burgundian Gate. The Kaiserstuhl is Germany's warmest area, so grapes ripen fully and wines are fuller and stronger."
+  },
+  {
+    id: "de-103",
+    type: "scenario",
+    country: "Germany",
+    question: "Baden is in EU wine zone B, unlike the rest of Germany. What does that mean for its grapes?",
+    options: [
+      "They must reach higher must weights",
+      "They may be picked at lower ripeness",
+      "They may not be used for red wine",
+      "They must all be machine-harvested"
+    ],
+    answer: 0,
+    region: "baden",
+    explanation: "Baden is the only German region in EU wine zone B, the warmer zone. Its grapes must reach higher must weights, meaning riper grapes with more sugar, than elsewhere in Germany."
   }
 ];
