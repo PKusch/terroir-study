@@ -15687,5 +15687,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "burgundy",
     explanation: "Burgundy's Chardonnay ranges from the steely style of Chablis, on Kimmeridgian limestone, to the richer style of Meursault. Barrel fermentation and lees stirring (bâtonnage) add the rich, buttery texture."
+  },
+  {
+    id: "gr-42",
+    type: "scenario",
+    country: "Greece",
+    question: "A Nemea producer plans a Grande Reserve that will age four years before sale. Which vineyards suit it best, and why?",
+    options: [
+      "The lowest, warmest ones, because jammy fruit lasts longest",
+      "The higher ones, as fresher acidity helps it age",
+      "Any vineyard at all, because Agiorgitiko does not change with altitude",
+      "The sandy lowland plots, because sand gives the most tannin"
+    ],
+    answer: 1,
+    region: "nemea",
+    explanation: "Low, warm Nemea vineyards give soft, jammy wines; higher ones keep more acidity and freshness. Acidity helps a red last through long ageing, which is why many producers prize the mid and high slopes."
   }
 ];
