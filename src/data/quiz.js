@@ -15897,5 +15897,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "franken",
     explanation: "Franken has a continental climate with cold winters, and frost is a risk every year. That is why harvests vary widely and vines go on sheltered sites along the Main and the Steigerwald."
+  },
+  {
+    id: "at-42",
+    type: "scenario",
+    country: "Austria",
+    question: "Steiermark is one of Austria's coolest, wettest regions. How does Sauvignon Blanc still ripen fully?",
+    options: [
+      "Vines grow on flat valley floors that hold heat",
+      "Grapes are left to dry on mats after picking",
+      "Every vineyard is covered in plastic tunnels",
+      "Steep, well-drained hills catch the sun"
+    ],
+    answer: 3,
+    region: "steiermark",
+    explanation: "Steiermark's vineyards sit on steep hills that drain well and catch the sun. Warm days and cool nights let Sauvignon Blanc ripen fully while keeping its high acidity."
   }
 ];
