@@ -15972,5 +15972,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "pfalz",
     explanation: "The Pfalz lies on foothills and a plain, with gentler slopes than the steep Mosel banks. Machines can work there, while much of the Mosel must be worked by hand."
+  },
+  {
+    id: "de-102",
+    type: "scenario",
+    country: "Germany",
+    question: "Why are Baden's wines usually fuller-bodied and higher in alcohol than other German wines?",
+    options: [
+      "Its growers add sugar to every wine by law",
+      "Its vines are on cold north slopes by the Rhine",
+      "Shelter, and warm air from the south",
+      "It makes only sweet wines from dried grapes"
+    ],
+    answer: 2,
+    region: "baden",
+    explanation: "The Black Forest and the Vosges shelter the Rhine valley, and warm Mediterranean air comes in through the Burgundian Gate. The Kaiserstuhl is Germany's warmest area, so grapes ripen fully and wines are fuller and stronger."
   }
 ];
