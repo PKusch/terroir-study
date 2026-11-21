@@ -16107,5 +16107,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "castillaYLeon",
     explanation: "The Castilla y León rule book describes its rosés as fresh with red-fruit aromas, and fuller-bodied when made from the local Prieto Picudo. Verdejo, Albillo Mayor and Viura are white grapes."
+  },
+  {
+    id: "hu-42",
+    type: "scenario",
+    country: "Hungary",
+    question: "How do the Villány hills help its late-ripening red grapes?",
+    options: [
+      "They catch rain clouds and water the vines",
+      "They give sunny slopes and shelter",
+      "They cast shade that slows ripening",
+      "They block the sun so the grapes stay fresh"
+    ],
+    answer: 1,
+    region: "villany",
+    explanation: "Villány is Hungary's warmest, sunniest corner. Its hills give south-facing slopes and some protection from the cold, so late-ripening grapes such as Cabernet Franc ripen fully."
   }
 ];
