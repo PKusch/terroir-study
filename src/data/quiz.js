@@ -15612,5 +15612,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "marche",
     explanation: "Jesi is about 20 km from the sea and gets sea breezes. Matelica lies inland, at 250–700 m, in a valley with no marine influence, very cold winters and hot summers. That gives a more structured wine that is slower to open. Both DOCs need at least 85% Verdicchio."
+  },
+  {
+    id: "it-158",
+    type: "scenario",
+    country: "Italy",
+    question: "Frascati is made near Rome, where summers are warm and dry. What keeps it a light, fresh white?",
+    options: [
+      "Long ageing in new oak barrels before it is bottled",
+      "Sea breezes and well-drained volcanic soils",
+      "A legal rule that the grapes are picked in early July",
+      "Thick-skinned red grapes added to give the wine acidity"
+    ],
+    answer: 1,
+    region: "lazio",
+    explanation: "The Alban Hills get breezes from the Tyrrhenian Sea, and their tuff and pozzolana soils drain well. Together they give the light, fresh, simple whites Frascati is known for."
   }
 ];
