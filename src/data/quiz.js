@@ -16017,5 +16017,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "argentina",
     explanation: "Mendoza's soils are alluvial sand, gravel and stones washed down from the Andes. Sandy soils are a poor home for the phylloxera louse."
+  },
+  {
+    id: "nw-153",
+    type: "scenario",
+    country: "New World",
+    question: "A Mendoza grower dreads the zonda wind at flowering. Why?",
+    options: [
+      "It is hot and dry and can damage the crop",
+      "It brings heavy rain that causes rot in the bunches",
+      "It is so cold it freezes the buds overnight",
+      "It carries salt from the sea onto the leaves"
+    ],
+    answer: 0,
+    region: "argentina",
+    explanation: "The zonda is a hot, dry wind off the Andes. It stresses vines and can damage them, especially at flowering, when the crop is being set."
   }
 ];
