@@ -15657,5 +15657,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "piedmont",
     explanation: "Nebbiolo is pale but high in both acid and tannin. Young Barolo is firm and closed; years in bottle soften the tannin and bring out tar, rose and dried herb notes. That structure is also why it can age for decades."
+  },
+  {
+    id: "fr-171",
+    type: "scenario",
+    country: "France",
+    question: "Why does the quality of Burgundy's wine change so much from one year to the next?",
+    options: [
+      "Producers change the grape varieties they plant every few years",
+      "The rules let each village pick a new grape for each vintage",
+      "Frost, hail and a cool climate make ripening uncertain",
+      "The region is so hot that some years the wines are far too alcoholic"
+    ],
+    answer: 2,
+    region: "burgundy",
+    explanation: "Burgundy has cold winters, warm summers and real risks of spring frost and summer hail. Pinot Noir and Chardonnay ripen there, but only just, so the weather of each year shows strongly in the wine."
   }
 ];
