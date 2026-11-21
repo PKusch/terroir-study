@@ -15672,5 +15672,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "burgundy",
     explanation: "Burgundy has cold winters, warm summers and real risks of spring frost and summer hail. Pinot Noir and Chardonnay ripen there, but only just, so the weather of each year shows strongly in the wine."
+  },
+  {
+    id: "fr-172",
+    type: "scenario",
+    country: "France",
+    question: "Chablis is often steely and mineral, while Meursault can be rich and buttery. Both are Chardonnay. What explains much of the gap?",
+    options: [
+      "Meursault is a blend of Chardonnay with a large share of Pinot Noir",
+      "Chablis is a sweet wine, which hides the butter flavour from the oak",
+      "Chablis is made by the traditional method, so it has no barrel character",
+      "Meursault is often barrel-fermented with lees stirring, adding richness"
+    ],
+    answer: 3,
+    region: "burgundy",
+    explanation: "Burgundy's Chardonnay ranges from the steely style of Chablis, on Kimmeridgian limestone, to the richer style of Meursault. Barrel fermentation and lees stirring (bâtonnage) add the rich, buttery texture."
   }
 ];
