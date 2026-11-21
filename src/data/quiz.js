@@ -16092,5 +16092,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "rheingau",
     explanation: "The western end near Rüdesheim and Assmannshausen is steep slate and quartzite and is worked by hand. The gentler middle of the Rheingau can be mechanised."
+  },
+  {
+    id: "es-314",
+    type: "scenario",
+    country: "Spain",
+    question: "A Castilla y León producer wants a fuller-bodied rosé. Which local grape does the region's rule book link to that style?",
+    options: [
+      "Verdejo",
+      "Albillo Mayor",
+      "Prieto Picudo",
+      "Viura"
+    ],
+    answer: 2,
+    region: "castillaYLeon",
+    explanation: "The Castilla y León rule book describes its rosés as fresh with red-fruit aromas, and fuller-bodied when made from the local Prieto Picudo. Verdejo, Albillo Mayor and Viura are white grapes."
   }
 ];
