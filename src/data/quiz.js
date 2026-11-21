@@ -16077,5 +16077,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "rheingau",
     explanation: "The steep western end, near Rüdesheim, is slate and quartzite. The gentler eastern slopes have deeper loess, loam and clay, which give fuller wines."
+  },
+  {
+    id: "de-105",
+    type: "scenario",
+    country: "Germany",
+    question: "Why must the western end of the Rheingau be worked by hand?",
+    options: [
+      "Its grapes are too delicate for machines",
+      "Its slopes are too steep for machines",
+      "The law bans tractors near Rüdesheim",
+      "The vines there grow on high pergolas"
+    ],
+    answer: 1,
+    region: "rheingau",
+    explanation: "The western end near Rüdesheim and Assmannshausen is steep slate and quartzite and is worked by hand. The gentler middle of the Rheingau can be mechanised."
   }
 ];
