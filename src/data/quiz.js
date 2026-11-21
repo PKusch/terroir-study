@@ -15867,5 +15867,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "nahe",
     explanation: "The Nahe has almost every kind of rock in one small region: rhyolite, melaphyre, sandstone, slate, clay, limestone, quartzite and loess. Sites side by side can sit on quite different soils, so their wines differ."
+  },
+  {
+    id: "de-98",
+    type: "scenario",
+    country: "Germany",
+    question: "A Rheinhessen grower wants a site for a serious Silvaner. Which kind of site suits it best?",
+    options: [
+      "A flat sandy plot used for bulk wine",
+      "A shaded north slope with heavy wet clay",
+      "A limestone site such as Westhofen's Kirchspiel",
+      "Any site, since Silvaner shows no soil differences"
+    ],
+    answer: 2,
+    region: "rheinhessen",
+    explanation: "Rheinhessen's limestone sites, such as Dalsheim's Hubacker and Westhofen's Kirchspiel, suit Silvaner and Riesling. Those sites, and the red slate of the Roter Hang, have led the region's rise in quality."
   }
 ];
