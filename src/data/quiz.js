@@ -16002,5 +16002,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "baden",
     explanation: "Baden is the only German region in EU wine zone B, the warmer zone. Its grapes must reach higher must weights, meaning riper grapes with more sugar, than elsewhere in Germany."
+  },
+  {
+    id: "nw-152",
+    type: "scenario",
+    country: "New World",
+    question: "Why has phylloxera been less of a problem in many Mendoza vineyards?",
+    options: [
+      "Cold winters freeze the louse every year",
+      "The law requires every vine to be grafted",
+      "Sandy soils are a poor home for it",
+      "The vines are flooded with salt water"
+    ],
+    answer: 2,
+    region: "argentina",
+    explanation: "Mendoza's soils are alluvial sand, gravel and stones washed down from the Andes. Sandy soils are a poor home for the phylloxera louse."
   }
 ];
