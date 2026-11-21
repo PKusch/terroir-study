@@ -15717,5 +15717,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "castillaYLeon",
     explanation: "More than 98% of the land is above 600 m. Hot summer days and cold nights give slow ripening that keeps fruit and colour, so the reds are powerful, deep and well structured, with the capacity for long oak ageing."
+  },
+  {
+    id: "at-41",
+    type: "scenario",
+    country: "Austria",
+    question: "Burgenland's Beerenauslese and Trockenbeerenauslese are intensely sweet. Why do they not taste cloying?",
+    options: [
+      "They are fortified, and the spirit hides the sugar",
+      "They are always drunk young, before the sweetness builds up",
+      "Their high acidity balances the sugar",
+      "The botrytis removes most of the sugar from the grapes"
+    ],
+    answer: 2,
+    region: "burgenland",
+    explanation: "Noble rot concentrates sugar and acidity together. The sweet wines of the Neusiedler See taste of apricot, honey and marmalade, but their high acidity keeps them balanced."
   }
 ];
