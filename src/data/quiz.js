@@ -15882,5 +15882,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "rheinhessen",
     explanation: "Rheinhessen's limestone sites, such as Dalsheim's Hubacker and Westhofen's Kirchspiel, suit Silvaner and Riesling. Those sites, and the red slate of the Roter Hang, have led the region's rise in quality."
+  },
+  {
+    id: "de-99",
+    type: "scenario",
+    country: "Germany",
+    question: "Why do Franken's harvests vary so much from year to year?",
+    options: [
+      "The rules change the yield limit every year",
+      "Frost is a risk there every single year",
+      "The Main floods the low vineyards most summers",
+      "Growers switch grapes after each harvest"
+    ],
+    answer: 1,
+    region: "franken",
+    explanation: "Franken has a continental climate with cold winters, and frost is a risk every year. That is why harvests vary widely and vines go on sheltered sites along the Main and the Steigerwald."
   }
 ];
