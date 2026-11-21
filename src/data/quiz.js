@@ -15762,5 +15762,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "franciacorta",
     explanation: "Franciacorta is a glacial moraine bowl with the lake to the north and the Alps behind. The shelter and free-draining soils let Chardonnay and Pinot Nero ripen while holding the acidity a sparkling wine needs."
+  },
+  {
+    id: "es-306",
+    type: "scenario",
+    country: "Spain",
+    question: "Why do Montsant's best reds tend to be structured and mineral?",
+    options: [
+      "Old bush vines on poor llicorella, granite and limestone",
+      "Young, high-yielding vines on rich valley loam",
+      "Long ageing in large chestnut casks, as the law requires",
+      "Sea fog that keeps the grapes from ripening"
+    ],
+    answer: 0,
+    region: "montsant",
+    explanation: "Montsant has many old Garnacha and Cariñena bush vines, some a century old, on poor soils: llicorella slate, granite sands and limestone. Low yields from old vines on poor soil give structured, mineral reds."
   }
 ];
