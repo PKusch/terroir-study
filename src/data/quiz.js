@@ -15852,5 +15852,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "bierzo",
     explanation: "Bierzo is a mountain-ringed basin with a climate between oceanic and continental, about 720–790 mm of rain and a day–night range of about 16 °C. Cool nights keep acidity, giving fresh, structured Mencía. Irrigation is banned except for young vines."
+  },
+  {
+    id: "de-97",
+    type: "scenario",
+    country: "Germany",
+    question: "Why can two neighbouring Nahe vineyards give very different Rieslings?",
+    options: [
+      "Each village must use a different yeast by law",
+      "The river floods every other site each spring",
+      "Half the region may only grow red grapes by law",
+      "Sites side by side often sit on different rocks"
+    ],
+    answer: 3,
+    region: "nahe",
+    explanation: "The Nahe has almost every kind of rock in one small region: rhyolite, melaphyre, sandstone, slate, clay, limestone, quartzite and loess. Sites side by side can sit on quite different soils, so their wines differ."
   }
 ];
