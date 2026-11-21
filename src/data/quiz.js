@@ -15927,5 +15927,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "santorini",
     explanation: "Assyrtiko holds its acidity even in great heat. That is why Santorini makes crisp, mineral whites despite almost no rain and hot, dry summers."
+  },
+  {
+    id: "nw-151",
+    type: "scenario",
+    country: "New World",
+    question: "Why is irrigation essential in Washington's Columbia Valley?",
+    options: [
+      "Its soils are heavy clay that holds too much water",
+      "The law requires every vine to be watered daily",
+      "Its summers are cloudy, so vines need extra water",
+      "A rain shadow leaves only 6–8 inches of rain"
+    ],
+    answer: 3,
+    region: "washington",
+    explanation: "The Cascades and the Olympics cast a rain shadow, so the Columbia Valley gets only 6 to 8 inches of rain a year. Water from the Columbia, Snake, Yakima and Walla Walla rivers makes vines possible in this desert."
   }
 ];
