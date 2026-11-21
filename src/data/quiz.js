@@ -15837,5 +15837,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "carinena",
     explanation: "Cariñena has very hot summers, cold winters and the cierzo, a cold, dry north-west wind. Dry air keeps rot away, and the dry, hot conditions keep yields low."
+  },
+  {
+    id: "es-311",
+    type: "scenario",
+    country: "Spain",
+    question: "Why is Bierzo's Mencía fresher than many reds from the hot Spanish plateau?",
+    options: [
+      "A climate between oceanic and continental",
+      "Its grapes must be picked before they ripen",
+      "All its vines are irrigated every summer",
+      "It is aged only in stainless steel"
+    ],
+    answer: 0,
+    region: "bierzo",
+    explanation: "Bierzo is a mountain-ringed basin with a climate between oceanic and continental, about 720–790 mm of rain and a day–night range of about 16 °C. Cool nights keep acidity, giving fresh, structured Mencía. Irrigation is banned except for young vines."
   }
 ];
