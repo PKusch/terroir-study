@@ -16032,5 +16032,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "argentina",
     explanation: "The zonda is a hot, dry wind off the Andes. It stresses vines and can damage them, especially at flowering, when the crop is being set."
+  },
+  {
+    id: "es-312",
+    type: "scenario",
+    country: "Spain",
+    question: "Why has Rioja traditionally blended grapes from its three zones?",
+    options: [
+      "The law bans wine from a single zone",
+      "Cool west plus warm east gives balance",
+      "Each zone grows only one grape variety",
+      "The zones are too small to make wine alone"
+    ],
+    answer: 1,
+    region: "rioja",
+    explanation: "The Cantabrian mountains block the Atlantic. The cooler west gives elegant, high-acid Tempranillo, the warmer east ripe Garnacha with body and alcohol. Blending them gives a balanced wine."
   }
 ];
