@@ -15747,5 +15747,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "villany",
     explanation: "The Villány PDO has three tiers, Classicus, Premium and Super Premium, and each step up asks for lower yields and longer ageing. Super Premium Cabernet Franc is sold as Villányi Franc."
+  },
+  {
+    id: "it-161",
+    type: "scenario",
+    country: "Italy",
+    question: "How do Lake Iseo and the Alps help Franciacorta's Chardonnay and Pinot Nero?",
+    options: [
+      "Shelter lets grapes ripen yet keep acidity",
+      "They bring heavy rain, which makes the grapes large and juicy",
+      "They block the sun, so the grapes never ripen and stay sharp",
+      "They supply the glacier water that is added to each bottle"
+    ],
+    answer: 0,
+    region: "franciacorta",
+    explanation: "Franciacorta is a glacial moraine bowl with the lake to the north and the Alps behind. The shelter and free-draining soils let Chardonnay and Pinot Nero ripen while holding the acidity a sparkling wine needs."
   }
 ];
