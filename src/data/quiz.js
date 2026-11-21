@@ -15792,5 +15792,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "calatayud",
     explanation: "Calatayud's strength is old, low, bush-trained Garnacha on poor, stony, lime-rich soils. Old vines on poor ground give small crops of concentrated fruit. The top tier, Calatayud Superior, asks for vines over 50 years old."
+  },
+  {
+    id: "es-308",
+    type: "scenario",
+    country: "Spain",
+    question: "Why can one DO, Valencia, make styles from fresh reds to sweet Moscatel?",
+    options: [
+      "Four sub-zones, from high hills to the low coast",
+      "It buys in grapes from all over Spain every single year",
+      "Its rules require every grape to be blended together",
+      "It has a single small vineyard with many grape types"
+    ],
+    answer: 0,
+    region: "valencia",
+    explanation: "DO Valencia has four sub-zones, from the high Alto Turia to the low Moscatel de Valencia area. Different heights and climates give a wide range of styles, including the fortified sweet Moscatel de Valencia."
   }
 ];
