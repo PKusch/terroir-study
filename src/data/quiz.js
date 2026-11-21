@@ -15777,5 +15777,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "montsant",
     explanation: "Montsant has many old Garnacha and Cariñena bush vines, some a century old, on poor soils: llicorella slate, granite sands and limestone. Low yields from old vines on poor soil give structured, mineral reds."
+  },
+  {
+    id: "es-307",
+    type: "scenario",
+    country: "Spain",
+    question: "A buyer wants a concentrated Calatayud Garnacha. Which vineyard is most likely to give it?",
+    options: [
+      "A young trellised vineyard on rich soil, heavily watered",
+      "A low, valley-floor plot planted last year for a big crop",
+      "An old, low bush vine on a stony, lime-rich slope",
+      "A white-grape vineyard picked early for freshness"
+    ],
+    answer: 2,
+    region: "calatayud",
+    explanation: "Calatayud's strength is old, low, bush-trained Garnacha on poor, stony, lime-rich soils. Old vines on poor ground give small crops of concentrated fruit. The top tier, Calatayud Superior, asks for vines over 50 years old."
   }
 ];
