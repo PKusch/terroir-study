@@ -15957,5 +15957,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "pfalz",
     explanation: "The Haardt hills, the northern end of the Vosges, block rain from the west. The Pfalz gets sunny summers and dry autumns, so rot is less of a problem than drought."
+  },
+  {
+    id: "de-101",
+    type: "scenario",
+    country: "Germany",
+    question: "Why can more vineyard work be done by machine in the Pfalz than in the Mosel?",
+    options: [
+      "The rules ban hand-picking in the Pfalz",
+      "Its slopes are gentler than the Mosel's",
+      "Its vines are trained far higher off the ground",
+      "Pfalz grapes are too small to pick by hand"
+    ],
+    answer: 1,
+    region: "pfalz",
+    explanation: "The Pfalz lies on foothills and a plain, with gentler slopes than the steep Mosel banks. Machines can work there, while much of the Mosel must be worked by hand."
   }
 ];
