@@ -15732,5 +15732,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "burgenland",
     explanation: "Noble rot concentrates sugar and acidity together. The sweet wines of the Neusiedler See taste of apricot, honey and marmalade, but their high acidity keeps them balanced."
+  },
+  {
+    id: "hu-41",
+    type: "scenario",
+    country: "Hungary",
+    question: "A Villány producer wants a Cabernet Franc to qualify for the Super Premium tier as a Villányi Franc. What must change compared with Classicus?",
+    options: [
+      "Higher yields and a shorter time in oak",
+      "Lower yields and longer ageing",
+      "A blend with at least half Kékfrankos",
+      "Grapes from the cooler north of Hungary"
+    ],
+    answer: 1,
+    region: "villany",
+    explanation: "The Villány PDO has three tiers, Classicus, Premium and Super Premium, and each step up asks for lower yields and longer ageing. Super Premium Cabernet Franc is sold as Villányi Franc."
   }
 ];
