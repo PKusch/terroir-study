@@ -15942,5 +15942,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "washington",
     explanation: "The Cascades and the Olympics cast a rain shadow, so the Columbia Valley gets only 6 to 8 inches of rain a year. Water from the Columbia, Snake, Yakima and Walla Walla rivers makes vines possible in this desert."
+  },
+  {
+    id: "de-100",
+    type: "scenario",
+    country: "Germany",
+    question: "In the Pfalz, why is drought more of a worry than rot?",
+    options: [
+      "The Haardt hills block rain, so autumns are dry",
+      "Its vines grow in low sand that floods every winter",
+      "Sea fog rolls in each morning and soaks the grapes",
+      "Its grapes are all picked in midsummer before the rain"
+    ],
+    answer: 0,
+    region: "pfalz",
+    explanation: "The Haardt hills, the northern end of the Vosges, block rain from the west. The Pfalz gets sunny summers and dry autumns, so rot is less of a problem than drought."
   }
 ];
