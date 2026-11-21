@@ -15642,5 +15642,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "tuscany",
     explanation: "Sangiovese ripens late and has thin skins. It is often still on the vine when autumn rain comes, and thin skins split and rot more easily. The notes list rain at harvest as a Tuscan risk."
+  },
+  {
+    id: "it-160",
+    type: "scenario",
+    country: "Italy",
+    question: "Why does a young Barolo usually need years in bottle before it is at its best?",
+    options: [
+      "Nebbiolo gives high acidity and high tannin, which soften with time",
+      "Nebbiolo has very little flavour until it has spent ten years in oak",
+      "Barolo is sweet when young and only turns dry after bottle ageing",
+      "Barolo is bottled with its yeast, which must settle before it is drunk"
+    ],
+    answer: 0,
+    region: "piedmont",
+    explanation: "Nebbiolo is pale but high in both acid and tannin. Young Barolo is firm and closed; years in bottle soften the tannin and bring out tar, rose and dried herb notes. That structure is also why it can age for decades."
   }
 ];
