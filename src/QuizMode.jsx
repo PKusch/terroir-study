@@ -3,6 +3,8 @@ import { withShuffledOptions } from "./random.js";
 import { quizShortcut } from "./shortcuts.js";
 import { useTwoStep } from "./useTwoStep.js";
 import { REGIONS, COUNTRIES } from "./data/regions.js";
+import { loadDays, markStudied } from "./studyplan.js";
+import { StudyPlan } from "./StudyPlan.jsx";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import {
   loadProgress,
@@ -32,6 +34,8 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
   const [showAnswer, setShowAnswer] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
   const [mapAnswer, setMapAnswer] = useState(null);
+  // The days you answered at least one question, for the study streak.
+  const [studyDays, setStudyDays] = useState(() => loadDays());
 
   // Options are shuffled once per question, so the right one is not always in
   // the same place it is stored.
@@ -67,6 +71,7 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
     const next = recordAnswer(progress, q.id, correct);
     setProgress(next);
     saveProgress(next);
+    setStudyDays(markStudied());
   };
 
   // Handle map clicks from parent
@@ -346,6 +351,8 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
           Next Question →
         </button>
       )}
+
+      <StudyPlan days={studyDays} unseen={progressSummary(QUIZ_QUESTIONS, progress).unseen} />
 
       {/* Weak areas: regions you have answered at least twice, weakest first */}
       {weak.length > 0 && (
