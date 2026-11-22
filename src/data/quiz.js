@@ -16727,5 +16727,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "lazio",
     explanation: "Frascati Superiore Riserva needs at least 12 months of ageing from 1 November of the harvest year, 3 of them in bottle, and at least 13% alcohol. Plain Superiore has no minimum ageing."
+  },
+  {
+    id: "it-165",
+    type: "connection",
+    country: "Italy",
+    question: "How does Cannellino di Frascati become sweet?",
+    options: [
+      "Sugar is added before fermentation",
+      "Grape spirit is added to stop fermentation",
+      "Late-picked grapes, which may be partly dried",
+      "Sweet grape must is blended in after bottling"
+    ],
+    answer: 2,
+    region: "lazio",
+    explanation: "Cannellino is made from late-picked grapes, which may be partly dried, and keeps at least 35 g/L of sugar. Adding sugar to raise its alcohol is banned. Noble rot can occur in the late-picked grapes but is not required."
   }
 ];
