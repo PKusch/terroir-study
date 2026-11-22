@@ -11,6 +11,8 @@ import {
   buildFindRound,
   buildNameRound,
   buildPlaceRound,
+  buildRecallRound,
+  matchesRegion,
   placeView,
   targetPoint,
   judgePlacement,
@@ -40,7 +42,8 @@ const choiceButton = (on) => ({
 const poolSize = (drill, country) => (drill === "place" ? placeTargets(country).length : regionKeys(country).length);
 
 const newRound = (drill, country) =>
-  drill === "find" ? buildFindRound(country) : drill === "name" ? buildNameRound(country) : buildPlaceRound(country);
+  drill === "find" ? buildFindRound(country) : drill === "name" ? buildNameRound(country)
+  : drill === "recall" ? buildRecallRound(country) : buildPlaceRound(country);
 
 export const MapDrill = ({ onStudyRegion }) => {
   const [phase, setPhase] = useState("setup"); // setup | running | done
@@ -51,7 +54,9 @@ export const MapDrill = ({ onStudyRegion }) => {
   const [results, setResults] = useState([]);
   // What happened on the question on screen, or null before an answer:
   //   find: { clicked }   name: { picked }   place: { click, result, distance }
+  //   recall: { typed }
   const [answer, setAnswer] = useState(null);
+  const [typed, setTyped] = useState("");
 
   const available = poolSize(drill, country);
   const length = Math.min(ROUND_LENGTH, available);
@@ -63,6 +68,7 @@ export const MapDrill = ({ onStudyRegion }) => {
     setIndex(0);
     setResults([]);
     setAnswer(null);
+    setTyped("");
     setPhase("running");
   };
 
@@ -71,6 +77,15 @@ export const MapDrill = ({ onStudyRegion }) => {
   const regionKey = item ? (drill === "name" ? item.key : drill === "place" ? item.region : item) : null;
 
   const record = (correct, labelText, key) => setResults((r) => [...r, { key, label: labelText, correct }]);
+
+  // recall: a typed name, checked when the form is sent (an empty one counts
+  // as "I don't know")
+  const submitRecall = (e) => {
+    e.preventDefault();
+    if (drill !== "recall" || answer) return;
+    setAnswer({ typed });
+    record(matchesRegion(typed, item), REGIONS[item].name, item);
+  };
 
   // find: a click on a region of the map
   const onRegionClick = (clicked) => {
@@ -109,6 +124,7 @@ export const MapDrill = ({ onStudyRegion }) => {
     } else {
       setIndex(index + 1);
       setAnswer(null);
+      setTyped("");
     }
   };
 
@@ -117,6 +133,12 @@ export const MapDrill = ({ onStudyRegion }) => {
   useEffect(() => {
     if (answer) nextButton.current?.focus();
   }, [answer]);
+
+  // Recall it: the name box takes focus for each new region.
+  const recallBox = useRef(null);
+  useEffect(() => {
+    if (phase === "running" && drill === "recall" && !answer) recallBox.current?.focus();
+  }, [phase, drill, index, answer]);
 
   // Keys: 1 to 4 answer a "name it" question; Enter or N moves on.
   useEffect(() => {
@@ -251,6 +273,8 @@ export const MapDrill = ({ onStudyRegion }) => {
     }
   } else if (drill === "name") {
     activeRegion = item.key;
+  } else if (drill === "recall") {
+    activeRegion = item;
   } else {
     const { view } = placeView(item.region);
     viewBox = view.box;
@@ -275,7 +299,7 @@ export const MapDrill = ({ onStudyRegion }) => {
 
   const prompt =
     drill === "find" ? (<>Click <strong style={{ color: region.color }}>{region.name}</strong> on the map</>)
-    : drill === "name" ? "Which region is lit up?"
+    : drill === "name" || drill === "recall" ? "Which region is lit up?"
     : (<>Click where <strong style={{ color: region.color }}>{item.name}</strong> is, in {region.name}</>);
 
   return (
@@ -320,11 +344,23 @@ export const MapDrill = ({ onStudyRegion }) => {
         </div>
       )}
 
+      {drill === "recall" && (
+        <form onSubmit={submitRecall} style={{ display: "flex", gap: "8px", marginBottom: "12px", flexWrap: "wrap" }}>
+          <label htmlFor="recall-name" className="visually-hidden">Name of the region lit up</label>
+          <input id="recall-name" ref={recallBox} value={typed} onChange={(e) => setTyped(e.target.value)} disabled={Boolean(answer)}
+            autoComplete="off" placeholder="Type the region's name"
+            style={{ flex: "1 1 200px", background: "#141210", color: "#E8E4D9", border: "1px solid #3a3530",
+              borderRadius: "8px", padding: "10px 12px", fontSize: "14px", fontFamily: "inherit" }} />
+          {!answer && <button type="submit" style={{ ...primaryButton }}>{typed.trim() ? "Check" : "I don't know"}</button>}
+        </form>
+      )}
+
       {answer && (
         <div role="status" style={{ ...card, marginBottom: "12px", fontSize: "13px", lineHeight: "1.6",
           color: last.correct ? green : drill === "place" && answer.result === "close" ? gold : red }}>
           {drill === "find" && (last.correct ? `Correct, that is ${region.name}.` : `That was ${REGIONS[answer.clicked]?.name ?? "somewhere else"}. ${region.name} is lit up.`)}
           {drill === "name" && (last.correct ? `Correct, it is ${region.name}.` : `Not quite. It is ${region.name}.`)}
+          {drill === "recall" && (last.correct ? `Correct, it is ${region.name}.` : answer.typed.trim() ? `Not quite. It is ${region.name}.` : `It is ${region.name}.`)}
           {drill === "place" && (answer.result === "hit" ? `Right on it: ${item.name}.`
             : answer.result === "close" ? `Close, but not quite. ${item.name} is where the black dot is.`
             : `Missed. ${item.name} is where the black dot is.`)}
