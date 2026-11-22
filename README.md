@@ -122,6 +122,17 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 
 **✍️ Written** — Practice for the written part of the theory paper, which has four questions of 25 marks each and needs 55% on its own. The app asks a question about one region, using WSET's command words (identify, describe, explain, each with WSET's meaning shown). You can stick to one kind of question (climate and soils, growing and making, styles, or quality levels). You write your answer, then see the points from that region's notes and tick the ones you made. *Full 25-mark question* sets a whole question in the shape of WSET's sample paper: parts on climate and soils, growing and making, styles and quality levels, each with its marks, then a service or food part such as storing a cork-sealed wine, decanting a mature Vintage Port, opening sparkling wine or matching a chilli dish. Each part has its own answer box; the points from the notes then show as a model answer, and each part earns one mark per point ticked, up to its marks, out of 25. It is a self-check, not WSET's mark scheme, which WSET does not publish, and nothing is saved.
 
+### The exam at a glance
+
+| Part of the WSET Level 3 exam | What it asks | Where to practise here |
+|---|---|---|
+| Theory: multiple choice | 50 questions, one mark each, 55% to pass | ✦ Quiz, and 📝 Mock exam › *Multiple choice* |
+| Theory: written | Four questions of 25 marks, split into parts, 55% to pass on its own | ✍️ Written › *One question* or *Full 25-mark question* |
+| Both theory parts together | Two hours in one sitting | 📝 Mock exam › *Full theory paper* |
+| Service and food | Marks inside written questions 3 and 4, and some multiple choice | 🍾 Styles › *Service* and *Food*, and the Quiz's *Service* filter |
+| Tasting | Two wines, written up with WSET's tasting grid | 🍷 Taste › *Describe a wine* and *Spot the errors* |
+| Where things are | Asked across every part | 🗺️ Explore and 📍 Map drill |
+
 ## Regions Covered
 
 | | Country | Regions |
