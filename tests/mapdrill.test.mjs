@@ -13,8 +13,8 @@ import { countryOf } from "../src/data/projections.js";
 // A deterministic rng that counts up and wraps, so shuffles are reproducible.
 const counter = () => { let i = 0; return () => ((i++ * 0.37) % 1); };
 
-test("the three drills are listed with a name and what to do", () => {
-  assert.deepEqual(DRILLS.map((d) => d.id), ["find", "name", "place"]);
+test("the four drills are listed with a name and what to do", () => {
+  assert.deepEqual(DRILLS.map((d) => d.id), ["find", "name", "place", "recall"]);
   for (const d of DRILLS) assert.ok(d.label && d.note);
 });
 
@@ -111,4 +111,30 @@ test("a round is summarised as a score, with the misses kept", () => {
   assert.equal(r.percent, 50);
   assert.deepEqual(r.missed.map((m) => m.key), ["b", "d"]);
   assert.deepEqual(summariseRound([]), { total: 0, correct: 0, percent: 0, missed: [] });
+});
+
+test("recall: a typed name matches the region, its parts, and small slips", async () => {
+  const { matchesRegion, acceptedNames, DRILLS, buildRecallRound } = await import("../src/mapdrill.js");
+  assert.ok(DRILLS.some((d) => d.id === "recall"));
+  assert.ok(matchesRegion("Bordeaux", "bordeaux"));
+  assert.ok(matchesRegion("  bordeaux ", "bordeaux"));
+  assert.ok(matchesRegion("Bordaux", "bordeaux"), "one slip is forgiven");
+  assert.ok(!matchesRegion("Burgundy", "bordeaux"));
+  assert.ok(matchesRegion("Jerez", "sherry") && matchesRegion("sherry", "sherry"));
+  assert.ok(matchesRegion("Alto Adige", "trentinoAltoAdige") && matchesRegion("trentino alto adige", "trentinoAltoAdige"));
+  assert.ok(!matchesRegion("Northern Rhone", "rhoneSouth") && matchesRegion("Northern Rhone", "rhoneNorth"));
+  assert.ok(matchesRegion("Penedes", "penedes"), "accents are ignored");
+  assert.ok(!matchesRegion("", "bordeaux"));
+  assert.ok(!matchesRegion("Tok", "tokaj"), "too short to count");
+  assert.equal(buildRecallRound("All", 10).length, 10);
+});
+
+test("recall: every region has at least one name to type, and none answers for another", async () => {
+  const { acceptedNames, matchesRegion, regionKeys } = await import("../src/mapdrill.js");
+  const keys = regionKeys("All");
+  for (const k of keys) {
+    const names = acceptedNames(k);
+    assert.ok(names.length > 0, k);
+    for (const other of keys) if (other !== k) assert.ok(!matchesRegion(names[0], other), `typing ${names[0]} also answers ${other}`);
+  }
 });

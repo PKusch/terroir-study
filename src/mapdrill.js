@@ -6,6 +6,8 @@
 //   name  - a region lights up on the map, and you pick its name from four
 //   place - you get a village or district, and click where it is on the
 //           zoomed map of its region
+//   recall - a region lights up, and you type its name with no options to
+//           choose from, like labelling a blank map
 // A round is ten questions. Nothing here is saved: it is practice, and the
 // quiz's own progress is left alone.
 import { REGIONS, COUNTRIES } from "./data/regions.js";
@@ -19,7 +21,8 @@ export const ROUND_LENGTH = 10;
 export const DRILLS = [
   { id: "find", label: "Find it", note: "You get a name. Click it on the map." },
   { id: "name", label: "Name it", note: "A region lights up. Pick its name." },
-  { id: "place", label: "Place it", note: "You get a village or district. Click where it is." }
+  { id: "place", label: "Place it", note: "You get a village or district. Click where it is." },
+  { id: "recall", label: "Recall it", note: "A region lights up. Type its name, with no options." }
 ];
 
 // Every region that has a shape on a map, for one country or all of them.
@@ -105,3 +108,47 @@ export function summariseRound(results) {
   const missed = results.filter((r) => !r.correct);
   return { total, correct, percent: total === 0 ? 0 : Math.round((correct / total) * 100), missed };
 }
+
+// ── Recall it ───────────────────────────────────────────────────────────────
+// A typed name is right if it matches the region's name or one part of it, so
+// "Jerez" and "Sherry" both answer "Sherry (Jerez)", and "Alto Adige" answers
+// "Trentino-Alto Adige". Case, accents, hyphens and a leading "the" are
+// ignored, and one slip of a letter is forgiven in an answer of five letters
+// or more, as long as no other region is just as close.
+export const normaliseName = (s) =>
+  String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+    .replace(/[-–'’.]/g, " ").replace(/[^a-z0-9 ]/g, "").replace(/^the /, "").replace(/\s+/g, " ").trim();
+
+export function acceptedNames(key) {
+  const name = REGIONS[key]?.name ?? "";
+  const parts = [name, name.replace(/\(.*\)/, ""), ...(name.match(/\(([^)]+)\)/) ?? []).slice(1)];
+  for (const sep of ["-", "/"]) if (name.includes(sep) && !name.includes("(")) parts.push(...name.split(sep));
+  // A part that is another region's own name ("Penedès" in "Cava (Penedès)")
+  // does not count, or it would answer two regions.
+  const others = new Set(Object.entries(REGIONS).filter(([k]) => k !== key).map(([, r]) => normaliseName(r.name)));
+  return [...new Set(parts.map(normaliseName).filter((p) => p.length >= 3 && (p === normaliseName(name) || !others.has(p))))];
+}
+
+function editDistance(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++)
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+
+const distanceTo = (t, key) => Math.min(...acceptedNames(key).map((n) => editDistance(n, t)));
+
+export function matchesRegion(typed, key) {
+  const t = normaliseName(typed);
+  if (!t) return false;
+  if (acceptedNames(key).includes(t)) return true;
+  if (t.length < 5) return false;
+  const mine = distanceTo(t, key);
+  if (mine > 1) return false;
+  // A slip only counts if no other region is just as close.
+  return regionKeys("All").every((k) => k === key || distanceTo(t, k) > mine);
+}
+
+export const buildRecallRound = buildFindRound;
