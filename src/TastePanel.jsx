@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useTwoStep } from "./useTwoStep.js";
+import { NoteDrill } from "./NoteDrill.jsx";
 import { REGIONS } from "./data/regions.js";
 import { GRAPES } from "./data/grapes.js";
 import {
@@ -23,7 +24,7 @@ const LEVEL_LABEL = { low: "Low", medium: "Medium", high: "High" };
 
 const emptyGiven = () => ({ body: null, acidity: null, tannin: null, aromas: [] });
 
-export const TastePanel = ({ region }) => {
+const TasteExercise = ({ region }) => {
   // A new wine is drawn from the selected region each time it changes, and
   // from a random region after "Next wine".
   const [exercise, setExercise] = useState(() => buildExercise(REGIONS, GRAPES, Math.random, region));
@@ -319,6 +320,34 @@ export const TastePanel = ({ region }) => {
           </button>
         </>
       )}
+    </div>
+  );
+};
+
+// The Taste tab has two exercises: describing a named wine, and spotting the
+// wording mistakes in someone else's tasting note.
+const MODES = [
+  { id: "describe", label: "Describe a wine" },
+  { id: "errors", label: "Spot the errors" }
+];
+
+export const TastePanel = ({ region }) => {
+  const [mode, setMode] = useState("describe");
+  return (
+    <div>
+      <div role="group" aria-label="Tasting exercise" style={{ display: "flex", gap: "6px", marginBottom: "12px", flexWrap: "wrap" }}>
+        {MODES.map((m) => (
+          <button key={m.id} aria-pressed={m.id === mode} onClick={() => setMode(m.id)} style={{
+            padding: "6px 14px", borderRadius: "6px", fontSize: "11px", letterSpacing: "0.1em",
+            textTransform: "uppercase", cursor: "pointer",
+            background: m.id === mode ? "#C4A962" : "transparent",
+            color: m.id === mode ? "#1a1a1a" : "#8B7355",
+            border: m.id === mode ? "none" : "1px solid #2a2520",
+            fontWeight: m.id === mode ? "600" : "400"
+          }}>{m.label}</button>
+        ))}
+      </div>
+      {mode === "describe" ? <TasteExercise region={region} /> : <NoteDrill />}
     </div>
   );
 };
