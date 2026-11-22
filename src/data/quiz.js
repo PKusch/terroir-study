@@ -15617,7 +15617,7 @@ export const QUIZ_QUESTIONS = [
     id: "it-158",
     type: "scenario",
     country: "Italy",
-    question: "Frascati is made near Rome, where summers are warm and dry. What keeps it a light, fresh white?",
+    question: "Frascati is made on the hills just south-east of Rome. What helps keep it a fresh, balanced white?",
     options: [
       "Long ageing in new oak barrels before it is bottled",
       "Airy slopes and free-draining volcanic soils",
