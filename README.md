@@ -366,6 +366,7 @@ npm run dev
 - [x] Last open facts closed, 2026-11-20: Greek Reserve ageing, Maury, Colmar's rainfall, Crémant de Bordeaux
 - [x] More why questions, 2026-11-20 to 2026-11-21: 48 reasoning questions for the regions that leaned most on recall
 - [x] Service and food, 2026-11-22: serving, storing, faults and food pairing as Styles cards, plus 40 quiz questions with their own filter
+- [x] Spot the errors, 2026-11-22: a tasting-note drill built on WSET's list of wording mistakes that lose marks
 - [x] Sub-region drill-down maps (Zoom into any region: 439 places marked across 77 regions)
 - [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
