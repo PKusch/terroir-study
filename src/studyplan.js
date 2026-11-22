@@ -19,7 +19,7 @@ export function dayKey(ts = Date.now()) {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
-const isDay = (s) => typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s) && !Number.isNaN(Date.parse(`${s}T12:00:00`));
+export const isDay = (s) => typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s) && !Number.isNaN(Date.parse(`${s}T12:00:00`));
 
 // Midday on a day, so a clock change never moves it to the next or last day.
 const noon = (day) => new Date(`${day}T12:00:00`).getTime();
@@ -70,6 +70,11 @@ export function dailyTarget(unseen, daysLeft) {
   if (unseen <= 0) return { phase: "allSeen", daysLeft };
   const studyDays = daysLeft - REVISION_DAYS;
   return { phase: "learn", daysLeft, studyDays, perDay: Math.ceil(unseen / studyDays) };
+}
+
+// Study days from two places (this browser and a backup file) put together.
+export function mergeDays(a, b) {
+  return [...new Set([...(Array.isArray(a) ? a : []), ...(Array.isArray(b) ? b : [])].filter(isDay))].sort().slice(-MAX_DAYS);
 }
 
 // ── Storage ──────────────────────────────────────────────────────────────────

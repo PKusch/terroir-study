@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { loadProgress, saveProgress } from "./progress.js";
 import { loadTasteResults, saveTasteResults } from "./taste.js";
+import { loadDays, saveDays, mergeDays, loadExamDate, saveExamDate } from "./studyplan.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import {
   makeBackup, readBackup, mergeProgress, mergeTaste, describeBackup,
@@ -47,6 +48,9 @@ export const BackupPanel = ({ onRestored }) => {
   const confirmRestore = () => {
     const savedQuiz = saveProgress(mergeProgress(loadProgress(), pending.quiz));
     const savedTaste = saveTasteResults(mergeTaste(loadTasteResults(), pending.taste));
+    // Study days are joined together; an exam date already set here wins.
+    saveDays(mergeDays(loadDays(), pending.studyDays));
+    if (!loadExamDate() && pending.examDate) saveExamDate(pending.examDate);
     if (!savedQuiz || !savedTaste) {
       setMessage({ kind: "error", text: "The browser would not let this page store the progress, so nothing was restored." });
     } else {
@@ -58,7 +62,7 @@ export const BackupPanel = ({ onRestored }) => {
 
   const save = () => {
     const now = Date.now();
-    const file = makeBackup({ quiz: loadProgress(), taste: loadTasteResults(), now });
+    const file = makeBackup({ quiz: loadProgress(), taste: loadTasteResults(), studyDays: loadDays(), examDate: loadExamDate(), now });
     const url = URL.createObjectURL(new Blob([JSON.stringify(file, null, 2)], { type: "application/json" }));
     const link = document.createElement("a");
     link.href = url;

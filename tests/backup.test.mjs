@@ -158,3 +158,20 @@ test("a file is described in plain words before it is loaded", () => {
   assert.match(describeBackup({ kept: 3, taste: { wines: 1 }, dropped: 1, unknown: 1, savedAt: "garbage" }), /2 entries in it could not be used/);
   assert.match(describeBackup({ kept: 3, taste: { wines: 1 }, dropped: 1, savedAt: "garbage" }), /1 entry in it could not be used/);
 });
+
+test("a backup carries the study days and exam date, and an old file without them still reads", async () => {
+  const { makeBackup, readBackup } = await import("../src/backup.js");
+  const file = makeBackup({ quiz: {}, taste: { wines: 0, fullyRight: 0 }, studyDays: ["2026-11-21", "junk", "2026-11-20"], examDate: "2027-01-15", now: 0 });
+  assert.deepEqual(file.studyDays, ["2026-11-20", "2026-11-21"]);
+  const back = readBackup(JSON.stringify(file));
+  assert.ok(back.ok);
+  assert.deepEqual(back.studyDays, ["2026-11-20", "2026-11-21"]);
+  assert.equal(back.examDate, "2027-01-15");
+  const old = readBackup(JSON.stringify({ app: "terroir-study", version: 1, quiz: {} }));
+  assert.ok(old.ok);
+  assert.deepEqual(old.studyDays, []);
+  assert.equal(old.examDate, null);
+  const bad = readBackup(JSON.stringify({ app: "terroir-study", version: 1, quiz: {}, studyDays: "x", examDate: 42 }));
+  assert.deepEqual(bad.studyDays, []);
+  assert.equal(bad.examDate, null);
+});

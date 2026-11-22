@@ -9,18 +9,23 @@
 
 import { cleanRecord } from "./progress.js";
 import { cleanTasteResults } from "./taste.js";
+import { isDay, mergeDays } from "./studyplan.js";
 
 export const BACKUP_APP = "terroir-study";
 export const BACKUP_VERSION = 1;
 export const MAX_BACKUP_BYTES = 1_000_000;
 
-export function makeBackup({ quiz, taste, now = Date.now() }) {
+// The study days and exam date were added later; a file without them is still
+// a good version 1 file, and an older app simply ignores them.
+export function makeBackup({ quiz, taste, studyDays = [], examDate = null, now = Date.now() }) {
   return {
     app: BACKUP_APP,
     version: BACKUP_VERSION,
     savedAt: new Date(now).toISOString(),
     quiz: quiz ?? {},
-    taste: taste ?? { wines: 0, fullyRight: 0 }
+    taste: taste ?? { wines: 0, fullyRight: 0 },
+    studyDays: mergeDays(studyDays, []),
+    examDate: isDay(examDate) ? examDate : null
   };
 }
 
@@ -66,6 +71,8 @@ export function readBackup(text, knownIds = null) {
     ok: true,
     quiz,
     taste: cleanTasteResults(data.taste),
+    studyDays: mergeDays(data.studyDays, []),
+    examDate: isDay(data.examDate) ? data.examDate : null,
     kept: Object.keys(quiz).length,
     dropped,
     unknown,
