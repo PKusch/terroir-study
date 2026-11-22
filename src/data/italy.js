@@ -112,17 +112,17 @@ export const ITALY_REGIONS = {
   lazio: {
     name: "Lazio",
     country: "Italy",
-    climate: "Mediterranean, with sea breezes",
-    climateDetail: "A Mediterranean climate on the Alban Hills south-east of Rome, with warm dry summers, rain in autumn and winter, and breezes from the Tyrrhenian Sea.",
+    climate: "Transitional Mediterranean",
+    climateDetail: "A transitional Mediterranean climate on the northern slopes of the Alban Hills, south-east of Rome. Rain is about 820 to 1,010 mm a year, and the summer dry spell is not very marked. The mean annual temperature is about 14–15 °C. Vineyards lie at 70 to 500 m, on slopes facing west and north-west, which the rule book calls airy and bright. Warm, sunny Septembers and Octobers let the grapes ripen slowly and fully.",
     keyGrapes: { red: [], white: ["Malvasia di Candia", "Malvasia del Lazio", "Trebbiano Toscano"] },
     subRegions: ["Frascati", "Grottaferrata", "Monte Porzio Catone", "Monte Compatri"],
     subRegionsLabel: "Towns",
-    soils: "Volcanic soils from the Alban Hills, such as tuff and pozzolana, well drained and rich in potassium.",
+    soils: "Volcanic soils from the old Latium volcano. Pozzolana, loose volcanic ash, gives deep, sandy soils that drain freely; lithic tuff, which covers most of the area, barely lets water or roots through and is broken up before planting. The rules ask for volcanic soils that are free-draining and dry, but not arid.",
     viticultureNotes: "Frascati needs at least 70% Malvasia di Candia and/or Malvasia del Lazio, with up to 30% from Trebbiano, Greco, Bellone and Bombino Bianco and other authorised whites.",
     winemaking: "Frascati comes dry, off-dry (amabile) and sparkling; Frascati Superiore and Cannellino di Frascati, a sweet wine from late-harvested or botrytised grapes, became DOCGs in 2011. The Frascati DOC dates from 1966.",
     typicalStyle: "A light, dry white that is simple and fresh, with a sweet Cannellino as a speciality.",
     qualityLevels: ["Vino d'Italia", "IGT", "Frascati DOC (1966)", "Frascati Superiore DOCG (2011)", "Cannellino di Frascati DOCG (2011)"],
-    whyConnection: "Volcanic soils and warm sea breezes → fresh, light whites.",
+    whyConnection: "Free-draining volcanic soils on airy, bright hillsides → healthy grapes and fresh, balanced whites. Warm, sunny autumns → slow, full ripening, and late-picked grapes for the sweet Cannellino.",
     color: "#D9843B"
   },
   friuli: {
