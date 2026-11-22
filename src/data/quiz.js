@@ -16682,5 +16682,20 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     explanation: "Salt and acidity make wine taste softer. Sweetness, umami, bitterness and chilli heat make it taste harder."
+  },
+  {
+    id: "it-162",
+    type: "scenario",
+    country: "Italy",
+    question: "Before planting a new Frascati vineyard on lithic tuff, a grower breaks the rock up deeply. Why?",
+    options: [
+      "Tuff barely lets water or roots through",
+      "Tuff is too rich, and vines grow too fast",
+      "The rules demand terraces on every slope",
+      "Breaking it adds potassium to the soil"
+    ],
+    answer: 0,
+    region: "lazio",
+    explanation: "The Frascati rule books say lithic tuff covers most of the area and lets little or no water through, so it is ripped deeply before planting. Pozzolana, loose volcanic ash, drains freely on its own."
   }
 ];
