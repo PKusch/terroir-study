@@ -27,6 +27,9 @@ point to, not from memory.
 - A multiple-choice question has four options, an `answer` index, a `region` key
   and an `explanation` that says why. The quiz and the mock exam shuffle the
   options, so their stored order does not matter to the player.
+- A question about serving, storing, faults or food pairing belongs to no
+  region: give it `topic: "service"`, no `region` or `country`, and an id that
+  starts with `sv-`.
 - Prefer a question that asks why, or what a grower or winemaker should do, over
   one that only asks for a number: the exam rewards explaining causes.
 - Make the wrong options as long and as plausible as the right one. `npm test`
