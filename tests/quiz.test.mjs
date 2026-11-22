@@ -19,7 +19,8 @@ test("no question gives itself away with the right answer as the single longest 
 const PREFIX = { fr: "France", it: "Italy", es: "Spain", de: "Germany", at: "Austria", pt: "Portugal", hu: "Hungary", gr: "Greece", nw: "New World" };
 
 test("every question id starts with its country's prefix", () => {
-  const wrong = QUIZ_QUESTIONS.filter((q) => PREFIX[q.id.split("-")[0]] !== (q.country ?? "France"));
+  // Service and food questions belong to no country and use the prefix "sv".
+  const wrong = QUIZ_QUESTIONS.filter((q) => (q.topic === "service" ? q.id.split("-")[0] !== "sv" : PREFIX[q.id.split("-")[0]] !== (q.country ?? "France")));
   assert.deepEqual(wrong.map((q) => q.id), []);
 });
 

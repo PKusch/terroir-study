@@ -202,14 +202,17 @@ export function weakAreas(questions, progress, regions = {}, minAttempts = 2) {
 
 // ── Studying one country at a time ───────────────────────────────────────────
 // French questions carry no country field; every other question names its own.
+// Service and food questions belong to no country, so they get their own label.
 export function countryOfQuestion(q) {
+  if (q.topic === "service") return "Service & food";
   return q.country ?? "France";
 }
 
 // Besides a country, the filter can be a topic that cuts across countries:
 // "Fortified" picks every question tagged topic: "fortified", "Sparkling" every
-// one tagged topic: "sparkling".
-export const TOPICS = ["Fortified", "Sparkling"];
+// one tagged topic: "sparkling", "Service" every one tagged topic: "service"
+// (serving, storing, faults and food pairing, which belong to no region).
+export const TOPICS = ["Fortified", "Sparkling", "Service"];
 
 export function poolFor(questions, country = "All") {
   if (country === "All") return questions;

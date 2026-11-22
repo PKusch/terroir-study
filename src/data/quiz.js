@@ -16122,5 +16122,565 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "villany",
     explanation: "Villány is Hungary's warmest, sunniest corner. Its hills give south-facing slopes and some protection from the cold, so late-ripening grapes such as Cabernet Franc ripen fully."
+  },
+  {
+    id: "sv-01",
+    type: "scenario",
+    topic: "service",
+    question: "A guest orders a full-bodied, oaked Chardonnay. At what temperature should it be served?",
+    options: [
+      "Well chilled, about 4 °C",
+      "Lightly chilled, about 10–13 °C",
+      "At room temperature, about 18 °C",
+      "As cold as the ice bucket allows"
+    ],
+    answer: 1,
+    explanation: "WSET serves full-bodied whites lightly chilled, around 10–13 °C. Colder than that and the cold masks the flavours that give the wine its interest."
+  },
+  {
+    id: "sv-02",
+    type: "connection",
+    topic: "service",
+    question: "Why should whites and sparkling wines not be served below about 6 °C?",
+    options: [
+      "The cold masks the wine's flavours",
+      "The bubbles in sparkling wine disappear",
+      "The wine turns cloudy and throws a deposit",
+      "The alcohol separates from the water"
+    ],
+    answer: 0,
+    explanation: "WSET warns that over-chilling, below about 6 °C, can mask a wine's flavours."
+  },
+  {
+    id: "sv-03",
+    type: "scenario",
+    topic: "service",
+    question: "Which red would a sommelier be most willing to serve lightly chilled?",
+    options: [
+      "A young, tannic Barolo",
+      "A full-bodied Napa Cabernet",
+      "A light, low-tannin Beaujolais",
+      "A Vintage Port with a heavy crust"
+    ],
+    answer: 2,
+    explanation: "WSET says light, low-tannin reds such as Beaujolais and Pinot Noir are the reds that take a chill best. Cold makes tannin taste harsher, so tannic reds are served at room temperature."
+  },
+  {
+    id: "sv-04",
+    type: "connection",
+    topic: "service",
+    question: "At what temperature does WSET serve medium and full-bodied reds?",
+    options: [
+      "Well chilled, 6–8 °C",
+      "Chilled, 8–10 °C",
+      "Room temperature, about 15–18 °C",
+      "Warm, above 22 °C, to soften the tannin"
+    ],
+    answer: 2,
+    explanation: "Medium and full-bodied reds are served at room temperature, which WSET puts at about 15–18 °C."
+  },
+  {
+    id: "sv-05",
+    type: "scenario",
+    topic: "service",
+    question: "A bar opens a Fino Sherry. How should it be served?",
+    options: [
+      "At room temperature, in a small copita",
+      "Well chilled, about 5–7 °C",
+      "Warmed slightly to open up the aromas",
+      "Lightly chilled, about 14 °C"
+    ],
+    answer: 1,
+    explanation: "The Sherry regulator says Fino and Manzanilla should always be served chilled, at 5–7 °C. Oxidatively aged styles are served warmer, around 12–14 °C."
+  },
+  {
+    id: "sv-06",
+    type: "scenario",
+    topic: "service",
+    question: "Which Port style does the Port regulator suggest serving coolest?",
+    options: [
+      "Ruby, at 12–16 °C",
+      "Tawny, at 10–14 °C",
+      "A 30-year-old Tawny, warm",
+      "Vintage, at room temperature"
+    ],
+    answer: 1,
+    explanation: "The Port regulator gives Tawny 10–14 °C and Ruby 12–16 °C. Tawny's nutty, oxidative style is served a little cooler."
+  },
+  {
+    id: "sv-07",
+    type: "connection",
+    topic: "service",
+    question: "In a WSET study of four glass shapes, why did the flute show the least aroma from a sparkling wine?",
+    options: [
+      "Its narrow shape limits where aromas gather",
+      "It warms the wine faster than other glasses",
+      "Its thick glass absorbs aroma compounds",
+      "It makes the bubbles too large to smell"
+    ],
+    answer: 0,
+    explanation: "The flute's narrow shape limits the surface over which bubbles can spread. Tulip and white-wine glasses funnel aromas to the nose better."
+  },
+  {
+    id: "sv-08",
+    type: "connection",
+    topic: "service",
+    question: "Why are white wines usually served in smaller glasses than reds?",
+    options: [
+      "Whites are always lower in alcohol",
+      "Whites are poured in bigger measures",
+      "Large glasses make whites look darker",
+      "It keeps it cool, with aromas close"
+    ],
+    answer: 3,
+    explanation: "A smaller glass keeps a white cooler and holds its fresher, more delicate aromas. Reds get a larger bowl, with more room to open."
+  },
+  {
+    id: "sv-09",
+    type: "connection",
+    topic: "service",
+    question: "Why are fortified wines served in small glasses?",
+    options: [
+      "A small glass limits evaporation from a strong wine",
+      "Fortified wines lose their colour in large glasses",
+      "The rules of Port and Sherry require them",
+      "Small glasses keep a fortified wine warmer for much longer"
+    ],
+    answer: 0,
+    explanation: "A small glass reduces evaporation from a high-alcohol wine and suits a smaller serve."
+  },
+  {
+    id: "sv-10",
+    type: "scenario",
+    topic: "service",
+    question: "A trainee is about to open a bottle of Champagne. What is the right way?",
+    options: [
+      "Remove the cage, then push the cork with both thumbs",
+      "Hold the cork still and turn the bottle, at about 45°",
+      "Shake the bottle gently so the cork comes out easily",
+      "Point the bottle straight up and twist the cork round quickly"
+    ],
+    answer: 1,
+    explanation: "WSET says hold the cork still and turn the bottle, not the cork. Keep a hand on the cork and the loosened cage, and tilt the bottle to about 45°."
+  },
+  {
+    id: "sv-11",
+    type: "connection",
+    topic: "service",
+    question: "Why is the cage loosened but left on the cork while opening sparkling wine?",
+    options: [
+      "Pressure could send the cork flying",
+      "It is part of the legal label",
+      "The cage stops the wine from oxidising",
+      "It keeps the cork from absorbing wine"
+    ],
+    answer: 0,
+    explanation: "A sparkling wine is under pressure. Keeping the cage on and a hand over the cork stops it shooting out."
+  },
+  {
+    id: "sv-12",
+    type: "scenario",
+    topic: "service",
+    question: "Which of these wines most needs decanting?",
+    options: [
+      "A young Sauvignon Blanc",
+      "A supermarket Merlot from last year",
+      "A fully mature Vintage Port",
+      "A Prosecco"
+    ],
+    answer: 2,
+    explanation: "WSET says wines with a heavy deposit should be decanted: Vintage Port, reds aged in bottle and lightly filtered reds. Most everyday wines do not need it."
+  },
+  {
+    id: "sv-13",
+    type: "scenario",
+    topic: "service",
+    question: "While decanting an old red, how does the sommelier know when to stop pouring?",
+    options: [
+      "When half the bottle is gone",
+      "When the wine starts to foam",
+      "After exactly one minute of slow, steady pouring",
+      "When the deposit reaches the neck"
+    ],
+    answer: 3,
+    explanation: "Pour slowly with the bottle in front of a light, and stop when the deposit reaches the neck. The sediment stays in the bottle."
+  },
+  {
+    id: "sv-14",
+    type: "connection",
+    topic: "service",
+    question: "What is the main, undisputed reason to decant a wine?",
+    options: [
+      "To warm it to room temperature",
+      "To pour clear wine off its sediment",
+      "To remove sulfur dioxide",
+      "To add oxygen to every young wine before it is served"
+    ],
+    answer: 1,
+    explanation: "WSET's reason is the deposit. Decanting to aerate a wine is disputed."
+  },
+  {
+    id: "sv-15",
+    type: "scenario",
+    topic: "service",
+    question: "A collector wants to age a cork-sealed red for ten years. Which storage fits WSET's advice?",
+    options: [
+      "Lying down, dark, steady 10–15 °C",
+      "Upright in a warm kitchen cupboard",
+      "In the fridge, standing up",
+      "Near a sunny window, to keep the label and cork dry"
+    ],
+    answer: 0,
+    explanation: "WSET advises a steady 10–15 °C, darkness, no vibration, and cork-sealed bottles on their side."
+  },
+  {
+    id: "sv-16",
+    type: "connection",
+    topic: "service",
+    question: "Why are cork-sealed bottles stored on their side?",
+    options: [
+      "To let the sediment settle in the neck",
+      "So the label stays dry",
+      "So the wine warms evenly",
+      "So the cork stays moist"
+    ],
+    answer: 3,
+    explanation: "Lying down keeps the cork moist. A dried-out cork can shrink and let air in. Screwcapped bottles can stand."
+  },
+  {
+    id: "sv-17",
+    type: "connection",
+    topic: "service",
+    question: "Why does WSET advise keeping stored wine away from light?",
+    options: [
+      "Light can damage the wine",
+      "Light makes the cork swell",
+      "Light raises the alcohol",
+      "Light makes the wine sweeter"
+    ],
+    answer: 0,
+    explanation: "WSET says direct light, including UV, LED and fluorescent, is dangerous for wine, so store it in the dark."
+  },
+  {
+    id: "sv-18",
+    type: "scenario",
+    topic: "service",
+    question: "A restaurant has half a bottle of still white left at closing. What keeps it best for the next few days?",
+    options: [
+      "Leave it open on the bar to breathe",
+      "Pour it into a decanter overnight",
+      "Lay it on its side in a warm room",
+      "Re-cork it and chill it upright"
+    ],
+    answer: 3,
+    explanation: "WSET says a re-corked still wine kept in the fridge lasts up to about five days, longer with a vacuum pump or inert gas."
+  },
+  {
+    id: "sv-19",
+    type: "connection",
+    topic: "service",
+    question: "Why should a vacuum pump not be used on an opened sparkling wine?",
+    options: [
+      "It would pull out the bubbles",
+      "It is illegal for sparkling wine",
+      "It turns the wine cloudy",
+      "It only fits screwcapped bottles"
+    ],
+    answer: 0,
+    explanation: "A vacuum pump removes gas, so it would take out the bubbles. Use a sparkling-wine stopper instead."
+  },
+  {
+    id: "sv-20",
+    type: "scenario",
+    topic: "service",
+    question: "Which opened fortified wine keeps longest, according to the Port regulator?",
+    options: [
+      "Vintage Port, 1–2 days",
+      "Late Bottled Vintage, 4–5 days",
+      "Ruby, 8–10 days",
+      "Tawny, 3–4 weeks"
+    ],
+    answer: 3,
+    explanation: "Tawny has already aged with oxygen, so it keeps 3–4 weeks once open. Vintage Port keeps only a day or two."
+  },
+  {
+    id: "sv-21",
+    type: "scenario",
+    topic: "service",
+    question: "A guest says their wine smells musty, like damp cardboard, and the fruit seems dull. What is the likely fault?",
+    options: [
+      "Brettanomyces",
+      "Volatile acidity",
+      "Reduction",
+      "Cork taint (TCA)"
+    ],
+    answer: 3,
+    explanation: "WSET describes cork taint as musty, like damp cardboard. TCA forms through mould, often in the cork, and dulls the fruit."
+  },
+  {
+    id: "sv-22",
+    type: "scenario",
+    topic: "service",
+    question: "A young white has turned brown and smells of bruised apple and nuts. What has gone wrong?",
+    options: [
+      "It has been oxidised",
+      "It is reduced",
+      "It has cork taint",
+      "It has Brettanomyces"
+    ],
+    answer: 0,
+    explanation: "Oxidation turns wine brown and gives bruised apple, nut and honey smells. It comes from too much oxygen, through a faulty closure or a bottle left open."
+  },
+  {
+    id: "sv-23",
+    type: "connection",
+    topic: "service",
+    question: "What causes reduction, the fault that smells of struck match or rotten eggs?",
+    options: [
+      "Too little oxygen",
+      "Too much oxygen",
+      "Mould in the cork",
+      "Storage that was far too warm"
+    ],
+    answer: 0,
+    explanation: "Reduction comes from too little oxygen. At low levels it smells of struck match or smoke; at higher levels of rotten eggs and drains."
+  },
+  {
+    id: "sv-24",
+    type: "scenario",
+    topic: "service",
+    question: "A red smells medicinal and of the farmyard. Which fault fits best?",
+    options: [
+      "Volatile acidity",
+      "Oxidation",
+      "Brettanomyces",
+      "Heat damage"
+    ],
+    answer: 2,
+    explanation: "Brettanomyces is a spoilage yeast that gives medicinal to farmyard smells. It is more common in reds."
+  },
+  {
+    id: "sv-25",
+    type: "scenario",
+    topic: "service",
+    question: "A wine smells sharply of vinegar and nail polish. What is the fault?",
+    options: [
+      "Reduction (too little oxygen)",
+      "Cork taint",
+      "Brettanomyces",
+      "Volatile acidity"
+    ],
+    answer: 3,
+    explanation: "Volatile acidity smells of vinegar or nail polish. It comes from bacteria working in the presence of oxygen."
+  },
+  {
+    id: "sv-26",
+    type: "scenario",
+    topic: "service",
+    question: "A bottle left in a hot car tastes dull and stale, and the cork has pushed up. What happened?",
+    options: [
+      "Heat damage",
+      "Reduction",
+      "Brettanomyces",
+      "Cork taint"
+    ],
+    answer: 0,
+    explanation: "Heat damage strips the fresh fruit and leaves the wine dull and stale. Heat can also push the cork out and let oxygen in."
+  },
+  {
+    id: "sv-27",
+    type: "scenario",
+    topic: "service",
+    question: "A dessert is very sweet. What should the wine be?",
+    options: [
+      "At least as sweet as the dessert",
+      "Bone dry, to contrast with it",
+      "High in tannin, to cut the sugar",
+      "Low in acid, to stay soft"
+    ],
+    answer: 0,
+    explanation: "Sweetness in food makes a wine seem drier, more acidic and more bitter. A wine at least as sweet as the food keeps its fruit."
+  },
+  {
+    id: "sv-28",
+    type: "connection",
+    topic: "service",
+    question: "What does sweetness in food do to a dry wine?",
+    options: [
+      "Makes it taste fuller, rounder and fruitier",
+      "Makes it taste sweeter",
+      "Has no effect on dry wine",
+      "More bitter and acidic, less fruity"
+    ],
+    answer: 3,
+    explanation: "Sweet food makes wine seem more bitter and acidic, with more burn from the alcohol, and less sweet, fruity and full."
+  },
+  {
+    id: "sv-29",
+    type: "connection",
+    topic: "service",
+    question: "WSET's own sample question says umami does NOT do which of these to wine?",
+    options: [
+      "Make it seem more bitter",
+      "Make it seem more acidic",
+      "Seem sweeter, fruitier",
+      "Make it seem harder"
+    ],
+    answer: 2,
+    explanation: "WSET's Level 1 sample paper marks 'Umami makes wines seem more sweet and fruity' as false. Umami acts like sweetness: wine seems harder, less fruity."
+  },
+  {
+    id: "sv-30",
+    type: "scenario",
+    topic: "service",
+    question: "A dish is rich in umami. What can the chef add to make the wine match easier?",
+    options: [
+      "Salt or acid",
+      "More sugar",
+      "More chilli heat",
+      "A bitter garnish"
+    ],
+    answer: 0,
+    explanation: "Salt and acid are low-risk: they soften wine. They help balance a high-umami dish."
+  },
+  {
+    id: "sv-31",
+    type: "connection",
+    topic: "service",
+    question: "What does salt in food do to a wine?",
+    options: [
+      "Makes it more bitter and acidic",
+      "Makes it thinner and harsher",
+      "Raises its alcohol burn",
+      "Fuller, less bitter and sour"
+    ],
+    answer: 3,
+    explanation: "Salt makes a wine seem fuller in body and less bitter and acidic. It is a low-risk food."
+  },
+  {
+    id: "sv-32",
+    type: "scenario",
+    topic: "service",
+    question: "A sommelier pairs a high-acid white with a dish dressed in lemon. Why does it work?",
+    options: [
+      "The wine seems less acidic and fruitier",
+      "The lemon adds tannin to the wine",
+      "The lemon makes the wine more alcoholic",
+      "Lemon has no effect, so any wine works"
+    ],
+    answer: 0,
+    explanation: "Acidity in food makes a wine seem less acidic, and fuller, sweeter and fruitier. The wine should be at least as acidic as the food."
+  },
+  {
+    id: "sv-33",
+    type: "scenario",
+    topic: "service",
+    question: "A low-acid white is served with a sharp vinaigrette salad. What will the guest notice?",
+    options: [
+      "The wine tastes flat beside the dish",
+      "The wine tastes richer than before",
+      "The wine tastes more tannic",
+      "The wine tastes sweeter than a dessert wine"
+    ],
+    answer: 0,
+    explanation: "A wine should be at least as acidic as the food. Next to a sharp dish, a low-acid wine tastes flat."
+  },
+  {
+    id: "sv-34",
+    type: "scenario",
+    topic: "service",
+    question: "A dish has a bitter edge from charred greens. Which wine is the safer choice?",
+    options: [
+      "A heavily oaked, tannic red",
+      "A young Barolo",
+      "A high-alcohol Shiraz",
+      "A white or a low-tannin red"
+    ],
+    answer: 3,
+    explanation: "Bitterness in food adds to the bitterness of tannin and oak, so a white or a low-tannin red is safer."
+  },
+  {
+    id: "sv-35",
+    type: "scenario",
+    topic: "service",
+    question: "A guest orders a fiery chilli curry. Which wine fits WSET's guidance best?",
+    options: [
+      "An off-dry, fruity white",
+      "A high-alcohol, tannic red",
+      "A bone-dry, oaky white",
+      "A young Tannat"
+    ],
+    answer: 0,
+    explanation: "Chilli makes tannin and alcohol taste harsher. A fruity wine with some sweetness and not too much alcohol is the safer match."
+  },
+  {
+    id: "sv-36",
+    type: "connection",
+    topic: "service",
+    question: "Why does chilli heat clash with a strong, tannic red?",
+    options: [
+      "Chilli raises the wine's sweetness",
+      "Chilli removes the wine's colour",
+      "Chilli softens tannin too much",
+      "Alcohol burns, tannin is bitter"
+    ],
+    answer: 3,
+    explanation: "Like sugar, chilli heightens the burning effect of alcohol and the bitterness of tannin."
+  },
+  {
+    id: "sv-37",
+    type: "connection",
+    topic: "service",
+    question: "Why does a tannic red suit a salty, fatty steak?",
+    options: [
+      "Salt and fat smooth the tannin",
+      "The steak adds acidity to the wine",
+      "Fat makes the wine sweeter than a dessert wine",
+      "Tannin melts the fat"
+    ],
+    answer: 0,
+    explanation: "WSET's food blog says the salt and fat on a steak smooth the wine's tannins."
+  },
+  {
+    id: "sv-38",
+    type: "connection",
+    topic: "service",
+    question: "Why is a high-acid wine a good match for rich, oily food?",
+    options: [
+      "It cuts the oily feeling",
+      "It adds sweetness to the dish",
+      "It raises the wine's tannin",
+      "It lowers the alcohol"
+    ],
+    answer: 0,
+    explanation: "Acidity reduces the oily, heavy feel of rich food, so a high-acid wine refreshes the palate."
+  },
+  {
+    id: "sv-39",
+    type: "connection",
+    topic: "service",
+    question: "Which wine is the low-risk choice for a dish whose flavours are hard to predict?",
+    options: [
+      "A complex, oaky, tannic red",
+      "A very high-alcohol red",
+      "A bone-dry, very high-acid white",
+      "A simple, unoaked, off-dry wine"
+    ],
+    answer: 3,
+    explanation: "Simple, unoaked wines with a little sugar are low-risk: rarely bad, if less exciting. High tannin, oak, acidity, alcohol and complexity are high-risk."
+  },
+  {
+    id: "sv-40",
+    type: "connection",
+    topic: "service",
+    question: "Which two parts of food are low-risk for wine?",
+    options: [
+      "Sweetness and umami",
+      "Bitterness and chilli heat",
+      "Salt and acidity",
+      "Umami and chilli heat"
+    ],
+    answer: 2,
+    explanation: "Salt and acidity make wine taste softer. Sweetness, umami, bitterness and chilli heat make it taste harder."
   }
 ];

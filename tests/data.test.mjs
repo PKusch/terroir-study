@@ -143,17 +143,20 @@ test("every quiz question is answerable and points at a real region", () => {
     assert.ok(["map", "connection", "scenario"].includes(q.type), `${q.id}: unknown type`);
     // A question belongs to a country; French ones carry no field. The region
     // it points at must be in that country, so the map shown can be answered.
+    // Service and food questions (topic "service") belong to no region or country.
+    const service = q.topic === "service";
+    if (service) assert.ok(q.type !== "map" && q.region === undefined && q.country === undefined, `${q.id}: a service question has no map, region or country`);
     const country = q.country ?? "France";
     assert.ok(COUNTRIES[country], `${q.id}: '${country}' is not a country`);
     const key = q.type === "map" ? q.answer : q.region;
-    assert.ok(COUNTRIES[country].includes(key), `${q.id}: '${key}' is not a region of ${country}`);
+    if (!service) assert.ok(COUNTRIES[country].includes(key), `${q.id}: '${key}' is not a region of ${country}`);
     assert.ok(q.question.trim().length > 10 && q.explanation.trim().length > 10, `${q.id}: needs a question and an explanation`);
     if (q.type === "map") {
       assert.ok(REGIONS[q.answer], `${q.id}: map answer '${q.answer}' is not a region`);
     } else {
       assert.equal(q.options.length, 4, `${q.id}: four options`);
       assert.ok(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < 4, `${q.id}: answer index`);
-      assert.ok(REGIONS[q.region], `${q.id}: region '${q.region}' is not a region`);
+      if (!service) assert.ok(REGIONS[q.region], `${q.id}: region '${q.region}' is not a region`);
       assert.equal(new Set(q.options).size, 4, `${q.id}: duplicate options`);
     }
   }
