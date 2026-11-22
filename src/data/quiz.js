@@ -16712,5 +16712,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "lazio",
     explanation: "Tendone and pergola training are banned for new Frascati vineyards. The rules ask for at least 3,000 vines a hectare, volcanic soils that drain freely, and at least 70% Malvasia."
+  },
+  {
+    id: "it-164",
+    type: "scenario",
+    country: "Italy",
+    question: "A producer wants 'Riserva' on a Frascati Superiore. What must the wine have had?",
+    options: [
+      "Two years in new oak barrels",
+      "12 months' ageing, 3 in bottle",
+      "Grapes dried on mats for three months",
+      "At least 35 g/L of sugar left in the wine"
+    ],
+    answer: 1,
+    region: "lazio",
+    explanation: "Frascati Superiore Riserva needs at least 12 months of ageing from 1 November of the harvest year, 3 of them in bottle, and at least 13% alcohol. Plain Superiore has no minimum ageing."
   }
 ];
