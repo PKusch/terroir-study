@@ -118,8 +118,10 @@ export const SERVICE_PARTS = {
 };
 
 // Which service parts fit a region. Sparkling and fortified regions get their
-// own; every other region gets storage, opened wine or a food question.
-const SPECIAL = { champagne: ["sparkling"], cava: ["sparkling"], franciacorta: ["sparkling"], douro: ["decanting"], sherry: ["fino"] };
+// own; every other region gets storage, opened wine or a food question. The
+// opened-wine points are for still wine (about five days, a vacuum pump), so
+// they are never asked of a sparkling or fortified region.
+const SPECIAL = { champagne: ["sparkling"], cava: ["sparkling"], franciacorta: ["sparkling"], douro: ["decanting"], sherry: ["fino"], madeira: ["storage", "sweetFood"] };
 const GENERAL = ["storage", "opened", "sweetFood", "chilliFood", "umamiFood"];
 export const serviceOptions = (key) => SPECIAL[key] ?? GENERAL;
 
@@ -173,7 +175,7 @@ export function fullChoices(key) {
   const own = serviceOptions(key);
   const one = own.map((s) => [s]).filter((ids) => buildFull(key, ids));
   if (one.length) return one;
-  const extra = GENERAL.filter((s) => !own.includes(s));
+  const extra = GENERAL.filter((s) => !own.includes(s) && !(SPECIAL[key] && s === "opened"));
   const pool = [...own, ...extra];
   const two = [];
   for (const a of own) for (const b of pool) if (a !== b && buildFull(key, [a, b])) two.push([a, b]);

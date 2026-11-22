@@ -63,3 +63,9 @@ test("score gives one mark per ticked point, capped at each part's marks", () =>
   assert.equal(s.total, 25);
   assert.equal(s.got, q.parts[0].marks + q.parts.length - 1);
 });
+
+test("sparkling and fortified regions are never asked about keeping an opened still wine", () => {
+  for (const key of ["champagne", "cava", "franciacorta", "douro", "sherry", "madeira"]) {
+    for (const ids of fullChoices(key)) assert.ok(!ids.includes("opened"), `${key}: ${ids}`);
+  }
+});
