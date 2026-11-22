@@ -2,6 +2,7 @@ import { useState } from "react";
 import { COUNTRIES, REGIONS } from "./data/regions.js";
 import { countryOf } from "./data/projections.js";
 import { COMMAND_WORDS, KINDS, randomWritten, selfScore, wordCount } from "./written.js";
+import { FullWritten } from "./FullWritten.jsx";
 
 const serif = "'Cormorant Garamond', Georgia, serif";
 const gold = "#C4A962";
@@ -19,7 +20,7 @@ const button = {
 
 // Practice for the written part of the theory paper: write an answer, then
 // tick the points from the region's notes that it covers. Nothing is saved.
-export const WrittenPractice = ({ onStudyRegion }) => {
+const OneQuestion = ({ onStudyRegion }) => {
   const [country, setCountry] = useState("All");
   const [kind, setKind] = useState("all");
   const keysFor = (c) => (c === "All" ? Object.keys(REGIONS) : COUNTRIES[c] ?? []);
@@ -113,6 +114,34 @@ export const WrittenPractice = ({ onStudyRegion }) => {
           </p>
         </div>
       )}
+    </div>
+  );
+};
+
+// Two ways to practise: one short question at a time, or a whole 25-mark
+// question in the shape of WSET's sample paper.
+const MODES = [
+  { id: "one", label: "One question" },
+  { id: "full", label: "Full 25-mark question" }
+];
+
+export const WrittenPractice = ({ onStudyRegion }) => {
+  const [mode, setMode] = useState("one");
+  return (
+    <div>
+      <div role="group" aria-label="Kind of practice" style={{ display: "flex", gap: "6px", marginBottom: "12px", flexWrap: "wrap" }}>
+        {MODES.map((m) => (
+          <button key={m.id} aria-pressed={m.id === mode} onClick={() => setMode(m.id)} style={{
+            padding: "6px 14px", borderRadius: "6px", fontSize: "11px", letterSpacing: "0.1em",
+            textTransform: "uppercase", cursor: "pointer",
+            background: m.id === mode ? gold : "transparent",
+            color: m.id === mode ? "#1a1a1a" : "#8B7355",
+            border: m.id === mode ? "none" : "1px solid #2a2520",
+            fontWeight: m.id === mode ? "600" : "400"
+          }}>{m.label}</button>
+        ))}
+      </div>
+      {mode === "one" ? <OneQuestion onStudyRegion={onStudyRegion} /> : <FullWritten onStudyRegion={onStudyRegion} />}
     </div>
   );
 };
