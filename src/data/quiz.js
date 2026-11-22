@@ -12506,7 +12506,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "lazio",
-    explanation: "The soils are volcanic, such as tuff and pozzolana, well drained and rich in potassium. With warm sea breezes they give fresh, light whites."
+    explanation: "The soils come from the old Latium volcano. Pozzolana, loose volcanic ash, gives deep, sandy soils that drain freely; the rules ask for soils that are free-draining and dry, but not arid."
   },
   {
     id: "it-125",
@@ -13751,7 +13751,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 0,
     region: "lazio",
-    explanation: "Frascati comes from the Alban Hills south-east of Rome. The volcanic tuff and pozzolana soils drain well, and breezes come in from the Tyrrhenian Sea."
+    explanation: "Frascati comes from the northern slopes of the Alban Hills, south-east of Rome, at 70 to 500 m. The soils are volcanic: tuff and pozzolana."
   },
   {
     id: "it-141",
@@ -15620,13 +15620,13 @@ export const QUIZ_QUESTIONS = [
     question: "Frascati is made near Rome, where summers are warm and dry. What keeps it a light, fresh white?",
     options: [
       "Long ageing in new oak barrels before it is bottled",
-      "Sea breezes and well-drained volcanic soils",
+      "Airy slopes and free-draining volcanic soils",
       "A legal rule that the grapes are picked in early July",
       "Thick-skinned red grapes added to give the wine acidity"
     ],
     answer: 1,
     region: "lazio",
-    explanation: "The Alban Hills get breezes from the Tyrrhenian Sea, and their tuff and pozzolana soils drain well. Together they give the light, fresh, simple whites Frascati is known for."
+    explanation: "The Frascati rule books describe airy, bright hillsides facing west and north-west, at 70 to 500 m, on volcanic soils that drain freely. Their own description of the wine is fresh and balanced."
   },
   {
     id: "it-159",
