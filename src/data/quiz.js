@@ -16697,5 +16697,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "lazio",
     explanation: "The Frascati rule books say lithic tuff covers most of the area and lets little or no water through, so it is ripped deeply before planting. Pozzolana, loose volcanic ash, drains freely on its own."
+  },
+  {
+    id: "it-163",
+    type: "scenario",
+    country: "Italy",
+    question: "Which choice for a new Frascati vineyard breaks the rules?",
+    options: [
+      "Planting 3,500 vines a hectare",
+      "Training the vines on a high pergola",
+      "Planting on free-draining volcanic soil",
+      "Planting mostly Malvasia del Lazio"
+    ],
+    answer: 1,
+    region: "lazio",
+    explanation: "Tendone and pergola training are banned for new Frascati vineyards. The rules ask for at least 3,000 vines a hectare, volcanic soils that drain freely, and at least 70% Malvasia."
   }
 ];
