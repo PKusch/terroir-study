@@ -14,6 +14,11 @@ the region or question and what it should say, with a source if you have one.
   marker, backups, the map maths — with no React or browser, so it is tested
   directly.
 - `src/*.jsx` is the screens.
+- Exam practice that is not a region fact lives in its own file:
+  `src/data/styles.js` for the Service and Food cards, `src/notedrill.js` for
+  the tasting-note mistakes WSET lists, and `src/fullwritten.js` for the
+  service and food parts of the full written question. A new point in any of
+  them needs a source, like a region fact.
 
 ## Adding a question
 
