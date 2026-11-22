@@ -369,6 +369,7 @@ npm run dev
 - [x] Spot the errors, 2026-11-22: a tasting-note drill built on WSET's list of wording mistakes that lose marks
 - [x] Full 25-mark written question, 2026-11-22: parts with marks in the shape of WSET's sample paper, ending in service or food, with a model answer
 - [x] Full theory paper, 2026-11-22: 50 multiple-choice and four written questions under one two-hour clock, each part judged on its own at 55%
+- [x] Recall it, 2026-11-22: a map drill where you type the name of the region lit up, with no options
 - [x] Sub-region drill-down maps (Zoom into any region: 439 places marked across 77 regions)
 - [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
