@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { COUNTRIES } from "./data/regions.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
 import { useTwoStep } from "./useTwoStep.js";
+import { FullPaper } from "./FullPaper.jsx";
 import { loadProgress, TOPICS } from "./progress.js";
 import {
   PASS_MARK,
@@ -44,7 +45,7 @@ const choiceButton = (on) => ({
 
 const byId = new Map(QUIZ_QUESTIONS.map((q) => [q.id, q]));
 
-export const MockExam = ({ active = true }) => {
+const ChoiceExam = ({ active = true }) => {
   const [phase, setPhase] = useState("setup"); // setup | running | done
   const [size, setSize] = useState(EXAM_SIZES[EXAM_SIZES.length - 1]);
   const [country, setCountry] = useState("All");
@@ -367,6 +368,36 @@ export const MockExam = ({ active = true }) => {
           ? `${unanswered} unanswered. Press again to hand in`
           : "Hand in the exam"}
       </button>
+    </div>
+  );
+};
+
+// Two kinds of mock: the multiple-choice part alone, or the whole theory paper
+// with its written questions. Both stay mounted, so switching between them
+// never throws away a paper in progress.
+const KINDS = [
+  { id: "choice", label: "Multiple choice" },
+  { id: "full", label: "Full theory paper" }
+];
+
+export const MockExam = ({ active = true }) => {
+  const [kind, setKind] = useState("choice");
+  return (
+    <div>
+      <div role="group" aria-label="Kind of mock exam" style={{ display: "flex", gap: "6px", marginBottom: "12px", flexWrap: "wrap" }}>
+        {KINDS.map((k) => (
+          <button key={k.id} aria-pressed={k.id === kind} onClick={() => setKind(k.id)} style={{
+            padding: "6px 14px", borderRadius: "6px", fontSize: "11px", letterSpacing: "0.1em",
+            textTransform: "uppercase", cursor: "pointer",
+            background: k.id === kind ? "#C4A962" : "transparent",
+            color: k.id === kind ? "#1a1a1a" : "#8B7355",
+            border: k.id === kind ? "none" : "1px solid #2a2520",
+            fontWeight: k.id === kind ? "600" : "400"
+          }}>{k.label}</button>
+        ))}
+      </div>
+      <div hidden={kind !== "choice"}><ChoiceExam active={active && kind === "choice"} /></div>
+      <div hidden={kind !== "full"}><FullPaper /></div>
     </div>
   );
 };
