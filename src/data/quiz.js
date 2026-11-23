@@ -16772,5 +16772,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "yecla",
     explanation: "Yecla gets only about 300 mm of rain a year, in spring and autumn, with hot summers. Without extra water a vine can ripen only a small crop, which is why the dry-farmed cap is so much lower."
+  },
+  {
+    id: "es-316",
+    type: "connection",
+    country: "Spain",
+    question: "What do Cariñena's clay soils over limestone and slate give its reds?",
+    options: [
+      "A light, pale style for early drinking",
+      "High acidity and very low alcohol",
+      "A sparkling style with fine bubbles",
+      "A broad, fleshy body"
+    ],
+    answer: 3,
+    region: "carinena",
+    explanation: "The rule book links Cariñena's clay soils over limestone and slate to broad, fleshy reds, with the hot, dry climate keeping the grapes healthy and yields low."
   }
 ];
