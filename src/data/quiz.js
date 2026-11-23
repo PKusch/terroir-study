@@ -16862,5 +16862,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "tuscany",
     explanation: "The warm coast at Bolgheri is too hot for fine Sangiovese but suits Cabernet Sauvignon and Merlot, which give blackcurrant, cedar and plush tannins. Chianti's Sangiovese gives sour cherry and dried herbs."
+  },
+  {
+    id: "it-171",
+    type: "scenario",
+    country: "Italy",
+    question: "A student sees a pale, garnet Barolo and expects a light, gentle wine. Why is that wrong?",
+    options: [
+      "Pale Nebbiolo is still very tannic",
+      "Barolo is always blended with darker grapes",
+      "Pale colour shows the wine is faulty",
+      "Barolo is sweet, so it tastes heavier"
+    ],
+    answer: 0,
+    region: "piedmont",
+    explanation: "Nebbiolo is pale garnet but high in acid and tannin, with tar, rose and cherry. Its colour gives no clue to its structure, and it needs years in bottle."
   }
 ];
