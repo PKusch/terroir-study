@@ -16812,7 +16812,7 @@ export const QUIZ_QUESTIONS = [
       "They drain so fast that vines dry out every year",
       "They are too acidic for any vine to grow",
       "They are flooded by the sea in winter",
-      "They hold little water and are easily eroded"
+      "Water barely soaks in, and they erode easily"
     ],
     answer: 3,
     region: "marche",
