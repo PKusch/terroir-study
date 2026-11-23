@@ -16967,5 +16967,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "loire",
     explanation: "The Loire is cool. Noble rot (botrytis) for sweet wines comes in warm autumns, so in a cool, wet one there may be little or none, and the grapes go into dry or sparkling wine instead."
+  },
+  {
+    id: "it-172",
+    type: "connection",
+    country: "Italy",
+    question: "How do Abruzzo's Montepulciano grapes ripen fully yet stay fresh?",
+    options: [
+      "Heavy rain all through the summer",
+      "Picking in early August before the heat",
+      "Vineyards above 1,500 m on every slope",
+      "Sea breezes and cool mountain nights"
+    ],
+    answer: 3,
+    region: "abruzzo",
+    explanation: "The Adriatic moderates the coastal hills, and the inland mountains bring a strong swing between day and night and good ventilation. Warm hillsides ripen the grapes while the cool nights keep them fresh."
   }
 ];
