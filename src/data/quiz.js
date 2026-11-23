@@ -17072,5 +17072,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "toro",
     explanation: "The rule book says Tinta de Toro grows best on stony ground over clay, while the lighter sandy soils suit Garnacha, Malvasía and Albillo."
+  },
+  {
+    id: "es-322",
+    type: "connection",
+    country: "Spain",
+    question: "How does Ribera del Duero's short, frost-bound season shape the wine?",
+    options: [
+      "Grapes are picked early and wines are light",
+      "Only fully ripe fruit makes it",
+      "Growers must add sugar in most years",
+      "The frost makes the wine sweet"
+    ],
+    answer: 1,
+    region: "riberaDelDuero",
+    explanation: "Altitude brings late budburst and frost risk at both ends of the season. Fruit that ripens in the short window is concentrated, and the hot days give colour and tannin."
   }
 ];
