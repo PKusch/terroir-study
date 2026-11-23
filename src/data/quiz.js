@@ -16787,5 +16787,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "carinena",
     explanation: "The rule book links Cariñena's clay soils over limestone and slate to broad, fleshy reds, with the hot, dry climate keeping the grapes healthy and yields low."
+  },
+  {
+    id: "es-317",
+    type: "connection",
+    country: "Spain",
+    question: "How does Moscatel de Valencia keep so much of its grape sweetness?",
+    options: [
+      "Grapes are dried on mats until raisined",
+      "Sugar is added after fermentation",
+      "Alcohol is added to the must",
+      "It is aged under flor for several years"
+    ],
+    answer: 2,
+    region: "valencia",
+    explanation: "Moscatel de Valencia is a vino de licor: alcohol is added to the Moscatel de Alejandría must, so the sugar is kept. It needs at least 15% acquired and 17.5% total alcohol."
   }
 ];
