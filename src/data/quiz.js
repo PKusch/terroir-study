@@ -17117,5 +17117,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "steiermark",
     explanation: "Steiermark's vineyards sit on steep hills, so they are mostly hand-harvested, often with several passes through the vineyard."
+  },
+  {
+    id: "es-323",
+    type: "connection",
+    country: "Spain",
+    question: "What does Bierzo's rule book credit for the elegance of its wines?",
+    options: [
+      "Long ageing in American oak",
+      "Sea breezes from the Mediterranean",
+      "Irrigation through every summer",
+      "Bits of slate and quartzite"
+    ],
+    answer: 3,
+    region: "bierzo",
+    explanation: "Bierzo's soils are a clay-loam mix of quartzite, sandstone, limestone, clay and slate, acid and without carbonates. The fragments of slate and quartzite are credited with giving elegance."
   }
 ];
