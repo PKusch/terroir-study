@@ -16922,5 +16922,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "franken",
     explanation: "Franken's soils are mostly Triassic: Muschelkalk (shell limestone) round Würzburg, Buntsandstein in the west and Keuper in the Steigerwald. The region's notes link them to Silvaner's earthy, mineral style."
+  },
+  {
+    id: "at-43",
+    type: "connection",
+    country: "Austria",
+    question: "Why can Burgenland's best Blaufränkisch age for years?",
+    options: [
+      "Its high sugar left after fermentation",
+      "It is fortified with grape spirit",
+      "Its high acidity and firm tannins",
+      "It spends ten years in old casks by law"
+    ],
+    answer: 2,
+    region: "burgenland",
+    explanation: "Blaufränkisch is medium to full bodied with high acidity and firm tannins, with black cherry, blackberry and pepper. That structure lets the best wines age well."
   }
 ];
