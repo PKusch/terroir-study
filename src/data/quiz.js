@@ -16877,5 +16877,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "piedmont",
     explanation: "Nebbiolo is pale garnet but high in acid and tannin, with tar, rose and cherry. Its colour gives no clue to its structure, and it needs years in bottle."
+  },
+  {
+    id: "gr-44",
+    type: "connection",
+    country: "Greece",
+    question: "Why are Santorini's yields so tiny?",
+    options: [
+      "Rich soil makes vines grow leaves, not grapes",
+      "Machines strip half the crop at harvest",
+      "The rules allow only one bunch per vine",
+      "Little rain, wind and poor soil"
+    ],
+    answer: 3,
+    region: "santorini",
+    explanation: "Almost no rain in the growing season, strong steady winds and poor volcanic soil, with many very old vines, keep yields very low. The low basket vines catch the sea mist for water."
   }
 ];
