@@ -16847,5 +16847,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "franciacorta",
     explanation: "Satèn is made at no more than 5 bar of pressure, against about 6 for other sparkling wines, so its bubbles feel softer and creamier. It is Brut only, from white grapes."
+  },
+  {
+    id: "it-170",
+    type: "connection",
+    country: "Italy",
+    question: "Why do Bolgheri's reds taste of blackcurrant and cedar rather than the sour cherry of Chianti?",
+    options: [
+      "It grows Bordeaux grapes on a warm coast",
+      "Bolgheri wines are aged in chestnut casks",
+      "Bolgheri is higher and cooler than Chianti",
+      "Bolgheri reds are made from dried grapes"
+    ],
+    answer: 0,
+    region: "tuscany",
+    explanation: "The warm coast at Bolgheri is too hot for fine Sangiovese but suits Cabernet Sauvignon and Merlot, which give blackcurrant, cedar and plush tannins. Chianti's Sangiovese gives sour cherry and dried herbs."
   }
 ];
