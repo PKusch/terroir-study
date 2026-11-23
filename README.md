@@ -78,7 +78,7 @@ The Quiz and Taste keep a record in your browser. The mock exam reads the quiz r
     <td align="center"><img src="docs/screenshots/drill.jpg" alt="Map drill" /><br /><b>📍 Map drill</b><br /><sub>Click where Tokaj is; see your click, the real spot and the miss</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/styles.jpg" alt="Styles" /><br /><b>🍾 Styles</b><br /><sub>The sparkling methods and the fortified wines, side by side</sub></td>
+    <td align="center"><img src="docs/screenshots/service.jpg" alt="Styles, showing the Service cards" /><br /><b>🍾 Styles</b><br /><sub>Sparkling, fortified, service and food, side by side</sub></td>
     <td align="center"><img src="docs/screenshots/written.jpg" alt="Written" /><br /><b>✍️ Written</b><br /><sub>Write an answer, then tick the points you made</sub></td>
     <td></td>
   </tr>
