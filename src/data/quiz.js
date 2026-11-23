@@ -17102,5 +17102,20 @@ export const QUIZ_QUESTIONS = [
     answer: 0,
     region: "nahe",
     explanation: "The Soonwald, Hunsrück Hochwald and Nordpfälzer Bergland, 500 to 800 m high, close the region to the north, west and south. The Nahe opens only to the east, gets around 500 mm of rain, and sees little frost."
+  },
+  {
+    id: "at-44",
+    type: "connection",
+    country: "Austria",
+    question: "Why is most of Steiermark's harvest picked by hand?",
+    options: [
+      "Machines are banned in all of Austria",
+      "Its grapes are too large for machines",
+      "Its vineyards are on steep hillsides",
+      "Picking is done only at night"
+    ],
+    answer: 2,
+    region: "steiermark",
+    explanation: "Steiermark's vineyards sit on steep hills, so they are mostly hand-harvested, often with several passes through the vineyard."
   }
 ];
