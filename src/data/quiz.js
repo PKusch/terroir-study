@@ -17012,5 +17012,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "friuli",
     explanation: "Collio sits between the Alps and the Adriatic, with warm days and chilly nights. The cool Bora wind adds freshness and acidity, and harvest is normally in September."
+  },
+  {
+    id: "es-318",
+    type: "connection",
+    country: "Spain",
+    question: "Why are many DO Catalunya wines soft, ripe and fairly high in alcohol?",
+    options: [
+      "Cold, wet summers and early picking",
+      "Sugar added before fermentation",
+      "Warmth and over 2,500 hours of sun",
+      "Grapes dried on mats after harvest"
+    ],
+    answer: 2,
+    region: "catalunya",
+    explanation: "Catalonia's climate is Mediterranean, with more than 2,500 hours of sun a year and hot summers inland. Grapes ripen fully, giving soft, dense wines with relatively low acidity and high alcohol."
   }
 ];
