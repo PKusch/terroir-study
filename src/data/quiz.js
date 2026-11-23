@@ -16952,5 +16952,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "loire",
     explanation: "Sancerre's soils include flint (silex) and Kimmeridgian marl. The region's notes link the flint to the 'gunflint' minerality of its crisp, unoaked Sauvignon Blanc."
+  },
+  {
+    id: "fr-174",
+    type: "connection",
+    country: "France",
+    question: "Why can Loire growers make lusciously sweet Chenin Blanc only in some years?",
+    options: [
+      "Sugar may be added only in good years",
+      "The rules allow sweet wine every third year",
+      "Chenin only ripens in hot summers",
+      "Botrytis needs a warm autumn to develop"
+    ],
+    answer: 3,
+    region: "loire",
+    explanation: "The Loire is cool. Noble rot (botrytis) for sweet wines comes in warm autumns, so in a cool, wet one there may be little or none, and the grapes go into dry or sparkling wine instead."
   }
 ];
