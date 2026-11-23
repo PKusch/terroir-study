@@ -80,7 +80,7 @@ The Quiz and Taste keep a record in your browser. The mock exam reads the quiz r
   <tr>
     <td align="center"><img src="docs/screenshots/service.jpg" alt="Styles, showing the Service cards" /><br /><b>🍾 Styles</b><br /><sub>Sparkling, fortified, service and food, side by side</sub></td>
     <td align="center"><img src="docs/screenshots/written-full.jpg" alt="Written, showing a full 25-mark question" /><br /><b>✍️ Written</b><br /><sub>One question, or a full 25-mark one with a model answer</sub></td>
-    <td></td>
+    <td align="center"><img src="docs/screenshots/spot.jpg" alt="Taste, showing Spot the errors after a check" /><br /><b>🔍 Spot the errors</b><br /><sub>Find the lines in a tasting note that would lose marks</sub></td>
   </tr>
 </table>
 
