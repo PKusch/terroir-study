@@ -16937,5 +16937,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "burgenland",
     explanation: "Blaufränkisch is medium to full bodied with high acidity and firm tannins, with black cherry, blackberry and pepper. That structure lets the best wines age well."
+  },
+  {
+    id: "fr-173",
+    type: "connection",
+    country: "France",
+    question: "Why is Sancerre Sauvignon Blanc often described as having a 'gunflint' note?",
+    options: [
+      "It is aged in charred oak barrels",
+      "Smoke from forest fires taints the grapes",
+      "Its vineyards include flint soils",
+      "It is blended with Chenin Blanc"
+    ],
+    answer: 2,
+    region: "loire",
+    explanation: "Sancerre's soils include flint (silex) and Kimmeridgian marl. The region's notes link the flint to the 'gunflint' minerality of its crisp, unoaked Sauvignon Blanc."
   }
 ];
