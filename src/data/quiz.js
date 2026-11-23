@@ -16817,5 +16817,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "marche",
     explanation: "The rule book describes Jesi's hills as high in clay and calcium carbonate, poorly permeable and easily eroded, with stony calcareous soils on the flat alluvial land."
+  },
+  {
+    id: "it-168",
+    type: "connection",
+    country: "Italy",
+    question: "Why is Alto Adige mainly a white-wine region, at about 65% white?",
+    options: [
+      "Red grapes are banned above 500 m",
+      "Its volcanic soils turn red grapes white",
+      "High vineyards have cool nights",
+      "It has no sun in late summer"
+    ],
+    answer: 2,
+    region: "trentinoAltoAdige",
+    explanation: "Vineyards run from 200 to 1,000 m. Altitude brings cool nights, which keep acidity and aroma in white grapes, while warm air from Lake Garda helps ripening."
   }
 ];
