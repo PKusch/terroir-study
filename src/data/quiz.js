@@ -16832,5 +16832,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "trentinoAltoAdige",
     explanation: "Vineyards run from 200 to 1,000 m. Altitude brings cool nights, which keep acidity and aroma in white grapes, while warm air from Lake Garda helps ripening."
+  },
+  {
+    id: "it-169",
+    type: "scenario",
+    country: "Italy",
+    question: "A restaurant wants a Franciacorta with a softer, creamier mousse. Which style fits?",
+    options: [
+      "Franciacorta Rosé, with at least 35% Pinot Nero",
+      "A non-vintage Brut with 18 months on lees",
+      "Any Riserva, because of its long ageing",
+      "Franciacorta Satèn, with lower pressure"
+    ],
+    answer: 3,
+    region: "franciacorta",
+    explanation: "Satèn is made at no more than 5 bar of pressure, against about 6 for other sparkling wines, so its bubbles feel softer and creamier. It is Brut only, from white grapes."
   }
 ];
