@@ -16757,5 +16757,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "lazio",
     explanation: "The rule books credit warm weather and excellent sunshine in September and October. In some years ripening runs into November, which also allows the late-picked grapes for Cannellino."
+  },
+  {
+    id: "es-315",
+    type: "scenario",
+    country: "Spain",
+    question: "Yecla allows 7,000 kg/ha from irrigated red vines but only 4,000 from dry-farmed ones. Why does water make such a difference?",
+    options: [
+      "With 300 mm of rain, dry vines carry little",
+      "Irrigated vines are a different, higher-yielding grape variety",
+      "The rules reward irrigation because it improves quality",
+      "Dry-farmed vines are always picked before they ripen"
+    ],
+    answer: 0,
+    region: "yecla",
+    explanation: "Yecla gets only about 300 mm of rain a year, in spring and autumn, with hot summers. Without extra water a vine can ripen only a small crop, which is why the dry-farmed cap is so much lower."
   }
 ];
