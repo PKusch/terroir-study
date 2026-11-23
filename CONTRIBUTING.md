@@ -13,7 +13,9 @@ the region or question and what it should say, with a source if you have one.
 - `src/*.js` is the pure logic — quiz progress and spaced repetition, the taste
   marker, backups, the map maths — with no React or browser, so it is tested
   directly.
-- `src/*.jsx` is the screens.
+- `src/*.jsx` is the screens. Every form field on them needs a name a screen
+  reader can read out (a `<label htmlFor>`, an `aria-label`, or a label wrapped
+  round a tick box); a test checks this.
 - Exam practice that is not a region fact lives in its own file:
   `src/data/styles.js` for the Service and Food cards, `src/notedrill.js` for
   the tasting-note mistakes WSET lists, and `src/fullwritten.js` for the
