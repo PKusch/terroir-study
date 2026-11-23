@@ -17057,5 +17057,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "toro",
     explanation: "Tinta de Toro is a clone of Tempranillo with smaller berries and thicker skins, so it gives more tannin. On Toro's high, dry plateau it ripens fully, with high sugar and lower acidity."
+  },
+  {
+    id: "es-321",
+    type: "scenario",
+    country: "Spain",
+    question: "A Toro grower has a plot of light, sandy soil. Which grape suits it best?",
+    options: [
+      "Tinta de Toro, which prefers stony ground over clay",
+      "Garnacha, which suits the lighter sandy soils",
+      "No grape: sandy soil is banned in the DO",
+      "Cabernet Sauvignon, the DO's main grape"
+    ],
+    answer: 1,
+    region: "toro",
+    explanation: "The rule book says Tinta de Toro grows best on stony ground over clay, while the lighter sandy soils suit Garnacha, Malvasía and Albillo."
   }
 ];
