@@ -17042,5 +17042,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "catalunya",
     explanation: "DO Catalunya authorises about 38 grapes, white and black, and sets no minimum share for any of them, so blends vary widely from producer to producer."
+  },
+  {
+    id: "es-320",
+    type: "connection",
+    country: "Spain",
+    question: "Why does Tinta de Toro give more tannin than many other Tempranillos?",
+    options: [
+      "It is always fermented with its stems",
+      "It is picked green to keep tannin high",
+      "It is aged five years in new oak by law",
+      "Smaller berries with thicker skins"
+    ],
+    answer: 3,
+    region: "toro",
+    explanation: "Tinta de Toro is a clone of Tempranillo with smaller berries and thicker skins, so it gives more tannin. On Toro's high, dry plateau it ripens fully, with high sugar and lower acidity."
   }
 ];
