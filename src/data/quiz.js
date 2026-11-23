@@ -16907,5 +16907,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "washington",
     explanation: "The rain shadow gives dry, sunny days of up to 17 hours, and the day–night range is 35 °F to as much as 47 °F. Ripe, concentrated fruit keeps its acidity."
+  },
+  {
+    id: "de-106",
+    type: "connection",
+    country: "Germany",
+    question: "What gives Franken Silvaner its earthy, mineral character?",
+    options: [
+      "Triassic limestone and sandstone",
+      "A long time in brand-new oak barrels",
+      "Grapes dried before pressing",
+      "Blending in some red Dornfelder"
+    ],
+    answer: 0,
+    region: "franken",
+    explanation: "Franken's soils are mostly Triassic: Muschelkalk (shell limestone) round Würzburg, Buntsandstein in the west and Keuper in the Steigerwald. The region's notes link them to Silvaner's earthy, mineral style."
   }
 ];
