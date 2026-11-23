@@ -16892,5 +16892,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "santorini",
     explanation: "Almost no rain in the growing season, strong steady winds and poor volcanic soil, with many very old vines, keep yields very low. The low basket vines catch the sea mist for water."
+  },
+  {
+    id: "nw-154",
+    type: "connection",
+    country: "New World",
+    question: "Why does Columbia Valley fruit come out ripe yet still fresh?",
+    options: [
+      "Sea fog cools it every afternoon",
+      "It is picked in early August",
+      "Sunny days, cold nights",
+      "Irrigation water is ice-cold"
+    ],
+    answer: 2,
+    region: "washington",
+    explanation: "The rain shadow gives dry, sunny days of up to 17 hours, and the day–night range is 35 °F to as much as 47 °F. Ripe, concentrated fruit keeps its acidity."
   }
 ];
