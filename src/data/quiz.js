@@ -16997,5 +16997,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "abruzzo",
     explanation: "Cerasuolo d'Abruzzo is a rosato made from Montepulciano with brief skin contact. Montepulciano is a deeply coloured grape, so even a short contact gives a darker, more intense pink than most rosés."
+  },
+  {
+    id: "it-174",
+    type: "connection",
+    country: "Italy",
+    question: "What adds freshness and acidity to the whites of Collio?",
+    options: [
+      "Hot winds from Africa",
+      "The cool Bora wind",
+      "Irrigation from Alpine lakes",
+      "Long ageing in new oak"
+    ],
+    answer: 1,
+    region: "friuli",
+    explanation: "Collio sits between the Alps and the Adriatic, with warm days and chilly nights. The cool Bora wind adds freshness and acidity, and harvest is normally in September."
   }
 ];
