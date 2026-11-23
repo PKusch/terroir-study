@@ -74,7 +74,7 @@ The Quiz and Taste keep a record in your browser. The mock exam reads the quiz r
   </tr>
   <tr>
     <td align="center"><img src="docs/screenshots/taste.jpg" alt="Taste" /><br /><b>🍷 Taste</b><br /><sub>Body, acidity, tannin and aromas, marked against the grape</sub></td>
-    <td align="center"><img src="docs/screenshots/exam.jpg" alt="Mock exam" /><br /><b>📝 Mock exam</b><br /><sub>Timed paper, shuffled options, jump grid, marked at the end</sub></td>
+    <td align="center"><img src="docs/screenshots/exam.jpg" alt="Mock exam" /><br /><b>📝 Mock exam</b><br /><sub>The multiple choice alone, or the full two-hour theory paper</sub></td>
     <td align="center"><img src="docs/screenshots/drill.jpg" alt="Map drill" /><br /><b>📍 Map drill</b><br /><sub>Click where Tokaj is; see your click, the real spot and the miss</sub></td>
   </tr>
   <tr>
