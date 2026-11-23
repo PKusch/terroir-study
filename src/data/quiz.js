@@ -16802,5 +16802,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "valencia",
     explanation: "Moscatel de Valencia is a vino de licor: alcohol is added to the Moscatel de Alejandría must, so the sugar is kept. It needs at least 15% acquired and 17.5% total alcohol."
+  },
+  {
+    id: "it-167",
+    type: "connection",
+    country: "Italy",
+    question: "What problem comes with the clay-rich hills of the Castelli di Jesi?",
+    options: [
+      "They drain so fast that vines dry out every year",
+      "They are too acidic for any vine to grow",
+      "They are flooded by the sea in winter",
+      "They hold little water and are easily eroded"
+    ],
+    answer: 3,
+    region: "marche",
+    explanation: "The rule book describes Jesi's hills as high in clay and calcium carbonate, poorly permeable and easily eroded, with stony calcareous soils on the flat alluvial land."
   }
 ];
