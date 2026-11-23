@@ -16982,5 +16982,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "abruzzo",
     explanation: "The Adriatic moderates the coastal hills, and the inland mountains bring a strong swing between day and night and good ventilation. Warm hillsides ripen the grapes while the cool nights keep them fresh."
+  },
+  {
+    id: "it-173",
+    type: "scenario",
+    country: "Italy",
+    question: "A producer wants to make Cerasuolo d'Abruzzo. How does it get its deep cherry colour?",
+    options: [
+      "Red and white wine are blended",
+      "Brief skin contact with Montepulciano",
+      "Long ageing in new oak barrels",
+      "Colour is added from grape concentrate"
+    ],
+    answer: 1,
+    region: "abruzzo",
+    explanation: "Cerasuolo d'Abruzzo is a rosato made from Montepulciano with brief skin contact. Montepulciano is a deeply coloured grape, so even a short contact gives a darker, more intense pink than most rosés."
   }
 ];
