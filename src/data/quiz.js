@@ -17027,5 +17027,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "catalunya",
     explanation: "Catalonia's climate is Mediterranean, with more than 2,500 hours of sun a year and hot summers inland. Grapes ripen fully, giving soft, dense wines with relatively low acidity and high alcohol."
+  },
+  {
+    id: "es-319",
+    type: "connection",
+    country: "Spain",
+    question: "Why can two DO Catalunya blends taste completely different?",
+    options: [
+      "Each village must use one grape only",
+      "About 38 grapes, no minimum shares",
+      "The DO requires a new blend every year",
+      "All wines must contain some Pedro Ximénez"
+    ],
+    answer: 1,
+    region: "catalunya",
+    explanation: "DO Catalunya authorises about 38 grapes, white and black, and sets no minimum share for any of them, so blends vary widely from producer to producer."
   }
 ];
