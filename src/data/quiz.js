@@ -17087,5 +17087,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "riberaDelDuero",
     explanation: "Altitude brings late budburst and frost risk at both ends of the season. Fruit that ripens in the short window is concentrated, and the hot days give colour and tannin."
+  },
+  {
+    id: "de-107",
+    type: "connection",
+    country: "Germany",
+    question: "Why is the Nahe sheltered from frost and heavy rain?",
+    options: [
+      "High ranges enclose it on three sides",
+      "It lies right on the North Sea",
+      "It is protected by a vast lake",
+      "Its vines are all planted in greenhouses"
+    ],
+    answer: 0,
+    region: "nahe",
+    explanation: "The Soonwald, Hunsrück Hochwald and Nordpfälzer Bergland, 500 to 800 m high, close the region to the north, west and south. The Nahe opens only to the east, gets around 500 mm of rain, and sees little frost."
   }
 ];
