@@ -17192,5 +17192,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "laMancha",
     explanation: "La Mancha is a huge, flat, dry plateau at 600 to 800 m. Bush vines that cope with drought can be dry-farmed across it, which gives an enormous volume of mostly simple wine."
+  },
+  {
+    id: "es-326",
+    type: "scenario",
+    country: "Spain",
+    question: "Valdepeñas summers pass 40 °C. How do its whites stay light and fresh?",
+    options: [
+      "They are aged for years in new oak",
+      "They are made only from red grapes here",
+      "Cool fermentation, at 18 °C or less",
+      "They are blended with sea water"
+    ],
+    answer: 2,
+    region: "valdepenas",
+    explanation: "Valdepeñas whites, mostly Airén, normally ferment at no more than 18 °C, which keeps them light and fresh. Whites given a few days of skin contact may reach 25 °C."
   }
 ];
