@@ -16163,7 +16163,7 @@ export const QUIZ_QUESTIONS = [
       "A Vintage Port with a heavy crust"
     ],
     answer: 2,
-    explanation: "WSET says light, low-tannin reds such as Beaujolais and Pinot Noir are the reds that take a chill best. Cold makes tannin taste harsher, so tannic reds are served at room temperature."
+    explanation: "WSET's wine-myths blog names light to medium-bodied, low-tannin reds such as Beaujolais and Pinot Noir as the best reds to chill. Its serving guide warns that a red served too cold can taste thin and harsh, so tannic reds go at room temperature."
   },
   {
     id: "sv-04",
