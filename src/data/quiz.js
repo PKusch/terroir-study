@@ -17312,5 +17312,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "alentejo",
     explanation: "The Alentejo is a large, flat to rolling plain of big estates and big vineyards, which suits machine harvest. Cork oak woods often grow between them."
+  },
+  {
+    id: "at-45",
+    type: "scenario",
+    country: "Austria",
+    question: "A Grüner Veltliner from an overcropped vineyard tastes thin and green. What does the grape need?",
+    options: [
+      "More water and a bigger crop",
+      "Picking two weeks earlier",
+      "A good site, warm autumn",
+      "A cooler, more shaded slope"
+    ],
+    answer: 2,
+    region: "niederosterreich",
+    explanation: "Grüner Veltliner needs a good site and a warm end to the season. On poor or overcropped sites it tastes thin and green."
   }
 ];
