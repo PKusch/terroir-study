@@ -17297,5 +17297,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "dao",
     explanation: "Vineyards rise from about 200 m to 1,000 m on poor, sandy granite that keeps yields low. Mountains shelter the region from both Atlantic and continental extremes, and altitude keeps the wines fresh."
+  },
+  {
+    id: "pt-99",
+    type: "connection",
+    country: "Portugal",
+    question: "Why is machine harvesting common in the Alentejo?",
+    options: [
+      "Its vines are on steep terraces",
+      "Big estates on flat land",
+      "The rules ban hand-picking",
+      "Its grapes ripen in winter"
+    ],
+    answer: 1,
+    region: "alentejo",
+    explanation: "The Alentejo is a large, flat to rolling plain of big estates and big vineyards, which suits machine harvest. Cork oak woods often grow between them."
   }
 ];
