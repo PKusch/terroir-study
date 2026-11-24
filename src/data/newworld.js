@@ -165,7 +165,7 @@ export const NEW_WORLD_REGIONS = {
     winemaking: "BC Icewine needs ambient air at -8 °C or colder at harvest, each pressing of at least 32 degrees Brix, a tank average of at least 35, and at least 100 g/L of residual sugar.",
     typicalStyle: "Fruity reds, whites such as Pinot Gris and Chardonnay, and Icewine.",
     qualityLevels: ["Wine of Canada", "BC VQA (British Columbia GI)", "Okanagan Valley GI", "Sub-GI, e.g. Naramata Bench", "Icewine (at least 35 degrees Brix)"],
-    whyConnection: "A rain shadow valley with lakes → dry, sunny summers with water for irrigation. Cold winters → hilled-up vines and careful siting. Lakes moderate the heat and cold → each bench makes its own style.",
+    whyConnection: "A rain shadow valley with lakes → dry, sunny summers with water for irrigation. Cold winters → hilled-up vines and careful siting. Lakes moderate the heat and cold, more so near the water, and soils change along the valley → each bench makes its own style.",
     color: "#6A9A3C"
   }
 };

@@ -17337,10 +17337,10 @@ export const QUIZ_QUESTIONS = [
       "Each bench must grow a different grape",
       "Some benches are irrigated with sea water",
       "The rules set a different yield on each",
-      "Lakes temper heat and cold"
+      "Lake effect and soils vary"
     ],
     answer: 3,
     region: "britishColumbia",
-    explanation: "The Okanagan is a dry rain-shadow valley of lakes. The lakes moderate the summer heat and winter cold, so each bench, such as Naramata Bench or Golden Mile Bench, makes its own style."
+    explanation: "The Okanagan is a dry rain-shadow valley of lakes that moderate summer heat and winter cold. Benches nearer a lake get more of that effect, and the glacial soils change along the valley, sandy and gravelly in places, loamier in the south, so each bench makes its own style."
   }
 ];
