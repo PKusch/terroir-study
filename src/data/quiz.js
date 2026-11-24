@@ -17252,5 +17252,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "madeira",
     explanation: "Madeira's soils are volcanic basalt, acidic, rich in iron and phosphorus but poor in potassium, which help keep the grapes' acidity high. That acidity balances the sweetness of the wines."
+  },
+  {
+    id: "pt-97",
+    type: "connection",
+    country: "Portugal",
+    question: "Why are sweet Madeiras fortified earlier than dry ones?",
+    options: [
+      "Early spirit makes the wine paler",
+      "It stops fermentation sooner",
+      "The rules ban fortifying dry wine",
+      "Late spirit adds sweetness"
+    ],
+    answer: 1,
+    region: "madeira",
+    explanation: "Fermentation is stopped by adding neutral grape spirit. Added early, it leaves more of the grape sugar unfermented, so the wine is sweet; added later, more sugar has turned to alcohol, so the wine is drier."
   }
 ];
