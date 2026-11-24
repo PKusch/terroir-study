@@ -17132,5 +17132,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "bierzo",
     explanation: "Bierzo's soils are a clay-loam mix of quartzite, sandstone, limestone, clay and slate, acid and without carbonates. The fragments of slate and quartzite are credited with giving elegance."
+  },
+  {
+    id: "gr-45",
+    type: "connection",
+    country: "Greece",
+    question: "Nemea uses only one red grape, yet its wines range from soft and jammy to fresh and bright. Why?",
+    options: [
+      "Each village blends in a different second grape",
+      "Half the wines are made from dried grapes",
+      "Altitude changes the style",
+      "The rules require a different oak for each style"
+    ],
+    answer: 2,
+    region: "nemea",
+    explanation: "PDO Nemea is all Agiorgitiko. Low, warm vineyards give soft, jammy wines; higher, cooler ones keep more acidity and give fresher wines. The altitude zones are informal, not part of the rules."
   }
 ];
