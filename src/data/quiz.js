@@ -16213,13 +16213,13 @@ export const QUIZ_QUESTIONS = [
     topic: "service",
     question: "In a WSET study of four glass shapes, why did the flute show the least aroma from a sparkling wine?",
     options: [
-      "Its narrow shape limits where aromas gather",
+      "It limits where the bubbles spread",
       "It warms the wine faster than other glasses",
       "Its thick glass absorbs aroma compounds",
       "It makes the bubbles too large to smell"
     ],
     answer: 0,
-    explanation: "The flute's narrow shape limits the surface over which bubbles can spread. Tulip and white-wine glasses funnel aromas to the nose better."
+    explanation: "WSET's article says the flute's narrow shape constrains the surface over which bubbles can spread, and its open top lets aromas escape. Tulip and white-wine glasses funnel aromas to the nose better."
   },
   {
     id: "sv-08",
