@@ -17282,5 +17282,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "jumilla",
     explanation: "Jumilla's calcareous soils, with sandy clay in many places, limited the spread of phylloxera. The rule book credits the soils, not the altitude, which runs from 320 to 900 m."
+  },
+  {
+    id: "pt-98",
+    type: "connection",
+    country: "Portugal",
+    question: "Why do Dão reds stay fresh despite long, warm, dry summers?",
+    options: [
+      "Sea fog from the nearby coast",
+      "Picking in early August",
+      "Blending with Atlantic sea water",
+      "Altitude and poor granite soils"
+    ],
+    answer: 3,
+    region: "dao",
+    explanation: "Vineyards rise from about 200 m to 1,000 m on poor, sandy granite that keeps yields low. Mountains shelter the region from both Atlantic and continental extremes, and altitude keeps the wines fresh."
   }
 ];
