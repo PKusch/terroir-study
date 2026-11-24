@@ -16197,7 +16197,7 @@ export const QUIZ_QUESTIONS = [
     id: "sv-06",
     type: "scenario",
     topic: "service",
-    question: "Which Port style does the Port regulator suggest serving coolest?",
+    question: "Of these four Port styles, which does the Port regulator suggest serving coolest?",
     options: [
       "Ruby, at 12–16 °C",
       "Tawny, at 10–14 °C",
@@ -16205,7 +16205,7 @@ export const QUIZ_QUESTIONS = [
       "Vintage, at room temperature"
     ],
     answer: 1,
-    explanation: "The Port regulator gives Tawny 10–14 °C and Ruby 12–16 °C. Tawny's nutty, oxidative style is served a little cooler."
+    explanation: "The Port regulator gives Tawny 10–14 °C and Ruby 12–16 °C. White and rosé Port are served cooler still (6–10 °C and about 4 °C), but they are not among these four."
   },
   {
     id: "sv-07",
