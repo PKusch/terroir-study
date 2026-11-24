@@ -17147,5 +17147,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "nemea",
     explanation: "PDO Nemea is all Agiorgitiko. Low, warm vineyards give soft, jammy wines; higher, cooler ones keep more acidity and give fresher wines. The altitude zones are informal, not part of the rules."
+  },
+  {
+    id: "es-324",
+    type: "connection",
+    country: "Spain",
+    question: "Why can some Castilla y León wines taste unlike any others in Spain?",
+    options: [
+      "Every wine is aged under flor like Sherry",
+      "Local grapes such as Prieto Picudo",
+      "They are all fortified with grape spirit",
+      "The region imports its grapes from France"
+    ],
+    answer: 1,
+    region: "castillaYLeon",
+    explanation: "Besides Tempranillo and Verdejo, the region grows local grapes such as Prieto Picudo and Juan García, which give styles found nowhere else in Spain; Prieto Picudo rosés are fuller-bodied."
   }
 ];
