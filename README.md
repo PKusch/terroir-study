@@ -377,7 +377,7 @@ npm run dev
 - [x] Facts fact-checked against sources, with the gaps listed above
 - [x] Second fact-check, November 2026: the newest questions and every region's notes checked again against rule books
 - [x] Last open facts closed, 2026-11-20: Greek Reserve ageing, Maury, Colmar's rainfall, Crémant de Bordeaux
-- [x] More why questions, 2026-11-20 to 2026-11-23: 73 reasoning questions for the regions that leaned most on recall
+- [x] More why questions, 2026-11-20 to 2026-11-24: 87 reasoning questions for the regions that leaned most on recall
 - [x] Service and food, 2026-11-22: serving, storing, faults and food pairing as Styles cards, plus 40 quiz questions with their own filter
 - [x] Spot the errors, 2026-11-22: a tasting-note drill built on WSET's list of wording mistakes that lose marks
 - [x] Full 25-mark written question, 2026-11-22: parts with marks in the shape of WSET's sample paper, ending in service or food, with a model answer
