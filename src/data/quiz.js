@@ -16393,7 +16393,7 @@ export const QUIZ_QUESTIONS = [
     id: "sv-20",
     type: "scenario",
     topic: "service",
-    question: "Which opened fortified wine keeps longest, according to the Port regulator?",
+    question: "Of these four opened Ports, which keeps longest, according to the Port regulator?",
     options: [
       "Vintage Port, 1–2 days",
       "Late Bottled Vintage, 4–5 days",
@@ -16401,7 +16401,7 @@ export const QUIZ_QUESTIONS = [
       "Tawny, 3–4 weeks"
     ],
     answer: 3,
-    explanation: "Tawny has already aged with oxygen, so it keeps 3–4 weeks once open. Vintage Port keeps only a day or two."
+    explanation: "The Port regulator gives Tawny 3–4 weeks once open, Ruby 8–10 days, LBV 4–5 days and Vintage only 1–2 days. Tawny with an age statement keeps longer still, 1 to 4 months."
   },
   {
     id: "sv-21",
