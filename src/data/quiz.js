@@ -16726,7 +16726,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 1,
     region: "lazio",
-    explanation: "Frascati Superiore Riserva needs at least 12 months of ageing from 1 November of the harvest year, 3 of them in bottle, and at least 13% alcohol. Plain Superiore has no minimum ageing."
+    explanation: "Frascati Superiore Riserva needs at least 12 months of ageing from 1 November of the harvest year, 3 of them in bottle, and at least 13% alcohol."
   },
   {
     id: "it-165",
