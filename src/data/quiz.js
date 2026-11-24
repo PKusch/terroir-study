@@ -17237,5 +17237,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "tokaj",
     explanation: "Furmint is late-ripening, high in acidity and sugar, with thin skins that take noble rot easily. Tokaj's autumn mists, followed by dry sun, then bring botrytis in many years."
+  },
+  {
+    id: "pt-96",
+    type: "connection",
+    country: "Portugal",
+    question: "What helps Madeira's grapes keep their high acidity?",
+    options: [
+      "Rich, deep clay that holds water",
+      "Very late picking in midwinter",
+      "Long skin contact before pressing",
+      "Basalt soils poor in potassium"
+    ],
+    answer: 3,
+    region: "madeira",
+    explanation: "Madeira's soils are volcanic basalt, acidic, rich in iron and phosphorus but poor in potassium, which help keep the grapes' acidity high. That acidity balances the sweetness of the wines."
   }
 ];
