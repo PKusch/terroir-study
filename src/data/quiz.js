@@ -17162,5 +17162,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "castillaYLeon",
     explanation: "Besides Tempranillo and Verdejo, the region grows local grapes such as Prieto Picudo and Juan García, which give styles found nowhere else in Spain; Prieto Picudo rosés are fuller-bodied."
+  },
+  {
+    id: "it-175",
+    type: "connection",
+    country: "Italy",
+    question: "What gives Verdicchio its structure and bitter-almond finish, according to the region's notes?",
+    options: [
+      "Long ageing in new oak",
+      "Blending with red Montepulciano",
+      "Grapes dried before pressing",
+      "Its clay and limestone soils"
+    ],
+    answer: 3,
+    region: "marche",
+    explanation: "The notes link Verdicchio's clay and limestone soils to its structure and bitter-almond finish, while sea breezes and cool nights keep its acidity high."
   }
 ];
