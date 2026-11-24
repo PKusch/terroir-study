@@ -15686,7 +15686,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "burgundy",
-    explanation: "Burgundy's Chardonnay ranges from the steely style of Chablis, on Kimmeridgian limestone, to the richer style of Meursault. Barrel fermentation and lees stirring (bâtonnage) add the rich, buttery texture."
+    explanation: "Burgundy's Chardonnay ranges from the steely style of Chablis, on Kimmeridgian limestone, to the richer style of Meursault. Barrel fermentation and lees stirring (bâtonnage) add body and a creamy texture; the buttery note itself comes mainly from malolactic conversion."
   },
   {
     id: "gr-42",
