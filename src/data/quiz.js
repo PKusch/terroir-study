@@ -17267,5 +17267,20 @@ export const QUIZ_QUESTIONS = [
     answer: 1,
     region: "madeira",
     explanation: "Fermentation is stopped by adding neutral grape spirit. Added early, it leaves more of the grape sugar unfermented, so the wine is sweet; added later, more sugar has turned to alcohol, so the wine is drier."
+  },
+  {
+    id: "es-327",
+    type: "connection",
+    country: "Spain",
+    question: "Why did phylloxera spread slowly in much of Jumilla?",
+    options: [
+      "Its very wet winters",
+      "Its vines were all grafted from the start",
+      "Its sandy-clay calcareous soils",
+      "Its high altitude above 2,000 m"
+    ],
+    answer: 2,
+    region: "jumilla",
+    explanation: "Jumilla's calcareous soils, with sandy clay in many places, limited the spread of phylloxera. The rule book credits the soils, not the altitude, which runs from 320 to 900 m."
   }
 ];
