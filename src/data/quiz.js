@@ -17207,5 +17207,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "valdepenas",
     explanation: "Valdepeñas whites, mostly Airén, normally ferment at no more than 18 °C, which keeps them light and fresh. Whites given a few days of skin contact may reach 25 °C."
+  },
+  {
+    id: "hu-43",
+    type: "connection",
+    country: "Hungary",
+    question: "Why does a great Tokaji Aszú taste fresh rather than syrupy?",
+    options: [
+      "It is fortified with grape spirit",
+      "It is aged only in stainless steel",
+      "Furmint keeps very high acidity",
+      "The aszú berries are rinsed in water"
+    ],
+    answer: 2,
+    region: "tokaj",
+    explanation: "Noble rot concentrates sugar and acid together, and Furmint keeps very high acidity even when ripe. That acidity balances the sugar, so Aszú stays fresh."
   }
 ];
