@@ -17222,5 +17222,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "tokaj",
     explanation: "Noble rot concentrates sugar and acid together, and Furmint keeps very high acidity even when ripe. That acidity balances the sugar, so Aszú stays fresh."
+  },
+  {
+    id: "hu-44",
+    type: "connection",
+    country: "Hungary",
+    question: "Why does Furmint take noble rot so easily?",
+    options: [
+      "Its very early ripening",
+      "Its thin skins",
+      "Its large, loose bunches",
+      "It is grown only on flat land"
+    ],
+    answer: 1,
+    region: "tokaj",
+    explanation: "Furmint is late-ripening, high in acidity and sugar, with thin skins that take noble rot easily. Tokaj's autumn mists, followed by dry sun, then bring botrytis in many years."
   }
 ];
