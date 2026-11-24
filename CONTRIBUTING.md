@@ -37,6 +37,9 @@ point to, not from memory.
 - A question about serving, storing, faults or food pairing belongs to no
   region: give it `topic: "service"`, no `region` or `country`, and an id that
   starts with `sv-`.
+- After a batch of new questions, have them checked again by someone who did
+  not write them, against the same notes and sources: the writer tends to read
+  back what they meant, not what they wrote.
 - Prefer a question that asks why, or what a grower or winemaker should do, over
   one that only asks for a number: the exam rewards explaining causes.
 - Make the wrong options as long and as plausible as the right one. `npm test`
