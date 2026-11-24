@@ -17177,5 +17177,20 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "marche",
     explanation: "The notes link Verdicchio's clay and limestone soils to its structure and bitter-almond finish, while sea breezes and cool nights keep its acidity high."
+  },
+  {
+    id: "es-325",
+    type: "connection",
+    country: "Spain",
+    question: "Why does La Mancha make such a huge volume of wine?",
+    options: [
+      "Its vines are irrigated by the sea",
+      "A vast plateau of dry-farmed vines",
+      "It has the highest rainfall in Spain",
+      "Each vine is allowed unlimited yield"
+    ],
+    answer: 1,
+    region: "laMancha",
+    explanation: "La Mancha is a huge, flat, dry plateau at 600 to 800 m. Bush vines that cope with drought can be dry-farmed across it, which gives an enormous volume of mostly simple wine."
   }
 ];
