@@ -17080,7 +17080,7 @@ export const QUIZ_QUESTIONS = [
     question: "How does Ribera del Duero's short, frost-bound season shape the wine?",
     options: [
       "Grapes are picked early and wines are light",
-      "Only fully ripe fruit makes it",
+      "Concentrated fruit, when it ripens in time",
       "Growers must add sugar in most years",
       "The frost makes the wine sweet"
     ],
