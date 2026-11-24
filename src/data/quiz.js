@@ -17281,7 +17281,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 2,
     region: "jumilla",
-    explanation: "Jumilla's calcareous soils, with sandy clay in many places, limited the spread of phylloxera. The rule book credits the soils, not the altitude, which runs from 320 to 900 m."
+    explanation: "Jumilla's calcareous soils, with sandy clay in many places, limited the spread of phylloxera. It was the soils, not the altitude, which runs from 320 to 900 m."
   },
   {
     id: "pt-98",
