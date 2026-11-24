@@ -90,7 +90,7 @@ export const ITALY_REGIONS = {
     winemaking: "Types are still, spumante and passito. A Riserva needs at least 18 months of ageing from 1 December of the harvest year, with at least 6 months in bottle in Jesi, and at least 12.5% alcohol. Classico Superiore may not use crown caps. Both Riservas became DOCGs in 2010.",
     typicalStyle: "Fresh, high-acidity whites with lemon, green apple and a bitter-almond finish; Jesi is rounder and more open, Matelica more structured and slower to open.",
     qualityLevels: ["Vino d'Italia", "IGT", "Verdicchio dei Castelli di Jesi DOC (1968)", "Verdicchio di Matelica DOC (1967)", "Classico Superiore", "Riserva DOCG (both zones, 2010)"],
-    whyConnection: "Sea breezes and cool nights → high-acidity whites. Clay and limestone soils → structure and an almond finish. An inland valley without sea influence → Matelica's more structured, longer-lived style.",
+    whyConnection: "Sea breezes and cool nights → high-acidity whites. Clay and limestone soils → structure; the bitter-almond finish comes with the grape. An inland valley without sea influence → Matelica's more structured, longer-lived style.",
     color: "#C8B560"
   },
   umbria: {

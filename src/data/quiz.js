@@ -17167,7 +17167,7 @@ export const QUIZ_QUESTIONS = [
     id: "it-175",
     type: "connection",
     country: "Italy",
-    question: "What gives Verdicchio its structure and bitter-almond finish, according to the region's notes?",
+    question: "What helps give Castelli di Jesi Verdicchio its structure?",
     options: [
       "Long ageing in new oak",
       "Blending with red Montepulciano",
@@ -17176,7 +17176,7 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     region: "marche",
-    explanation: "The notes link Verdicchio's clay and limestone soils to its structure and bitter-almond finish, while sea breezes and cool nights keep its acidity high."
+    explanation: "The notes link Jesi's clay and limestone soils to the wine's structure, while sea breezes and cool nights keep its acidity high. The bitter-almond finish is a mark of the Verdicchio grape itself."
   },
   {
     id: "es-325",
