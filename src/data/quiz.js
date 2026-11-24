@@ -17327,5 +17327,20 @@ export const QUIZ_QUESTIONS = [
     answer: 2,
     region: "niederosterreich",
     explanation: "Grüner Veltliner needs a good site and a warm end to the season. On poor or overcropped sites it tastes thin and green."
+  },
+  {
+    id: "nw-155",
+    type: "connection",
+    country: "New World",
+    question: "Why can neighbouring Okanagan benches make quite different wines?",
+    options: [
+      "Each bench must grow a different grape",
+      "Some benches are irrigated with sea water",
+      "The rules set a different yield on each",
+      "Lakes temper heat and cold"
+    ],
+    answer: 3,
+    region: "britishColumbia",
+    explanation: "The Okanagan is a dry rain-shadow valley of lakes. The lakes moderate the summer heat and winter cold, so each bench, such as Naramata Bench or Golden Mile Bench, makes its own style."
   }
 ];
