@@ -16247,7 +16247,7 @@ export const QUIZ_QUESTIONS = [
       "Small glasses keep a fortified wine warmer for much longer"
     ],
     answer: 0,
-    explanation: "A small glass reduces evaporation from a high-alcohol wine and suits a smaller serve."
+    explanation: "Wine Folly's glass guide says a small glass reduces evaporation from a high-alcohol wine; it also suits the smaller serve of a fortified wine."
   },
   {
     id: "sv-10",
