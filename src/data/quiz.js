@@ -16261,7 +16261,7 @@ export const QUIZ_QUESTIONS = [
       "Point the bottle straight up and twist the cork round quickly"
     ],
     answer: 1,
-    explanation: "WSET says hold the cork still and turn the bottle, not the cork. Keep a hand on the cork and the loosened cage, and tilt the bottle to about 45°."
+    explanation: "WSET's sparkling-wine guide says hold the cork still and turn the bottle, not the cork. Wine Folly adds: keep a hand on the cork and the loosened cage, and tilt the bottle to about 45°."
   },
   {
     id: "sv-11",
