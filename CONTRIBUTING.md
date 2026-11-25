@@ -18,7 +18,8 @@ the region or question and what it should say, with a source if you have one.
   round a tick box); a test checks this.
 - Exam practice that is not a region fact lives in its own file:
   `src/data/styles.js` for the Service and Food cards, `src/notedrill.js` for
-  the tasting-note mistakes WSET lists, and `src/fullwritten.js` for the
+  the tasting-note mistakes WSET lists, `src/lookalike.js` for which aroma
+  words count as one smell in the look-alike grape drill, and `src/fullwritten.js` for the
   service and food parts of the full written question. A new point in any of
   them needs a source, like a region fact.
 
