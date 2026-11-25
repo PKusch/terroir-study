@@ -90,3 +90,20 @@ test("regionsGrowing finds the regions that name a grape by any alias", () => {
   assert.deepEqual(regionsGrowing("vermentino", REGIONS).white, ["provence"], "Rolle should count as Vermentino");
   assert.deepEqual(regionsGrowing("malbec", REGIONS).red, ["southWest", "argentina"], "Malbec (Côt) should count as Malbec");
 });
+
+// Some aromas come from the cellar, not the grape: butter from malolactic,
+// toast, vanilla and cedar from oak, brioche and bread from lees or flor. A
+// profile may list one only if its notes say where it comes from, or the taste
+// drill would mark down a learner who leaves it out of an unoaked wine.
+test("an aroma that comes from winemaking is explained in the grape's notes", async () => {
+  const { GRAPES } = await import("../src/data/grapes.js");
+  const CELLAR = ["butter", "toast", "vanilla", "brioche", "cedar", "bread", "biscuit", "coconut"];
+  const WHY = /oak|barrel|lees|malolactic|age|ageing|aged|flor|autolysis|bottle/i;
+  const unexplained = [];
+  for (const [key, g] of Object.entries(GRAPES)) {
+    for (const a of g.aromas ?? []) {
+      if (CELLAR.some((w) => a.toLowerCase().includes(w)) && !WHY.test(g.notes ?? "")) unexplained.push(`${key}: ${a}`);
+    }
+  }
+  assert.deepEqual(unexplained, []);
+});
