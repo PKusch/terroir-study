@@ -527,7 +527,7 @@ export const GRAPES = {
 
   refosco: {
     name: "Refosco",
-    aliases: ["Refosco dal Peduncolo Rosso", "Refosco Nostrano"],
+    aliases: ["Refosco dal Peduncolo Rosso"],
     colour: "red",
     body: "high",
     acidity: "high",
