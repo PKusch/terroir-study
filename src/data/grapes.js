@@ -407,7 +407,7 @@ export const GRAPES = {
     body: "high",
     acidity: "medium",
     tannin: "high",
-    aromas: ["black plum", "blackberry", "blueberry", "dark chocolate", "cedar"],
+    aromas: ["black plum", "blackberry", "blueberry", "dark chocolate"],
     notes: "A rare red-fleshed grape, so its juice is already dark before it meets the skins. It thrives in heat and gives very deep colour and plenty of tannin, which makes it a useful blending partner and the base of some of Alentejo's boldest reds."
   },
   kadarka: {
