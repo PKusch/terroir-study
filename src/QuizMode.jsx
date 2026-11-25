@@ -16,20 +16,25 @@ import {
   weakAreas,
   poolFor,
   TOPICS,
+  regionFilter,
   studyPool
 } from "./progress.js";
 
 const byId = (id) => QUIZ_QUESTIONS.find((q) => q.id === id) ?? QUIZ_QUESTIONS[0];
 
-export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRegion }) => {
+export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRegion, startRegion = null }) => {
   // Progress across sessions lives in localStorage (see progress.js). The
   // question order comes from it: unseen first, then the ones you got wrong.
   const [progress, setProgress] = useState(() => loadProgress());
   // Study everything, or one country at a time.
-  const [filter, setFilter] = useState("All");
+  // Opened from the weak-spot map, the quiz starts on that one region.
+  const [filter, setFilter] = useState(() => (startRegion ? regionFilter(startRegion) : "All"));
   const [dueOnly, setDueOnly] = useState(false);
   const { pool, fellBack } = studyPool(QUIZ_QUESTIONS, progress, filter, dueOnly);
-  const [currentId, setCurrentId] = useState(() => pickNext(QUIZ_QUESTIONS, loadProgress(), null).id);
+  const [currentId, setCurrentId] = useState(() => {
+    const start = studyPool(QUIZ_QUESTIONS, loadProgress(), startRegion ? regionFilter(startRegion) : "All", false).pool;
+    return pickNext(start.length ? start : QUIZ_QUESTIONS, loadProgress(), null).id;
+  });
   const [selected, setSelected] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
@@ -154,6 +159,16 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+      {/* One region only, when opened from the weak-spot map */}
+      {filter.startsWith("region:") && (
+        <div role="status" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "8px", flexWrap: "wrap",
+          fontSize: "12px", color: "#D5D0C4", background: "#1E1E1E", border: "1px solid #3a3530", borderRadius: "6px", padding: "6px 10px", marginBottom: "8px" }}>
+          <span>Only {REGIONS[filter.slice(7)]?.name ?? "this region"} questions ({pool.length})</span>
+          <button onClick={() => chooseFilter("All")} style={{ background: "none", border: "1px solid #3a3530", color: "#C4A962",
+            padding: "3px 10px", borderRadius: "4px", fontSize: "11px", cursor: "pointer" }}>Show all</button>
+        </div>
+      )}
+
       {/* Country filter: everything, or one country at a time */}
       <div style={{ display: "flex", gap: "4px", flexWrap: "wrap", marginBottom: "10px" }}>
         {["All", ...Object.keys(COUNTRIES), ...TOPICS].map((c) => (
