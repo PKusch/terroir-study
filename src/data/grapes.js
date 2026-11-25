@@ -87,7 +87,7 @@ export const GRAPES = {
     body: "low",
     acidity: "high",
     tannin: "low",
-    aromas: ["red apple", "strawberry", "raspberry", "red cherry", "brioche"],
+    aromas: ["red apple", "strawberry", "raspberry", "red cherry"],
     notes: "Buds later than Pinot Noir, so it is safer in frost-prone valley sites. Gives fruity, early-drinking body to non-vintage sparkling blends rather than long ageing."
   },
   carignan: {
