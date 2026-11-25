@@ -468,7 +468,7 @@ export const GRAPES = {
     body: "high",
     acidity: "high",
     tannin: "high",
-    aromas: ["blackcurrant", "blackberry", "bell pepper", "tar", "violet"],
+    aromas: ["blackcurrant", "blackberry", "damson", "tar", "violet"],
     notes: "Thick-skinned and late ripening, it is the red of Bairrada. It gives deep colour, firm tannins and high acidity, and it is easy to over-extract; clay-limestone soils and careful picking soften it, and good bottles age for decades."
   },
 
