@@ -16,6 +16,10 @@ import { StylesPanel } from "./StylesPanel.jsx";
 import { WrittenPractice } from "./WrittenPractice.jsx";
 import { RegionChips } from "./RegionChips.jsx";
 import { BackupPanel } from "./BackupPanel.jsx";
+import { WeakSpots } from "./WeakSpots.jsx";
+import { buildHeat, bandFor } from "./heat.js";
+import { loadProgress } from "./progress.js";
+import { QUIZ_QUESTIONS } from "./data/quiz.js";
 
 // ─── Main App ────────────────────────────────────────────────────────────────
 export default function WsetStudyApp() {
@@ -38,6 +42,10 @@ export default function WsetStudyApp() {
   const [quizMapClick, setQuizMapClick] = useState(null);
   const [quizCountry, setQuizCountry] = useState("France");
   const [zoomed, setZoomed] = useState(false);
+  // The weak-spot view on the Explore map, and a region to start the quiz on.
+  const [heatOn, setHeatOn] = useState(false);
+  const [quizStart, setQuizStart] = useState(null);
+  useEffect(() => { if (mode !== "quiz") setQuizStart(null); }, [mode]);
   // Bumped after a restore so the panels start again from the restored progress.
   const [restored, setRestored] = useState(0);
 
@@ -62,6 +70,11 @@ export default function WsetStudyApp() {
     setMode("explore");
     setQuizMapClick(null);
   };
+
+  // Read fresh from the quiz record each time the Explore map is drawn.
+  const showHeat = heatOn && mode === "explore";
+  const heat = showHeat ? buildHeat(QUIZ_QUESTIONS, loadProgress(), Object.keys(REGIONS)) : null;
+  const quizRegion = (key) => { setQuizStart(key); setMode("quiz"); };
 
   // Zooming in shows the region's own places; only where there are some to show.
   // These tabs are whole pages of their own, with no map above them.
@@ -202,6 +215,13 @@ export default function WsetStudyApp() {
         maxWidth: "900px",
         margin: "0 auto"
       }}>
+        {mode === "explore" && (
+          <WeakSpots on={heatOn} onToggle={() => setHeatOn((h) => !h)} counts={heat?.counts ?? {}}
+            regionName={showHeat ? REGIONS[activeRegion]?.name : null}
+            regionBand={showHeat ? bandFor(heat.totals[activeRegion]) : null}
+            onQuizRegion={() => quizRegion(activeRegion)} />
+        )}
+
         {/* Map (an exam is not an open-book screen, so no map there) */}
         <div style={{
           padding: "16px 20px 0",
@@ -216,6 +236,7 @@ export default function WsetStudyApp() {
                 activeRegion={mode === "quiz" ? null : activeRegion}
                 onRegionClick={handleRegionClick}
                 quizMode={mode === "quiz"}
+                heat={heat?.colours}
               />
             )}
           </div>
@@ -283,6 +304,8 @@ export default function WsetStudyApp() {
               clearMapClick={() => setQuizMapClick(null)}
               onQuestionCountry={setQuizCountry}
               onStudyRegion={studyRegion}
+              startRegion={quizStart}
+              key={quizStart ?? "all"}
             />
           )}
         </div>
