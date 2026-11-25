@@ -132,7 +132,7 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 | Theory: written | Four questions of 25 marks, split into parts, 55% to pass on its own | ✍️ Written › *One question* or *Full 25-mark question* |
 | Both theory parts together | Two hours in one sitting | 📝 Mock exam › *Full theory paper* |
 | Service and food | Marks inside written questions 3 and 4, and some multiple choice | 🍾 Styles › *Service* and *Food*, and the Quiz's *Service* filter |
-| Tasting | Two wines, written up with WSET's tasting grid | 🍷 Taste › *Describe a wine* and *Spot the errors* |
+| Tasting | Two wines, written up with WSET's tasting grid | 🍷 Taste › *Describe a wine*, *Spot the errors* and *Tell them apart* |
 | Where things are | Asked across every part | 🗺️ Explore and 📍 Map drill |
 | What to revise next | Your own weakest regions | 🗺️ Explore › *Show my weak spots*, then *Quiz this region only* |
 
