@@ -1134,7 +1134,7 @@ export const GRAPES = {
     body: "medium",
     acidity: "high",
     aromas: ["pear", "green apple", "apricot", "orange"],
-    notes: "A German cross of Trollinger and Riesling, robust and frost-hardy, which needs a long season to ripen. It gives fruity wines with lively acidity and a slight muscat note."
+    notes: "A German cross of Trollinger and Riesling, robust and frost-hardy: it buds late, so it escapes spring frost, and ripens a little before Riesling. It gives fruity wines with lively acidity and a slight muscat note."
   },
   palomino: {
     name: "Palomino",
