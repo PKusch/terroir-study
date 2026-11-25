@@ -214,8 +214,16 @@ export function countryOfQuestion(q) {
 // (serving, storing, faults and food pairing, which belong to no region).
 export const TOPICS = ["Fortified", "Sparkling", "Service"];
 
+// A filter of the form "region:bordeaux" keeps one region's questions, for
+// the weak-spot map's "Quiz this region only".
+export const regionFilter = (key) => `region:${key}`;
+
 export function poolFor(questions, country = "All") {
   if (country === "All") return questions;
+  if (typeof country === "string" && country.startsWith("region:")) {
+    const key = country.slice(7);
+    return questions.filter((q) => regionOf(q) === key);
+  }
   if (TOPICS.includes(country)) return questions.filter((q) => q.topic === country.toLowerCase());
   return questions.filter((q) => countryOfQuestion(q) === country);
 }

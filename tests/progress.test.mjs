@@ -366,3 +366,12 @@ test("cleanRecord accepts exactly what recordAnswer writes", () => {
   const written = recordAnswer({}, "x", true, 1234);
   assert.deepEqual(cleanRecord(written.x), written.x);
 });
+
+test("a region filter keeps only that region's questions, map questions included", async () => {
+  const { poolFor, regionFilter, regionOf } = await import("../src/progress.js");
+  const { QUIZ_QUESTIONS } = await import("../src/data/quiz.js");
+  const pool = poolFor(QUIZ_QUESTIONS, regionFilter("tokaj"));
+  assert.ok(pool.length >= 13);
+  assert.ok(pool.every((q) => regionOf(q) === "tokaj"));
+  assert.deepEqual(poolFor(QUIZ_QUESTIONS, regionFilter("nowhere")), []);
+});
