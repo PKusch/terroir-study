@@ -853,7 +853,7 @@ export const GRAPES = {
     body: "medium",
     acidity: "high",
     aromas: ["citrus", "green apple", "almond", "saline", "white flowers"],
-    notes: "Tuscany's main white, grown on the hills around San Gimignano. Crisp with a bitter almond finish; mostly unoaked and drunk young."
+    notes: "Tuscany's best-known white and its only white DOCG, grown on the hills around San Gimignano; Trebbiano Toscano is more widely planted. Crisp with a bitter almond finish; mostly unoaked and drunk young."
   },
   trebbianoToscano: {
     name: "Trebbiano Toscano",
