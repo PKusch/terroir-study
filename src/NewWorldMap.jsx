@@ -8,7 +8,7 @@ const serif = "'Cormorant Garamond', Georgia, serif";
 // Same props and the same look as the country maps. Each tile is its own small
 // map: a faint outline for orientation, a city, the Andes where they matter,
 // and the wine area as the clickable shape.
-export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", children }) => (
+export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", heat, children }) => (
   <svg viewBox={viewBox} style={{ width: "100%", height: "100%", maxHeight: "520px" }} {...mapProps({ country: "New World", quizMode })}>
     <defs>
       <filter id="glowNewWorld">
@@ -35,6 +35,10 @@ export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "
     {NEW_WORLD_TILES.map((t) => {
       const region = REGIONS[t.key] ?? { name: t.key, color: "#8B7355" };
       const isActive = activeRegion === t.key;
+        // With the weak-spot view on, each region takes its accuracy colour.
+        const tone = heat ? heat[t.key] ?? "#4A4540" : region.color;
+        const dim = heat ? "dd" : "55";
+        const lit = heat ? "ff" : "99";
       return (
         <g key={t.key}>
           <rect x={t.x} y={t.y} width={t.width} height={t.height} fill="none" stroke="#2a2520" strokeWidth="0.6" />
@@ -47,7 +51,7 @@ export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "
             <text x={t.city.at[0] + 5} y={t.city.at[1] + 3} fontSize="6.5" fill="#8B7355" fontFamily="'Source Sans 3', sans-serif" fontWeight="500">{t.city.name}</text>
             <path
               d={t.wine}
-              fill={isActive ? region.color : region.color + "55"}
+              fill={isActive ? tone : tone + dim}
               stroke={isActive ? region.color : "#8B7355"}
               strokeWidth={isActive ? 2.5 : 1}
               strokeLinejoin="round"
@@ -56,13 +60,13 @@ export const NewWorldMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "
               onClick={() => onRegionClick(t.key)}
               onMouseEnter={(e) => {
                 if (!isActive) {
-                  e.target.setAttribute("fill", region.color + "99");
+                  e.target.setAttribute("fill", tone + lit);
                   e.target.setAttribute("stroke-width", "1.5");
                 }
               }}
               onMouseLeave={(e) => {
                 if (!isActive) {
-                  e.target.setAttribute("fill", region.color + "55");
+                  e.target.setAttribute("fill", tone + dim);
                   e.target.setAttribute("stroke-width", "1");
                 }
               }}

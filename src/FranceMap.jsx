@@ -3,7 +3,7 @@ import { regionProps, mapProps } from "./a11y.js";
 import { geoToSvg, pt } from "./geo.js";
 import { FRANCE_REGION_PATHS } from "./data/france-map.js";
 
-export const FranceMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", children }) => {
+export const FranceMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 0 500 420", heat, children }) => {
   const regionPaths = FRANCE_REGION_PATHS;
 
   // France mainland outline traced from real geographic points
@@ -139,12 +139,16 @@ export const FranceMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 
       {Object.entries(regionPaths).map(([key, { d, label }]) => {
         const region = REGIONS[key];
         const isActive = activeRegion === key;
+        // With the weak-spot view on, each region takes its accuracy colour.
+        const tone = heat ? heat[key] ?? "#4A4540" : region.color;
+        const dim = heat ? "dd" : "55";
+        const lit = heat ? "ff" : "99";
 
         return (
           <g key={key}>
             <path
               d={d}
-              fill={isActive ? region.color : region.color + "55"}
+              fill={isActive ? tone : tone + dim}
               stroke={isActive ? region.color : "#8B7355"}
               strokeWidth={isActive ? 2.5 : 1}
               strokeLinejoin="round"
@@ -157,13 +161,13 @@ export const FranceMap = ({ activeRegion, onRegionClick, quizMode, viewBox = "0 
               onClick={() => onRegionClick(key)}
               onMouseEnter={(e) => {
                 if (!isActive) {
-                  e.target.setAttribute("fill", region.color + "99");
+                  e.target.setAttribute("fill", tone + lit);
                   e.target.setAttribute("stroke-width", "1.5");
                 }
               }}
               onMouseLeave={(e) => {
                 if (!isActive) {
-                  e.target.setAttribute("fill", region.color + "55");
+                  e.target.setAttribute("fill", tone + dim);
                   e.target.setAttribute("stroke-width", "1");
                 }
               }}
