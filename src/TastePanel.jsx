@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useTwoStep } from "./useTwoStep.js";
 import { NoteDrill } from "./NoteDrill.jsx";
+import { TellApart } from "./TellApart.jsx";
 import { REGIONS } from "./data/regions.js";
 import { GRAPES } from "./data/grapes.js";
 import {
@@ -324,11 +325,13 @@ const TasteExercise = ({ region }) => {
   );
 };
 
-// The Taste tab has two exercises: describing a named wine, and spotting the
-// wording mistakes in someone else's tasting note.
+// The Taste tab has three exercises: describing a named wine, spotting the
+// wording mistakes in someone else's tasting note, and telling apart two grapes
+// that are easy to confuse.
 const MODES = [
   { id: "describe", label: "Describe a wine" },
-  { id: "errors", label: "Spot the errors" }
+  { id: "errors", label: "Spot the errors" },
+  { id: "apart", label: "Tell them apart" }
 ];
 
 export const TastePanel = ({ region }) => {
@@ -347,7 +350,7 @@ export const TastePanel = ({ region }) => {
           }}>{m.label}</button>
         ))}
       </div>
-      {mode === "describe" ? <TasteExercise region={region} /> : <NoteDrill />}
+      {mode === "describe" ? <TasteExercise region={region} /> : mode === "errors" ? <NoteDrill /> : <TellApart />}
     </div>
   );
 };
