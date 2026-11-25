@@ -590,7 +590,7 @@ export const GRAPES = {
     aliases: ["Treixadura"],
     colour: "white",
     body: "low",
-    acidity: "medium",
+    acidity: "low",
     aromas: ["peach", "apple", "lemon", "white flowers", "melon"],
     notes: "A soft, fruity grape that ripens early, so it adds roundness and a little sweetness of fruit to the tart, lean Vinho Verde blend. Rarely made alone; drunk young."
   },
