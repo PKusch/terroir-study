@@ -772,7 +772,7 @@ export const GRAPES = {
     body: "low",
     acidity: "high",
     aromas: ["lime", "green apple", "peach", "blossom", "honey", "petrol"],
-    notes: "Late ripening and frost-hardy: it wants a cool, dry site with a long autumn to ripen while keeping its acid. Never oaked, made dry to sweet, and among the longest-lived whites, developing honey and petrol with age."
+    notes: "Late ripening and frost-hardy: it wants a cool, dry site with a long autumn to ripen while keeping its acid. Rarely given new oak (large, old casks are traditional), made dry to sweet, and among the longest-lived whites, developing honey and petrol with age."
   },
   gewurztraminer: {
     name: "Gewurztraminer",
