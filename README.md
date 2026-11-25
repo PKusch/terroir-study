@@ -132,6 +132,7 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 | Service and food | Marks inside written questions 3 and 4, and some multiple choice | 🍾 Styles › *Service* and *Food*, and the Quiz's *Service* filter |
 | Tasting | Two wines, written up with WSET's tasting grid | 🍷 Taste › *Describe a wine* and *Spot the errors* |
 | Where things are | Asked across every part | 🗺️ Explore and 📍 Map drill |
+| What to revise next | Your own weakest regions | 🗺️ Explore › *Show my weak spots*, then *Quiz this region only* |
 
 ## Regions Covered
 
