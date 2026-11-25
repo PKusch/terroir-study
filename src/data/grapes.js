@@ -618,7 +618,7 @@ export const GRAPES = {
     colour: "white",
     body: "high",
     acidity: "medium",
-    aromas: ["peach", "tropical fruit", "melon", "citrus", "butter"],
+    aromas: ["peach", "tropical fruit", "melon", "citrus", "tangerine peel"],
     notes: "Thrives in Alentejo's heat and still holds enough acidity to stay fresh. Gives round, full whites that take some oak and lees contact well."
   },
   furmint: {
