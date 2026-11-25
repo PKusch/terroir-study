@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { GRAPES } from "../src/data/grapes.js";
-import { buildPairQuestion, compare, drillGrapes, lookAlike, ownAromas, sharedAromas, structureGap } from "../src/lookalike.js";
+import { buildPairQuestion, compare, drillGrapes, lookAlike, ownAromas, sameSmell, sharedAromas, structureGap } from "../src/lookalike.js";
 
 test("a good set of common grapes have a look-alike", () => {
   const pool = drillGrapes();
@@ -27,11 +27,20 @@ test("a question's clue describes the right grape and can be answered", () => {
     assert.equal(new Set(q.options).size, 2);
     const g = GRAPES[q.mystery];
     for (const a of q.clue.aromas) assert.ok(g.aromas.includes(a), `${a} is not a ${g.name} aroma`);
-    const telling = q.clue.aromas.filter((a) => !GRAPES[other].aromas.includes(a));
+    const telling = q.clue.aromas.filter((a) => !GRAPES[other].aromas.some((y) => sameSmell(a, y)));
     assert.ok(telling.length >= 2, "at least two aromas point to the right grape");
     assert.equal(q.clue.body, g.body);
     assert.equal(q.clue.tannin, g.colour === "red" ? g.tannin : null);
   }
+});
+
+test("related aroma words count as the same smell", () => {
+  assert.ok(sameSmell("apple", "green apple"));
+  assert.ok(sameSmell("floral", "white flowers"));
+  assert.ok(sameSmell("lemon", "citrus"));
+  assert.ok(sameSmell("mineral", "wet stone"));
+  assert.ok(!sameSmell("red cherry", "black cherry"));
+  assert.ok(!sameSmell("pear", "green apple"));
 });
 
 test("compare lists structure rows and splits the aromas three ways", () => {
@@ -40,5 +49,5 @@ test("compare lists structure rows and splits the aromas three ways", () => {
   const c = compare(s, o);
   assert.ok(c.rows.length >= 2);
   assert.deepEqual([...c.shared, ...c.onlyA].sort(), [...GRAPES[s].aromas].sort());
-  assert.deepEqual([...c.shared, ...c.onlyB].sort(), [...GRAPES[o].aromas].sort());
+  assert.deepEqual([...c.sharedB, ...c.onlyB].sort(), [...GRAPES[o].aromas].sort());
 });

@@ -27,8 +27,21 @@ export function structureGap(a, b) {
   return gap;
 }
 
-export const sharedAromas = (a, b) => GRAPES[a].aromas.filter((x) => GRAPES[b].aromas.includes(x));
-export const ownAromas = (a, b) => GRAPES[a].aromas.filter((x) => !GRAPES[b].aromas.includes(x));
+// Two aroma words count as the same smell when they are equal, when one sits
+// inside the other ("apple" and "green apple"), or when both belong to one
+// family below, so a clue never leans on a difference of wording alone.
+const FAMILIES = [
+  ["floral", "flowers", "white flowers", "blossom"],
+  ["citrus", "lemon", "lime", "grapefruit", "citrus peel", "orange peel"],
+  ["stone fruit", "peach", "apricot", "nectarine", "white peach"],
+  ["mineral", "wet stone", "stone", "stony", "flint"]
+];
+export function sameSmell(x, y) {
+  if (x === y || x.includes(y) || y.includes(x)) return true;
+  return FAMILIES.some((f) => f.includes(x) && f.includes(y));
+}
+export const sharedAromas = (a, b) => GRAPES[a].aromas.filter((x) => GRAPES[b].aromas.some((y) => sameSmell(x, y)));
+export const ownAromas = (a, b) => GRAPES[a].aromas.filter((x) => !GRAPES[b].aromas.some((y) => sameSmell(x, y)));
 
 const regionCount = (slug) => {
   const r = regionsGrowing(slug, REGIONS);
@@ -104,5 +117,6 @@ export function compare(a, b) {
   const row = (label, field) => ({ label, a: GRAPES[a][field] ?? "—", b: GRAPES[b][field] ?? "—", same: GRAPES[a][field] === GRAPES[b][field] });
   const rows = [row("Body", "body"), row("Acidity", "acidity")];
   if (GRAPES[a].colour === "red") rows.push(row("Tannin", "tannin"));
-  return { rows, shared: sharedAromas(a, b), onlyA: ownAromas(a, b), onlyB: ownAromas(b, a) };
+  // "shared" uses the first grape's words; "sharedB" the second's.
+  return { rows, shared: sharedAromas(a, b), sharedB: sharedAromas(b, a), onlyA: ownAromas(a, b), onlyB: ownAromas(b, a) };
 }
