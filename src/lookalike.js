@@ -31,10 +31,12 @@ export function structureGap(a, b) {
 // inside the other ("apple" and "green apple"), or when both belong to one
 // family below, so a clue never leans on a difference of wording alone.
 const FAMILIES = [
-  ["floral", "flowers", "white flowers", "blossom"],
+  ["floral", "flowers", "white flowers", "blossom", "orange blossom"],
   ["citrus", "lemon", "lime", "grapefruit", "citrus peel", "orange peel"],
   ["stone fruit", "peach", "apricot", "nectarine", "white peach"],
-  ["mineral", "wet stone", "stone", "stony", "flint"]
+  ["mineral", "wet stone", "stone", "stony", "flint"],
+  ["nuts", "nutty", "almond", "hazelnut"],
+  ["spice", "pepper", "black pepper", "white pepper"]
 ];
 export function sameSmell(x, y) {
   if (x === y || x.includes(y) || y.includes(x)) return true;

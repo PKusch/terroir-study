@@ -39,6 +39,7 @@ test("related aroma words count as the same smell", () => {
   assert.ok(sameSmell("floral", "white flowers"));
   assert.ok(sameSmell("lemon", "citrus"));
   assert.ok(sameSmell("mineral", "wet stone"));
+  assert.ok(sameSmell("nuts", "almond") && sameSmell("spice", "black pepper") && sameSmell("grape", "grapey"));
   assert.ok(!sameSmell("red cherry", "black cherry"));
   assert.ok(!sameSmell("pear", "green apple"));
 });
