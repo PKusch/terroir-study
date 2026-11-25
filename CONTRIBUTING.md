@@ -35,6 +35,9 @@ point to, not from memory.
 - A multiple-choice question has four options, an `answer` index, a `region` key
   and an `explanation` that says why. The quiz and the mock exam shuffle the
   options, so their stored order does not matter to the player.
+- A grape profile's aromas should be the grape's own. Butter, toast, vanilla,
+  cedar, brioche and the like come from the cellar; list one only if the notes
+  say where it comes from (a test checks this).
 - A question about serving, storing, faults or food pairing belongs to no
   region: give it `topic: "service"`, no `region` or `country`, and an id that
   starts with `sv-`.
