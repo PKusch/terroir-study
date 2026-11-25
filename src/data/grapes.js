@@ -799,7 +799,7 @@ export const GRAPES = {
     body: "low",
     acidity: "low",
     aromas: ["grape", "orange blossom", "rose", "peach", "honey"],
-    notes: "The one grape whose wine smells of grapes. Made dry in Alsace, lightly sparkling and sweet in Asti, and fortified in the south; drunk young while the aroma lasts."
+    notes: "The one grape whose wine smells of grapes. This profile covers the Muscat family: Muscat Blanc à Petits Grains (Moscato, Muskateller) and, as Moscatel in Spain and Portugal, mostly Muscat of Alexandria. Made dry in Alsace, lightly sparkling and sweet in Asti, and fortified in the south; drunk young while the aroma lasts."
   },
   picpoul: {
     name: "Picpoul",
