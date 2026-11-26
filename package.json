@@ -3,6 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "description": "A map-first, visual study tool for WSET Level 3 wine certification",
+  "homepage": "https://pkusch.github.io/terroir-study/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PKusch/terroir-study.git"
+  },
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=22"
