@@ -1,0 +1,14 @@
+# Keeps the same basic layout in every editor: two-space indents, Unix line
+# endings and a final newline, as the existing files already use.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
