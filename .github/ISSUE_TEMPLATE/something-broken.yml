@@ -1,0 +1,26 @@
+name: Something does not work
+description: A button, a screen or a drill that misbehaves, or a page that looks wrong on your phone.
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Which screen?
+      description: The tab and, if there is one, the mode inside it (for example Taste › Tell them apart, or Mock exam › Full theory paper).
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone or computer, and which browser?
+      placeholder: "iPhone, Safari"
+  - type: markdown
+    attributes:
+      value: |
+        Your progress lives only in your browser. Please do not paste a backup file here: it holds your answers, and nothing here needs them.
