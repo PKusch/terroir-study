@@ -16,6 +16,8 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    # The tests and a build take about a minute; a stuck run stops here.
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
