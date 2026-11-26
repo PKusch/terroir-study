@@ -58,6 +58,11 @@ point to, not from memory.
   2 are frozen and do not change; the new question lands on one of the later
   papers, which appear as the bank grows.
 
+## Telling people what changed
+
+A change someone studying would notice (a new drill, a fixed fact, a new
+screen) gets one line in `CHANGELOG.md`, under the day it went live.
+
 ## Running it
 
 ```bash
