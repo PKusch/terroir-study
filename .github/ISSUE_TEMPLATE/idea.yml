@@ -1,0 +1,16 @@
+name: An idea for the app
+description: A drill, a screen or a topic that would help you study for WSET Level 3.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Say what you would practise and why. If it is something another study tool does, a link helps.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: If it needs new facts, where do they come from?
+      description: Every fact in the app has a source, so a rule book, WSET page or textbook reference saves time.
