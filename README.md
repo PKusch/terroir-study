@@ -136,6 +136,8 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 | Where things are | Asked across every part | 🗺️ Explore and 📍 Map drill |
 | What to revise next | Your own weakest regions | 🗺️ Explore › *Show my weak spots*, then *Quiz this region only* |
 
+What changed recently, day by day, is in the [changelog](CHANGELOG.md).
+
 ## Regions Covered
 
 | | Country | Regions |
