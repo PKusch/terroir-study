@@ -10,7 +10,7 @@ body:
     id: where
     attributes:
       label: Where did you see it?
-      description: The country, region or place name, and whether it was the map, the quiz, Taste mode or a print sheet.
+      description: The country, region or place name, and where you saw it: the map, a quiz or mock-exam question, a Styles card, a written model answer, Taste mode (including Tell them apart) or a print sheet.
       placeholder: "Italy, Barolo, quiz question about the ageing rules"
     validations:
       required: true
