@@ -6,6 +6,11 @@ is summed up in the README's roadmap.
 
 ## November 2026
 
+### 27 November
+- **Home page:** the app now opens on a home page with *Try it live*, a world map of the fifteen syllabus countries (and a closer Europe view), every country and region one click away, and the WSET Level 3 syllabus with where to study each part.
+- **Principles:** a new tab with sourced topics on tasting, climate, viticulture, winemaking, wine law and price.
+- Explore now has its own address, `#explore`.
+
 ### 26 November
 - Small project files: a Node version file, an editor settings file, issue forms for something broken and for ideas, and time limits on the GitHub workflows.
 
