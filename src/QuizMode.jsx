@@ -17,6 +17,7 @@ import {
   poolFor,
   TOPICS,
   regionFilter,
+  hasNoRegion,
   studyPool
 } from "./progress.js";
 
@@ -50,7 +51,7 @@ export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRe
   // Tell the app which country's map to show for this question.
   useEffect(() => {
     // Service and food questions belong to no country, so the map stays as it is.
-    if (onQuestionCountry && q.topic !== "service") onQuestionCountry(q.country ?? "France");
+    if (onQuestionCountry && !hasNoRegion(q)) onQuestionCountry(q.country ?? "France");
   }, [q.id]);
 
   const summary = progressSummary(pool, progress);

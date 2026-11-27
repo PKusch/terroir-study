@@ -202,17 +202,22 @@ export function weakAreas(questions, progress, regions = {}, minAttempts = 2) {
 
 // ── Studying one country at a time ───────────────────────────────────────────
 // French questions carry no country field; every other question names its own.
-// Service and food questions belong to no country, so they get their own label.
+// Service and food questions, and vineyard questions, belong to no country or
+// region, so they get their own label.
+export const NO_REGION_TOPICS = { service: "Service & food", vineyard: "Vineyard" };
+export const hasNoRegion = (q) => Object.hasOwn(NO_REGION_TOPICS, q?.topic ?? "");
 export function countryOfQuestion(q) {
-  if (q.topic === "service") return "Service & food";
+  if (hasNoRegion(q)) return NO_REGION_TOPICS[q.topic];
   return q.country ?? "France";
 }
 
 // Besides a country, the filter can be a topic that cuts across countries:
 // "Fortified" picks every question tagged topic: "fortified", "Sparkling" every
 // one tagged topic: "sparkling", "Service" every one tagged topic: "service"
-// (serving, storing, faults and food pairing, which belong to no region).
-export const TOPICS = ["Fortified", "Sparkling", "Service"];
+// (serving, storing, faults and food pairing), and "Vineyard" every one tagged
+// topic: "vineyard" (climate and viticulture in general); these two belong to
+// no region.
+export const TOPICS = ["Fortified", "Sparkling", "Service", "Vineyard"];
 
 // A filter of the form "region:bordeaux" keeps one region's questions, for
 // the weak-spot map's "Quiz this region only".

@@ -17342,5 +17342,565 @@ export const QUIZ_QUESTIONS = [
     answer: 3,
     region: "britishColumbia",
     explanation: "The Okanagan is a dry rain-shadow valley of lakes that moderate summer heat and winter cold. Benches nearer a lake get more of that effect, and the glacial soils change along the valley, sandy and gravelly in places, loamier in the south, so each bench makes its own style."
+  },
+  {
+    id: "vy-01",
+    type: "connection",
+    topic: "vineyard",
+    question: "At about what mean daily temperature does a vine start to grow in spring?",
+    options: [
+      "About 0 °C",
+      "About 5 °C",
+      "About 10 °C",
+      "About 20 °C"
+    ],
+    answer: 2,
+    explanation: "Growth starts when the mean daily temperature in spring reaches about 10 °C (Gregory Jones, GuildSomm; New Mexico State University)."
+  },
+  {
+    id: "vy-02",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which of these is NOT one of the vine's needs in WSET's specification?",
+    options: [
+      "Warmth",
+      "Sunlight",
+      "Carbon dioxide",
+      "Wind"
+    ],
+    answer: 3,
+    explanation: "The specification lists warmth, sunlight, water, nutrients and carbon dioxide. Wind is not a need, though it can help dry the canopy."
+  },
+  {
+    id: "vy-03",
+    type: "connection",
+    topic: "vineyard",
+    question: "What does continentality measure?",
+    options: [
+      "How far a vineyard is from the sea",
+      "The total rainfall in a year",
+      "The number of sunny days",
+      "The warmest-coldest month gap"
+    ],
+    answer: 3,
+    explanation: "Continentality is the difference between the average temperature of the warmest and the coldest month: the bigger it is, the more continental the climate."
+  },
+  {
+    id: "vy-04",
+    type: "scenario",
+    topic: "vineyard",
+    question: "A grower plants 300 m higher up the same hillside. Roughly how much cooler will the vines be?",
+    options: [
+      "About 0.5 °C",
+      "About 1.8 °C",
+      "About 6 °C",
+      "Not at all"
+    ],
+    answer: 1,
+    explanation: "Temperature falls by about 0.6 °C for every 100 m of height, so 300 m higher is about 1.8 °C cooler (WSET blog)."
+  },
+  {
+    id: "vy-05",
+    type: "connection",
+    topic: "vineyard",
+    question: "Between which latitudes are conditions usually best for wine grapes?",
+    options: [
+      "About 10° to 30°",
+      "About 50° to 70°",
+      "Only on the equator",
+      "About 30° to 50°"
+    ],
+    answer: 3,
+    explanation: "WSET's blog puts the best conditions generally between about 30° and 50° north or south, though altitude and the sea can shift a region's climate."
+  },
+  {
+    id: "vy-06",
+    type: "scenario",
+    topic: "vineyard",
+    question: "In the northern hemisphere, which slope gets the most warmth and sun?",
+    options: [
+      "A south-facing slope",
+      "A north-facing slope",
+      "A valley floor",
+      "A shaded east slope"
+    ],
+    answer: 0,
+    explanation: "Slopes facing the equator are warmer and sunnier, so in the northern hemisphere a south-facing slope gets the most."
+  },
+  {
+    id: "vy-07",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why are hillside vineyards often less prone to frost than the valley floor?",
+    options: [
+      "Hills get more rain",
+      "Hill soils are always much warmer",
+      "Cold air drains downhill",
+      "Frost cannot form above 200 m"
+    ],
+    answer: 2,
+    explanation: "Cold air is heavy and drains down slopes to the valley floor, so slopes are less prone to frost (WSET blog)."
+  },
+  {
+    id: "vy-08",
+    type: "connection",
+    topic: "vineyard",
+    question: "What does a cold ocean current such as the Benguela do to a coastal vineyard?",
+    options: [
+      "Warms it in winter",
+      "Cools it, with fog",
+      "Brings warm tropical rain",
+      "Has no effect on land"
+    ],
+    answer: 1,
+    explanation: "A cold current cools the coast; the Benguela runs about 4 °C below the average for its latitude (UCAR MetEd), and cold coasts are prone to fog."
+  },
+  {
+    id: "vy-09",
+    type: "connection",
+    topic: "vineyard",
+    question: "What is the difference between climate and weather?",
+    options: [
+      "Climate: the long run; weather: a given year",
+      "They mean the same thing",
+      "Weather is only about the rain",
+      "Climate is about the soil and rocks under the vines"
+    ],
+    answer: 0,
+    explanation: "Climate is the long-run pattern of a place; weather is what happens in a particular year, which is why vintages vary."
+  },
+  {
+    id: "vy-10",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which climate type does WSET's teaching link with Bordeaux?",
+    options: [
+      "Continental",
+      "Mediterranean",
+      "Desert",
+      "Maritime"
+    ],
+    answer: 3,
+    explanation: "Bordeaux is a classic maritime example, moderated by the Atlantic (Gregory Jones, GuildSomm)."
+  },
+  {
+    id: "vy-11",
+    type: "connection",
+    topic: "vineyard",
+    question: "Roughly what growing-season average temperature suits quality wine?",
+    options: [
+      "5 to 10 °C",
+      "25 to 30 °C",
+      "13 to 21 °C",
+      "Above 30 °C"
+    ],
+    answer: 2,
+    explanation: "Quality wine grows where the growing-season average is roughly 13 to 21 °C (Gregory Jones, GuildSomm)."
+  },
+  {
+    id: "vy-12",
+    type: "scenario",
+    topic: "vineyard",
+    question: "A hot region gets under 500 mm of rain a year. What will most growers need?",
+    options: [
+      "Irrigation",
+      "Frost fans",
+      "Hail nets",
+      "Snow fences"
+    ],
+    answer: 0,
+    explanation: "Some hot regions with less than about 500 mm of rain a year can only grow vines with irrigation."
+  },
+  {
+    id: "vy-13",
+    type: "connection",
+    topic: "vineyard",
+    question: "What happens at véraison?",
+    options: [
+      "The buds burst",
+      "The vine flowers",
+      "The leaves turn and fall",
+      "Grapes soften and colour"
+    ],
+    answer: 3,
+    explanation: "At véraison the grapes soften, change colour and begin to show their varietal flavours."
+  },
+  {
+    id: "vy-14",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which order is the vine's year in WSET's specification?",
+    options: [
+      "Budburst, flowering, fruit set, véraison, ripening",
+      "Flowering, budburst, véraison, fruit set, ripening",
+      "Budburst, véraison, flowering, fruit set, ripening",
+      "Fruit set, flowering, budburst, ripening, véraison"
+    ],
+    answer: 0,
+    explanation: "After dormancy: budburst, flowering, fruit set, véraison and ripening."
+  },
+  {
+    id: "vy-15",
+    type: "connection",
+    topic: "vineyard",
+    question: "What happens to malic acid as grapes ripen?",
+    options: [
+      "It rises sharply",
+      "It turns into tannin",
+      "It is broken down",
+      "It stays exactly the same"
+    ],
+    answer: 2,
+    explanation: "During ripening the berries gather sugar while malic acid is broken down (AWRI)."
+  },
+  {
+    id: "vy-16",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why do cool nights help a grape keep its acidity?",
+    options: [
+      "Warm nights use up more malic acid",
+      "Cool nights add extra tartaric acid to grapes",
+      "Cold stops sugar forming",
+      "Cool nights thicken the skins"
+    ],
+    answer: 0,
+    explanation: "Hot nights use up even more malic acid, so cooler nights help keep acidity (AWRI)."
+  },
+  {
+    id: "vy-17",
+    type: "connection",
+    topic: "vineyard",
+    question: "What happens to green-pepper notes (methoxypyrazines) as grapes ripen?",
+    options: [
+      "They grow stronger",
+      "They turn into tannin",
+      "They appear only at harvest",
+      "They fade"
+    ],
+    answer: 3,
+    explanation: "Methoxypyrazines, which give green-pepper notes, decrease as berries mature (AWRI)."
+  },
+  {
+    id: "vy-18",
+    type: "connection",
+    topic: "vineyard",
+    question: "How much do skin tannins in red grapes change after véraison?",
+    options: [
+      "They double",
+      "They disappear",
+      "Very little",
+      "They turn into sugar"
+    ],
+    answer: 2,
+    explanation: "Skin tannins are already fairly high at véraison and change little afterwards (AWRI)."
+  },
+  {
+    id: "vy-19",
+    type: "connection",
+    topic: "vineyard",
+    question: "What does spur pruning leave on the vine?",
+    options: [
+      "Short spurs along a permanent cordon",
+      "One or two long canes renewed each year",
+      "Only the trunk",
+      "Nothing above ground"
+    ],
+    answer: 0,
+    explanation: "Spur pruning leaves short spurs of two to four buds along a permanent arm (cordon); cane pruning keeps longer canes renewed each year."
+  },
+  {
+    id: "vy-20",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why do growers manage the canopy?",
+    options: [
+      "To hide the grapes from birds",
+      "To raise the yield as high as possible",
+      "To let in air and sun",
+      "To stop the vine flowering"
+    ],
+    answer: 2,
+    explanation: "Canopy management lets air move through the leaves, which limits humidity and disease, and lets sunlight reach the leaves and grapes (Penn State Extension)."
+  },
+  {
+    id: "vy-21",
+    type: "scenario",
+    topic: "vineyard",
+    question: "A cold air mass is moving in overnight. Which frost defence is the only proven one against it?",
+    options: [
+      "Wind machines",
+      "Heaters alone",
+      "Late pruning",
+      "Sprinklers"
+    ],
+    answer: 3,
+    explanation: "Against an incoming mass of cold air (advection frost), overhead sprinklers are the only proven option; wind machines need warmer air above the vines to mix down (AWRI)."
+  },
+  {
+    id: "vy-22",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why can late pruning help against spring frost?",
+    options: [
+      "It delays budburst",
+      "It makes buds frost-proof",
+      "It warms the soil",
+      "It removes all buds"
+    ],
+    answer: 0,
+    explanation: "Pruning late can delay budburst until frosts are less likely (AWRI frost fact sheet)."
+  },
+  {
+    id: "vy-23",
+    type: "connection",
+    topic: "vineyard",
+    question: "How do growers protect vines from hard winter freeze?",
+    options: [
+      "Spraying the vines with water at noon",
+      "Picking early",
+      "Removing leaves",
+      "Earthing up the graft"
+    ],
+    answer: 3,
+    explanation: "Earthing (hilling) soil up over the graft union protects it from freezing; the specification calls this earthing up."
+  },
+  {
+    id: "vy-24",
+    type: "connection",
+    topic: "vineyard",
+    question: "What is WSET's main response to phylloxera?",
+    options: [
+      "Spraying fungicide",
+      "Planting at high altitude",
+      "American rootstock",
+      "Flooding the vineyard"
+    ],
+    answer: 2,
+    explanation: "The specification's response is the use of rootstocks: European vines are grafted onto resistant American rootstock."
+  },
+  {
+    id: "vy-25",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which weather favours downy mildew and botrytis bunch rot?",
+    options: [
+      "Hot, dry wind",
+      "Rain and cloud",
+      "Repeated hard frost",
+      "Strong sunshine"
+    ],
+    answer: 1,
+    explanation: "Downy mildew and botrytis are both favoured by persistently rainy and cloudy conditions (Penn State Extension)."
+  },
+  {
+    id: "vy-26",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which fungal disease can still be a problem in dry regions?",
+    options: [
+      "Downy mildew",
+      "Powdery mildew",
+      "Grey rot (botrytis)",
+      "None of them"
+    ],
+    answer: 1,
+    explanation: "Powdery mildew is still an issue even in dry regions (Penn State Extension)."
+  },
+  {
+    id: "vy-27",
+    type: "connection",
+    topic: "vineyard",
+    question: "What conditions does noble rot need?",
+    options: [
+      "Constant heavy rain through autumn",
+      "Frost every night",
+      "Dry, windless heat",
+      "Misty mornings, sunny afternoons"
+    ],
+    answer: 3,
+    explanation: "Noble rot needs misty, humid mornings and warm, sunny afternoons; if the weather stays wet it becomes grey rot instead."
+  },
+  {
+    id: "vy-28",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which of these is a way to concentrate sugar in the grape?",
+    options: [
+      "Irrigating the vines heavily",
+      "Picking early",
+      "Freezing them on the vine",
+      "Raising the yield"
+    ],
+    answer: 2,
+    explanation: "The specification lists noble rot, drying grapes on the vine and freezing them on the vine."
+  },
+  {
+    id: "vy-29",
+    type: "connection",
+    topic: "vineyard",
+    question: "Who certifies biodynamic wine?",
+    options: [
+      "Governments",
+      "Private bodies, e.g. Demeter",
+      "WSET",
+      "Nobody at all certifies biodynamics"
+    ],
+    answer: 1,
+    explanation: "Organic rules are set by governments; biodynamic certification is by private bodies such as Demeter. 'Sustainable' has no single fixed meaning."
+  },
+  {
+    id: "vy-30",
+    type: "scenario",
+    topic: "vineyard",
+    question: "A producer wants whole bunches for whole-bunch fermentation. How must they harvest?",
+    options: [
+      "By machine",
+      "Either way",
+      "At night by machine only",
+      "By hand"
+    ],
+    answer: 3,
+    explanation: "Only hand picking keeps whole bunches and lets pickers choose the fruit; machines break the grapes."
+  },
+  {
+    id: "vy-31",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which is an advantage of machine harvesting?",
+    options: [
+      "It keeps bunches whole",
+      "It sorts out rotten fruit",
+      "It is fast, even at night",
+      "It is required in Champagne"
+    ],
+    answer: 2,
+    explanation: "Machines are faster, can work at night and cost much less, but they break the grapes. Champagne allows only hand picking."
+  },
+  {
+    id: "vy-32",
+    type: "connection",
+    topic: "vineyard",
+    question: "What does regulated deficit irrigation do to berries?",
+    options: [
+      "Makes them much larger and more watery",
+      "Turns them white",
+      "Stops ripening",
+      "Smaller, with more skin to juice"
+    ],
+    answer: 3,
+    explanation: "Holding back water between fruit set and véraison gives smaller berries, with more skin to juice (AWRI)."
+  },
+  {
+    id: "vy-33",
+    type: "connection",
+    topic: "vineyard",
+    question: "What is a clone, in the vineyard?",
+    options: [
+      "A vine grown from seed",
+      "A cross of two different vine species",
+      "A vine grafted onto itself",
+      "An identical copy of a chosen vine"
+    ],
+    answer: 3,
+    explanation: "A clone is propagated from a cutting or bud of a chosen mother vine, so it is genetically identical; growers choose clones for traits such as disease resistance or early ripening. Pinot Noir 777 is one (Wine Spectator)."
+  },
+  {
+    id: "vy-34",
+    type: "connection",
+    topic: "vineyard",
+    question: "Pinotage comes from Pinot Noir and Cinsault. What kind of grape is it?",
+    options: [
+      "A clone",
+      "A hybrid",
+      "A rootstock",
+      "A crossing"
+    ],
+    answer: 3,
+    explanation: "A crossing has two Vitis vinifera parents; Pinot Noir and Cinsault are both vinifera. A hybrid crosses vinifera with another species."
+  },
+  {
+    id: "vy-35",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why are American vine species important to European vineyards?",
+    options: [
+      "Their grapes make the best wine",
+      "They ripen earliest",
+      "They give resistant rootstocks",
+      "They need no water"
+    ],
+    answer: 2,
+    explanation: "Almost all commercial wine grapes are grafted onto phylloxera-resistant rootstocks from American species such as Vitis riparia, rupestris and berlandieri (UC Davis)."
+  },
+  {
+    id: "vy-36",
+    type: "connection",
+    topic: "vineyard",
+    question: "Where does a vine store the reserves that fuel growth in early spring?",
+    options: [
+      "In the leaves",
+      "Trunk, arms and roots",
+      "In last year's grapes",
+      "In the little tendrils"
+    ],
+    answer: 1,
+    explanation: "The permanent wood, the trunk and the cordons, together with the roots, stores the carbohydrates that fuel early-season growth (New Mexico State University)."
+  },
+  {
+    id: "vy-37",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why does pruning matter so much for this year's crop?",
+    options: [
+      "Pruning adds sugar to the grapes",
+      "Fruit grows on last year's wood",
+      "Pruning stops frost",
+      "It removes the roots"
+    ],
+    answer: 1,
+    explanation: "The buds on one-year-old wood (last year's canes and spurs) give this year's fruiting shoots, so pruning decides how many shoots and bunches there will be."
+  },
+  {
+    id: "vy-38",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which part of the grape gives a red wine its colour?",
+    options: [
+      "The pulp",
+      "The seeds",
+      "The stems",
+      "The skin"
+    ],
+    answer: 3,
+    explanation: "Colour comes from the skin. The pulp of almost all black grapes is pale, like that of white grapes; teinturiers such as Alicante Bouschet are the exception (WSET Level 2)."
+  },
+  {
+    id: "vy-39",
+    type: "scenario",
+    topic: "vineyard",
+    question: "A producer wants a white wine from Pinot Noir. Why is that possible?",
+    options: [
+      "Pinot Noir turns white when ripe",
+      "The colour is filtered out after fermentation",
+      "Its flesh is pale; press quickly and gently",
+      "It is not possible"
+    ],
+    answer: 2,
+    explanation: "The pulp of black grapes is pale; pressing very gently before fermentation keeps the colour in the skins out of the juice (WSET Level 2)."
+  },
+  {
+    id: "vy-40",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why are grape seeds handled gently in the winery?",
+    options: [
+      "They contain all the sugar",
+      "They give the wine its colour",
+      "They hold the acidity",
+      "They hold bitter tannin"
+    ],
+    answer: 3,
+    explanation: "Seeds and stems are high in tannin, which can make wine taste very bitter if handled badly (WSET Level 2)."
   }
 ];
