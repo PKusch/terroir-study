@@ -404,6 +404,8 @@ npm run dev
 - [x] Study plan, 2026-11-22: a study streak, an exam-date countdown and a daily target for new questions on the Quiz tab
 - [x] Weak-spot map, 2026-11-25: regions shaded by your quiz accuracy, and a quiz on one region at a time
 - [x] Tell them apart, 2026-11-25: a drill on pairs of grapes that are easy to confuse
+- [x] Home page and Principles, 2026-11-27: a world map, every region, the syllabus laid out like WSET's specification, and sourced topics on tasting, climate, viticulture, winemaking, wine law and price
+- [ ] Social and health issues (part of learning outcome 5), not in the app yet
 - [x] Sub-region drill-down maps (Zoom into any region: 439 places marked across 77 regions)
 - [x] Fortified wines: Madeira as its own region, Port, Sherry, the Vins Doux Naturels, Marsala and Rutherglen Muscat, with a *Fortified* filter in the quiz and the mock exam
 - [x] Sparkling wines: Franciacorta as its own region, Champagne, the Crémants, Cava, Prosecco, Asti, Trento, Sekt and Cap Classique, with a *Sparkling* filter in the quiz and the mock exam
