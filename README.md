@@ -48,7 +48,7 @@ Terroir Study is **map-first and connection-oriented**. Instead of memorising fa
 
 ## What it does
 
-Eight ways to study, one map. Each one reads from the same data, so what you explore is what you are quizzed on.
+Ten tabs, one map. Each one reads from the same data, so what you explore is what you are quizzed on.
 
 ```mermaid
 flowchart LR
