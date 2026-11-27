@@ -194,7 +194,7 @@ export const PRINCIPLES = [
         points: [
           "Noble rot needs misty, humid mornings and warm, sunny afternoons; if the weather stays wet it becomes grey rot instead. It shrivels grapes while keeping their sugar.",
           "Other ways: drying grapes on the vine, and freezing them on the vine.",
-          "Approaches: conventional, sustainable, organic and biodynamic. Organic certification is set by governments, biodynamic by private bodies such as Demeter, and 'sustainable' has no single fixed meaning.",
+          "Approaches: conventional, sustainable, organic and biodynamic. Organic rules are set by governments, biodynamic certification by private bodies such as Demeter, and 'sustainable' has no single fixed meaning.",
           "Harvest: by hand or by machine. Only hand picking keeps whole bunches and lets pickers choose the fruit; machines are faster, can work at night and cost much less, but break the grapes. Champagne allows only hand picking."
         ]
       }
