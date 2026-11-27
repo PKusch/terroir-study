@@ -343,5 +343,70 @@ export const PRINCIPLES = [
       L2,
       { title: "WSET Level 4 Diploma Specification (2025), factors affecting supply, demand and cost", url: "https://www.wsetglobal.com/media/17609/wset_l4wines_specification_en_august-2025.pdf" }
     ]
+  },
+  {
+    id: "health",
+    label: "Health",
+    intro: "WSET's specification asks you to 'state the social and health issues resulting from the excess consumption of wine'. These points come from health authorities: WSET's own pages do not give units or guideline figures.",
+    tool: "units",
+    sections: [
+      {
+        title: "Units",
+        points: [
+          "One UK unit is 10 ml, or 8 g, of pure alcohol (NHS).",
+          "Units = strength (ABV) × volume in ml ÷ 1,000. A 750 ml bottle at 13.5% holds about 10 units.",
+          "A US standard drink is 14 g of pure alcohol, about 5 fl oz (150 ml) of 12% wine (CDC)."
+        ]
+      },
+      {
+        title: "Guidelines differ by country",
+        points: [
+          "UK Chief Medical Officers (2016): it is safest not to drink more than 14 units a week on a regular basis, for men and women alike, spread over three or more days, with several drink-free days.",
+          "USA: the Dietary Guidelines for 2025 to 2030 (published January 2026) say only 'consume less alcohol for better overall health'. The older figures of two drinks a day for men and one for women are no longer in them.",
+          "The World Health Organization says no form of alcohol consumption is risk-free."
+        ]
+      },
+      {
+        title: "Long-term health harms",
+        points: [
+          "Liver disease, heart disease and stroke (WHO, NHS).",
+          "Several cancers, including breast, liver, head and neck, oesophageal and bowel cancer (WHO).",
+          "Dependence, and mental-health problems such as depression and anxiety (WHO).",
+          "The WHO puts alcohol-caused deaths at about 2.6 million worldwide in 2019."
+        ]
+      },
+      {
+        title: "Short-term risks",
+        points: [
+          "Accidents and injuries, misjudging risky situations, losing self-control, and violence (UK Chief Medical Officers, NHS).",
+          "Drink-driving: the WHO links about 298,000 road deaths in 2019 to alcohol, more than half of them caused by someone else's drinking."
+        ]
+      },
+      {
+        title: "Social harms",
+        points: [
+          "Alcohol harms people other than the drinker: family problems, trouble at work, money problems and unemployment (WHO).",
+          "Violence, including sexual assault and violence against partners (WHO)."
+        ]
+      },
+      {
+        title: "Pregnancy, and serving responsibly",
+        points: [
+          "Pregnancy: the UK Chief Medical Officers say the safest approach is not to drink at all; the US guidelines say pregnant women should avoid alcohol completely.",
+          "In the UK it is an offence knowingly to sell alcohol to a person who is drunk (Licensing Act 2003, section 141)."
+        ]
+      }
+    ],
+    practise: [["Styles › Service", "styles"]],
+    sources: [
+      SPEC,
+      { title: "World Health Organization: alcohol fact sheet (June 2024)", url: "https://www.who.int/news-room/fact-sheets/detail/alcohol" },
+      { title: "UK Chief Medical Officers' low risk drinking guidelines (2016)", url: "https://assets.publishing.service.gov.uk/media/5a80b7ed40f0b623026951db/UK_CMOs__report.pdf" },
+      { title: "NHS: calculating alcohol units", url: "https://www.nhs.uk/live-well/alcohol-advice/calculating-alcohol-units/" },
+      { title: "NHS: the risks of drinking too much", url: "https://www.nhs.uk/live-well/alcohol-advice/the-risks-of-drinking-too-much/" },
+      { title: "CDC: standard drink sizes", url: "https://www.cdc.gov/alcohol/standard-drink-sizes/index.html" },
+      { title: "Dietary Guidelines for Americans 2025-2030", url: "https://www.realfood.gov/documents/DGA.pdf" },
+      { title: "Licensing Act 2003, section 141", url: "https://www.legislation.gov.uk/ukpga/2003/17/section/141" }
+    ]
   }
 ];

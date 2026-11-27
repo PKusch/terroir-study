@@ -6,7 +6,7 @@ import { TAB_IDS } from "../src/tabs.js";
 
 test("each principle has sections with points, and every source is a web address", () => {
   const ids = PRINCIPLES.map((p) => p.id);
-  assert.deepEqual(ids, ["tasting", "climate", "viticulture", "winemaking", "law", "price"]);
+  assert.deepEqual(ids, ["tasting", "climate", "viticulture", "winemaking", "law", "price", "health"]);
   for (const p of PRINCIPLES) {
     assert.ok(p.intro.length > 40, p.id);
     assert.ok(p.sections.length >= 3, `${p.id}: too few sections`);
