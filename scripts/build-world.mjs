@@ -70,6 +70,9 @@ const countries = geoms.map((g) => {
   let d = "";
   let best = null;
   for (const p of polys(g)) {
+    // France's outline includes French Guiana in South America; the wine
+    // map shows only metropolitan France (and Corsica).
+    if (g.id === "250" && ring(p[0])[0][0] < -20) continue;
     p.forEach((r, ri) => {
       const pts = ring(r).map(toSvg);
       // Russia and Fiji cross the date line: where an outline jumps from one
