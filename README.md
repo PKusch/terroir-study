@@ -424,3 +424,5 @@ npm test
 ## License
 
 MIT
+
+The world map uses country outlines from [Natural Earth](https://www.naturalearthdata.com/) (public domain), as packaged by [world-atlas](https://github.com/topojson/world-atlas) (copyright Michael Bostock, ISC licence). This app is independent of WSET and not endorsed by it. WSET's Systematic Approach to Tasting may only be reproduced with WSET's written permission, so the app describes it in its own words and links to WSET's own grid.
