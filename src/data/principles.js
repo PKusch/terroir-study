@@ -113,6 +113,7 @@ export const PRINCIPLES = [
   {
     id: "viticulture",
     label: "Viticulture",
+    tool: "calendar",
     intro: "How growers manage the vine through the year, and the hazards they face. The specification groups this as managing the vine, managing hazards, managing pests and diseases, concentrating sugars, and approaches to vineyard management.",
     sections: [
       {
