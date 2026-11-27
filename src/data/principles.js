@@ -260,7 +260,7 @@ export const PRINCIPLES = [
       {
         title: "The EU's two levels",
         points: [
-          "PDO (protected designation of origin): all the grapes come from the named area, and only from Vitis vinifera. PDOs are usually small areas with tight rules.",
+          "PDO (protected designation of origin): all the grapes come from the named area. PDOs are usually small areas with tight rules. PDO wine was long limited to Vitis vinifera; since a 2021 change (Regulation 2021/2117), member states may also allow crosses of vinifera with other vine species if the PDO's own rules approve them.",
           "PGI (protected geographical indication): at least 85% of the grapes come from the area, and crosses are allowed. PGIs cover wider areas with looser rules.",
           "Wine without a geographical indication may still show a vintage, but only if it is certified."
         ]
@@ -302,6 +302,8 @@ export const PRINCIPLES = [
       SPEC,
       L2,
       { title: "EU Regulation 1308/2013, Article 93 (PDO and PGI, as adopted)", url: "https://www.legislation.gov.uk/eur/2013/1308/article/93/adopted" },
+      { title: "EU Regulation 2021/2117 (amending 1308/2013)", url: "https://eur-lex.europa.eu/eli/reg/2021/2117/oj" },
+      { title: "Decanter: EU lets member states use resistant hybrids in appellation wines", url: "https://www.decanter.com/wine-news/eu-grants-member-states-the-right-to-use-resistant-hybrid-varieties-in-appellation-wines-470864/" },
       { title: "EU Regulation 2019/33, Articles 49, 50 and 55 (as adopted)", url: "https://www.legislation.gov.uk/eur/2019/33/article/49/adopted" },
       { title: "EU Regulation 1308/2013, Article 119 (as adopted)", url: "https://www.legislation.gov.uk/eur/2013/1308/article/119/adopted" },
       { title: "US Code of Federal Regulations, title 27 part 4", url: "https://www.ecfr.gov/current/title-27/part-4" },
