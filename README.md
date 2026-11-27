@@ -135,6 +135,7 @@ Study everything, one country at a time, *Fortified* (Port, Madeira, Sherry, the
 | Part of the WSET Level 3 exam | What it asks | Where to practise here |
 |---|---|---|
 | Theory: multiple choice | 50 questions, one mark each, 55% to pass | ✦ Quiz, and 📝 Mock exam › *Multiple choice* |
+| Vineyard, winery, law and price | The general principles behind every region (learning outcome 1, plus law and commerce) | 📚 Principles |
 | Theory: written | Four questions of 25 marks, split into parts, 55% to pass on its own | ✍️ Written › *One question* or *Full 25-mark question* |
 | Both theory parts together | Two hours in one sitting | 📝 Mock exam › *Full theory paper* |
 | Service and food | Marks inside written questions 3 and 4, and some multiple choice | 🍾 Styles › *Service* and *Food*, and the Quiz's *Service* filter |
