@@ -6,6 +6,11 @@ is summed up in the README's roadmap.
 
 ## November 2026
 
+### 27 November (evening)
+- **Viticulture** now covers the vine itself (species, clones, crossings, hybrids, rootstocks), its parts, and what is inside the grape, with a month-by-month chart of the vine's year for both hemispheres.
+- **Vineyard quiz:** 40 questions on climate and viticulture in general, with their own filter. They were checked by a second reviewer before going live.
+- Wine law: PDO wine is no longer said to be vinifera only, since a 2021 EU change lets member states allow some crosses.
+
 ### 27 November
 - **Home page:** the app now opens on a home page with *Try it live*, a world map of the fifteen syllabus countries (and a closer Europe view), every country and region one click away, and the WSET Level 3 syllabus with where to study each part.
 - **Principles:** a new tab with sourced topics on tasting, climate, viticulture, winemaking, wine law and price.
