@@ -351,7 +351,7 @@ backup, or is damaged, is refused. **Clear progress** and **Clear results** need
 
 ## Links to a tab
 
-Each tab has its own address, so it can be bookmarked or shared: add `#explore`, `#connect`, `#quiz`, `#taste`, `#exam`, `#drill`, `#styles` or `#written` to the end, as in [pkusch.github.io/terroir-study/#written](https://pkusch.github.io/terroir-study/#written). The address and the browser's tab title change as you move between tabs.
+Each tab has its own address, so it can be bookmarked or shared: add `#explore`, `#connect`, `#quiz`, `#taste`, `#exam`, `#drill`, `#styles`, `#principles` or `#written` to the end (the plain address opens the home page), as in [pkusch.github.io/terroir-study/#written](https://pkusch.github.io/terroir-study/#written). The address and the browser's tab title change as you move between tabs.
 
 ## Keyboard and screen readers
 
