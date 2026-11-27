@@ -101,6 +101,10 @@ The Quiz and Taste keep a record in your browser. The mock exam reads the quiz r
 
 ### What each mode does
 
+**🏠 Home** — Where the app opens. *Try it live* starts exploring. A world map shows the fifteen syllabus countries in gold (switch to *Europe* to see the eight European ones up close); click one to open its map. Below it, every country has its regions one click away, and the syllabus is laid out the way WSET's own Level 3 specification is: two units and six learning outcomes, the marks each carries, where to study each in the app, and what the app does not cover yet.
+
+**📚 Principles** — The general topics behind every region, with their sources: *Tasting* (how WSET's Systematic Approach to Tasting works, described in the app's own words with a link to WSET's grid), *Climate*, *Viticulture*, *Winemaking*, *Wine law* (PDO and PGI, the 85% rules, national terms, the USA and Australia) and *Price* (the specification's commerce factors). *Service* and *Food* link to their cards in Styles.
+
 **🗺️ Explore** — Click any region on the map of France, Italy, Spain, Germany, Austria, Portugal, Hungary, Greece or the New World, or pick it from the row of buttons under the map when the shapes are too small to click, then *Zoom into* it to see its villages and districts marked where they really are. *Print summary* gives a one-page revision sheet for the region on screen. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies. *Show my weak spots* shades every region by how often you answer its quiz questions right: red under 50%, gold 50 to 74%, green 75% or more, and grey until a region has two answers. *Quiz this region only* then starts the quiz on the region on screen, with *Show all* to go back to everything.
 
 <img src="docs/screenshots/weakspots.jpg" width="560" alt="The France map with Show my weak spots on: Bordeaux and the Loire red, the two Rhônes gold, Champagne, Burgundy and Alsace green, the rest grey" />
