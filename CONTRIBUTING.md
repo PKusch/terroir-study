@@ -41,6 +41,8 @@ point to, not from memory.
 - A question about serving, storing, faults or food pairing belongs to no
   region: give it `topic: "service"`, no `region` or `country`, and an id that
   starts with `sv-`.
+- A general climate or viticulture question works the same way, with
+  `topic: "vineyard"` and an id that starts with `vy-`.
 - After a batch of new questions, have them checked again by someone who did
   not write them, against the same notes and sources: the writer tends to read
   back what they meant, not what they wrote.
