@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { PRINCIPLES } from "./data/principles.js";
+import { UnitsCalculator } from "./UnitsCalculator.jsx";
 
 // ─── Principles ──────────────────────────────────────────────────────────────
 // The general topics behind every region: tasting, climate, viticulture,
@@ -29,6 +30,7 @@ export const PrinciplesPanel = ({ onMode }) => {
         <button onClick={() => onMode("styles")} style={pill(false)} title="Food and wine pairing is in the Styles tab">Food →</button>
       </div>
       <p style={{ color: "#B8B0A0", fontSize: "14px", lineHeight: 1.6, margin: "0 0 14px" }}>{topic.intro}</p>
+      {topic.tool === "units" && <UnitsCalculator />}
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "12px" }}>
         {topic.sections.map((s) => (
