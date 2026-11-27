@@ -116,6 +116,35 @@ export const PRINCIPLES = [
     intro: "How growers manage the vine through the year, and the hazards they face. The specification groups this as managing the vine, managing hazards, managing pests and diseases, concentrating sugars, and approaches to vineyard management.",
     sections: [
       {
+        title: "The vine itself",
+        points: [
+          "Wine grapes are varieties of one European species, Vitis vinifera, and each variety has its own character (WSET Level 2). A vine can live 60 years or more.",
+          "A clone is a vine propagated from a cutting or bud of a chosen 'mother' vine, so it is genetically identical; growers pick clones for traits such as disease resistance, bunch size or early ripening. Pinot Noir 777 is one.",
+          "A crossing has two vinifera parents: Pinotage is Pinot Noir × Cinsault; Müller-Thurgau, DNA tests show, is Riesling × Madeleine Royale.",
+          "A hybrid crosses vinifera with another species, which can bring resistance to mildew and phylloxera. Vidal, used for icewine, is one.",
+          "American species such as Vitis riparia, rupestris and berlandieri are used as rootstocks: almost all commercial wine grapes are grafted onto phylloxera-resistant roots (UC Davis)."
+        ]
+      },
+      {
+        title: "Parts of the vine",
+        points: [
+          "Green parts: this year's shoots, leaves and bunches. Leaves use sunlight to turn carbon dioxide and water into sugar (photosynthesis).",
+          "One-year-old wood: last year's shoots, which turn brown and woody (canes). Their buds give this year's fruiting shoots, which is why pruning chooses which to keep.",
+          "Permanent wood: the trunk and the arms (cordons), which with the roots store the reserves that fuel growth in early spring.",
+          "Vines pollinate themselves and do not need insects."
+        ]
+      },
+      {
+        title: "Inside the grape",
+        points: [
+          "Pulp: mostly water and sugar, with acids and some flavour. The pulp of black and white grapes alike is pale, which is why a white wine can be made from black grapes.",
+          "Skin: colour, tannin and flavour.",
+          "Seeds and stems: high in tannin, which can make wine taste very bitter if handled badly, so seeds are not crushed.",
+          "Tartaric and malic acid make up most of the acidity. As grapes ripen, acidity falls and sugar rises, and tannins in black skins must ripen or they taste bitter.",
+          "Teinturier grapes, such as Alicante Bouschet, are the exception: their flesh is red too."
+        ]
+      },
+      {
         title: "The vine's year",
         points: [
           "Dormancy, budburst, flowering, fruit set, véraison and ripening (the specification's list).",
@@ -173,6 +202,12 @@ export const PRINCIPLES = [
     sources: [
       SPEC,
       { title: "AWRI Viti-Note: phenology, berry development and ripening", url: "https://www.awri.com.au/wp-content/uploads/5_phenology_berry_development_ripening_3.pdf" },
+      { title: "WSET Level 2 Session Plans (2023): the vine and the grape", url: "https://www.wsetglobal.com/media/13022/wset_l2wines_sessionplans_en_may2023_issue2.pdf" },
+      { title: "UC Davis: grape rootstocks", url: "https://labs.plb.ucdavis.edu/rost/virtual%20grape%20dreamweaver/Rootstocks%20Page.htm" },
+      { title: "Wine Spectator: what is a clone of a grape?", url: "https://www.winespectator.com/articles/what-is-a-clone-of-a-grape-47531" },
+      { title: "GuildSomm: hybrid grapes", url: "https://guildsomm.com/public_content/features/articles/b/andrew-triska/posts/hybrid-grapes-where-they-came-from-and-where-they-re-going" },
+      { title: "Vitis journal: the parentage of Müller-Thurgau", url: "https://ojs.openagrar.de/index.php/VITIS/article/view/4106" },
+      { title: "Concha y Toro: the vine's yearly cycle", url: "https://conchaytoro.com/en/?p=53426" },
       { title: "AWRI frost fact sheet", url: "https://www.awri.com.au/files/attachment/frost-fact-sheet" },
       { title: "Penn State Extension: managing fungal diseases of grapevines", url: "https://extension.psu.edu/fundamental-considerations-for-managing-fungal-diseases-of-grapevines" },
       { title: "Penn State Extension: cane and spur pruning", url: "https://extension.psu.edu/grapevine-cane-and-spur-pruning-fundamentals" },
