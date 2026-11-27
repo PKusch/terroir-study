@@ -17,6 +17,8 @@ import { WrittenPractice } from "./WrittenPractice.jsx";
 import { RegionChips } from "./RegionChips.jsx";
 import { BackupPanel } from "./BackupPanel.jsx";
 import { WeakSpots } from "./WeakSpots.jsx";
+import { HomePage } from "./HomePage.jsx";
+import { PrinciplesPanel } from "./PrinciplesPanel.jsx";
 import { buildHeat, bandFor } from "./heat.js";
 import { loadProgress } from "./progress.js";
 import { QUIZ_QUESTIONS } from "./data/quiz.js";
@@ -26,8 +28,8 @@ export default function WsetStudyApp() {
   const [mode, setMode] = useState(() => tabFromHash(typeof window === "undefined" ? "" : window.location.hash));
   // Keep the address in step with the tab, so it can be copied as a link.
   useEffect(() => {
-    const want = mode === "explore" ? window.location.pathname + window.location.search : `#${mode}`;
-    if (mode === "explore" ? window.location.hash : window.location.hash !== `#${mode}`) window.history.replaceState(null, "", want);
+    const want = mode === "home" ? window.location.pathname + window.location.search : `#${mode}`;
+    if (mode === "home" ? window.location.hash : window.location.hash !== `#${mode}`) window.history.replaceState(null, "", want);
     document.title = tabTitle(mode);
   }, [mode]);
   // Follow the address when it changes while the app is open (a tab link
@@ -78,7 +80,7 @@ export default function WsetStudyApp() {
 
   // Zooming in shows the region's own places; only where there are some to show.
   // These tabs are whole pages of their own, with no map above them.
-  const noMap = mode === "exam" || mode === "drill" || mode === "styles" || mode === "written";
+  const noMap = mode === "home" || mode === "principles" || mode === "exam" || mode === "drill" || mode === "styles" || mode === "written";
   const canZoom = mode !== "quiz" && !noMap && Object.keys(PLACES[activeRegion] ?? {}).length > 0;
   const showDetail = zoomed && canZoom;
 
@@ -89,6 +91,7 @@ export default function WsetStudyApp() {
   };
 
   const modes = [
+    { id: "home", label: "Home", icon: "🏠" },
     { id: "explore", label: "Explore", icon: "🗺️" },
     { id: "connect", label: "Connect", icon: "🔗" },
     { id: "quiz", label: "Quiz", icon: "✦" },
@@ -96,6 +99,7 @@ export default function WsetStudyApp() {
     { id: "exam", label: "Mock exam", icon: "📝" },
     { id: "drill", label: "Map drill", icon: "📍" },
     { id: "styles", label: "Styles", icon: "🍾" },
+    { id: "principles", label: "Principles", icon: "📚" },
     { id: "written", label: "Written", icon: "✍️" }
   ];
 
@@ -137,7 +141,7 @@ export default function WsetStudyApp() {
             Terroir <span style={{ color: "#C4A962" }}>Study</span>
           </h1>
           <div style={{ fontSize: "10px", color: "#8B7355", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "2px" }}>
-            WSET Level 3 · {mode === "exam" ? "Mock exam" : mode === "drill" ? "Map drill" : mode === "styles" ? "Styles side by side" : mode === "written" ? "Written answers" : mapCountry}
+            WSET Level 3 · {mode === "home" ? "Study guide" : mode === "principles" ? "Principles" : mode === "exam" ? "Mock exam" : mode === "drill" ? "Map drill" : mode === "styles" ? "Styles side by side" : mode === "written" ? "Written answers" : mapCountry}
           </div>
         </div>
         {mode !== "quiz" && !noMap && (
@@ -288,6 +292,8 @@ export default function WsetStudyApp() {
 
         {/* Content Panel */}
         <div key={restored} style={{ padding: "16px 20px 40px" }}>
+          {mode === "home" && <HomePage onCountry={(c) => { setCountry(c); setActiveRegion(COUNTRIES[c][0]); setZoomed(false); setMode("explore"); }} onRegion={studyRegion} onMode={setMode} />}
+          {mode === "principles" && <PrinciplesPanel onMode={setMode} />}
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}
           {mode === "taste" && <TastePanel region={activeRegion} />}
