@@ -58,9 +58,8 @@ export const SYLLABUS = [
     title: "Advising customers: storage, service, faults, food",
     covers: "Recommending wines, storage and service, common faults, and the principles of food and wine pairing. Social and health issues are also in the syllabus.",
     marks: "4 multiple-choice marks, and 10 written marks",
-    links: [["Styles › Service", "styles"], ["Styles › Food", "styles"], ["Quiz › Service", "quiz"]],
-    status: "partial",
-    gap: "Social and health issues (alcohol and health, sensible drinking) are not in the app yet."
+    links: [["Styles › Service", "styles"], ["Styles › Food", "styles"], ["Quiz › Service", "quiz"], ["Principles › Health", "principles"]],
+    status: "covered"
   },
   {
     id: "unit2",
