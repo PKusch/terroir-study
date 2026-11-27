@@ -10,6 +10,7 @@ is summed up in the README's roadmap.
 - **Home page:** the app now opens on a home page with *Try it live*, a world map of the fifteen syllabus countries (and a closer Europe view), every country and region one click away, and the WSET Level 3 syllabus with where to study each part.
 - **Principles:** a new tab with sourced topics on tasting, climate, viticulture, winemaking, wine law and price.
 - Explore now has its own address, `#explore`.
+- **Health:** a Principles topic on units, drinking guidelines and the health and social harms of drinking too much, with a units calculator. Every part of WSET's Level 3 syllabus now has a place in the app.
 
 ### 26 November
 - Small project files: a Node version file, an editor settings file, issue forms for something broken and for ideas, and time limits on the GitHub workflows.
