@@ -22,7 +22,7 @@ export const SYLLABUS = [
     title: "Making wine: vineyard and winery",
     covers: "Natural factors in the vineyard (the vine, its growth cycle, climate, weather, soil), human factors in the vineyard (managing the vine, hazards, pests and diseases), and the winery (common elements, white, red, rosé and sweet winemaking, maturation, blending, clarification, stabilisation, packaging and closures).",
     marks: "8 of the 50 multiple-choice marks, and part of every written question",
-    links: [["Principles", "principles"], ["Connect", "connect"]],
+    links: [["Principles", "principles"], ["Quiz › Vineyard", "quiz"], ["Connect", "connect"]],
     status: "covered"
   },
   {
