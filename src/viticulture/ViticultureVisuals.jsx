@@ -8,6 +8,7 @@ import { Pruning } from "./Pruning.jsx";
 import { Canopy } from "./Canopy.jsx";
 import { Frost } from "./Frost.jsx";
 import { Weather } from "./Weather.jsx";
+import { Farming } from "./Farming.jsx";
 export const ViticultureVisuals = () => (
   <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: "14px", marginBottom: "14px" }}>
     <VineFamily />
@@ -19,5 +20,6 @@ export const ViticultureVisuals = () => (
     <Canopy />
     <Frost />
     <Weather />
+    <Farming />
   </div>
 );
