@@ -1,7 +1,7 @@
 import { WORLD_COUNTRIES, WORLD_VIEWBOX, WORLD_FIT } from "../data/world-map.js";
 import { WINE_COUNTRIES } from "../WorldMap.jsx";
 import { toMap } from "../projection.js";
-import { Figure, gold, ink } from "./Figure.jsx";
+import { Figure, gold, ink } from "../Figure.jsx";
 
 const y = (lat) => toMap([0, lat], WORLD_FIT)[1];
 

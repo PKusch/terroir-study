@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { PLACES, seasonal } from "./data.js";
 import { continentality } from "./logic.js";
-import { Figure, gold, ink } from "./Figure.jsx";
+import { Figure, gold, ink } from "../Figure.jsx";
 
 // Monthly average temperatures for four places, with the gap between the
 // warmest and coldest month drawn as a bracket.

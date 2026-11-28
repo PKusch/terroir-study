@@ -2,7 +2,7 @@ import { WORLD_COUNTRIES, WORLD_VIEWBOX, WORLD_FIT } from "../data/world-map.js"
 import { WINE_COUNTRIES } from "../WorldMap.jsx";
 import { toMap } from "../projection.js";
 import { CURRENTS } from "./data.js";
-import { Figure, ink, COLD, WARM } from "./Figure.jsx";
+import { Figure, ink, COLD, WARM } from "../Figure.jsx";
 
 const pt = (ll) => toMap(ll, WORLD_FIT).map((v) => v.toFixed(1)).join(",");
 

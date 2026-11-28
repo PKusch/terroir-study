@@ -1,4 +1,4 @@
-// A card for one climate diagram: a title, the idea in a sentence, the
+// A card for one diagram (climate, winemaking): a title, the idea in a sentence, the
 // picture, and what to remember for the exam.
 export const gold = "#C4A962";
 export const ink = { soft: "#B8B0A0", text: "#D5D0C4", head: "#E8E4D9", faint: "#7a7268", label: "#8B7355" };

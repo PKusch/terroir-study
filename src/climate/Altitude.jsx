@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { tempAt, LAPSE_PER_100M } from "./logic.js";
-import { Figure, gold, ink, COLD, WARM } from "./Figure.jsx";
+import { Figure, gold, ink, COLD, WARM } from "../Figure.jsx";
 
 // A mountainside with a vineyard you can move up and down. The air at the
 // vineyard cools by about 0.6 °C for every 100 m.

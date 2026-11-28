@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Figure, Choice, gold, ink } from "./Figure.jsx";
+import { Figure, Choice, gold, ink } from "../Figure.jsx";
 
 // What a warmer or cooler climate does to the grape, and so to the wine.
 // Levels run 1 (low) to 4 (high); they show direction, not measurements.

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { sunShare } from "./logic.js";
-import { Figure, Choice, gold, ink, COLD } from "./Figure.jsx";
+import { Figure, Choice, gold, ink, COLD } from "../Figure.jsx";
 
 // A hill side-on: the sun on the left (towards the equator). Parallel rays
 // show that the slope facing the sun catches more of them per metre of

@@ -1,5 +1,5 @@
 import { PLACES } from "./data.js";
-import { Figure, ink, COLD, WARM } from "./Figure.jsx";
+import { Figure, ink, COLD, WARM } from "../Figure.jsx";
 
 // The warmest month's average day high and night low for each place, drawn
 // as a bar from night to day: the length of the bar is the diurnal range.

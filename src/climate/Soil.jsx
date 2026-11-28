@@ -1,4 +1,4 @@
-import { Figure, gold, ink, COLD, WARM } from "./Figure.jsx";
+import { Figure, gold, ink, COLD, WARM } from "../Figure.jsx";
 
 // Two soils side by side: stony soil drains and holds heat; clay holds water
 // and stays cool.

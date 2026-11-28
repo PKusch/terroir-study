@@ -1,5 +1,5 @@
 import { GST_BANDS, GST_GRAPES, GST_SOURCE, GST_GRAPE_SOURCE } from "./data.js";
-import { Figure, ink, COLD, WARM } from "./Figure.jsx";
+import { Figure, ink, COLD, WARM } from "../Figure.jsx";
 
 // A thermometer laid on its side: Gregory Jones's climate bands by average
 // growing-season temperature, with the ranges where three grapes do best.
