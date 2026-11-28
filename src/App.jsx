@@ -47,7 +47,8 @@ export default function WsetStudyApp() {
   // The weak-spot view on the Explore map, and a region to start the quiz on.
   const [heatOn, setHeatOn] = useState(false);
   const [quizStart, setQuizStart] = useState(null);
-  useEffect(() => { if (mode !== "quiz") setQuizStart(null); }, [mode]);
+  const [quizFilter, setQuizFilter] = useState(null);
+  useEffect(() => { if (mode !== "quiz") { setQuizStart(null); setQuizFilter(null); } }, [mode]);
   // Bumped after a restore so the panels start again from the restored progress.
   const [restored, setRestored] = useState(0);
 
@@ -77,6 +78,7 @@ export default function WsetStudyApp() {
   const showHeat = heatOn && mode === "explore";
   const heat = showHeat ? buildHeat(QUIZ_QUESTIONS, loadProgress(), Object.keys(REGIONS)) : null;
   const quizRegion = (key) => { setQuizStart(key); setMode("quiz"); };
+  const quizTopic = (f) => { setQuizFilter(f); setMode("quiz"); };
 
   // Zooming in shows the region's own places; only where there are some to show.
   // These tabs are whole pages of their own, with no map above them.
@@ -293,7 +295,7 @@ export default function WsetStudyApp() {
         {/* Content Panel */}
         <div key={restored} style={{ padding: "16px 20px 40px" }}>
           {mode === "home" && <HomePage onCountry={(c) => { setCountry(c); setActiveRegion(COUNTRIES[c][0]); setZoomed(false); setMode("explore"); }} onRegion={studyRegion} onMode={setMode} />}
-          {mode === "principles" && <PrinciplesPanel onMode={setMode} />}
+          {mode === "principles" && <PrinciplesPanel onMode={setMode} onQuizTopic={quizTopic} />}
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}
           {mode === "taste" && <TastePanel region={activeRegion} />}
@@ -311,7 +313,8 @@ export default function WsetStudyApp() {
               onQuestionCountry={setQuizCountry}
               onStudyRegion={studyRegion}
               startRegion={quizStart}
-              key={quizStart ?? "all"}
+              startFilter={quizFilter}
+              key={quizStart ?? quizFilter ?? "all"}
             />
           )}
         </div>

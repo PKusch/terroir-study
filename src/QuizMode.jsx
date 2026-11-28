@@ -23,17 +23,19 @@ import {
 
 const byId = (id) => QUIZ_QUESTIONS.find((q) => q.id === id) ?? QUIZ_QUESTIONS[0];
 
-export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRegion, startRegion = null }) => {
+export const QuizMode = ({ mapClick, clearMapClick, onQuestionCountry, onStudyRegion, startRegion = null, startFilter = null }) => {
   // Progress across sessions lives in localStorage (see progress.js). The
   // question order comes from it: unseen first, then the ones you got wrong.
   const [progress, setProgress] = useState(() => loadProgress());
   // Study everything, or one country at a time.
   // Opened from the weak-spot map, the quiz starts on that one region.
-  const [filter, setFilter] = useState(() => (startRegion ? regionFilter(startRegion) : "All"));
+  // From a Principles page, it can start on a topic such as Vineyard.
+  const first = startFilter ?? (startRegion ? regionFilter(startRegion) : "All");
+  const [filter, setFilter] = useState(first);
   const [dueOnly, setDueOnly] = useState(false);
   const { pool, fellBack } = studyPool(QUIZ_QUESTIONS, progress, filter, dueOnly);
   const [currentId, setCurrentId] = useState(() => {
-    const start = studyPool(QUIZ_QUESTIONS, loadProgress(), startRegion ? regionFilter(startRegion) : "All", false).pool;
+    const start = studyPool(QUIZ_QUESTIONS, loadProgress(), first, false).pool;
     return pickNext(start.length ? start : QUIZ_QUESTIONS, loadProgress(), null).id;
   });
   const [selected, setSelected] = useState(null);
