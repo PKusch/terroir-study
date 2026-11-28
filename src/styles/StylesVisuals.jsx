@@ -1,9 +1,9 @@
 // ─── Styles, in pictures ─────────────────────────────────────────────────────
 import { Methods TraditionalSteps Dosage } from "./Methods TraditionalSteps Dosage.jsx";
-import { SpiritTiming } from "./SpiritTiming.jsx";
+import { SpiritTiming PortTree } from "./SpiritTiming PortTree.jsx";
 const BY_FAMILY = {
   sparkling: [Methods, TraditionalSteps, Dosage],
-  fortified: [SpiritTiming],
+  fortified: [SpiritTiming, PortTree],
   service: [],
   food: []
 };
