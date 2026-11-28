@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **1305** quiz questions | 🍇 **124** grapes | ✅ **226** tests |
+| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **1305** quiz questions | 🍇 **124** grapes | ✅ **227** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -105,7 +105,7 @@ The Quiz and Taste keep a record in your browser. The mock exam reads the quiz r
 
 <img src="docs/screenshots/home.jpg" width="640" alt="The home page: Learn where wine comes from, and why, with Try it live, the app's numbers, and a world map with the fifteen syllabus countries in gold" />
 
-**📚 Principles** — The general topics behind every region, with their sources: *Tasting* (how WSET's Systematic Approach to Tasting works, described in the app's own words with a link to WSET's grid), *Climate* (nine diagrams: the wine bands on a world map, climate bands with where grapes do best, what warmth does to the grape, maritime against continental from real monthly temperatures, day and night, ocean currents and fog, altitude, slope and aspect, and soil), *Viticulture* (the vine and its parts, inside the grape, a month-by-month chart of the vine's year for both hemispheres, management, hazards, pests and diseases), *Winemaking* (nine diagrams: white, red and rosé step by step, a fermentation tank you can stop or fortify, managing a red cap, carbonic maceration, malolactic conversion, lees, barrel size and age, clearing and stabilising, and three ways to a sweet wine), *Wine law* (PDO and PGI, the 85% rules, national terms, the USA and Australia), *Price* (the specification's commerce factors) and *Health* (units, drinking guidelines, and the health and social harms of drinking too much, with a units calculator). *Service* and *Food* link to their cards in Styles.
+**📚 Principles** — The general topics behind every region, with their sources: *Tasting* (how WSET's Systematic Approach to Tasting works, described in the app's own words with a link to WSET's grid), *Climate* (nine diagrams: the wine bands on a world map, climate bands with where grapes do best, what warmth does to the grape, maritime against continental from real monthly temperatures, day and night, ocean currents and fog, altitude, slope and aspect, and soil), *Viticulture* (eleven diagrams: species to clone, a vine you can click part by part, inside the grape, a month-by-month chart of the vine's year for both hemispheres, what ripening changes, pruning, canopy, frost defences, weather and disease, ways of farming, and hand against machine harvest), *Winemaking* (nine diagrams: white, red and rosé step by step, a fermentation tank you can stop or fortify, managing a red cap, carbonic maceration, malolactic conversion, lees, barrel size and age, clearing and stabilising, and three ways to a sweet wine), *Wine law* (PDO and PGI, the 85% rules, national terms, the USA and Australia), *Price* (the specification's commerce factors) and *Health* (units, drinking guidelines, and the health and social harms of drinking too much, with a units calculator). *Service* and *Food* link to their cards in Styles.
 
 **🗺️ Explore** — Click any region on the map of France, Italy, Spain, Germany, Austria, Portugal, Hungary, Greece or the New World, or pick it from the row of buttons under the map when the shapes are too small to click, then *Zoom into* it to see its villages and districts marked where they really are. *Print summary* gives a one-page revision sheet for the region on screen. See climate, soils, grapes, winemaking, and style in context. Browse sub-regions, grape varieties, and quality hierarchies. *Show my weak spots* shades every region by how often you answer its quiz questions right: red under 50%, gold 50 to 74%, green 75% or more, and grey until a region has two answers. *Quiz this region only* then starts the quiz on the region on screen, with *Show all* to go back to everything.
 
@@ -428,7 +428,7 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 npm test
 ```
 
-226 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
+227 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
 
 ## License
 

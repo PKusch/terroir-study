@@ -7,6 +7,9 @@ is summed up in the README's roadmap.
 ## November 2026
 
 ### 28 November
+- **Viticulture is now a visual page:** eleven diagrams. A chart from species to variety, clone, crossing and hybrid; a vine you can click part by part; a grape cut in half (with the red-fleshed exception); the vine's year; ripening from véraison to harvest; three pruning systems drawn in winter; a crowded against an open canopy; which frost defence works on which night; pick the weather to see the disease (or noble rot); four ways of farming; and hand against machine harvest. A second reviewer checked them; three lines were tightened.
+- **Summary cards:** on the Climate, Viticulture and Winemaking pages, the short notes are now cards with an icon, key terms in bold, and buttons that jump to the diagrams that show them.
+- Phones: a diagram with a wide table no longer pushes the page wider than the screen.
 - **Winemaking is now a visual page:** nine diagrams. White, red and rosé step by step, with the steps where juice meets skins picked out. A fermentation tank where you set the sugar and choose to let it finish, stop it or fortify it, with the alcohol and sugar left worked out. A red wine's cap managed three ways, carbonic maceration inside the berry, and malolactic conversion before and after. Lees resting or stirred, barrels of three sizes drawn to scale with the wood each litre touches, settling against fining against filtration, and three ways to a sweet wine. Sources are on every diagram, and a second reviewer checked them.
 - **Winery quiz:** a new topic with 40 winemaking questions, checked by a second reviewer. The Winemaking page ends with a button that opens it. Mock exams now have room for Papers 25 to 30.
 - Winemaking: the page no longer says pumping over extracts more than punching down; studies find little difference.
