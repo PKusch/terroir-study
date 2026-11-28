@@ -1,5 +1,3 @@
-// ─── Climate, in pictures ────────────────────────────────────────────────────
-// One diagram per idea, in the order a student meets them.
 import { LatitudeBands } from "./LatitudeBands.jsx";
 import { GrowingSeason } from "./GrowingSeason.jsx";
 import { Ripeness } from "./Ripeness.jsx";
@@ -8,6 +6,12 @@ import { DayNight } from "./DayNight.jsx";
 import { Currents } from "./Currents.jsx";
 import { Altitude } from "./Altitude.jsx";
 import { SlopeAspect } from "./SlopeAspect.jsx";
+import { Soil } from "./Soil.jsx";
+
+// ─── Climate, in pictures ────────────────────────────────────────────────────
+// One diagram per idea, in the order a student meets them: where vines grow,
+// how warm a climate is and what that does to the grape, the climate types,
+// what shapes a region, then what shapes a single site.
 export const ClimateVisuals = () => (
   <div style={{ display: "grid", gap: "14px", marginBottom: "14px" }}>
     <LatitudeBands />
@@ -18,5 +22,6 @@ export const ClimateVisuals = () => (
     <Currents />
     <Altitude />
     <SlopeAspect />
+    <Soil />
   </div>
 );
