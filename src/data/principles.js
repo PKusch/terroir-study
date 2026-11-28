@@ -102,7 +102,7 @@ export const PRINCIPLES = [
         ]
       }
     ],
-    practise: [["Quiz › Vineyard", "quiz"], ["Connect", "connect"], ["Explore", "explore"]],
+    practise: [["Quiz › Vineyard", "quiz", "Vineyard"], ["Connect", "connect"], ["Explore", "explore"]],
     sources: [
       SPEC,
       { title: "WSET blog: how does geography affect a wine's style? (2021)", url: "https://wsetglobal.com/knowledge-centre/blog/2021/august/24/how-does-geography-affect-a-wine-s-style" },
@@ -204,7 +204,7 @@ export const PRINCIPLES = [
         ]
       }
     ],
-    practise: [["Quiz › Vineyard", "quiz"], ["Connect", "connect"]],
+    practise: [["Quiz › Vineyard", "quiz", "Vineyard"], ["Connect", "connect"]],
     sources: [
       SPEC,
       { title: "AWRI Viti-Note: phenology, berry development and ripening", url: "https://www.awri.com.au/wp-content/uploads/5_phenology_berry_development_ripening_3.pdf" },

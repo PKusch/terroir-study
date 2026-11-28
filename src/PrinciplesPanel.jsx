@@ -19,7 +19,7 @@ const pill = (on) => ({
 });
 const link = { background: "none", border: "1px solid #3a3530", color: gold, padding: "3px 10px", borderRadius: "4px", fontSize: "12px", cursor: "pointer" };
 
-export const PrinciplesPanel = ({ onMode }) => {
+export const PrinciplesPanel = ({ onMode, onQuizTopic }) => {
   const [id, setId] = useState(PRINCIPLES[0].id);
   const topic = PRINCIPLES.find((p) => p.id === id) ?? PRINCIPLES[0];
   return (
@@ -34,7 +34,7 @@ export const PrinciplesPanel = ({ onMode }) => {
       <p style={{ color: "#B8B0A0", fontSize: "14px", lineHeight: 1.6, margin: "0 0 14px" }}>{topic.intro}</p>
       {topic.tool === "units" && <UnitsCalculator />}
       {topic.tool === "calendar" && <GrowthCalendar />}
-      {topic.tool === "climate" && <ClimateVisuals />}
+      {topic.tool === "climate" && <ClimateVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Vineyard") : null} />}
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "12px" }}>
         {topic.sections.map((s) => (
@@ -50,7 +50,9 @@ export const PrinciplesPanel = ({ onMode }) => {
       {topic.practise?.length > 0 && (
         <div style={{ display: "flex", gap: "6px", flexWrap: "wrap", alignItems: "center", margin: "14px 0 0" }}>
           <span style={{ fontSize: "11px", color: "#8B7355", letterSpacing: "0.1em", textTransform: "uppercase" }}>Practise</span>
-          {topic.practise.map(([label, tab]) => <button key={label} onClick={() => onMode(tab)} style={link}>{label} →</button>)}
+          {topic.practise.map(([label, tab, filter]) => (
+            <button key={label} onClick={() => (filter && onQuizTopic ? onQuizTopic(filter) : onMode(tab))} style={link}>{label} →</button>
+          ))}
         </div>
       )}
 
