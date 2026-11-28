@@ -17902,5 +17902,341 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     explanation: "Seeds and stems are high in tannin, which can make wine taste very bitter if handled badly (WSET Level 2)."
+  },
+  {
+    id: "vy-41",
+    type: "scenario",
+    topic: "vineyard",
+    question: "Dijon's warmest month averages 20.8 °C and its coldest 2.7 °C. What is its continentality?",
+    options: [
+      "About 18.1 °C",
+      "About 11.8 °C",
+      "About 20.8 °C",
+      "About 23.5 °C"
+    ],
+    answer: 0,
+    explanation: "Continentality is the warmest month's average minus the coldest month's: 20.8 − 2.7 = 18.1 °C (1991–2020 averages, Wikipedia's Dijon climate table). 11.8 is Dijon's July day-night range, a different measure."
+  },
+  {
+    id: "vy-42",
+    type: "scenario",
+    topic: "vineyard",
+    question: "Region A: warmest month 22 °C, coldest 7 °C. Region B: warmest 21 °C, coldest 3 °C. Which is more continental?",
+    options: [
+      "Region A, because its summer is the warmer one",
+      "Region B: its yearly gap is bigger",
+      "Both the same, because their summers are alike",
+      "Neither; you would need rainfall figures to tell"
+    ],
+    answer: 1,
+    explanation: "Continentality is the gap between the warmest and coldest months: 15 °C for A, 18 °C for B. The bigger gap makes B more continental, even though A's summer is a little warmer."
+  },
+  {
+    id: "vy-43",
+    type: "connection",
+    topic: "vineyard",
+    question: "What is the diurnal range?",
+    options: [
+      "The gap between the warmest and the coldest month of the year",
+      "The number of frost-free days in an average year",
+      "The gap between day and night temperatures",
+      "How quickly the air cools as you climb higher up"
+    ],
+    answer: 2,
+    explanation: "Diurnal range is the difference between day and night temperatures. The gap between the warmest and coldest month is continentality, a different measure."
+  },
+  {
+    id: "vy-44",
+    type: "scenario",
+    topic: "vineyard",
+    question: "In January, Mendoza averages 32.8 °C by day and 19.3 °C at night. What is its diurnal range?",
+    options: [
+      "About 9.5 °C",
+      "About 19.3 °C",
+      "About 26.1 °C",
+      "About 13.5 °C"
+    ],
+    answer: 3,
+    explanation: "32.8 − 19.3 = 13.5 °C (1991–2020 averages, Mendoza airport, from Wikipedia's climate table). It is the widest of the four places on the Climate page."
+  },
+  {
+    id: "vy-45",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why is a wide diurnal range useful in a hot region?",
+    options: [
+      "Warm days ripen; cool nights keep acidity",
+      "Warm nights speed up the build-up of sugar in the grape",
+      "It means the vine no longer needs any irrigation water",
+      "It protects the young shoots from spring frost damage"
+    ],
+    answer: 0,
+    explanation: "Warm days build sugar and ripe flavour; cool nights slow the vine down, which helps the grape keep its acidity and fresh aromas."
+  },
+  {
+    id: "vy-46",
+    type: "connection",
+    topic: "vineyard",
+    question: "For Gregory Jones's climate bands, which months make up the growing season in the southern hemisphere?",
+    options: [
+      "April to October",
+      "October to April",
+      "January to June",
+      "All twelve months"
+    ],
+    answer: 1,
+    explanation: "The growing-season average runs April to October in the north and October to April in the south (Jones, Duff and Hall)."
+  },
+  {
+    id: "vy-47",
+    type: "scenario",
+    topic: "vineyard",
+    question: "A site's growing-season average is about 15 °C. Which grape is it better suited to?",
+    options: [
+      "Cabernet Sauvignon",
+      "Both equally well",
+      "Pinot Noir",
+      "Neither of them"
+    ],
+    answer: 2,
+    explanation: "Gregory Jones puts Pinot Noir at about 14–16 °C and Cabernet Sauvignon at about 16–20 °C (GuildSomm), so 15 °C suits Pinot Noir."
+  },
+  {
+    id: "vy-48",
+    type: "connection",
+    topic: "vineyard",
+    question: "In Gregory Jones's climate bands, what is a growing-season average of 17 to 19 °C called?",
+    options: [
+      "Cool",
+      "Intermediate",
+      "Very hot",
+      "Warm"
+    ],
+    answer: 3,
+    explanation: "Jones's bands: cool 13–15, intermediate 15–17, warm 17–19, hot 19–21 and very hot 21–24 °C (Jones, Duff and Hall, Table 1)."
+  },
+  {
+    id: "vy-49",
+    type: "scenario",
+    topic: "vineyard",
+    question: "It is 32 °C on the plain at sea level. Roughly how warm is a vineyard 1,000 m up the mountain?",
+    options: [
+      "About 26 °C",
+      "About 31 °C",
+      "About 29 °C",
+      "About 20 °C"
+    ],
+    answer: 0,
+    explanation: "Air cools by about 0.6 °C for every 100 m (WSET), so 1,000 m is about 6 °C cooler: 32 − 6 = 26 °C. The rule is an average; the real rate varies with the weather."
+  },
+  {
+    id: "vy-50",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why are many of Mendoza's vineyards planted high in the Andes foothills?",
+    options: [
+      "To get far more rain than falls on the plain below",
+      "Cooler air slows ripening and keeps freshness",
+      "To escape phylloxera, which cannot survive at height",
+      "Because Argentine law allows only high vineyards there"
+    ],
+    answer: 1,
+    explanation: "Height cools the air, which in a hot, sunny place slows ripening and keeps freshness (WSET). Mendoza's vineyards mostly sit between about 600 and 1,100 m, and some foothill sites reach about 1,500 m."
+  },
+  {
+    id: "vy-51",
+    type: "connection",
+    topic: "vineyard",
+    question: "In the southern hemisphere, which way does a slope facing the equator face?",
+    options: [
+      "South",
+      "East",
+      "North",
+      "West"
+    ],
+    answer: 2,
+    explanation: "The equator lies to the north of the southern hemisphere, so slopes facing north there get the most sun, as south-facing slopes do in the north."
+  },
+  {
+    id: "vy-52",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why does a slope facing the sun get more warmth than flat ground?",
+    options: [
+      "It is a little nearer to the sun than the valley is",
+      "Warm air from the valley always rises up the slope",
+      "Its soil is always darker, so it soaks up more heat",
+      "The sun's rays hit it more squarely"
+    ],
+    answer: 3,
+    explanation: "The same beam of sunlight lands on less ground when it hits a surface more squarely, so each square metre gets more energy. The effect is biggest when the sun is low."
+  },
+  {
+    id: "vy-53",
+    type: "connection",
+    topic: "vineyard",
+    question: "When does a slope facing the equator gain most over flat ground?",
+    options: [
+      "In spring and autumn, when the sun is lower",
+      "At midsummer noon, when the sun is at its very highest",
+      "Only at night, when the slope gives back its stored heat",
+      "It gains exactly the same amount all year round"
+    ],
+    answer: 0,
+    explanation: "The lower the sun, the more a slope tilted towards it gains over flat ground. That matters for ripening in autumn in cool regions."
+  },
+  {
+    id: "vy-54",
+    type: "connection",
+    topic: "vineyard",
+    question: "How does a cold ocean current create coastal fog?",
+    options: [
+      "Cold water gives off clouds of steam as it slowly warms up",
+      "Cold water chills the air above it into fog",
+      "Fog forms from heavy rain falling on the warm land",
+      "Strong winds blow smoke and dust in from the hot interior"
+    ],
+    answer: 1,
+    explanation: "Cold water wells up along the coast and chills the moist air above it, which condenses into fog. Upwelling is the mechanism that produces California's coastal fog (Wikipedia, California Current)."
+  },
+  {
+    id: "vy-55",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which of these ocean currents is warm?",
+    options: [
+      "Humboldt Current",
+      "Benguela Current",
+      "Gulf Stream",
+      "California Current"
+    ],
+    answer: 2,
+    explanation: "The Gulf Stream and North Atlantic Drift are warm and make Western Europe milder, though scientists argue about how much. The Humboldt, Benguela and California currents are cold."
+  },
+  {
+    id: "vy-56",
+    type: "connection",
+    topic: "vineyard",
+    question: "Which cold current cools Chile's coastal vineyards?",
+    options: [
+      "Benguela",
+      "California",
+      "Gulf Stream",
+      "Humboldt"
+    ],
+    answer: 3,
+    explanation: "The cold Humboldt Current flows north along the coasts of Chile and Peru. The Benguela runs off South Africa and the California Current off the US west coast."
+  },
+  {
+    id: "vy-57",
+    type: "connection",
+    topic: "vineyard",
+    question: "How do cooling sea breezes reach the south of Napa County, around Carneros?",
+    options: [
+      "Through gaps such as the Petaluma Gap",
+      "Over the top of the Sierra Nevada mountains to the east",
+      "Up the Columbia River valley all the way from Oregon",
+      "They never reach Napa; the hills block them completely"
+    ],
+    answer: 0,
+    explanation: "Sea breezes through the Petaluma Gap and the Golden Gate cool southern Napa (Napa Master Gardeners, The Climate of Napa County)."
+  },
+  {
+    id: "vy-58",
+    type: "connection",
+    topic: "vineyard",
+    question: "Why does a nearby sea even out the temperature of coastal vineyards?",
+    options: [
+      "The sea always makes the air above the coast warmer, all year",
+      "Water warms and cools more slowly than land",
+      "Sea air holds less carbon dioxide, so the vines grow more slowly",
+      "Salt carried in the sea air protects the vines from frost"
+    ],
+    answer: 1,
+    explanation: "Water warms up and cools down more slowly than land, so a coast has milder winters and less hot summers: a maritime climate."
+  },
+  {
+    id: "vy-59",
+    type: "scenario",
+    topic: "vineyard",
+    question: "Grapes from a hot climate are made into wine. What would you most expect?",
+    options: [
+      "High acid, low alcohol, light body and fresh, tart fruit",
+      "High acid, high alcohol and green, under-ripe fruit flavours",
+      "Low acid, high alcohol, very ripe fruit",
+      "Low acid, low alcohol, light body and delicate floral notes"
+    ],
+    answer: 2,
+    explanation: "More warmth means more sugar, so more alcohol, and less acid, with very ripe or even cooked fruit and little freshness (WSET)."
+  },
+  {
+    id: "vy-60",
+    type: "connection",
+    topic: "vineyard",
+    question: "Black grapes are picked with green, unripe seeds. What is the risk?",
+    options: [
+      "Soft, ripe and sweet-tasting tannins",
+      "Far too much colour in the finished wine",
+      "Too little acidity in the juice",
+      "Harsh, bitter tannins"
+    ],
+    answer: 3,
+    explanation: "Green seeds are a sign of unripe tannins, which taste harsh and bitter; riper grapes give softer tannins (Wikipedia, Ripeness in viticulture)."
+  },
+  {
+    id: "vy-61",
+    type: "connection",
+    topic: "vineyard",
+    question: "What does a gravel soil, as in the Médoc, do for the vine?",
+    options: [
+      "Drains well and holds heat",
+      "Holds water and stays cool",
+      "Stops all frost",
+      "Adds acidity to the grapes"
+    ],
+    answer: 0,
+    explanation: "Gravel drains well and helps the soil hold heat (Wikipedia, Médoc). Clay is the soil that holds water and stays cooler."
+  },
+  {
+    id: "vy-62",
+    type: "connection",
+    topic: "vineyard",
+    question: "Compared with gravel, what is a clay soil like, as in Pomerol?",
+    options: [
+      "Drains faster and is warmer",
+      "Holds water and is cooler",
+      "Holds no nutrients",
+      "Reflects sunlight onto the bunches"
+    ],
+    answer: 1,
+    explanation: "Clay soaks up water and is a cooler soil; gravel drains and is warmer (Edouard Moueix of Pomerol, in Wine Spectator)."
+  },
+  {
+    id: "vy-63",
+    type: "connection",
+    topic: "vineyard",
+    question: "What do the large pebbles of Châteauneuf-du-Pape do?",
+    options: [
+      "Keep the soil cold right through the summer",
+      "Keep the soil wet and cold after heavy rain",
+      "Store heat by day and release it at night",
+      "Shade the low bunches from the strong afternoon sun"
+    ],
+    answer: 2,
+    explanation: "The stones store the day's heat and give it back at night (Wikipedia, Châteauneuf-du-Pape AOC)."
+  },
+  {
+    id: "vy-64",
+    type: "connection",
+    topic: "vineyard",
+    question: "What mainly sets a Mediterranean climate apart?",
+    options: [
+      "Very cold winters with snow",
+      "Rain spread evenly all year",
+      "A very big gap between summer and winter",
+      "Warm, dry summers"
+    ],
+    answer: 3,
+    explanation: "Mediterranean climates have warm, dry summers. The label is about the dry summer, not the yearly gap: Montpellier's gap (16.8 °C) is bigger than Bordeaux's (14.8 °C)."
   }
 ];
