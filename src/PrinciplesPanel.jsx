@@ -5,6 +5,7 @@ import { ClimateVisuals } from "./climate/ClimateVisuals.jsx";
 import { WinemakingVisuals } from "./winemaking/WinemakingVisuals.jsx";
 import { ViticultureVisuals } from "./viticulture/ViticultureVisuals.jsx";
 import { SectionCards } from "./SectionCards.jsx";
+import { LawVisuals } from "./law/LawVisuals.jsx";
 import { SECTION_VISUALS } from "./data/sectionVisuals.js";
 
 // ─── Principles ──────────────────────────────────────────────────────────────
@@ -38,6 +39,7 @@ export const PrinciplesPanel = ({ onMode, onQuizTopic }) => {
       {topic.tool === "units" && <UnitsCalculator />}
       {topic.tool === "viticulture" && <ViticultureVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Vineyard") : null} />}
       {topic.tool === "climate" && <ClimateVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Vineyard") : null} />}
+      {topic.tool === "law" && <LawVisuals />}
       {topic.tool === "winemaking" && <WinemakingVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Winery") : null} />}
 
       {SECTION_VISUALS[topic.id] ? <SectionCards topic={topic} /> : (

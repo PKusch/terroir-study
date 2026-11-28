@@ -297,6 +297,7 @@ export const PRINCIPLES = [
   {
     id: "law",
     label: "Wine law",
+    tool: "law",
     intro: "What a label may promise. Each region's own quality levels are in its notes; these are the rules that run across them.",
     sections: [
       {
