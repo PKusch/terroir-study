@@ -12,12 +12,12 @@ export const SECTION_VISUALS = {
   viticulture: {
     "The vine itself": { icon: "🧬", see: ["Species, variety, clone, crossing, hybrid"] },
     "Parts of the vine": { icon: "🌿", see: ["Parts of the vine"] },
-    "Inside the grape": { icon: "🍇", see: ["Inside the grape"] },
-    "The vine's year": { icon: "📅", see: ["The vine's year"] },
+    "Inside the grape": { icon: "🍇", see: ["Inside the grape", "Berry size and skin"] },
+    "The vine's year": { icon: "📅", see: ["The vine's year", "The grower's year", "Poor fruit set: coulure and millerandage"] },
     "What ripening changes": { icon: "📈", see: ["What ripening changes"] },
-    "Managing the vine": { icon: "✂️", see: ["Training and pruning", "Canopy management"] },
-    "Hazards and responses": { icon: "❄️", see: ["Spring frost: which defence works?"] },
-    "Pests and diseases": { icon: "🍄", see: ["Weather and disease"] },
+    "Managing the vine": { icon: "✂️", see: ["Planting density", "Training and pruning", "Canopy management"] },
+    "Hazards and responses": { icon: "❄️", see: ["Hazards through the year", "Spring frost: which defence works?", "Irrigation"] },
+    "Pests and diseases": { icon: "🍄", see: ["Weather and disease", "Grafting: the answer to phylloxera"] },
     "Concentrating sugar, and ways of farming": { icon: "🌾", see: ["Weather and disease", "Ways of farming", "Harvest: by hand or by machine"] }
   },
   winemaking: {
