@@ -6,6 +6,7 @@ import { Carbonic } from "./Carbonic.jsx";
 import { Malolactic } from "./Malolactic.jsx";
 import { Lees } from "./Lees.jsx";
 import { Oak } from "./Oak.jsx";
+import { Clarify } from "./Clarify.jsx";
 export const WinemakingVisuals = () => (
   <div style={{ display: "grid", gap: "14px", marginBottom: "14px" }}>
     <Process />
@@ -15,5 +16,6 @@ export const WinemakingVisuals = () => (
     <Malolactic />
     <Lees />
     <Oak />
+    <Clarify />
   </div>
 );
