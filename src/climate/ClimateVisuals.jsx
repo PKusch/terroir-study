@@ -6,6 +6,7 @@ import { Ripeness } from "./Ripeness.jsx";
 import { Continentality } from "./Continentality.jsx";
 import { DayNight } from "./DayNight.jsx";
 import { Currents } from "./Currents.jsx";
+import { Altitude } from "./Altitude.jsx";
 export const ClimateVisuals = () => (
   <div style={{ display: "grid", gap: "14px", marginBottom: "14px" }}>
     <LatitudeBands />
@@ -14,5 +15,6 @@ export const ClimateVisuals = () => (
     <Continentality />
     <DayNight />
     <Currents />
+    <Altitude />
   </div>
 );
