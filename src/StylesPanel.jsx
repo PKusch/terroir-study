@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { subFromHash } from "./tabs.js";
+import { StylesVisuals } from "./styles/StylesVisuals.jsx";
 import { STYLE_FAMILIES } from "./data/styles.js";
 import { REGIONS } from "./data/regions.js";
 
@@ -9,7 +11,19 @@ const gold = "#C4A962";
 // with the same rows in the same order, so the methods can be compared.
 export const StylesPanel = ({ onStudyRegion }) => {
   const families = STYLE_FAMILIES.filter((f) => f.items.length > 0);
-  const [familyId, setFamilyId] = useState(families[0]?.id);
+  // The family can come from the address (#styles/sparkling), and the address
+  // follows it, so each family can be linked to.
+  const fromHash = () => {
+    const sub = subFromHash(typeof window === "undefined" ? "" : window.location.hash);
+    return families.some((f) => f.id === sub) ? sub : families[0]?.id;
+  };
+  const [familyId, setFamily] = useState(fromHash);
+  const setFamilyId = (id) => { setFamily(id); window.history.replaceState(null, "", `#styles/${id}`); };
+  useEffect(() => {
+    const follow = () => setFamily(fromHash());
+    window.addEventListener("hashchange", follow);
+    return () => window.removeEventListener("hashchange", follow);
+  }, []);
   const family = families.find((f) => f.id === familyId) ?? families[0];
   if (!family) return null;
 
@@ -28,6 +42,8 @@ export const StylesPanel = ({ onStudyRegion }) => {
         ))}
       </div>
       <p style={{ color: "#B8B0A0", fontSize: "14px", lineHeight: 1.6, margin: "0 0 16px" }}>{family.intro}</p>
+      <StylesVisuals family={family.id} />
+      <h3 style={{ fontFamily: serif, fontSize: "22px", color: "#E8E4D9", margin: "0 0 10px", fontWeight: 600 }}>Side by side</h3>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "12px" }}>
         {family.items.map((item) => (
           <section key={item.id} style={{ background: "#1f1c18", border: "1px solid #2a2520", borderRadius: "8px", padding: "14px 16px" }}>

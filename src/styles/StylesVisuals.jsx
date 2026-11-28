@@ -1,0 +1,17 @@
+// ─── Styles, in pictures ─────────────────────────────────────────────────────
+import { Methods } from "./Methods.jsx";
+const BY_FAMILY = {
+  sparkling: [Methods],
+  fortified: [],
+  service: [],
+  food: []
+};
+export const StylesVisuals = ({ family }) => {
+  const list = BY_FAMILY[family] ?? [];
+  if (!list.length) return null;
+  return (
+    <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: "14px", marginBottom: "18px" }}>
+      {list.map((C, i) => <C key={i} />)}
+    </div>
+  );
+};

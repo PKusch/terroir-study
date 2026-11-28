@@ -48,8 +48,8 @@ export const PrinciplesPanel = ({ onMode, onQuizTopic }) => {
         {PRINCIPLES.map((p) => (
           <button key={p.id} aria-pressed={p.id === topic.id} onClick={() => setId(p.id)} style={pill(p.id === topic.id)}>{p.label}</button>
         ))}
-        <button onClick={() => onMode("styles")} style={pill(false)} title="Serving, storing and faults are in the Styles tab">Service →</button>
-        <button onClick={() => onMode("styles")} style={pill(false)} title="Food and wine pairing is in the Styles tab">Food →</button>
+        <button onClick={() => { window.location.hash = "styles/service"; }} style={pill(false)} title="Serving, storing and faults are in the Styles tab">Service →</button>
+        <button onClick={() => { window.location.hash = "styles/food"; }} style={pill(false)} title="Food and wine pairing is in the Styles tab">Food →</button>
       </div>
       <p style={{ color: "#B8B0A0", fontSize: "14px", lineHeight: 1.6, margin: "0 0 14px" }}>{topic.intro}</p>
       {topic.tool === "units" && <UnitsCalculator />}

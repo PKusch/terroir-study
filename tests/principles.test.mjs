@@ -4,6 +4,7 @@ import { PRINCIPLES } from "../src/data/principles.js";
 import { SYLLABUS } from "../src/data/syllabus.js";
 import { TAB_IDS } from "../src/tabs.js";
 import { TOPICS } from "../src/progress.js";
+import { STYLE_FAMILIES } from "../src/data/styles.js";
 
 test("each principle has sections with points, and every source is a web address", () => {
   const ids = PRINCIPLES.map((p) => p.id);
@@ -24,6 +25,7 @@ test("every Practise and syllabus link opens a tab that exists", () => {
     // A Principles link names a real topic; a quiz link names a real filter.
     if (tab === "principles" && sub) assert.ok(PRINCIPLES.some((p) => p.id === sub), `${s.id}: ${label} → ${sub}`);
     if (tab === "quiz" && sub) assert.ok(TOPICS.includes(sub), `${s.id}: ${label} → ${sub}`);
+    if (tab === "styles" && sub) assert.ok(STYLE_FAMILIES.some((f) => f.id === sub), `${s.id}: ${label} → ${sub}`);
   }
 });
 

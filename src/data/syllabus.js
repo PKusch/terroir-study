@@ -40,7 +40,7 @@ export const SYLLABUS = [
     title: "Sparkling wines",
     covers: "The principal sparkling wines, and the traditional, transfer, ancestral, tank and Asti methods, and carbonation.",
     marks: "5 multiple-choice marks; sparkling and fortified share 20 written marks",
-    links: [["Styles › Sparkling", "styles"], ["Quiz › Sparkling", "quiz", "Sparkling"]],
+    links: [["Styles › Sparkling", "styles", "sparkling"], ["Quiz › Sparkling", "quiz", "Sparkling"]],
     status: "covered"
   },
   {
@@ -49,7 +49,7 @@ export const SYLLABUS = [
     title: "Fortified wines",
     covers: "Port, Sherry and the fortified Muscats, and how they are made, aged and labelled.",
     marks: "5 multiple-choice marks; shares the 20 written marks with sparkling",
-    links: [["Styles › Fortified", "styles"], ["Quiz › Fortified", "quiz", "Fortified"]],
+    links: [["Styles › Fortified", "styles", "fortified"], ["Quiz › Fortified", "quiz", "Fortified"]],
     status: "covered"
   },
   {
@@ -58,7 +58,7 @@ export const SYLLABUS = [
     title: "Advising customers: storage, service, faults, food",
     covers: "Recommending wines, storage and service, common faults, and the principles of food and wine pairing. Social and health issues are also in the syllabus.",
     marks: "4 multiple-choice marks, and 10 written marks",
-    links: [["Styles › Service", "styles"], ["Styles › Food", "styles"], ["Quiz › Service", "quiz", "Service"], ["Principles › Health", "principles", "health"]],
+    links: [["Styles › Service", "styles", "service"], ["Styles › Food", "styles", "food"], ["Quiz › Service", "quiz", "Service"], ["Principles › Health", "principles", "health"]],
     status: "covered"
   },
   {
