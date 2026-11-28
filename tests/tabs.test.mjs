@@ -26,3 +26,11 @@ test("the browser title names the tab, and the home page keeps the plain title",
   for (const id of TAB_IDS) assert.match(tabTitle(id), /Terroir Study/);
   assert.equal(tabTitle("nothing"), "Terroir Study | WSET Level 3");
 });
+
+test("a link can name part of a tab after a slash", async () => {
+  const { tabFromHash, subFromHash } = await import("../src/tabs.js");
+  assert.equal(tabFromHash("#principles/law"), "principles");
+  assert.equal(subFromHash("#principles/law"), "law");
+  assert.equal(subFromHash("#principles"), "");
+  assert.equal(tabFromHash("#nowhere/law"), "home");
+});

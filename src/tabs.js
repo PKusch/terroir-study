@@ -4,9 +4,15 @@
 export const TAB_IDS = ["home", "explore", "connect", "quiz", "taste", "exam", "drill", "styles", "principles", "written"];
 
 // The tab a link asks for, or the home page when it names none we know.
+// A link can also name a part of the tab after a slash, as in
+// #principles/law, which opens the Wine law topic.
 export function tabFromHash(hash) {
-  const id = String(hash ?? "").replace(/^#/, "").toLowerCase();
+  const id = String(hash ?? "").replace(/^#/, "").split("/")[0].toLowerCase();
   return TAB_IDS.includes(id) ? id : "home";
+}
+export function subFromHash(hash) {
+  const parts = String(hash ?? "").replace(/^#/, "").split("/");
+  return parts.length > 1 ? decodeURIComponent(parts.slice(1).join("/")) : "";
 }
 
 // What the browser tab and a bookmark say on each tab.

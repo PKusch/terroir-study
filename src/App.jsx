@@ -29,7 +29,8 @@ export default function WsetStudyApp() {
   // Keep the address in step with the tab, so it can be copied as a link.
   useEffect(() => {
     const want = mode === "home" ? window.location.pathname + window.location.search : `#${mode}`;
-    if (mode === "home" ? window.location.hash : window.location.hash !== `#${mode}`) window.history.replaceState(null, "", want);
+    // A link to part of a tab (#principles/law) keeps its part.
+    if (mode === "home" ? window.location.hash : tabFromHash(window.location.hash) !== mode) window.history.replaceState(null, "", want);
     document.title = tabTitle(mode);
   }, [mode]);
   // Follow the address when it changes while the app is open (a tab link
@@ -79,6 +80,12 @@ export default function WsetStudyApp() {
   const heat = showHeat ? buildHeat(QUIZ_QUESTIONS, loadProgress(), Object.keys(REGIONS)) : null;
   const quizRegion = (key) => { setQuizStart(key); setMode("quiz"); };
   const quizTopic = (f) => { setQuizFilter(f); setMode("quiz"); };
+  // Open a tab, or a part of one: a Principles topic, or a quiz filter.
+  const openTab = (tab, sub) => {
+    if (tab === "quiz" && sub) return quizTopic(sub);
+    if (sub) { window.location.hash = `${tab}/${sub}`; return; }
+    setMode(tab);
+  };
 
   // Zooming in shows the region's own places; only where there are some to show.
   // These tabs are whole pages of their own, with no map above them.
@@ -294,7 +301,7 @@ export default function WsetStudyApp() {
 
         {/* Content Panel */}
         <div key={restored} style={{ padding: "16px 20px 40px" }}>
-          {mode === "home" && <HomePage onCountry={(c) => { setCountry(c); setActiveRegion(COUNTRIES[c][0]); setZoomed(false); setMode("explore"); }} onRegion={studyRegion} onMode={setMode} />}
+          {mode === "home" && <HomePage onCountry={(c) => { setCountry(c); setActiveRegion(COUNTRIES[c][0]); setZoomed(false); setMode("explore"); }} onRegion={studyRegion} onMode={openTab} />}
           {mode === "principles" && <PrinciplesPanel onMode={setMode} onQuizTopic={quizTopic} />}
           {mode === "explore" && <ExplorePanel region={activeRegion} />}
           {mode === "connect" && <ConnectionChain region={activeRegion} />}

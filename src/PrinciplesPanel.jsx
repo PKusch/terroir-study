@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { subFromHash } from "./tabs.js";
 import { PRINCIPLES } from "./data/principles.js";
 import { UnitsCalculator } from "./UnitsCalculator.jsx";
 import { ClimateVisuals } from "./climate/ClimateVisuals.jsx";
@@ -24,7 +25,22 @@ const pill = (on) => ({
 const link = { background: "none", border: "1px solid #3a3530", color: gold, padding: "3px 10px", borderRadius: "4px", fontSize: "12px", cursor: "pointer" };
 
 export const PrinciplesPanel = ({ onMode, onQuizTopic }) => {
-  const [id, setId] = useState(PRINCIPLES[0].id);
+  // The topic can come from the address (#principles/law), and the address
+  // follows the topic, so any topic can be bookmarked or linked to.
+  const fromHash = () => {
+    const sub = subFromHash(typeof window === "undefined" ? "" : window.location.hash);
+    return PRINCIPLES.some((p) => p.id === sub) ? sub : PRINCIPLES[0].id;
+  };
+  const [id, setTopic] = useState(fromHash);
+  const setId = (next) => {
+    setTopic(next);
+    window.history.replaceState(null, "", `#principles/${next}`);
+  };
+  useEffect(() => {
+    const follow = () => setTopic(fromHash());
+    window.addEventListener("hashchange", follow);
+    return () => window.removeEventListener("hashchange", follow);
+  }, []);
   const topic = PRINCIPLES.find((p) => p.id === id) ?? PRINCIPLES[0];
   return (
     <div>
