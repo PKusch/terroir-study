@@ -56,7 +56,7 @@ export const Fermentation = () => {
           {Array.from({ length: how === "fortify" ? 0 : bubbles }, (_, i) => (
             <circle key={i} cx={[30, 62, 44, 72, 34, 56, 70, 40, 60][i]} cy={[110, 96, 80, 64, 52, 40, 112, 28, 22][i]} r={2 + (i % 3)} fill="none" stroke="#cfd8dc" opacity="0.7" />
           ))}
-          <text x="50" y="8" fontSize="8" textAnchor="middle" fill={ink.faint}>{how === "fortify" ? "spirit added" : bubbles ? "CO₂ escaping" : ""}</text>
+          <text x="50" y="7" fontSize="7" textAnchor="middle" fill={ink.faint}>{how === "fortify" ? "spirit added" : bubbles ? "CO₂ escaping" : ""}</text>
         </svg>
         <div>
           <Bar label="Sugar left" value={end.sugar} max={SUGAR_MAX} unit="g/L" colour={gold} />

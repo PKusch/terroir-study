@@ -15,7 +15,7 @@ export const Carbonic = () => (
       <rect x="40" y="14" width="240" height="10" rx="3" fill="#8B7355" />
       <rect x="44" y="26" width="232" height="140" fill="#cfd8dc" opacity="0.08" />
       <text x="160" y="44" textAnchor="middle" fontSize="12" fill="#cfd8dc" fontFamily="'Source Sans 3', sans-serif">sealed, full of CO₂</text>
-      {Array.from({ length: 6 }, (_, row) => Array.from({ length: 11 }, (_, col) => (
+      {Array.from({ length: 6 }, (_, row) => Array.from({ length: row % 2 ? 10 : 11 }, (_, col) => (
         <circle key={row + "-" + col} cx={60 + col * 20 + (row % 2) * 10} cy={66 + row * 17} r="9" fill="#4F1E3D" stroke="#1a1a1a" />
       )))}
       <rect x="44" y="168" width="232" height="28" fill="#7E2F4E" />
