@@ -2,6 +2,7 @@ import { useState } from "react";
 import { PRINCIPLES } from "./data/principles.js";
 import { UnitsCalculator } from "./UnitsCalculator.jsx";
 import { GrowthCalendar } from "./GrowthCalendar.jsx";
+import { ClimateVisuals } from "./climate/ClimateVisuals.jsx";
 
 // ─── Principles ──────────────────────────────────────────────────────────────
 // The general topics behind every region: tasting, climate, viticulture,
@@ -33,6 +34,7 @@ export const PrinciplesPanel = ({ onMode }) => {
       <p style={{ color: "#B8B0A0", fontSize: "14px", lineHeight: 1.6, margin: "0 0 14px" }}>{topic.intro}</p>
       {topic.tool === "units" && <UnitsCalculator />}
       {topic.tool === "calendar" && <GrowthCalendar />}
+      {topic.tool === "climate" && <ClimateVisuals />}
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "12px" }}>
         {topic.sections.map((s) => (
