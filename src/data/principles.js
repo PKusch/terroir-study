@@ -56,7 +56,8 @@ export const PRINCIPLES = [
   {
     id: "climate",
     label: "Climate",
-    intro: "Why one region grows Riesling and another Grenache. The specification lists climate bands and types, the factors that shape a region's and a site's climate, weather, and soil.",
+    tool: "climate",
+    intro: "Why one region grows Riesling and another Grenache. Each idea below has a picture: work through them in order, from where vines grow to a single slope. The short notes at the bottom sum it up.",
     sections: [
       {
         title: "What a vine needs",
@@ -107,7 +108,11 @@ export const PRINCIPLES = [
       { title: "WSET blog: how does geography affect a wine's style? (2021)", url: "https://wsetglobal.com/knowledge-centre/blog/2021/august/24/how-does-geography-affect-a-wine-s-style" },
       { title: "Gregory Jones, Climate, grapes and wine (GuildSomm)", url: "https://www.guildsomm.com/stay_current/features/b/gregory_jones/posts/climate-grapes-and-wine" },
       { title: "New Mexico State University, Grape growing guide H-338", url: "https://pubs.nmsu.edu/_h/H338.pdf" },
-      { title: "UCAR MetEd, upwelling and coastal fog", url: "https://www.meted.ucar.edu/fogstrat/ic31/ic313/upwell.htm" }
+      { title: "UCAR MetEd, upwelling and coastal fog", url: "https://www.meted.ucar.edu/fogstrat/ic31/ic313/upwell.htm" },
+      { title: "Jones, Duff and Hall, climate-viticulture structure (climate bands)", url: "https://www.climateofwine.com/_files/ugd/07f66e_ec9cd9ce134940e6b7e31dd0f9730bc1.pdf" },
+      { title: "Monthly temperatures, 1991–2020: Bordeaux, Dijon, Montpellier and Mendoza (Wikipedia climate tables)", url: "https://en.wikipedia.org/wiki/Bordeaux" },
+      { title: "Wine Spectator: clay or gravel? Pomerol and the Médoc", url: "https://www.winespectator.com/articles/the-2013-bordeaux-barrels-diary-clay-or-gravel-depends-who-you-ask-49762" },
+      { title: "UC Cooperative Extension: fog and breezes in Napa and Sonoma", url: "https://ccfruitandnuts.ucanr.edu/sites/default/files/2021-07/153431.pdf" }
     ]
   },
   {
