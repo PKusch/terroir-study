@@ -7,7 +7,7 @@ const gold = "#C4A962";
 export const GrowthCalendar = () => {
   const [half, setHalf] = useState("north");
   return (
-    <div style={{ background: "#1f1c18", border: `1px solid ${gold}55`, borderRadius: "8px", padding: "14px 16px", marginBottom: "14px" }}>
+    <div id="fig-the-vine-s-year" style={{ scrollMarginTop: "80px", background: "#1f1c18", border: `1px solid ${gold}55`, borderRadius: "8px", padding: "14px 16px", marginBottom: "14px" }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "8px", flexWrap: "wrap", marginBottom: "10px" }}>
         <div style={{ fontSize: "10px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#8B7355" }}>The vine's year</div>
         <div role="group" aria-label="Hemisphere" style={{ display: "flex", gap: "6px" }}>

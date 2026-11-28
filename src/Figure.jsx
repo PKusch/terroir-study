@@ -5,8 +5,11 @@ export const ink = { soft: "#B8B0A0", text: "#D5D0C4", head: "#E8E4D9", faint: "
 export const COLD = "#6FA8DC";
 export const WARM = "#E07A5F";
 
+// Each diagram gets an id from its title, so summary cards can link to it.
+export const figureId = (title) => "fig-" + title.toLowerCase().normalize("NFD").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
 export const Figure = ({ title, idea, remember, source, children }) => (
-  <figure style={{ margin: 0, background: "#1f1c18", border: "1px solid #2a2520", borderRadius: "8px", padding: "14px 16px" }}>
+  <figure id={figureId(title)} style={{ scrollMarginTop: "80px", minWidth: 0, margin: 0, background: "#1f1c18", border: "1px solid #2a2520", borderRadius: "8px", padding: "14px 16px" }}>
     <h3 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: "22px", color: ink.head, margin: "0 0 4px", fontWeight: 600 }}>{title}</h3>
     <p style={{ color: ink.soft, fontSize: "13px", lineHeight: 1.55, margin: "0 0 10px" }}>{idea}</p>
     {children}

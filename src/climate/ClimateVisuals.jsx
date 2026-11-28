@@ -13,7 +13,7 @@ import { Soil } from "./Soil.jsx";
 // how warm a climate is and what that does to the grape, the climate types,
 // what shapes a region, then what shapes a single site.
 export const ClimateVisuals = ({ onQuiz }) => (
-  <div style={{ display: "grid", gap: "14px", marginBottom: "14px" }}>
+  <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: "14px", marginBottom: "14px" }}>
     <LatitudeBands />
     <GrowingSeason />
     <Ripeness />

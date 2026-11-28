@@ -12,7 +12,7 @@ import { Sweet } from "./Sweet.jsx";
 // In the order the wine meets them: the route for each colour, fermentation,
 // red-wine extraction, then what happens after fermentation, and sweet wines.
 export const WinemakingVisuals = ({ onQuiz }) => (
-  <div style={{ display: "grid", gap: "14px", marginBottom: "14px" }}>
+  <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: "14px", marginBottom: "14px" }}>
     <Process />
     <Fermentation />
     <Cap />
