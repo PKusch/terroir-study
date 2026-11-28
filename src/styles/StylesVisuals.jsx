@@ -1,7 +1,7 @@
 // ─── Styles, in pictures ─────────────────────────────────────────────────────
-import { Methods } from "./Methods.jsx";
+import { Methods TraditionalSteps } from "./Methods TraditionalSteps.jsx";
 const BY_FAMILY = {
-  sparkling: [Methods],
+  sparkling: [Methods, TraditionalSteps],
   fortified: [],
   service: [],
   food: []
