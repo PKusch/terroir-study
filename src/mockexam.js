@@ -81,6 +81,12 @@ export const PAPERS = [
   { id: "paper22", label: "Paper 22", note: "More, as the bank grows", index: 21 },
   { id: "paper23", label: "Paper 23", note: "More, as the bank grows", index: 22 },
   { id: "paper24", label: "Paper 24", note: "More, as the bank grows", index: 23 },
+  { id: "paper25", label: "Paper 25", note: "More, as the bank grows", index: 24 },
+  { id: "paper26", label: "Paper 26", note: "More, as the bank grows", index: 25 },
+  { id: "paper27", label: "Paper 27", note: "More, as the bank grows", index: 26 },
+  { id: "paper28", label: "Paper 28", note: "More, as the bank grows", index: 27 },
+  { id: "paper29", label: "Paper 29", note: "More, as the bank grows", index: 28 },
+  { id: "paper30", label: "Paper 30", note: "More, as the bank grows", index: 29 },
   { id: "missed", label: "Missed before", note: "Questions you often get wrong in the quiz", history: "missed" },
   { id: "unseen", label: "Not yet seen", note: "Questions you have not met in the quiz", history: "unseen" }
 ];

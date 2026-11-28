@@ -155,7 +155,8 @@ test("the same seed gives the same numbers, a different seed different ones", ()
 });
 
 test("numbered papers are fixed, never share a question, and together use the whole bank", () => {
-  const papers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
+  // Every numbered paper the exam screen offers.
+  const papers = PAPERS.filter((p) => p.index !== undefined).map((p) => fixedPaperIds(QUIZ_QUESTIONS, p.index));
   assert.equal(papers[0].length, 50);
   assert.equal(papers[1].length, 50);
   assert.deepEqual(fixedPaperIds(QUIZ_QUESTIONS, 0), papers[0], "the same every time");
@@ -204,7 +205,7 @@ test("paperPoolSize reports what each kind of paper can offer", () => {
 });
 
 test("every kind of paper is listed with a label and a note", () => {
-  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "paper4", "paper5", "paper6", "paper7", "paper8", "paper9", "paper10", "paper11", "paper12", "paper13", "paper14", "paper15", "paper16", "paper17", "paper18", "paper19", "paper20", "paper21", "paper22", "paper23", "paper24", "missed", "unseen"]);
+  assert.deepEqual(PAPERS.map((p) => p.id), ["random", "paper1", "paper2", "paper3", "paper4", "paper5", "paper6", "paper7", "paper8", "paper9", "paper10", "paper11", "paper12", "paper13", "paper14", "paper15", "paper16", "paper17", "paper18", "paper19", "paper20", "paper21", "paper22", "paper23", "paper24", "paper25", "paper26", "paper27", "paper28", "paper29", "paper30", "missed", "unseen"]);
   for (const p of PAPERS) assert.ok(p.label && p.note);
 });
 
