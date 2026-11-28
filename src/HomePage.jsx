@@ -118,8 +118,8 @@ export const HomePage = ({ onCountry, onRegion, onMode }) => (
             <p style={{ fontSize: "12px", color: gold, margin: "0 0 8px" }}>{s.marks}</p>
             {s.gap && <p style={{ fontSize: "12px", color: "#8B7355", lineHeight: 1.5, margin: "0 0 8px" }}>Not yet: {s.gap}</p>}
             <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
-              {s.links.map(([label, tab]) => (
-                <button key={label} onClick={() => onMode(tab)} style={{ ...chip, color: gold }}>{label} →</button>
+              {s.links.map(([label, tab, sub]) => (
+                <button key={label} onClick={() => onMode(tab, sub)} style={{ ...chip, color: gold }}>{label} →</button>
               ))}
             </div>
           </div>

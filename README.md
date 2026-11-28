@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **1305** quiz questions | 🍇 **124** grapes | ✅ **234** tests |
+| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **1305** quiz questions | 🍇 **124** grapes | ✅ **235** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -358,7 +358,7 @@ backup, or is damaged, is refused. **Clear progress** and **Clear results** need
 
 ## Links to a tab
 
-Each tab has its own address, so it can be bookmarked or shared: add `#explore`, `#connect`, `#quiz`, `#taste`, `#exam`, `#drill`, `#styles`, `#principles` or `#written` to the end (the plain address opens the home page), as in [pkusch.github.io/terroir-study/#written](https://pkusch.github.io/terroir-study/#written). The address and the browser's tab title change as you move between tabs.
+Each tab has its own address, so it can be bookmarked or shared: add `#explore`, `#connect`, `#quiz`, `#taste`, `#exam`, `#drill`, `#styles`, `#principles` or `#written` to the end (the plain address opens the home page). A Principles topic has its own address too: `#principles/climate`, `#principles/viticulture`, `#principles/winemaking`, `#principles/law`, and so on, as in [pkusch.github.io/terroir-study/#written](https://pkusch.github.io/terroir-study/#written). The address and the browser's tab title change as you move between tabs.
 
 ## Keyboard and screen readers
 
@@ -428,7 +428,7 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 npm test
 ```
 
-234 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
+235 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
 
 ## License
 

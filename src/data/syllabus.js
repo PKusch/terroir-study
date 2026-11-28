@@ -22,7 +22,7 @@ export const SYLLABUS = [
     title: "Making wine: vineyard and winery",
     covers: "Natural factors in the vineyard (the vine, its growth cycle, climate, weather, soil), human factors in the vineyard (managing the vine, hazards, pests and diseases), and the winery (common elements, white, red, rosé and sweet winemaking, maturation, blending, clarification, stabilisation, packaging and closures).",
     marks: "8 of the 50 multiple-choice marks, and part of every written question",
-    links: [["Principles", "principles"], ["Quiz › Vineyard", "quiz"], ["Connect", "connect"]],
+    links: [["Principles › Climate", "principles", "climate"], ["Principles › Viticulture", "principles", "viticulture"], ["Principles › Winemaking", "principles", "winemaking"], ["Quiz › Vineyard", "quiz", "Vineyard"], ["Quiz › Winery", "quiz", "Winery"], ["Connect", "connect"]],
     status: "covered"
   },
   {
@@ -31,7 +31,7 @@ export const SYLLABUS = [
     title: "The still wines of the world",
     covers: "The principal regions of France, Germany, Austria, Hungary (Tokaj), Greece, Italy, Spain, Portugal, the USA, Canada, Chile, Argentina, South Africa, Australia and New Zealand, and the grapes, natural and human factors, law and commerce behind their style, quality and price.",
     marks: "28 of the 50 multiple-choice marks, and 70 of the 100 written marks",
-    links: [["Explore", "explore"], ["Quiz", "quiz"], ["Map drill", "drill"], ["Written", "written"], ["Wine law and price", "principles"]],
+    links: [["Explore", "explore"], ["Quiz", "quiz"], ["Map drill", "drill"], ["Written", "written"], ["Principles › Wine law", "principles", "law"], ["Principles › Price", "principles", "price"]],
     status: "covered"
   },
   {
@@ -40,7 +40,7 @@ export const SYLLABUS = [
     title: "Sparkling wines",
     covers: "The principal sparkling wines, and the traditional, transfer, ancestral, tank and Asti methods, and carbonation.",
     marks: "5 multiple-choice marks; sparkling and fortified share 20 written marks",
-    links: [["Styles › Sparkling", "styles"], ["Quiz › Sparkling", "quiz"]],
+    links: [["Styles › Sparkling", "styles"], ["Quiz › Sparkling", "quiz", "Sparkling"]],
     status: "covered"
   },
   {
@@ -49,7 +49,7 @@ export const SYLLABUS = [
     title: "Fortified wines",
     covers: "Port, Sherry and the fortified Muscats, and how they are made, aged and labelled.",
     marks: "5 multiple-choice marks; shares the 20 written marks with sparkling",
-    links: [["Styles › Fortified", "styles"], ["Quiz › Fortified", "quiz"]],
+    links: [["Styles › Fortified", "styles"], ["Quiz › Fortified", "quiz", "Fortified"]],
     status: "covered"
   },
   {
@@ -58,7 +58,7 @@ export const SYLLABUS = [
     title: "Advising customers: storage, service, faults, food",
     covers: "Recommending wines, storage and service, common faults, and the principles of food and wine pairing. Social and health issues are also in the syllabus.",
     marks: "4 multiple-choice marks, and 10 written marks",
-    links: [["Styles › Service", "styles"], ["Styles › Food", "styles"], ["Quiz › Service", "quiz"], ["Principles › Health", "principles"]],
+    links: [["Styles › Service", "styles"], ["Styles › Food", "styles"], ["Quiz › Service", "quiz", "Service"], ["Principles › Health", "principles", "health"]],
     status: "covered"
   },
   {
@@ -67,7 +67,7 @@ export const SYLLABUS = [
     title: "Tasting: the Systematic Approach to Tasting",
     covers: "Describing two still wines blind with WSET's tasting grid (appearance, nose, palate, conclusions on quality and readiness for drinking) in 30 minutes.",
     marks: "A separate tasting exam, 55% to pass",
-    links: [["Taste", "taste"], ["Principles › Tasting", "principles"]],
+    links: [["Taste", "taste"], ["Principles › Tasting", "principles", "tasting"]],
     status: "partial",
     gap: "Nothing replaces tasting real wine. The app practises the structure, the aromas and the wording, and links to WSET's own grid, which it does not copy."
   }
