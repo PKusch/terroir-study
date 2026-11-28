@@ -8,6 +8,7 @@ is summed up in the README's roadmap.
 
 ### 28 November
 - **Climate is now a visual page:** nine diagrams, each with the idea in a sentence and what to remember. They cover the 30° to 50° wine bands on a world map, Gregory Jones's climate bands with where Pinot Noir, Chardonnay and Cabernet Sauvignon do best, and a cool-to-hot switch showing what warmth does to sugar, acid, body and flavour. Monthly temperatures for Bordeaux, Dijon, Montpellier and Mendoza show maritime against continental, and their day and night temperatures show diurnal range. There is also a map of the cold and warm ocean currents with how a cold current makes fog, a vineyard you can move up a mountain, sunlight on slopes by season with cold air draining to the valley, and gravel against clay. Every number has a source, and a second reviewer checked the page before it went live.
+- **Vineyard quiz:** 24 more questions, one or more on every climate diagram (reading the charts, doing the sums, and the why behind them). A second reviewer checked them; two were fixed before they went live. A button at the end of the Climate page, and every *Quiz › Vineyard* link, now opens the quiz on the Vineyard filter.
 
 ### 27 November (evening)
 - **Viticulture** now covers the vine itself (species, clones, crossings, hybrids, rootstocks), its parts, and what is inside the grape, with a month-by-month chart of the vine's year for both hemispheres.
