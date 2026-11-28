@@ -239,7 +239,7 @@ export const PRINCIPLES = [
         title: "White, red and rosé",
         points: [
           "White: the grapes are crushed and pressed before fermentation, so the juice ferments without its skins. Black grapes can make white wine if pressed very gently.",
-          "Red: the juice ferments on its skins to take colour and tannin from them. Pumping the juice over the cap of skins extracts more; punching the cap down is gentler. Délestage drains the juice off and returns it over the cap.",
+          "Red: the juice ferments on its skins to take colour and tannin from them. The skins float up into a cap, so winemakers pump juice over it or punch it down; studies find little difference between the two in how much they extract. Délestage drains the juice off, holds it for some hours, then pumps it back over the cap.",
           "Rosé: a short maceration, a few hours on the skins before the juice is drained off; or direct pressing; or, where allowed, blending red with white, which many parts of Europe forbid.",
           "Carbonic maceration: whole, uncrushed grapes in a sealed vat filled with carbon dioxide give low tannin and juicy fruit, as in Beaujolais."
         ]
