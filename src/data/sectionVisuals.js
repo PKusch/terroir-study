@@ -20,6 +20,13 @@ export const SECTION_VISUALS = {
     "Pests and diseases": { icon: "🍄", see: ["Weather and disease", "Grafting: the answer to phylloxera"] },
     "Concentrating sugar, and ways of farming": { icon: "🌾", see: ["Weather and disease", "Ways of farming", "Harvest: by hand or by machine"] }
   },
+  law: {
+    "The EU's two levels": { icon: "🏛️", see: ["The EU quality pyramid", "What a label promises: the percentage rules"] },
+    "The 85% rules in the EU": { icon: "🍾", see: ["What a label promises: the percentage rules", "Naming the grapes: build a blend"] },
+    "National words for the EU levels": { icon: "🇪🇺", see: ["The EU quality pyramid"] },
+    "Outside Europe": { icon: "🌏", see: ["What a label promises: the percentage rules", "Places inside places"] },
+    "What an EU label must show": { icon: "🏷️", see: ["Reading an EU wine label", "How the rules grew"] }
+  },
   winemaking: {
     "Fermentation": { icon: "🫧", see: ["Fermentation: sugar into alcohol"] },
     "White, red and rosé": { icon: "🍷", see: ["White, red and rosé, step by step", "Red wine: managing the cap", "Carbonic maceration"] },

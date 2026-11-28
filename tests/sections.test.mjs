@@ -6,7 +6,7 @@ import { SECTION_VISUALS } from "../src/data/sectionVisuals.js";
 
 // Diagram titles, read from the source so the test needs no React.
 const titles = new Set(["The vine's year"]);
-for (const dir of ["climate", "viticulture", "winemaking"]) {
+for (const dir of ["climate", "viticulture", "winemaking", "law"]) {
   for (const f of readdirSync(new URL(`../src/${dir}/`, import.meta.url))) {
     if (!f.endsWith(".jsx")) continue;
     for (const m of readFileSync(new URL(`../src/${dir}/${f}`, import.meta.url), "utf8").matchAll(/title="([^"]+)"/g)) titles.add(m[1]);
