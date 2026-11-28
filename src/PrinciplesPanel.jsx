@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { PRINCIPLES } from "./data/principles.js";
 import { UnitsCalculator } from "./UnitsCalculator.jsx";
-import { GrowthCalendar } from "./GrowthCalendar.jsx";
 import { ClimateVisuals } from "./climate/ClimateVisuals.jsx";
 import { WinemakingVisuals } from "./winemaking/WinemakingVisuals.jsx";
+import { ViticultureVisuals } from "./viticulture/ViticultureVisuals.jsx";
+import { SectionCards } from "./SectionCards.jsx";
+import { SECTION_VISUALS } from "./data/sectionVisuals.js";
 
 // ─── Principles ──────────────────────────────────────────────────────────────
 // The general topics behind every region: tasting, climate, viticulture,
@@ -34,11 +36,12 @@ export const PrinciplesPanel = ({ onMode, onQuizTopic }) => {
       </div>
       <p style={{ color: "#B8B0A0", fontSize: "14px", lineHeight: 1.6, margin: "0 0 14px" }}>{topic.intro}</p>
       {topic.tool === "units" && <UnitsCalculator />}
-      {topic.tool === "calendar" && <GrowthCalendar />}
+      {topic.tool === "viticulture" && <ViticultureVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Vineyard") : null} />}
       {topic.tool === "climate" && <ClimateVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Vineyard") : null} />}
       {topic.tool === "winemaking" && <WinemakingVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Winery") : null} />}
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "12px" }}>
+      {SECTION_VISUALS[topic.id] ? <SectionCards topic={topic} /> : (
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "12px" }}>
         {topic.sections.map((s) => (
           <section key={s.title} style={card}>
             <h3 style={{ fontFamily: serif, fontSize: "20px", color: "#E8E4D9", margin: "0 0 8px", fontWeight: 600 }}>{s.title}</h3>
@@ -48,6 +51,7 @@ export const PrinciplesPanel = ({ onMode, onQuizTopic }) => {
           </section>
         ))}
       </div>
+      )}
 
       {topic.practise?.length > 0 && (
         <div style={{ display: "flex", gap: "6px", flexWrap: "wrap", alignItems: "center", margin: "14px 0 0" }}>
