@@ -225,6 +225,7 @@ export const PRINCIPLES = [
   {
     id: "winemaking",
     label: "Winemaking",
+    tool: "winemaking",
     intro: "The steps every winery shares, and the choices that change style. The specification lists common elements, must adjustments, white, red, rosé and sweet winemaking, maturation, blending, clarification, stabilisation, packaging and closures.",
     sections: [
       {

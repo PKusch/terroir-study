@@ -3,6 +3,7 @@ import { PRINCIPLES } from "./data/principles.js";
 import { UnitsCalculator } from "./UnitsCalculator.jsx";
 import { GrowthCalendar } from "./GrowthCalendar.jsx";
 import { ClimateVisuals } from "./climate/ClimateVisuals.jsx";
+import { WinemakingVisuals } from "./winemaking/WinemakingVisuals.jsx";
 
 // ─── Principles ──────────────────────────────────────────────────────────────
 // The general topics behind every region: tasting, climate, viticulture,
@@ -35,6 +36,7 @@ export const PrinciplesPanel = ({ onMode, onQuizTopic }) => {
       {topic.tool === "units" && <UnitsCalculator />}
       {topic.tool === "calendar" && <GrowthCalendar />}
       {topic.tool === "climate" && <ClimateVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Vineyard") : null} />}
+      {topic.tool === "winemaking" && <WinemakingVisuals onQuiz={onQuizTopic ? () => onQuizTopic("Winery") : null} />}
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "12px" }}>
         {topic.sections.map((s) => (
