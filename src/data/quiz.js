@@ -18238,5 +18238,565 @@ export const QUIZ_QUESTIONS = [
     ],
     answer: 3,
     explanation: "Mediterranean climates have warm, dry summers. The label is about the dry summer, not the yearly gap: Montpellier's gap (16.8 °C) is bigger than Bordeaux's (14.8 °C)."
+  },
+  {
+    id: "wm-01",
+    type: "connection",
+    topic: "winery",
+    question: "What does yeast make when it ferments grape sugar?",
+    options: [
+      "Alcohol, carbon dioxide and heat",
+      "Alcohol and oxygen, with no heat at all",
+      "Acid, water and more sugar than before",
+      "Tannin, colour and dissolved oxygen"
+    ],
+    answer: 0,
+    explanation: "Yeast turns sugar into alcohol and carbon dioxide, and the process gives off heat (Wikipedia, fermentation in winemaking)."
+  },
+  {
+    id: "wm-02",
+    type: "connection",
+    topic: "winery",
+    question: "About how many grams of sugar per litre ferment to 1% alcohol?",
+    options: [
+      "About 5 g/L",
+      "About 17 g/L",
+      "About 10 g/L",
+      "About 40 g/L"
+    ],
+    answer: 1,
+    explanation: "The EU's conversion is 16.83 g/L for 1% alcohol; AWRI finds real yeasts need about 16.5 to 17.2 g/L."
+  },
+  {
+    id: "wm-03",
+    type: "scenario",
+    topic: "winery",
+    question: "Juice with about 220 g/L of sugar ferments fully dry. Roughly what alcohol will the wine have?",
+    options: [
+      "About 9%",
+      "About 17%",
+      "About 13%",
+      "About 22%"
+    ],
+    answer: 2,
+    explanation: "220 ÷ 16.83 ≈ 13.1%. Every gram of sugar is used, so the wine is dry."
+  },
+  {
+    id: "wm-04",
+    type: "scenario",
+    topic: "winery",
+    question: "A winemaker removes the yeast halfway through fermentation. What will the wine be like?",
+    options: [
+      "Dry, with fairly high alcohol",
+      "Sweet, with lower alcohol",
+      "Dry, with much lower alcohol",
+      "Sweet, with high alcohol"
+    ],
+    answer: 1,
+    explanation: "Stopping early leaves half the sugar unfermented, so the wine is sweet, and only half the possible alcohol has formed."
+  },
+  {
+    id: "wm-05",
+    type: "connection",
+    topic: "winery",
+    question: "Why is a fortified wine like Port both sweet and strong?",
+    options: [
+      "Spirit is added part-way, killing the yeast",
+      "Cane sugar is stirred in after fermentation",
+      "The grapes are frozen hard before pressing",
+      "It ferments slowly for one extra year"
+    ],
+    answer: 0,
+    explanation: "Grape spirit is added before fermentation ends. It kills the yeast, so sugar is left, and it raises the alcohol; Port is usually 19 to 22% (Wikipedia)."
+  },
+  {
+    id: "wm-06",
+    type: "connection",
+    topic: "winery",
+    question: "In white winemaking, when are the grapes pressed?",
+    options: [
+      "After fermentation",
+      "Before fermentation",
+      "Halfway through fermentation",
+      "They are never pressed"
+    ],
+    answer: 1,
+    explanation: "White grapes are crushed and pressed first, so the juice ferments without its skins (WSET Level 2)."
+  },
+  {
+    id: "wm-07",
+    type: "connection",
+    topic: "winery",
+    question: "In red winemaking, when are the grapes pressed?",
+    options: [
+      "Before fermentation, like a white",
+      "Only for rosé, and never for red",
+      "After fermentation on the skins",
+      "Before crushing, while still whole"
+    ],
+    answer: 2,
+    explanation: "Red juice ferments with its skins to take colour and tannin; the press comes afterwards, to separate the new wine from the skins (WSET Level 2)."
+  },
+  {
+    id: "wm-08",
+    type: "scenario",
+    topic: "winery",
+    question: "A winery wants a white wine from Pinot Noir. What must it do?",
+    options: [
+      "Ferment the juice on its skins for weeks",
+      "Blend some white wine into the red",
+      "Use carbonic maceration in a sealed vat",
+      "Press gently before fermentation"
+    ],
+    answer: 3,
+    explanation: "The pulp of black grapes is pale. Pressing gently, before fermentation, keeps the colour in the skins out of the juice."
+  },
+  {
+    id: "wm-09",
+    type: "connection",
+    topic: "winery",
+    question: "What is the short-maceration method for rosé?",
+    options: [
+      "A few hours of juice on the skins",
+      "Blending a red wine with a white wine",
+      "Fermenting whole bunches in a CO₂ vat",
+      "Ageing a red wine for years in old oak"
+    ],
+    answer: 0,
+    explanation: "Crushed black grapes stay on their skins for a few hours, then the juice is drained off and made like a white wine (WSET Level 2)."
+  },
+  {
+    id: "wm-10",
+    type: "connection",
+    topic: "winery",
+    question: "Which rosé method is not allowed in many parts of Europe?",
+    options: [
+      "Direct pressing",
+      "Blending red and white wine",
+      "Short maceration",
+      "Fermenting at cool temperatures"
+    ],
+    answer: 1,
+    explanation: "WSET notes that blending red and white wine to make rosé is not permitted in many parts of Europe."
+  },
+  {
+    id: "wm-11",
+    type: "connection",
+    topic: "winery",
+    question: "At about what temperature do white wines usually ferment?",
+    options: [
+      "0 to 5 °C",
+      "30 to 40 °C",
+      "12 to 22 °C",
+      "45 to 50 °C"
+    ],
+    answer: 2,
+    explanation: "WSET Level 2 gives 12 to 22 °C for whites; the cooler end keeps more fruity aromas."
+  },
+  {
+    id: "wm-12",
+    type: "connection",
+    topic: "winery",
+    question: "Why do red wines usually ferment warmer than whites?",
+    options: [
+      "Cold juice simply cannot ferment red grapes",
+      "Warmth keeps the delicate fruit aromas",
+      "Warmth stops malolactic conversion happening",
+      "Warmer juice extracts colour and tannin"
+    ],
+    answer: 3,
+    explanation: "Warmer fermentation helps extract colour and tannin from the skins; AWRI notes colour peaks sooner at higher temperatures. Cool temperatures keep delicate aromas, which matters more for whites."
+  },
+  {
+    id: "wm-13",
+    type: "connection",
+    topic: "winery",
+    question: "What is the cap in red winemaking?",
+    options: [
+      "The skins pushed up by carbon dioxide",
+      "The closure on the bottle",
+      "The layer of dead yeast at the bottom",
+      "The foam on a sparkling wine"
+    ],
+    answer: 0,
+    explanation: "During fermentation, carbon dioxide pushes the skins to the top of the tank, where they form a thick cap."
+  },
+  {
+    id: "wm-14",
+    type: "connection",
+    topic: "winery",
+    question: "Why must a red wine's cap be managed?",
+    options: [
+      "To add more sugar to the juice",
+      "To keep skins and juice in contact",
+      "To cool the tank to below freezing",
+      "To stop malolactic conversion"
+    ],
+    answer: 1,
+    explanation: "Colour, tannin and flavour are in the skins, so they must be kept in contact with the juice; a dry cap can also spoil."
+  },
+  {
+    id: "wm-15",
+    type: "connection",
+    topic: "winery",
+    question: "What is délestage (rack and return)?",
+    options: [
+      "Pushing the cap down into the juice with a paddle",
+      "Adding grape spirit to the tank to stop fermentation",
+      "Draining the juice, then pumping it back",
+      "Filtering out the yeast before the wine is bottled"
+    ],
+    answer: 2,
+    explanation: "The juice is drained off into another tank, held for some hours, then pumped gently back over the cap (Virginia Tech enology)."
+  },
+  {
+    id: "wm-16",
+    type: "connection",
+    topic: "winery",
+    question: "What sets carbonic maceration apart?",
+    options: [
+      "Crushed grapes ferment in open vats with oxygen",
+      "The juice ferments with no skins at all",
+      "The wine is aged under a floating layer of yeast",
+      "Whole berries ferment from inside under CO₂"
+    ],
+    answer: 3,
+    explanation: "Whole bunches go into a sealed vessel filled with carbon dioxide, and fermentation starts inside the intact berry (AWRI)."
+  },
+  {
+    id: "wm-17",
+    type: "connection",
+    topic: "winery",
+    question: "What style of red does carbonic maceration give?",
+    options: [
+      "Fruity, with very low tannin",
+      "Very tannic and built to age",
+      "Oaky, with vanilla and spice",
+      "Sweet and fortified"
+    ],
+    answer: 0,
+    explanation: "Carbonic maceration gives a fruity wine with very low tannin (Wikipedia), with aromas such as cherry or kirsch and strawberry (AWRI). Beaujolais is the classic example."
+  },
+  {
+    id: "wm-18",
+    type: "connection",
+    topic: "winery",
+    question: "In a carbonic maceration vat, what happens to the grapes at the bottom?",
+    options: [
+      "They stay whole and never ferment at all",
+      "Crushed by the weight, they ferment as juice",
+      "They are taken out before fermentation starts",
+      "They turn straight into lees at the bottom"
+    ],
+    answer: 1,
+    explanation: "The weight of the bunches above crushes the lowest grapes, and their juice ferments in the usual way."
+  },
+  {
+    id: "wm-19",
+    type: "connection",
+    topic: "winery",
+    question: "Malolactic conversion turns which acid into which?",
+    options: [
+      "Sugar into alcohol",
+      "Lactic acid into malic acid",
+      "Malic acid into lactic acid",
+      "Tartaric acid into crystals"
+    ],
+    answer: 2,
+    explanation: "Lactic acid bacteria turn sharp malic acid into softer lactic acid, giving off carbon dioxide."
+  },
+  {
+    id: "wm-20",
+    type: "connection",
+    topic: "winery",
+    question: "Why does malolactic conversion lower a wine's acidity?",
+    options: [
+      "It adds a little water to the wine",
+      "It removes all of the tartaric acid",
+      "Bacteria eat up the sugar left in the wine",
+      "Lactic acid has one acid group, malic two"
+    ],
+    answer: 3,
+    explanation: "Malic acid has two acid groups and lactic acid one, so swapping one for the other lowers the acidity (Wikipedia, malolactic fermentation)."
+  },
+  {
+    id: "wm-21",
+    type: "connection",
+    topic: "winery",
+    question: "Which flavour can malolactic conversion add?",
+    options: [
+      "Butter",
+      "Green pepper",
+      "Petrol",
+      "Black pepper"
+    ],
+    answer: 0,
+    explanation: "Malolactic conversion can produce diacetyl, which gives a buttery note."
+  },
+  {
+    id: "wm-22",
+    type: "scenario",
+    topic: "winery",
+    question: "A producer wants to keep the crisp acidity of a Riesling. What will they most likely do?",
+    options: [
+      "Encourage malolactic conversion",
+      "Block malolactic conversion",
+      "Ferment it in new oak",
+      "Leave it on the skins for weeks"
+    ],
+    answer: 1,
+    explanation: "Malolactic conversion lowers acidity, so it is usually blocked for crisp whites such as most Riesling. Almost all reds go through it."
+  },
+  {
+    id: "wm-23",
+    type: "connection",
+    topic: "winery",
+    question: "What are lees?",
+    options: [
+      "Grape seeds and stems from the crusher",
+      "Crystals of tartaric acid in the bottle",
+      "Dead yeast cells after fermentation",
+      "The skins left behind after pressing"
+    ],
+    answer: 2,
+    explanation: "Lees are the dead yeast cells, with other solids, that sink after fermentation (WSET Level 2)."
+  },
+  {
+    id: "wm-24",
+    type: "connection",
+    topic: "winery",
+    question: "What does lees contact add to a wine?",
+    options: [
+      "Deeper colour and much firmer tannin",
+      "More sweetness and a little extra alcohol",
+      "Vanilla, coconut and toasty spice notes",
+      "Body, creaminess, bread or biscuit notes"
+    ],
+    answer: 3,
+    explanation: "Lees contact can increase the body and add biscuit or bread flavours (WSET Level 2) and creaminess (Wikipedia)."
+  },
+  {
+    id: "wm-25",
+    type: "connection",
+    topic: "winery",
+    question: "What is bâtonnage?",
+    options: [
+      "Stirring the lees back into the wine",
+      "Punching the red cap down into the juice",
+      "Toasting the inside of a new barrel",
+      "Chilling the wine to drop tartrate crystals"
+    ],
+    answer: 0,
+    explanation: "Bâtonnage is stirring the lees so they are back in contact with the wine."
+  },
+  {
+    id: "wm-26",
+    type: "connection",
+    topic: "winery",
+    question: "What does 'sur lie' mean on a Muscadet label?",
+    options: [
+      "It was aged for a year in new oak",
+      "Bottled straight off its lees",
+      "It is a lightly sweet wine",
+      "It went through carbonic maceration"
+    ],
+    answer: 1,
+    explanation: "Muscadet sur lie rests on its lees and is bottled straight off them, without racking (Wikipedia)."
+  },
+  {
+    id: "wm-27",
+    type: "connection",
+    topic: "winery",
+    question: "Why does a small barrel give more oak flavour than a large one?",
+    options: [
+      "Small barrels are always new",
+      "Small barrels are toasted more",
+      "Each litre touches more wood",
+      "Large barrels let in no oxygen"
+    ],
+    answer: 2,
+    explanation: "Surface grows more slowly than volume, so in a small barrel more wood touches each litre of wine."
+  },
+  {
+    id: "wm-28",
+    type: "connection",
+    topic: "winery",
+    question: "How big is a Bordeaux barrique?",
+    options: [
+      "About 50 litres",
+      "750 litres",
+      "About 5,000 litres",
+      "225 litres"
+    ],
+    answer: 3,
+    explanation: "The Bordeaux barrique holds 225 litres; the Burgundy barrel 228 (Wikipedia, wine barrel)."
+  },
+  {
+    id: "wm-29",
+    type: "connection",
+    topic: "winery",
+    question: "What happens to a barrel's oak flavour as it is reused?",
+    options: [
+      "It fades; little is left after 3 to 5 vintages",
+      "It gets stronger and stronger with every vintage",
+      "It stays exactly the same for several decades",
+      "It slowly turns from vanilla into butter"
+    ],
+    answer: 0,
+    explanation: "New oak gives the most flavour; after 3 to 5 vintages there may be little or no oak flavour left (Wikipedia, oak)."
+  },
+  {
+    id: "wm-30",
+    type: "connection",
+    topic: "winery",
+    question: "Which oak usually gives more vanilla and coconut?",
+    options: [
+      "French oak",
+      "American oak",
+      "Old oak of any kind",
+      "Stainless steel"
+    ],
+    answer: 1,
+    explanation: "American oak is sweeter, with more vanilla and two to four times the coconut-like lactones of French oak (Wikipedia, oak)."
+  },
+  {
+    id: "wm-31",
+    type: "connection",
+    topic: "winery",
+    question: "Besides flavour, what does a barrel give the wine?",
+    options: [
+      "Extra sugar from the toasted wood",
+      "More acidity from the oak tannins",
+      "A little oxygen, softening tannin",
+      "Fine carbon dioxide bubbles"
+    ],
+    answer: 2,
+    explanation: "Oak lets a little oxygen reach the wine, which softens tannin."
+  },
+  {
+    id: "wm-32",
+    type: "connection",
+    topic: "winery",
+    question: "Which vessels add no flavour to a wine?",
+    options: [
+      "New French oak barrels of any size",
+      "New American oak barrels, lightly toasted",
+      "Oak chips or staves added to a steel tank",
+      "Stainless steel and concrete"
+    ],
+    answer: 3,
+    explanation: "Steel and concrete are inert: they add no flavour and keep the fruit fresh."
+  },
+  {
+    id: "wm-33",
+    type: "connection",
+    topic: "winery",
+    question: "What is racking?",
+    options: [
+      "Moving wine off its settled solids",
+      "Adding egg white so the haze sinks",
+      "Stirring the lees back into the wine",
+      "Chilling the wine until near freezing"
+    ],
+    answer: 0,
+    explanation: "After the solids settle, the clear wine is moved off them: racking (Wikipedia, clarification and stabilisation)."
+  },
+  {
+    id: "wm-34",
+    type: "connection",
+    topic: "winery",
+    question: "How does fining clear a wine?",
+    options: [
+      "A fine filter traps every last particle",
+      "An agent binds particles so they sink",
+      "The wine is heated until it turns clear",
+      "Grape spirit is added to dissolve the haze"
+    ],
+    answer: 1,
+    explanation: "A fining agent, such as bentonite or egg white, binds the particles so they drop out (AWRI; Wikipedia)."
+  },
+  {
+    id: "wm-35",
+    type: "connection",
+    topic: "winery",
+    question: "What does bentonite remove?",
+    options: [
+      "Tartrate crystals that form in the cold",
+      "Sulfur dioxide added at bottling",
+      "Proteins that cause a haze",
+      "Some of the alcohol in the wine"
+    ],
+    answer: 2,
+    explanation: "Bentonite, a clay, removes the proteins that would make a white wine hazy if it got warm (AWRI)."
+  },
+  {
+    id: "wm-36",
+    type: "connection",
+    topic: "winery",
+    question: "What is cold stabilisation for?",
+    options: [
+      "Killing the yeast so fermentation stops early",
+      "Adding body and texture to a white wine",
+      "Fixing the colour of a young red wine",
+      "Stopping tartrate crystals in the bottle"
+    ],
+    answer: 3,
+    explanation: "Chilling the wine to near freezing makes the tartrate crystals form in the tank so they can be removed before bottling (AWRI; Wikipedia)."
+  },
+  {
+    id: "wm-37",
+    type: "connection",
+    topic: "winery",
+    question: "What does sulfur dioxide do in wine?",
+    options: [
+      "Protects from oxygen and microbes",
+      "Adds a little sweetness to a dry wine",
+      "Gives the wine a rich buttery flavour",
+      "Raises the alcohol by about 1% vol"
+    ],
+    answer: 0,
+    explanation: "Sulfur dioxide protects the wine against oxidation and spoilage microbes (AWRI)."
+  },
+  {
+    id: "wm-38",
+    type: "connection",
+    topic: "winery",
+    question: "Which of these is NOT one of the three ways to make a sweet wine?",
+    options: [
+      "Stop the fermentation",
+      "Add a sweet component",
+      "Concentrate sugar in the grape",
+      "Age the wine in new oak"
+    ],
+    answer: 3,
+    explanation: "The three ways are stopping fermentation, adding sweetness and concentrating sugar in the grape (WSET Level 2). Oak adds flavour, not sugar."
+  },
+  {
+    id: "wm-39",
+    type: "connection",
+    topic: "winery",
+    question: "What is Süssreserve?",
+    options: [
+      "A sweet wine made from noble-rot grapes",
+      "The grape spirit that is added to Port",
+      "Unfermented juice, added to sweeten",
+      "A way of drying grapes on straw mats"
+    ],
+    answer: 2,
+    explanation: "Süssreserve is unfermented must added to a dry wine to sweeten it (Wikipedia, sweetness of wine)."
+  },
+  {
+    id: "wm-40",
+    type: "connection",
+    topic: "winery",
+    question: "How is icewine's sugar concentrated?",
+    options: [
+      "Cane sugar is added before fermentation starts",
+      "The grapes are dried on straw mats for months",
+      "Grape spirit is added during the fermentation",
+      "Grapes freeze on the vine; pressed frozen"
+    ],
+    answer: 3,
+    explanation: "Grapes freeze on the vine and are pressed while frozen, so much of the water stays behind as ice (WSET Level 2)."
   }
 ];

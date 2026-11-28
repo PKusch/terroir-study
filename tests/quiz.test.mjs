@@ -20,7 +20,7 @@ const PREFIX = { fr: "France", it: "Italy", es: "Spain", de: "Germany", at: "Aus
 
 test("every question id starts with its country's prefix", () => {
   // Service and food questions belong to no country and use the prefix "sv".
-  const NO_REGION_PREFIX = { service: "sv", vineyard: "vy" };
+  const NO_REGION_PREFIX = { service: "sv", vineyard: "vy", winery: "wm" };
   const wrong = QUIZ_QUESTIONS.filter((q) => (NO_REGION_PREFIX[q.topic] ? q.id.split("-")[0] !== NO_REGION_PREFIX[q.topic] : PREFIX[q.id.split("-")[0]] !== (q.country ?? "France")));
   assert.deepEqual(wrong.map((q) => q.id), []);
 });

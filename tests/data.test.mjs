@@ -144,7 +144,7 @@ test("every quiz question is answerable and points at a real region", () => {
     // A question belongs to a country; French ones carry no field. The region
     // it points at must be in that country, so the map shown can be answered.
     // Service and vineyard questions belong to no region or country.
-    const service = q.topic === "service" || q.topic === "vineyard";
+    const service = q.topic === "service" || q.topic === "vineyard" || q.topic === "winery";
     if (service) assert.ok(q.type !== "map" && q.region === undefined && q.country === undefined, `${q.id}: a service question has no map, region or country`);
     const country = q.country ?? "France";
     assert.ok(COUNTRIES[country], `${q.id}: '${country}' is not a country`);

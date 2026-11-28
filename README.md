@@ -23,7 +23,7 @@ A visual study tool for WSET Level 3, built around maps, the reasons behind each
 
 <br />
 
-| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **1265** quiz questions | 🍇 **124** grapes | ✅ **222** tests |
+| 🌍 **9** countries | 🗺️ **77** regions | 📍 **439** places on the map | ❓ **1305** quiz questions | 🍇 **124** grapes | ✅ **226** tests |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
 </div>
@@ -389,7 +389,7 @@ npm run dev
 - [x] Hungary (Tokaj, Eger, Villány)
 - [x] Greece (Santorini, Naoussa, Nemea)
 - [x] New World (California, Australia, New Zealand, South Africa, Chile, Argentina, Oregon, Washington, New York, Ontario, British Columbia)
-- [x] Expand quiz bank to 50+ questions (1265: 278 France, 175 Italy, 320 Spain, 106 Germany, 45 Austria, 98 Portugal, 44 Hungary, 44 Greece, 155 New World; 1164 of them multiple choice)
+- [x] Expand quiz bank to 50+ questions (1305: 318 France, 175 Italy, 320 Spain, 106 Germany, 45 Austria, 98 Portugal, 44 Hungary, 44 Greece, 155 New World; 1204 of them multiple choice)
 - [x] Spaced repetition algorithm for quiz mode
 - [x] Grape variety profiles with tasting descriptors (124 grapes)
 - [x] Systematic Approach to Tasting (SAT) practice mode (Taste mode: structure and aromas marked against the grape profiles)
@@ -428,7 +428,7 @@ Built by someone actively studying for WSET Level 3 who got frustrated with exis
 npm test
 ```
 
-222 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
+226 tests cover the pure logic with no browser needed: progress and spacing, the taste marker, backups, summaries, the map maths, the region and quiz data (every question points at a real region, every place lands on its region, every grape has a profile), the mock exam (building, shuffling, fixed papers, marking against the pass mark) and the map drill (rounds, placing a click, scoring).
 
 ## License
 
