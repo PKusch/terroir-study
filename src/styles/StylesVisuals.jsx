@@ -1,13 +1,23 @@
+import { Methods } from "./Methods.jsx";
+import { TraditionalSteps } from "./TraditionalSteps.jsx";
+import { Dosage } from "./Dosage.jsx";
+import { SpiritTiming } from "./SpiritTiming.jsx";
+import { PortTree } from "./PortTree.jsx";
+import { Solera } from "./Solera.jsx";
+import { Ladders } from "./Ladders.jsx";
+import { ServeTemp } from "./ServeTemp.jsx";
+import { Glasses } from "./Glasses.jsx";
+import { FoodGrid } from "./FoodGrid.jsx";
+
 // ─── Styles, in pictures ─────────────────────────────────────────────────────
-import { Methods TraditionalSteps Dosage } from "./Methods TraditionalSteps Dosage.jsx";
-import { SpiritTiming PortTree Solera Ladders } from "./SpiritTiming PortTree Solera Ladders.jsx";
-import { ServeTemp Glasses } from "./ServeTemp Glasses.jsx";
+// The diagrams shown above each family's comparison cards.
 const BY_FAMILY = {
   sparkling: [Methods, TraditionalSteps, Dosage],
   fortified: [SpiritTiming, PortTree, Solera, Ladders],
   service: [ServeTemp, Glasses],
-  food: []
+  food: [FoodGrid]
 };
+
 export const StylesVisuals = ({ family }) => {
   const list = BY_FAMILY[family] ?? [];
   if (!list.length) return null;
