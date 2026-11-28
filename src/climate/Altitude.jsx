@@ -18,7 +18,7 @@ export const Altitude = () => {
     <Figure
       title="Altitude"
       idea={`Air cools by about ${LAPSE_PER_100M} °C for every 100 m you climb. Move the vineyard up the mountain: on a day that is ${SEA} °C on the plain, see how much cooler the vines are.`}
-      remember="Height lets growers in hot, sunny places keep their wines fresh. Mendoza's vineyards mostly sit between about 600 and 1,100 m, and some sites in the Uco Valley reach about 1,500 m; the cooler air slows ripening and keeps freshness."
+      remember="Height lets growers in hot, sunny places keep their wines fresh. Mendoza's vineyards mostly sit between about 600 and 1,100 m, and some foothill sites reach about 1,500 m; the cooler air slows ripening and keeps freshness."
       source={{ links: [
         { title: "WSET: how does geography affect a wine's style? (0.6 °C per 100 m)", url: "https://wsetglobal.com/knowledge-centre/blog/2021/august/24/how-does-geography-affect-a-wine-s-style" },
         { title: "Wikipedia: Mendoza wine (vineyard heights)", url: "https://en.wikipedia.org/wiki/Mendoza_wine" }] }}>
