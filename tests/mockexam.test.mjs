@@ -232,7 +232,9 @@ test("a question taken out of the bank just drops out of its paper", () => {
 
 test("Papers 3 onwards hold the rest, and share nothing with Papers 1 and 2 or each other", () => {
   const frozen = new Set([...fixedPaperIds(QUIZ_QUESTIONS, 0), ...fixedPaperIds(QUIZ_QUESTIONS, 1)]);
-  const rest = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23].map((n) => fixedPaperIds(QUIZ_QUESTIONS, n));
+  // Enough paper numbers to cover the whole bank, however big it grows.
+  const papers = Math.ceil(multipleChoice(QUIZ_QUESTIONS).length / 50) + 2;
+  const rest = Array.from({ length: papers - 2 }, (_, i) => fixedPaperIds(QUIZ_QUESTIONS, i + 2));
   assert.ok(rest.flat().every((id) => !frozen.has(id)));
   assert.equal(new Set(rest.flat()).size, rest.flat().length, "no question on two of them");
   assert.equal(rest.flat().length + frozen.size, multipleChoice(QUIZ_QUESTIONS).length);
